@@ -1028,11 +1028,116 @@
     },
     "sportsCars": {
       "title": "Beste Sportwagen zum Rassen und Schnellfahren",
-      "content": "Sportwagen in GTA San Andreas sind perfekt, wenn du gerne schnell fährst. Der Infernus ist einer der schnellsten Autos, die du bekommen kannst. Er beschleunigt schnell und hat eine wirklich hohe Höchstgeschwindigkeit."
+      "content": "Sportwagen in GTA San Andreas sind perfekt, wenn du gerne schnell fährst. Der Infernus ist einer der schnellsten Autos, die du bekommen kannst. Er beschleunigt schnell und hat eine wirklich hohe Höchstgeschwindigkeit. Der Bullet ist ein weiterer großartiger Sportwagen. Der Turismo sieht aus wie echte Supercars."
+    },
+    "lowRiders": {
+      "title": "Klassische Low Rider und Anpassungsoptionen",
+      "content": "Low Rider sind ein großer Teil der GTA San Andreas Kultur. Sie zeigen den West Coast Stil, für den das Spiel bekannt ist. Der Blade, Broadway und Remington sind beliebte Low Rider Modelle. Du kannst Low Rider mit neuen Anstrichen, Rädern, Stickstoffsystemen und Hydrauliken anpassen.",
+      "models": ["Blade", "Broadway", "Remington"]
+    },
+    "motorcycles": {
+      "title": "Motorräder und Bikes für schnelle Reisen",
+      "content": "Motorräder sind eine schnelle Möglichkeit, durch den Verkehr in GTA San Andreas zu fahren. Der NRG-500 ist das schnellste Motorrad im Spiel. Der PCJ-600 gibt dir eine gute Mischung aus Geschwindigkeit und Kontrolle. Das Sanchez Dirt Bike ist am besten für Offroad-Fahrten.",
+      "models": ["NRG-500", "PCJ-600", "Sanchez"]
+    },
+    "heavyVehicles": {
+      "title": "Schwere Fahrzeuge und Lastwagen",
+      "content": "Schwere Fahrzeuge in GTA San Andreas haben spezielle Verwendungen über das einfache Fahren hinaus. Der Dumper ist das größte Fahrzeug im Spiel. Feuerwehrautos, Krankenwagen und Polizeiautos kommen mit speziellen Missionen."
+    },
+    "rareVehicles": {
+      "title": "Seltene und einzigartige Fahrzeuge zum Sammeln",
+      "content": "Einige Fahrzeuge in GTA San Andreas sind sehr selten und schwer zu finden. Der Phoenix erscheint nur an bestimmten Orten und zu bestimmten Zeiten. Der ZR-350 Sportwagen ist selten und schnell. Der Hotknife ist ein spezieller Hot Rod.",
+      "vehicles": ["Phoenix", "ZR-350", "Hotknife", "Kart"]
+    },
+    "aircraft": {
+      "title": "Flugzeuge und Flugfahrzeuge",
+      "content": "Flugzeuge in GTA San Andreas bieten eine ganz neue Spielweise. Der Hydra Jet Fighter ist schnell und kann senkrecht starten. Der Rustler Propellerflugzeug ist einfacher zu fliegen. Hubschrauber wie der Maverick sind stabil für Sightseeing oder Flugmissionen.",
+      "aircraft": ["Hydra", "Rustler", "Maverick", "Police Maverick"]
+    },
+    "waterVehicles": {
+      "title": "Wasserfahrzeuge und Boote",
+      "content": "Wasserfahrzeuge geben dir eine andere Möglichkeit, sich in GTA San Andreas fortzubewegen. Der Squalo Speedboat ist der schnellste Weg, übers Wasser zu reisen. Das Tropic Boot ist zuverlässig mit anständiger Geschwindigkeit. Der Jetmax sieht schick aus und funktioniert gut auf dem Wasser.",
+      "vehicles": ["Squalo", "Tropic", "Jetmax", "Vortex"]
+    },
+    "policeVehicles": {
+      "title": "Polizei- und Notfallfahrzeuge",
+      "content": "Polizeiautos in GTA San Andreas gibt es in verschiedenen Typen wie Streifenwagen, SUVs und Motorräder. Das Polizeiauto hat gute Geschwindigkeit und Kraft zum Verfolgen. Der Enforcer SWAT Truck hat schwere Panzerung.",
+      "vehicles": ["Police Car", "Enforcer", "Fire Truck", "Ambulance", "HPV1000"]
+    },
+    "importExport": {
+      "title": "Import/Export Fahzeugliste",
+      "content": "Das Import/Export Feature in GTA San Andreas lässt dich Geld verdienen, indem du bestimmte Fahrzeuge sammelst. Eine Liste erscheint bei einem Kran in Easter Basin Docks. Die erste Liste hat häufige Fahrzeuge."
+    },
+    "modifications": {
+      "title": "Fahrzeugmodifikationen und Garagen",
+      "content": "Fahrzeugmodifikation ist ein großer Teil des GTA San Andreas Gameplays. Transfender Garagen sind in allen drei Städten und bieten grundlegende Anpassungen. Du kannst Farben ändern, Stickstoffsysteme hinzufügen, Hydrauliken upgraden und Räder wechseln."
+    },
+    "damageSystem": {
+      "title": "Fahrzeugschaden und Haltbarkeit",
+      "content": "Das Schadensystem in GTA San Andreas ändert wie Fahrzeuge fahren und funktionieren. Unfälle verursachen Schaden, den du sehen kannst wie Dellen, zerbrochene Fenster und fehlende Teile. Du kannst Fahrzeuge in Pay 'n' Spray Shops für einen Preis reparieren."
+    },
+    "cheats": {
+      "title": "Cheats und Spawn Codes für Fahrzeuge",
+      "content": "GTA San Andreas hat viele Cheat Codes, die Fahrzeuge sofort erscheinen lassen. Der Jetpack Cheat lässt dich fliegen, ohne ein Flugzeug zu brauchen. Fahrzeug-Spawn Cheats sind sehr beliebt für Chaos oder zum Testen von Fahrzeugen."
+    },
+    "findingVehicles": {
+      "title": "Tipps zum Finden und Lagern von Fahrzeugen",
+      "content": "Spezifische Fahrzeuge in GTA San Andreas zu finden erfordert zu wissen, wo und wann sie erscheinen. Verschiedene Fahrzeuge tauchen in verschiedenen Bereichen basierend auf Nachbarschaft und Tageszeit auf. Persönliche Garagen lassen dich Fahrzeuge für immer lagern."
+    },
+    "vehicleMissions": {
+      "title": "Fahrzeugmissionen und Herausforderungen",
+      "content": "Mehrere Fahrzeugmissionen in GTA San Andreas geben Belohnungen und Spaß. Die Kuriermissionen benötigen Motorradlieferung innerhalb von Zeitlimits. Stadionevents beinhalten Dirt Track Rennen und Demolition Derbys."
+    },
+    "performance": {
+      "title": "Leistungsvergleich beliebter Modelle",
+      "content": "Fahrzeugleistung zu vergleichen hilft dir, das richtige Auto für verschiedene Situationen zu wählen. Der Infernus ist großartig für Höchstgeschwindigkeit. Der Sultan gibt dir gute Allround-Leistung. Der Elegy hat anständige Geschwindigkeit mit wirklich gutem Handling."
+    },
+    "drivingSkill": {
+      "title": "Auswirkung der Fahrkompetenz auf die Fahrzeugbehandlung",
+      "content": "Der Fahrkompetenz-Stat in GTA San Andreas ändert wirklich die Fahrzeugkontrolle. Niedrige Fahrkompetenz lässt Fahrzeuge leichter in Kurven rutschen. Wenn die Fähigkeit steigt, reagieren Fahrzeuge besser und bleiben bei hohen Geschwindigkeiten stabil."
+    },
+    "updates2025": {
+      "title": "Neueste Updates und Features: Was ist neu in 2025?",
+      "content": "Die GTA San Andreas Community ist in 2025 immer noch aktiv mit verschiedenen Updates und Verbesserungen. Die mobilen und remastered Versionen bekamen Patches die Fehler beheben und Grafiken verbessern. Community-Modifikationen fügen weiterhin neue Fahrzeuge und Features hinzu."
+    },
+    "faqCars": {
+      "title": "Häufig gestellte Fragen zu GTA San Andreas Autos",
+      "data": [
+        {
+          "id": "1",
+          "question": "Wie viele Fahrzeuge gibt es in GTA San Andreas?",
+          "answer": "Das Spiel hat über 200 Fahrzeuge einschließlich Autos, Motorräder, Boote, Flugzeuge und spezielle Fahrzeuge. Diese große Sammlung hat etwas für den Geschmack und die Bedürfnisse jedes Spielers."
+        },
+        {
+          "id": "2",
+          "question": "Wo kann ich das schnellste Auto finden?",
+          "answer": "Der Infernus ist das schnellste Auto und erscheint normalerweise in wohlhabenden Gegenden wie Paradiso in San Fierro. Du kannst ihn auch im Easter Basin Bereich nach bestimmten Missionen finden."
+        },
+        {
+          "id": "3",
+          "question": "Kann ich modifizierte Fahrzeuge dauerhaft speichern?",
+          "answer": "Ja, du kannst modifizierte Fahrzeuge in persönlichen Garagen bei Sicherheitshäusern speichern. Stelle sicher, dass die Garage Platz hat und parke das Fahrzeug ganz drin, damit es richtig gespeichert wird."
+        },
+        {
+          "id": "4",
+          "question": "Was passiert, wenn meine Garage voll ist?",
+          "answer": "Wenn eine Garage zu viele Fahrzeuge hat, verschwindet das älteste gespeicherte. Überprüfe immer die Garagenlimits, bevor du neue Fahrzeuge lagerst."
+        },
+        {
+          "id": "5",
+          "question": "Gibt es fliegende Autos im Spiel?",
+          "answer": "Das normale Spiel hat keine fliegenden Autos, aber das Dodo Flugzeug und verschiedene Flugzeuge lassen dich fliegen. Einige Modifikationen fügen fliegende Autofunktionen hinzu."
+        },
+        {
+          "id": "6",
+          "question": "Welche neuen Features gibt es in 2025 Updates?",
+          "answer": "Die 2025 Updates haben bessere Grafiken, Bugfixes, aktualisierte Steuerung und bessere mobile Versionen. Community Modifikationen fügen auch neue Fahrzeuge und Multiplayer Optionen hinzu."
+        }
+      ]
     },
     "conclusion": {
       "title": "Fazit",
-      "content": "GTA San Andreas Autos sind ein großer Teil dieses legendären Spiels. Die riesige Vielfalt an Fahrzeugen von einfachen Fahrrädern bis zu mächtigen Flugzeugen gibt endlosen Spaß und Spielmöglichkeiten."
+      "content": "GTA San Andreas Autos sind einer der besten Teile dieses legendären Spiels. Die riesige Vielfalt an Fahrzeugen von einfachen Fahrrädern bis zu mächtigen Flugzeugen gibt endlosen Spaß und Spielmöglichkeiten. Ob du Sammelfahrzeuge magst, Low Rider anpasst oder Sportwagen rennst, dieses Spiel gibt dir eine erstaunliche Fahrzeugerfahrung."
     }
   },
   "footer": {
