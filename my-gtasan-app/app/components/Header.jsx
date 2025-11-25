@@ -8,8 +8,9 @@ import { useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
+import { locales } from '../../i18n.config';
 
-const validLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+const validLocales = locales;
 
 function Header() {
   const router = useRouter();
@@ -72,7 +73,8 @@ function Header() {
     const scrollY = window.scrollY;
 
     let pathWithoutLocale = pathname;
-    const localeRegex = /^\/(en|de|fr|it|es|pt|ru|ja)(?:\/|$)/;
+    // Dynamically create regex from available locales
+    const localeRegex = new RegExp(`^/(${validLocales.join('|')})(?:/|$)`);
     if (localeRegex.test(pathname)) {
       pathWithoutLocale = pathname.replace(localeRegex, '/');
     }

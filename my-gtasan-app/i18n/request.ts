@@ -11,26 +11,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   }
 
   // Dynamically import messages based on locale
-  const messages = await (async () => {
-    switch (locale) {
-      case 'de':
-        return (await import('../messages/de.json')).default;
-      case 'fr':
-        return (await import('../messages/fr.json')).default;
-      case 'it':
-        return (await import('../messages/it.json')).default;
-      case 'es':
-        return (await import('../messages/es.json')).default;
-      case 'pt':
-        return (await import('../messages/pt.json')).default;
-      case 'ru':
-        return (await import('../messages/ru.json')).default;
-      case 'ja':
-        return (await import('../messages/ja.json')).default;
-      default:
-        return (await import('../messages/en.json')).default;
-    }
-  })();
+  const messages = (await import(`../messages/${locale}.json`)).default;
 
   return {
     locale,

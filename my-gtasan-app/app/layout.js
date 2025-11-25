@@ -16,9 +16,22 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children, params }) {
+  let locale = 'en';
+
+  // Get locale from params if available
+  if (params) {
+    try {
+      const resolvedParams = await params;
+      locale = resolvedParams.locale || 'en';
+    } catch (error) {
+      // Fallback to 'en' if params cannot be resolved
+      locale = 'en';
+    }
+  }
+
   return (
-    <html className="dark" lang="en" suppressHydrationWarning>
+    <html className="dark" lang={locale} suppressHydrationWarning>
       <body className={`${poppins.variable} antialiased`} suppressHydrationWarning>
         <ClientLayout>
           {children}

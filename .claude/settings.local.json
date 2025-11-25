@@ -21,7 +21,8 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(del nul)",
-      "Bash(exit /b 0)"
+      "Bash(exit /b 0)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
