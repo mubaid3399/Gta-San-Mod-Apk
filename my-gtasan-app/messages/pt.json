@@ -1,0 +1,904 @@
+{
+  "navigation": {
+    "home": "Início",
+    "mods": "Mods",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "header": {
+    "title": "GTA San Apk",
+    "subtitle": "Mods Premium",
+    "forPC": "Para PC",
+    "darkMode": "Escuro",
+    "lightMode": "Claro",
+    "navigation": {
+      "home": "Início",
+      "forPC": "Para PC",
+      "gtaCheats": "Truques GTA",
+      "gtaCars": "Carros GTA"
+    }
+  },
+  "hero": {
+    "title": "Bem-vindo ao GTASAN",
+    "subtitle": "Explore mods e melhorias incríveis para GTA San Andreas"
+  },
+  "content": {
+    "title": "GTA San Andreas MOD APK – Todos os recursos desbloqueados",
+    "paragraph1": "GTA San Andreas APK permanece um dos jogos mais comentados em jogos móveis por anos. Muitos jogadores, incluindo eu, ainda se lembram de passar horas completando missões e dirigindo pelas ruas da cidade. Com o mais recente San Andreas APK, a experiência se sente mais suave e agradável do que nunca.",
+    "paragraph2": "Esta versão mantém a mesma jogabilidade de ação-aventura que todos amam, adicionando alguns toques modernos para os jogadores de hoje. A história ainda segue Carl \"CJ\" Johnson enquanto ele volta para casa para Grove Street, mas os fundos ilimitados e novos recursos de mod tornam o jogo mais fácil de apreciar sem limites.",
+    "paragraph3": "Em 2025, gráficos mais suaves, controles melhorados e opções de personalização adicionais o tornaram imprescindível para fãs de longa data e novos jogadores que desejam experimentar novamente sua ideia central de jogabilidade."
+  },
+  "systemRequirements": {
+    "title": "Requisitos do sistema",
+    "appName": "Nome do aplicativo",
+    "information": "Informação",
+    "data": {
+      "appName": "Grand Theft Auto: San Andreas APK",
+      "lastUpdated": "Última atualização",
+      "lastUpdatedValue": "1 dia atrás",
+      "currentVersion": "Versão atual",
+      "currentVersionValue": "v2.11.279",
+      "category": "Categoria",
+      "categoryValue": "Ação / Mundo aberto",
+      "developer": "Desenvolvedor",
+      "developerValue": "Rockstar Games",
+      "modFeatures": "Recursos MOD",
+      "modFeaturesValue": "Dinheiro ilimitado, todos os recursos desbloqueados",
+      "minimumAndroid": "Android mínimo",
+      "minimumAndroidValue": "7.0 ou superior",
+      "gameSize": "Tamanho do jogo",
+      "gameSizeValue": "2,5 GB aprox.",
+      "multiplayer": "Suporte multijogador",
+      "multiplayerValue": "Não suportado (Um jogador)",
+      "availability": "Disponibilidade",
+      "availabilityValue": "Dispositivos Android (fontes alternativas do Google Play)",
+      "storage": "Requisito de armazenamento",
+      "storageValue": "Pelo menos 3–4 GB de espaço livre recomendado",
+      "devicePerformance": "Desempenho do dispositivo",
+      "devicePerformanceValue": "3 GB de RAM ou superior, CPU de médio alcance sugerida",
+      "installationFiles": "Arquivos de instalação",
+      "installationFilesValue": "Arquivo APK + OBB / Dados necessários",
+      "googlePlayStore": "Google Play Store",
+      "googlePlayStoreValue": "Playstore"
+    },
+    "featuresTitle": "Recursos principais",
+    "imagePlaceholder": "Adicionar imagem aqui",
+    "features": {
+      "unlimitedExploration": {
+        "title": "Exploração ilimitada",
+        "description": "Viaje livremente por Los Santos com acesso irrestrito a todas as áreas, descubra segredos ocultos e aproveite a vasta paisagem do mundo aberto."
+      },
+      "dynamicWeather": {
+        "title": "Clima dinâmico e ciclo dia/noite",
+        "description": "Experimente mudanças climáticas realistas e um ciclo dia-noite completo que impacta o gameplay e a atmosfera."
+      },
+      "enhancedAudio": {
+        "title": "Efeitos de áudio aprimorados",
+        "description": "Sons claros de motor, efeitos ambientais e design de áudio imersivo tornam cada momento de jogo mais envolvente e realista."
+      },
+      "personalizedGrowth": {
+        "title": "Crescimento personalizado do personagem",
+        "description": "Personalize a aparência, habilidades e capacidades de CJ para corresponder ao seu estilo de jogo e crie uma experiência única."
+      },
+      "expandedVehicles": {
+        "title": "Opções de veículos expandidas",
+        "description": "Acesse uma ampla gama de veículos raros e exclusivos, desde carros esportivos até helicópteros."
+      },
+      "sideActivities": {
+        "title": "Recompensas de atividades secundárias",
+        "description": "Participe de missões secundárias emocionantes, corridas e atividades que oferecem recompensas e conteúdo adicional."
+      }
+    }
+  },
+  "gtaFeatures": {
+    "title": "Recursos de GTA San Andreas APK (Versão 2025)",
+    "storylineTitle": "Enredo de GTA SA APK",
+    "videoTitle": "Assista à história do GTA San Andreas",
+    "videoDescription": "Mergulhe mais profundamente no mundo de GTA San Andreas. Descubra a narrativa épica, o desenvolvimento de personagens e a jornada incrível de CJ pelas perigosas ruas de Los Santos.",
+    "ctaButton": "Baixar APK agora",
+    "storyline": {
+      "cjJourney": {
+        "title": "A Jornada de CJ e Laços Familiares",
+        "description": "O objetivo principal de CJ é ajudar sua família e restaurar a influência de sua gangue. Os jogadores experimentam missões que testam estratégia, habilidades de condução e capacidades de combate. De corridas de rua a guerras de gangues de alto nível, a trama mantém você envolvido."
+      },
+      "gangConflicts": {
+        "title": "Conflitos de Gangue e Rivalidades",
+        "description": "Uma das partes mais emocionantes da história são as rivalidades de gangue em andamento. Os jogadores podem sentir a tensão enquanto CJ navega alianças, traição e conflitos. As missões onde você planeja ataques em territórios rivais adicionam realismo."
+      },
+      "characterDev": {
+        "title": "Desenvolvimento de Personagem e Missões Secundárias",
+        "description": "O jogo não se concentra apenas nas missões principais. CJ fica mais forte através de atualizações de habilidades, domínio de armas e escolhas pessoais. As missões secundárias, como dirigir táxis, gerenciar propriedades, ou personalizar carros."
+      },
+      "updates2025": {
+        "title": "Novas Atualizações em 2025",
+        "description": "Em 2025, a trama é ainda mais envolvente graças aos mapas expandidos e mods visuais. Os jogadores agora podem desfrutar de áudio aprimorado, gráficos realistas e expansões de campanha."
+      },
+      "gameplay": {
+        "title": "Experiências de Jogo Relacionáveis",
+        "description": "Jogar a história de CJ sente-se pessoal. Seja completando missões nos bairros de Los Santos, reconstruindo sua gangue personalizando casas e carros."
+      }
+    }
+  },
+  "gtaGameplay": {
+    "title": "Gameplay de GTA San Andreas Mobile",
+    "description": "GTA San Andreas MOD APK oferece uma variedade de recursos que atendem a diferentes preferências de jogadores, tornando-o agradável para todos. Desde adicionar veículos únicos como drag bikes até fornecer opções para uma experiência de jogo mais simples, garante que sempre haja algo envolvente para explorar. Uma característica destacada é a capacidade de pular missões de história usando a opção de download de todas as missões concluídas, perfeita para jogadores que preferem focar na exploração do mundo aberto em vez de progredir na história principal. Isso oferece liberdade para mergulhar diretamente na descoberta de tudo que GTA San Andreas tem a oferecer sem qualquer restrição.",
+    "features": {
+      "realisticGraphics": "Gráficos Realistas",
+      "smoothControls": "Controles Suave",
+      "immersiveExperience": "Experiência Imersiva"
+    },
+    "featuresDesc": {
+      "realisticGraphics": "Qualidade visual aprimorada com texturas detalhadas, iluminação melhorada e modelos de personagens que trazem a vida ao mundo de Los Santos.",
+      "smoothControls": "Controles móveis otimizados com manipulação responsiva, tornando a direção, disparo e combate corpo a corpo naturais e intuitivos.",
+      "immersiveExperience": "Dublagem completa, efeitos sonoros ambientais e clima dinâmico criam uma atmosfera que o mergulha completamente na jornada de CJ."
+    }
+  },
+  "gameplayFeatures": [
+    {
+      "icon": "🎮",
+      "title": "Customization and Skill Progression",
+      "content": "CJ can customize his appearance by changing clothes, hairstyles, and tattoos. Each action you perform improves specific skills — the more you drive, the better your driving becomes. The more you fly, the better your pilot skills improve. This creates a rewarding sense of growth throughout the game."
+    },
+    {
+      "icon": "⚔️",
+      "title": "Combat and Weapons Arsenal",
+      "content": "The game features over 30 weapons ranging from melee weapons like baseball bats and katanas to firearms like pistols, shotguns, rifles, and more. Combat mechanics are smooth and responsive, making every fight feel impactful. You can also use explosive weapons like rocket launchers and grenades for massive destruction."
+    },
+    {
+      "icon": "🚗",
+      "title": "Vehicle Variety and Driving Physics",
+      "content": "Drive over 250 different vehicles — cars, trucks, motorcycles, boats, and even planes and helicopters. Each vehicle has unique handling, speed, and acceleration. Learning to control different vehicles is part of the fun and challenge."
+    },
+    {
+      "icon": "💰",
+      "title": "Money and Earning Opportunities",
+      "content": "Earn money through main missions, side missions, and even robberies. Spend your money on clothes, vehicles, houses, weapons, and entertainment. Financial freedom is part of the game's appeal — you decide how to spend your money."
+    },
+    {
+      "icon": "🌆",
+      "title": "Diverse Environments and Hidden Secrets",
+      "content": "Three unique cities — Los Santos, San Fierro, and Las Venturas — each with their own neighborhoods, culture, and secrets. From desert areas to beaches and mountains, there's always something new to discover."
+    },
+    {
+      "icon": "📖",
+      "title": "Deep Storyline and Character Development",
+      "content": "The story is compelling, with meaningful character interactions and plot twists. Side characters have depth and personality, making their stories memorable. The main narrative explores themes of loyalty, betrayal, and redemption."
+    }
+  ],
+  "gtaTimeline": {
+    "title": "Cronologia GTA: Lançamentos Principais",
+    "subtitle": "A série Grand Theft Auto se tornou um dos jogos de mundo aberto mais populares. Siga a evolução desta franquia icônica desde seus humildes começos até o presente.",
+    "ctaText": "Experimente a evolução do Grand Theft Auto e descubra por que San Andreas continua sendo um clássico atemporal que cativa jogadores de todo o mundo.",
+    "ctaButton": "Baixar GTA San Andreas APK Agora",
+    "events": {
+      "gta1": {
+        "title": "Grand Theft Auto",
+        "description": "O primeiro jogo introduziu gameplay de vista superior, com pequenas cidades e missões simples. Roubar carros, completar mini-tarefas e navegar pelas ruas o tornavam divertido."
+      },
+      "gtaLondon": {
+        "title": "GTA London 1969 & 1961",
+        "description": "Estas expansões adicionaram mapas de cidades históricas e veículos de época. As missões com carros antigos e música davam uma experiência única."
+      },
+      "gta3": {
+        "title": "Grand Theft Auto III",
+        "description": "Este foi o primeiro GTA de mundo aberto em 3D. Liberty City se sentia viva com personagens, dublagem e missões cinematográficas. A liberdade de explorar tornou o jogo mais imersivo."
+      },
+      "gtaViceCity": {
+        "title": "GTA: Vice City",
+        "description": "Vice City é ambientado em uma cidade inspirada nos anos 80 e se tornou icônico com luzes de néon, carros estilosos e trilha sonora memorável. Missões secundárias e personalização tornam a exploração agradável."
+      },
+      "gtaSanAndreas": {
+        "title": "GTA: San Andreas",
+        "description": "San Andreas introduziu três cidades principais: Los Santos, San Fierro e Las Venturas. A jornada de CJ, conflitos de gangues, missões secundárias criam uma experiência profunda e imersiva."
+      },
+      "gta4": {
+        "title": "GTA IV",
+        "description": "GTA IV focou em ambientes realistas e narrativa. Liberty City foi redesenhada com melhor gráficos, física e interações detalhadas de personagens."
+      },
+      "gta5": {
+        "title": "GTA V",
+        "description": "Los Santos retornou em HD com três personagens jogáveis, multiplayer online e um mundo aberto massivo. Roubos, missões secundárias e exploração oferecem entretenimento infinito."
+      },
+      "gtaSA2025": {
+        "title": "GTA San Andreas APK Atualizações 2025",
+        "description": "San Andreas APK continua emocionante com mapas expandidos, gráficos melhorados e novas missões. Mods adicionando missões extras o tornam completamente novo."
+      }
+    }
+  },
+  "tipsAndTricks": {
+    "title": "Dicas e Truques para San Andreas APK",
+    "subtitle": "Jogar San Andreas APK é divertido, mas conhecer algumas dicas pode tornar o jogo ainda mais agradável. Lembro de gastar horas explorando Los Santos; usar esses truques melhorou minha experiência.",
+    "ctaButton": "Baixar San Andreas APK Agora",
+    "tips": {
+      "savingFrequently": {
+        "title": "Salve Frequentemente em Casas Seguras",
+        "description": "Sempre salve frequentemente em sua casa segura. Uma vez completei uma missão longa e esqueci de salvar, perdendo progresso, o que foi frustrante. Salvar com frequência mantém seu progresso seguro."
+      },
+      "cheatCodes": {
+        "title": "Use Códigos de Trapaça para Diversão",
+        "description": "Usar códigos de trapaça pode tornar as missões mais fáceis ou mais divertidas. Desde gerar veículos até mudar o clima, códigos de trapaça permitem que você tente coisas que normalmente não conseguiria na história."
+      },
+      "upgradeSkills": {
+        "title": "Melhore as Habilidades de Direção e Tiro",
+        "description": "Foque em melhorar as habilidades de direção e tiro. Descobri que melhorar a direção de CJ tornou as corridas e perseguições muito mais fáceis, e melhores habilidades de tiro ajudaram em conflitos de gangues."
+      },
+      "exploreMap": {
+        "title": "Explore o Mapa em Busca de Segredos e Itens",
+        "description": "Reserve um tempo para explorar o mapa. Itens colecionáveis ocultos, locais secretos e itens bônus tornam o mundo mais emocionante. Uma vez descobri um esconderijo de armas oculto em San Fierro, que me ajudou em missões difíceis."
+      },
+      "manageFinance": {
+        "title": "Dicas de Finanças e Propriedades do Jogo",
+        "description": "Gerencie o dinheiro com prudência. Compre propriedades e invista em negócios. Esta estratégia financeira do jogo fornece renda constante e ajuda a atualizar veículos ou armas."
+      },
+      "vehicleCustomisation": {
+        "title": "Atualizações de Veículos e Personalização",
+        "description": "Personalizar carros melhora o desempenho e torna a direção mais agradável. Adorei atualizar motores e adicionar nova pintura; tornou cada veículo único."
+      },
+      "sideActivities": {
+        "title": "Participe de Atividades Secundárias",
+        "description": "Missões secundárias, como corridas, jogos de azar ou direção de táxi, oferecem recompensas e experiência adicionais. Completá-las também torna o mundo mais vivo."
+      }
+    }
+  },
+  "gameplayControls": {
+    "title": "Gameplay e Controles",
+    "subtitle": "Jogar San Andreas APK se sente suave e agradável, especialmente com a versão atualizada 2025. O jogo combina missões principais, atividades secundárias e exploração do mundo aberto, oferecendo aos jogadores liberdade total. Lembro da primeira vez que dirigi um carro esportivo através de Los Santos; os controles se sentiam realistas, tornando a experiência emocionante.",
+    "ctaButton": "Baixar San Andreas APK Agora",
+    "sections": {
+      "smoothDriving": {
+        "title": "Direção Suave e Manuseio de Veículos",
+        "description": "Os veículos se comportam muito melhor nesta versão. O manuseio aprimorado e os ajustes de controle tornam as perseguições de carro, corridas e direção casual mais agradáveis. Atualizar seus veículos também melhora a velocidade e a estabilidade."
+      },
+      "shootingCombat": {
+        "title": "Controles de Disparo e Combate",
+        "description": "Os controles de tiro são responsivos, tornando as missões mais diretas de completar. Os jogadores podem apontar, atirar e trocar de armas rapidamente. Descobri que melhorar as habilidades de tiro me ajudou a completar as missões de gangues mais eficientemente."
+      },
+      "controllerSupport": {
+        "title": "Suporte de Controle",
+        "description": "O jogo suporta controles, fornecendo uma experiência estilo console em dispositivos móveis. Dirigir, lutar e explorar a cidade se sentem mais suaves do que com controles de tela sensível ao toque."
+      },
+      "customizableSettings": {
+        "title": "Configurações Personalizáveis",
+        "description": "Os jogadores podem ajustar a sensibilidade, mapeamento de chaves e ângulos de câmera de acordo com seu estilo. Personalizar os controles torna o gameplay mais confortável e agradável."
+      },
+      "openWorldExploration": {
+        "title": "Exploração do Mundo Aberto",
+        "description": "San Andreas APK permite que os jogadores explorem livremente Los Santos, San Fierro e Las Venturas. Explorar o mapa revela itens ocultos, locais secretos e missões bônus. Atividades secundárias como corridas, jogos de azar e direção de táxi adicionam variedade ao gameplay."
+      },
+      "performanceOptimization": {
+        "title": "Otimização de Desempenho",
+        "description": "Até mesmo em dispositivos de baixo custo, as otimizações de desempenho garantem uma experiência de jogo suave. As taxas de quadros permanecem estáveis e os tempos de carregamento são reduzidos, tornando o jogo mais acessível para uma gama mais ampla de jogadores."
+      }
+    }
+  },
+  "downloadInstallation": {
+    "title": "Como Baixar e Instalar GTA San Andreas MOD APK",
+    "subtitle": "Siga estes passos simples para baixar e instalar a versão mais recente com segurança no seu dispositivo Android",
+    "ctaButton": "Baixar APK Agora",
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "Ativar Fontes Desconhecidas",
+        "description": "Vá para as configurações do seu dispositivo > Segurança e ative Fontes desconhecidas. Isso permite instalar arquivos APK com segurança fora da Play Store.",
+        "icon": "⚙️"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Baixar Arquivos APK + OBB",
+        "description": "Baixe o APK MOD e os arquivos OBB de uma fonte confiável. Usar ambos os arquivos garante que o jogo funcione corretamente com todos os recursos desbloqueados.",
+        "icon": "📥"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Instalar o Arquivo APK",
+        "description": "Localize o arquivo APK baixado no seu dispositivo e toque em Instalar. O APK instala o aplicativo do jogo, depois adicionaremos os arquivos OBB.",
+        "icon": "📱"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Adicionar Arquivos OBB",
+        "description": "Mova a pasta OBB para Android/obb/ no armazenamento do seu dispositivo. Certifique-se de que o caminho da pasta está correto: /storage/emulated/0/Android/obb/com.rockstargames.gtasa/",
+        "icon": "📂"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Iniciar e Aproveitar",
+        "description": "Assim que os arquivos APK e OBB estiverem no lugar, abra o jogo. Você pode aproveitar todos os recursos desbloqueados, mods e gráficos HD sem problemas.",
+        "icon": "🎮"
+      }
+    },
+    "tipsSection": {
+      "title": "Dicas para uma Instalação Perfeita",
+      "tips": {
+        "tip1": {
+          "title": "Liberar Espaço de Armazenamento",
+          "description": "Certifique-se de ter pelo menos 3–4 GB de espaço livre antes da instalação."
+        },
+        "tip2": {
+          "title": "Reiniciar seu Dispositivo",
+          "description": "Se o jogo não iniciar corretamente, reinicie seu dispositivo para limpar o cache."
+        },
+        "tip3": {
+          "title": "Manter Dispositivo Atualizado",
+          "description": "Mantenha o sistema operacional e os patches de segurança do seu dispositivo atualizados."
+        },
+        "tip4": {
+          "title": "Usar Fontes Confiáveis",
+          "description": "Sempre baixe de fontes reputadas para evitar malware e problemas de segurança."
+        }
+      }
+    }
+  },
+  "comparison": {
+    "title": "GTA San Andreas: Original vs MOD",
+    "subtitle": "Compare as diferenças entre a versão original e a versão MOD atualizada de 2025",
+    "category": "Versão",
+    "original": "Versão Original",
+    "modVersion": "Versão MOD 2025",
+    "personalNote": "Nota Pessoal",
+    "personalNoteText": "Quando joguei o original pela primeira vez, o desafio de desbloquear novas armas e carros tornava cada missão especial. Depois, com uma versão mod, pulei para as partes divertidas, gerando helicópteros e dirigindo todos os veículos, e parecia mais uma corrida sandbox do que uma história. Ambos têm charme, mas transmitem sentimentos diferentes.",
+    "items": {
+      "features": {
+        "category": "Características",
+        "original": "Funcionalidades básicas, desbloqueadas progressivamente",
+        "mod": "Todas as funcionalidades desbloqueadas desde o início, dinheiro ilimitado"
+      },
+      "graphics": {
+        "category": "Gráficos",
+        "original": "Gráficos clássicos em estilo PS2",
+        "mod": "Texturas HD, iluminação aprimorada, modelos detalhados"
+      },
+      "progression": {
+        "category": "Progressão",
+        "original": "Complete as missões em ordem para desbloquear conteúdo",
+        "mod": "Pule diretamente para qualquer missão, sem restrições de progressão"
+      },
+      "performance": {
+        "category": "Desempenho",
+        "original": "Otimização padrão para dispositivos móveis",
+        "mod": "Otimização avançada para fluidez e velocidade"
+      },
+      "balance": {
+        "category": "Equilíbrio do Jogo",
+        "original": "Dificuldade equilibrada com desafios naturais",
+        "mod": "Modos facilitados, inimigos mais fracos, recompensas potencializadas"
+      },
+      "experience": {
+        "category": "Experiência de Uso",
+        "original": "Experiência de jogo vanilla autêntica",
+        "mod": "Experiência personalizada com conteúdo e mods adicionais"
+      }
+    }
+  },
+  "prosAndCons": {
+    "title": "Prós e Contras",
+    "prosTitle": "Prós",
+    "consTitle": "Contras",
+    "pros": {
+      "gameplay": {
+        "title": "Gameplay Envolvente",
+        "description": "Missões emocionantes, combates dinâmicos e liberdade de exploração mantêm o jogador sempre engajado em novos desafios e descobertas no vasto mundo aberto de Los Santos."
+      },
+      "replayValue": {
+        "title": "Alto Valor de Rejogabilidade",
+        "description": "Com missões secundárias infinitas, atividades ocultas, segredos para descobrir e opções de personalização, cada partida oferece uma experiência nova e diferente."
+      },
+      "optimization": {
+        "title": "Otimização Excelente",
+        "description": "A versão 2025 oferece desempenho estável até em dispositivos de baixo custo, com tempos de carregamento reduzidos e sem travamentos durante o gameplay."
+      },
+      "missions": {
+        "title": "Missões Variadas e Interessantes",
+        "description": "Desde corridas de rua até perseguições emocionantes, cada missão oferece desafios diferentes que exigem estratégia, habilidade e criatividade para completar."
+      },
+      "storyline": {
+        "title": "Trama Envolvente",
+        "description": "A história de CJ é profunda e pessoal, com desenvolvimento realista do personagem, conflitos de gangues convincentes e momentos emotivos memoráveis."
+      },
+      "customization": {
+        "title": "Personalização Completa",
+        "description": "Personalize a aparência de CJ, veículos, armas e até mesmo a música para criar uma experiência completamente única e personalizada."
+      },
+      "world": {
+        "title": "Mundo Aberto Vasto e Detalhado",
+        "description": "Los Santos, San Fierro e Las Venturas oferecem um mundo incrivelmente vasto com infinitas áreas para explorar, cada uma com características únicas e esconderijos secretos."
+      }
+    },
+    "cons": {
+      "fileSize": {
+        "title": "Tamanho de Arquivo Grande",
+        "description": "A versão com gráficos melhorados requer 2,5-3,5 GB de espaço de armazenamento, o que pode ser problemático para dispositivos com armazenamento limitado."
+      },
+      "difficulty": {
+        "title": "Curva de Dificuldade Variável",
+        "description": "Algumas missões podem ser extremamente difíceis especialmente no início, potencialmente levando à frustração se você não é um jogador experiente de GTA."
+      },
+      "performance": {
+        "title": "Requisitos de Desempenho Elevados",
+        "description": "Apesar da otimização, dispositivos muito antigos com RAM inferior a 2 GB podem ter dificuldade em executar o jogo de forma fluida."
+      }
+    }
+  },
+  "safety": {
+    "title": "Precauções de Segurança Importantes",
+    "subtitle": "Siga estes passos essenciais para se proteger ao baixar e usar a versão MOD",
+    "precautions": {
+      "trusted": {
+        "number": "01",
+        "title": "Baixe de Fontes Confiáveis",
+        "description": "Use apenas sites reputados e confiáveis para baixar o MOD APK. Evite links aleatórios de fóruns desconhecidos ou sites de baixa qualidade.",
+        "icon": "✅"
+      },
+      "backup": {
+        "number": "02",
+        "title": "Faça Backup do Progresso do Jogo",
+        "description": "Antes de instalar a versão MOD, salve seus dados de jogo originais na nuvem ou transfira arquivos de salvamento para outro local para segurança.",
+        "icon": "💾"
+      },
+      "unknown": {
+        "number": "03",
+        "title": "Ative Proteção de Fontes Desconhecidas",
+        "description": "Mesmo ao ativar fontes desconhecidas, tenha cuidado e instale apenas de fontes confiáveis para proteger seu dispositivo de malware.",
+        "icon": "🔒"
+      },
+      "storage": {
+        "number": "04",
+        "title": "Libere Espaço de Armazenamento Adequado",
+        "description": "Certifique-se de ter pelo menos 3-4 GB de espaço livre no seu dispositivo antes da instalação para evitar erros ou arquivos incompletos.",
+        "icon": "💿"
+      },
+      "antivirus": {
+        "number": "05",
+        "title": "Use um Software Antivírus Confiável",
+        "description": "Mantenha um bom antivírus ativo no seu dispositivo e escaneie arquivos baixados antes da instalação para detectar possíveis ameaças.",
+        "icon": "🛡️"
+      },
+      "cheats": {
+        "number": "06",
+        "title": "Use Códigos de Trapaça com Cautela",
+        "description": "Os códigos de trapaça podem causar glitches ou corromper salvamentos. Use-os apenas se você tiver um backup dos dados do seu jogo salvos.",
+        "icon": "⚠️"
+      },
+      "update": {
+        "number": "07",
+        "title": "Mantenha o Sistema Operacional Atualizado",
+        "description": "Certifique-se de que seu dispositivo Android está atualizado com os patches de segurança mais recentes para proteger o sistema de vulnerabilidades conhecidas.",
+        "icon": "🔄"
+      },
+      "monitor": {
+        "number": "08",
+        "title": "Monitore as Permissões da App",
+        "description": "Verifique as permissões que o jogo solicita durante a instalação. Se solicitar permissões suspeitas, considere se realmente as necessita.",
+        "icon": "📊"
+      }
+    },
+    "importantNote": "Nota Importante",
+    "importantNoteText": "As versões MOD podem violar os termos de serviço da Rockstar Games. Use por sua conta e risco. Para evitar riscos de banimento, sempre jogue em modo single-player offline e evite se conectar aos servidores online com uma conta MOD."
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Encontre respostas para perguntas comuns sobre GTA San Andreas MOD APK. Compilamos as perguntas mais frequentes para ajudá-lo a obter a melhor experiência.",
+    "questions": {
+      "q1": {
+        "question": "A versão MOD é segura para baixar?",
+        "answer": "Pode ser seguro baixar de um site confiável, verifique as avaliações positivas e use software antivírus. Sempre faça backup dos seus salvamentos de jogo e evite links aleatórios. Baixe de fontes confiáveis e escaneie arquivos com antivírus antes da instalação para garantir a segurança."
+      },
+      "q2": {
+        "question": "A versão MOD funcionará no meu telefone?",
+        "answer": "Isso depende das especificações do seu dispositivo. Deve funcionar se sua versão Android, RAM e armazenamento atenderem pelo menos aos requisitos mínimos. Muitos usuários em fóruns perguntam se o jogo pode funcionar em seu telefone quando as especificações são baixas. Verifique se o seu dispositivo tem Android 7.0+, 3 GB de RAM e 3-4 GB de armazenamento livre."
+      },
+      "q3": {
+        "question": "O que acontece com meu progresso quando instalo a versão MOD?",
+        "answer": "Se você instalar uma versão MOD em vez da original, ela pode sobrescrever ou entrar em conflito com seu salvamento original. Para estar seguro, faça backup dos dados do seu jogo primeiro. Você pode usar salvamentos em nuvem ou copiar arquivos de salvamento para outro local antes de instalar a versão MOD."
+      },
+      "q4": {
+        "question": "Os códigos de trapaça ainda funcionam com esta versão MOD APK?",
+        "answer": "Sim. Na verdade, muitas versões MOD vêm com trapaças integradas ou menus desbloqueados. Você pode usar códigos de trapaça para se divertir, mas lembre-se de que usá-los pode reduzir o desafio do jogo. A maioria das versões MOD mantém a funcionalidade completa dos códigos de trapaça."
+      },
+      "q5": {
+        "question": "Todas as missões estão desbloqueadas na versão MOD?",
+        "answer": "Frequentemente sim. Muitas versões MOD incluem 'todas as missões desbloqueadas', para que você possa começar de qualquer missão. Esta é uma das principais características que as pessoas procuram. Você pode pular diretamente para missões posteriores ou capítulos específicos da história sem completar as anteriores."
+      },
+      "q6": {
+        "question": "Usar a versão MOD vai me banir?",
+        "answer": "Se você está jogando estritamente em modo single-player, o risco é baixo. No entanto, em qualquer modo online ou conectado, mods ou trapaças podem violar as regras do jogo ou resultar em banimentos. É mais seguro ficar com o jogo offline para evitar banimentos de conta ou restrições."
+      },
+      "q7": {
+        "question": "A versão MOD melhora gráficos e desempenho?",
+        "answer": "Sim, muitas versões MOD incluem pacotes de texturas HD, melhor iluminação, visuais aprimorados e ajustes de desempenho para 2025. No entanto, isso pode aumentar o tamanho do arquivo e exigir mais potência do dispositivo. Gráficos aprimorados exigem mais potência de processamento, mas oferecem melhor qualidade visual."
+      },
+      "q8": {
+        "question": "Qual é o tamanho do arquivo da versão MOD?",
+        "answer": "O tamanho do arquivo tende a ser muito maior que o original devido aos recursos adicionados, gráficos de alta qualidade e dados OBB. Você precisará de mais espaço de armazenamento para acomodar a instalação. Normalmente, espere 2,5-3,5 GB para APK + OBB combinados."
+      },
+      "q9": {
+        "question": "Posso reverter para a versão original após instalar o MOD?",
+        "answer": "Sim, você pode. Simplesmente desinstale a versão MOD, restaure seu salvamento de backup (se você tiver um) e reinstale a versão original. Certifique-se de limpar quaisquer arquivos extras associados ao MOD para evitar conflitos."
+      },
+      "q10": {
+        "question": "Existem riscos legais ao usar uma versão MOD?",
+        "answer": "Sim, existem riscos. A versão MOD pode violar a licença do jogo original. Também pode causar problemas de dispositivo ou conta se você usar arquivos não autorizados. Use com cuidado e entenda que o uso de MOD pode violar os termos de serviço."
+      }
+    },
+    "ctaSection": {
+      "title": "Pronto para experimentar GTA San Andreas?",
+      "description": "Baixe a versão MOD hoje e desbloqueie todos os recursos, missões e veículos. Desfrute de jogabilidade ilimitada sem restrições.",
+      "button": "Baixar GTA San Andreas MOD APK"
+    },
+    "additionalInfo": {
+      "title": "Dica Profissional",
+      "description": "Se você tiver mais perguntas ou encontrar algum problema durante a instalação, consulte o guia de instalação ou as seções de precauções de segurança. Sempre certifique-se de que seu dispositivo é compatível e que você está baixando de fontes confiáveis para a melhor experiência."
+    }
+  },
+  "conclusion": {
+    "title": "Reflexões Finais e Conclusão",
+    "paragraph1": "GTA San Andreas APK (versão MOD 2025) continua sendo um dos jogos de mundo aberto mais emocionantes disponíveis em dispositivos móveis. Com todas as missões desbloqueadas, dinheiro ilimitado, gráficos HD e controles aprimorados, os jogadores podem desfrutar de uma experiência nova mesmo anos após o lançamento original. Se você gosta de explorar cidades, completar missões da história ou experimentar códigos de trapaça divertidos, esta versão oferece liberdade completa e entretenimento.",
+    "paragraph2": "As atualizações de 2025 o tornam mais suave em dispositivos móveis, melhoram os visuais e adicionam novos desafios, mantendo os fãs de longa data engajados enquanto atraem novos jogadores. Lembre-se de seguir as precauções de segurança ao baixar, faça backup do seu progresso e aproveite o jogo de forma responsável.",
+    "paragraph3": "No geral, este APK é ideal para qualquer pessoa que procure uma experiência GTA divertida, personalizável e imersiva em dispositivos móveis, combinando jogabilidade clássica com melhorias modernas.",
+    "highlights": {
+      "highlight1": {
+        "title": "Liberdade Completa",
+        "description": "Experimente jogabilidade ilimitada com todas as missões, veículos e recursos desbloqueados. Jogue exatamente como você quer, sem restrições."
+      },
+      "highlight2": {
+        "title": "Melhorias Modernas",
+        "description": "Aproveite as atualizações de 2025 com gráficos aprimorados, desempenho suave e novos recursos que mantêm o jogo fresco e envolvente."
+      },
+      "highlight3": {
+        "title": "Para Todos",
+        "description": "Seja você um fã de longa data ou um novo jogador, este APK oferece uma experiência personalizável e imersiva com possibilidades infinitas."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto para Baixar GTA San Andreas MOD APK?",
+      "description": "Junte-se a milhares de jogadores que estão aproveitando a experiência definitiva de GTA San Andreas. Baixe agora e comece sua aventura em Los Santos!",
+      "button": "Baixar Agora"
+    }
+  },
+  "forPC": {
+    "hero": {
+      "title": "GTA San Andreas Para PC",
+      "subtitle": "Experimente a Aventura de Jogo Definitiva"
+    },
+    "storySection": {
+      "title": "Jornada Completa da História de GTA San Andreas",
+      "introduction": "Descubra a narrativa épica de Carl \"CJ\" Johnson enquanto ele retorna a Los Santos para reconstruir sua gangue e salvar sua família. Este é um guia completo da história mais icônica do jogo."
+    },
+    "sections": {
+      "returnHome": {
+        "title": "Um Retorno para Casa - O Começo de Tudo",
+        "content": [
+          "A história começa em 1992. Depois de viver cinco anos em Liberty City, Carl \"CJ\" Johnson recebe uma ligação que muda sua vida para sempre: sua mãe foi morta.",
+          "Ele embarca no primeiro voo de volta para Los Santos, sua cidade natal, uma cidade agora destruída por guerras de gangues, corrupção policial e traição.",
+          "Quando CJ desembarca, ele é imediatamente parado pelo oficial Tenpenny e sua equipe de polícia corrupta. Eles o ameaçam e o arrastam de volta para o caos da cidade.",
+          "No momento em que CJ pisa em Grove Street, o mundo parece pesado. Sua família está dividida, sua gangue está fraca, e seu irmão, Sweet, o culpa por ter ido embora.",
+          "É aqui que a verdadeira jornada começa: reconstruir Grove Street e sua própria vida."
+        ]
+      },
+      "oldFriends": {
+        "title": "Velhos Amigos, Novos Problemas",
+        "content": [
+          "No começo, CJ tenta fazer as pazes com seus velhos amigos Big Smoke e Ryder. Eles falam sobre lealdade e os velhos tempos, mas algo parece estranho.",
+          "Juntos, eles começam pequeno, pulverizando tags de gangue, roubando carros e lutando contra os Ballas (seus maiores rivais).",
+          "Durante essas missões, o mundo de GTA San Andreas se abre lindamente com bairros cheios de crianças brincando, carros buzinando e membros de gangues conversando. Parece vivo.",
+          "Mas sob esse barulho, algo mais escuro está crescendo, traição.",
+          "CJ começa a notar que Big Smoke e Ryder agem diferente. Eles se preocupam mais com poder e dinheiro do que com Grove Street."
+        ]
+      },
+      "riseOfGangLeader": {
+        "title": "As Ruas de Los Santos - A Ascensão de um Líder de Gangue",
+        "content": [
+          "Para ganhar respeito, CJ faz de tudo: corridas pela cidade, ajuda seu irmão Sweet, defende as ruas e ganha dinheiro através de missões secundárias.",
+          "A versão Mod APK oferece mais liberdade, permitindo aos jogadores personalizar Grove Street, recrutar membros adicionais da gangue e comprar propriedades cedo.",
+          "Logo, Grove Street começa a se levantar novamente. As bandeiras verdes voltam, a gangue ganha força e os Ballas caem.",
+          "Mas o sucesso nunca dura muito em Los Santos."
+        ]
+      },
+      "trapChaos": {
+        "title": "A Armadilha - Polícia, Traição e Caos",
+        "content": [
+          "Durante uma grande missão, CJ e Sweet são emboscados.",
+          "Sweet é baleado, e o oficial Tenpenny captura CJ. É quando a verdade chocante vem à tona: Big Smoke e Ryder traíram Grove Street. Eles agora estão trabalhando com os Ballas e policiais corruptos.",
+          "Tenpenny leva CJ para longe da cidade e o abandona no campo.",
+          "Sem gangue, sem amigos, apenas terra aberta e um homem quebrado tentando sobreviver.",
+          "Esta é a parte central do jogo e um dos momentos mais emocionais na história de GTA."
+        ]
+      },
+      "newBeginning": {
+        "title": "Um Novo Começo - As Missões do Campo",
+        "content": [
+          "CJ conhece novas pessoas no campo, como Catalina, The Truth e Cesar.",
+          "Ele começa a assumir pequenos trabalhos, incluindo roubar postos de gasolina, corridas de carro e ajudar seus aliados.",
+          "Esta parte mostra o crescimento de CJ como pessoa.",
+          "Ele aprende a confiar em novas pessoas, a lidar com novos desafios e a permanecer forte mesmo quando está longe de casa.",
+          "Catalina é selvagem e imprevisível. O relacionamento deles é humorístico, marcado por brigas frequentes e puro caos.",
+          "Por outro lado, The Truth é um ensinamento calmo e espiritual que diz a CJ coisas estranhas mas sábias sobre a vida."
+        ]
+      },
+      "sanFierro": {
+        "title": "San Fierro - Uma Cidade de Negócios e Traição",
+        "content": [
+          "Com a ajuda de Cesar, CJ se muda para San Fierro, uma cidade inspirada em São Francisco.",
+          "Aqui, ele começa uma nova fase, menos focada em guerras de gangues e mais em negócios.",
+          "Ele compra uma garagem, conhece Wu Zi Mu (Woozie) e se envolve em corridas de carros e contrabando.",
+          "O mundo de CJ se torna maior. Ele começa a lidar com as Tríades, novos inimigos e missões massivas.",
+          "Ele também descobre que Ryder e Big Smoke estão crescendo seu império de drogas em segredo, protegidos pela unidade de polícia corrupta de Tenpenny.",
+          "O foco de CJ muda de sobrevivência para poder. Ele não está mais apenas defendendo Grove Street; ele está se preparando para retomar tudo."
+        ]
+      },
+      "lasVenturas": {
+        "title": "Las Venturas - O Cassino e o Grande Assalto",
+        "content": [
+          "A próxima parada é Las Venturas, uma cidade de luzes neon, cassinos e gângsteres.",
+          "CJ se associa com Woozie e ajuda a gerenciar o Cassino Four Dragons.",
+          "Ele aprende como as famílias da Máfia controlam tudo, desde o jogo até a construção.",
+          "Esta parte da história parece um filme cheio de planejamento, disfarces e um grande assalto ao cassino.",
+          "No Mod APK, os jogadores podem até repetir o assalto com diferentes estratégias ou usar armas avançadas.",
+          "Neste momento, CJ tem dinheiro, respeito e poder, mas seu objetivo final permanece inacabado: recuperar Los Santos."
+        ]
+      },
+      "returnToLosSantos": {
+        "title": "Retorno a Los Santos - Vingança e Redenção",
+        "content": [
+          "Depois que Tenpenny é exposto por seus crimes, a cidade cai no caos.",
+          "Tumultos enchem as ruas, fogos queimam e gangues assumem o controle.",
+          "CJ volta para casa uma última vez - para salvar seu irmão e terminar o que começou.",
+          "Ele ataca a fortaleza de Big Smoke, uma das missões mais icônicas na história de GTA.",
+          "A batalha é longa, escura e emocional. CJ luta contra dezenas de guardas até enfrentar Big Smoke ele mesmo.",
+          "As últimas palavras de Smoke mostram arrependimento - ele admite que sua ganância o destruiu.",
+          "Então, Tenpenny aparece novamente, rouba o dinheiro e escapa.",
+          "CJ o persegue pelas ruas em chamas de Los Santos em uma lendária cena de perseguição de carro.",
+          "Finalmente, Tenpenny cai com seu carro de uma ponte e morre.",
+          "O caos termina, Grove Street se ergue novamente e a família de CJ está reunida."
+        ]
+      },
+      "ending": {
+        "title": "O Final - Grove Street Para Sempre",
+        "content": [
+          "A cena final mostra CJ em pé em Grove Street, olhando para sua casa.",
+          "Sweet, Cesar e Kendl estão ao seu lado. A cidade está finalmente calma.",
+          "CJ simplesmente diz que tem \"coisas a fazer\" e vai embora.",
+          "O final é perfeito porque não é sobre fama ou vitória, mas paz.",
+          "CJ encontra equilíbrio depois de tudo - traição, dor e vingança.",
+          "Mesmo em 2025, os jogadores repetem aquela última missão e sentem a mesma emoção.",
+          "Isso é o que torna GTA San Andreas uma história atemporal - não é apenas um jogo de crime, mas uma história de vida de família, lealdade e escolhas."
+        ]
+      },
+      "legacy": {
+        "title": "O Legado de GTA San Andreas em 2025",
+        "content": [
+          "Mais de 20 anos depois, GTA San Andreas ainda reina nos corações.",
+          "Os jogadores usam a versão Mod APK de GTA San Andreas PC ou Mobile para reviver aquela magia - com atualizações modernas, gráficos HD e novas missões.",
+          "A razão pela qual as pessoas continuam voltando é simples:",
+          "Não importa o quanto os gráficos mudem, a história de CJ permanece poderosa.",
+          "Ela lembra aos jogadores que a lealdade importa, que a família pode ser perdida e encontrada, e que ninguém esquece de onde vem, especialmente quando esse lugar é Grove Street."
+        ]
+      }
+    },
+    "experience": {
+      "title": "Como Ganhar Mais Experiência e Aproveitar GTA San Andreas",
+      "tips": {
+        "gym": {
+          "emoji": "💪",
+          "title": "Treinar na Academia",
+          "description": "Aumente a força e resistência de CJ para melhorar o desempenho geral."
+        },
+        "drive": {
+          "emoji": "🏎️",
+          "title": "Dirija Diariamente",
+          "description": "Quanto mais você dirige, melhor CJ manuseia carros e veículos."
+        },
+        "weapons": {
+          "emoji": "🎯",
+          "title": "Use Armas Regularmente",
+          "description": "A prática melhora as habilidades de mira e proficiência com armas no combate."
+        },
+        "gangWars": {
+          "emoji": "⚔️",
+          "title": "Participe de Guerras de Gangues",
+          "description": "Ganhar territórios aumenta o fluxo de dinheiro e o respeito no bairro."
+        },
+        "food": {
+          "emoji": "🍎",
+          "title": "Coma Saudável",
+          "description": "Evite junk food, ou CJ ficará lento e menos eficaz."
+        },
+        "outfits": {
+          "emoji": "👕",
+          "title": "Mude de Roupa",
+          "description": "O estilo de CJ melhora o respeito em diferentes bairros."
+        },
+        "explore": {
+          "emoji": "🗺️",
+          "title": "Explore Áreas Secretas",
+          "description": "Lugares escondidos frequentemente contêm itens valiosos como armas ou armadura."
+        },
+        "save": {
+          "emoji": "💾",
+          "title": "Salve Frequentemente",
+          "description": "Sempre salve antes de missões desafiadoras para evitar perder progresso."
+        }
+      },
+      "personalNote": "Nota Pessoal",
+      "personalNoteText": "Quando aprendi a voar o jato Hydra pela primeira vez, passei horas voando pelas cidades apreciando a vista. Esse tipo de diversão nunca acaba em GTA San Andreas. Seja explorando atalhos escondidos, descobrindo ovos de páscoa ou simplesmente aproveitando o imenso mundo que a Rockstar criou, cada momento traz algo novo para experimentar."
+    },
+    "whyLoveIt": {
+      "title": "Por Que Todos Ainda Amam GTA San Andreas",
+      "content": [
+        "Quando as pessoas falam sobre o melhor jogo de mundo aberto já criado, um nome sempre aparece - GTA San Andreas.",
+        "Mesmo depois de mais de uma década, este jogo icônico de mundo aberto ainda reina nos corações de milhões. As ruas, a música, os personagens, tudo parece vivo.",
+        "O Mod APK de GTA San Andreas traz este clássico de volta com atualizações modernas. Os jogadores agora podem desfrutar de gráficos mais suaves, novos carros, armas melhores e missões adicionais. Parece clássico e novo ao mesmo tempo.",
+        "Muitos jogadores que experimentaram GTA 3, GTA 4 e até GTA 5 voltaram para San Andreas. Nenhum outro jogo GTA captura o espírito das ruas, o vínculo de irmandade e a energia bruta como este.",
+        "Se você é novo em GTA San Andreas ou está voltando após anos, este guia 2025 fornecerá tudo que você precisa: informações do jogo, recursos, dicas, truques e atualizações."
+      ]
+    },
+    "overview": {
+      "title": "Visão Geral do GTA San Andreas Mod APK",
+      "table": {
+        "gameName": "Nome do Jogo",
+        "gameNameValue": "GTA San Andreas Mod APK",
+        "developer": "Desenvolvedor",
+        "developerValue": "Rockstar Games",
+        "genre": "Gênero",
+        "genreValue": "Ação, Aventura, Mundo Aberto",
+        "mode": "Modo",
+        "modeValue": "Offline / Online",
+        "platform": "Plataforma",
+        "platformValue": "Android, iOS, PC",
+        "releaseYear": "Ano de Lançamento (Mod)",
+        "releaseYearValue": "Edição Atualizada 2025"
+      },
+      "description": "A versão Mod APK de GTA San Andreas é especificamente projetada para jogadores que desejam controle completo do jogo, todas as missões estão desbloqueadas, dinheiro ilimitado e acesso a veículos e armas premium. É perfeito para aqueles que amam experimentar em um ambiente de mundo aberto."
+    },
+    "updates": {
+      "title": "O Que Há de Novo em 2025 - Últimas Atualizações",
+      "intro": "Muitos jogadores ainda estão jogando GTA San Andreas em 2025, e os desenvolvedores continuam melhorando o desempenho do jogo em sistemas mais novos.",
+      "items": {
+        "graphics": {
+          "title": "Melhor Suporte Gráfico",
+          "description": "Agora suporta resoluções mais altas e texturas mais suaves para PC e mobile."
+        },
+        "controls": {
+          "title": "Controles de Toque Aprimorados",
+          "description": "A versão mobile tem botões mais limpos e resposta mais rápida."
+        },
+        "cloudSave": {
+          "title": "Opção de Salvamento na Nuvem",
+          "description": "Agora você pode salvar o progresso online em todos os dispositivos."
+        },
+        "patches": {
+          "title": "Novos Patches de Compatibilidade",
+          "description": "Melhor suporte para Windows 11, Android 14 e iOS 18."
+        },
+        "lag": {
+          "title": "Lag Reduzido",
+          "description": "A última atualização reduz quedas de quadros e problemas de aquecimento em dispositivos móveis."
+        },
+        "controller": {
+          "title": "Suporte de Controle",
+          "description": "Mobile agora suporta controles Bluetooth para uma experiência de jogo mais suave."
+        },
+        "customization": {
+          "title": "Personalização Mais Fácil",
+          "description": "Os jogadores podem ajustar diretamente a câmera, sensibilidade e configurações de exibição."
+        },
+        "crashes": {
+          "title": "Correção Oficial de Travamentos",
+          "description": "O novo patch da Rockstar previne travamentos aleatórios do jogo em dispositivos modernos."
+        }
+      }
+    },
+    "faqs": {
+      "title": "FAQs - GTA San Andreas 2025",
+      "subtitle": "Encontre respostas para as perguntas mais comuns sobre GTA San Andreas em PC e Mobile.",
+      "questions": {
+        "q1": {
+          "question": "O que torna GTA San Andreas ainda popular em 2025?",
+          "answer": "Oferece liberdade genuína, uma história rica e diversão sem fim que poucos jogos podem igualar."
+        },
+        "q2": {
+          "question": "GTA San Andreas está disponível para PC e Mobile?",
+          "answer": "Sim. Funciona perfeitamente em Windows, Android e iOS."
+        },
+        "q3": {
+          "question": "Posso usar cheats no meu dispositivo móvel?",
+          "answer": "Sim, mas você precisa de um teclado externo ou uma opção de cheat integrada."
+        },
+        "q4": {
+          "question": "Quem é o herói principal?",
+          "answer": "Carl \"CJ\" Johnson - um homem corajoso lutando por família e respeito."
+        },
+        "q5": {
+          "question": "Qual é o tamanho do jogo?",
+          "answer": "Cerca de 6 GB para PC e 2,6 GB para mobile."
+        },
+        "q6": {
+          "question": "Posso jogar offline?",
+          "answer": "Sim, todo o jogo pode ser jogado offline após a instalação."
+        },
+        "q7": {
+          "question": "Existem missões escondidas?",
+          "answer": "Sim. Há missões secundárias secretas, incluindo entregador, vigilante e corridas."
+        },
+        "q8": {
+          "question": "Qual é melhor, PC ou Mobile?",
+          "answer": "PC oferece melhores gráficos, enquanto mobile oferece conforto. Ambos são excelentes em 2025."
+        }
+      }
+    }
+  },
+  "forPC": {
+    "hero": {"title": "GTA San Andreas For PC", "subtitle": "Experience the Ultimate Gaming Adventure"},
+    "storySection": {"title": "GTA San Andreas Complete Story Journey", "introduction": "Discover the epic narrative of Carl \"CJ\" Johnson as he returns to Los Santos to rebuild his gang and save his family. This is a complete walkthrough of the game's most iconic storyline."},
+    "sections": {
+      "returnHome": {"title": "A Return Home – The Beginning of Everything", "content": ["The story begins in 1992. After living five years in Liberty City, Carl \"CJ\" Johnson gets a call that changes his life forever: his mother has been killed.", "He boards the first flight back to Los Santos, his hometown, a city now broken by gang wars, police corruption, and betrayal.", "When CJ lands, he's immediately stopped by Officer Tenpenny and his corrupt police team. They threaten him and drag him back into the city's chaos.", "The moment CJ steps onto Grove Street, the world feels heavy. His family is divided, his gang is weak, and his brother, Sweet, blames him for leaving.", "This is where the real journey begins: to rebuild Grove Street and CJ's own life."]},
+      "oldFriends": {"title": "Old Friends, New Problems", "content": ["At first, CJ tries to make peace with old friends Big Smoke and Ryder. They talk about loyalty and old times, but something feels strange.", "Together, they start small, spraying gang tags, stealing cars, and fighting Ballas (their biggest rivals).", "During these missions, the world of GTA San Andreas opens up beautifully with neighborhoods filled with kids playing, cars honking, and gang members talking. It feels alive.", "But under that noise, something darker is growing, betrayal.", "CJ starts to notice that Big Smoke and Ryder act differently. They care more about power and money than about Grove Street."]},
+      "riseOfGangLeader": {"title": "The Streets of Los Santos – Rise of a Gang Leader", "content": ["To earn respect, CJ does everything: races through the city, helps his brother Sweet, defends the streets, and earns cash through side missions.", "The Mod APK version offers more freedom, allowing players to customize Grove Street, recruit additional gang members, and purchase properties early.", "Soon, Grove Street starts to rise again. The green flags return, the gang gains strength, and the Ballas fall.", "But success never lasts long in Los Santos."]},
+      "trapChaos": {"title": "The Trap – Police, Betrayal, and Chaos", "content": ["During a big mission, CJ and Sweet are ambushed.", "Sweet gets shot, and Officer Tenpenny captures CJ. That's when the shocking truth comes out: Big Smoke and Ryder betrayed Grove Street. They are now working with the Ballas and corrupt police officers.", "Tenpenny drives CJ far from the city and dumps him in the countryside.", "No gang, no friends, just open land and a broken man trying to survive.", "This is the middle part of the game and one of the most emotional moments in GTA history."]},
+      "newBeginning": {"title": "A New Beginning – The Countryside Missions", "content": ["CJ meets new people in the countryside, such as Catalina, The Truth, and Cesar.", "He starts taking on small jobs, including robbing gas stations, racing cars, and helping his allies.", "This part shows CJ's growth as a person.", "He learns to trust new people, handle new challenges, and stay strong even when he's far from home.", "Catalina is wild and unpredictable. Their relationship is humorous, marked by frequent fights and pure chaos.", "Conversely, the Truth is a calm and spiritual teaching that CJ says strange but wise things about life."]},
+      "sanFierro": {"title": "San Fierro – A City of Business and Betrayal", "content": ["With Cesar's help, CJ moves to San Fierro, a city inspired by San Francisco.", "Here, he begins a new phase, one less focused on gang wars and more on business.", "He buys a garage, meets Wu Zi Mu (Woozie), and gets involved in car races and smuggling.", "CJ's world becomes bigger. He starts dealing with Triads, new enemies, and massive missions.", "He also learns that Ryder and Big Smoke are growing their drug empire in secret, protected by Tenpenny's corrupt police unit.", "CJ's focus shifts from survival to power. He's no longer just defending Grove Street; he's preparing to take it all back."]},
+      "lasVenturas": {"title": "Las Venturas – The Casino and the Big Heist", "content": ["The next stop is Las Venturas, a city of neon lights, casinos, and gangsters.", "CJ partners with Woozie and helps manage The Four Dragons Casino.", "He learns how the Mafia families control everything from gambling to construction.", "This part of the story feels like a movie filled with planning, disguises, and a major casino robbery.", "In the Mod APK, players can even replay the heist with different strategies or use advanced weapons.", "By this time, CJ has money, respect, and power, but his ultimate goal remains unfinished: reclaiming Los Santos."]},
+      "returnToLosSantos": {"title": "Return to Los Santos – Revenge and Redemption", "content": ["After Tenpenny is exposed for his crimes, the city falls into chaos.", "Riots fill the streets, fires burn, and gangs take over.", "CJ returns home one last time — to save his brother and finish what he started.", "He attacks Big Smoke's fortress, one of the most iconic missions in GTA history.", "The battle is long, dark, and emotional. CJ fights through dozens of guards until he faces Big Smoke himself.", "Smoke's final words show regret — he admits his greed destroyed him.", "Then, Tenpenny appears again, steals the money, and escapes.", "CJ chases him through the burning streets of Los Santos in a legendary car chase scene.", "Finally, Tenpenny crashes his car off a bridge and dies.", "The chaos ends, Grove Street stands tall again, and CJ's family is reunited."]},
+      "ending": {"title": "The Ending – Grove Street Forever", "content": ["The final scene shows CJ standing on Grove Street, looking at his home.", "Sweet, Cesar, and Kendl are beside him. The city is finally calm.", "CJ simply says he has \"things to do\" and walks away.", "The ending is perfect because it's not about fame or victory but peace.", "CJ finds balance after everything — betrayal, pain, and revenge.", "Even in 2025, players replay that last mission and feel the same emotion.", "That makes GTA San Andreas a timeless story — it is not just a crime game but a life story of family, loyalty, and choices."]},
+      "legacy": {"title": "The Legacy of GTA San Andreas in 2025", "content": ["More than 20 years later, GTA San Andreas still rules hearts.", "Players use the GTA San Andreas Mod APK PC or Mobile version to relive that magic — with modern updates, HD graphics, and new missions.", "The reason people keep coming back is simple:", "No matter how much the graphics change, the story of CJ remains powerful.", "It reminds players that loyalty matters, that family can be lost and found, and that no one forgets where they came from, especially when that place is Grove Street."]}
+    },
+    "experience": {"title": "How to Gain More Experience and Enjoy GTA San Andreas", "tips": {"gym": {"emoji": "💪", "title": "Train at the Gym", "description": "Increase CJ's strength and stamina to improve overall performance."}, "drive": {"emoji": "🏎️", "title": "Drive Daily", "description": "The more you drive, the better CJ handles cars and vehicles."}, "weapons": {"emoji": "🎯", "title": "Use Weapons Regularly", "description": "Practice improves aiming skills and weapon proficiency in combat."}, "gangWars": {"emoji": "⚔️", "title": "Join Gang Wars", "description": "Winning territories increases money flow and neighborhood respect."}, "food": {"emoji": "🍎", "title": "Eat Healthy", "description": "Avoid junk food, or CJ will get slow and less effective."}, "outfits": {"emoji": "👕", "title": "Change Outfits", "description": "CJ's style improves respect in different neighborhoods."}, "explore": {"emoji": "🗺️", "title": "Explore Secret Areas", "description": "Hidden spots often contain valuable items like weapons or armor."}, "save": {"emoji": "💾", "title": "Save Often", "description": "Always save before challenging missions to avoid losing progress."}}, "personalNote": "Personal Note", "personalNoteText": "When I first learned to fly the Hydra jet, I spent hours flying across cities to enjoy the view. This kind of fun never ends in GTA San Andreas. Whether you're exploring hidden shortcuts, discovering easter eggs, or simply enjoying the immense world Rockstar created, every moment brings something new to experience."},
+    "whyLoveIt": {"title": "Why Everyone Still Loves GTA San Andreas", "content": ["When people talk about the best open-world game ever made, one name always comes up — GTA San Andreas.", "Even after over a decade, this iconic open-world game still rules the hearts of millions. The streets, the music, the characters, everything feels alive.", "The GTA San Andreas Mod APK brings this classic back with modern updates. Players can now enjoy smoother graphics, new cars, better weapons, and extra missions. It feels both classic and new at the same time.", "Many gamers who tried GTA 3, GTA 4, and even GTA 5 have returned to San Andreas. No other GTA game captures the spirit of the streets, the bond of brotherhood, and the raw energy like this one.", "If you are new to GTA San Andreas or returning after years, this 2025 guide will provide you with everything you need: gameplay information, features, tips, cheats, and updates."]},
+    "overview": {"title": "GTA San Andreas Mod APK Overview", "table": {"gameName": "Game Name", "gameNameValue": "GTA San Andreas Mod APK", "developer": "Developer", "developerValue": "Rockstar Games", "genre": "Genre", "genreValue": "Action, Adventure, Open World", "mode": "Mode", "modeValue": "Offline / Online", "platform": "Platform", "platformValue": "Android, iOS, PC", "releaseYear": "Release Year (Mod)", "releaseYearValue": "2025 Updated Edition"}, "description": "The GTA San Andreas Mod APK version is specifically designed for players who want complete control of the game, all missions are unlocked, unlimited money, and access to premium vehicles and weapons. It's perfect for those who love experimenting in an open-world environment."},
+    "updates": {"title": "What is New in 2025 – Latest Updates", "intro": "Many players are still playing GTA San Andreas in 2025, and developers continue to improve the game's performance on newer systems.", "items": {"graphics": {"title": "Better Graphics Support", "description": "Now supports higher resolutions and smoother textures for PC and mobile."}, "controls": {"title": "Improved Touch Controls", "description": "The mobile version has cleaner buttons and a faster response."}, "cloudSave": {"title": "Cloud Save Option", "description": "You can now save progress online across devices."}, "patches": {"title": "New Compatibility Patches", "description": "Better support for Windows 11, Android 14, and iOS 18."}, "lag": {"title": "Reduced Lag", "description": "The latest update reduces frame drops and heating issues on mobile devices."}, "controller": {"title": "Controller Support", "description": "Mobile now supports Bluetooth controllers for a smoother gaming experience."}, "customization": {"title": "Easier Customization", "description": "Players can adjust the camera, sensitivity, and display settings directly."}, "crashes": {"title": "Official Fix for Crashes", "description": "Rockstar's new patch prevents random game shutdowns on modern devices."}}},
+    "faqs": {"title": "FAQs – GTA San Andreas 2025", "subtitle": "Find answers to the most common questions about GTA San Andreas on PC and Mobile.", "questions": {"q1": {"question": "What makes GTA San Andreas still popular in 2025?", "answer": "It offers genuine freedom, a rich story, and endless fun that few games can match."}, "q2": {"question": "Is GTA San Andreas available for both PC and Mobile?", "answer": "Yes. It runs smoothly on Windows, Android, and iOS."}, "q3": {"question": "Can I use cheats on my mobile device?", "answer": "Yes, but you need an external keyboard or a built-in cheat option."}, "q4": {"question": "Who is the main hero?", "answer": "Carl \"CJ\" Johnson — a brave man fighting for family and respect."}, "q5": {"question": "How big is the game size?", "answer": "Around 6 GB for PC and 2.6 GB for mobile."}, "q6": {"question": "Can I play offline?", "answer": "Yes, the entire game can be played offline after installation."}, "q7": {"question": "Are there hidden missions?", "answer": "Yes. There are secret side missions, including courier, vigilante, and racing."}, "q8": {"question": "Which is better, PC or Mobile?", "answer": "PC offers better graphics, while mobile offers comfort. Both are great in 2025."}}}
+  },
+  "missions": {
+    "secretMissionsTitle": "Missões secretas",
+    "mainMissionsTitle": "Missões principais simples",
+    "secret": [
+      {
+        "title": "Missão Entregador",
+        "description": "Entregue cartas em toda a cidade usando uma bicicleta."
+      },
+      {
+        "title": "Missão Vigilante",
+        "description": "Roube um carro da polícia e prenda criminosos."
+      },
+      {
+        "title": "Missão Bombeiro",
+        "description": "Dirija o caminhão de bombeiros e apague incêndios."
+      },
+      {
+        "title": "Missão Paramédico",
+        "description": "Ajude pessoas feridas e ganhe respeito."
+      },
+      {
+        "title": "Missão Taxista",
+        "description": "Pegue passageiros e os deixe rapidamente."
+      }
+    ],
+    "main": [
+      {
+        "title": "Big Smoke",
+        "description": "Apresenta Big Smoke e a história."
+      },
+      {
+        "title": "Drive-Thru",
+        "description": "Uma missão divertida onde você come e persegue Ballas."
+      },
+      {
+        "title": "Tagging Up Turf",
+        "description": "Aprenda a pintar tags de gangues com spray."
+      },
+      {
+        "title": "OG Loc",
+        "description": "Ajude OG Loc em seu primeiro sonho musical."
+      },
+      {
+        "title": "Reunindo as Famílias",
+        "description": "Trabalhe com Sweet e escape da polícia."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 GTA San Apk. Todos os direitos reservados.",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço"
+  }
+}
