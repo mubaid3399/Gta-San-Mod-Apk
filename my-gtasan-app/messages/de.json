@@ -996,6 +996,45 @@
       ]
     }
   },
+  "gtaCars": {
+    "pageTitle": "GTA San Andreas Autos",
+    "hero": {
+      "title": "GTA San Andreas Autos",
+      "subtitle": "Kompletter Leitfaden zu Fahrzeugen im ikonischen Spiel",
+      "badge1": "200+ Fahrzeuge",
+      "badge2": "Vollständige Datenbank"
+    },
+    "introduction": {
+      "title": "Über GTA San Andreas Mod APK",
+      "paragraph1": "Die Welt von GTA San Andreas hat so viele verschiedene Fahrzeuge, die du fahren, anpassen und sammeln kannst. Dieses Spiel wurde super beliebt wegen seiner riesigen offenen Welt und erstaunlichen Autosammlung. Du kannst alles von schnellen Sportwagen bis zu großen Lastwagen auf den Straßen von San Andreas finden.",
+      "paragraph2": "Autos in diesem Spiel sind nicht nur zum Umherfahren. Sie zeigen Freiheit, Stil und die coole kalifornische Stimmung aus den frühen 1990er Jahren. Spieler lieben es, Zeit damit zu verbringen, nach seltenen Autos zu suchen, sie in Garagen zu reparieren und durch Los Santos, San Fierro und Las Venturas zu fahren."
+    },
+    "vehicleDatabase": {
+      "title": "GTA San Andreas Autoliste: Komplette Fahrzeugdatenbank",
+      "subtitle": "Alle Fahrzeuge mit Geschwindigkeit und Preisinformationen",
+      "headers": ["Fahrzeugname", "Typ", "Höchstgeschwindigkeit", "Preis"],
+      "totalVehicles": "200+ Fahrzeuge",
+      "data": [
+        {"name": "Admiral", "type": "Autos/Limousinen", "speed": "165 km/h", "price": "$35.000"},
+        {"name": "Alpha", "type": "Autos/Sportwagen", "speed": "200 km/h", "price": "$35.000"},
+        {"name": "Krankenwagen", "type": "Notfall/Autos", "speed": "154 km/h", "price": "$10.000"},
+        {"name": "Infernus", "type": "Sportwagen", "speed": "240 km/h", "price": "$90.000"},
+        {"name": "Cheetah", "type": "Sportwagen", "speed": "230 km/h", "price": "$80.000"}
+      ]
+    },
+    "vehicleSystem": {
+      "title": "Das Fahrzeugsystem in GTA San Andreas verstehen",
+      "content": "Das Fahrzeugsystem in diesem Spiel ist wirklich detailliert und macht Spaß zu benutzen. Du kannst mehr als 200 verschiedene Fahrzeuge überall in den drei Hauptstädten und der Landschaft finden. Jedes Fahrzeug fährt anders und hat seine eigene Geschwindigkeit und Kraft."
+    },
+    "sportsCars": {
+      "title": "Beste Sportwagen zum Rassen und Schnellfahren",
+      "content": "Sportwagen in GTA San Andreas sind perfekt, wenn du gerne schnell fährst. Der Infernus ist einer der schnellsten Autos, die du bekommen kannst. Er beschleunigt schnell und hat eine wirklich hohe Höchstgeschwindigkeit."
+    },
+    "conclusion": {
+      "title": "Fazit",
+      "content": "GTA San Andreas Autos sind ein großer Teil dieses legendären Spiels. Die riesige Vielfalt an Fahrzeugen von einfachen Fahrrädern bis zu mächtigen Flugzeugen gibt endlosen Spaß und Spielmöglichkeiten."
+    }
+  },
   "footer": {
     "copyright": "© 2025 GTA San Apk. Alle Rechte vorbehalten.",
     "privacy": "Datenschutzrichtlinie",
