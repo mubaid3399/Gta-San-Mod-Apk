@@ -8,5 +8,5 @@ export default function robots(): MetadataRoute.Robots {
       disallow: ['/admin', '/*.json$', '/*?*sort=', '/*?*filter='],
     },
     sitemap: 'https://gtasanandreas.info/sitemap.xml',
-  };
+  } as MetadataRoute.Robots;
 }

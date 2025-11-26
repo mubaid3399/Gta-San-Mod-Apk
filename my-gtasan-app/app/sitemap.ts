@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Define all pages
   const pages = ['', '/for-pc', '/gta-cheats', '/gta-cars'];
 
-  const sitemapEntries: MetadataRoute.Sitemap = [];
+  const entries: MetadataRoute.Sitemap = [];
 
   locales.forEach((locale) => {
     pages.forEach((page) => {
@@ -15,14 +15,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         ? `${baseUrl}${page || '/'}`
         : `${baseUrl}/${locale}${page || ''}`;
 
-      sitemapEntries.push({
+      entries.push({
         url,
         lastModified: new Date('2025-01-15'),
-        changeFrequency: page === '' ? 'weekly' : 'weekly',
+        changeFrequency: 'weekly' as const,
         priority: page === '' ? 1.0 : 0.9,
       });
     });
   });
 
-  return sitemapEntries;
+  return entries;
 }
