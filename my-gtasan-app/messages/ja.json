@@ -1,0 +1,1993 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "mods": "モッド",
+    "about": "について",
+    "contact": "お問い合わせ"
+  },
+  "header": {
+    "title": "GTA San Apk",
+    "subtitle": "プレミアムモッド",
+    "forPC": "PC用",
+    "darkMode": "ダーク",
+    "lightMode": "ライト",
+    "navigation": {
+      "home": "ホーム",
+      "forPC": "PC用",
+      "gtaCheats": "GTA チート",
+      "gtaCars": "GTA 車"
+    }
+  },
+  "hero": {
+    "title": "GTASANへようこそ",
+    "subtitle": "GTA San Andreasの素晴らしいModと改善を探索してください"
+  },
+  "content": {
+    "title": "GTA San Andreas MOD APK–すべての機能がロック解除されました",
+    "paragraph1": "GTA San Andreas APKは、長年にわたってモバイルゲームで最も議論されているゲームの1つです。私を含む多くのプレイヤーは、ミッションを完了して街の通りを運転するのに何時間も費やしたことを覚えています。最新のSan Andreas APKを使用すると、体験はこれまでより滑らかで楽しくなります。",
+    "paragraph2": "このバージョンは、すべての人が愛しているのと同じアクションアドベンチャーゲームプレイを保持し、今日のプレイヤーのためにいくつかの最新のタッチを追加しています。ストーリーは相変わらずカール「CJ」ジョンソンがグローブストリートに帰宅するのに従いますが、無制限の資金と新しいmod機能により、ゲームは制限なく楽しむのが簡単になります。",
+    "paragraph3": "2025年では、よりスムーズなグラフィックス、改善されたコントロール、追加のカスタマイズオプションにより、長年のファンと新しいプレイヤーが中核のゲームプレイのアイデアを新たに体験したいプレイヤーに必須となっています。"
+  },
+  "systemRequirements": {
+    "title": "システム要件",
+    "appName": "アプリ名",
+    "information": "情報",
+    "data": {
+      "appName": "Grand Theft Auto: San Andreas APK",
+      "lastUpdated": "最終更新",
+      "lastUpdatedValue": "1日前",
+      "currentVersion": "現在のバージョン",
+      "currentVersionValue": "v2.11.279",
+      "category": "カテゴリー",
+      "categoryValue": "アクション/オープンワールド",
+      "developer": "開発者",
+      "developerValue": "Rockstar Games",
+      "modFeatures": "MOD機能",
+      "modFeaturesValue": "無制限のお金、すべての機能がロック解除されています",
+      "minimumAndroid": "最小Android",
+      "minimumAndroidValue": "7.0以上",
+      "gameSize": "ゲームサイズ",
+      "gameSizeValue": "約2.5GB",
+      "multiplayer": "マルチプレイヤーサポート",
+      "multiplayerValue": "サポートなし（シングルプレイ）",
+      "availability": "可用性",
+      "availabilityValue": "Androidデバイス（Googleプレイの代替ソース）",
+      "storage": "ストレージ要件",
+      "storageValue": "少なくとも3〜4GBの空き容量を推奨",
+      "devicePerformance": "デバイスパフォーマンス",
+      "devicePerformanceValue": "3GB以上のRAM、ミッドレンジCPU推奨",
+      "installationFiles": "インストールファイル",
+      "installationFilesValue": "APK + OBB /データファイルが必要です",
+      "googlePlayStore": "Googleプレイストア",
+      "googlePlayStoreValue": "Playstore"
+    },
+    "featuresTitle": "主な機能",
+    "imagePlaceholder": "ここに画像を追加",
+    "features": {
+      "unlimitedExploration": {
+        "title": "無制限の探索",
+        "description": "ロスサントスを自由に移動し、すべてのエリアへの制限のないアクセスを楽しみ、隠された秘密を発見し、広大なオープンワールドの景観を満喫してください。"
+      },
+      "dynamicWeather": {
+        "title": "ダイナミックな天気と日/夜サイクル",
+        "description": "リアルな天気の変化と、ゲームプレイと雰囲気に影響を与える完全な昼夜サイクルを体験してください。"
+      },
+      "enhancedAudio": {
+        "title": "強化されたオーディオエフェクト",
+        "description": "クリアなエンジン音、環境音響、没入型のオーディオデザインが、ゲームプレイの各瞬間をより魅力的でリアルにします。"
+      },
+      "personalizedGrowth": {
+        "title": "パーソナライズされたキャラクター成長",
+        "description": "CJの外観、スキル、能力をカスタマイズしてあなたのプレイスタイルに合わせ、ユニークなゲーム体験を創造してください。"
+      },
+      "expandedVehicles": {
+        "title": "拡張されたビークルオプション",
+        "description": "スポーツカーからヘリコプターまで、レアで限定的なビークルの幅広い範囲にアクセスしてください。"
+      },
+      "sideActivities": {
+        "title": "サイドアクティビティの報酬",
+        "description": "エキサイティングなサイドミッション、レース、アクティビティに参加して、報酬や追加コンテンツを獲得してください。"
+      }
+    }
+  },
+  "gtaFeatures": {
+    "title": "GTA San Andreas APK (2025 年版) の機能",
+    "storylineTitle": "GTA SA APK のストーリー",
+    "videoTitle": "GTA サンアンドレアス ストーリーを見る",
+    "videoDescription": "GTA サンアンドレアスの世界をより深く探索してください。叙事詩的なストーリー、キャラクター開発、そしてロスサントスの危険な街を舞台にした CJ の信じられない旅を発見してください。",
+    "ctaButton": "APK をダウンロード",
+    "storyline": {
+      "cjJourney": {
+        "title": "CJ の旅と家族の絆",
+        "description": "CJ の主な目標は、家族を助け、ギャングの影響力を回復することです。プレイヤーは、戦略、運転スキル、および戦闘能力をテストするミッションを経験します。ストリート レースから高レベルのギャング戦争まで、ストーリーはあなたを没入させます。"
+      },
+      "gangConflicts": {
+        "title": "ギャングの紛争とライバル関係",
+        "description": "ストーリーの最もエキサイティングな部分の 1 つは、進行中のギャング ライバル関係です。プレイヤーは、CJ が同盟、裏切り、紛争をナビゲートする際の緊張を感じることができます。敵領土への攻撃を計画するミッションはリアリズムを追加します。"
+      },
+      "characterDev": {
+        "title": "キャラクター開発とサイドクエスト",
+        "description": "ゲームはメイン ミッションにのみ焦点を当てているわけではありません。CJ はスキルアップグレード、武器の習得、および個人的な選択を通じてより強くなります。タクシー運転、不動産管理、または車のカスタマイズなどのサイドクエスト。"
+      },
+      "updates2025": {
+        "title": "2025 年の新しいアップデート",
+        "description": "2025 年では、拡張マップと視覚的なモッドのおかげで、ストーリーはさらに魅力的になります。プレイヤーは改善されたオーディオ、リアルなグラフィック、およびキャンペーン拡張を楽しむことができます。"
+      },
+      "gameplay": {
+        "title": "関連性のあるゲームプレイ体験",
+        "description": "CJ のストーリーをプレイすることは個人的に感じます。ロス サントスの地区でミッションを完了したり、ギャングを再構築して家や車をカスタマイズしたり。"
+      }
+    }
+  },
+  "gtaGameplay": {
+    "title": "GTA San Andreas モバイル ゲームプレイ",
+    "description": "GTA San Andreas MOD APK は、さまざまなプレイヤーの好みに対応する多くの機能を提供し、すべての人に楽しい体験をもたらします。ドラッグバイクのようなユニークな乗り物の追加から、よりシンプルなゲームプレイ体験のオプション提供まで、常に探索する価値のある要素があることを保証します。際立った機能は、すべてのミッション完了ダウンロードオプションを使用してストーリーミッションをスキップする機能で、メインストーリーの進行よりもオープンワールド探索に焦点を当てたいプレイヤーに最適です。これは、制限なく GTA San Andreas が提供するすべてを発見することに直接飛び込む自由を提供します。",
+    "features": {
+      "realisticGraphics": "リアルなグラフィックス",
+      "smoothControls": "スムーズなコントロール",
+      "immersiveExperience": "イマーシブな体験"
+    },
+    "featuresDesc": {
+      "realisticGraphics": "詳細なテクスチャ、改善されたライティング、ロス サントスの世界を生き生きとさせるキャラクター モデルを備えた視覚品質の向上。",
+      "smoothControls": "レスポンシブなハンドリングを備えた最適化されたモバイル コントロール。運転、射撃、近接戦闘が自然で直感的に感じられます。",
+      "immersiveExperience": "完全なボイスオーバー、環境音響、ダイナミック天気により、CJ の旅に完全に没頭できる雰囲気が生まれます。"
+    }
+  },
+  "gameplayFeatures": {
+    "data": [
+      {
+        "icon": "🎮",
+        "title": "カスタマイズとスキル進行",
+        "content": "CJは服装、髪型、タトゥーを変更して外見をカスタマイズできます。実行する各アクションは特定のスキルを向上させます — 運転すればするほど、運転が上手くなります。飛行すればするほど、パイロットスキルが向上します。これにより、ゲーム全体を通じて成長の満足感が生まれます。"
+      },
+      {
+        "icon": "⚔️",
+        "title": "戦闘と武器の宝庫",
+        "content": "ゲームには、野球バットや刀などの近接武器から、ピストル、ショットガン、ライフルなどの銃器まで、30種類以上の武器が用意されています。戦闘メカニクスは滑らかで反応が良く、すべての戦闘がインパクトのあるものに感じられます。ロケットランチャーや手榴弾などの爆発性武器を使って大規模な破壊を行うこともできます。"
+      },
+      {
+        "icon": "🚗",
+        "title": "車両の多様性と運転物理学",
+        "content": "250種類以上の異なる車両を運転できます — 車、トラック、オートバイ、ボート、さらには飛行機やヘリコプターも。各車両には独自の操作性、速度、加速度があります。異なる車両を制御することを学ぶことは、楽しさと挑戦の一部です。"
+      },
+      {
+        "icon": "💰",
+        "title": "お金と稼ぐ機会",
+        "content": "メインミッション、サイドミッション、さらには強盗を通じてお金を稼ぎます。服、車両、家、武器、エンターテインメントにお金を使います。財政的自由はゲームの魅力の一部です — お金の使い方はあなたが決めます。"
+      },
+      {
+        "icon": "🌆",
+        "title": "多様な環境と隠された秘密",
+        "content": "3つのユニークな都市 — ロスサントス、サンフィエロ、ラスベンチュラス — それぞれに独自の地区、文化、秘密があります。砂漠地帯からビーチ、山まで、常に新しい発見があります。"
+      },
+      {
+        "icon": "📖",
+        "title": "深いストーリーラインとキャラクター開発",
+        "content": "ストーリーは説得力があり、意味のあるキャラクターの相互作用とプロットのひねりがあります。サイドキャラクターには深みと個性があり、彼らのストーリーは記憶に残ります。メインの物語は、忠誠心、裏切り、贖罪のテーマを探求します。"
+      }
+    ]
+  },
+  "gtaTimeline": {
+    "title": "GTA タイムライン: 主要なリリース",
+    "subtitle": "Grand Theft Auto シリーズは最も人気のあるオープンワールドゲームの 1 つになりました。この象徴的なフランチャイズがいかに進化してきたかを追跡します。",
+    "ctaText": "Grand Theft Auto の進化を体験し、San Andreas がなぜ世界中のプレイヤーを魅了し続ける不朽の傑作であるかを発見してください。",
+    "ctaButton": "GTA San Andreas APK を今すぐダウンロード",
+    "events": {
+      "gta1": {
+        "title": "Grand Theft Auto",
+        "description": "最初のゲームはトップダウンゲームプレイを導入し、小規模な都市とシンプルなミッションを特徴としていました。車の盗難、ミニタスクの完了、そして街での移動は楽しいものでした。"
+      },
+      "gtaLondon": {
+        "title": "GTA London 1969 & 1961",
+        "description": "これらの拡張は歴史的な都市マップと時代物の車両を追加しました。古い車と音楽を使用したミッションはユニークな体験を提供しました。"
+      },
+      "gta3": {
+        "title": "Grand Theft Auto III",
+        "description": "これは最初の 3D オープンワールド GTA でした。Liberty City は登場人物、ボイスアクティング、映画的なミッションで生き生きとしていました。探索する自由がゲームをより没入感のあるものにしました。"
+      },
+      "gtaViceCity": {
+        "title": "GTA: Vice City",
+        "description": "Vice City は 1980 年代にインスピレーションを受けた都市を舞台にしており、ネオンライト、スタイリッシュな車、記憶に残るサウンドトラックで象徴的になりました。サイドミッションと車のカスタマイズは街の探索をより楽しいものにしました。"
+      },
+      "gtaSanAndreas": {
+        "title": "GTA: San Andreas",
+        "description": "San Andreas は 3 つの主要都市を導入しました: Los Santos、San Fierro、Las Venturas。CJ の旅、ギャング紛争、サイドクエストは深く没入感のある体験を作成しました。"
+      },
+      "gta4": {
+        "title": "GTA IV",
+        "description": "GTA IV はリアルな環境とストーリーテリングに焦点を当てました。Liberty City はより良いグラフィック、物理、詳細なキャラクターインタラクションで再設計されました。"
+      },
+      "gta5": {
+        "title": "GTA V",
+        "description": "Los Santos は HD で 3 人のプレイ可能キャラクター、オンラインマルチプレイ、そして巨大なオープンワールドで戻ってきました。ヘイスト、サイドミッション、都市探索は終わりのないエンターテインメントを提供しました。"
+      },
+      "gtaSA2025": {
+        "title": "GTA San Andreas APK 2025 アップデート",
+        "description": "San Andreas APK は拡張マップ、グラフィックの向上、新しいストーリーミッションで興奮したままです。Los Santos に追加クエストを追加するモッドはそれを完全に新しいもの感じさせます。"
+      }
+    }
+  },
+  "tipsAndTricks": {
+    "title": "San Andreas APKのヒントとコツ",
+    "subtitle": "San Andreas APKをプレイするのは楽しいですが、いくつかのヒントを知ることでゲームをさらに楽しくすることができます。ロスサントスを探索するのに何時間も費やしたことを覚えています。これらのコツを使用することで、私の経験が向上しました。",
+    "ctaButton": "San Andreas APKを今すぐダウンロード",
+    "tips": {
+      "savingFrequently": {
+        "title": "セーフハウスで頻繁に保存する",
+        "description": "常にセーフハウスで頻繁に保存してください。長いミッションを完了して保存を忘れ、進行状況を失ったことが一度あり、それは非常にイライラしました。頻繁に保存すると、進行状況が安全に保たれます。"
+      },
+      "cheatCodes": {
+        "title": "楽しみのためにチートコードを使用する",
+        "description": "チートコードを使用するとミッションが簡単またはより楽しくなります。車両のスポーンから天気の変更まで、チートコードを使用することで、ストーリーでは通常できないことを試すことができます。"
+      },
+      "upgradeSkills": {
+        "title": "運転と射撃スキルを向上させる",
+        "description": "運転と射撃のスキルを改善することに集中してください。CJの運転を向上させることで、レースと車の追跡がはるかに簡単になったこと、そしてより良い射撃スキルがギャングの紛争に役立つことを発見しました。"
+      },
+      "exploreMap": {
+        "title": "秘密とアイテムのためにマップを探索する",
+        "description": "マップを探索する時間をとってください。隠されたコレクション、秘密の場所、ボーナスアイテムはより世界を刺激します。サンフィエロで隠された武器の隠し場所を発見したことがあり、それは難しいミッションで私を助けました。"
+      },
+      "manageFinance": {
+        "title": "ゲーム内の財務と不動産のヒント",
+        "description": "お金を賢く管理してください。財産を購入し、ビジネスに投資してください。このゲーム内の財務戦略は安定した収入を提供し、車両または武器をアップグレードするのに役立ちます。"
+      },
+      "vehicleCustomisation": {
+        "title": "車両のアップグレードとカスタマイズ",
+        "description": "車をカスタマイズするとパフォーマンスが向上し、運転がより楽しくなります。エンジンをアップグレードして新しいペイントを追加するのが大好きでした。それぞれの車両をユニークにしました。"
+      },
+      "sideActivities": {
+        "title": "サイドアクティビティに参加する",
+        "description": "レース、ギャンブル、タクシー運転などのサイドミッションは、追加の報酬と経験を提供します。それらを完了することは、世界をより生き生きとさせます。"
+      }
+    }
+  },
+  "gameplayControls": {
+    "title": "ゲームプレイとコントロール",
+    "subtitle": "San Andreas APKをプレイすることは、特に更新された2025年版では滑らかで楽しい経験です。ゲームはメインミッション、サイドアクティビティ、オープンワールド探索を組み合わせ、プレイヤーに完全な自由を与えます。ロス・サントスを通じてスポーツカーを運転した最初の時を覚えています。コントロールはリアルに感じられ、経験を興奮させました。",
+    "ctaButton": "San Andreas APKを今すぐダウンロード",
+    "sections": {
+      "smoothDriving": {
+        "title": "スムーズな運転と車両ハンドリング",
+        "description": "このバージョンでは車両の操作感がはるかに向上しています。強化されたハンドリングとコントロールの調整により、カーチェイス、レース、カジュアルな運転がより楽しくなります。車両をアップグレードすることで、速度と安定性も向上します。"
+      },
+      "shootingCombat": {
+        "title": "射撃と戦闘コントロール",
+        "description": "射撃コントロールはレスポンシブで、ミッション完了がより直接的になります。プレイヤーは素早く狙い、発砲し、武器を切り替えることができます。射撃スキルを上げることで、ギャング関連ミッションをより効率的に完了できることに気づきました。"
+      },
+      "controllerSupport": {
+        "title": "コントローラーサポート",
+        "description": "ゲームはコントローラーをサポートしており、モバイルデバイスでコンソールのような体験を提供します。運転、格闘戦、都市の探索はタッチスクリーンコントロールよりもスムーズに感じられます。"
+      },
+      "customizableSettings": {
+        "title": "カスタマイズ可能な設定",
+        "description": "プレイヤーは感度、キーマッピング、カメラアングルを自分のスタイルに合わせて調整できます。コントロールをカスタマイズするとゲームプレイがより快適で楽しくなります。"
+      },
+      "openWorldExploration": {
+        "title": "オープンワールド探索",
+        "description": "San Andreas APKではプレイヤーがロス・サントス、サン・フィエロ、ラス・ベンチュラスを自由に探索できます。マップを探索することで、隠れたアイテム、秘密の場所、ボーナスミッションが見つかります。レース、ギャンブル、タクシー運転などのサイドアクティビティがゲームプレイに多様性を加えます。"
+      },
+      "performanceOptimization": {
+        "title": "パフォーマンス最適化",
+        "description": "低スペックデバイスでも、パフォーマンス最適化によりスムーズなゲーム体験が保証されます。フレームレートは安定し、ロード時間が短縮されるため、より多くのプレイヤーがゲームにアクセスできます。"
+      }
+    }
+  },
+  "downloadInstallation": {
+    "title": "GTA San Andreas MOD APKをダウンロードしてインストールする方法",
+    "subtitle": "これらの簡単な手順に従って、最新バージョンをAndroidデバイスに安全にダウンロードしてインストールしてください",
+    "ctaButton": "APKを今すぐダウンロード",
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "不明なソースを有効にする",
+        "description": "デバイス設定 > セキュリティに移動し、不明なソースを有効にします。これにより、Play Storeの外でAPKファイルを安全にインストールできます。",
+        "icon": "⚙️"
+      },
+      "step2": {
+        "number": "02",
+        "title": "APK + OBBファイルをダウンロード",
+        "description": "MOD APKとOBBファイルを信頼できるソースからダウンロードします。両方のファイルを使用することで、ゲームが正常に実行され、すべての機能がロック解除されます。",
+        "icon": "📥"
+      },
+      "step3": {
+        "number": "03",
+        "title": "APKファイルをインストール",
+        "description": "デバイス上のダウンロード済みAPKファイルを見つけて、インストールをタップします。APKはゲームアプリケーションをインストールし、その後OBBファイルを追加します。",
+        "icon": "📱"
+      },
+      "step4": {
+        "number": "04",
+        "title": "OBBファイルを追加",
+        "description": "OBBフォルダをデバイスのストレージのAndroid/obb/に移動します。フォルダパスが正しいことを確認します: /storage/emulated/0/Android/obb/com.rockstargames.gtasa/",
+        "icon": "📂"
+      },
+      "step5": {
+        "number": "05",
+        "title": "起動して楽しむ",
+        "description": "APKとOBBファイルが配置されたら、ゲームを開きます。すべてのロック解除された機能、MOD、およびHDグラフィックスを問題なく楽しむことができます。",
+        "icon": "🎮"
+      }
+    },
+    "tipsSection": {
+      "title": "スムーズなインストールのためのヒント",
+      "tips": {
+        "tip1": {
+          "title": "ストレージスペースを解放",
+          "description": "インストール前に最低3〜4 GBの空き容量があることを確認してください。"
+        },
+        "tip2": {
+          "title": "デバイスを再起動",
+          "description": "ゲームが正常に起動しない場合は、デバイスを再起動してキャッシュをクリアします。"
+        },
+        "tip3": {
+          "title": "デバイスを最新に保つ",
+          "description": "デバイスのOSとセキュリティパッチを最新の状態に保ちます。"
+        },
+        "tip4": {
+          "title": "信頼できるソースを使用",
+          "description": "常に評判の良いソースからダウンロードして、マルウェアを避けてください。"
+        }
+      }
+    }
+  },
+  "comparison": {
+    "title": "比較：オリジナルVSMODバージョン",
+    "subtitle": "オリジナルのGTA San Andreasとモッドバージョンの違いを理解してください",
+    "category": "バージョン",
+    "original": "オリジナルバージョン",
+    "modVersion": "モッドバージョン",
+    "personalNote": "個人的な意見",
+    "personalNoteText": "最初にオリジナルをプレイしたとき、新しい武器と車のロック解除は各ミッションを特別にしました。その後、modバージョンで、楽しい部分にスキップしてヘリコプターをスポーンし、すべての車両を運転しました。ストーリーよりもサンドボックスレースのようでした。どちらも魅力がありますが、異なる感じを与えます。",
+    "items": {
+      "features": {
+        "category": "機能へのアクセス",
+        "original": "ゲームが公式に提供するものでプレイします。一部の車はロックされており、武器はミッションまたは購入が必要な場合があります。",
+        "mod": "ほとんどの機能はすでにロック解除されています。すべての車、すべての武器、すべてのマップへのアクセスが可能です。"
+      },
+      "graphics": {
+        "category": "グラフィックスとビジュアル",
+        "original": "ゲームがその時代のために良くリリースされたように見えますが、古いテクスチャと詳細があります。",
+        "mod": "このバージョンにはHDテクスチャパック、リアルなグラフィックス、建物や車両の詳細な改善などの改善が含まれています。"
+      },
+      "progression": {
+        "category": "ゲーム進行とミッション",
+        "original": "ミッションを順番にプレイし、コンテンツを徐々にロック解除し、意図されたようにストーリーを追う必要があります。",
+        "mod": "多くのミッションやマップが以前に利用可能になります。ミッションをスキップしたり、車両をスポーンしたり、楽しみのためにチートメニューを使用したりできます。"
+      },
+      "performance": {
+        "category": "デバイスパフォーマンスと最適化",
+        "original": "うまく機能しますが、更新または最適化されていない場合、新しい高解像度デバイスで苦労する可能性があります。",
+        "mod": "パフォーマンスやローエンド最適化など、2025年の更新が含まれていることが多く、古いまたはより弱いデバイスで使用しやすくなります。"
+      },
+      "balance": {
+        "category": "ゲームルールとバランス",
+        "original": "ゲームバランスが維持され、お金の獲得、スキルのアップグレード、武器のロック解除は時間の経過とともに発生します。",
+        "mod": "無制限の楽しみを可能にするためにバランスが低下します。無制限のお金、健康、およびすべてのリソースのロック解除が含まれ、ゲームをより簡単でアクセスしやすくします。"
+      },
+      "experience": {
+        "category": "体験とリプレイ値",
+        "original": "意図された体験、ストーリーの進行、およびチャレンジを提供します。",
+        "mod": "より多くの自由、より多くのカジュアルプレイ、そしてワイルドなものを素早く試すことができます（例：車の出現、楽しみのためのチート）。"
+      }
+    }
+  },
+  "prosAndCons": {
+    "title": "利点と欠点",
+    "prosTitle": "利点",
+    "consTitle": "欠点",
+    "pros": {
+      "gameplay": {
+        "title": "改善されたゲームプレイ",
+        "description": "スムーズなコントロール、より良い運転、改善されたコンバットゲームをより楽しくします。"
+      },
+      "replayValue": {
+        "title": "リプレイ価値",
+        "description": "複数のサイドミッション、隠れた収集品、秘密のチャレンジがプレイヤーを従事させ続けます。"
+      },
+      "optimization": {
+        "title": "モバイル最適化",
+        "description": "2025年のパフォーマンスの調整のおかげで、ローエンドデバイスでもスムーズに動作します。"
+      },
+      "missions": {
+        "title": "エキサイティングなミッション",
+        "description": "ストーリーラインと追加のクエストは数時間のエンターテインメントを提供します。"
+      },
+      "storyline": {
+        "title": "没入型のストーリーライン",
+        "description": "CJの旅は改善されたAIと更新されたミッションのおかげで現実的で魅力的に感じます。"
+      },
+      "customization": {
+        "title": "カスタマイズ",
+        "description": "CJの服、乗り物、スキル、能力をカスタマイズしてユニークな体験を得ます。"
+      },
+      "world": {
+        "title": "広大な世界",
+        "description": "3つの都市、拡張マップ、隠された場所は探索の自由を提供します。"
+      }
+    },
+    "cons": {
+      "fileSize": {
+        "title": "大きなファイルサイズ",
+        "description": "MOD APK + OBBファイルはかなりのストレージスペースを占めます。"
+      },
+      "difficulty": {
+        "title": "難しいミッション",
+        "description": "チートや無制限のリソースがあっても、いくつかのストーリーミッションは難しいままです。"
+      },
+      "performance": {
+        "title": "パフォーマンスの問題",
+        "description": "高エンドのグラフィックスmodは、最適化にもかかわらず、古いデバイスでラグを引き起こす可能性があります。"
+      }
+    }
+  },
+  "safety": {
+    "title": "安全予防措置と推奨事項",
+    "subtitle": "MOD APKバージョンのダウンロードとプレイ中に安全を保つ",
+    "importantNote": "重要な安全リマインダー",
+    "importantNoteText": "デバイスのセキュリティと安全性を常に優先してください。信頼できるソースからのみダウンロードし、ウイルス対策を有効に保ち、デバイスのパフォーマンスを監視してください。疑わしい動作や問題が発生した場合は、すぐに使用を中止してください。",
+    "precautions": {
+      "trusted": {
+        "title": "信頼できるソースからダウンロード",
+        "description": "常に信頼できるWebサイトからAPK + OBBファイルをダウンロードしてください。マルウェアやウイルスを防ぐためにランダムなリンクを避けてください。"
+      },
+      "backup": {
+        "title": "データをバックアップ",
+        "description": "MODバージョンをインストールする前に、元のゲームセーブファイルをバックアップして、何か問題が発生した場合に進行状況を保護してください。"
+      },
+      "unknown": {
+        "title": "不明なソースを慎重に有効にする",
+        "description": "MOD APKインストール用にのみ不明なソースを有効にしてください。インストール後、デバイスを保護するために無効にしてください。"
+      },
+      "storage": {
+        "title": "ストレージとデバイス互換性を確認",
+        "description": "デバイスが最小要件を満たし、十分なストレージを備えていることを確認してください。ストレージ不足はクラッシュを引き起こす可能性があります。"
+      },
+      "antivirus": {
+        "title": "ウイルス対策をアクティブに保つ",
+        "description": "MODをダウンロードおよびインストールするときはモバイルウイルス対策アプリを使用してください。これにより、保護の追加レイヤーが追加されます。"
+      },
+      "cheats": {
+        "title": "オンラインチートの使用を避ける",
+        "description": "一部のMODバージョンはオンラインチートを許可する場合がありますが、これらを使用するとマルチプレイヤーモードでバンされる可能性があります。安全のためシングルプレイヤーチートに固執してください。"
+      },
+      "update": {
+        "title": "更新に注意して対応",
+        "description": "MOD更新が利用可能な場合は、更新する前に指示を慎重に読んでください。一部の更新では古いOBBファイルを削除する必要がある場合があります。"
+      },
+      "monitor": {
+        "title": "デバイスのパフォーマンスを監視",
+        "description": "インストール後、デバイスの温度とパフォーマンスを注意深く監視してください。HDグラフィックスのmodは古いデバイスにストレスを与える可能性があります。"
+      }
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "GTA San Andreas MOD APKに関するよくある質問への回答を見つけてください。最高の体験を得るために、最もよく聞かれる質問をまとめました。",
+    "questions": {
+      "q1": {
+        "question": "MODバージョンをダウンロードするのは安全ですか?",
+        "answer": "信頼できるサイトからダウンロードすれば安全な場合があります。肯定的なレビューを確認し、ウイルス対策ソフトウェアを使用してください。常にゲームのセーブをバックアップし、ランダムなリンクを避けてください。信頼できるソースからダウンロードし、インストール前にウイルス対策でファイルをスキャンしてセキュリティを確保してください。"
+      },
+      "q2": {
+        "question": "MODバージョンは私の携帯電話で動作しますか?",
+        "answer": "デバイスのスペックによります。Androidバージョン、RAM、ストレージが少なくとも最小要件を満たしていれば動作するはずです。フォーラムの多くのユーザーは、スペックが低い場合にゲームが自分の電話で実行できるか質問します。デバイスがAndroid 7.0+、3GB RAM、3〜4GBの空き容量を持っているか確認してください。"
+      },
+      "q3": {
+        "question": "MODバージョンをインストールすると私の進行状況はどうなりますか?",
+        "answer": "オリジナルの代わりにMODバージョンをインストールすると、オリジナルのセーブを上書きしたり、競合したりする可能性があります。安全のため、まずゲームデータをバックアップしてください。クラウドセーブを使用するか、MODバージョンをインストールする前にセーブファイルを別の場所にコピーできます。"
+      },
+      "q4": {
+        "question": "チートコードはこのMOD APKバージョンでも機能しますか?",
+        "answer": "はい。実際、多くのMODバージョンには組み込みのチートやロック解除されたメニューが付属しています。楽しみのためにチートコードを使用できますが、使用するとゲームの難易度が下がる可能性があることを覚えておいてください。ほとんどのMODバージョンは完全なチートコード機能を維持しています。"
+      },
+      "q5": {
+        "question": "MODバージョンではすべてのミッションがロック解除されていますか?",
+        "answer": "多くの場合、はい。多くのMODバージョンには「すべてのミッションがロック解除」が含まれているため、任意のミッションから開始できます。これは人々が探している主要な機能の1つです。以前のミッションを完了せずに、後のミッションや特定のストーリーチャプターに直接ジャンプできます。"
+      },
+      "q6": {
+        "question": "MODバージョンを使用するとBANされますか?",
+        "answer": "厳密にシングルプレイヤーでプレイしている場合、リスクは低いです。ただし、オンラインまたは接続モードでは、MODやチートがゲームルールに違反したり、BANにつながる可能性があります。アカウントBANや制限を避けるために、オフラインプレイに固執するのが最も安全です。"
+      },
+      "q7": {
+        "question": "MODバージョンはグラフィックとパフォーマンスを改善しますか?",
+        "answer": "はい、多くのMODバージョンには、HDテクスチャパック、より良い照明、改善されたビジュアル、2025年のパフォーマンス調整が含まれています。ただし、これらによりファイルサイズが増加し、より多くのデバイスパワーが必要になる場合があります。強化されたグラフィックスにはより多くの処理能力が必要ですが、より良い視覚品質を提供します。"
+      },
+      "q8": {
+        "question": "MODバージョンのファイルサイズはどのくらいですか?",
+        "answer": "追加機能、高品質グラフィックス、OBBデータのため、ファイルサイズはオリジナルよりもはるかに大きくなる傾向があります。インストールに対応するためにより多くのストレージスペースが必要になります。通常、APK + OBB合わせて2.5〜3.5GBを予想してください。"
+      },
+      "q9": {
+        "question": "MODをインストールした後、オリジナルバージョンに戻すことはできますか?",
+        "answer": "はい、できます。MODバージョンをアンインストールし、バックアップしたセーブ(持っている場合)を復元して、オリジナルバージョンを再インストールするだけです。競合を避けるために、MODに関連する追加ファイルをクリアしてください。"
+      },
+      "q10": {
+        "question": "MODバージョンを使用することに法的リスクはありますか?",
+        "answer": "はい、リスクがあります。MODバージョンはオリジナルゲームのライセンスに違反する可能性があります。また、許可されていないファイルを使用すると、デバイスやアカウントの問題が発生する可能性があります。注意して使用し、MODの使用が利用規約に違反する可能性があることを理解してください。"
+      }
+    },
+    "ctaSection": {
+      "title": "GTA San Andreasを体験する準備はできましたか?",
+      "description": "今すぐMODバージョンをダウンロードして、すべての機能、ミッション、車両をロック解除してください。制限なしで無制限のゲームプレイをお楽しみください。",
+      "button": "GTA San Andreas MOD APKをダウンロード"
+    },
+    "additionalInfo": {
+      "title": "プロのヒント",
+      "description": "さらに質問がある場合、またはインストール中に問題が発生した場合は、インストールガイドまたは安全上の注意事項のセクションを参照してください。最高の体験を得るために、デバイスが互換性があることを常に確認し、信頼できるソースからダウンロードしてください。"
+    }
+  },
+  "conclusion": {
+    "title": "最終的な考察と結論",
+    "paragraph1": "GTA San Andreas APK（2025 MODバージョン）は、モバイルで利用可能な最もエキサイティングなオープンワールドゲームの1つです。すべてのミッションがアンロックされ、無制限のお金、HDグラフィックス、および強化されたコントロールにより、プレイヤーはオリジナルのリリースから数年後でも新鮮な体験を楽しむことができます。都市の探索、ストーリーミッションの完了、または楽しいチートコードの試行など、あなたが好きなことは何でも、このバージョンは完全な自由と娯楽を提供します。",
+    "paragraph2": "2025年のアップデートにより、モバイルデバイスでよりスムーズになり、ビジュアルが改善され、新しいチャレンジが追加され、長年のファンを維持しながら新しいプレイヤーを魅了します。ダウンロード時には安全上の注意を守り、進行状況をバックアップし、責任を持ってゲームを楽しむことを忘れないでください。",
+    "paragraph3": "全体的に、このAPKは、クラシックなゲームプレイと最新の改善を融合させた、楽しく、カスタマイズ可能で、没入感のあるGTA体験をモバイルで求めている人に最適です。",
+    "highlights": {
+      "highlight1": {
+        "title": "完全な自由",
+        "description": "すべてのミッション、車両、機能がアンロックされた無制限のゲームプレイを体験してください。制限なく、まさに自分の好きなようにプレイしましょう。"
+      },
+      "highlight2": {
+        "title": "最新の改善",
+        "description": "2025年のアップデートを楽しんで、改善されたグラフィックス、スムーズなパフォーマンス、そしてゲームを新鮮で魅力的に保つ新機能を体験してください。"
+      },
+      "highlight3": {
+        "title": "すべての人のために",
+        "description": "長年のファンでも新しいプレイヤーでも、このAPKは無限の可能性を持つカスタマイズ可能で没入感のある体験を提供します。"
+      }
+    },
+    "finalCTA": {
+      "title": "GTA San Andreas MOD APKをダウンロードする準備はできましたか？",
+      "description": "究極のGTA San Andreas体験を楽しんでいる何千人ものプレイヤーに参加しましょう。今すぐダウンロードして、ロスサントスでの冒険を始めましょう！",
+      "button": "今すぐダウンロード"
+    }
+  },
+  "forPC": {
+    "hero": {
+      "title": "GTA San Andreas For PC - The Ultimate Gaming Experience",
+      "subtitle": "Experience the legendary Grand Theft Auto: San Andreas on your PC with enhanced graphics, unlimited features, and complete freedom",
+      "scrollIndicator": "Scroll to explore the world"
+    },
+    "storySection": {
+      "title": "GTA San Andreas 完全ストーリー ジャーニー",
+      "introduction": "カール「CJ」ジョンソンがロス・サントスに戻り、ギャングを再構築し、家族を救うという壮大な物語を発見してください。これはゲームの最も象徴的なストーリーラインの完全なウォークスルーです。"
+    },
+    "sections": {
+      "section1": {
+        "title": "Homecoming",
+        "description": "CJ's story begins when he returns to Grove Street after five years. His family is struggling, his neighborhood is under gang control, and he must take action to reclaim what's his."
+      },
+      "section2": {
+        "title": "Rebuild the Family",
+        "description": "Help your family members, strengthen Grove Street gang, and establish your territory. Make strategic alliances and eliminate threats."
+      },
+      "section3": {
+        "title": "Expand Your Territory",
+        "description": "Move beyond Los Santos and expand to San Fierro and Las Venturas. Each city offers new opportunities, challenges, and storylines."
+      },
+      "section4": {
+        "title": "Make Strategic Alliances",
+        "description": "Work with powerful figures like Woozie and Big Smoke. These alliances shape the course of your journey and open new possibilities."
+      },
+      "section5": {
+        "title": "Master Diverse Skills",
+        "description": "Learn to drive, fly, and shoot with precision. These skills are essential for surviving the dangerous world of San Andreas."
+      },
+      "section6": {
+        "title": "Customize Your Experience",
+        "description": "Modify your appearance, vehicles, and weapons. Personalization makes the game feel uniquely yours."
+      },
+      "section7": {
+        "title": "Discover Hidden Secrets",
+        "description": "The world is full of secrets. Find hidden missions, collectibles, and locations that reward exploration."
+      },
+      "section8": {
+        "title": "Complete Your Legacy",
+        "description": "Finish epic missions, build your empire, and leave your mark on San Andreas. The story concludes with your actions shaping the outcome."
+      }
+    },
+    "experience": {
+      "title": "The Complete GTA San Andreas Experience",
+      "description": "GTA San Andreas for PC offers the ultimate freedom in gaming. Experience unlimited gameplay with all features unlocked, enhanced graphics, and complete control over your adventure."
+    },
+    "whyLoveIt": {
+      "title": "なぜ皆が今でもGTA San Andreasを愛しているのか",
+      "content": [
+        "史上最高のオープンワールドゲームについて話すとき、いつも同じ名前が出てくる — GTA San Andreas。",
+        "10年以上経った今でも、このアイコニックなオープンワールドゲームは何百万人もの心を掴んでいます。街、音楽、キャラクター、すべてが生きているように感じます。",
+        "GTA San Andreas Mod APKはこのクラシックを最新の更新とともに復活させます。プレイヤーはより滑らかなグラフィック、新しい車、より良い武器、そして追加ミッションを楽しむことができるようになりました。クラシックと新しさが同時に感じられます。",
+        "GTA 3、GTA 4、さらにはGTA 5を試したゲーマーの多くが San Andreasに戻ってきました。他のGTAゲームは、この作品のように街の精神、兄弟愛の絆、生のエネルギーを捉えることはできません。",
+        "GTA San Andreasが初めてであれば、または数年後に戻ってくるのであれば、この2025年ガイドはあなたが必要なすべてのものを提供します：ゲームプレイ情報、機能、ヒント、チート、そしてアップデート。"
+      ]
+    },
+    "overview": {
+      "title": "PC Version Overview",
+      "description": "The PC version of GTA San Andreas brings enhanced capabilities and superior performance compared to mobile versions. Enjoy superior graphics, faster loading times, and seamless gameplay."
+    },
+    "updates": {
+      "title": "2025 Updates & Enhancements",
+      "description": "The latest PC version includes expanded maps, improved AI, new missions, and visual enhancements that make San Andreas feel fresh and exciting."
+    },
+    "faqs": [
+      {
+        "id": "1",
+        "question": "Is GTA San Andreas available for free on PC?",
+        "answer": "GTA San Andreas is available on various platforms. Check official sources for legitimate copies and free offerings."
+      },
+      {
+        "id": "2",
+        "question": "Can my PC run GTA San Andreas?",
+        "answer": "The game has modest system requirements. Most modern PCs can run it with good performance. Recommended: Windows 7+, 4GB RAM, 8GB storage."
+      },
+      {
+        "id": "3",
+        "question": "What mods are available for the PC version?",
+        "answer": "The PC version has extensive mod support. Popular mods include graphics enhancements, new missions, expanded maps, and gameplay improvements."
+      },
+      {
+        "id": "4",
+        "question": "How long is the main story?",
+        "answer": "The main story takes 20-30 hours to complete. With side missions and exploration, players often spend 50+ hours in the game."
+      },
+      {
+        "id": "5",
+        "question": "Is multiplayer available in the single-player campaign?",
+        "answer": "The main game is single-player only. However, mods can add multiplayer functionality on dedicated servers."
+      }
+    ]
+  },
+  "missions": {
+    "secretMissionsTitle": "シークレットミッション",
+    "mainMissionsTitle": "シンプルなメインミッション",
+    "secret": [
+      {
+        "title": "Courier Mission",
+        "description": "Deliver letters around the city using a bike."
+      },
+      {
+        "title": "Vigilante Mission",
+        "description": "Steal a police car and catch criminals."
+      },
+      {
+        "title": "Firefighter Mission",
+        "description": "Drive the fire truck and stop fires."
+      },
+      {
+        "title": "Paramedic Mission",
+        "description": "Help injured people and earn respect."
+      },
+      {
+        "title": "Taxi Driver Mission",
+        "description": "Pick up passengers and drop them fast."
+      }
+    ],
+    "main": [
+      {
+        "title": "Big Smoke",
+        "description": "Introduces Big Smoke and the story."
+      },
+      {
+        "title": "Drive-Thru",
+        "description": "A fun mission where you eat and chase Ballas."
+      },
+      {
+        "title": "Tagging Up Turf",
+        "description": "Learn to spray paint gang tags."
+      },
+      {
+        "title": "OG Loc",
+        "description": "Help OG Loc in his first music dream."
+      },
+      {
+        "title": "Reuniting the Families",
+        "description": "Team up with Sweet and escape the police."
+      }
+    ]
+  },
+  "gtaCars": {
+    "pageTitle": "GTA サンアンドレアスの自動車",
+    "hero": {
+      "title": "GTA サンアンドレアスの自動車",
+      "subtitle": "伝説的なゲームの完全な乗り物ガイド",
+      "badge1": "200+ 乗り物",
+      "badge2": "完全なデータベース"
+    },
+    "introduction": {
+      "title": "GTA サンアンドレアス Mod APKについて",
+      "paragraph1": "GTA サンアンドレアスの世界には、運転、カスタマイズ、収集できるたくさんの異なる乗り物があります。このゲームは広大なオープンワールドと信じられないような自動車コレクションのおかげでスーパーポピュラーになりました。サンアンドレアスの通りで、速いスポーツカーから巨大なトラックまで、すべてを見つけることができます。",
+      "paragraph2": "このゲームの自動車は単なる移動手段ではありません。彼らは自由、スタイル、そして1990年代のクールなカリフォルニアの雰囲気を表しています。プレイヤーはレアな自動車を探す時間を費やすことを愛し、ガレージで修理し、ロスサントス、サンフィエロ、ラスベンチューラスを走り抜けます。"
+    },
+    "vehicleDatabase": {
+      "title": "GTA サンアンドレアス自動車リスト：完全な乗り物データベース",
+      "subtitle": "速度と価格情報を含むすべての乗り物",
+      "headers": [
+        "乗り物名",
+        "種類",
+        "最高速度",
+        "価格"
+      ],
+      "totalVehicles": "200+ 乗り物",
+      "data": [
+        {
+          "name": "Admiral",
+          "type": "自動車/セダン",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Alpha",
+          "type": "自動車/スポーツ",
+          "speed": "124 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Ambulance",
+          "type": "緊急/自動車",
+          "speed": "96 km/h",
+          "price": "10.000 $"
+        },
+        {
+          "name": "Andromada",
+          "type": "飛行機",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Airtrain",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Airwolf",
+          "type": "ヘリコプター",
+          "speed": "190 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Artict",
+          "type": "トラック",
+          "speed": "87 km/h",
+          "price": "45.000 $"
+        },
+        {
+          "name": "Baller",
+          "type": "SUV",
+          "speed": "118 km/h",
+          "price": "60.000 $"
+        },
+        {
+          "name": "Banshee",
+          "type": "自動車/スポーツ",
+          "speed": "129 km/h",
+          "price": "65.000 $"
+        },
+        {
+          "name": "Barracks",
+          "type": "軍事/トラック",
+          "speed": "75 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Barracks OL",
+          "type": "軍事/トラック",
+          "speed": "75 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Berkley's Van",
+          "type": "バン",
+          "speed": "82 km/h",
+          "price": "15.000 $"
+        },
+        {
+          "name": "BF-400",
+          "type": "バイク/自転車",
+          "speed": "120 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "BF-Injection",
+          "type": "オフロード",
+          "speed": "110 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "Bike",
+          "type": "バイク/自転車",
+          "speed": "12 km/h",
+          "price": "無料"
+        },
+        {
+          "name": "Blade",
+          "type": "自動車/ロウライダー",
+          "speed": "112 km/h",
+          "price": "52.000 $"
+        },
+        {
+          "name": "Blista Compact",
+          "type": "自動車/都市",
+          "speed": "102 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "Bloodring Banger",
+          "type": "自動車/改造",
+          "speed": "108 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Blueline Goods",
+          "type": "トラック/配送",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Boat",
+          "type": "水上乗り物",
+          "speed": "85 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Boxville",
+          "type": "トラック/配送",
+          "speed": "91 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Brawler",
+          "type": "自動車/オフロード",
+          "speed": "98 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Breeze",
+          "type": "自動車/都市",
+          "speed": "100 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Bronco",
+          "type": "SUV",
+          "speed": "115 km/h",
+          "price": "55.000 $"
+        },
+        {
+          "name": "Brown Streak",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Bus",
+          "type": "運送/バス",
+          "speed": "85 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cabbie",
+          "type": "タクシー",
+          "speed": "100 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Camper",
+          "type": "バン",
+          "speed": "99 km/h",
+          "price": "28.000 $"
+        },
+        {
+          "name": "Caracara",
+          "type": "SUV",
+          "speed": "115 km/h",
+          "price": "58.000 $"
+        },
+        {
+          "name": "Carbine",
+          "type": "ライフル",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Carabane",
+          "type": "自動車/運送",
+          "speed": "105 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cargobob",
+          "type": "ヘリコプター",
+          "speed": "175 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cargoplane",
+          "type": "飛行機",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Cartop",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Cement Truck",
+          "type": "トラック/産業",
+          "speed": "92 km/h",
+          "price": "42.000 $"
+        },
+        {
+          "name": "Cheetah",
+          "type": "自動車/スポーツ",
+          "speed": "130 km/h",
+          "price": "80.000 $"
+        },
+        {
+          "name": "Cherub",
+          "type": "飛行機",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Clover",
+          "type": "自動車/ギャング",
+          "speed": "106 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Coach",
+          "type": "バス",
+          "speed": "80 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Comet",
+          "type": "自動車/スポーツ",
+          "speed": "125 km/h",
+          "price": "72.000 $"
+        },
+        {
+          "name": "Commandeer",
+          "type": "軍事/トラック",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Copter",
+          "type": "ヘリコプター",
+          "speed": "180 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Corpse",
+          "type": "自動車/改造",
+          "speed": "80 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Covered Wagon",
+          "type": "ワゴン",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Crate",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Crane",
+          "type": "産業",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Crusader",
+          "type": "トラック",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cuban",
+          "type": "飛行機",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Dinghy",
+          "type": "水上乗り物",
+          "speed": "60 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dinghy Inflatable",
+          "type": "水上乗り物",
+          "speed": "60 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dozer",
+          "type": "産業",
+          "speed": "55 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "DPV",
+          "type": "バイク",
+          "speed": "120 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dub",
+          "type": "自動車/ロウライダー",
+          "speed": "110 km/h",
+          "price": "50.000 $"
+        },
+        {
+          "name": "Dumper",
+          "type": "トラック/産業",
+          "speed": "76 km/h",
+          "price": "48.000 $"
+        },
+        {
+          "name": "Dustoff",
+          "type": "ヘリコプター",
+          "speed": "185 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "DWT-20",
+          "type": "バイク",
+          "speed": "115 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Elegy",
+          "type": "自動車/スポーツ",
+          "speed": "126 km/h",
+          "price": "78.000 $"
+        },
+        {
+          "name": "Emerus",
+          "type": "自動車/スポーツ",
+          "speed": "135 km/h",
+          "price": "88.000 $"
+        },
+        {
+          "name": "Emperor",
+          "type": "自動車/セダン",
+          "speed": "105 km/h",
+          "price": "32.000 $"
+        },
+        {
+          "name": "Enforcer",
+          "type": "トラック/SWAT",
+          "speed": "92 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Esperanto",
+          "type": "自動車/クラシック",
+          "speed": "108 km/h",
+          "price": "38.000 $"
+        },
+        {
+          "name": "Euros",
+          "type": "自動車/スポーツ",
+          "speed": "132 km/h",
+          "price": "85.000 $"
+        },
+        {
+          "name": "Everon",
+          "type": "自動車/SUV",
+          "speed": "118 km/h",
+          "price": "62.000 $"
+        },
+        {
+          "name": "Exemplar",
+          "type": "自動車/ラグジュアリー",
+          "speed": "117 km/h",
+          "price": "70.000 $"
+        },
+        {
+          "name": "Exterminator",
+          "type": "トラック",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Faimliner",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Fairtone",
+          "type": "自動車/クラシック",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Farmtruck",
+          "type": "トラック",
+          "speed": "82 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "FCR-900",
+          "type": "バイク",
+          "speed": "128 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Feltzer",
+          "type": "自動車/コンバーチブル",
+          "speed": "119 km/h",
+          "price": "68.000 $"
+        },
+        {
+          "name": "Firetruk",
+          "type": "緊急",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Flatbed",
+          "type": "トラック",
+          "speed": "86 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Forklift",
+          "type": "産業",
+          "speed": "45 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Fortune",
+          "type": "自動車/クラシック",
+          "speed": "105 km/h",
+          "price": "40.000 $"
+        },
+        {
+          "name": "Freeway",
+          "type": "バイク",
+          "speed": "122 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Futo",
+          "type": "自動車/都市",
+          "speed": "108 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Fuzzie",
+          "type": "バイク",
+          "speed": "110 km/h",
+          "price": "N/A"
+        }
+      ]
+    },
+    "vehicleSystem": {
+      "title": "GTA サンアンドレアスの乗り物システムを理解する",
+      "content": "このゲームの乗り物システムは本当に詳細で使うのが楽しいです。3つのメイン都市と田舎で200以上の異なる乗り物を見つけることができます。すべての乗り物は異なる運転方法で、独自の速度と力を持っています。これらはゲームプレイに大きな違いをもたらします。ゲームはセダン、スポーツカー、バイク、ボート、飛行機などのカテゴリに乗り物を分けます。ミッションを完了するために様々な種類の乗り物の運転方法を学ぶ必要があります。"
+    },
+    "sportsCars": {
+      "title": "レースと速度のための最高のスポーツカー",
+      "content": "GTA サンアンドレアスのスポーツカーは、スピードが大好きなら完璧です。インフェルヌスは入手できる最速の自動車の1つです。素早く加速し、本当に高い最高速度を持っています。ブレットは人々が探すもう1つの素晴らしいスポーツカーです。良い速度を持ち、運転時に安定しています。ターイズモも同様に機能し、本物のスーパーカーのように見えます。"
+    },
+    "lowRiders": {
+      "title": "クラシックロウライダーとカスタマイズオプション",
+      "content": "ロウライダーはGTA サンアンドレアス文化の大きな部分です。彼らはゲームが知られている西海岸スタイルを示しています。人気のロウライダーモデルはブレード、ブロードウェイ、レミントンです。新しいペイント、ホイール、ニトロシステム、油圧でロウライダーをカスタマイズできます。Loco Low Coなどの特別なガレージを訪問して、これらの乗り物を変更します。",
+      "models": [
+        "Blade",
+        "Broadway",
+        "Remington"
+      ]
+    },
+    "motorcycles": {
+      "title": "高速移動用のバイクと自転車",
+      "content": "バイクはGTA サンアンドレアスのトラフィックを切り抜ける速い方法です。NRG-500はゲーム内で最も速いバイクです。PCJ-600は速度と制御の良いミックスを提供します。サンチェスはオフロード運転に最適です。しかし、バイクは車ほど保護されないため、クラッシュはより傷つきます。",
+      "models": [
+        "NRG-500",
+        "PCJ-600",
+        "Sanchez"
+      ]
+    },
+    "heavyVehicles": {
+      "title": "重い乗り物とトラック",
+      "content": "GTA サンアンドレアスの重い乗り物は、単なる運転以上の特別な用途があります。ダンパーは採石場にあり、ゲーム内で最大の乗り物です。ラインランナートラックキャブとパッカー自動車キャリアはユニークなプレイ方法を提供します。消防車、救急車、警察車両には特別なミッションが付属しています。モンスタートラックは小さな自動車を粉砕し、凸凹の地形を簡単に走行できます。"
+    },
+    "rareVehicles": {
+      "title": "コレクションのためのレアでユニークな乗り物",
+      "content": "GTA サンアンドレアスのいくつかの乗り物は本当にレアで見つけるのが難しいです。フェニックスは特定の場所と時間にのみ表示されます。ZR-350スポーツカーはレアで速い両方です。ホットナイフは特別なホットロッドで、特定の乗り物コレクションチャレンジを完了することによってのみ取得できます。カートはゴーカートのように見え、楽しくて奇妙な運転時間を与えます。",
+      "vehicles": [
+        "Phoenix",
+        "ZR-350",
+        "Hotknife",
+        "Kart"
+      ]
+    },
+    "aircraft": {
+      "title": "飛行乗り物と航空機",
+      "content": "GTA サンアンドレアスの航空機はまったく新しいプレイ方法を追加します。ハイドラジェット戦闘機は速く、垂直に離陸できます。ラスラープロペラ飛行機は、学習を始めたばかりの場合、飛ぶのがより簡単です。マーベリック、警察マーベリックなどのヘリコプターは、観光または航空ミッション用に安定しています。飛行を学ぶには練習が必要ですが、本当にゲームを追加します。",
+      "aircraft": [
+        "Hydra",
+        "Rustler",
+        "Maverick",
+        "Police Maverick"
+      ]
+    },
+    "waterVehicles": {
+      "title": "水の乗り物とボート",
+      "content": "水乗り物はGTA サンアンドレアスで移動するもう1つの方法を提供します。スクワロスピードボートは水上で旅行する最速の方法です。トロピックボートは信頼でき、まともな速度と操作性を持っています。ジェットマックスはエレガントに見え、水上でよく機能します。ボルテックスホバークラフトは土地と水の両方で移動できます。",
+      "vehicles": [
+        "Squalo",
+        "Tropic",
+        "Jetmax",
+        "Vortex"
+      ]
+    },
+    "policeVehicles": {
+      "title": "警察と緊急乗り物",
+      "content": "GTA サンアンドレアスの警察乗り物はパトロールカー、SUV、バイクなど様々なタイプで登場します。警察車はスピードと力が良く、人を追跡するのに適しています。エンフォーサーSWATトラックは重いアーマーを持っています。消防車には水砲があり、消防士ミッションを開始します。救急車はパラメディックミッションを実行できます。これらの乗り物は通常、通常のものより良く機能します。",
+      "vehicles": [
+        "Police Car",
+        "Enforcer",
+        "Fire Truck",
+        "Ambulance",
+        "HPV1000"
+      ]
+    },
+    "importExport": {
+      "title": "輸入/輸出乗り物リスト",
+      "content": "GTA サンアンドレアスの輸入/輸出機能では、特定の乗り物を収集してお金を稼ぐことができます。イースターベイスン桟橋のクレーンにリストが表示されます。最初のリストには見つけやすい一般的な乗り物があります。2番目と3番目のリストには、より珍しく貴重な自動車があります。この機能はあなたをもっと探索させ、ゲームに収集の側面を追加します。"
+    },
+    "modifications": {
+      "title": "乗り物変更とガレージ",
+      "content": "乗り物の変更はGTA サンアンドレアスゲームプレイの大きな部分です。トランスフェンダーガレージは3つの都市にあり、基本的なカスタマイズを提供します。ペイントの色を変更し、ニトロシステムを追加し、油圧をアップグレードし、ホイールを変更できます。サンフィエロのホイールアーチエンジェルはストリートレーシング変更に焦点を当てています。Loco Low Coはロウライダーのカスタマイズのみを行います。"
+    },
+    "damageSystem": {
+      "title": "乗り物ダメージと耐久性",
+      "content": "GTA サンアンドレアスの損傷システムは、乗り物がどのように運転および機能するかを変更します。クラッシュはへこみ、割れた窓、欠けている部品などの目に見えるダメージを引き起こします。重大なダメージは乗り物の機能を低下させます。異なる乗り物は異なる量のダメージに耐えることができます。乗り物をPay'n'Sprayショップで修理できます。"
+    },
+    "cheats": {
+      "title": "チートコードと乗り物生成コード",
+      "content": "GTA サンアンドレアスには、乗り物をすぐに出現させるチートコードがたくさんあります。ジェットパックチートコードでは、飛行機がなくても飛行できます。チートコードの使用はゲームの保存に影響を与え、特定の実績を停止できます。乗り物生成コードはカオスを引き起こすか乗り物をテストするのに非常に人気があります。いくつかのコードは乗り物のパフォーマンスを改善するか、それらを無敵にします。"
+    },
+    "findingVehicles": {
+      "title": "乗り物を見つけて保存するためのヒント",
+      "content": "GTA サンアンドレアスで特定の乗り物を見つけるには、どこで、いつ表示されるかを知る必要があります。異なる乗り物は近所と時刻に応じて異なる領域に表示されます。個人用ガレージでは乗り物を永遠に保存できます。通常2-4の乗り物が入ります。あなたはレアで貴重な乗り物の保存に焦点を当てるべきです。"
+    },
+    "vehicleMissions": {
+      "title": "乗り物ミッションとチャレンジ",
+      "content": "GTA サンアンドレアスの様々な乗り物ミッションは報酬と楽しさを提供します。宅配ミッションは時間制限内のバイク配達を必要とします。スタジアムイベントには土トラックレース、デモリッションダービー、その他の乗り物競技が含まれます。運転学校のミッションは乗り物制御を教えます。貨物列車ミッションでは列車を制御できます。これらのチャレンジを完了することはあなたのスキルを改善し、報酬を与えます。"
+    },
+    "performance": {
+      "title": "人気モデルのパフォーマンス比較",
+      "content": "乗り物のパフォーマンスを比較することは、異なる状況に適切な乗り物を選ぶのに役立ちます。インフェルヌスは最高速度に最適ですが、非常に高い速度で制御するのは難しい場合があります。サルタンは良い全体的なパフォーマンスを提供します。エレジーはまともな速度と非常に良いハンドリングを備えています。バンシーはあり力を提供しますが、それをよく処理するスキルが必要です。"
+    },
+    "drivingSkill": {
+      "title": "運転スキルが乗り物操作に与える影響",
+      "content": "GTA サンアンドレアスの運転スキル統計は、乗り物制御を本当に変更します。低い運転スキルは、曲がるときにスリップと回転しやすくなります。スキルが増加するにつれて、乗り物はより良く反応し、高速で安定したままになります。より高い運転スキルはまた事故からのダメージが少なくなることを意味します。長時間任意の乗り物を運転することでこのスキルを増やすことができます。"
+    },
+    "updates2025": {
+      "title": "最新の更新と機能：2025年の新機能は？",
+      "content": "GTA サンアンドレアスコミュニティは2025年に様々な更新と改善で活発なままです。モバイル版とリマスター版はバグを修正してグラフィックスを改善するパッチを受け取りました。強化版には、新しいプレイヤーのための優れたテクスチャと更新されたコントロールがあります。コミュニティが行った変更は、新しい乗り物と機能を追加し続けています。Netflix モバイル版はゲームを新しいプレイヤーにもたらしました。"
+    },
+    "faqCars": {
+      "title": "GTA サンアンドレアス自動車に関するよくある質問",
+      "data": [
+        {
+          "id": "1",
+          "question": "GTA サンアンドレアスに何台の乗り物がありますか？",
+          "answer": "ゲームは車、バイク、ボート、飛行機、特別な乗り物を含む200以上の乗り物を持っています。この大規模な収集はすべてのプレイヤーの好みと必要性のための何かを持っています。"
+        },
+        {
+          "id": "2",
+          "question": "最速の自動車はどこで見つけることができますか？",
+          "answer": "インフェルヌスは最速の自動車で、通常はサンフィエロのパラディソなどの豊かな地域に表示されます。特定のミッション後にイースターベイスン地域でも見つけることができます。"
+        },
+        {
+          "id": "3",
+          "question": "変更された乗り物を永久に保存できますか？",
+          "answer": "はい、安全な家のガレージに変更された乗り物を保存できます。ガレージに十分なスペースがあることを確認し、乗り物が正しく保存されるように完全に内側に駐車してください。"
+        },
+        {
+          "id": "4",
+          "question": "私のガレージがいっぱいの場合はどうなりますか？",
+          "answer": "ガレージに乗り物が多すぎる場合、保存されている最も古いものは消えます。特別な乗り物を失わないように、新しい乗り物を保存する前にガレージの制限を常に確認してください。"
+        },
+        {
+          "id": "5",
+          "question": "ゲームに飛行自動車がありますか？",
+          "answer": "通常のゲームには飛行自動車がありませんが、ドードー飛行機と様々な航空機があなたを飛行させることができます。いくつかの変更は、より良いゲームプレイのための飛行自動車機能を追加します。"
+        },
+        {
+          "id": "6",
+          "question": "2025年の更新には何か新機能がありますか？",
+          "answer": "2025年の更新には、優れたグラフィックス、バグ修正、更新されたコントロール、改善されたモバイル版があります。コミュニティ変更はまた新しい乗り物とマルチプレイヤーオプションを追加して新しいゲームプレイを提供します。"
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "結論",
+      "content": "GTA サンアンドレアスの自動車はこの伝説的なゲームの最高の部分の1つです。シンプルな自転車から強力な飛行機までの膨大な種類の乗り物は、無限の楽しみとゲームプレイオプションを提供します。レアな自動車の収集、ロウライダーのカスタマイズ、またはスポーツカーのレースが好きかどうかにかかわらず、このゲームは信じられない乗り物体験を提供します。乗り物デザインと操作性の詳細は、引き続きプレイヤーを毎年興味付けます。"
+    }
+  },
+  "gtaCheats": {
+    "pageTitle": "GTA サンアンドレアス チート",
+    "hero": {
+      "title": "GTA サンアンドレアス チート",
+      "subtitle": "無制限のチートとコマンドでサンアンドレアスのすべての場所をマスターしましょう。ルールを破るための完全ガイド。",
+      "badge1": "全プラットフォーム",
+      "badge2": "更新されたコード"
+    },
+    "introduction": {
+      "title": "GTA サンアンドレアス チート",
+      "subtitle": "完全ガイドとリファレンス",
+      "description": "チートはGTA San Andreasをさらに楽しくします。PCとモバイルでそれらを使用して、車、お金、武器、または特殊能力を追加できます。",
+      "paragraph": "チートはGTA San Andreasをさらに楽しくします。PCとモバイルでそれらを使用して、車、お金、武器、または特殊能力を追加できます。楽しいゲームプレイのための人気のあるチートは次のとおりです:",
+      "tip": "💡 ヒント: ゲームを保存した後にチートを使用してください。チートが多すぎると、ゲームがクラッシュしたり、後のミッションが難しくなったりする可能性があります。"
+    },
+    "actionCheats": {
+      "title": "クイックアクションチート",
+      "headers": [
+        "アクション",
+        "チートコード (PC)",
+        "効果"
+      ],
+      "data": [
+        {
+          "action": "無限ヘルス",
+          "pc": "BAGUVIX",
+          "effect": "CJをほぼ無敵にする"
+        },
+        {
+          "action": "フルアーマー",
+          "pc": "HESOYAM",
+          "effect": "完全な鎧と健康を与える"
+        },
+        {
+          "action": "武器セット 1",
+          "pc": "LXGIWYL",
+          "effect": "基本的な銃と近接武器"
+        },
+        {
+          "action": "ジェットパック",
+          "pc": "ROCKETMAN",
+          "effect": "ジェットパックを出現させる"
+        },
+        {
+          "action": "タンク (Rhino)",
+          "pc": "AIWPRTON",
+          "effect": "軍事戦車を出現させる"
+        },
+        {
+          "action": "手配度を下げる",
+          "pc": "AEZAKMI",
+          "effect": "警察があなたを無視する"
+        },
+        {
+          "action": "車が飛ぶ",
+          "pc": "CHITTYCHITTYBANGBANG",
+          "effect": "車が飛ぶことができる"
+        },
+        {
+          "action": "決して空腹にならない",
+          "pc": "AEDUWNV",
+          "effect": "空腹バーがいっぱいのまま"
+        },
+        {
+          "action": "メガジャンプ",
+          "pc": "KANGAROO",
+          "effect": "CJが超高くジャンプする"
+        }
+      ]
+    },
+    "playerCheats": {
+      "title": "プレイヤーチート",
+      "subtitle": "PC、PlayStation、Xbox用",
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "無限ヘルス",
+          "pc": "BAGUVIX",
+          "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE",
+          "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y"
+        },
+        {
+          "effect": "無限弾薬",
+          "pc": "FULLCLIP",
+          "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1",
+          "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB"
+        },
+        {
+          "effect": "無限酸素",
+          "pc": "CVWKXAM",
+          "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN",
+          "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN"
+        },
+        {
+          "effect": "筋肉最大",
+          "pc": "JYSDSOD",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT"
+        },
+        {
+          "effect": "脂肪最大",
+          "pc": "BTCDBCB",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT"
+        },
+        {
+          "effect": "やせる",
+          "pc": "KVGYZQK",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP"
+        },
+        {
+          "effect": "6つ星手配度",
+          "pc": "LJSPQK",
+          "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN",
+          "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN"
+        },
+        {
+          "effect": "手配度を下げる",
+          "pc": "ASNAEB",
+          "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN",
+          "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN"
+        },
+        {
+          "effect": "手配されない",
+          "pc": "AEZAKMI",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT"
+        },
+        {
+          "effect": "メガジャンプ",
+          "pc": "KANGAROO",
+          "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2",
+          "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT"
+        }
+      ]
+    },
+    "vehicleCheats": {
+      "title": "車両と輸送チート",
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "タンカートラックを出現",
+          "pc": "AMOMHRER",
+          "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1",
+          "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB"
+        },
+        {
+          "effect": "ジェットパックを出現",
+          "pc": "ROCKETMAN",
+          "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT",
+          "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT"
+        },
+        {
+          "effect": "ハイドラジェットを出現",
+          "pc": "JUMPJET",
+          "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP",
+          "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP"
+        },
+        {
+          "effect": "モンスタートラックを出現",
+          "pc": "MONSTERMASH",
+          "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1",
+          "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB"
+        },
+        {
+          "effect": "車が飛ぶ",
+          "pc": "RIPAZHA",
+          "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT",
+          "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT"
+        },
+        {
+          "effect": "車が水に浮く",
+          "pc": "BGKGTJH",
+          "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT",
+          "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT"
+        },
+        {
+          "effect": "すべての車にニトロ",
+          "pc": "SPEEDFREAK",
+          "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1",
+          "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB"
+        },
+        {
+          "effect": "すべての車を爆発",
+          "pc": "CPKTNWT",
+          "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1",
+          "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB"
+        }
+      ]
+    },
+    "weatherCheats": {
+      "title": "世界と天気のチート",
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "晴れた天気",
+          "pc": "PLEASANTLYWARM",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE",
+          "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X"
+        },
+        {
+          "effect": "雨の天気",
+          "pc": "AUIFRVQS",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X"
+        },
+        {
+          "effect": "霧の天気",
+          "pc": "CFVFGMJ",
+          "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE",
+          "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X"
+        },
+        {
+          "effect": "早い時間",
+          "pc": "YSOHNUL",
+          "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP",
+          "xbox": "B, B, X, LB, LT, A, Y, UP"
+        },
+        {
+          "effect": "遅い時間",
+          "pc": "LIYOAAY",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1",
+          "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB"
+        }
+      ]
+    },
+    "gangCheats": {
+      "title": "ギャングと歩行者のチート",
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "誰でも募集 (ピストル)",
+          "pc": "SJMAHPE",
+          "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT",
+          "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT"
+        },
+        {
+          "effect": "誰でも募集 (ロケット)",
+          "pc": "ZSOXFSQ",
+          "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+          "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+        },
+        {
+          "effect": "ギャングが通りを支配",
+          "pc": "BIFBUZZ",
+          "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT",
+          "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT"
+        },
+        {
+          "effect": "都市で暴動",
+          "pc": "IOJUFZN",
+          "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1",
+          "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB"
+        }
+      ]
+    },
+    "moneyWeapons": {
+      "title": "お金、武器、スキルのチート",
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "ヘルス、アーマー、$250k",
+          "pc": "HESOYAM",
+          "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "武器セット 1",
+          "pc": "LXGIWYL",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "武器セット 2",
+          "pc": "PROFESSIONALSKIT",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT"
+        },
+        {
+          "effect": "武器セット 3",
+          "pc": "UZUMYMW",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN"
+        }
+      ]
+    },
+    "weapons": {
+      "title": "武器と銃",
+      "subtitle": "価格付き",
+      "description": "武器はGTA San Andreasゲームプレイの大きな部分です。Ammu-Nationストアで購入したり、マップ全体で見つけることができます。",
+      "headers": [
+        "銃の名前",
+        "タイプ",
+        "価格 ($)",
+        "詳細"
+      ],
+      "tip": "💡 ヒント: 異なるミッションには異なる武器を使用してください。ギャング戦争では、ライフルとSMGが最も効果的です。",
+      "data": [
+        {
+          "name": "9mmピストル",
+          "type": "ハンドガン",
+          "price": "250",
+          "details": "基本的な武器、近距離戦闘に適している"
+        },
+        {
+          "name": "デザートイーグル",
+          "type": "ハンドガン",
+          "price": "1200",
+          "details": "強力なダメージ、ワンショットパワー"
+        },
+        {
+          "name": "AK-47",
+          "type": "ライフル",
+          "price": "3500",
+          "details": "人気のアサルトライフル"
+        },
+        {
+          "name": "M4",
+          "type": "ライフル",
+          "price": "5000",
+          "details": "強力で正確"
+        },
+        {
+          "name": "ショットガン",
+          "type": "ポンプ",
+          "price": "1000",
+          "details": "近距離に適している"
+        },
+        {
+          "name": "コンバットショットガン",
+          "type": "オート",
+          "price": "2500",
+          "details": "速射ショットガン"
+        },
+        {
+          "name": "マイクロSMG",
+          "type": "SMG",
+          "price": "1500",
+          "details": "軽量で速い"
+        },
+        {
+          "name": "MP5",
+          "type": "SMG",
+          "price": "3000",
+          "details": "ミッション用の強力なSMG"
+        },
+        {
+          "name": "スナイパーライフル",
+          "type": "長距離",
+          "price": "6000",
+          "details": "長距離精度"
+        },
+        {
+          "name": "RPG",
+          "type": "重火器",
+          "price": "8000",
+          "details": "車両用ロケットランチャー"
+        },
+        {
+          "name": "ミニガン",
+          "type": "重火器",
+          "price": "15000",
+          "details": "極端な火力"
+        }
+      ]
+    },
+    "vehicles": {
+      "title": "車とバイク",
+      "subtitle": "スピードと価格付き",
+      "description": "車とバイクはGTA San Andreas体験の心臓部です。人気のあるものは次のとおりです:",
+      "headers": [
+        "車両名",
+        "タイプ",
+        "速度 (km/h)",
+        "おおよその価格 ($)"
+      ],
+      "fact": "インフェルヌスはゲーム内で最速の車であり、多くのプレイヤーのお気に入りです。",
+      "data": [
+        {
+          "name": "インフェルヌス",
+          "type": "スーパーカー",
+          "speed": "240",
+          "price": "90000"
+        },
+        {
+          "name": "チーター",
+          "type": "スポーツ",
+          "speed": "230",
+          "price": "80000"
+        },
+        {
+          "name": "トゥリスモ",
+          "type": "スポーツ",
+          "speed": "220",
+          "price": "85000"
+        },
+        {
+          "name": "ブレット",
+          "type": "スポーツ",
+          "speed": "210",
+          "price": "75000"
+        },
+        {
+          "name": "バンシー",
+          "type": "スポーツ",
+          "speed": "200",
+          "price": "65000"
+        },
+        {
+          "name": "フェニックス",
+          "type": "クラシック",
+          "speed": "180",
+          "price": "55000"
+        },
+        {
+          "name": "NRG-500",
+          "type": "バイク",
+          "speed": "250",
+          "price": "60000"
+        },
+        {
+          "name": "PCJ-600",
+          "type": "バイク",
+          "speed": "200",
+          "price": "30000"
+        },
+        {
+          "name": "サンチェス",
+          "type": "ダートバイク",
+          "speed": "160",
+          "price": "20000"
+        },
+        {
+          "name": "クワッド",
+          "type": "オフロード",
+          "speed": "140",
+          "price": "15000"
+        }
+      ]
+    },
+    "characters": {
+      "title": "すべての主要キャラクター",
+      "subtitle": "サンアンドレアスの物語",
+      "description": "サンアンドレアスの物語は忘れられないキャラクターでいっぱいです。ここに主要なものがあります:",
+      "headers": [
+        "キャラクター",
+        "物語での役割"
+      ],
+      "note": "各キャラクターはゲームに深みを加え、各ミッションをエキサイティングにします。",
+      "data": [
+        {
+          "name": "カール・ジョンソン (CJ)",
+          "role": "主人公、プレイヤーキャラクター"
+        },
+        {
+          "name": "スウィート・ジョンソン",
+          "role": "CJの兄弟、グローブストリートのリーダー"
+        },
+        {
+          "name": "ビッグスモーク",
+          "role": "CJの古い友人で後に裏切る"
+        },
+        {
+          "name": "ライダー",
+          "role": "別のグローブストリートメンバーで、CJを裏切る"
+        },
+        {
+          "name": "セザール・ヴィアルパンド",
+          "role": "ケンドルのボーイフレンドでCJの親しい同盟者"
+        },
+        {
+          "name": "ケンドル・ジョンソン",
+          "role": "CJの妹、強くて賢い"
+        },
+        {
+          "name": "テンペニー警官",
+          "role": "腐敗した警官、主要な悪役"
+        },
+        {
+          "name": "ウージー",
+          "role": "盲目のトライアドリーダー、CJの友人"
+        },
+        {
+          "name": "カタリナ",
+          "role": "一時期CJのクレイジーなガールフレンド"
+        },
+        {
+          "name": "真実",
+          "role": "CJを助ける面白いヒッピー"
+        }
+      ]
+    },
+    "gangs": {
+      "title": "GTA San Andreasのギャング",
+      "description": "サンアンドレアスの世界は、異なるエリアを支配するギャングでいっぱいです。彼らを知ることは、都市地図を理解し、ギャング戦争を生き残るのに役立ちます。",
+      "headers": [
+        "ギャング名",
+        "主要エリア",
+        "色",
+        "敵"
+      ],
+      "note": "各ギャングには独自の車、タトゥー、音楽があります。グローブストリートファミリーズ、CJのギャングは、彼らの近隣の尊敬と支配のために戦います。",
+      "data": [
+        {
+          "name": "グローブストリートファミリーズ",
+          "area": "ロスサントス",
+          "color": "緑",
+          "enemy": "バラス、ヴァゴス"
+        },
+        {
+          "name": "バラス",
+          "area": "ロスサントス",
+          "color": "紫",
+          "enemy": "グローブストリート"
+        },
+        {
+          "name": "ロスサントスヴァゴス",
+          "area": "ロスサントス",
+          "color": "黄色",
+          "enemy": "グローブストリート"
+        },
+        {
+          "name": "サンフィエロリファ",
+          "area": "サンフィエロ",
+          "color": "青",
+          "enemy": "トライアド"
+        },
+        {
+          "name": "トライアド",
+          "area": "サンフィエロ",
+          "color": "赤",
+          "enemy": "リファ、ダナンボーイズ"
+        },
+        {
+          "name": "ダナンボーイズ",
+          "area": "サンフィエロ",
+          "color": "灰色",
+          "enemy": "トライアド"
+        },
+        {
+          "name": "ヴァリオロスアステカス",
+          "area": "ロスサントス",
+          "color": "水色",
+          "enemy": "バラス、ヴァゴス"
+        },
+        {
+          "name": "ロシアンマフィア",
+          "area": "ラスベンチュラス",
+          "color": "黒",
+          "enemy": "グローブストリート (後のミッション)"
+        }
+      ]
+    },
+    "secretLocations": {
+      "title": "GTA San Andreasの秘密の場所",
+      "description": "サンアンドレアスには、ほとんどのプレイヤーが見逃す秘密の場所がたくさんあります。それらを訪れると報酬や楽しい体験が得られます。",
+      "headers": [
+        "秘密の場所",
+        "場所",
+        "そこで見つけるもの"
+      ],
+      "note": "一部のプレイヤーは、夜にエリア69の近くにUFOが現れると信じていますが、それは単なる神話です — それとも?",
+      "data": [
+        {
+          "location": "エリア69",
+          "place": "砂漠",
+          "find": "隠されたジェット機 (ハイドラ) と軍事基地"
+        },
+        {
+          "location": "チリアド山",
+          "place": "田舎",
+          "find": "パラシュートジャンプスポットと自転車レース"
+        },
+        {
+          "location": "ゴーストタウン",
+          "place": "サンフィエロの北",
+          "find": "奇妙な詳細のある放棄されたエリア"
+        },
+        {
+          "location": "水中遺跡",
+          "place": "ベイサイド近く",
+          "find": "海の下に隠されたオブジェクト"
+        },
+        {
+          "location": "ビッグイヤー",
+          "place": "砂漠",
+          "find": "巨大な電波望遠鏡"
+        },
+        {
+          "location": "グローブストリートの家",
+          "place": "ロスサントス",
+          "find": "CJの家、思い出でいっぱい"
+        },
+        {
+          "location": "イースターベイスンドック",
+          "place": "サンフィエロ",
+          "find": "大きな船とクレーン"
+        },
+        {
+          "location": "ヴァーダントメドウズ",
+          "place": "砂漠",
+          "find": "飛行学校を開始する空港"
+        }
+      ]
+    },
+    "faqCheats": {
+      "title": "よくある質問",
+      "data": [
+        {
+          "id": "1",
+          "question": "GTA San Andreasのチートは実績を無効にしますか?",
+          "answer": "はい、ほとんどのチートは特定のプラットフォームで実績とトロフィーを無効にします。実績が重要な場合は、チートを使用する前にゲームバージョンを確認してください。"
+        },
+        {
+          "id": "2",
+          "question": "マルチプレイヤーモードでチートを使用できますか?",
+          "answer": "いいえ、チートは通常シングルプレイヤーモードでのみ利用できます。マルチプレイヤーでチートを使用すると、オンラインプレイから禁止される可能性があります。"
+        },
+        {
+          "id": "3",
+          "question": "チートはセーブファイルに影響しますか?",
+          "answer": "チートはセーブを破損しませんが、一部のバージョンではセーブを変更済みとしてフラグ付けする場合があります。別のセーブでチートを使用するのが最善です。"
+        },
+        {
+          "id": "4",
+          "question": "PCでチートを入力するにはどうすればよいですか?",
+          "answer": "PCでは、プレイ中にチートコードを入力するだけです。コンソールバージョンでは、コントローラーを使用してボタンの組み合わせを入力します。"
+        },
+        {
+          "id": "5",
+          "question": "無制限の弾薬のチートコードはありますか?",
+          "answer": "はい、無制限の弾薬のための特定のチートがあります。プラットフォームに適したコードを入力して、無限の火力をお楽しみください。"
+        },
+        {
+          "id": "6",
+          "question": "有効にしたチートをオフにできますか?",
+          "answer": "一部のチートはコードを再度入力することでオフにできますが、他のチートは以前のセーブをロードするまで永続的です。"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 GTA San Apk.すべての著作権を保有します。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  }
+}

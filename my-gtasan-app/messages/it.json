@@ -1,0 +1,2186 @@
+{
+  "navigation": {
+    "home": "Home",
+    "mods": "Mod",
+    "about": "Chi siamo",
+    "contact": "Contatti"
+  },
+  "header": {
+    "title": "GTA San Apk",
+    "subtitle": "Mod Premium",
+    "forPC": "Per PC",
+    "darkMode": "Scuro",
+    "lightMode": "Chiaro",
+    "navigation": {
+      "home": "Home",
+      "forPC": "Per PC",
+      "gtaCheats": "Trucchi GTA",
+      "gtaCars": "Auto GTA"
+    }
+  },
+  "hero": {
+    "title": "Benvenuti su GTASAN",
+    "subtitle": "Esplora mod e miglioramenti sorprendenti per GTA San Andreas"
+  },
+  "content": {
+    "title": "GTA San Andreas MOD APK – Tutte le funzioni sbloccate",
+    "paragraph1": "GTA San Andreas APK rimane uno dei giochi più discussi nei giochi mobili per anni. Molti giocatori, incluso me, ricordano ancora di aver passato ore a completare missioni e guidare per le strade della città. Con l'ultimo San Andreas APK, l'esperienza si sente più fluida e piacevole che mai.",
+    "paragraph2": "Questa versione mantiene lo stesso gameplay di azione-avventura che piace a tutti, aggiungendo alcuni tocchi moderni per i giocatori di oggi. La storia segue ancora Carl \"CJ\" Johnson mentre torna a casa a Grove Street, ma i fondi illimitati e le nuove funzioni di mod rendono il gioco più facile da godersi senza limiti.",
+    "paragraph3": "Nel 2025, la grafica più fluida, i controlli migliorati e le opzioni di personalizzazione aggiuntive lo hanno reso un must-have per i fan di lunga data e i nuovi giocatori che vogliono sperimentare nuovamente la sua idea di gameplay principale."
+  },
+  "systemRequirements": {
+    "title": "Requisiti di sistema",
+    "appName": "Nome app",
+    "information": "Informazione",
+    "data": {
+      "appName": "Grand Theft Auto: San Andreas APK",
+      "lastUpdated": "Ultimo aggiornamento",
+      "lastUpdatedValue": "1 giorno fa",
+      "currentVersion": "Versione attuale",
+      "currentVersionValue": "v2.11.279",
+      "category": "Categoria",
+      "categoryValue": "Azione / Mondo aperto",
+      "developer": "Sviluppatore",
+      "developerValue": "Rockstar Games",
+      "modFeatures": "Funzioni MOD",
+      "modFeaturesValue": "Denaro illimitato, tutti i contenuti sbloccati",
+      "minimumAndroid": "Android minimo",
+      "minimumAndroidValue": "7.0 o superiore",
+      "gameSize": "Dimensione gioco",
+      "gameSizeValue": "2,5 GB ca.",
+      "multiplayer": "Supporto multigiocatore",
+      "multiplayerValue": "Non supportato (Single-player)",
+      "availability": "Disponibilità",
+      "availabilityValue": "Dispositivi Android (fonti alternative Google Play)",
+      "storage": "Requisito di archiviazione",
+      "storageValue": "Almeno 3–4 GB di spazio libero consigliato",
+      "devicePerformance": "Prestazioni del dispositivo",
+      "devicePerformanceValue": "3 GB di RAM o superiore, CPU di fascia media consigliata",
+      "installationFiles": "File di installazione",
+      "installationFilesValue": "File APK + OBB / Dati richiesti",
+      "googlePlayStore": "Google Play Store",
+      "googlePlayStoreValue": "Playstore"
+    },
+    "featuresTitle": "Caratteristiche principali",
+    "imagePlaceholder": "Aggiungi immagine qui",
+    "features": {
+      "unlimitedExploration": {
+        "title": "Esplorazione illimitata",
+        "description": "Viaggia liberamente attraverso Los Santos con accesso senza restrizioni a tutte le aree, scopri segreti nascosti e goditi il vasto paesaggio del mondo aperto."
+      },
+      "dynamicWeather": {
+        "title": "Meteo dinamico e ciclo giorno/notte",
+        "description": "Sperimenta cambiamenti meteorologici realistici e un ciclo giorno-notte completo che influisce sul gameplay e l'atmosfera."
+      },
+      "enhancedAudio": {
+        "title": "Effetti audio migliorati",
+        "description": "Suoni di motore chiari, effetti ambientali e design audio immersivo rendono ogni momento di gioco più coinvolgente e realistico."
+      },
+      "personalizedGrowth": {
+        "title": "Crescita del personaggio personalizzata",
+        "description": "Personalizza l'aspetto, le abilità e le capacità di CJ per adattarsi al tuo stile di gioco e crea un'esperienza di gioco unica."
+      },
+      "expandedVehicles": {
+        "title": "Opzioni di veicoli ampliate",
+        "description": "Accedi a un'ampia gamma di veicoli rari ed esclusivi, dalle auto sportive agli elicotteri."
+      },
+      "sideActivities": {
+        "title": "Premi delle attività secondarie",
+        "description": "Partecipa a entusiasmanti missioni secondarie, gare e attività che offrono premi e contenuti aggiuntivi."
+      }
+    }
+  },
+  "gtaFeatures": {
+    "title": "Caratteristiche di GTA San Andreas APK (Versione 2025)",
+    "storylineTitle": "Trama di GTA SA APK",
+    "videoTitle": "Guarda la storia di GTA San Andreas",
+    "videoDescription": "Immergiti più profondamente nel mondo di GTA San Andreas. Scopri il racconto epico, lo sviluppo dei personaggi e l'incredibile viaggio di CJ attraverso le pericolose strade di Los Santos.",
+    "ctaButton": "Scarica APK ora",
+    "storyline": {
+      "cjJourney": {
+        "title": "Il viaggio di CJ e i legami familiari",
+        "description": "L'obiettivo principale di CJ è aiutare la sua famiglia e restaurare l'influenza della sua gang. I giocatori vivono missioni che testano strategia, abilità di guida e capacità di combattimento. Dalle gare stradali alle guerre di gang ad alto livello, la trama ti mantiene coinvolto."
+      },
+      "gangConflicts": {
+        "title": "Conflitti di gang e rivalità",
+        "description": "Una delle parti più emozionanti della storia è le rivalità di gang in corso. I giocatori possono sentire la tensione mentre CJ naviga alleanze, tradimento e conflitti. Le missioni dove pianifichi attacchi a territori rivali aggiungono realismo."
+      },
+      "characterDev": {
+        "title": "Sviluppo del personaggio e missioni secondarie",
+        "description": "Il gioco non si concentra solo sulle missioni principali. CJ diventa più forte attraverso aggiornamenti di abilità, padronanza delle armi e scelte personali. I compiti secondari, come guidare taxi, gestire proprietà, o personalizzare auto."
+      },
+      "updates2025": {
+        "title": "Nuovi aggiornamenti nel 2025",
+        "description": "Nel 2025, la trama è ancora più coinvolgente grazie alle mappe espanse e ai mod visivi. I giocatori possono ora godere di audio migliorato, grafica realistica ed espansioni di campagna."
+      },
+      "gameplay": {
+        "title": "Esperienze di gioco relazionabili",
+        "description": "Giocare attraverso la storia di CJ sembra personale. Che si tratti di completare missioni nei quartieri di Los Santos, ricostruire la sua gang personalizzando case e auto."
+      }
+    }
+  },
+  "gtaGameplay": {
+    "title": "Gameplay di GTA San Andreas Mobile",
+    "description": "GTA San Andreas MOD APK offre una varietà di funzionalità che si adattano alle diverse preferenze dei giocatori, rendendo il gioco divertente per tutti. Dai veicoli unici come le drag bike alle opzioni per un'esperienza di gioco più semplice, garantisce che ci sia sempre qualcosa di coinvolgente da esplorare. Una funzionalità straordinaria è la possibilità di saltare le missioni principali utilizzando l'opzione di download di tutte le missioni completate, perfetta per i giocatori che preferiscono concentrarsi sull'esplorazione del mondo aperto piuttosto che sulla progressione della trama principale. Questo ti dà la libertà di tuffarti direttamente nella scoperta di tutto ciò che GTA San Andreas ha da offrire senza alcuna restrizione.",
+    "features": {
+      "realisticGraphics": "Grafica Realistica",
+      "smoothControls": "Controlli Fluidi",
+      "immersiveExperience": "Esperienza Immersiva"
+    },
+    "featuresDesc": {
+      "realisticGraphics": "Qualità visiva migliorata con texture dettagliate, illuminazione migliorata e modelli di personaggi che danno vita al mondo di Los Santos.",
+      "smoothControls": "Controlli mobili ottimizzati con una manipolazione reattiva, rendendo la guida, il tiro e i combattimenti in mischia naturali e intuitivi.",
+      "immersiveExperience": "Doppiaggio completo, effetti sonori ambientali e meteo dinamico creano un'atmosfera che ti immerge completamente nel viaggio di CJ."
+    }
+  },
+  "gameplayFeatures": {
+    "data": [
+      {
+        "icon": "🎮",
+        "title": "Personalizzazione e Progressione delle Abilità",
+        "content": "CJ può personalizzare il suo aspetto cambiando vestiti, acconciature e tatuaggi. Ogni azione che esegui migliora abilità specifiche — più guidi, migliore diventa la tua guida. Più voli, migliori diventano le tue abilità di pilota. Questo crea un senso gratificante di crescita durante tutto il gioco."
+      },
+      {
+        "icon": "⚔️",
+        "title": "Combattimento e Arsenale di Armi",
+        "content": "Il gioco presenta oltre 30 armi che vanno dalle armi da mischia come mazze da baseball e katane alle armi da fuoco come pistole, fucili a pompa, fucili e altro ancora. Le meccaniche di combattimento sono fluide e reattive, rendendo ogni scontro impattante. Puoi anche usare armi esplosive come lanciarazzi e granate per una distruzione massiccia."
+      },
+      {
+        "icon": "🚗",
+        "title": "Varietà di Veicoli e Fisica di Guida",
+        "content": "Guida oltre 250 veicoli diversi — auto, camion, motociclette, barche e persino aerei ed elicotteri. Ogni veicolo ha maneggevolezza unica, velocità e accelerazione. Imparare a controllare diversi veicoli è parte del divertimento e della sfida."
+      },
+      {
+        "icon": "💰",
+        "title": "Denaro e Opportunità di Guadagno",
+        "content": "Guadagna denaro attraverso missioni principali, missioni secondarie e persino rapine. Spendi i tuoi soldi in vestiti, veicoli, case, armi e intrattenimento. La libertà finanziaria è parte dell'attrattiva del gioco — decidi tu come spendere i tuoi soldi."
+      },
+      {
+        "icon": "🌆",
+        "title": "Ambienti Diversificati e Segreti Nascosti",
+        "content": "Tre città uniche — Los Santos, San Fierro e Las Venturas — ognuna con i propri quartieri, cultura e segreti. Dalle aree desertiche alle spiagge e alle montagne, c'è sempre qualcosa di nuovo da scoprire."
+      },
+      {
+        "icon": "📖",
+        "title": "Storia Profonda e Sviluppo dei Personaggi",
+        "content": "La storia è avvincente, con interazioni significative tra personaggi e colpi di scena. I personaggi secondari hanno profondità e personalità, rendendo le loro storie memorabili. La narrativa principale esplora temi di lealtà, tradimento e redenzione."
+      }
+    ]
+  },
+  "gtaTimeline": {
+    "title": "Timeline GTA: Release Chiave",
+    "subtitle": "La serie Grand Theft Auto è diventata uno dei giochi in mondo aperto più popolari. Segui l'evoluzione di questo franchise iconico dai suoi umili inizi ad oggi.",
+    "ctaText": "Sperimenta l'evoluzione di Grand Theft Auto e scopri perché San Andreas rimane un classico senza tempo che continua a affascinare i giocatori di tutto il mondo.",
+    "ctaButton": "Scarica GTA San Andreas APK Ora",
+    "events": {
+      "gta1": {
+        "title": "Grand Theft Auto",
+        "description": "Il primo gioco ha introdotto il gameplay vista dall'alto, con piccole città e missioni semplici. Rubare auto, completare mini-task e navigare per le strade lo rendevano divertente."
+      },
+      "gtaLondon": {
+        "title": "GTA London 1969 & 1961",
+        "description": "Questi expansion hanno aggiunto mappe di città storiche e veicoli d'epoca. Le missioni con auto d'epoca e musica davano un'esperienza unica."
+      },
+      "gta3": {
+        "title": "Grand Theft Auto III",
+        "description": "Questo è stato il primo GTA in mondo aperto 3D. Liberty City si sentiva viva con personaggi, doppiaggio e missioni cinematiche. La libertà di esplorare rendeva il gioco più immersivo."
+      },
+      "gtaViceCity": {
+        "title": "GTA: Vice City",
+        "description": "Vice City è ambientato in una città ispirata agli anni '80 ed è diventato iconico con luci al neon, auto eleganti e una colonna sonora memorabile. Le missioni secondarie e la personalizzazione rendono l'esplorazione piacevole."
+      },
+      "gtaSanAndreas": {
+        "title": "GTA: San Andreas",
+        "description": "San Andreas ha introdotto tre città principali: Los Santos, San Fierro e Las Venturas. Il viaggio di CJ, i conflitti tra gang, le missioni secondarie creano un'esperienza profonda e immersiva."
+      },
+      "gta4": {
+        "title": "GTA IV",
+        "description": "GTA IV si è concentrato su ambienti realistici e narrazione. Liberty City è stata riprogettata con grafica migliore, fisica e interazioni dettagliate dei personaggi."
+      },
+      "gta5": {
+        "title": "GTA V",
+        "description": "Los Santos è tornato in HD con tre personaggi giocabili, multiplayer online e un enorme mondo aperto. Colpi, missioni secondarie e esplorazione offrono intrattenimento infinito."
+      },
+      "gtaSA2025": {
+        "title": "GTA San Andreas APK Aggiornamenti 2025",
+        "description": "San Andreas APK rimane entusiasmante con mappe espanse, grafica migliorata e nuove missioni. I mod che aggiungono missioni extra lo rendono completamente nuovo."
+      }
+    }
+  },
+  "tipsAndTricks": {
+    "title": "Suggerimenti e Trucchi per San Andreas APK",
+    "subtitle": "Giocare a San Andreas APK è divertente, ma conoscere alcuni suggerimenti può rendere il gioco ancora più piacevole. Ricordo di aver passato ore a esplorare Los Santos; l'utilizzo di questi trucchi ha migliorato la mia esperienza.",
+    "ctaButton": "Scarica San Andreas APK Ora",
+    "tips": {
+      "savingFrequently": {
+        "title": "Salva Frequentemente nelle Case Sicure",
+        "description": "Salva sempre frequentemente nella tua casa sicura. Una volta ho completato una lunga missione e ho dimenticato di salvare, perdendo i progressi, il che era frustrante. Salvare spesso mantiene i tuoi progressi al sicuro."
+      },
+      "cheatCodes": {
+        "title": "Utilizza i Codici Cheat per il Divertimento",
+        "description": "L'utilizzo di codici cheat può rendere le missioni più facili o più divertenti. Dallo spawn di veicoli al cambio del meteo, i codici cheat ti permettono di provare cose che normalmente non potremmo fare nella storia."
+      },
+      "upgradeSkills": {
+        "title": "Migliora le Abilità di Guida e Tiro",
+        "description": "Concentrati sul miglioramento delle abilità di guida e tiro. Ho scoperto che migliorare la guida di CJ rendeva le gare e gli inseguimenti molto più facili, e migliori abilità di tiro aiutavano nei conflitti di gang."
+      },
+      "exploreMap": {
+        "title": "Esplora la Mappa per Segreti e Oggetti",
+        "description": "Prenditi tempo per esplorare la mappa. Gli oggetti da collezione nascosti, le posizioni segrete e gli elementi bonus rendono il mondo più eccitante. Una volta ho scoperto un nascondiglio di armi nascosto a San Fierro, che mi ha aiutato durante le missioni difficili."
+      },
+      "manageFinance": {
+        "title": "Suggerimenti su Finanze e Proprietà nel Gioco",
+        "description": "Gestisci il denaro saggiamente. Acquista proprietà e investi in affari. Questa strategia finanziaria del gioco fornisce un reddito costante e ti aiuta ad aggiornare veicoli o armi."
+      },
+      "vehicleCustomisation": {
+        "title": "Aggiornamenti dei Veicoli e Personalizzazione",
+        "description": "Personalizzare le auto migliora le prestazioni e rende la guida più piacevole. Amavo aggiornare i motori e aggiungere nuove vernici; rendeva ogni veicolo unico."
+      },
+      "sideActivities": {
+        "title": "Partecipa alle Attività Secondarie",
+        "description": "Le missioni secondarie, come gare, gioco d'azzardo o guida di taxi, offrono ricompense ed esperienza aggiuntive. Completarle rende anche il mondo più vivo."
+      }
+    }
+  },
+  "gameplayControls": {
+    "title": "Gameplay e Controlli",
+    "subtitle": "Giocare a San Andreas APK sembra fluido e piacevole, soprattutto con la versione aggiornata 2025. Il gioco combina missioni principali, attività secondarie ed esplorazione del mondo aperto, offrendo ai giocatori la completa libertà. Ricordo la prima volta che ho guidato un'auto sportiva attraverso Los Santos; i controlli sembrerebbero realistici, rendendo l'esperienza entusiasmante.",
+    "ctaButton": "Scarica San Andreas APK Adesso",
+    "sections": {
+      "smoothDriving": {
+        "title": "Guida Fluida e Maneggevolezza dei Veicoli",
+        "description": "I veicoli si maneggiano molto meglio in questa versione. I miglioramenti della maneggevolezza e gli aggiustamenti dei controlli rendono gli inseguimenti in auto, le gare e la guida casual più piacevoli. L'aggiornamento dei tuoi veicoli migliora anche la velocità e la stabilità."
+      },
+      "shootingCombat": {
+        "title": "Controlli di Tiro e Combattimento",
+        "description": "I controlli di tiro sono reattivi, rendendo le missioni più diritte da completare. I giocatori possono mirare, sparare e cambiare armi rapidamente. Ho scoperto che l'aggiornamento delle competenze di tiro mi ha aiutato a completare le missioni delle gang più efficientemente."
+      },
+      "controllerSupport": {
+        "title": "Supporto del Controller",
+        "description": "Il gioco supporta i controller, fornendo un'esperienza simile a una console su dispositivi mobili. La guida, i combattimenti e l'esplorazione della città si sentono più fluidi rispetto ai controlli touchscreen."
+      },
+      "customizableSettings": {
+        "title": "Impostazioni Personalizzabili",
+        "description": "I giocatori possono regolare la sensibilità, la mappatura dei tasti e gli angoli della telecamera in base al loro stile. Personalizzare i controlli rende il gameplay più comodo e piacevole."
+      },
+      "openWorldExploration": {
+        "title": "Esplorazione del Mondo Aperto",
+        "description": "San Andreas APK consente ai giocatori di esplorare liberamente Los Santos, San Fierro e Las Venturas. L'esplorazione della mappa rivela oggetti nascosti, posizioni segrete e missioni bonus. Le attività secondarie come gare, gioco d'azzardo e guida di taxi aggiungono varietà al gameplay."
+      },
+      "performanceOptimization": {
+        "title": "Ottimizzazione delle Prestazioni",
+        "description": "Anche su dispositivi di fascia bassa, le ottimizzazioni delle prestazioni garantiscono un'esperienza di gioco fluida. Le frequenze di fotogrammi rimangono stabili e i tempi di caricamento sono ridotti, rendendo il gioco più accessibile a una gamma più ampia di giocatori."
+      }
+    }
+  },
+  "downloadInstallation": {
+    "title": "Come scaricare e installare GTA San Andreas MOD APK",
+    "subtitle": "Seguire questi semplici passaggi per scaricare e installare la versione più recente in sicurezza sul dispositivo Android",
+    "ctaButton": "Scarica APK Adesso",
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "Abilita Sorgenti Sconosciute",
+        "description": "Vai alle impostazioni del tuo dispositivo > Sicurezza e abilita Sorgenti sconosciute. Ciò ti consente di installare i file APK in sicurezza al di fuori del Play Store.",
+        "icon": "⚙️"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Scarica i file APK + OBB",
+        "description": "Scarica il MOD APK e i file OBB da una fonte affidabile. L'utilizzo di entrambi i file garantisce che il gioco funzioni correttamente con tutte le funzioni sbloccate.",
+        "icon": "📥"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Installa il file APK",
+        "description": "Individua il file APK scaricato sul tuo dispositivo e tocca Installa. L'APK installa l'applicazione di gioco, quindi aggiungeremo i file OBB.",
+        "icon": "📱"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Aggiungi i file OBB",
+        "description": "Sposta la cartella OBB in Android/obb/ nell'archiviazione del tuo dispositivo. Assicurati che il percorso della cartella sia corretto: /storage/emulated/0/Android/obb/com.rockstargames.gtasa/",
+        "icon": "📂"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Lancia e Goditi",
+        "description": "Una volta che i file APK e OBB sono a posto, apri il gioco. Puoi ora goderti tutte le funzioni sbloccate, i mod e la grafica HD senza problemi.",
+        "icon": "🎮"
+      }
+    },
+    "tipsSection": {
+      "title": "Suggerimenti per un'installazione fluida",
+      "tips": {
+        "tip1": {
+          "title": "Libera spazio di archiviazione",
+          "description": "Assicurati di avere almeno 3–4 GB di spazio libero prima dell'installazione."
+        },
+        "tip2": {
+          "title": "Riavvia il tuo dispositivo",
+          "description": "Se il gioco non si avvia correttamente, riavvia il tuo dispositivo per cancellare la cache."
+        },
+        "tip3": {
+          "title": "Mantenere il dispositivo aggiornato",
+          "description": "Mantieni il sistema operativo e le patch di sicurezza del tuo dispositivo aggiornati."
+        },
+        "tip4": {
+          "title": "Usa fonti affidabili",
+          "description": "Scarica sempre da fonti affidabili per evitare malware e problemi di sicurezza."
+        }
+      }
+    }
+  },
+  "comparison": {
+    "title": "GTA San Andreas: Originale vs MOD",
+    "subtitle": "Confronta le differenze tra la versione originale e la versione MOD aggiornata del 2025",
+    "category": "Versione",
+    "original": "Versione Originale",
+    "modVersion": "Versione MOD 2025",
+    "personalNote": "Nota Personale",
+    "personalNoteText": "Quando ho giocato per la prima volta all'originale, la sfida di sbloccare nuove armi e auto rendeva ogni missione speciale. In seguito, con una versione mod, ho saltato alle parti divertenti, facendo apparire elicotteri e guidando ogni veicolo, e sembrava più una gara sandbox che una storia. Entrambe hanno un fascino, ma danno sensazioni diverse.",
+    "items": {
+      "features": {
+        "category": "Caratteristiche",
+        "original": "Funzionalità di base, sbloccate progressivamente",
+        "mod": "Tutte le funzionalità sbloccate da subito, denaro illimitato"
+      },
+      "graphics": {
+        "category": "Grafica",
+        "original": "Grafica classica in stile PS2",
+        "mod": "Texture HD, illuminazione migliorata, modelli dettagliati"
+      },
+      "progression": {
+        "category": "Progressione",
+        "original": "Completa le missioni in ordine per sbloccare contenuti",
+        "mod": "Salta direttamente a qualsiasi missione, nessun vincolo di progressione"
+      },
+      "performance": {
+        "category": "Prestazioni",
+        "original": "Ottimizzazione standard per dispositivi mobili",
+        "mod": "Ottimizzazione avanzata per fluidità e velocità"
+      },
+      "balance": {
+        "category": "Equilibrio di Gioco",
+        "original": "Difficoltà bilanciata con sfide naturali",
+        "mod": "Modalità facilitate, nemici più deboli, premi potenziati"
+      },
+      "experience": {
+        "category": "Esperienza d'Uso",
+        "original": "Esperienza di gioco vanilla autentica",
+        "mod": "Esperienza personalizzata con ulteriori contenuti e mod"
+      }
+    }
+  },
+  "prosAndCons": {
+    "title": "Vantaggi e Svantaggi",
+    "prosTitle": "Vantaggi",
+    "consTitle": "Svantaggi",
+    "pros": {
+      "gameplay": {
+        "title": "Gameplay Coinvolgente",
+        "description": "Missioni emozionanti, combattimenti dinamici e libertà d'esplorazione mantengono il giocatore sempre impegnato in nuove sfide e scoperte nel vasto mondo aperto di Los Santos."
+      },
+      "replayValue": {
+        "title": "Alto Valore di Rigiocabilità",
+        "description": "Con missioni secondarie infinite, attività nascoste, segreti da scoprire e opzioni di personalizzazione, ogni partita offre un'esperienza nuova e differente."
+      },
+      "optimization": {
+        "title": "Ottimizzazione Eccellente",
+        "description": "La versione 2025 offre prestazioni stabili anche su dispositivi di fascia bassa, con tempi di caricamento ridotti e nessun lag durante il gameplay."
+      },
+      "missions": {
+        "title": "Missioni Varie e Interessanti",
+        "description": "Dalle gare stradali agli inseguimenti emozionanti, ogni missione propone sfide diverse che richiedono strategia, abilità e creatività nel completamento."
+      },
+      "storyline": {
+        "title": "Trama Coinvolgente",
+        "description": "La storia di CJ è profonda e personale, con sviluppo del personaggio realistico, conflitti di gang convincenti e momenti emotivi memorabili."
+      },
+      "customization": {
+        "title": "Personalizzazione Completa",
+        "description": "Personalizza l'aspetto di CJ, i veicoli, le armi e persino la musica per creare un'esperienza completamente unica e personalizzata."
+      },
+      "world": {
+        "title": "Mondo Aperto Vasto e Dettagliato",
+        "description": "Los Santos, San Fierro e Las Venturas offrono un mondo incredibilmente vasto con infinite aree da esplorare, ciascuna con caratteristiche uniche e nascondigli segreti."
+      }
+    },
+    "cons": {
+      "fileSize": {
+        "title": "Dimensione File Grande",
+        "description": "La versione con grafica migliorata richiede 2,5-3,5 GB di spazio di archiviazione, che può essere problematico per dispositivi con storage limitato."
+      },
+      "difficulty": {
+        "title": "Curva di Difficoltà Variabile",
+        "description": "Alcune missioni possono essere estremamente difficili specialmente agli inizi, portando potenzialmente alla frustrazione se non sei un giocatore esperto di GTA."
+      },
+      "performance": {
+        "title": "Richieste Prestazionali Elevate",
+        "description": "Nonostante l'ottimizzazione, i dispositivi molto vecchi con RAM inferiore a 2 GB potrebbero avere difficoltà a eseguire il gioco in modo fluido."
+      }
+    }
+  },
+  "safety": {
+    "title": "Precauzioni di Sicurezza Importanti",
+    "subtitle": "Segui questi passaggi essenziali per proteggerti durante il download e l'utilizzo della versione MOD",
+    "precautions": {
+      "trusted": {
+        "number": "01",
+        "title": "Scarica da Fonti Affidabili",
+        "description": "Usa solo siti web riputati e affidabili per scaricare il MOD APK. Evita link casuali da forum sconosciuti o siti di bassa qualità.",
+        "icon": "✅"
+      },
+      "backup": {
+        "number": "02",
+        "title": "Esegui Backup dei Progressi di Gioco",
+        "description": "Prima di installare la versione MOD, salva i tuoi dati di gioco originali in cloud o trasferisci i file di salvataggio in un'altra posizione per sicurezza.",
+        "icon": "💾"
+      },
+      "unknown": {
+        "number": "03",
+        "title": "Abilita Protezione da Sorgenti Sconosciute",
+        "description": "Anche se abiliti sorgenti sconosciute, fai attenzione e installa solo da fonti affidabili per proteggere il tuo dispositivo da malware.",
+        "icon": "🔒"
+      },
+      "storage": {
+        "number": "04",
+        "title": "Libera Spazio di Archiviazione Adeguato",
+        "description": "Assicurati di avere almeno 3-4 GB di spazio libero sul tuo dispositivo prima dell'installazione per evitare errori o file incompleti.",
+        "icon": "💿"
+      },
+      "antivirus": {
+        "number": "05",
+        "title": "Usa un Software Antivirus Affidabile",
+        "description": "Mantieni attivo un buon antivirus sul tuo dispositivo e scansiona i file scaricati prima dell'installazione per rilevare eventuali minacce.",
+        "icon": "🛡️"
+      },
+      "cheats": {
+        "number": "06",
+        "title": "Usa Cheat Code con Cautela",
+        "description": "I cheat code possono causare glitch o corrompere i salvataggi. Usali solo se hai un backup dei tuoi dati di gioco salvati.",
+        "icon": "⚠️"
+      },
+      "update": {
+        "number": "07",
+        "title": "Mantieni il Sistema Operativo Aggiornato",
+        "description": "Assicurati che il tuo dispositivo Android sia aggiornato con le ultime patch di sicurezza per proteggere il sistema da vulnerabilità note.",
+        "icon": "🔄"
+      },
+      "monitor": {
+        "number": "08",
+        "title": "Monitora i Permessi dell'App",
+        "description": "Controlla i permessi che il gioco richiede durante l'installazione. Se richiede permessi sospetti, considera se li necessita realmente.",
+        "icon": "📊"
+      }
+    },
+    "importantNote": "Nota Importante",
+    "importantNoteText": "Le versioni MOD potrebbero violare i termini di servizio di Rockstar Games. Usa a tuo rischio e responsabilità. Per evitare rischi di ban, gioca sempre in modalità single-player offline e evita di collegarti ai server online con un account MOD."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "subtitle": "Trova risposte alle domande comuni su GTA San Andreas MOD APK. Abbiamo compilato le domande più frequenti per aiutarti a ottenere la migliore esperienza.",
+    "questions": {
+      "q1": {
+        "question": "La versione MOD è sicura da scaricare?",
+        "answer": "Può essere sicuro scaricare da un sito affidabile, controlla le recensioni positive e utilizza un software antivirus. Esegui sempre il backup dei tuoi salvataggi di gioco ed evita link casuali. Scarica da fonti affidabili e scansiona i file con l'antivirus prima dell'installazione per garantire la sicurezza."
+      },
+      "q2": {
+        "question": "La versione MOD funzionerà sul mio telefono?",
+        "answer": "Dipende dalle specifiche del tuo dispositivo. Dovrebbe funzionare se la tua versione Android, RAM e archiviazione soddisfano almeno i requisiti minimi. Molti utenti nei forum chiedono se il gioco può funzionare sul loro telefono quando le specifiche sono basse. Controlla se il tuo dispositivo ha Android 7.0+, 3 GB di RAM e 3-4 GB di spazio libero."
+      },
+      "q3": {
+        "question": "Cosa succede ai miei progressi quando installo la versione MOD?",
+        "answer": "Se installi una versione MOD invece dell'originale, potrebbe sovrascrivere o entrare in conflitto con il tuo salvataggio originale. Per sicurezza, esegui prima il backup dei dati del gioco. Puoi utilizzare salvataggi cloud o copiare i file di salvataggio in un'altra posizione prima di installare la versione MOD."
+      },
+      "q4": {
+        "question": "I codici cheat funzionano ancora con questa versione MOD APK?",
+        "answer": "Sì. Infatti, molte versioni MOD sono dotate di cheat integrati o menu sbloccati. Puoi usare i codici cheat per divertimento, ma ricorda che usarli può ridurre la sfida del gioco. La maggior parte delle versioni MOD mantiene la piena funzionalità dei codici cheat."
+      },
+      "q5": {
+        "question": "Tutte le missioni sono sbloccate nella versione MOD?",
+        "answer": "Spesso sì. Molte versioni MOD includono 'tutte le missioni sbloccate', quindi puoi iniziare da qualsiasi missione. Questa è una delle caratteristiche chiave che le persone cercano. Puoi passare direttamente alle missioni successive o a capitoli specifici della storia senza completare quelle precedenti."
+      },
+      "q6": {
+        "question": "L'uso della versione MOD mi farà bannare?",
+        "answer": "Se giochi strettamente in modalità giocatore singolo, il rischio è basso. Tuttavia, in qualsiasi modalità online o connessa, i mod o i cheat potrebbero violare le regole del gioco o comportare ban. È più sicuro attenersi al gioco offline per evitare ban dell'account o restrizioni."
+      },
+      "q7": {
+        "question": "La versione MOD migliora grafica e prestazioni?",
+        "answer": "Sì, molte versioni MOD includono pacchetti di texture HD, illuminazione migliore, grafica migliorata e ottimizzazioni delle prestazioni per il 2025. Tuttavia, questi potrebbero aumentare le dimensioni del file e richiedere più potenza del dispositivo. La grafica migliorata richiede più potenza di elaborazione ma offre una migliore qualità visiva."
+      },
+      "q8": {
+        "question": "Qual è la dimensione del file della versione MOD?",
+        "answer": "La dimensione del file tende ad essere molto più grande dell'originale a causa di funzionalità aggiunte, grafica di alta qualità e dati OBB. Avrai bisogno di più spazio di archiviazione per l'installazione. In genere, aspettati 2,5-3,5 GB per APK + OBB combinati."
+      },
+      "q9": {
+        "question": "Posso tornare alla versione originale dopo aver installato il MOD?",
+        "answer": "Sì, puoi. Disinstalla semplicemente la versione MOD, ripristina il tuo salvataggio di backup (se ne hai uno) e reinstalla la versione originale. Assicurati di cancellare tutti i file extra associati al MOD per evitare conflitti."
+      },
+      "q10": {
+        "question": "Ci sono rischi legali nell'usare una versione MOD?",
+        "answer": "Sì, ci sono rischi. La versione MOD potrebbe violare la licenza del gioco originale. Potrebbe anche causare problemi al dispositivo o all'account se utilizzi file non autorizzati. Usa con cautela e comprendi che l'uso di MOD potrebbe violare i termini di servizio."
+      }
+    },
+    "ctaSection": {
+      "title": "Pronto a sperimentare GTA San Andreas?",
+      "description": "Scarica la versione MOD oggi e sblocca tutte le funzionalità, missioni e veicoli. Goditi un gameplay illimitato senza restrizioni.",
+      "button": "Scarica GTA San Andreas MOD APK"
+    },
+    "additionalInfo": {
+      "title": "Suggerimento professionale",
+      "description": "Se hai altre domande o riscontri problemi durante l'installazione, consulta le sezioni della guida all'installazione o delle precauzioni di sicurezza. Assicurati sempre che il tuo dispositivo sia compatibile e che tu stia scaricando da fonti affidabili per la migliore esperienza."
+    }
+  },
+  "conclusion": {
+    "title": "Pensieri Finali e Conclusione",
+    "paragraph1": "GTA San Andreas APK (versione MOD 2025) è ancora uno dei giochi a mondo aperto più entusiasmanti disponibili su mobile. Con tutte le missioni sbloccate, denaro illimitato, grafica HD e controlli migliorati, i giocatori possono godere di un'esperienza fresca anche anni dopo il rilascio originale. Che tu ami esplorare le città, completare missioni della storia o provare codici cheat divertenti, questa versione offre completa libertà e intrattenimento.",
+    "paragraph2": "Gli aggiornamenti del 2025 lo rendono più fluido sui dispositivi mobili, migliorano i visual e aggiungono nuove sfide, mantenendo i fan di lunga data coinvolti attirando al contempo nuovi giocatori. Ricorda di seguire le precauzioni di sicurezza durante il download, eseguire il backup dei tuoi progressi e goderti il gioco in modo responsabile.",
+    "paragraph3": "Nel complesso, questo APK è ideale per chiunque cerchi un'esperienza GTA divertente, personalizzabile e immersiva su mobile, che fonde il gameplay classico con miglioramenti moderni.",
+    "highlights": {
+      "highlight1": {
+        "title": "Libertà Completa",
+        "description": "Sperimenta un gameplay illimitato con tutte le missioni, veicoli e funzionalità sbloccate. Gioca esattamente come vuoi senza restrizioni."
+      },
+      "highlight2": {
+        "title": "Miglioramenti Moderni",
+        "description": "Goditi gli aggiornamenti del 2025 con grafica migliorata, prestazioni fluide e nuove funzionalità che mantengono il gioco fresco e coinvolgente."
+      },
+      "highlight3": {
+        "title": "Per Tutti",
+        "description": "Che tu sia un fan di lunga data o un nuovo giocatore, questo APK offre un'esperienza personalizzabile e immersiva con possibilità infinite."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto a Scaricare GTA San Andreas MOD APK?",
+      "description": "Unisciti a migliaia di giocatori che godono dell'esperienza definitiva di GTA San Andreas. Scarica ora e inizia la tua avventura a Los Santos!",
+      "button": "Scarica Ora"
+    }
+  },
+  "forPC": {
+    "hero": {
+      "title": "GTA San Andreas Per PC",
+      "subtitle": "Vivi l'Avventura di Gioco Definitiva"
+    },
+    "storySection": {
+      "title": "Viaggio della Storia Completa di GTA San Andreas",
+      "introduction": "Scopri la narrativa epica di Carl \"CJ\" Johnson mentre ritorna a Los Santos per ricostruire la sua gang e salvare la sua famiglia. Questa è una guida completa della storia più iconica del gioco."
+    },
+    "sections": {
+      "returnHome": {
+        "title": "Un Ritorno a Casa - L'Inizio di Tutto",
+        "content": [
+          "La storia inizia nel 1992. Dopo aver vissuto cinque anni a Liberty City, Carl \"CJ\" Johnson riceve una chiamata che cambia la sua vita per sempre: sua madre è stata uccisa.",
+          "Prende il primo volo di ritorno a Los Santos, la sua città natale, una città ora devastata dalle guerre tra gang, dalla corruzione della polizia e dal tradimento.",
+          "Quando CJ atterra, viene immediatamente fermato dall'Ufficiale Tenpenny e dalla sua squadra di polizia corrotta. Lo minacciano e lo trascinano di nuovo nel caos della città.",
+          "Nel momento in cui CJ mette piede su Grove Street, il mondo si sente pesante. La sua famiglia è divisa, la sua gang è debole, e suo fratello, Sweet, lo incolpa di averlo abbandonato.",
+          "Questo è dove inizia il vero viaggio: ricostruire Grove Street e la propria vita."
+        ]
+      },
+      "oldFriends": {
+        "title": "Vecchi Amici, Nuovi Problemi",
+        "content": [
+          "All'inizio, CJ cerca di fare pace con i suoi vecchi amici Big Smoke e Ryder. Parlano di lealtà e vecchi tempi, ma qualcosa sembra strano.",
+          "Insieme, iniziano in piccolo, spruzzando tag di gang, rubando auto e combattendo i Ballas (i loro più grandi rivali).",
+          "Durante queste missioni, il mondo di GTA San Andreas si apre magnificamente con quartieri pieni di bambini che giocano, auto che suonano il clacson e membri di gang che parlano. Si sente vivo.",
+          "Ma sotto quel rumore, qualcosa di più scuro sta crescendo, il tradimento.",
+          "CJ inizia a notare che Big Smoke e Ryder agiscono diversamente. Gli importa più il potere e il denaro che Grove Street."
+        ]
+      },
+      "riseOfGangLeader": {
+        "title": "Le Strade di Los Santos - L'Ascesa di un Capo Gang",
+        "content": [
+          "Per guadagnare rispetto, CJ fa di tutto: corre per la città, aiuta suo fratello Sweet, difende le strade e guadagna soldi attraverso missioni secondarie.",
+          "La versione Mod APK offre più libertà, permettendo ai giocatori di personalizzare Grove Street, reclutare ulteriori membri di gang e acquistare proprietà in anticipo.",
+          "Presto, Grove Street inizia a rialzarsi di nuovo. Le bandiere verdi tornano, la gang guadagna forza, e i Ballas cadono.",
+          "Ma il successo non dura mai a lungo a Los Santos."
+        ]
+      },
+      "trapChaos": {
+        "title": "La Trappola - Polizia, Tradimento e Caos",
+        "content": [
+          "Durante una grande missione, CJ e Sweet vengono imboscati.",
+          "Sweet viene sparato, e l'Ufficiale Tenpenny cattura CJ. È allora che esce fuori la verità scioccante: Big Smoke e Ryder hanno tradito Grove Street. Ora stanno lavorando con i Ballas e i poliziotti corrotti.",
+          "Tenpenny porta CJ lontano dalla città e lo abbandona in campagna.",
+          "Nessuna gang, nessun amico, solo terra aperta e un uomo spezzato che cerca di sopravvivere.",
+          "Questa è la parte centrale del gioco e uno dei momenti più emozionanti nella storia di GTA."
+        ]
+      },
+      "newBeginning": {
+        "title": "Un Nuovo Inizio - Le Missioni di Campagna",
+        "content": [
+          "CJ incontra nuove persone in campagna, come Catalina, The Truth e Cesar.",
+          "Inizia ad assumere piccoli lavori, incluso rubare distributori di benzina, correre con le auto e aiutare i suoi alleati.",
+          "Questa parte mostra la crescita di CJ come persona.",
+          "Impara a fidarsi di nuove persone, affrontare nuove sfide e rimanere forte anche quando è lontano da casa.",
+          "Catalina è selvaggia e imprevedibile. La loro relazione è umoristica, segnata da frequenti litigi e puro caos.",
+          "Al contrario, The Truth è un insegnamento tranquillo e spirituale che dice cose strane ma sagge sulla vita."
+        ]
+      },
+      "sanFierro": {
+        "title": "San Fierro - Una Città di Affari e Tradimento",
+        "content": [
+          "Con l'aiuto di Cesar, CJ si trasferisce a San Fierro, una città ispirata a San Francisco.",
+          "Qui, inizia una nuova fase, meno focalizzata sulle guerre tra gang e più su affari.",
+          "Compra un'officina, incontra Wu Zi Mu (Woozie), e si coinvolge in gare automobilistiche e contrabbando.",
+          "Il mondo di CJ diventa più grande. Inizia a trattare con Triadi, nuovi nemici e missioni massicce.",
+          "Scopre anche che Ryder e Big Smoke stanno facendo crescere il loro impero della droga in segreto, protetto dall'unità di polizia corrotta di Tenpenny.",
+          "Il focus di CJ cambia da sopravvivenza a potere. Non sta più solo difendendo Grove Street; si sta preparando a riprendersela tutta."
+        ]
+      },
+      "lasVenturas": {
+        "title": "Las Venturas - Il Casinò e la Grande Rapina",
+        "content": [
+          "La prossima tappa è Las Venturas, una città di luci al neon, casinò e gangster.",
+          "CJ si associa con Woozie e aiuta a gestire il Casinò Four Dragons.",
+          "Impara come le famiglie della Mafia controllano tutto, dal gioco alla costruzione.",
+          "Questa parte della storia sembra un film pieno di pianificazione, travestimenti e una grande rapina al casinò.",
+          "Nel Mod APK, i giocatori possono persino ripetere la rapina con diverse strategie o usare armi avanzate.",
+          "A questo punto, CJ ha denaro, rispetto e potere, ma il suo obiettivo finale rimane incompiuto: riprendere Los Santos."
+        ]
+      },
+      "returnToLosSantos": {
+        "title": "Ritorno a Los Santos - Vendetta e Redenzione",
+        "content": [
+          "Dopo che Tenpenny è esposto per i suoi crimini, la città cade nel caos.",
+          "I disordini riempiono le strade, gli incendi bruciano, e le gang prendono il controllo.",
+          "CJ ritorna a casa un'ultima volta - per salvare suo fratello e finire quello che ha iniziato.",
+          "Attacca la fortezza di Big Smoke, una delle missioni più iconiche nella storia di GTA.",
+          "La battaglia è lunga, scura ed emotiva. CJ combatte contro dozzine di guardie fino a incontrare Big Smoke stesso.",
+          "Le ultime parole di Smoke mostrano pentimento - ammette che la sua avidità l'ha distrutto.",
+          "Poi, Tenpenny appare di nuovo, ruba i soldi e scappa.",
+          "CJ lo insegue attraverso le ardenti strade di Los Santos in una leggendaria scena di inseguimento automobilistico.",
+          "Infine, Tenpenny cade giù da un ponte con la sua auto e muore.",
+          "Il caos finisce, Grove Street si alza di nuovo, e la famiglia di CJ si riunisce."
+        ]
+      },
+      "ending": {
+        "title": "La Fine - Grove Street Per Sempre",
+        "content": [
+          "La scena finale mostra CJ in piedi su Grove Street, guardando la sua casa.",
+          "Sweet, Cesar e Kendl sono accanto a lui. La città è finalmente calma.",
+          "CJ semplicemente dice che ha \"cose da fare\" e se ne va.",
+          "La fine è perfetta perché non riguarda la fama o la vittoria ma la pace.",
+          "CJ trova l'equilibrio dopo tutto - tradimento, dolore e vendetta.",
+          "Anche nel 2025, i giocatori rifanno quella missione finale e sentono la stessa emozione.",
+          "Ciò rende GTA San Andreas una storia senza tempo - non è solo un gioco di crimine ma una storia di vita di famiglia, lealtà e scelte."
+        ]
+      },
+      "legacy": {
+        "title": "L'Eredità di GTA San Andreas nel 2025",
+        "content": [
+          "Più di 20 anni dopo, GTA San Andreas domina ancora i cuori.",
+          "I giocatori usano la versione Mod APK di GTA San Andreas PC o Mobile per rivivere quella magia - con aggiornamenti moderni, grafica HD e nuove missioni.",
+          "La ragione per cui la gente continua a tornare è semplice:",
+          "Non importa quanto cambino la grafica, la storia di CJ rimane potente.",
+          "Ricorda ai giocatori che la lealtà conta, che la famiglia può essere persa e trovata, e che nessuno dimentica da dove viene, soprattutto quando quel posto è Grove Street."
+        ]
+      }
+    },
+    "experience": {
+      "title": "Come Guadagnare Più Esperienza e Divertirsi con GTA San Andreas",
+      "tips": {
+        "gym": {
+          "emoji": "💪",
+          "title": "Allenati in Palestra",
+          "description": "Aumenta la forza e la resistenza di CJ per migliorare le prestazioni generali."
+        },
+        "drive": {
+          "emoji": "🏎️",
+          "title": "Guida Quotidianamente",
+          "description": "Più guidi, meglio CJ gestisce auto e veicoli."
+        },
+        "weapons": {
+          "emoji": "🎯",
+          "title": "Usa Armi Regolarmente",
+          "description": "La pratica migliora le abilità di punteria e la competenza con le armi in combattimento."
+        },
+        "gangWars": {
+          "emoji": "⚔️",
+          "title": "Unisciti alle Guerre tra Gang",
+          "description": "Vincere i territori aumenta il flusso di denaro e il rispetto nel quartiere."
+        },
+        "food": {
+          "emoji": "🍎",
+          "title": "Mangia Sano",
+          "description": "Evita il cibo spazzatura, o CJ diventerà lento e meno efficace."
+        },
+        "outfits": {
+          "emoji": "👕",
+          "title": "Cambia Abiti",
+          "description": "Lo stile di CJ migliora il rispetto nei diversi quartieri."
+        },
+        "explore": {
+          "emoji": "🗺️",
+          "title": "Esplora Aree Segrete",
+          "description": "I luoghi nascosti spesso contengono oggetti preziosi come armi o armatura."
+        },
+        "save": {
+          "emoji": "💾",
+          "title": "Salva Frequentemente",
+          "description": "Salva sempre prima di missioni impegnative per evitare di perdere i progressi."
+        }
+      },
+      "personalNote": "Nota Personale",
+      "personalNoteText": "Quando ho imparato a pilotare l'Hydra jet, ho passato ore a volare sopra le città godendomi la vista. Questo tipo di divertimento non finisce mai in GTA San Andreas. Che tu stia esplorando scorciatoie nascoste, scoprendo uova di Pasqua, o semplicemente godendoti l'immenso mondo che Rockstar ha creato, ogni momento porta qualcosa di nuovo da sperimentare."
+    },
+    "whyLoveIt": {
+      "title": "Perché Tutti Amano Ancora GTA San Andreas",
+      "content": [
+        "Quando la gente parla del miglior gioco di mondo aperto mai creato, un nome viene sempre fuori - GTA San Andreas.",
+        "Anche dopo oltre un decennio, questo iconico gioco di mondo aperto domina ancora i cuori di milioni. Le strade, la musica, i personaggi, tutto sembra vivo.",
+        "Il Mod APK di GTA San Andreas riporta questo classico indietro con aggiornamenti moderni. I giocatori ora possono godere di grafica più fluida, auto nuove, armi migliori e missioni aggiuntive. Si sente sia classico che nuovo allo stesso tempo.",
+        "Molti giocatori che hanno provato GTA 3, GTA 4 e persino GTA 5 sono tornati a San Andreas. Nessun altro gioco di GTA cattura lo spirito delle strade, il legame di fraternità e l'energia cruda come questo.",
+        "Se sei nuovo a GTA San Andreas o stai tornando dopo anni, questa guida 2025 ti fornirà tutto ciò di cui hai bisogno: informazioni di gioco, caratteristiche, consigli, trucchi e aggiornamenti."
+      ]
+    },
+    "overview": {
+      "title": "Panoramica di GTA San Andreas Mod APK",
+      "table": {
+        "gameName": "Nome del Gioco",
+        "gameNameValue": "GTA San Andreas Mod APK",
+        "developer": "Sviluppatore",
+        "developerValue": "Rockstar Games",
+        "genre": "Genere",
+        "genreValue": "Azione, Avventura, Mondo Aperto",
+        "mode": "Modalità",
+        "modeValue": "Offline / Online",
+        "platform": "Piattaforma",
+        "platformValue": "Android, iOS, PC",
+        "releaseYear": "Anno di Rilascio (Mod)",
+        "releaseYearValue": "Edizione Aggiornata 2025"
+      },
+      "description": "La versione Mod APK di GTA San Andreas è specificamente progettata per i giocatori che desiderano il controllo completo del gioco, tutte le missioni sono sbloccate, denaro illimitato e accesso a veicoli e armi premium. È perfetto per coloro che amano sperimentare in un ambiente di mondo aperto."
+    },
+    "updates": {
+      "title": "Cosa c'è di Nuovo nel 2025 - Ultimi Aggiornamenti",
+      "intro": "Molti giocatori stanno ancora giocando a GTA San Andreas nel 2025, e gli sviluppatori continuano a migliorare le prestazioni del gioco sui sistemi più nuovi.",
+      "items": {
+        "graphics": {
+          "title": "Miglior Supporto Grafico",
+          "description": "Ora supporta risoluzioni più elevate e texture più fluide per PC e mobile."
+        },
+        "controls": {
+          "title": "Controlli Touch Migliorati",
+          "description": "La versione mobile ha pulsanti più puliti e una risposta più veloce."
+        },
+        "cloudSave": {
+          "title": "Opzione Salvataggio Cloud",
+          "description": "Ora puoi salvare i progressi online su tutti i dispositivi."
+        },
+        "patches": {
+          "title": "Nuove Patch di Compatibilità",
+          "description": "Miglior supporto per Windows 11, Android 14 e iOS 18."
+        },
+        "lag": {
+          "title": "Lag Ridotto",
+          "description": "L'ultimo aggiornamento riduce i cali di fotogrammi e i problemi di riscaldamento sui dispositivi mobile."
+        },
+        "controller": {
+          "title": "Supporto Controller",
+          "description": "Mobile ora supporta controller Bluetooth per un'esperienza di gioco più fluida."
+        },
+        "customization": {
+          "title": "Personalizzazione Più Facile",
+          "description": "I giocatori possono regolare la fotocamera, la sensibilità e le impostazioni dello schermo direttamente."
+        },
+        "crashes": {
+          "title": "Correzione Ufficiale dei Crash",
+          "description": "La nuova patch di Rockstar previene gli arresti casuali del gioco sui dispositivi moderni."
+        }
+      }
+    },
+    "faqs": {
+      "title": "Domande Frequenti - GTA San Andreas 2025",
+      "subtitle": "Trova risposte alle domande più comuni su GTA San Andreas su PC e Mobile.",
+      "questions": {
+        "q1": {
+          "question": "Cosa rende GTA San Andreas ancora popolare nel 2025?",
+          "answer": "Offre vera libertà, una ricca storia e divertimento senza fine che pochi giochi possono eguagliare."
+        },
+        "q2": {
+          "question": "GTA San Andreas è disponibile sia per PC che per Mobile?",
+          "answer": "Sì. Funziona bene su Windows, Android e iOS."
+        },
+        "q3": {
+          "question": "Posso usare gli cheat sul mio dispositivo mobile?",
+          "answer": "Sì, ma hai bisogno di una tastiera esterna o di un'opzione cheat integrata."
+        },
+        "q4": {
+          "question": "Chi è l'eroe principale?",
+          "answer": "Carl \"CJ\" Johnson - un uomo coraggioso che combatte per la famiglia e il rispetto."
+        },
+        "q5": {
+          "question": "Qual è la dimensione del gioco?",
+          "answer": "Circa 6 GB per PC e 2,6 GB per mobile."
+        },
+        "q6": {
+          "question": "Posso giocare offline?",
+          "answer": "Sì, l'intero gioco può essere giocato offline dopo l'installazione."
+        },
+        "q7": {
+          "question": "Ci sono missioni nascoste?",
+          "answer": "Sì. Ci sono missioni secondarie segrete, incluse corriere, vigilante e corse."
+        },
+        "q8": {
+          "question": "Qual è il migliore, PC o Mobile?",
+          "answer": "PC offre una grafica migliore, mentre mobile offre comodità. Entrambi sono eccellenti nel 2025."
+        }
+      }
+    }
+  },
+  "missions": {
+    "secretMissionsTitle": "Missioni segrete",
+    "mainMissionsTitle": "Missioni principali semplici",
+    "secret": [
+      {
+        "title": "Missione Corriere",
+        "description": "Consegna lettere in tutta la città usando una moto."
+      },
+      {
+        "title": "Missione Vigilante",
+        "description": "Ruba un'auto della polizia e cattura i criminali."
+      },
+      {
+        "title": "Missione Vigile del Fuoco",
+        "description": "Guida il camion dei pompieri e spegni gli incendi."
+      },
+      {
+        "title": "Missione Paramedico",
+        "description": "Aiuta le persone ferite e guadagna rispetto."
+      },
+      {
+        "title": "Missione Tassista",
+        "description": "Prendi i passeggeri e portali rapidamente."
+      }
+    ],
+    "main": [
+      {
+        "title": "Big Smoke",
+        "description": "Presenta Big Smoke e la storia."
+      },
+      {
+        "title": "Drive-Thru",
+        "description": "Una missione divertente dove mangi e insegui i Ballas."
+      },
+      {
+        "title": "Tagging Up Turf",
+        "description": "Impara a spruzzare i tag delle gang."
+      },
+      {
+        "title": "OG Loc",
+        "description": "Aiuta OG Loc nel suo primo sogno musicale."
+      },
+      {
+        "title": "Riunendo le Famiglie",
+        "description": "Lavora con Sweet e scappa dalla polizia."
+      }
+    ]
+  },
+  "gtaCheats": {
+    "hero": {
+      "title": "Codici Cheat di GTA San Andreas",
+      "subtitle": "Domina ogni angolo di San Andreas con codici cheat illimitati e comandi. La tua guida completa per infrangere le regole.",
+      "badge1": "Tutte le Piattaforme",
+      "badge2": "Codici Aggiornati"
+    },
+    "introduction": {
+      "title": "Codici Cheat di GTA San Andreas",
+      "subtitle": "Guida e Riferimento Completi",
+      "description": "I codici cheat rendono GTA San Andreas ancora più divertente. Puoi usarli su PC e Mobile per aggiungere auto, soldi, armi o poteri speciali.",
+      "paragraph": "I codici cheat rendono GTA San Andreas ancora più divertente. Puoi usarli su PC e Mobile per aggiungere auto, soldi, armi o poteri speciali. Ecco alcuni codici cheat popolari per il divertimento del gioco:",
+      "tip": "Usa i codici cheat dopo aver salvato il gioco. Troppi codici cheat possono causare arresti o rendere più difficili le missioni successive."
+    },
+    "actionCheats": {
+      "title": "Codici di Azione Rapida",
+      "headers": [
+        "Azione",
+        "Codice Cheat (PC)",
+        "Effetto"
+      ],
+      "data": [
+        {
+          "action": "Salute Infinita",
+          "pc": "BAGUVIX",
+          "effect": "Rende CJ quasi invincibile"
+        },
+        {
+          "action": "Armatura Completa",
+          "pc": "HESOYAM",
+          "effect": "Dà armatura e salute complete"
+        },
+        {
+          "action": "Set Armi 1",
+          "pc": "LXGIWYL",
+          "effect": "Armi di base e corpo a corpo"
+        },
+        {
+          "action": "Jetpack",
+          "pc": "ROCKETMAN",
+          "effect": "Fa apparire un jetpack"
+        },
+        {
+          "action": "Carro (Rhino)",
+          "pc": "AIWPRTON",
+          "effect": "Fa apparire un carro armato militare"
+        },
+        {
+          "action": "Abbassa Livello Ricerca",
+          "pc": "AEZAKMI",
+          "effect": "La polizia ti ignora"
+        },
+        {
+          "action": "Le Auto Volano",
+          "pc": "CHITTYCHITTYBANGBANG",
+          "effect": "Le auto possono volare"
+        },
+        {
+          "action": "Mai Fame",
+          "pc": "AEDUWNV",
+          "effect": "La barra della fame rimane piena"
+        },
+        {
+          "action": "Salto Mega",
+          "pc": "KANGAROO",
+          "effect": "CJ salta molto in alto"
+        }
+      ]
+    },
+    "playerCheats": {
+      "title": "Codici del Giocatore",
+      "subtitle": "Per PC, PlayStation e Xbox",
+      "headers": [
+        "Effetto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "Salute Infinita",
+          "pc": "BAGUVIX",
+          "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE",
+          "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y"
+        },
+        {
+          "effect": "Munizioni Infinite",
+          "pc": "FULLCLIP",
+          "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1",
+          "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB"
+        },
+        {
+          "effect": "Ossigeno Infinito",
+          "pc": "CVWKXAM",
+          "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN",
+          "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN"
+        },
+        {
+          "effect": "Muscoli Massimi",
+          "pc": "JYSDSOD",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT"
+        },
+        {
+          "effect": "Grasso Massimo",
+          "pc": "BTCDBCB",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT"
+        },
+        {
+          "effect": "Magro",
+          "pc": "KVGYZQK",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP"
+        },
+        {
+          "effect": "Livello Ricerca Sei Stelle",
+          "pc": "LJSPQK",
+          "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN",
+          "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN"
+        },
+        {
+          "effect": "Abbassa Livello Ricerca",
+          "pc": "ASNAEB",
+          "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN",
+          "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN"
+        },
+        {
+          "effect": "Mai Ricercato",
+          "pc": "AEZAKMI",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT"
+        },
+        {
+          "effect": "Salto Mega",
+          "pc": "KANGAROO",
+          "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2",
+          "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT"
+        }
+      ]
+    },
+    "vehicleCheats": {
+      "title": "Codici Veicoli e Trasporto",
+      "headers": [
+        "Effetto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "Fa Apparire Autocarro Cisterna",
+          "pc": "AMOMHRER",
+          "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1",
+          "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB"
+        },
+        {
+          "effect": "Fa Apparire Jetpack",
+          "pc": "ROCKETMAN",
+          "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT",
+          "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT"
+        },
+        {
+          "effect": "Fa Apparire Jet Hydra",
+          "pc": "JUMPJET",
+          "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP",
+          "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP"
+        },
+        {
+          "effect": "Fa Apparire Camion Mostro",
+          "pc": "MONSTERMASH",
+          "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1",
+          "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB"
+        },
+        {
+          "effect": "Le Auto Volano",
+          "pc": "RIPAZHA",
+          "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT",
+          "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT"
+        },
+        {
+          "effect": "Le Auto Galleggiano sull'Acqua",
+          "pc": "BGKGTJH",
+          "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT",
+          "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT"
+        },
+        {
+          "effect": "Tutte le Auto Hanno Nitro",
+          "pc": "SPEEDFREAK",
+          "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1",
+          "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB"
+        },
+        {
+          "effect": "Fa Esplodere Tutte le Auto",
+          "pc": "CPKTNWT",
+          "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1",
+          "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB"
+        }
+      ]
+    },
+    "weatherCheats": {
+      "title": "Codici Meteo e Mondo",
+      "headers": [
+        "Effetto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "Meteo Soleggiato",
+          "pc": "PLEASANTLYWARM",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE",
+          "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X"
+        },
+        {
+          "effect": "Meteo Piovoso",
+          "pc": "AUIFRVQS",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X"
+        },
+        {
+          "effect": "Meteo Nebbioso",
+          "pc": "CFVFGMJ",
+          "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE",
+          "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X"
+        },
+        {
+          "effect": "Tempo Veloce",
+          "pc": "YSOHNUL",
+          "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP",
+          "xbox": "B, B, X, LB, LT, A, Y, UP"
+        },
+        {
+          "effect": "Tempo Lento",
+          "pc": "LIYOAAY",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1",
+          "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB"
+        }
+      ]
+    },
+    "gangCheats": {
+      "title": "Codici Gang e Pedone",
+      "headers": [
+        "Effetto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "Recluta Chiunque (Pistola)",
+          "pc": "SJMAHPE",
+          "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT",
+          "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT"
+        },
+        {
+          "effect": "Recluta Chiunque (Razzi)",
+          "pc": "ZSOXFSQ",
+          "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+          "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+        },
+        {
+          "effect": "Gang Controllano le Strade",
+          "pc": "BIFBUZZ",
+          "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT",
+          "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT"
+        },
+        {
+          "effect": "Sommosse in Città",
+          "pc": "IOJUFZN",
+          "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1",
+          "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB"
+        }
+      ]
+    },
+    "moneyWeapons": {
+      "title": "Codici Soldi, Armi e Abilità",
+      "headers": [
+        "Effetto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "data": [
+        {
+          "effect": "Salute Completa, Armatura e 250k $",
+          "pc": "HESOYAM",
+          "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "Set Armi 1",
+          "pc": "LXGIWYL",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "Set Armi 2",
+          "pc": "PROFESSIONALSKIT",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT"
+        },
+        {
+          "effect": "Set Armi 3",
+          "pc": "UZUMYMW",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN"
+        }
+      ]
+    },
+    "weapons": {
+      "title": "Armi e Pistole",
+      "subtitle": "Con i Prezzi",
+      "description": "Le armi sono una grande parte del gameplay di GTA San Andreas. Puoi acquistarle nei negozi Ammu-Nation o trovarle sulla mappa.",
+      "headers": [
+        "Nome Arma",
+        "Tipo",
+        "Prezzo ($)",
+        "Dettagli"
+      ],
+      "tip": "Usa diverse armi per diverse missioni. Per le guerre di gang, fucili e SMG funzionano meglio.",
+      "data": [
+        {
+          "name": "Pistola 9mm",
+          "type": "Pistola",
+          "price": "250",
+          "details": "Arma di base, buona per combattimenti ravvicinati"
+        },
+        {
+          "name": "Desert Eagle",
+          "type": "Pistola",
+          "price": "1200",
+          "details": "Danno forte, potenza con un colpo"
+        },
+        {
+          "name": "AK-47",
+          "type": "Fucile",
+          "price": "3500",
+          "details": "Popolare fucile d'assalto"
+        },
+        {
+          "name": "M4",
+          "type": "Fucile",
+          "price": "5000",
+          "details": "Potente e accurato"
+        },
+        {
+          "name": "Fucile a Pompa",
+          "type": "Pompa",
+          "price": "1000",
+          "details": "Buono per distanza ravvicinata"
+        },
+        {
+          "name": "Fucile a Pompa da Combattimento",
+          "type": "Auto",
+          "price": "2500",
+          "details": "Fucile a pompa a fuoco rapido"
+        },
+        {
+          "name": "Micro SMG",
+          "type": "SMG",
+          "price": "1500",
+          "details": "Leggero e veloce"
+        },
+        {
+          "name": "MP5",
+          "type": "SMG",
+          "price": "3000",
+          "details": "SMG potente per le missioni"
+        },
+        {
+          "name": "Fucile da Cecchino",
+          "type": "Lunga Distanza",
+          "price": "6000",
+          "details": "Precisione a lunga distanza"
+        },
+        {
+          "name": "RPG",
+          "type": "Pesante",
+          "price": "8000",
+          "details": "Lanciarazzi per veicoli"
+        },
+        {
+          "name": "Minigun",
+          "type": "Pesante",
+          "price": "15000",
+          "details": "Potenza di fuoco estrema"
+        }
+      ]
+    },
+    "vehicles": {
+      "title": "Auto e Moto",
+      "subtitle": "Con Velocità e Prezzo",
+      "description": "Le auto e le moto sono il cuore dell'esperienza di GTA San Andreas. Ecco alcuni dei più popolari:",
+      "headers": [
+        "Nome Veicolo",
+        "Tipo",
+        "Velocità (km/h)",
+        "Prezzo Appross ($)"
+      ],
+      "fact": "L'Infernus è l'auto più veloce del gioco e preferita da molti giocatori.",
+      "data": [
+        {
+          "name": "Infernus",
+          "type": "Super Auto",
+          "speed": "240",
+          "price": "90000"
+        },
+        {
+          "name": "Cheetah",
+          "type": "Sport",
+          "speed": "230",
+          "price": "80000"
+        },
+        {
+          "name": "Turismo",
+          "type": "Sport",
+          "speed": "220",
+          "price": "85000"
+        },
+        {
+          "name": "Bullet",
+          "type": "Sport",
+          "speed": "210",
+          "price": "75000"
+        },
+        {
+          "name": "Banshee",
+          "type": "Sport",
+          "speed": "200",
+          "price": "65000"
+        },
+        {
+          "name": "Phoenix",
+          "type": "Classico",
+          "speed": "180",
+          "price": "55000"
+        },
+        {
+          "name": "NRG-500",
+          "type": "Moto",
+          "speed": "250",
+          "price": "60000"
+        },
+        {
+          "name": "PCJ-600",
+          "type": "Moto",
+          "speed": "200",
+          "price": "30000"
+        },
+        {
+          "name": "Sanchez",
+          "type": "Motocross",
+          "speed": "160",
+          "price": "20000"
+        },
+        {
+          "name": "Quad",
+          "type": "Fuoristrada",
+          "speed": "140",
+          "price": "15000"
+        }
+      ]
+    },
+    "characters": {
+      "title": "Tutti i Personaggi Principali",
+      "subtitle": "La Storia di San Andreas",
+      "description": "La storia di San Andreas è piena di personaggi indimenticabili. Ecco i principali:",
+      "headers": [
+        "Personaggio",
+        "Ruolo nella Storia"
+      ],
+      "note": "Ogni personaggio aggiunge profondità al gioco, rendendo ogni missione entusiasmante.",
+      "data": [
+        {
+          "name": "Carl Johnson (CJ)",
+          "role": "Eroe principale, personaggio del giocatore"
+        },
+        {
+          "name": "Sweet Johnson",
+          "role": "Fratello di CJ, il leader di Grove Street"
+        },
+        {
+          "name": "Big Smoke",
+          "role": "Vecchio amico di CJ che lo tradisce più tardi"
+        },
+        {
+          "name": "Ryder",
+          "role": "Un altro membro di Grove Street che tradisce anche CJ"
+        },
+        {
+          "name": "Cesar Vialpando",
+          "role": "Fidanzato di Kendl e stretto alleato di CJ"
+        },
+        {
+          "name": "Kendl Johnson",
+          "role": "Sorella di CJ, forte e intelligente"
+        },
+        {
+          "name": "Ufficiale Tenpenny",
+          "role": "Poliziotto corrotto, cattivo principale"
+        },
+        {
+          "name": "Woozie",
+          "role": "Leader cieco della Triade, amico di CJ"
+        },
+        {
+          "name": "Catalina",
+          "role": "La folle ragazza di CJ per un po'"
+        },
+        {
+          "name": "The Truth",
+          "role": "Un divertente hippie che aiuta CJ"
+        }
+      ]
+    },
+    "gangs": {
+      "title": "Gang in GTA San Andreas",
+      "description": "Il mondo di San Andreas è pieno di gang che controllano diverse aree. Conoscerle ti aiuta a capire la mappa della città e sopravvivere alle guerre di gang.",
+      "headers": [
+        "Nome Gang",
+        "Area Principale",
+        "Colore",
+        "Nemico"
+      ],
+      "note": "Ogni gang ha le proprie auto, tatuaggi e musica. Grove Street Families, la gang di CJ, combattono per il rispetto e il controllo del loro quartiere.",
+      "data": [
+        {
+          "name": "Grove Street Families",
+          "area": "Los Santos",
+          "color": "Verde",
+          "enemy": "Ballas, Vagos"
+        },
+        {
+          "name": "Ballas",
+          "area": "Los Santos",
+          "color": "Viola",
+          "enemy": "Grove Street"
+        },
+        {
+          "name": "Los Santos Vagos",
+          "area": "Los Santos",
+          "color": "Giallo",
+          "enemy": "Grove Street"
+        },
+        {
+          "name": "San Fierro Rifa",
+          "area": "San Fierro",
+          "color": "Blu",
+          "enemy": "Triadi"
+        },
+        {
+          "name": "Triadi",
+          "area": "San Fierro",
+          "color": "Rosso",
+          "enemy": "Rifa, Da Nang Boys"
+        },
+        {
+          "name": "Da Nang Boys",
+          "area": "San Fierro",
+          "color": "Grigio",
+          "enemy": "Triadi"
+        },
+        {
+          "name": "Varrio Los Aztecas",
+          "area": "Los Santos",
+          "color": "Blu Chiaro",
+          "enemy": "Ballas, Vagos"
+        },
+        {
+          "name": "Mafia Russa",
+          "area": "Las Venturas",
+          "color": "Nero",
+          "enemy": "Grove Street (missioni successive)"
+        }
+      ]
+    },
+    "secretLocations": {
+      "title": "Posizioni Segrete in GTA San Andreas",
+      "description": "San Andreas ha molti posti segreti che la maggior parte dei giocatori non nota. Visitarli dà ricompense o esperienze divertenti.",
+      "headers": [
+        "Posizione Segreta",
+        "Luogo",
+        "Cosa Troverai Lì"
+      ],
+      "note": "Alcuni giocatori credono che UFO appaiano vicino all'Area 69 di notte, ma è solo un mito — o no?",
+      "data": [
+        {
+          "location": "Area 69",
+          "place": "Deserto",
+          "find": "Jet nascosto (Hydra) e base militare"
+        },
+        {
+          "location": "Monte Chiliad",
+          "place": "Campagna",
+          "find": "Spot di salto in paracadute e gare in bici"
+        },
+        {
+          "location": "Città Fantasma",
+          "place": "Nord di San Fierro",
+          "find": "Area abbandonata con dettagli strani"
+        },
+        {
+          "location": "Rovine Sottomarine",
+          "place": "Vicino a Bayside",
+          "find": "Oggetti nascosti sotto il mare"
+        },
+        {
+          "location": "Il Grande Orecchio",
+          "place": "Deserto",
+          "find": "Gigantesco radiotelescopio"
+        },
+        {
+          "location": "Casa Grove Street",
+          "place": "Los Santos",
+          "find": "Casa di CJ, piena di ricordi"
+        },
+        {
+          "location": "Molo Easter Basin",
+          "place": "San Fierro",
+          "find": "Grandi navi e gru"
+        },
+        {
+          "location": "Verdant Meadows",
+          "place": "Deserto",
+          "find": "Aeroporto dove inizia la scuola di volo"
+        }
+      ]
+    },
+    "faqCheats": {
+      "title": "Domande Frequenti",
+      "data": [
+        {
+          "id": "1",
+          "question": "I codici cheat di GTA San Andreas disabilitano i risultati?",
+          "answer": "Sì, la maggior parte dei codici cheat disabiliterà i risultati e i trofei su determinate piattaforme. Controlla la versione del tuo gioco prima di usare i codici cheat se ti importa dei risultati."
+        },
+        {
+          "id": "2",
+          "question": "Posso usare i codici cheat in modalità multiplayer?",
+          "answer": "No, i codici cheat sono generalmente disponibili solo in modalità single-player. Usare i codici cheat in multiplayer potrebbe farti bannare dal gioco online."
+        },
+        {
+          "id": "3",
+          "question": "I codici cheat influiscono sul mio salvataggio?",
+          "answer": "I codici cheat non corrromperanno il tuo salvataggio, ma alcune versioni potrebbero contrassegnare il tuo salvataggio come modificato. È meglio usare i codici cheat su salvataggi separati."
+        },
+        {
+          "id": "4",
+          "question": "Come inserisco i codici cheat su PC?",
+          "answer": "Su PC, digita semplicemente il codice cheat mentre giochi. Sulle versioni console, usa il controller per inserire le combinazioni di pulsanti."
+        },
+        {
+          "id": "5",
+          "question": "Ci sono codici cheat per munizioni illimitate?",
+          "answer": "Sì, ci sono codici cheat specifici per munizioni illimitate. Inserisci il codice appropriato per la tua piattaforma e goditi la potenza di fuoco infinita."
+        },
+        {
+          "id": "6",
+          "question": "Posso disattivare i codici cheat una volta attivati?",
+          "answer": "Alcuni codici cheat possono essere disattivati inserendo il codice di nuovo, mentre altri sono permanenti fino a quando non carichi un salvataggio precedente."
+        }
+      ]
+    }
+  },
+  "gtaCars": {
+    "pageTitle": "Auto di GTA San Andreas",
+    "hero": {
+      "title": "Auto di GTA San Andreas",
+      "subtitle": "Guida Completa ai Veicoli nel Gioco Iconico",
+      "badge1": "200+ Veicoli",
+      "badge2": "Database Completo"
+    },
+    "introduction": {
+      "title": "Su GTA San Andreas Mod APK",
+      "paragraph1": "Il mondo di GTA San Andreas ha così tanti veicoli diversi che puoi guidare, personalizzare e collezionare. Questo gioco è diventato super popolare grazie al suo vasto mondo aperto e all'incredibile collezione di auto. Puoi trovare di tutto, dalle veloci auto sportive ai grandi camion nelle strade di San Andreas.",
+      "paragraph2": "Le auto in questo gioco non sono solo per muoversi. Rappresentano libertà, stile e l'atmosfera californiana cool degli anni '90. Ai giocatori piace passare il tempo a cercare auto rare, ripararle nei garage e correre attraverso Los Santos, San Fierro e Las Venturas."
+    },
+    "vehicleDatabase": {
+      "title": "Elenco Auto GTA San Andreas: Database Completo dei Veicoli",
+      "subtitle": "Tutti i Veicoli con Informazioni su Velocità e Prezzo",
+      "headers": [
+        "Nome Veicolo",
+        "Tipo",
+        "Velocità Massima",
+        "Prezzo"
+      ],
+      "totalVehicles": "200+ Veicoli",
+      "data": [
+        {
+          "name": "Admiral",
+          "type": "Auto/Berlina",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Alpha",
+          "type": "Auto/Sport",
+          "speed": "124 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Ambulanza",
+          "type": "Emergenza/Auto",
+          "speed": "96 km/h",
+          "price": "10.000 $"
+        },
+        {
+          "name": "Andromada",
+          "type": "Aeroplani",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Airtrain",
+          "type": "Trasporto",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Airwolf",
+          "type": "Elicotteri",
+          "speed": "190 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Artict",
+          "type": "Camion",
+          "speed": "87 km/h",
+          "price": "45.000 $"
+        },
+        {
+          "name": "Baller",
+          "type": "SUV",
+          "speed": "118 km/h",
+          "price": "60.000 $"
+        },
+        {
+          "name": "Banshee",
+          "type": "Auto/Sport",
+          "speed": "129 km/h",
+          "price": "65.000 $"
+        },
+        {
+          "name": "Barracks",
+          "type": "Militare/Camion",
+          "speed": "75 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Barracks OL",
+          "type": "Militare/Camion",
+          "speed": "75 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Berkley's Van",
+          "type": "Furgoni",
+          "speed": "82 km/h",
+          "price": "15.000 $"
+        },
+        {
+          "name": "BF-400",
+          "type": "Moto/Biciclette",
+          "speed": "120 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "BF-Injection",
+          "type": "Fuoristrada",
+          "speed": "110 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "Bike",
+          "type": "Moto/Biciclette",
+          "speed": "12 km/h",
+          "price": "Gratis"
+        },
+        {
+          "name": "Blade",
+          "type": "Auto/Lowrider",
+          "speed": "112 km/h",
+          "price": "52.000 $"
+        },
+        {
+          "name": "Blista Compact",
+          "type": "Auto/Città",
+          "speed": "102 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "Bloodring Banger",
+          "type": "Auto/Modificata",
+          "speed": "108 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Blueline Goods",
+          "type": "Camion/Consegna",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Boat",
+          "type": "Veicoli Acquatici",
+          "speed": "85 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Boxville",
+          "type": "Camion/Consegna",
+          "speed": "91 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Brawler",
+          "type": "Auto/Fuoristrada",
+          "speed": "98 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Breeze",
+          "type": "Auto/Città",
+          "speed": "100 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Bronco",
+          "type": "SUV",
+          "speed": "115 km/h",
+          "price": "55.000 $"
+        },
+        {
+          "name": "Brown Streak",
+          "type": "Trasporto",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Bus",
+          "type": "Trasporto/Autobus",
+          "speed": "85 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cabbie",
+          "type": "Taxi",
+          "speed": "100 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Camper",
+          "type": "Furgoni",
+          "speed": "99 km/h",
+          "price": "28.000 $"
+        },
+        {
+          "name": "Caracara",
+          "type": "SUV",
+          "speed": "115 km/h",
+          "price": "58.000 $"
+        },
+        {
+          "name": "Carbine",
+          "type": "Fucili",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Carabane",
+          "type": "Auto/Trasporto",
+          "speed": "105 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cargobob",
+          "type": "Elicotteri",
+          "speed": "175 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cargoplane",
+          "type": "Aeroplani",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Cartop",
+          "type": "Trasporto",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Cement Truck",
+          "type": "Camion/Industriali",
+          "speed": "92 km/h",
+          "price": "42.000 $"
+        },
+        {
+          "name": "Cheetah",
+          "type": "Auto/Sport",
+          "speed": "130 km/h",
+          "price": "80.000 $"
+        },
+        {
+          "name": "Cherub",
+          "type": "Aeroplani",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Clover",
+          "type": "Auto/Gang",
+          "speed": "106 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Coach",
+          "type": "Autobus",
+          "speed": "80 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Comet",
+          "type": "Auto/Sport",
+          "speed": "125 km/h",
+          "price": "72.000 $"
+        },
+        {
+          "name": "Commandeer",
+          "type": "Militare/Camion",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Copter",
+          "type": "Elicotteri",
+          "speed": "180 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Corpse",
+          "type": "Auto/Modificata",
+          "speed": "80 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Covered Wagon",
+          "type": "Carri",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Crate",
+          "type": "Trasporto",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Crane",
+          "type": "Industriale",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Crusader",
+          "type": "Camion",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cuban",
+          "type": "Aeroplani",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Dinghy",
+          "type": "Veicoli Acquatici",
+          "speed": "60 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dinghy Gonfiabile",
+          "type": "Veicoli Acquatici",
+          "speed": "60 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dozer",
+          "type": "Industriale",
+          "speed": "55 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "DPV",
+          "type": "Moto",
+          "speed": "120 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dub",
+          "type": "Auto/Lowrider",
+          "speed": "110 km/h",
+          "price": "50.000 $"
+        },
+        {
+          "name": "Dumper",
+          "type": "Camion/Industriali",
+          "speed": "76 km/h",
+          "price": "48.000 $"
+        },
+        {
+          "name": "Dustoff",
+          "type": "Elicotteri",
+          "speed": "185 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "DWT-20",
+          "type": "Moto",
+          "speed": "115 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Elegy",
+          "type": "Auto/Sport",
+          "speed": "126 km/h",
+          "price": "78.000 $"
+        },
+        {
+          "name": "Emerus",
+          "type": "Auto/Sport",
+          "speed": "135 km/h",
+          "price": "88.000 $"
+        },
+        {
+          "name": "Emperor",
+          "type": "Auto/Berlina",
+          "speed": "105 km/h",
+          "price": "32.000 $"
+        },
+        {
+          "name": "Enforcer",
+          "type": "Camion/SWAT",
+          "speed": "92 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Esperanto",
+          "type": "Auto/Classiche",
+          "speed": "108 km/h",
+          "price": "38.000 $"
+        },
+        {
+          "name": "Euros",
+          "type": "Auto/Sport",
+          "speed": "132 km/h",
+          "price": "85.000 $"
+        },
+        {
+          "name": "Everon",
+          "type": "Auto/SUV",
+          "speed": "118 km/h",
+          "price": "62.000 $"
+        },
+        {
+          "name": "Exemplar",
+          "type": "Auto/Lusso",
+          "speed": "117 km/h",
+          "price": "70.000 $"
+        },
+        {
+          "name": "Exterminator",
+          "type": "Camion",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Faimliner",
+          "type": "Trasporto",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Fairtone",
+          "type": "Auto/Classiche",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Farmtruck",
+          "type": "Camion",
+          "speed": "82 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "FCR-900",
+          "type": "Moto",
+          "speed": "128 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Feltzer",
+          "type": "Auto/Decapottabile",
+          "speed": "119 km/h",
+          "price": "68.000 $"
+        },
+        {
+          "name": "Firetruk",
+          "type": "Emergenza",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Flatbed",
+          "type": "Camion",
+          "speed": "86 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Forklift",
+          "type": "Industriale",
+          "speed": "45 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Fortune",
+          "type": "Auto/Classiche",
+          "speed": "105 km/h",
+          "price": "40.000 $"
+        },
+        {
+          "name": "Freeway",
+          "type": "Moto",
+          "speed": "122 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Futo",
+          "type": "Auto/Città",
+          "speed": "108 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Fuzzie",
+          "type": "Moto",
+          "speed": "110 km/h",
+          "price": "N/A"
+        }
+      ]
+    },
+    "vehicleSystem": {
+      "title": "Comprendere il Sistema dei Veicoli in GTA San Andreas",
+      "content": "Il sistema dei veicoli in questo gioco è davvero dettagliato e divertente da usare. Puoi trovare oltre 200 veicoli diversi in tutte e tre le città principali e la campagna. Ogni veicolo si guida diversamente e ha la sua velocità e potenza. Questi fattori fanno una grande differenza quando giochi. Il gioco mette i veicoli in categorie come berlina, auto sportive, moto, barche e aerei. Devi imparare a guidare diversi tipi di veicoli per completare le missioni."
+    },
+    "sportsCars": {
+      "title": "Migliori Auto Sportive per Corse e Velocità",
+      "content": "Le auto sportive in GTA San Andreas sono perfette se ami andare veloce. L'Infernus è una delle auto più veloci che puoi ottenere. Accelera rapidamente e ha una velocità massima davvero alta. La Bullet è un'altra grande auto sportiva che la gente cerca. Ha una buona velocità e rimane stabile quando la guidi. La Turismo funziona allo stesso modo e assomiglia a supercar reali."
+    },
+    "lowRiders": {
+      "title": "Lowrider Classici e Opzioni di Personalizzazione",
+      "content": "I lowrider sono una grande parte della cultura di GTA San Andreas. Mostrano lo stile della Costa Ovest per cui è conosciuto il gioco. I modelli lowrider popolari sono Blade, Broadway e Remington. Puoi personalizzare i lowrider con nuove vernici, ruote, sistemi di nitroso e idraulici. Visita garage speciali come Loco Low Co per modificare questi veicoli.",
+      "models": [
+        "Blade",
+        "Broadway",
+        "Remington"
+      ]
+    },
+    "motorcycles": {
+      "title": "Moto e Biciclette per Viaggi Veloci",
+      "content": "Le moto sono un modo veloce per farsi strada nel traffico di GTA San Andreas. La NRG-500 è la moto più veloce del gioco. La PCJ-600 ti dà un buon mix di velocità e controllo. La Sanchez è la migliore per la guida fuoristrada. Ma le moto non ti proteggono tanto quanto le auto, quindi gli incidenti possono fare più male.",
+      "models": [
+        "NRG-500",
+        "PCJ-600",
+        "Sanchez"
+      ]
+    },
+    "heavyVehicles": {
+      "title": "Veicoli Pesanti e Camion",
+      "content": "I veicoli pesanti in GTA San Andreas hanno usi speciali oltre al semplice guidare. Il Dumper si trova nelle cave ed è il veicolo più grande del gioco. La cabina del camion Linerunner e il trasportatore auto Packer ti danno modi unici per giocare. I camion dei pompieri, le ambulanze e le auto della polizia hanno missioni speciali. Il Monster truck può schiacciare auto piccole e guidare facilmente su terreni accidentati."
+    },
+    "rareVehicles": {
+      "title": "Veicoli Rari e Unici da Collezionare",
+      "content": "Alcuni veicoli in GTA San Andreas sono veramente rari e difficili da trovare. La Phoenix appare solo in determinati luoghi e in determinati momenti. L'auto sportiva ZR-350 è sia rara che veloce. L'Hotknife è un hot rod speciale che puoi ottenere solo completando certi sfide di raccolta di veicoli. La Kart sembra un kart da corsa e ti dà un tempo di guida divertente e strano.",
+      "vehicles": [
+        "Phoenix",
+        "ZR-350",
+        "Hotknife",
+        "Kart"
+      ]
+    },
+    "aircraft": {
+      "title": "Veicoli Volanti e Aerei",
+      "content": "Gli aerei in GTA San Andreas aggiungono un modo completamente nuovo di giocare. Il caccia Hydra è veloce e può decollare verticalmente. L'aereo a elica Rustler è più facile da volare se stai appena imparando. Gli elicotteri come Maverick e Police Maverick sono stabili per turismo o missioni aeree. Imparare a volare richiede pratica, ma aggiunge davvero al gioco.",
+      "aircraft": [
+        "Hydra",
+        "Rustler",
+        "Maverick",
+        "Police Maverick"
+      ]
+    },
+    "waterVehicles": {
+      "title": "Veicoli Acquatici e Barche",
+      "content": "I veicoli acquatici ti danno un altro modo per muoverti in GTA San Andreas. La barca veloce Squalo è il modo più veloce di viaggiare sull'acqua. La barca Tropic è affidabile e ha una velocità e un handling decenti. Il Jetmax sembra elegante e funziona bene sull'acqua. L'hovercraft Vortex può andare sia su terra che in acqua.",
+      "vehicles": [
+        "Squalo",
+        "Tropic",
+        "Jetmax",
+        "Vortex"
+      ]
+    },
+    "policeVehicles": {
+      "title": "Veicoli Polizia e Emergenza",
+      "content": "I veicoli polizia in GTA San Andreas vengono in diversi tipi come auto da pattuglia, SUV e moto. L'Auto Polizia ha buona velocità e potenza per inseguire le persone. Il camion SWAT Enforcer ha armatura pesante. I camion dei pompieri hanno cannoni d'acqua e iniziano missioni dei pompieri. Le ambulanze ti permettono di fare missioni di paramedico. Questi veicoli spesso funzionano meglio di quelli normali.",
+      "vehicles": [
+        "Police Car",
+        "Enforcer",
+        "Fire Truck",
+        "Ambulance",
+        "HPV1000"
+      ]
+    },
+    "importExport": {
+      "title": "Elenco Veicoli Importazione/Esportazione",
+      "content": "La funzione importazione/esportazione in GTA San Andreas ti permette di guadagnare denaro raccogliendo certi veicoli. Un elenco appare alla gru nei dock di Easter Basin. Il primo elenco ha veicoli comuni facili da trovare. Il secondo e terzo elenco hanno auto più rare e preziose. Questa funzione ti fa esplorare di più e aggiunge un aspetto di raccolta al gioco."
+    },
+    "modifications": {
+      "title": "Modificazioni dei Veicoli e Garage",
+      "content": "La modifica dei veicoli è una grande parte del gameplay di GTA San Andreas. I garage Transfender sono in tutte e tre le città e offrono personalizzazione di base. Puoi cambiare i colori della vernice, aggiungere sistemi di nitroso, aggiornare gli idraulici e cambiare le ruote. Wheel Arch Angels a San Fierro si concentra sulle modifiche da street racing. Loco Low Co fa solo personalizzazione lowrider."
+    },
+    "damageSystem": {
+      "title": "Danno ai Veicoli e Durabilità",
+      "content": "Il sistema di danno in GTA San Andreas cambia il modo in cui i veicoli si guidano e funzionano. Gli incidenti causano danni visibili come ammaccature, finestre rotte e parti mancanti. Il danno grave rende i veicoli meno funzionanti. Diversi veicoli possono sopportare diverse quantità di danni. Puoi riparare i veicoli presso i negozi Pay 'n' Spray per un prezzo."
+    },
+    "cheats": {
+      "title": "Codici di Cheat e Codici di Generazione Veicoli",
+      "content": "GTA San Andreas ha molti codici di cheat che fanno apparire i veicoli immediatamente. Il codice di cheat jetpack ti permette di volare senza aver bisogno di un aereo. Usare codici di cheat influisce sui salvataggi e può fermare certi risultati. I codici di generazione veicoli sono molto popolari per causare caos o testare veicoli. Alcuni codici migliorano le prestazioni del veicolo o li rendono invincibili."
+    },
+    "findingVehicles": {
+      "title": "Suggerimenti per Trovare e Immagazzinare Veicoli",
+      "content": "Trovare veicoli specifici in GTA San Andreas richiede di sapere dove e quando appaiono. Diversi veicoli appaiono in diverse aree a seconda del quartiere e dell'ora del giorno. I garage personali ti permettono di immagazzinare veicoli per sempre. Di solito contiene 2-4 veicoli. Dovresti concentrarti sull'immagazzinamento di veicoli rari e preziosi."
+    },
+    "vehicleMissions": {
+      "title": "Missioni e Sfide dei Veicoli",
+      "content": "Diverse missioni di veicoli in GTA San Andreas danno ricompense e divertimento. Le missioni di corriere richiedono consegne in moto entro i limiti di tempo. Gli eventi dello stadio includono corse su pista di terra, demolition derby e altri concorsi di veicoli. Le missioni di scuola guida insegnano il controllo dei veicoli. La missione del treno merci ti permette di controllare i treni. Completare queste sfide migliora le tue abilità e ti dà ricompense."
+    },
+    "performance": {
+      "title": "Confronto delle Prestazioni dei Modelli Popolari",
+      "content": "Confrontare le prestazioni dei veicoli ti aiuta a scegliere il veicolo giusto per diverse situazioni. L'Infernus è ottimo per la velocità massima ma può essere difficile da controllare ad altissima velocità. La Sultan ti dà buone prestazioni generali. L'Elegy ha una velocità decente con handling davvero buono. La Banshee offre potenza grezza ma richiede abilità per gestirla bene."
+    },
+    "drivingSkill": {
+      "title": "Impatto dell'Abilità di Guida sulla Manovrabilità dei Veicoli",
+      "content": "La statistica di abilità di guida in GTA San Andreas cambia davvero il controllo del veicolo. Bassa abilità di guida rende i veicoli più inclini a slittare e girare nelle curve. Con l'aumentare dell'abilità, i veicoli rispondono meglio e rimangono stabili ad alta velocità. Abilità di guida più elevata significa anche meno danni da incidenti. Puoi aumentare questa abilità guidando qualsiasi veicolo per molto tempo."
+    },
+    "updates2025": {
+      "title": "Ultimi Aggiornamenti e Caratteristiche: Cosa c'è di Nuovo nel 2025?",
+      "content": "La comunità di GTA San Andreas rimane attiva nel 2025 con diversi aggiornamenti e miglioramenti. Le versioni mobile e rimasterizzate hanno ricevuto patch che correggono i bug e migliorano la grafica. Le edizioni migliorate hanno texture migliori e controlli aggiornati per i nuovi giocatori. Le modifiche realizzate dalla comunità continuano ad aggiungere nuovi veicoli e funzionalità. La versione mobile Netflix ha portato il gioco a nuovi giocatori."
+    },
+    "faqCars": {
+      "title": "Domande Frequenti sulle Auto di GTA San Andreas",
+      "data": [
+        {
+          "id": "1",
+          "question": "Quanti veicoli ci sono in GTA San Andreas?",
+          "answer": "Il gioco ha oltre 200 veicoli tra auto, moto, barche, aerei e veicoli speciali. Questa vasta collezione ha qualcosa per il gusto e le esigenze di ogni giocatore."
+        },
+        {
+          "id": "2",
+          "question": "Dove posso trovare l'auto più veloce?",
+          "answer": "L'Infernus è l'auto più veloce e di solito appare in aree ricche come Paradiso a San Fierro. Puoi trovarlo anche nell'area di Easter Basin dopo certe missioni."
+        },
+        {
+          "id": "3",
+          "question": "Posso salvare i veicoli modificati permanentemente?",
+          "answer": "Sì, puoi salvare i veicoli modificati nei garage personali nelle case sicure. Assicurati che il garage abbia spazio e parcheggia il veicolo completamente dentro in modo che si salvi correttamente."
+        },
+        {
+          "id": "4",
+          "question": "Cosa succede se il mio garage è pieno?",
+          "answer": "Quando un garage ha troppi veicoli, il più vecchio immagazzinato scomparirà. Controlla sempre i limiti del garage prima di immagazzinare nuovi veicoli per non perdere quelli speciali."
+        },
+        {
+          "id": "5",
+          "question": "Ci sono auto volanti nel gioco?",
+          "answer": "Il gioco normale non ha auto volanti, ma l'aereo Dodo e vari aerei ti permettono di volare. Alcune modifiche aggiungono funzionalità di auto volante per un gameplay migliore."
+        },
+        {
+          "id": "6",
+          "question": "Quali sono le nuove funzionalità negli aggiornamenti 2025?",
+          "answer": "Gli aggiornamenti 2025 hanno grafica migliore, correzioni di bug, controlli aggiornati e versioni mobile migliori. Le modifiche della comunità aggiungono anche nuovi veicoli e opzioni multiplayer per un gameplay fresco."
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "Conclusione",
+      "content": "Le auto di GTA San Andreas sono una delle migliori parti di questo gioco leggendario. L'enorme varietà di veicoli dalle biciclette semplici ai potenti aerei offre divertimento e opzioni di gameplay infinite. Che tu ami collezionare auto rare, personalizzare lowrider o correre con auto sportive, questo gioco ti offre un'esperienza incredibile con i veicoli. Il dettaglio nella progettazione e nella manovrabilità dei veicoli continua a interessare i giocatori anno dopo anno."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 GTA San Apk. Tutti i diritti riservati.",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di servizio"
+  }
+}
