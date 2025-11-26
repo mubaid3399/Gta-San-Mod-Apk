@@ -39,7 +39,7 @@ export default function HomeContent() {
 
             {/* Hero Content - Download APK Button */}
             <div className="relative z-10 h-full flex items-center justify-center">
-              <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-4 px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-xl">
+              <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-2 px-6 sm:py-4 sm:px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-base sm:text-xl">
                 Download APK
               </button>
             </div>
@@ -70,20 +70,20 @@ export default function HomeContent() {
 
           {/* Content Paragraphs */}
           <div className="space-y-6">
-            <p className="text-lg leading-8 text-gray-700 dark:text-gray-300">
+            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-700 dark:text-gray-300">
               {t('content.paragraph1')}
             </p>
-            <p className="text-lg leading-8 text-gray-700 dark:text-gray-300">
+            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-700 dark:text-gray-300">
               {t('content.paragraph2')}
             </p>
-            <p className="text-lg leading-8 text-gray-700 dark:text-gray-300">
+            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-700 dark:text-gray-300">
               {t('content.paragraph3')}
             </p>
           </div>
 
           {/* CTA Button */}
           <div className="mt-12 text-center">
-            <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-4 px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-lg">
+            <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-2 px-6 sm:py-4 sm:px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-base sm:text-lg">
               Download APK
             </button>
           </div>
