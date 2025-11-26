@@ -4,7 +4,7 @@ import ForPCContent from './ForPCContent';
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
 export async function generateMetadata({ params }) {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanandreas.info';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const locale = params?.locale || 'en';
   const path = locale === 'en' ? '/for-pc' : `/${locale}/for-pc`;
   const t = await getTranslations({ locale, namespace: 'forPC' }).catch(() => null);

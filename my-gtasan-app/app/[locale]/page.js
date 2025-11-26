@@ -7,7 +7,7 @@ export async function generateMetadata({ params }) {
   const locale = (await params)?.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'content' }).catch(() => null);
 
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanandreas.info';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const path = locale === 'en' ? '' : `/${locale}`;
 
   const languages = supportedLocales.reduce((acc, lang) => {

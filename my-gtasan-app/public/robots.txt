@@ -12,4 +12,4 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap reference
-Sitemap: https://sanandreas.info/sitemap.xml
+Sitemap: https://gtasanandreas.info/sitemap.xml

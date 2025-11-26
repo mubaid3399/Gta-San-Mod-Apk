@@ -30,13 +30,13 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://sanandreas.info",
+    url: "https://gtasanandreas.info",
     siteName: "GTA San Apk",
     title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features",
     description: "Download GTA San Andreas MOD APK with unlimited money, all features unlocked. Play the best GTA San Andreas mods for Android.",
     images: [
       {
-        url: "https://sanandreas.info/heroimage2.png",
+        url: "https://gtasanandreas.info/heroimage2.png",
         width: 1200,
         height: 630,
         alt: "GTA San Andreas MOD APK 2025 Hero Banner",
@@ -48,7 +48,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features",
     description: "Download GTA San Andreas MOD APK with unlimited money and all features unlocked for Android devices.",
-    images: ["https://sanandreas.info/heroimage2.png"],
+    images: ["https://gtasanandreas.info/heroimage2.png"],
     creator: "@GTASanApk",
   },
   robots: {
@@ -63,7 +63,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://sanandreas.info",
+    canonical: "https://gtasanandreas.info",
   },
 };
 

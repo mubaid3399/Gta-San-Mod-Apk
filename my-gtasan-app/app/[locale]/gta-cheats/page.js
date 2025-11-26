@@ -4,7 +4,7 @@ import GtaCheatsContent from './GtaCheatsContent';
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
 export async function generateMetadata({ params }) {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanandreas.info';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const locale = params?.locale || 'en';
   const path = locale === 'en' ? '/gta-cheats' : `/${locale}/gta-cheats`;
   const t = await getTranslations({ locale, namespace: 'gtaCheats' }).catch(() => null);
