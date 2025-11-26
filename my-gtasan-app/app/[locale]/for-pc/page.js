@@ -5,7 +5,6 @@ import Footer from '../../components/Footer';
 import FAQSection from '../../components/FAQSection';
 import ContentSection from '../../components/sections/ContentSection';
 import FeatureCard from '../../components/ui/FeatureCard';
-import { gameplayFeatures } from '../../data/forpcContent';
 import ForPCHeroSection from './components/ForPCHeroSection';
 import { motion } from 'framer-motion';
 
@@ -27,9 +26,13 @@ const staggerItem = {
 
 export default function ForPCPage() {
   const t = useTranslations('forPC');
+  const tGameplayFeatures = useTranslations('gameplayFeatures');
   const tGameplay = useTranslations('gtaGameplay');
   const tMissions = useTranslations('missions');
   const tFaq = useTranslations('faq');
+
+  // Get gameplayFeatures from translations
+  const gameplayFeaturesTranslated = tGameplayFeatures.raw();
 
   // Convert forPC FAQs from translations into the expected format
   const faqRaw = t.raw('faqs');
@@ -89,7 +92,7 @@ export default function ForPCPage() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {gameplayFeatures.map((feature) => (
+          {Array.isArray(gameplayFeaturesTranslated) && gameplayFeaturesTranslated.map((feature) => (
             <motion.div key={feature.title} variants={staggerItem}>
               <h3 className="text-xl sm:text-2xl font-bold mb-4 text-gray-900 dark:text-white flex items-center gap-3">
                 <span className="text-2xl">{feature.icon}</span>
