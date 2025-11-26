@@ -981,6 +981,226 @@
       ]
     }
   },
+  "gtaCars": {
+    "pageTitle": "Voitures GTA San Andreas",
+    "hero": {
+      "title": "Voitures GTA San Andreas",
+      "subtitle": "Guide Complet des Véhicules dans le Jeu Emblématique",
+      "badge1": "200+ Véhicules",
+      "badge2": "Base de Données Complète"
+    },
+    "introduction": {
+      "title": "À propos de GTA San Andreas Mod APK",
+      "paragraph1": "Le monde de GTA San Andreas contient tellement de véhicules différents que vous pouvez conduire, personnaliser et collectionner. Ce jeu est devenu super populaire à cause de son vaste monde ouvert et de sa collection de voitures incroyable. Vous pouvez trouver tout, des voitures de sport rapides aux grands camions dans les rues de San Andreas.",
+      "paragraph2": "Les voitures dans ce jeu ne sont pas juste pour se déplacer. Elles représentent la liberté, le style et la vibe californienne cool des années 1990. Les joueurs aiment passer du temps à chercher des voitures rares, les réparer dans les garages et faire des courses à travers Los Santos, San Fierro et Las Venturas."
+    },
+    "vehicleDatabase": {
+      "title": "Liste des Voitures GTA San Andreas : Base de Données Complète des Véhicules",
+      "subtitle": "Tous les Véhicules avec les Informations de Vitesse et Prix",
+      "headers": ["Nom du Véhicule", "Type", "Vitesse Maximale", "Prix"],
+      "totalVehicles": "200+ Véhicules",
+      "data": [
+        {"name": "Admiral", "type": "Voitures/Berlines", "speed": "103 km/h", "price": "35 000 $"},
+        {"name": "Alpha", "type": "Voitures/Sport", "speed": "124 km/h", "price": "35 000 $"},
+        {"name": "Ambulance", "type": "Urgences/Voitures", "speed": "96 km/h", "price": "10 000 $"},
+        {"name": "Andromada", "type": "Avions", "speed": "S/O", "price": "S/O"},
+        {"name": "Airtrain", "type": "Transport", "speed": "S/O", "price": "S/O"},
+        {"name": "Airwolf", "type": "Hélicoptères", "speed": "190 km/h", "price": "S/O"},
+        {"name": "Artict", "type": "Camions", "speed": "87 km/h", "price": "45 000 $"},
+        {"name": "Baller", "type": "VUS", "speed": "118 km/h", "price": "60 000 $"},
+        {"name": "Banshee", "type": "Voitures/Sport", "speed": "129 km/h", "price": "65 000 $"},
+        {"name": "Barracks", "type": "Militaire/Camions", "speed": "75 km/h", "price": "S/O"},
+        {"name": "Barracks OL", "type": "Militaire/Camions", "speed": "75 km/h", "price": "S/O"},
+        {"name": "Berkley's Van", "type": "Fourgonnettes", "speed": "82 km/h", "price": "15 000 $"},
+        {"name": "BF-400", "type": "Motos/Vélos", "speed": "120 km/h", "price": "18 000 $"},
+        {"name": "BF-Injection", "type": "Tout-terrain", "speed": "110 km/h", "price": "12 000 $"},
+        {"name": "Bike", "type": "Motos/Vélos", "speed": "12 km/h", "price": "Gratuit"},
+        {"name": "Blade", "type": "Voitures/Lowriders", "speed": "112 km/h", "price": "52 000 $"},
+        {"name": "Blista Compact", "type": "Voitures/Ville", "speed": "102 km/h", "price": "18 000 $"},
+        {"name": "Bloodring Banger", "type": "Voitures/Modifiées", "speed": "108 km/h", "price": "S/O"},
+        {"name": "Blueline Goods", "type": "Camions/Livraison", "speed": "88 km/h", "price": "S/O"},
+        {"name": "Boat", "type": "Véhicules Aquatiques", "speed": "85 km/h", "price": "S/O"},
+        {"name": "Boxville", "type": "Camions/Livraison", "speed": "91 km/h", "price": "S/O"},
+        {"name": "Brawler", "type": "Voitures/Tout-terrain", "speed": "98 km/h", "price": "24 000 $"},
+        {"name": "Breeze", "type": "Voitures/Ville", "speed": "100 km/h", "price": "16 000 $"},
+        {"name": "Bronco", "type": "VUS", "speed": "115 km/h", "price": "55 000 $"},
+        {"name": "Brown Streak", "type": "Transport", "speed": "S/O", "price": "S/O"},
+        {"name": "Bus", "type": "Transport/Autobus", "speed": "85 km/h", "price": "S/O"},
+        {"name": "Cabbie", "type": "Taxis", "speed": "100 km/h", "price": "S/O"},
+        {"name": "Camper", "type": "Fourgonnettes", "speed": "99 km/h", "price": "28 000 $"},
+        {"name": "Caracara", "type": "VUS", "speed": "115 km/h", "price": "58 000 $"},
+        {"name": "Carbine", "type": "Fusils", "speed": "S/O", "price": "S/O"},
+        {"name": "Carabane", "type": "Voitures/Transport", "speed": "105 km/h", "price": "S/O"},
+        {"name": "Cargobob", "type": "Hélicoptères", "speed": "175 km/h", "price": "S/O"},
+        {"name": "Cargoplane", "type": "Avions", "speed": "S/O", "price": "S/O"},
+        {"name": "Cartop", "type": "Transport", "speed": "S/O", "price": "S/O"},
+        {"name": "Cement Truck", "type": "Camions/Industriels", "speed": "92 km/h", "price": "42 000 $"},
+        {"name": "Cheetah", "type": "Voitures/Sport", "speed": "130 km/h", "price": "80 000 $"},
+        {"name": "Cherub", "type": "Avions", "speed": "S/O", "price": "S/O"},
+        {"name": "Clover", "type": "Voitures/Gang", "speed": "106 km/h", "price": "S/O"},
+        {"name": "Coach", "type": "Autobus", "speed": "80 km/h", "price": "S/O"},
+        {"name": "Comet", "type": "Voitures/Sport", "speed": "125 km/h", "price": "72 000 $"},
+        {"name": "Commandeer", "type": "Militaire/Camions", "speed": "95 km/h", "price": "S/O"},
+        {"name": "Copter", "type": "Hélicoptères", "speed": "180 km/h", "price": "S/O"},
+        {"name": "Corpse", "type": "Voitures/Modifiées", "speed": "80 km/h", "price": "S/O"},
+        {"name": "Covered Wagon", "type": "Chariots", "speed": "95 km/h", "price": "S/O"},
+        {"name": "Crate", "type": "Transport", "speed": "S/O", "price": "S/O"},
+        {"name": "Crane", "type": "Industriel", "speed": "S/O", "price": "S/O"},
+        {"name": "Crusader", "type": "Camions", "speed": "88 km/h", "price": "S/O"},
+        {"name": "Cuban", "type": "Avions", "speed": "S/O", "price": "S/O"},
+        {"name": "Dinghy", "type": "Véhicules Aquatiques", "speed": "60 km/h", "price": "S/O"},
+        {"name": "Dinghy Inflatable", "type": "Véhicules Aquatiques", "speed": "60 km/h", "price": "S/O"},
+        {"name": "Dozer", "type": "Industriel", "speed": "55 km/h", "price": "S/O"},
+        {"name": "DPV", "type": "Motos", "speed": "120 km/h", "price": "S/O"},
+        {"name": "Dub", "type": "Voitures/Lowriders", "speed": "110 km/h", "price": "50 000 $"},
+        {"name": "Dumper", "type": "Camions/Industriels", "speed": "76 km/h", "price": "48 000 $"},
+        {"name": "Dustoff", "type": "Hélicoptères", "speed": "185 km/h", "price": "S/O"},
+        {"name": "DWT-20", "type": "Motos", "speed": "115 km/h", "price": "16 000 $"},
+        {"name": "Elegy", "type": "Voitures/Sport", "speed": "126 km/h", "price": "78 000 $"},
+        {"name": "Emerus", "type": "Voitures/Sport", "speed": "135 km/h", "price": "88 000 $"},
+        {"name": "Emperor", "type": "Voitures/Berlines", "speed": "105 km/h", "price": "32 000 $"},
+        {"name": "Enforcer", "type": "Camions/SWAT", "speed": "92 km/h", "price": "S/O"},
+        {"name": "Esperanto", "type": "Voitures/Classiques", "speed": "108 km/h", "price": "38 000 $"},
+        {"name": "Euros", "type": "Voitures/Sport", "speed": "132 km/h", "price": "85 000 $"},
+        {"name": "Everon", "type": "Voitures/VUS", "speed": "118 km/h", "price": "62 000 $"},
+        {"name": "Exemplar", "type": "Voitures/Luxe", "speed": "117 km/h", "price": "70 000 $"},
+        {"name": "Exterminator", "type": "Camions", "speed": "95 km/h", "price": "S/O"},
+        {"name": "Faimliner", "type": "Transport", "speed": "S/O", "price": "S/O"},
+        {"name": "Fairtone", "type": "Voitures/Classiques", "speed": "103 km/h", "price": "35 000 $"},
+        {"name": "Farmtruck", "type": "Camions", "speed": "82 km/h", "price": "12 000 $"},
+        {"name": "FCR-900", "type": "Motos", "speed": "128 km/h", "price": "24 000 $"},
+        {"name": "Feltzer", "type": "Voitures/Décapotables", "speed": "119 km/h", "price": "68 000 $"},
+        {"name": "Firetruk", "type": "Urgences", "speed": "88 km/h", "price": "S/O"},
+        {"name": "Flatbed", "type": "Camions", "speed": "86 km/h", "price": "S/O"},
+        {"name": "Forklift", "type": "Industriel", "speed": "45 km/h", "price": "S/O"},
+        {"name": "Fortune", "type": "Voitures/Classiques", "speed": "105 km/h", "price": "40 000 $"},
+        {"name": "Freeway", "type": "Motos", "speed": "122 km/h", "price": "22 000 $"},
+        {"name": "Futo", "type": "Voitures/Ville", "speed": "108 km/h", "price": "22 000 $"},
+        {"name": "Fuzzie", "type": "Motos", "speed": "110 km/h", "price": "S/O"}
+      ]
+    },
+    "vehicleSystem": {
+      "title": "Comprendre le Système de Véhicules dans GTA San Andreas",
+      "content": "Le système de véhicules dans ce jeu est vraiment détaillé et amusant à utiliser. Vous pouvez trouver plus de 200 véhicules différents un peu partout dans les trois principales villes et la campagne. Chaque véhicule se conduit différemment et a sa propre vitesse et puissance. Ces choses font une grande différence quand vous jouez. Le jeu divise les véhicules en catégories comme les berlines, les voitures de sport, les motos, les bateaux et les avions. Vous devez apprendre à conduire différents types de véhicules pour terminer les missions."
+    },
+    "sportsCars": {
+      "title": "Meilleures Voitures de Sport pour les Courses et la Vitesse",
+      "content": "Les voitures de sport dans GTA San Andreas sont parfaites si vous aimez aller vite. L'Infernus est l'une des voitures les plus rapides que vous pouvez obtenir. Elle accélère rapidement et a une vitesse maximale vraiment élevée. La Bullet est une autre excellente voiture de sport que les gens recherchent. Elle a une bonne vitesse et reste stable quand vous la conduisez. La Turismo fonctionne de la même manière et ressemble à de vraies supercars."
+    },
+    "lowRiders": {
+      "title": "Low Riders Classiques et Options de Personnalisation",
+      "content": "Les low riders sont une grande partie de la culture de GTA San Andreas. Ils affichent le style de la Côte Ouest que le jeu est connu pour. Les modèles populaires de low riders sont la Blade, la Broadway et la Remington. Vous pouvez personnaliser les low riders avec de nouvelles peintures, des roues, des systèmes de nitrure et des hydrauliques. Visitez des garages spécialisés comme Loco Low Co pour changer ces véhicules.",
+      "models": ["Blade", "Broadway", "Remington"]
+    },
+    "motorcycles": {
+      "title": "Motos et Vélos pour les Trajets Rapides",
+      "content": "Les motos sont un moyen rapide de vous frayer un chemin dans le trafic dans GTA San Andreas. La NRG-500 est la moto la plus rapide du jeu. La PCJ-600 vous donne un bon mélange de vitesse et de contrôle. La Sanchez est la meilleure pour la conduite tout-terrain. Mais les motos ne vous protègent pas autant que les voitures, donc les accidents peuvent faire plus mal."
+    },
+    "motorcycles": {
+      "title": "Motos et Vélos pour les Trajets Rapides",
+      "content": "Les motos sont un moyen rapide de vous frayer un chemin dans le trafic dans GTA San Andreas. La NRG-500 est la moto la plus rapide du jeu. La PCJ-600 vous donne un bon mélange de vitesse et de contrôle. La Sanchez est la meilleure pour la conduite tout-terrain. Mais les motos ne vous protègent pas autant que les voitures, donc les accidents peuvent faire plus mal.",
+      "models": ["NRG-500", "PCJ-600", "Sanchez"]
+    },
+    "heavyVehicles": {
+      "title": "Véhicules Lourds et Camions",
+      "content": "Les véhicules lourds dans GTA San Andreas ont des usages spéciaux au-delà de simplement conduire. Le Dumper se trouve dans les carrières et est le plus grand véhicule du jeu. La cabine du camion Linerunner et le porte-voitures Packer vous offrent des façons uniques de jouer. Les camions de pompiers, les ambulances et les voitures de police viennent avec des missions spéciales. Le Monster truck peut écraser les petites voitures et rouler facilement sur un terrain accidenté."
+    },
+    "rareVehicles": {
+      "title": "Véhicules Rares et Uniques à Collectionner",
+      "content": "Certains véhicules dans GTA San Andreas sont vraiment rares et difficiles à trouver. La Phoenix n'apparaît que dans certains endroits et à certains moments. La voiture de sport ZR-350 est à la fois rare et rapide. La Hotknife est un hot rod spécial que vous ne pouvez obtenir qu'en terminer certains défis de collection de véhicules. La Kart ressemble à un kart et vous offre un temps de conduite amusant et bizarre.",
+      "vehicles": ["Phoenix", "ZR-350", "Hotknife", "Kart"]
+    },
+    "aircraft": {
+      "title": "Véhicules Volants et Avions",
+      "content": "Les avions dans GTA San Andreas ajoutent une toute nouvelle façon de jouer. Le chasseur à réaction Hydra est rapide et peut décoller verticalement. L'avion à hélices Rustler est plus facile à piloter si vous apprenez juste. Les hélicoptères comme la Maverick et la Police Maverick sont stables pour le sightseeing ou faire des missions aériennes. Apprendre à voler prend un peu de pratique, mais cela ajoute vraiment au jeu.",
+      "aircraft": ["Hydra", "Rustler", "Maverick", "Police Maverick"]
+    },
+    "waterVehicles": {
+      "title": "Véhicules Aquatiques et Bateaux",
+      "content": "Les véhicules aquatiques vous offrent une autre façon de vous déplacer dans GTA San Andreas. Le bateau rapide Squalo est le moyen le plus rapide de voyager sur l'eau. Le bateau Tropic est fiable et a une vitesse et une maniabilité décentes. Le Jetmax a l'air élégant et fonctionne bien sur l'eau. Le Vortex hovercraft peut aller à la fois sur terre et sur l'eau.",
+      "vehicles": ["Squalo", "Tropic", "Jetmax", "Vortex"]
+    },
+    "policeVehicles": {
+      "title": "Véhicules Policiers et d'Urgence",
+      "content": "Les véhicules policiers dans GTA San Andreas viennent en différents types comme les patrouilles, les VUS et les motos. La voiture de police a une bonne vitesse et une bonne puissance pour poursuivre les gens. Le camion SWAT Enforcer a une armure lourde. Les camions de pompiers ont des canons à eau et démarrent les missions des pompiers. Les ambulances vous permettent de faire des missions de paramédicale. Ces véhicules fonctionnent souvent mieux que les véhicules ordinaires.",
+      "vehicles": ["Police Car", "Enforcer", "Fire Truck", "Ambulance", "HPV1000"]
+    },
+    "importExport": {
+      "title": "Liste des Véhicules Importation/Exportation",
+      "content": "La fonction importation/exportation dans GTA San Andreas vous permet de gagner de l'argent en collectant certains véhicules. Une liste apparaît à la grue dans les docks d'Easter Basin. La première liste a des véhicules courants faciles à trouver. Les deuxième et troisième listes ont des voitures plus rares et plus précieuses. Cette fonction vous pousse à explorer davantage et ajoute une partie collection au jeu."
+    },
+    "modifications": {
+      "title": "Modifications de Véhicules et Garages",
+      "content": "La modification de véhicules est une grande partie du gameplay de GTA San Andreas. Les garages Transfender sont dans les trois villes et offrent une personnalisation de base. Vous pouvez changer les couleurs de peinture, ajouter des systèmes de nitrure, améliorer les hydrauliques et changer les roues. Wheel Arch Angels à San Fierro se concentre sur les modifications de course de rue. Loco Low Co ne fait que la personnalisation des low riders."
+    },
+    "damageSystem": {
+      "title": "Dommages aux Véhicules et Durabilité",
+      "content": "Le système de dommages dans GTA San Andreas change la façon dont les véhicules se conduisent et fonctionnent. Les accidents causent des dommages que vous pouvez voir comme des bosses, des vitres cassées et des pièces manquantes. Les dommages lourds rendent les véhicules moins fonctionnels. Les différents véhicules peuvent supporter différentes quantités de dommages. Vous pouvez réparer les véhicules aux ateliers Pay 'n' Spray pour un prix."
+    },
+    "cheats": {
+      "title": "Codes de Triche et de Génération de Véhicules",
+      "content": "GTA San Andreas a de nombreux codes de triche qui font apparaître les véhicules immédiatement. Le code de triche jetpack vous permet de voler sans avoir besoin d'un avion. L'utilisation de codes de triche affecte les sauvegardes de jeu et peut arrêter certaines réalisations. Les codes de génération de véhicules sont vraiment populaires pour causer du chaos ou tester les véhicules. Certains codes améliorent la performance des véhicules ou les rendent invincibles."
+    },
+    "findingVehicles": {
+      "title": "Conseils pour Trouver et Entreposer les Véhicules",
+      "content": "Trouver des véhicules spécifiques dans GTA San Andreas nécessite que vous sachiez où et quand ils apparaissent. Différents véhicules apparaissent dans différentes zones selon le quartier et l'heure du jour. Les garages personnels vous permettent d'entreposer les véhicules indéfiniment. Habituellement, il en contient 2-4. Vous devriez vous concentrer sur l'entreposage des véhicules rares et précieux."
+    },
+    "vehicleMissions": {
+      "title": "Missions de Véhicules et Défis",
+      "content": "Plusieurs missions de véhicules dans GTA San Andreas donnent des récompenses et du plaisir. Les missions de coursier nécessitent une livraison en moto dans les délais impartis. Les événements du stade incluent les courses de piste de terre, le derby de démolition et autres compétitions de véhicules. Les missions de l'école de conduite enseignent le contrôle des véhicules. La mission du train de marchandises vous permet de contrôler les trains. L'accomplissement de ces défis améliore vos compétences et vous donne des récompenses."
+    },
+    "performance": {
+      "title": "Comparaison de la Performance des Modèles Populaires",
+      "content": "Comparer la performance des véhicules vous aide à choisir le bon véhicule pour différentes situations. L'Infernus est excellent pour la vitesse maximale mais peut être difficile à contrôler à très grande vitesse. Le Sultan vous donne une performance générale bonne. L'Elegy a une vitesse décente avec une très bonne maniabilité. La Banshee offre une puissance brute mais nécessite de la compétence pour bien la gérer."
+    },
+    "drivingSkill": {
+      "title": "Impact de la Compétence de Conduite sur la Maniabilité des Véhicules",
+      "content": "La statistique de compétence de conduite dans GTA San Andreas change vraiment le contrôle des véhicules. La faible compétence de conduite rend les véhicules glissants et de spin plus faciles lors des virages. Avec l'augmentation de la compétence, les véhicules répondent mieux et restent stables à grande vitesse. Une compétence de conduite plus élevée signifie également moins de dommages des accidents. Vous pouvez augmenter cette compétence en conduisant n'importe quel véhicule pendant une longue période."
+    },
+    "updates2025": {
+      "title": "Dernières Mises à Jour et Fonctionnalités : Quoi de Neuf en 2025 ?",
+      "content": "La communauté GTA San Andreas est toujours active en 2025 avec différentes mises à jour et améliorations. Les versions mobiles et remasterisées ont reçu des correctifs qui résolvent les bogues et améliorent les graphiques. Les éditions améliorées ont de meilleures textures et des contrôles mis à jour pour les nouveaux joueurs. Les modifications faites par la communauté continuent à ajouter de nouveaux véhicules et fonctionnalités. La version mobile Netflix a amené le jeu à de nouveaux joueurs."
+    },
+    "faqCars": {
+      "title": "Questions Fréquemment Posées sur les Voitures de GTA San Andreas",
+      "data": [
+        {
+          "id": "1",
+          "question": "Combien de véhicules y a-t-il dans GTA San Andreas ?",
+          "answer": "Le jeu a plus de 200 véhicules incluant des voitures, des motos, des bateaux, des avions et des véhicules spéciaux. Cette grande collection a quelque chose pour le goût et le besoin de chaque joueur."
+        },
+        {
+          "id": "2",
+          "question": "Où puis-je trouver la voiture la plus rapide ?",
+          "answer": "L'Infernus est la voiture la plus rapide et apparaît généralement dans les zones riches comme Paradiso à San Fierro. Vous pouvez aussi la trouver dans la zone d'Easter Basin après certaines missions."
+        },
+        {
+          "id": "3",
+          "question": "Puis-je sauvegarder les véhicules modifiés de façon permanente ?",
+          "answer": "Oui, vous pouvez sauvegarder les véhicules modifiés dans les garages personnels des refuges. Assurez-vous que le garage a de la place et garez le véhicule complètement à l'intérieur pour qu'il se sauvegarde correctement."
+        },
+        {
+          "id": "4",
+          "question": "Que se passe-t-il si mon garage est plein ?",
+          "answer": "Quand un garage a trop de véhicules, le plus ancien entreposé disparaîtra. Vérifiez toujours les limites du garage avant de stocker de nouveaux véhicules pour ne pas perdre les spéciaux."
+        },
+        {
+          "id": "5",
+          "question": "Y a-t-il des voitures volantes dans le jeu ?",
+          "answer": "Le jeu normal n'a pas de voitures volantes, mais l'avion Dodo et différents avions vous permettent de voler. Certaines modifications ajoutent des fonctionnalités de voiture volante pour un meilleur gameplay."
+        },
+        {
+          "id": "6",
+          "question": "Quelles sont les nouvelles fonctionnalités des mises à jour 2025 ?",
+          "answer": "Les mises à jour 2025 ont de meilleurs graphiques, des corrections de bogues, des contrôles mis à jour et de meilleures versions mobiles. Les modifications de la communauté ajoutent aussi de nouveaux véhicules et des options multijoueur pour un gameplay frais."
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "content": "Les voitures de GTA San Andreas sont l'une des meilleures parties de ce jeu légendaire. L'énorme variété de véhicules des simples bicyclettes aux puissants avions offre un plaisir et des options de gameplay infinies. Que vous aimiez collectionner des voitures rares, personnaliser les low riders ou faire des courses en voitures de sport, ce jeu vous offre une expérience de véhicule incroyable. Le détail dans la conception et la maniabilité des véhicules continue à intéresser les joueurs année après année."
+    }
+  },
   "footer": {
     "copyright": "© 2025 GTA San Apk. Tous droits réservés.",
     "privacy": "Politique de confidentialité",
