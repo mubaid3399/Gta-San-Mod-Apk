@@ -26,12 +26,12 @@ const staggerItem = {
 
 // Reusable Table Component
 const TableComponent = ({ headers, rows, variant = 'default' }) => (
-  <div className="overflow-x-auto rounded-lg border border-gray-200 dark:border-gray-700">
-    <table className="w-full text-sm sm:text-base">
+  <div className="rounded-lg border border-gray-200 dark:border-gray-700 w-full overflow-hidden">
+    <table className="w-full text-xs sm:text-sm md:text-base">
       <thead>
         <tr className={variant === 'dark' ? 'bg-gray-900 dark:bg-gray-800' : 'bg-gray-100 dark:bg-gray-800'}>
           {headers.map((header) => (
-            <th key={header} className="px-4 py-3 sm:px-6 sm:py-4 text-left font-semibold text-gray-900 dark:text-white border-b border-gray-200 dark:border-gray-700">
+            <th key={header} className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-gray-900 dark:text-white border-b border-gray-200 dark:border-gray-700 text-xs sm:text-sm md:text-base">
               {header}
             </th>
           ))}
@@ -41,7 +41,7 @@ const TableComponent = ({ headers, rows, variant = 'default' }) => (
         {rows.map((row, idx) => (
           <tr key={idx} className={idx % 2 === 0 ? 'bg-white dark:bg-gray-900/50' : 'bg-gray-50 dark:bg-gray-800/30'}>
             {Object.values(row).map((cell, cellIdx) => (
-              <td key={cellIdx} className="px-4 py-3 sm:px-6 sm:py-4 text-gray-700 dark:text-gray-300 border-b border-gray-200 dark:border-gray-700 break-words">
+              <td key={cellIdx} className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-700 dark:text-gray-300 border-b border-gray-200 dark:border-gray-700 break-words text-xs sm:text-sm md:text-base">
                 {cell}
               </td>
             ))}
