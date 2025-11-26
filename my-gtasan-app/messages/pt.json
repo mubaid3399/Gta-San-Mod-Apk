@@ -133,38 +133,40 @@
       "immersiveExperience": "Dublagem completa, efeitos sonoros ambientais e clima dinâmico criam uma atmosfera que o mergulha completamente na jornada de CJ."
     }
   },
-  "gameplayFeatures": [
-    {
-      "icon": "🎮",
-      "title": "Customization and Skill Progression",
-      "content": "CJ can customize his appearance by changing clothes, hairstyles, and tattoos. Each action you perform improves specific skills — the more you drive, the better your driving becomes. The more you fly, the better your pilot skills improve. This creates a rewarding sense of growth throughout the game."
-    },
-    {
-      "icon": "⚔️",
-      "title": "Combat and Weapons Arsenal",
-      "content": "The game features over 30 weapons ranging from melee weapons like baseball bats and katanas to firearms like pistols, shotguns, rifles, and more. Combat mechanics are smooth and responsive, making every fight feel impactful. You can also use explosive weapons like rocket launchers and grenades for massive destruction."
-    },
-    {
-      "icon": "🚗",
-      "title": "Vehicle Variety and Driving Physics",
-      "content": "Drive over 250 different vehicles — cars, trucks, motorcycles, boats, and even planes and helicopters. Each vehicle has unique handling, speed, and acceleration. Learning to control different vehicles is part of the fun and challenge."
-    },
-    {
-      "icon": "💰",
-      "title": "Money and Earning Opportunities",
-      "content": "Earn money through main missions, side missions, and even robberies. Spend your money on clothes, vehicles, houses, weapons, and entertainment. Financial freedom is part of the game's appeal — you decide how to spend your money."
-    },
-    {
-      "icon": "🌆",
-      "title": "Diverse Environments and Hidden Secrets",
-      "content": "Three unique cities — Los Santos, San Fierro, and Las Venturas — each with their own neighborhoods, culture, and secrets. From desert areas to beaches and mountains, there's always something new to discover."
-    },
-    {
-      "icon": "📖",
-      "title": "Deep Storyline and Character Development",
-      "content": "The story is compelling, with meaningful character interactions and plot twists. Side characters have depth and personality, making their stories memorable. The main narrative explores themes of loyalty, betrayal, and redemption."
-    }
-  ],
+  "gameplayFeatures": {
+    "data": [
+      {
+        "icon": "🎮",
+        "title": "Customization and Skill Progression",
+        "content": "CJ can customize his appearance by changing clothes, hairstyles, and tattoos. Each action you perform improves specific skills — the more you drive, the better your driving becomes. The more you fly, the better your pilot skills improve. This creates a rewarding sense of growth throughout the game."
+      },
+      {
+        "icon": "⚔️",
+        "title": "Combat and Weapons Arsenal",
+        "content": "The game features over 30 weapons ranging from melee weapons like baseball bats and katanas to firearms like pistols, shotguns, rifles, and more. Combat mechanics are smooth and responsive, making every fight feel impactful. You can also use explosive weapons like rocket launchers and grenades for massive destruction."
+      },
+      {
+        "icon": "🚗",
+        "title": "Vehicle Variety and Driving Physics",
+        "content": "Drive over 250 different vehicles — cars, trucks, motorcycles, boats, and even planes and helicopters. Each vehicle has unique handling, speed, and acceleration. Learning to control different vehicles is part of the fun and challenge."
+      },
+      {
+        "icon": "💰",
+        "title": "Money and Earning Opportunities",
+        "content": "Earn money through main missions, side missions, and even robberies. Spend your money on clothes, vehicles, houses, weapons, and entertainment. Financial freedom is part of the game's appeal — you decide how to spend your money."
+      },
+      {
+        "icon": "🌆",
+        "title": "Diverse Environments and Hidden Secrets",
+        "content": "Three unique cities — Los Santos, San Fierro, and Las Venturas — each with their own neighborhoods, culture, and secrets. From desert areas to beaches and mountains, there's always something new to discover."
+      },
+      {
+        "icon": "📖",
+        "title": "Deep Storyline and Character Development",
+        "content": "The story is compelling, with meaningful character interactions and plot twists. Side characters have depth and personality, making their stories memorable. The main narrative explores themes of loyalty, betrayal, and redemption."
+      }
+    ]
+  },
   "gtaTimeline": {
     "title": "Cronologia GTA: Lançamentos Principais",
     "subtitle": "A série Grand Theft Auto se tornou um dos jogos de mundo aberto mais populares. Siga a evolução desta franquia icônica desde seus humildes começos até o presente.",
@@ -557,296 +559,275 @@
   },
   "forPC": {
     "hero": {
-      "title": "GTA San Andreas Para PC",
-      "subtitle": "Experimente a Aventura de Jogo Definitiva"
+      "title": "GTA San Andreas For PC",
+      "subtitle": "Experience the Ultimate Gaming Adventure"
     },
     "storySection": {
-      "title": "Jornada Completa da História de GTA San Andreas",
-      "introduction": "Descubra a narrativa épica de Carl \"CJ\" Johnson enquanto ele retorna a Los Santos para reconstruir sua gangue e salvar sua família. Este é um guia completo da história mais icônica do jogo."
+      "title": "GTA San Andreas Complete Story Journey",
+      "introduction": "Discover the epic narrative of Carl \"CJ\" Johnson as he returns to Los Santos to rebuild his gang and save his family. This is a complete walkthrough of the game's most iconic storyline."
     },
     "sections": {
       "returnHome": {
-        "title": "Um Retorno para Casa - O Começo de Tudo",
+        "title": "A Return Home – The Beginning of Everything",
         "content": [
-          "A história começa em 1992. Depois de viver cinco anos em Liberty City, Carl \"CJ\" Johnson recebe uma ligação que muda sua vida para sempre: sua mãe foi morta.",
-          "Ele embarca no primeiro voo de volta para Los Santos, sua cidade natal, uma cidade agora destruída por guerras de gangues, corrupção policial e traição.",
-          "Quando CJ desembarca, ele é imediatamente parado pelo oficial Tenpenny e sua equipe de polícia corrupta. Eles o ameaçam e o arrastam de volta para o caos da cidade.",
-          "No momento em que CJ pisa em Grove Street, o mundo parece pesado. Sua família está dividida, sua gangue está fraca, e seu irmão, Sweet, o culpa por ter ido embora.",
-          "É aqui que a verdadeira jornada começa: reconstruir Grove Street e sua própria vida."
+          "The story begins in 1992. After living five years in Liberty City, Carl \"CJ\" Johnson gets a call that changes his life forever: his mother has been killed.",
+          "He boards the first flight back to Los Santos, his hometown, a city now broken by gang wars, police corruption, and betrayal.",
+          "When CJ lands, he's immediately stopped by Officer Tenpenny and his corrupt police team. They threaten him and drag him back into the city's chaos.",
+          "The moment CJ steps onto Grove Street, the world feels heavy. His family is divided, his gang is weak, and his brother, Sweet, blames him for leaving.",
+          "This is where the real journey begins: to rebuild Grove Street and CJ's own life."
         ]
       },
       "oldFriends": {
-        "title": "Velhos Amigos, Novos Problemas",
+        "title": "Old Friends, New Problems",
         "content": [
-          "No começo, CJ tenta fazer as pazes com seus velhos amigos Big Smoke e Ryder. Eles falam sobre lealdade e os velhos tempos, mas algo parece estranho.",
-          "Juntos, eles começam pequeno, pulverizando tags de gangue, roubando carros e lutando contra os Ballas (seus maiores rivais).",
-          "Durante essas missões, o mundo de GTA San Andreas se abre lindamente com bairros cheios de crianças brincando, carros buzinando e membros de gangues conversando. Parece vivo.",
-          "Mas sob esse barulho, algo mais escuro está crescendo, traição.",
-          "CJ começa a notar que Big Smoke e Ryder agem diferente. Eles se preocupam mais com poder e dinheiro do que com Grove Street."
+          "At first, CJ tries to make peace with old friends Big Smoke and Ryder. They talk about loyalty and old times, but something feels strange.",
+          "Together, they start small, spraying gang tags, stealing cars, and fighting Ballas (their biggest rivals).",
+          "During these missions, the world of GTA San Andreas opens up beautifully with neighborhoods filled with kids playing, cars honking, and gang members talking. It feels alive.",
+          "But under that noise, something darker is growing, betrayal.",
+          "CJ starts to notice that Big Smoke and Ryder act differently. They care more about power and money than about Grove Street."
         ]
       },
       "riseOfGangLeader": {
-        "title": "As Ruas de Los Santos - A Ascensão de um Líder de Gangue",
+        "title": "The Streets of Los Santos – Rise of a Gang Leader",
         "content": [
-          "Para ganhar respeito, CJ faz de tudo: corridas pela cidade, ajuda seu irmão Sweet, defende as ruas e ganha dinheiro através de missões secundárias.",
-          "A versão Mod APK oferece mais liberdade, permitindo aos jogadores personalizar Grove Street, recrutar membros adicionais da gangue e comprar propriedades cedo.",
-          "Logo, Grove Street começa a se levantar novamente. As bandeiras verdes voltam, a gangue ganha força e os Ballas caem.",
-          "Mas o sucesso nunca dura muito em Los Santos."
+          "To earn respect, CJ does everything: races through the city, helps his brother Sweet, defends the streets, and earns cash through side missions.",
+          "The Mod APK version offers more freedom, allowing players to customize Grove Street, recruit additional gang members, and purchase properties early.",
+          "Soon, Grove Street starts to rise again. The green flags return, the gang gains strength, and the Ballas fall.",
+          "But success never lasts long in Los Santos."
         ]
       },
       "trapChaos": {
-        "title": "A Armadilha - Polícia, Traição e Caos",
+        "title": "The Trap – Police, Betrayal, and Chaos",
         "content": [
-          "Durante uma grande missão, CJ e Sweet são emboscados.",
-          "Sweet é baleado, e o oficial Tenpenny captura CJ. É quando a verdade chocante vem à tona: Big Smoke e Ryder traíram Grove Street. Eles agora estão trabalhando com os Ballas e policiais corruptos.",
-          "Tenpenny leva CJ para longe da cidade e o abandona no campo.",
-          "Sem gangue, sem amigos, apenas terra aberta e um homem quebrado tentando sobreviver.",
-          "Esta é a parte central do jogo e um dos momentos mais emocionais na história de GTA."
+          "During a big mission, CJ and Sweet are ambushed.",
+          "Sweet gets shot, and Officer Tenpenny captures CJ. That's when the shocking truth comes out: Big Smoke and Ryder betrayed Grove Street. They are now working with the Ballas and corrupt police officers.",
+          "Tenpenny drives CJ far from the city and dumps him in the countryside.",
+          "No gang, no friends, just open land and a broken man trying to survive.",
+          "This is the middle part of the game and one of the most emotional moments in GTA history."
         ]
       },
       "newBeginning": {
-        "title": "Um Novo Começo - As Missões do Campo",
+        "title": "A New Beginning – The Countryside Missions",
         "content": [
-          "CJ conhece novas pessoas no campo, como Catalina, The Truth e Cesar.",
-          "Ele começa a assumir pequenos trabalhos, incluindo roubar postos de gasolina, corridas de carro e ajudar seus aliados.",
-          "Esta parte mostra o crescimento de CJ como pessoa.",
-          "Ele aprende a confiar em novas pessoas, a lidar com novos desafios e a permanecer forte mesmo quando está longe de casa.",
-          "Catalina é selvagem e imprevisível. O relacionamento deles é humorístico, marcado por brigas frequentes e puro caos.",
-          "Por outro lado, The Truth é um ensinamento calmo e espiritual que diz a CJ coisas estranhas mas sábias sobre a vida."
+          "CJ meets new people in the countryside, such as Catalina, The Truth, and Cesar.",
+          "He starts taking on small jobs, including robbing gas stations, racing cars, and helping his allies.",
+          "This part shows CJ's growth as a person.",
+          "He learns to trust new people, handle new challenges, and stay strong even when he's far from home.",
+          "Catalina is wild and unpredictable. Their relationship is humorous, marked by frequent fights and pure chaos.",
+          "Conversely, the Truth is a calm and spiritual teaching that CJ says strange but wise things about life."
         ]
       },
       "sanFierro": {
-        "title": "San Fierro - Uma Cidade de Negócios e Traição",
+        "title": "San Fierro – A City of Business and Betrayal",
         "content": [
-          "Com a ajuda de Cesar, CJ se muda para San Fierro, uma cidade inspirada em São Francisco.",
-          "Aqui, ele começa uma nova fase, menos focada em guerras de gangues e mais em negócios.",
-          "Ele compra uma garagem, conhece Wu Zi Mu (Woozie) e se envolve em corridas de carros e contrabando.",
-          "O mundo de CJ se torna maior. Ele começa a lidar com as Tríades, novos inimigos e missões massivas.",
-          "Ele também descobre que Ryder e Big Smoke estão crescendo seu império de drogas em segredo, protegidos pela unidade de polícia corrupta de Tenpenny.",
-          "O foco de CJ muda de sobrevivência para poder. Ele não está mais apenas defendendo Grove Street; ele está se preparando para retomar tudo."
+          "With Cesar's help, CJ moves to San Fierro, a city inspired by San Francisco.",
+          "Here, he begins a new phase, one less focused on gang wars and more on business.",
+          "He buys a garage, meets Wu Zi Mu (Woozie), and gets involved in car races and smuggling.",
+          "CJ's world becomes bigger. He starts dealing with Triads, new enemies, and massive missions.",
+          "He also learns that Ryder and Big Smoke are growing their drug empire in secret, protected by Tenpenny's corrupt police unit.",
+          "CJ's focus shifts from survival to power. He's no longer just defending Grove Street; he's preparing to take it all back."
         ]
       },
       "lasVenturas": {
-        "title": "Las Venturas - O Cassino e o Grande Assalto",
+        "title": "Las Venturas – The Casino and the Big Heist",
         "content": [
-          "A próxima parada é Las Venturas, uma cidade de luzes neon, cassinos e gângsteres.",
-          "CJ se associa com Woozie e ajuda a gerenciar o Cassino Four Dragons.",
-          "Ele aprende como as famílias da Máfia controlam tudo, desde o jogo até a construção.",
-          "Esta parte da história parece um filme cheio de planejamento, disfarces e um grande assalto ao cassino.",
-          "No Mod APK, os jogadores podem até repetir o assalto com diferentes estratégias ou usar armas avançadas.",
-          "Neste momento, CJ tem dinheiro, respeito e poder, mas seu objetivo final permanece inacabado: recuperar Los Santos."
+          "The next stop is Las Venturas, a city of neon lights, casinos, and gangsters.",
+          "CJ partners with Woozie and helps manage The Four Dragons Casino.",
+          "He learns how the Mafia families control everything from gambling to construction.",
+          "This part of the story feels like a movie filled with planning, disguises, and a major casino robbery.",
+          "In the Mod APK, players can even replay the heist with different strategies or use advanced weapons.",
+          "By this time, CJ has money, respect, and power, but his ultimate goal remains unfinished: reclaiming Los Santos."
         ]
       },
       "returnToLosSantos": {
-        "title": "Retorno a Los Santos - Vingança e Redenção",
+        "title": "Return to Los Santos – Revenge and Redemption",
         "content": [
-          "Depois que Tenpenny é exposto por seus crimes, a cidade cai no caos.",
-          "Tumultos enchem as ruas, fogos queimam e gangues assumem o controle.",
-          "CJ volta para casa uma última vez - para salvar seu irmão e terminar o que começou.",
-          "Ele ataca a fortaleza de Big Smoke, uma das missões mais icônicas na história de GTA.",
-          "A batalha é longa, escura e emocional. CJ luta contra dezenas de guardas até enfrentar Big Smoke ele mesmo.",
-          "As últimas palavras de Smoke mostram arrependimento - ele admite que sua ganância o destruiu.",
-          "Então, Tenpenny aparece novamente, rouba o dinheiro e escapa.",
-          "CJ o persegue pelas ruas em chamas de Los Santos em uma lendária cena de perseguição de carro.",
-          "Finalmente, Tenpenny cai com seu carro de uma ponte e morre.",
-          "O caos termina, Grove Street se ergue novamente e a família de CJ está reunida."
+          "After Tenpenny is exposed for his crimes, the city falls into chaos.",
+          "Riots fill the streets, fires burn, and gangs take over.",
+          "CJ returns home one last time — to save his brother and finish what he started.",
+          "He attacks Big Smoke's fortress, one of the most iconic missions in GTA history.",
+          "The battle is long, dark, and emotional. CJ fights through dozens of guards until he faces Big Smoke himself.",
+          "Smoke's final words show regret — he admits his greed destroyed him.",
+          "Then, Tenpenny appears again, steals the money, and escapes.",
+          "CJ chases him through the burning streets of Los Santos in a legendary car chase scene.",
+          "Finally, Tenpenny crashes his car off a bridge and dies.",
+          "The chaos ends, Grove Street stands tall again, and CJ's family is reunited."
         ]
       },
       "ending": {
-        "title": "O Final - Grove Street Para Sempre",
+        "title": "The Ending – Grove Street Forever",
         "content": [
-          "A cena final mostra CJ em pé em Grove Street, olhando para sua casa.",
-          "Sweet, Cesar e Kendl estão ao seu lado. A cidade está finalmente calma.",
-          "CJ simplesmente diz que tem \"coisas a fazer\" e vai embora.",
-          "O final é perfeito porque não é sobre fama ou vitória, mas paz.",
-          "CJ encontra equilíbrio depois de tudo - traição, dor e vingança.",
-          "Mesmo em 2025, os jogadores repetem aquela última missão e sentem a mesma emoção.",
-          "Isso é o que torna GTA San Andreas uma história atemporal - não é apenas um jogo de crime, mas uma história de vida de família, lealdade e escolhas."
+          "The final scene shows CJ standing on Grove Street, looking at his home.",
+          "Sweet, Cesar, and Kendl are beside him. The city is finally calm.",
+          "CJ simply says he has \"things to do\" and walks away.",
+          "The ending is perfect because it's not about fame or victory but peace.",
+          "CJ finds balance after everything — betrayal, pain, and revenge.",
+          "Even in 2025, players replay that last mission and feel the same emotion.",
+          "That makes GTA San Andreas a timeless story — it is not just a crime game but a life story of family, loyalty, and choices."
         ]
       },
       "legacy": {
-        "title": "O Legado de GTA San Andreas em 2025",
+        "title": "The Legacy of GTA San Andreas in 2025",
         "content": [
-          "Mais de 20 anos depois, GTA San Andreas ainda reina nos corações.",
-          "Os jogadores usam a versão Mod APK de GTA San Andreas PC ou Mobile para reviver aquela magia - com atualizações modernas, gráficos HD e novas missões.",
-          "A razão pela qual as pessoas continuam voltando é simples:",
-          "Não importa o quanto os gráficos mudem, a história de CJ permanece poderosa.",
-          "Ela lembra aos jogadores que a lealdade importa, que a família pode ser perdida e encontrada, e que ninguém esquece de onde vem, especialmente quando esse lugar é Grove Street."
+          "More than 20 years later, GTA San Andreas still rules hearts.",
+          "Players use the GTA San Andreas Mod APK PC or Mobile version to relive that magic — with modern updates, HD graphics, and new missions.",
+          "The reason people keep coming back is simple:",
+          "No matter how much the graphics change, the story of CJ remains powerful.",
+          "It reminds players that loyalty matters, that family can be lost and found, and that no one forgets where they came from, especially when that place is Grove Street."
         ]
       }
     },
     "experience": {
-      "title": "Como Ganhar Mais Experiência e Aproveitar GTA San Andreas",
+      "title": "How to Gain More Experience and Enjoy GTA San Andreas",
       "tips": {
         "gym": {
           "emoji": "💪",
-          "title": "Treinar na Academia",
-          "description": "Aumente a força e resistência de CJ para melhorar o desempenho geral."
+          "title": "Train at the Gym",
+          "description": "Increase CJ's strength and stamina to improve overall performance."
         },
         "drive": {
           "emoji": "🏎️",
-          "title": "Dirija Diariamente",
-          "description": "Quanto mais você dirige, melhor CJ manuseia carros e veículos."
+          "title": "Drive Daily",
+          "description": "The more you drive, the better CJ handles cars and vehicles."
         },
         "weapons": {
           "emoji": "🎯",
-          "title": "Use Armas Regularmente",
-          "description": "A prática melhora as habilidades de mira e proficiência com armas no combate."
+          "title": "Use Weapons Regularly",
+          "description": "Practice improves aiming skills and weapon proficiency in combat."
         },
         "gangWars": {
           "emoji": "⚔️",
-          "title": "Participe de Guerras de Gangues",
-          "description": "Ganhar territórios aumenta o fluxo de dinheiro e o respeito no bairro."
+          "title": "Join Gang Wars",
+          "description": "Winning territories increases money flow and neighborhood respect."
         },
         "food": {
           "emoji": "🍎",
-          "title": "Coma Saudável",
-          "description": "Evite junk food, ou CJ ficará lento e menos eficaz."
+          "title": "Eat Healthy",
+          "description": "Avoid junk food, or CJ will get slow and less effective."
         },
         "outfits": {
           "emoji": "👕",
-          "title": "Mude de Roupa",
-          "description": "O estilo de CJ melhora o respeito em diferentes bairros."
+          "title": "Change Outfits",
+          "description": "CJ's style improves respect in different neighborhoods."
         },
         "explore": {
           "emoji": "🗺️",
-          "title": "Explore Áreas Secretas",
-          "description": "Lugares escondidos frequentemente contêm itens valiosos como armas ou armadura."
+          "title": "Explore Secret Areas",
+          "description": "Hidden spots often contain valuable items like weapons or armor."
         },
         "save": {
           "emoji": "💾",
-          "title": "Salve Frequentemente",
-          "description": "Sempre salve antes de missões desafiadoras para evitar perder progresso."
+          "title": "Save Often",
+          "description": "Always save before challenging missions to avoid losing progress."
         }
       },
-      "personalNote": "Nota Pessoal",
-      "personalNoteText": "Quando aprendi a voar o jato Hydra pela primeira vez, passei horas voando pelas cidades apreciando a vista. Esse tipo de diversão nunca acaba em GTA San Andreas. Seja explorando atalhos escondidos, descobrindo ovos de páscoa ou simplesmente aproveitando o imenso mundo que a Rockstar criou, cada momento traz algo novo para experimentar."
+      "personalNote": "Personal Note",
+      "personalNoteText": "When I first learned to fly the Hydra jet, I spent hours flying across cities to enjoy the view. This kind of fun never ends in GTA San Andreas. Whether you're exploring hidden shortcuts, discovering easter eggs, or simply enjoying the immense world Rockstar created, every moment brings something new to experience."
     },
     "whyLoveIt": {
-      "title": "Por Que Todos Ainda Amam GTA San Andreas",
+      "title": "Why Everyone Still Loves GTA San Andreas",
       "content": [
-        "Quando as pessoas falam sobre o melhor jogo de mundo aberto já criado, um nome sempre aparece - GTA San Andreas.",
-        "Mesmo depois de mais de uma década, este jogo icônico de mundo aberto ainda reina nos corações de milhões. As ruas, a música, os personagens, tudo parece vivo.",
-        "O Mod APK de GTA San Andreas traz este clássico de volta com atualizações modernas. Os jogadores agora podem desfrutar de gráficos mais suaves, novos carros, armas melhores e missões adicionais. Parece clássico e novo ao mesmo tempo.",
-        "Muitos jogadores que experimentaram GTA 3, GTA 4 e até GTA 5 voltaram para San Andreas. Nenhum outro jogo GTA captura o espírito das ruas, o vínculo de irmandade e a energia bruta como este.",
-        "Se você é novo em GTA San Andreas ou está voltando após anos, este guia 2025 fornecerá tudo que você precisa: informações do jogo, recursos, dicas, truques e atualizações."
+        "When people talk about the best open-world game ever made, one name always comes up — GTA San Andreas.",
+        "Even after over a decade, this iconic open-world game still rules the hearts of millions. The streets, the music, the characters, everything feels alive.",
+        "The GTA San Andreas Mod APK brings this classic back with modern updates. Players can now enjoy smoother graphics, new cars, better weapons, and extra missions. It feels both classic and new at the same time.",
+        "Many gamers who tried GTA 3, GTA 4, and even GTA 5 have returned to San Andreas. No other GTA game captures the spirit of the streets, the bond of brotherhood, and the raw energy like this one.",
+        "If you are new to GTA San Andreas or returning after years, this 2025 guide will provide you with everything you need: gameplay information, features, tips, cheats, and updates."
       ]
     },
     "overview": {
-      "title": "Visão Geral do GTA San Andreas Mod APK",
+      "title": "GTA San Andreas Mod APK Overview",
       "table": {
-        "gameName": "Nome do Jogo",
+        "gameName": "Game Name",
         "gameNameValue": "GTA San Andreas Mod APK",
-        "developer": "Desenvolvedor",
+        "developer": "Developer",
         "developerValue": "Rockstar Games",
-        "genre": "Gênero",
-        "genreValue": "Ação, Aventura, Mundo Aberto",
-        "mode": "Modo",
+        "genre": "Genre",
+        "genreValue": "Action, Adventure, Open World",
+        "mode": "Mode",
         "modeValue": "Offline / Online",
-        "platform": "Plataforma",
+        "platform": "Platform",
         "platformValue": "Android, iOS, PC",
-        "releaseYear": "Ano de Lançamento (Mod)",
-        "releaseYearValue": "Edição Atualizada 2025"
+        "releaseYear": "Release Year (Mod)",
+        "releaseYearValue": "2025 Updated Edition"
       },
-      "description": "A versão Mod APK de GTA San Andreas é especificamente projetada para jogadores que desejam controle completo do jogo, todas as missões estão desbloqueadas, dinheiro ilimitado e acesso a veículos e armas premium. É perfeito para aqueles que amam experimentar em um ambiente de mundo aberto."
+      "description": "The GTA San Andreas Mod APK version is specifically designed for players who want complete control of the game, all missions are unlocked, unlimited money, and access to premium vehicles and weapons. It's perfect for those who love experimenting in an open-world environment."
     },
     "updates": {
-      "title": "O Que Há de Novo em 2025 - Últimas Atualizações",
-      "intro": "Muitos jogadores ainda estão jogando GTA San Andreas em 2025, e os desenvolvedores continuam melhorando o desempenho do jogo em sistemas mais novos.",
+      "title": "What is New in 2025 – Latest Updates",
+      "intro": "Many players are still playing GTA San Andreas in 2025, and developers continue to improve the game's performance on newer systems.",
       "items": {
         "graphics": {
-          "title": "Melhor Suporte Gráfico",
-          "description": "Agora suporta resoluções mais altas e texturas mais suaves para PC e mobile."
+          "title": "Better Graphics Support",
+          "description": "Now supports higher resolutions and smoother textures for PC and mobile."
         },
         "controls": {
-          "title": "Controles de Toque Aprimorados",
-          "description": "A versão mobile tem botões mais limpos e resposta mais rápida."
+          "title": "Improved Touch Controls",
+          "description": "The mobile version has cleaner buttons and a faster response."
         },
         "cloudSave": {
-          "title": "Opção de Salvamento na Nuvem",
-          "description": "Agora você pode salvar o progresso online em todos os dispositivos."
+          "title": "Cloud Save Option",
+          "description": "You can now save progress online across devices."
         },
         "patches": {
-          "title": "Novos Patches de Compatibilidade",
-          "description": "Melhor suporte para Windows 11, Android 14 e iOS 18."
+          "title": "New Compatibility Patches",
+          "description": "Better support for Windows 11, Android 14, and iOS 18."
         },
         "lag": {
-          "title": "Lag Reduzido",
-          "description": "A última atualização reduz quedas de quadros e problemas de aquecimento em dispositivos móveis."
+          "title": "Reduced Lag",
+          "description": "The latest update reduces frame drops and heating issues on mobile devices."
         },
         "controller": {
-          "title": "Suporte de Controle",
-          "description": "Mobile agora suporta controles Bluetooth para uma experiência de jogo mais suave."
+          "title": "Controller Support",
+          "description": "Mobile now supports Bluetooth controllers for a smoother gaming experience."
         },
         "customization": {
-          "title": "Personalização Mais Fácil",
-          "description": "Os jogadores podem ajustar diretamente a câmera, sensibilidade e configurações de exibição."
+          "title": "Easier Customization",
+          "description": "Players can adjust the camera, sensitivity, and display settings directly."
         },
         "crashes": {
-          "title": "Correção Oficial de Travamentos",
-          "description": "O novo patch da Rockstar previne travamentos aleatórios do jogo em dispositivos modernos."
+          "title": "Official Fix for Crashes",
+          "description": "Rockstar's new patch prevents random game shutdowns on modern devices."
         }
       }
     },
     "faqs": {
-      "title": "FAQs - GTA San Andreas 2025",
-      "subtitle": "Encontre respostas para as perguntas mais comuns sobre GTA San Andreas em PC e Mobile.",
+      "title": "FAQs – GTA San Andreas 2025",
+      "subtitle": "Find answers to the most common questions about GTA San Andreas on PC and Mobile.",
       "questions": {
         "q1": {
-          "question": "O que torna GTA San Andreas ainda popular em 2025?",
-          "answer": "Oferece liberdade genuína, uma história rica e diversão sem fim que poucos jogos podem igualar."
+          "question": "What makes GTA San Andreas still popular in 2025?",
+          "answer": "It offers genuine freedom, a rich story, and endless fun that few games can match."
         },
         "q2": {
-          "question": "GTA San Andreas está disponível para PC e Mobile?",
-          "answer": "Sim. Funciona perfeitamente em Windows, Android e iOS."
+          "question": "Is GTA San Andreas available for both PC and Mobile?",
+          "answer": "Yes. It runs smoothly on Windows, Android, and iOS."
         },
         "q3": {
-          "question": "Posso usar cheats no meu dispositivo móvel?",
-          "answer": "Sim, mas você precisa de um teclado externo ou uma opção de cheat integrada."
+          "question": "Can I use cheats on my mobile device?",
+          "answer": "Yes, but you need an external keyboard or a built-in cheat option."
         },
         "q4": {
-          "question": "Quem é o herói principal?",
-          "answer": "Carl \"CJ\" Johnson - um homem corajoso lutando por família e respeito."
+          "question": "Who is the main hero?",
+          "answer": "Carl \"CJ\" Johnson — a brave man fighting for family and respect."
         },
         "q5": {
-          "question": "Qual é o tamanho do jogo?",
-          "answer": "Cerca de 6 GB para PC e 2,6 GB para mobile."
+          "question": "How big is the game size?",
+          "answer": "Around 6 GB for PC and 2.6 GB for mobile."
         },
         "q6": {
-          "question": "Posso jogar offline?",
-          "answer": "Sim, todo o jogo pode ser jogado offline após a instalação."
+          "question": "Can I play offline?",
+          "answer": "Yes, the entire game can be played offline after installation."
         },
         "q7": {
-          "question": "Existem missões escondidas?",
-          "answer": "Sim. Há missões secundárias secretas, incluindo entregador, vigilante e corridas."
+          "question": "Are there hidden missions?",
+          "answer": "Yes. There are secret side missions, including courier, vigilante, and racing."
         },
         "q8": {
-          "question": "Qual é melhor, PC ou Mobile?",
-          "answer": "PC oferece melhores gráficos, enquanto mobile oferece conforto. Ambos são excelentes em 2025."
+          "question": "Which is better, PC or Mobile?",
+          "answer": "PC offers better graphics, while mobile offers comfort. Both are great in 2025."
         }
       }
     }
-  },
-  "forPC": {
-    "hero": {"title": "GTA San Andreas For PC", "subtitle": "Experience the Ultimate Gaming Adventure"},
-    "storySection": {"title": "GTA San Andreas Complete Story Journey", "introduction": "Discover the epic narrative of Carl \"CJ\" Johnson as he returns to Los Santos to rebuild his gang and save his family. This is a complete walkthrough of the game's most iconic storyline."},
-    "sections": {
-      "returnHome": {"title": "A Return Home – The Beginning of Everything", "content": ["The story begins in 1992. After living five years in Liberty City, Carl \"CJ\" Johnson gets a call that changes his life forever: his mother has been killed.", "He boards the first flight back to Los Santos, his hometown, a city now broken by gang wars, police corruption, and betrayal.", "When CJ lands, he's immediately stopped by Officer Tenpenny and his corrupt police team. They threaten him and drag him back into the city's chaos.", "The moment CJ steps onto Grove Street, the world feels heavy. His family is divided, his gang is weak, and his brother, Sweet, blames him for leaving.", "This is where the real journey begins: to rebuild Grove Street and CJ's own life."]},
-      "oldFriends": {"title": "Old Friends, New Problems", "content": ["At first, CJ tries to make peace with old friends Big Smoke and Ryder. They talk about loyalty and old times, but something feels strange.", "Together, they start small, spraying gang tags, stealing cars, and fighting Ballas (their biggest rivals).", "During these missions, the world of GTA San Andreas opens up beautifully with neighborhoods filled with kids playing, cars honking, and gang members talking. It feels alive.", "But under that noise, something darker is growing, betrayal.", "CJ starts to notice that Big Smoke and Ryder act differently. They care more about power and money than about Grove Street."]},
-      "riseOfGangLeader": {"title": "The Streets of Los Santos – Rise of a Gang Leader", "content": ["To earn respect, CJ does everything: races through the city, helps his brother Sweet, defends the streets, and earns cash through side missions.", "The Mod APK version offers more freedom, allowing players to customize Grove Street, recruit additional gang members, and purchase properties early.", "Soon, Grove Street starts to rise again. The green flags return, the gang gains strength, and the Ballas fall.", "But success never lasts long in Los Santos."]},
-      "trapChaos": {"title": "The Trap – Police, Betrayal, and Chaos", "content": ["During a big mission, CJ and Sweet are ambushed.", "Sweet gets shot, and Officer Tenpenny captures CJ. That's when the shocking truth comes out: Big Smoke and Ryder betrayed Grove Street. They are now working with the Ballas and corrupt police officers.", "Tenpenny drives CJ far from the city and dumps him in the countryside.", "No gang, no friends, just open land and a broken man trying to survive.", "This is the middle part of the game and one of the most emotional moments in GTA history."]},
-      "newBeginning": {"title": "A New Beginning – The Countryside Missions", "content": ["CJ meets new people in the countryside, such as Catalina, The Truth, and Cesar.", "He starts taking on small jobs, including robbing gas stations, racing cars, and helping his allies.", "This part shows CJ's growth as a person.", "He learns to trust new people, handle new challenges, and stay strong even when he's far from home.", "Catalina is wild and unpredictable. Their relationship is humorous, marked by frequent fights and pure chaos.", "Conversely, the Truth is a calm and spiritual teaching that CJ says strange but wise things about life."]},
-      "sanFierro": {"title": "San Fierro – A City of Business and Betrayal", "content": ["With Cesar's help, CJ moves to San Fierro, a city inspired by San Francisco.", "Here, he begins a new phase, one less focused on gang wars and more on business.", "He buys a garage, meets Wu Zi Mu (Woozie), and gets involved in car races and smuggling.", "CJ's world becomes bigger. He starts dealing with Triads, new enemies, and massive missions.", "He also learns that Ryder and Big Smoke are growing their drug empire in secret, protected by Tenpenny's corrupt police unit.", "CJ's focus shifts from survival to power. He's no longer just defending Grove Street; he's preparing to take it all back."]},
-      "lasVenturas": {"title": "Las Venturas – The Casino and the Big Heist", "content": ["The next stop is Las Venturas, a city of neon lights, casinos, and gangsters.", "CJ partners with Woozie and helps manage The Four Dragons Casino.", "He learns how the Mafia families control everything from gambling to construction.", "This part of the story feels like a movie filled with planning, disguises, and a major casino robbery.", "In the Mod APK, players can even replay the heist with different strategies or use advanced weapons.", "By this time, CJ has money, respect, and power, but his ultimate goal remains unfinished: reclaiming Los Santos."]},
-      "returnToLosSantos": {"title": "Return to Los Santos – Revenge and Redemption", "content": ["After Tenpenny is exposed for his crimes, the city falls into chaos.", "Riots fill the streets, fires burn, and gangs take over.", "CJ returns home one last time — to save his brother and finish what he started.", "He attacks Big Smoke's fortress, one of the most iconic missions in GTA history.", "The battle is long, dark, and emotional. CJ fights through dozens of guards until he faces Big Smoke himself.", "Smoke's final words show regret — he admits his greed destroyed him.", "Then, Tenpenny appears again, steals the money, and escapes.", "CJ chases him through the burning streets of Los Santos in a legendary car chase scene.", "Finally, Tenpenny crashes his car off a bridge and dies.", "The chaos ends, Grove Street stands tall again, and CJ's family is reunited."]},
-      "ending": {"title": "The Ending – Grove Street Forever", "content": ["The final scene shows CJ standing on Grove Street, looking at his home.", "Sweet, Cesar, and Kendl are beside him. The city is finally calm.", "CJ simply says he has \"things to do\" and walks away.", "The ending is perfect because it's not about fame or victory but peace.", "CJ finds balance after everything — betrayal, pain, and revenge.", "Even in 2025, players replay that last mission and feel the same emotion.", "That makes GTA San Andreas a timeless story — it is not just a crime game but a life story of family, loyalty, and choices."]},
-      "legacy": {"title": "The Legacy of GTA San Andreas in 2025", "content": ["More than 20 years later, GTA San Andreas still rules hearts.", "Players use the GTA San Andreas Mod APK PC or Mobile version to relive that magic — with modern updates, HD graphics, and new missions.", "The reason people keep coming back is simple:", "No matter how much the graphics change, the story of CJ remains powerful.", "It reminds players that loyalty matters, that family can be lost and found, and that no one forgets where they came from, especially when that place is Grove Street."]}
-    },
-    "experience": {"title": "How to Gain More Experience and Enjoy GTA San Andreas", "tips": {"gym": {"emoji": "💪", "title": "Train at the Gym", "description": "Increase CJ's strength and stamina to improve overall performance."}, "drive": {"emoji": "🏎️", "title": "Drive Daily", "description": "The more you drive, the better CJ handles cars and vehicles."}, "weapons": {"emoji": "🎯", "title": "Use Weapons Regularly", "description": "Practice improves aiming skills and weapon proficiency in combat."}, "gangWars": {"emoji": "⚔️", "title": "Join Gang Wars", "description": "Winning territories increases money flow and neighborhood respect."}, "food": {"emoji": "🍎", "title": "Eat Healthy", "description": "Avoid junk food, or CJ will get slow and less effective."}, "outfits": {"emoji": "👕", "title": "Change Outfits", "description": "CJ's style improves respect in different neighborhoods."}, "explore": {"emoji": "🗺️", "title": "Explore Secret Areas", "description": "Hidden spots often contain valuable items like weapons or armor."}, "save": {"emoji": "💾", "title": "Save Often", "description": "Always save before challenging missions to avoid losing progress."}}, "personalNote": "Personal Note", "personalNoteText": "When I first learned to fly the Hydra jet, I spent hours flying across cities to enjoy the view. This kind of fun never ends in GTA San Andreas. Whether you're exploring hidden shortcuts, discovering easter eggs, or simply enjoying the immense world Rockstar created, every moment brings something new to experience."},
-    "whyLoveIt": {"title": "Why Everyone Still Loves GTA San Andreas", "content": ["When people talk about the best open-world game ever made, one name always comes up — GTA San Andreas.", "Even after over a decade, this iconic open-world game still rules the hearts of millions. The streets, the music, the characters, everything feels alive.", "The GTA San Andreas Mod APK brings this classic back with modern updates. Players can now enjoy smoother graphics, new cars, better weapons, and extra missions. It feels both classic and new at the same time.", "Many gamers who tried GTA 3, GTA 4, and even GTA 5 have returned to San Andreas. No other GTA game captures the spirit of the streets, the bond of brotherhood, and the raw energy like this one.", "If you are new to GTA San Andreas or returning after years, this 2025 guide will provide you with everything you need: gameplay information, features, tips, cheats, and updates."]},
-    "overview": {"title": "GTA San Andreas Mod APK Overview", "table": {"gameName": "Game Name", "gameNameValue": "GTA San Andreas Mod APK", "developer": "Developer", "developerValue": "Rockstar Games", "genre": "Genre", "genreValue": "Action, Adventure, Open World", "mode": "Mode", "modeValue": "Offline / Online", "platform": "Platform", "platformValue": "Android, iOS, PC", "releaseYear": "Release Year (Mod)", "releaseYearValue": "2025 Updated Edition"}, "description": "The GTA San Andreas Mod APK version is specifically designed for players who want complete control of the game, all missions are unlocked, unlimited money, and access to premium vehicles and weapons. It's perfect for those who love experimenting in an open-world environment."},
-    "updates": {"title": "What is New in 2025 – Latest Updates", "intro": "Many players are still playing GTA San Andreas in 2025, and developers continue to improve the game's performance on newer systems.", "items": {"graphics": {"title": "Better Graphics Support", "description": "Now supports higher resolutions and smoother textures for PC and mobile."}, "controls": {"title": "Improved Touch Controls", "description": "The mobile version has cleaner buttons and a faster response."}, "cloudSave": {"title": "Cloud Save Option", "description": "You can now save progress online across devices."}, "patches": {"title": "New Compatibility Patches", "description": "Better support for Windows 11, Android 14, and iOS 18."}, "lag": {"title": "Reduced Lag", "description": "The latest update reduces frame drops and heating issues on mobile devices."}, "controller": {"title": "Controller Support", "description": "Mobile now supports Bluetooth controllers for a smoother gaming experience."}, "customization": {"title": "Easier Customization", "description": "Players can adjust the camera, sensitivity, and display settings directly."}, "crashes": {"title": "Official Fix for Crashes", "description": "Rockstar's new patch prevents random game shutdowns on modern devices."}}},
-    "faqs": {"title": "FAQs – GTA San Andreas 2025", "subtitle": "Find answers to the most common questions about GTA San Andreas on PC and Mobile.", "questions": {"q1": {"question": "What makes GTA San Andreas still popular in 2025?", "answer": "It offers genuine freedom, a rich story, and endless fun that few games can match."}, "q2": {"question": "Is GTA San Andreas available for both PC and Mobile?", "answer": "Yes. It runs smoothly on Windows, Android, and iOS."}, "q3": {"question": "Can I use cheats on my mobile device?", "answer": "Yes, but you need an external keyboard or a built-in cheat option."}, "q4": {"question": "Who is the main hero?", "answer": "Carl \"CJ\" Johnson — a brave man fighting for family and respect."}, "q5": {"question": "How big is the game size?", "answer": "Around 6 GB for PC and 2.6 GB for mobile."}, "q6": {"question": "Can I play offline?", "answer": "Yes, the entire game can be played offline after installation."}, "q7": {"question": "Are there hidden missions?", "answer": "Yes. There are secret side missions, including courier, vigilante, and racing."}, "q8": {"question": "Which is better, PC or Mobile?", "answer": "PC offers better graphics, while mobile offers comfort. Both are great in 2025."}}}
   },
   "missions": {
     "secretMissionsTitle": "Missões secretas",
@@ -912,9 +893,477 @@
     "vehicleDatabase": {
       "title": "Lista de Carros GTA San Andreas: Banco de Dados Completo de Veículos",
       "subtitle": "Todos os Veículos com Informações de Velocidade e Preço",
-      "headers": ["Nome do Veículo", "Tipo", "Velocidade Máxima", "Preço"],
+      "headers": [
+        "Nome do Veículo",
+        "Tipo",
+        "Velocidade Máxima",
+        "Preço"
+      ],
       "totalVehicles": "200+ Veículos",
-      "data": [{"name": "Admiral", "type": "Carro/Sedã", "speed": "103 km/h", "price": "35.000 $"},{"name": "Alpha", "type": "Carro/Esporte", "speed": "124 km/h", "price": "35.000 $"},{"name": "Ambulância", "type": "Emergência/Carro", "speed": "96 km/h", "price": "10.000 $"},{"name": "Andromada", "type": "Aviões", "speed": "N/A", "price": "N/A"},{"name": "Airtrain", "type": "Transporte", "speed": "N/A", "price": "N/A"},{"name": "Airwolf", "type": "Helicópteros", "speed": "190 km/h", "price": "N/A"},{"name": "Artict", "type": "Caminhões", "speed": "87 km/h", "price": "45.000 $"},{"name": "Baller", "type": "SUVs", "speed": "118 km/h", "price": "60.000 $"},{"name": "Banshee", "type": "Carro/Esporte", "speed": "129 km/h", "price": "65.000 $"},{"name": "Barracks", "type": "Militar/Caminhão", "speed": "75 km/h", "price": "N/A"},{"name": "Barracks OL", "type": "Militar/Caminhão", "speed": "75 km/h", "price": "N/A"},{"name": "Berkley's Van", "type": "Vans", "speed": "82 km/h", "price": "15.000 $"},{"name": "BF-400", "type": "Motos/Bicicletas", "speed": "120 km/h", "price": "18.000 $"},{"name": "BF-Injection", "type": "Fora-de-estrada", "speed": "110 km/h", "price": "12.000 $"},{"name": "Bike", "type": "Motos/Bicicletas", "speed": "12 km/h", "price": "Grátis"},{"name": "Blade", "type": "Carro/Lowrider", "speed": "112 km/h", "price": "52.000 $"},{"name": "Blista Compact", "type": "Carro/Cidade", "speed": "102 km/h", "price": "18.000 $"},{"name": "Bloodring Banger", "type": "Carro/Modificado", "speed": "108 km/h", "price": "N/A"},{"name": "Blueline Goods", "type": "Caminhão/Entrega", "speed": "88 km/h", "price": "N/A"},{"name": "Boat", "type": "Veículos Aquáticos", "speed": "85 km/h", "price": "N/A"},{"name": "Boxville", "type": "Caminhão/Entrega", "speed": "91 km/h", "price": "N/A"},{"name": "Brawler", "type": "Carro/Fora-de-estrada", "speed": "98 km/h", "price": "24.000 $"},{"name": "Breeze", "type": "Carro/Cidade", "speed": "100 km/h", "price": "16.000 $"},{"name": "Bronco", "type": "SUVs", "speed": "115 km/h", "price": "55.000 $"},{"name": "Brown Streak", "type": "Transporte", "speed": "N/A", "price": "N/A"},{"name": "Bus", "type": "Transporte/Ônibus", "speed": "85 km/h", "price": "N/A"},{"name": "Cabbie", "type": "Táxis", "speed": "100 km/h", "price": "N/A"},{"name": "Camper", "type": "Vans", "speed": "99 km/h", "price": "28.000 $"},{"name": "Caracara", "type": "SUVs", "speed": "115 km/h", "price": "58.000 $"},{"name": "Carbine", "type": "Fuzis", "speed": "N/A", "price": "N/A"},{"name": "Carabane", "type": "Carro/Transporte", "speed": "105 km/h", "price": "N/A"},{"name": "Cargobob", "type": "Helicópteros", "speed": "175 km/h", "price": "N/A"},{"name": "Cargoplane", "type": "Aviões", "speed": "N/A", "price": "N/A"},{"name": "Cartop", "type": "Transporte", "speed": "N/A", "price": "N/A"},{"name": "Cement Truck", "type": "Caminhão/Industrial", "speed": "92 km/h", "price": "42.000 $"},{"name": "Cheetah", "type": "Carro/Esporte", "speed": "130 km/h", "price": "80.000 $"},{"name": "Cherub", "type": "Aviões", "speed": "N/A", "price": "N/A"},{"name": "Clover", "type": "Carro/Gangue", "speed": "106 km/h", "price": "N/A"},{"name": "Coach", "type": "Ônibus", "speed": "80 km/h", "price": "N/A"},{"name": "Comet", "type": "Carro/Esporte", "speed": "125 km/h", "price": "72.000 $"},{"name": "Commandeer", "type": "Militar/Caminhão", "speed": "95 km/h", "price": "N/A"},{"name": "Copter", "type": "Helicópteros", "speed": "180 km/h", "price": "N/A"},{"name": "Corpse", "type": "Carro/Modificado", "speed": "80 km/h", "price": "N/A"},{"name": "Covered Wagon", "type": "Carroças", "speed": "95 km/h", "price": "N/A"},{"name": "Crate", "type": "Transporte", "speed": "N/A", "price": "N/A"},{"name": "Crane", "type": "Industrial", "speed": "N/A", "price": "N/A"},{"name": "Crusader", "type": "Caminhões", "speed": "88 km/h", "price": "N/A"},{"name": "Cuban", "type": "Aviões", "speed": "N/A", "price": "N/A"},{"name": "Dinghy", "type": "Veículos Aquáticos", "speed": "60 km/h", "price": "N/A"},{"name": "Dinghy Inflável", "type": "Veículos Aquáticos", "speed": "60 km/h", "price": "N/A"},{"name": "Dozer", "type": "Industrial", "speed": "55 km/h", "price": "N/A"},{"name": "DPV", "type": "Motos", "speed": "120 km/h", "price": "N/A"},{"name": "Dub", "type": "Carro/Lowrider", "speed": "110 km/h", "price": "50.000 $"},{"name": "Dumper", "type": "Caminhão/Industrial", "speed": "76 km/h", "price": "48.000 $"},{"name": "Dustoff", "type": "Helicópteros", "speed": "185 km/h", "price": "N/A"},{"name": "DWT-20", "type": "Motos", "speed": "115 km/h", "price": "16.000 $"},{"name": "Elegy", "type": "Carro/Esporte", "speed": "126 km/h", "price": "78.000 $"},{"name": "Emerus", "type": "Carro/Esporte", "speed": "135 km/h", "price": "88.000 $"},{"name": "Emperor", "type": "Carro/Sedã", "speed": "105 km/h", "price": "32.000 $"},{"name": "Enforcer", "type": "Caminhão/SWAT", "speed": "92 km/h", "price": "N/A"},{"name": "Esperanto", "type": "Carro/Clássico", "speed": "108 km/h", "price": "38.000 $"},{"name": "Euros", "type": "Carro/Esporte", "speed": "132 km/h", "price": "85.000 $"},{"name": "Everon", "type": "Carro/SUV", "speed": "118 km/h", "price": "62.000 $"},{"name": "Exemplar", "type": "Carro/Luxo", "speed": "117 km/h", "price": "70.000 $"},{"name": "Exterminator", "type": "Caminhões", "speed": "95 km/h", "price": "N/A"},{"name": "Faimliner", "type": "Transporte", "speed": "N/A", "price": "N/A"},{"name": "Fairtone", "type": "Carro/Clássico", "speed": "103 km/h", "price": "35.000 $"},{"name": "Farmtruck", "type": "Caminhões", "speed": "82 km/h", "price": "12.000 $"},{"name": "FCR-900", "type": "Motos", "speed": "128 km/h", "price": "24.000 $"},{"name": "Feltzer", "type": "Carro/Conversível", "speed": "119 km/h", "price": "68.000 $"},{"name": "Firetruk", "type": "Emergência", "speed": "88 km/h", "price": "N/A"},{"name": "Flatbed", "type": "Caminhões", "speed": "86 km/h", "price": "N/A"},{"name": "Forklift", "type": "Industrial", "speed": "45 km/h", "price": "N/A"},{"name": "Fortune", "type": "Carro/Clássico", "speed": "105 km/h", "price": "40.000 $"},{"name": "Freeway", "type": "Motos", "speed": "122 km/h", "price": "22.000 $"},{"name": "Futo", "type": "Carro/Cidade", "speed": "108 km/h", "price": "22.000 $"},{"name": "Fuzzie", "type": "Motos", "speed": "110 km/h", "price": "N/A"}]
+      "data": [
+        {
+          "name": "Admiral",
+          "type": "Carro/Sedã",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Alpha",
+          "type": "Carro/Esporte",
+          "speed": "124 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Ambulância",
+          "type": "Emergência/Carro",
+          "speed": "96 km/h",
+          "price": "10.000 $"
+        },
+        {
+          "name": "Andromada",
+          "type": "Aviões",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Airtrain",
+          "type": "Transporte",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Airwolf",
+          "type": "Helicópteros",
+          "speed": "190 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Artict",
+          "type": "Caminhões",
+          "speed": "87 km/h",
+          "price": "45.000 $"
+        },
+        {
+          "name": "Baller",
+          "type": "SUVs",
+          "speed": "118 km/h",
+          "price": "60.000 $"
+        },
+        {
+          "name": "Banshee",
+          "type": "Carro/Esporte",
+          "speed": "129 km/h",
+          "price": "65.000 $"
+        },
+        {
+          "name": "Barracks",
+          "type": "Militar/Caminhão",
+          "speed": "75 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Barracks OL",
+          "type": "Militar/Caminhão",
+          "speed": "75 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Berkley's Van",
+          "type": "Vans",
+          "speed": "82 km/h",
+          "price": "15.000 $"
+        },
+        {
+          "name": "BF-400",
+          "type": "Motos/Bicicletas",
+          "speed": "120 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "BF-Injection",
+          "type": "Fora-de-estrada",
+          "speed": "110 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "Bike",
+          "type": "Motos/Bicicletas",
+          "speed": "12 km/h",
+          "price": "Grátis"
+        },
+        {
+          "name": "Blade",
+          "type": "Carro/Lowrider",
+          "speed": "112 km/h",
+          "price": "52.000 $"
+        },
+        {
+          "name": "Blista Compact",
+          "type": "Carro/Cidade",
+          "speed": "102 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "Bloodring Banger",
+          "type": "Carro/Modificado",
+          "speed": "108 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Blueline Goods",
+          "type": "Caminhão/Entrega",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Boat",
+          "type": "Veículos Aquáticos",
+          "speed": "85 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Boxville",
+          "type": "Caminhão/Entrega",
+          "speed": "91 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Brawler",
+          "type": "Carro/Fora-de-estrada",
+          "speed": "98 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Breeze",
+          "type": "Carro/Cidade",
+          "speed": "100 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Bronco",
+          "type": "SUVs",
+          "speed": "115 km/h",
+          "price": "55.000 $"
+        },
+        {
+          "name": "Brown Streak",
+          "type": "Transporte",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Bus",
+          "type": "Transporte/Ônibus",
+          "speed": "85 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cabbie",
+          "type": "Táxis",
+          "speed": "100 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Camper",
+          "type": "Vans",
+          "speed": "99 km/h",
+          "price": "28.000 $"
+        },
+        {
+          "name": "Caracara",
+          "type": "SUVs",
+          "speed": "115 km/h",
+          "price": "58.000 $"
+        },
+        {
+          "name": "Carbine",
+          "type": "Fuzis",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Carabane",
+          "type": "Carro/Transporte",
+          "speed": "105 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cargobob",
+          "type": "Helicópteros",
+          "speed": "175 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cargoplane",
+          "type": "Aviões",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Cartop",
+          "type": "Transporte",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Cement Truck",
+          "type": "Caminhão/Industrial",
+          "speed": "92 km/h",
+          "price": "42.000 $"
+        },
+        {
+          "name": "Cheetah",
+          "type": "Carro/Esporte",
+          "speed": "130 km/h",
+          "price": "80.000 $"
+        },
+        {
+          "name": "Cherub",
+          "type": "Aviões",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Clover",
+          "type": "Carro/Gangue",
+          "speed": "106 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Coach",
+          "type": "Ônibus",
+          "speed": "80 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Comet",
+          "type": "Carro/Esporte",
+          "speed": "125 km/h",
+          "price": "72.000 $"
+        },
+        {
+          "name": "Commandeer",
+          "type": "Militar/Caminhão",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Copter",
+          "type": "Helicópteros",
+          "speed": "180 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Corpse",
+          "type": "Carro/Modificado",
+          "speed": "80 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Covered Wagon",
+          "type": "Carroças",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Crate",
+          "type": "Transporte",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Crane",
+          "type": "Industrial",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Crusader",
+          "type": "Caminhões",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cuban",
+          "type": "Aviões",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Dinghy",
+          "type": "Veículos Aquáticos",
+          "speed": "60 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dinghy Inflável",
+          "type": "Veículos Aquáticos",
+          "speed": "60 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dozer",
+          "type": "Industrial",
+          "speed": "55 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "DPV",
+          "type": "Motos",
+          "speed": "120 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dub",
+          "type": "Carro/Lowrider",
+          "speed": "110 km/h",
+          "price": "50.000 $"
+        },
+        {
+          "name": "Dumper",
+          "type": "Caminhão/Industrial",
+          "speed": "76 km/h",
+          "price": "48.000 $"
+        },
+        {
+          "name": "Dustoff",
+          "type": "Helicópteros",
+          "speed": "185 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "DWT-20",
+          "type": "Motos",
+          "speed": "115 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Elegy",
+          "type": "Carro/Esporte",
+          "speed": "126 km/h",
+          "price": "78.000 $"
+        },
+        {
+          "name": "Emerus",
+          "type": "Carro/Esporte",
+          "speed": "135 km/h",
+          "price": "88.000 $"
+        },
+        {
+          "name": "Emperor",
+          "type": "Carro/Sedã",
+          "speed": "105 km/h",
+          "price": "32.000 $"
+        },
+        {
+          "name": "Enforcer",
+          "type": "Caminhão/SWAT",
+          "speed": "92 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Esperanto",
+          "type": "Carro/Clássico",
+          "speed": "108 km/h",
+          "price": "38.000 $"
+        },
+        {
+          "name": "Euros",
+          "type": "Carro/Esporte",
+          "speed": "132 km/h",
+          "price": "85.000 $"
+        },
+        {
+          "name": "Everon",
+          "type": "Carro/SUV",
+          "speed": "118 km/h",
+          "price": "62.000 $"
+        },
+        {
+          "name": "Exemplar",
+          "type": "Carro/Luxo",
+          "speed": "117 km/h",
+          "price": "70.000 $"
+        },
+        {
+          "name": "Exterminator",
+          "type": "Caminhões",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Faimliner",
+          "type": "Transporte",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Fairtone",
+          "type": "Carro/Clássico",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Farmtruck",
+          "type": "Caminhões",
+          "speed": "82 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "FCR-900",
+          "type": "Motos",
+          "speed": "128 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Feltzer",
+          "type": "Carro/Conversível",
+          "speed": "119 km/h",
+          "price": "68.000 $"
+        },
+        {
+          "name": "Firetruk",
+          "type": "Emergência",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Flatbed",
+          "type": "Caminhões",
+          "speed": "86 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Forklift",
+          "type": "Industrial",
+          "speed": "45 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Fortune",
+          "type": "Carro/Clássico",
+          "speed": "105 km/h",
+          "price": "40.000 $"
+        },
+        {
+          "name": "Freeway",
+          "type": "Motos",
+          "speed": "122 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Futo",
+          "type": "Carro/Cidade",
+          "speed": "108 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Fuzzie",
+          "type": "Motos",
+          "speed": "110 km/h",
+          "price": "N/A"
+        }
+      ]
     },
     "vehicleSystem": {
       "title": "Entendendo o Sistema de Veículos em GTA San Andreas",
@@ -927,12 +1376,20 @@
     "lowRiders": {
       "title": "Low Riders Clássicos e Opções de Personalização",
       "content": "Os low riders são uma grande parte da cultura de GTA San Andreas. Eles mostram o estilo da Costa Oeste por qual o jogo é conhecido. Os modelos populares de low riders são Blade, Broadway e Remington. Você pode personalizar low riders com novas pinturas, rodas, sistemas de nitro e hidráulicos. Visite garagens especiais como Loco Low Co para modificar esses veículos.",
-      "models": ["Blade", "Broadway", "Remington"]
+      "models": [
+        "Blade",
+        "Broadway",
+        "Remington"
+      ]
     },
     "motorcycles": {
       "title": "Motos e Bicicletas para Viagens Rápidas",
       "content": "As motos são uma forma rápida de se abrir caminho no tráfego de GTA San Andreas. A NRG-500 é a moto mais rápida do jogo. A PCJ-600 lhe dá um bom mix de velocidade e controle. A Sanchez é a melhor para dirigir fora da estrada. Mas as motos não protegem você tanto quanto os carros, então os acidentes podem doer mais.",
-      "models": ["NRG-500", "PCJ-600", "Sanchez"]
+      "models": [
+        "NRG-500",
+        "PCJ-600",
+        "Sanchez"
+      ]
     },
     "heavyVehicles": {
       "title": "Veículos Pesados e Caminhões",
@@ -941,22 +1398,43 @@
     "rareVehicles": {
       "title": "Veículos Raros e Únicos para Coletar",
       "content": "Alguns veículos em GTA San Andreas são realmente raros e difíceis de encontrar. O Phoenix só aparece em certos lugares e em certos momentos. O carro esportivo ZR-350 é raro e rápido. O Hotknife é um hot rod especial que você só pode obter completando certos desafios de coleta de veículos. O Kart se parece com um kart de corrida e lhe dá um tempo de direção divertido e estranho.",
-      "vehicles": ["Phoenix", "ZR-350", "Hotknife", "Kart"]
+      "vehicles": [
+        "Phoenix",
+        "ZR-350",
+        "Hotknife",
+        "Kart"
+      ]
     },
     "aircraft": {
       "title": "Veículos Voadores e Aviões",
       "content": "Os aviões em GTA San Andreas adicionam uma forma completamente nova de jogar. O caça Hydra é rápido e pode decolar verticalmente. O avião de hélice Rustler é mais fácil de voar se você está apenas aprendendo. Helicópteros como Maverick e Police Maverick são estáveis para turismo ou missões aéreas. Aprender a voar leva prática, mas realmente adiciona ao jogo.",
-      "aircraft": ["Hydra", "Rustler", "Maverick", "Police Maverick"]
+      "aircraft": [
+        "Hydra",
+        "Rustler",
+        "Maverick",
+        "Police Maverick"
+      ]
     },
     "waterVehicles": {
       "title": "Veículos Aquáticos e Barcos",
       "content": "Os veículos aquáticos lhe dão outra forma de se mover em GTA San Andreas. O barco rápido Squalo é a forma mais rápida de viajar na água. O barco Tropic é confiável e tem velocidade e manuseio decentes. O Jetmax parece elegante e funciona bem na água. O Vortex hovercraft pode ir tanto na terra quanto na água.",
-      "vehicles": ["Squalo", "Tropic", "Jetmax", "Vortex"]
+      "vehicles": [
+        "Squalo",
+        "Tropic",
+        "Jetmax",
+        "Vortex"
+      ]
     },
     "policeVehicles": {
       "title": "Veículos Policiais e de Emergência",
       "content": "Os veículos policiais em GTA San Andreas vêm em diferentes tipos como patrulhas, SUVs e motos. O Carro de Polícia tem boa velocidade e potência para perseguir pessoas. O caminhão SWAT Enforcer tem armadura pesada. Os caminhões de bombeiros têm canhões de água e iniciam missões de bombeiros. As ambulâncias permitem que você faça missões de paramédico. Esses veículos geralmente funcionam melhor do que os normais.",
-      "vehicles": ["Police Car", "Enforcer", "Fire Truck", "Ambulance", "HPV1000"]
+      "vehicles": [
+        "Police Car",
+        "Enforcer",
+        "Fire Truck",
+        "Ambulance",
+        "HPV1000"
+      ]
     },
     "importExport": {
       "title": "Lista de Veículos de Importação/Exportação",
@@ -1051,180 +1529,653 @@
     },
     "actionCheats": {
       "title": "Códigos de Ação Rápida",
-      "headers": ["Ação", "Código (PC)", "Efeito"],
+      "headers": [
+        "Ação",
+        "Código (PC)",
+        "Efeito"
+      ],
       "data": [
-        { "action": "Saúde Infinita", "pc": "BAGUVIX", "effect": "Torna CJ quase invencível" },
-        { "action": "Armadura Completa", "pc": "HESOYAM", "effect": "Dá armadura e saúde completas" },
-        { "action": "Conjunto de Armas 1", "pc": "LXGIWYL", "effect": "Armas básicas e armas brancas" },
-        { "action": "Jetpack", "pc": "ROCKETMAN", "effect": "Gera um jetpack" },
-        { "action": "Tanque (Rhino)", "pc": "AIWPRTON", "effect": "Gera um tanque militar" },
-        { "action": "Diminuir Nível de Procurado", "pc": "AEZAKMI", "effect": "A polícia te ignora" },
-        { "action": "Carros Voam", "pc": "CHITTYCHITTYBANGBANG", "effect": "Carros podem voar" },
-        { "action": "Nunca com Fome", "pc": "AEDUWNV", "effect": "Barra de fome fica cheia" },
-        { "action": "Mega Pulo", "pc": "KANGAROO", "effect": "CJ pula super alto" }
+        {
+          "action": "Saúde Infinita",
+          "pc": "BAGUVIX",
+          "effect": "Torna CJ quase invencível"
+        },
+        {
+          "action": "Armadura Completa",
+          "pc": "HESOYAM",
+          "effect": "Dá armadura e saúde completas"
+        },
+        {
+          "action": "Conjunto de Armas 1",
+          "pc": "LXGIWYL",
+          "effect": "Armas básicas e armas brancas"
+        },
+        {
+          "action": "Jetpack",
+          "pc": "ROCKETMAN",
+          "effect": "Gera um jetpack"
+        },
+        {
+          "action": "Tanque (Rhino)",
+          "pc": "AIWPRTON",
+          "effect": "Gera um tanque militar"
+        },
+        {
+          "action": "Diminuir Nível de Procurado",
+          "pc": "AEZAKMI",
+          "effect": "A polícia te ignora"
+        },
+        {
+          "action": "Carros Voam",
+          "pc": "CHITTYCHITTYBANGBANG",
+          "effect": "Carros podem voar"
+        },
+        {
+          "action": "Nunca com Fome",
+          "pc": "AEDUWNV",
+          "effect": "Barra de fome fica cheia"
+        },
+        {
+          "action": "Mega Pulo",
+          "pc": "KANGAROO",
+          "effect": "CJ pula super alto"
+        }
       ]
     },
     "playerCheats": {
       "title": "Códigos do Jogador",
       "subtitle": "Para PC, PlayStation e Xbox",
-      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efeito",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Saúde Infinita", "pc": "BAGUVIX", "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE", "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y" },
-        { "effect": "Munição Infinita", "pc": "FULLCLIP", "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1", "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB" },
-        { "effect": "Oxigênio Infinito", "pc": "CVWKXAM", "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN", "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN" },
-        { "effect": "Músculos no Máximo", "pc": "JYSDSOD", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT" },
-        { "effect": "Gordura no Máximo", "pc": "BTCDBCB", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT" },
-        { "effect": "Magro", "pc": "KVGYZQK", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP" },
-        { "effect": "Seis Estrelas de Procurado", "pc": "LJSPQK", "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN", "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN" },
-        { "effect": "Diminuir Nível de Procurado", "pc": "ASNAEB", "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN", "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN" },
-        { "effect": "Nunca Procurado", "pc": "AEZAKMI", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT" },
-        { "effect": "Mega Pulo", "pc": "KANGAROO", "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2", "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT" }
+        {
+          "effect": "Saúde Infinita",
+          "pc": "BAGUVIX",
+          "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE",
+          "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y"
+        },
+        {
+          "effect": "Munição Infinita",
+          "pc": "FULLCLIP",
+          "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1",
+          "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB"
+        },
+        {
+          "effect": "Oxigênio Infinito",
+          "pc": "CVWKXAM",
+          "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN",
+          "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN"
+        },
+        {
+          "effect": "Músculos no Máximo",
+          "pc": "JYSDSOD",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT"
+        },
+        {
+          "effect": "Gordura no Máximo",
+          "pc": "BTCDBCB",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT"
+        },
+        {
+          "effect": "Magro",
+          "pc": "KVGYZQK",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP"
+        },
+        {
+          "effect": "Seis Estrelas de Procurado",
+          "pc": "LJSPQK",
+          "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN",
+          "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN"
+        },
+        {
+          "effect": "Diminuir Nível de Procurado",
+          "pc": "ASNAEB",
+          "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN",
+          "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN"
+        },
+        {
+          "effect": "Nunca Procurado",
+          "pc": "AEZAKMI",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT"
+        },
+        {
+          "effect": "Mega Pulo",
+          "pc": "KANGAROO",
+          "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2",
+          "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT"
+        }
       ]
     },
     "vehicleCheats": {
       "title": "Códigos de Veículos e Transporte",
-      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efeito",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Gerar Caminhão Tanque", "pc": "AMOMHRER", "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1", "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB" },
-        { "effect": "Gerar Jetpack", "pc": "ROCKETMAN", "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT", "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT" },
-        { "effect": "Gerar Jato Hydra", "pc": "JUMPJET", "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP", "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP" },
-        { "effect": "Gerar Monster Truck", "pc": "MONSTERMASH", "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1", "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB" },
-        { "effect": "Carros Voam", "pc": "RIPAZHA", "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT", "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT" },
-        { "effect": "Carros Flutuam na Água", "pc": "BGKGTJH", "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT", "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT" },
-        { "effect": "Todos os Carros com Nitro", "pc": "SPEEDFREAK", "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1", "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB" },
-        { "effect": "Explodir Todos os Carros", "pc": "CPKTNWT", "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1", "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB" }
+        {
+          "effect": "Gerar Caminhão Tanque",
+          "pc": "AMOMHRER",
+          "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1",
+          "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB"
+        },
+        {
+          "effect": "Gerar Jetpack",
+          "pc": "ROCKETMAN",
+          "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT",
+          "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT"
+        },
+        {
+          "effect": "Gerar Jato Hydra",
+          "pc": "JUMPJET",
+          "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP",
+          "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP"
+        },
+        {
+          "effect": "Gerar Monster Truck",
+          "pc": "MONSTERMASH",
+          "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1",
+          "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB"
+        },
+        {
+          "effect": "Carros Voam",
+          "pc": "RIPAZHA",
+          "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT",
+          "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT"
+        },
+        {
+          "effect": "Carros Flutuam na Água",
+          "pc": "BGKGTJH",
+          "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT",
+          "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT"
+        },
+        {
+          "effect": "Todos os Carros com Nitro",
+          "pc": "SPEEDFREAK",
+          "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1",
+          "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB"
+        },
+        {
+          "effect": "Explodir Todos os Carros",
+          "pc": "CPKTNWT",
+          "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1",
+          "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB"
+        }
       ]
     },
     "weatherCheats": {
       "title": "Códigos de Mundo e Clima",
-      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efeito",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Clima Ensolarado", "pc": "PLEASANTLYWARM", "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE", "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X" },
-        { "effect": "Clima Chuvoso", "pc": "AUIFRVQS", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X" },
-        { "effect": "Clima Nebuloso", "pc": "CFVFGMJ", "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE", "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X" },
-        { "effect": "Tempo Rápido", "pc": "YSOHNUL", "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP", "xbox": "B, B, X, LB, LT, A, Y, UP" },
-        { "effect": "Tempo Lento", "pc": "LIYOAAY", "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1", "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB" }
+        {
+          "effect": "Clima Ensolarado",
+          "pc": "PLEASANTLYWARM",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE",
+          "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X"
+        },
+        {
+          "effect": "Clima Chuvoso",
+          "pc": "AUIFRVQS",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X"
+        },
+        {
+          "effect": "Clima Nebuloso",
+          "pc": "CFVFGMJ",
+          "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE",
+          "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X"
+        },
+        {
+          "effect": "Tempo Rápido",
+          "pc": "YSOHNUL",
+          "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP",
+          "xbox": "B, B, X, LB, LT, A, Y, UP"
+        },
+        {
+          "effect": "Tempo Lento",
+          "pc": "LIYOAAY",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1",
+          "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB"
+        }
       ]
     },
     "gangCheats": {
       "title": "Códigos de Gangues e Pedestres",
-      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efeito",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Recrutar Qualquer Um (Pistola)", "pc": "SJMAHPE", "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT", "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT" },
-        { "effect": "Recrutar Qualquer Um (Foguetes)", "pc": "ZSOXFSQ", "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT", "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT" },
-        { "effect": "Gangues Controlam as Ruas", "pc": "BIFBUZZ", "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT", "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT" },
-        { "effect": "Tumultos na Cidade", "pc": "IOJUFZN", "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1", "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB" }
+        {
+          "effect": "Recrutar Qualquer Um (Pistola)",
+          "pc": "SJMAHPE",
+          "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT",
+          "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT"
+        },
+        {
+          "effect": "Recrutar Qualquer Um (Foguetes)",
+          "pc": "ZSOXFSQ",
+          "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+          "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+        },
+        {
+          "effect": "Gangues Controlam as Ruas",
+          "pc": "BIFBUZZ",
+          "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT",
+          "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT"
+        },
+        {
+          "effect": "Tumultos na Cidade",
+          "pc": "IOJUFZN",
+          "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1",
+          "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB"
+        }
       ]
     },
     "moneyWeapons": {
       "title": "Códigos de Dinheiro, Armas e Habilidades",
-      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efeito",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Saúde, Armadura e $250k", "pc": "HESOYAM", "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
-        { "effect": "Conjunto de Armas 1", "pc": "LXGIWYL", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
-        { "effect": "Conjunto de Armas 2", "pc": "PROFESSIONALSKIT", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT" },
-        { "effect": "Conjunto de Armas 3", "pc": "UZUMYMW", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN" }
+        {
+          "effect": "Saúde, Armadura e $250k",
+          "pc": "HESOYAM",
+          "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "Conjunto de Armas 1",
+          "pc": "LXGIWYL",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "Conjunto de Armas 2",
+          "pc": "PROFESSIONALSKIT",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT"
+        },
+        {
+          "effect": "Conjunto de Armas 3",
+          "pc": "UZUMYMW",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN"
+        }
       ]
     },
     "weapons": {
       "title": "Armas e Pistolas",
       "subtitle": "Com Preços",
       "description": "As armas são uma grande parte do jogo GTA San Andreas. Você pode comprá-las nas lojas Ammu-Nation ou encontrá-las pelo mapa.",
-      "headers": ["Nome da Arma", "Tipo", "Preço ($)", "Detalhes"],
+      "headers": [
+        "Nome da Arma",
+        "Tipo",
+        "Preço ($)",
+        "Detalhes"
+      ],
       "tip": "💡 Dica: Use armas diferentes para missões diferentes. Para guerras de gangues, rifles e SMGs funcionam melhor.",
       "data": [
-        { "name": "Pistola 9mm", "type": "Pistola", "price": "250", "details": "Arma básica, boa para lutas próximas" },
-        { "name": "Desert Eagle", "type": "Pistola", "price": "1200", "details": "Dano forte, poder de um tiro" },
-        { "name": "AK-47", "type": "Rifle", "price": "3500", "details": "Rifle de assalto popular" },
-        { "name": "M4", "type": "Rifle", "price": "5000", "details": "Poderoso e preciso" },
-        { "name": "Escopeta", "type": "Bomba", "price": "1000", "details": "Bom para curto alcance" },
-        { "name": "Escopeta de Combate", "type": "Automática", "price": "2500", "details": "Escopeta de tiro rápido" },
-        { "name": "Micro SMG", "type": "SMG", "price": "1500", "details": "Leve e rápida" },
-        { "name": "MP5", "type": "SMG", "price": "3000", "details": "SMG forte para missões" },
-        { "name": "Rifle de Sniper", "type": "Longo Alcance", "price": "6000", "details": "Precisão de longo alcance" },
-        { "name": "RPG", "type": "Pesada", "price": "8000", "details": "Lança-foguetes para veículos" },
-        { "name": "Minigun", "type": "Pesada", "price": "15000", "details": "Poder de fogo extremo" }
+        {
+          "name": "Pistola 9mm",
+          "type": "Pistola",
+          "price": "250",
+          "details": "Arma básica, boa para lutas próximas"
+        },
+        {
+          "name": "Desert Eagle",
+          "type": "Pistola",
+          "price": "1200",
+          "details": "Dano forte, poder de um tiro"
+        },
+        {
+          "name": "AK-47",
+          "type": "Rifle",
+          "price": "3500",
+          "details": "Rifle de assalto popular"
+        },
+        {
+          "name": "M4",
+          "type": "Rifle",
+          "price": "5000",
+          "details": "Poderoso e preciso"
+        },
+        {
+          "name": "Escopeta",
+          "type": "Bomba",
+          "price": "1000",
+          "details": "Bom para curto alcance"
+        },
+        {
+          "name": "Escopeta de Combate",
+          "type": "Automática",
+          "price": "2500",
+          "details": "Escopeta de tiro rápido"
+        },
+        {
+          "name": "Micro SMG",
+          "type": "SMG",
+          "price": "1500",
+          "details": "Leve e rápida"
+        },
+        {
+          "name": "MP5",
+          "type": "SMG",
+          "price": "3000",
+          "details": "SMG forte para missões"
+        },
+        {
+          "name": "Rifle de Sniper",
+          "type": "Longo Alcance",
+          "price": "6000",
+          "details": "Precisão de longo alcance"
+        },
+        {
+          "name": "RPG",
+          "type": "Pesada",
+          "price": "8000",
+          "details": "Lança-foguetes para veículos"
+        },
+        {
+          "name": "Minigun",
+          "type": "Pesada",
+          "price": "15000",
+          "details": "Poder de fogo extremo"
+        }
       ]
     },
     "vehicles": {
       "title": "Carros e Motos",
       "subtitle": "Com Velocidade e Preço",
       "description": "Carros e motos são o coração da experiência GTA San Andreas. Aqui estão alguns populares:",
-      "headers": ["Nome do Veículo", "Tipo", "Velocidade (km/h)", "Preço Aprox. ($)"],
+      "headers": [
+        "Nome do Veículo",
+        "Tipo",
+        "Velocidade (km/h)",
+        "Preço Aprox. ($)"
+      ],
       "fact": "🏆 Curiosidade: O Infernus é o carro mais rápido do jogo e favorito de muitos jogadores.",
       "data": [
-        { "name": "Infernus", "type": "Super Carro", "speed": "240", "price": "90000" },
-        { "name": "Cheetah", "type": "Esportivo", "speed": "230", "price": "80000" },
-        { "name": "Turismo", "type": "Esportivo", "speed": "220", "price": "85000" },
-        { "name": "Bullet", "type": "Esportivo", "speed": "210", "price": "75000" },
-        { "name": "Banshee", "type": "Esportivo", "speed": "200", "price": "65000" },
-        { "name": "Phoenix", "type": "Clássico", "speed": "180", "price": "55000" },
-        { "name": "NRG-500", "type": "Moto", "speed": "250", "price": "60000" },
-        { "name": "PCJ-600", "type": "Moto", "speed": "200", "price": "30000" },
-        { "name": "Sanchez", "type": "Moto Suja", "speed": "160", "price": "20000" },
-        { "name": "Quad", "type": "Fora de Estrada", "speed": "140", "price": "15000" }
+        {
+          "name": "Infernus",
+          "type": "Super Carro",
+          "speed": "240",
+          "price": "90000"
+        },
+        {
+          "name": "Cheetah",
+          "type": "Esportivo",
+          "speed": "230",
+          "price": "80000"
+        },
+        {
+          "name": "Turismo",
+          "type": "Esportivo",
+          "speed": "220",
+          "price": "85000"
+        },
+        {
+          "name": "Bullet",
+          "type": "Esportivo",
+          "speed": "210",
+          "price": "75000"
+        },
+        {
+          "name": "Banshee",
+          "type": "Esportivo",
+          "speed": "200",
+          "price": "65000"
+        },
+        {
+          "name": "Phoenix",
+          "type": "Clássico",
+          "speed": "180",
+          "price": "55000"
+        },
+        {
+          "name": "NRG-500",
+          "type": "Moto",
+          "speed": "250",
+          "price": "60000"
+        },
+        {
+          "name": "PCJ-600",
+          "type": "Moto",
+          "speed": "200",
+          "price": "30000"
+        },
+        {
+          "name": "Sanchez",
+          "type": "Moto Suja",
+          "speed": "160",
+          "price": "20000"
+        },
+        {
+          "name": "Quad",
+          "type": "Fora de Estrada",
+          "speed": "140",
+          "price": "15000"
+        }
       ]
     },
     "characters": {
       "title": "Todos os Personagens Principais",
       "subtitle": "A História de San Andreas",
       "description": "A história de San Andreas está cheia de personagens inesquecíveis. Aqui estão os principais:",
-      "headers": ["Personagem", "Papel na História"],
+      "headers": [
+        "Personagem",
+        "Papel na História"
+      ],
       "note": "Cada personagem adiciona profundidade ao jogo, tornando cada missão emocionante.",
       "data": [
-        { "name": "Carl Johnson (CJ)", "role": "Herói principal, personagem do jogador" },
-        { "name": "Sweet Johnson", "role": "Irmão de CJ, líder da Grove Street" },
-        { "name": "Big Smoke", "role": "Velho amigo de CJ que depois o trai" },
-        { "name": "Ryder", "role": "Outro membro da Grove Street que também trai CJ" },
-        { "name": "Cesar Vialpando", "role": "Namorado de Kendl e aliado próximo de CJ" },
-        { "name": "Kendl Johnson", "role": "Irmã de CJ, forte e inteligente" },
-        { "name": "Oficial Tenpenny", "role": "Policial corrupto, vilão principal" },
-        { "name": "Woozie", "role": "Líder da Tríade cego, amigo de CJ" },
-        { "name": "Catalina", "role": "Namorada louca de CJ por um tempo" },
-        { "name": "The Truth", "role": "Um hippie engraçado que ajuda CJ" }
+        {
+          "name": "Carl Johnson (CJ)",
+          "role": "Herói principal, personagem do jogador"
+        },
+        {
+          "name": "Sweet Johnson",
+          "role": "Irmão de CJ, líder da Grove Street"
+        },
+        {
+          "name": "Big Smoke",
+          "role": "Velho amigo de CJ que depois o trai"
+        },
+        {
+          "name": "Ryder",
+          "role": "Outro membro da Grove Street que também trai CJ"
+        },
+        {
+          "name": "Cesar Vialpando",
+          "role": "Namorado de Kendl e aliado próximo de CJ"
+        },
+        {
+          "name": "Kendl Johnson",
+          "role": "Irmã de CJ, forte e inteligente"
+        },
+        {
+          "name": "Oficial Tenpenny",
+          "role": "Policial corrupto, vilão principal"
+        },
+        {
+          "name": "Woozie",
+          "role": "Líder da Tríade cego, amigo de CJ"
+        },
+        {
+          "name": "Catalina",
+          "role": "Namorada louca de CJ por um tempo"
+        },
+        {
+          "name": "The Truth",
+          "role": "Um hippie engraçado que ajuda CJ"
+        }
       ]
     },
     "gangs": {
       "title": "Gangues em GTA San Andreas",
       "description": "O mundo de San Andreas está cheio de gangues que controlam diferentes áreas. Conhecê-las ajuda você a entender o mapa da cidade e sobreviver às guerras de gangues.",
-      "headers": ["Nome da Gangue", "Área Principal", "Cor", "Inimigo"],
+      "headers": [
+        "Nome da Gangue",
+        "Área Principal",
+        "Cor",
+        "Inimigo"
+      ],
       "note": "Cada gangue tem seus próprios carros, tatuagens e música. Grove Street Families, a gangue de CJ, luta por respeito e controle de seu bairro.",
       "data": [
-        { "name": "Grove Street Families", "area": "Los Santos", "color": "Verde", "enemy": "Ballas, Vagos" },
-        { "name": "Ballas", "area": "Los Santos", "color": "Roxo", "enemy": "Grove Street" },
-        { "name": "Los Santos Vagos", "area": "Los Santos", "color": "Amarelo", "enemy": "Grove Street" },
-        { "name": "San Fierro Rifa", "area": "San Fierro", "color": "Azul", "enemy": "Tríades" },
-        { "name": "Triads", "area": "San Fierro", "color": "Vermelho", "enemy": "Rifa, Da Nang Boys" },
-        { "name": "Da Nang Boys", "area": "San Fierro", "color": "Cinza", "enemy": "Tríades" },
-        { "name": "Varrio Los Aztecas", "area": "Los Santos", "color": "Azul Claro", "enemy": "Ballas, Vagos" },
-        { "name": "Máfia Russa", "area": "Las Venturas", "color": "Preto", "enemy": "Grove Street (missões posteriores)" }
+        {
+          "name": "Grove Street Families",
+          "area": "Los Santos",
+          "color": "Verde",
+          "enemy": "Ballas, Vagos"
+        },
+        {
+          "name": "Ballas",
+          "area": "Los Santos",
+          "color": "Roxo",
+          "enemy": "Grove Street"
+        },
+        {
+          "name": "Los Santos Vagos",
+          "area": "Los Santos",
+          "color": "Amarelo",
+          "enemy": "Grove Street"
+        },
+        {
+          "name": "San Fierro Rifa",
+          "area": "San Fierro",
+          "color": "Azul",
+          "enemy": "Tríades"
+        },
+        {
+          "name": "Triads",
+          "area": "San Fierro",
+          "color": "Vermelho",
+          "enemy": "Rifa, Da Nang Boys"
+        },
+        {
+          "name": "Da Nang Boys",
+          "area": "San Fierro",
+          "color": "Cinza",
+          "enemy": "Tríades"
+        },
+        {
+          "name": "Varrio Los Aztecas",
+          "area": "Los Santos",
+          "color": "Azul Claro",
+          "enemy": "Ballas, Vagos"
+        },
+        {
+          "name": "Máfia Russa",
+          "area": "Las Venturas",
+          "color": "Preto",
+          "enemy": "Grove Street (missões posteriores)"
+        }
       ]
     },
     "secretLocations": {
       "title": "Locais Secretos em GTA San Andreas",
       "description": "San Andreas tem muitos lugares secretos que a maioria dos jogadores perde. Visitá-los dá recompensas ou experiências divertidas.",
-      "headers": ["Local Secreto", "Lugar", "O Que Você Encontra Lá"],
+      "headers": [
+        "Local Secreto",
+        "Lugar",
+        "O Que Você Encontra Lá"
+      ],
       "note": "Alguns jogadores acreditam que OVNIs aparecem perto da Área 69 à noite, mas é apenas um mito — ou será?",
       "data": [
-        { "location": "Área 69", "place": "Deserto", "find": "Jato escondido (Hydra) e base militar" },
-        { "location": "Monte Chiliad", "place": "Campo", "find": "Local de salto de paraquedas e corridas de bicicleta" },
-        { "location": "Cidade Fantasma", "place": "Norte de San Fierro", "find": "Área abandonada com detalhes estranhos" },
-        { "location": "Ruínas Submarinas", "place": "Perto de Bayside", "find": "Objetos escondidos sob o mar" },
-        { "location": "The Big Ear", "place": "Deserto", "find": "Telescópio de rádio gigante" },
-        { "location": "Casa da Grove Street", "place": "Los Santos", "find": "Casa de CJ, cheia de memórias" },
-        { "location": "Doca de Easter Basin", "place": "San Fierro", "find": "Grandes navios e guindastes" },
-        { "location": "Verdant Meadows", "place": "Deserto", "find": "Aeroporto onde você inicia a escola de voo" }
+        {
+          "location": "Área 69",
+          "place": "Deserto",
+          "find": "Jato escondido (Hydra) e base militar"
+        },
+        {
+          "location": "Monte Chiliad",
+          "place": "Campo",
+          "find": "Local de salto de paraquedas e corridas de bicicleta"
+        },
+        {
+          "location": "Cidade Fantasma",
+          "place": "Norte de San Fierro",
+          "find": "Área abandonada com detalhes estranhos"
+        },
+        {
+          "location": "Ruínas Submarinas",
+          "place": "Perto de Bayside",
+          "find": "Objetos escondidos sob o mar"
+        },
+        {
+          "location": "The Big Ear",
+          "place": "Deserto",
+          "find": "Telescópio de rádio gigante"
+        },
+        {
+          "location": "Casa da Grove Street",
+          "place": "Los Santos",
+          "find": "Casa de CJ, cheia de memórias"
+        },
+        {
+          "location": "Doca de Easter Basin",
+          "place": "San Fierro",
+          "find": "Grandes navios e guindastes"
+        },
+        {
+          "location": "Verdant Meadows",
+          "place": "Deserto",
+          "find": "Aeroporto onde você inicia a escola de voo"
+        }
       ]
     },
     "faqCheats": {
       "title": "Perguntas Frequentes",
       "data": [
-        { "id": "1", "question": "Os códigos de GTA San Andreas desabilitam conquistas?", "answer": "Sim, a maioria dos códigos desabilitará conquistas e troféus em certas plataformas. Verifique a versão do seu jogo antes de usar códigos se você se importa com conquistas." },
-        { "id": "2", "question": "Posso usar códigos no modo multiplayer?", "answer": "Não, os códigos geralmente estão disponíveis apenas no modo single-player. Usar códigos no multiplayer pode fazer você ser banido do jogo online." },
-        { "id": "3", "question": "Os códigos afetarão meu arquivo de save?", "answer": "Os códigos não corromperão seu save, mas algumas versões podem marcar seu save como modificado. É melhor usar códigos em saves separados." },
-        { "id": "4", "question": "Como eu insiro códigos no PC?", "answer": "No PC, simplesmente digite o código enquanto joga. Nas versões de console, use seu controle para inserir as combinações de botões." },
-        { "id": "5", "question": "Existem códigos para munição ilimitada?", "answer": "Sim, existem códigos específicos para munição ilimitada. Digite o código apropriado para sua plataforma e aproveite o poder de fogo infinito." },
-        { "id": "6", "question": "Posso desligar os códigos uma vez ativados?", "answer": "Alguns códigos podem ser desativados inserindo o código novamente, enquanto outros são permanentes até você carregar um save anterior." }
+        {
+          "id": "1",
+          "question": "Os códigos de GTA San Andreas desabilitam conquistas?",
+          "answer": "Sim, a maioria dos códigos desabilitará conquistas e troféus em certas plataformas. Verifique a versão do seu jogo antes de usar códigos se você se importa com conquistas."
+        },
+        {
+          "id": "2",
+          "question": "Posso usar códigos no modo multiplayer?",
+          "answer": "Não, os códigos geralmente estão disponíveis apenas no modo single-player. Usar códigos no multiplayer pode fazer você ser banido do jogo online."
+        },
+        {
+          "id": "3",
+          "question": "Os códigos afetarão meu arquivo de save?",
+          "answer": "Os códigos não corromperão seu save, mas algumas versões podem marcar seu save como modificado. É melhor usar códigos em saves separados."
+        },
+        {
+          "id": "4",
+          "question": "Como eu insiro códigos no PC?",
+          "answer": "No PC, simplesmente digite o código enquanto joga. Nas versões de console, use seu controle para inserir as combinações de botões."
+        },
+        {
+          "id": "5",
+          "question": "Existem códigos para munição ilimitada?",
+          "answer": "Sim, existem códigos específicos para munição ilimitada. Digite o código apropriado para sua plataforma e aproveite o poder de fogo infinito."
+        },
+        {
+          "id": "6",
+          "question": "Posso desligar os códigos uma vez ativados?",
+          "answer": "Alguns códigos podem ser desativados inserindo o código novamente, enquanto outros são permanentes até você carregar um save anterior."
+        }
       ]
     }
   },

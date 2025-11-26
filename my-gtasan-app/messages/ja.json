@@ -133,38 +133,40 @@
       "immersiveExperience": "完全なボイスオーバー、環境音響、ダイナミック天気により、CJ の旅に完全に没頭できる雰囲気が生まれます。"
     }
   },
-  "gameplayFeatures": [
-    {
-      "icon": "🎮",
-      "title": "カスタマイズとスキル進行",
-      "content": "CJは服装、髪型、タトゥーを変更して外見をカスタマイズできます。実行する各アクションは特定のスキルを向上させます — 運転すればするほど、運転が上手くなります。飛行すればするほど、パイロットスキルが向上します。これにより、ゲーム全体を通じて成長の満足感が生まれます。"
-    },
-    {
-      "icon": "⚔️",
-      "title": "戦闘と武器の宝庫",
-      "content": "ゲームには、野球バットや刀などの近接武器から、ピストル、ショットガン、ライフルなどの銃器まで、30種類以上の武器が用意されています。戦闘メカニクスは滑らかで反応が良く、すべての戦闘がインパクトのあるものに感じられます。ロケットランチャーや手榴弾などの爆発性武器を使って大規模な破壊を行うこともできます。"
-    },
-    {
-      "icon": "🚗",
-      "title": "車両の多様性と運転物理学",
-      "content": "250種類以上の異なる車両を運転できます — 車、トラック、オートバイ、ボート、さらには飛行機やヘリコプターも。各車両には独自の操作性、速度、加速度があります。異なる車両を制御することを学ぶことは、楽しさと挑戦の一部です。"
-    },
-    {
-      "icon": "💰",
-      "title": "お金と稼ぐ機会",
-      "content": "メインミッション、サイドミッション、さらには強盗を通じてお金を稼ぎます。服、車両、家、武器、エンターテインメントにお金を使います。財政的自由はゲームの魅力の一部です — お金の使い方はあなたが決めます。"
-    },
-    {
-      "icon": "🌆",
-      "title": "多様な環境と隠された秘密",
-      "content": "3つのユニークな都市 — ロスサントス、サンフィエロ、ラスベンチュラス — それぞれに独自の地区、文化、秘密があります。砂漠地帯からビーチ、山まで、常に新しい発見があります。"
-    },
-    {
-      "icon": "📖",
-      "title": "深いストーリーラインとキャラクター開発",
-      "content": "ストーリーは説得力があり、意味のあるキャラクターの相互作用とプロットのひねりがあります。サイドキャラクターには深みと個性があり、彼らのストーリーは記憶に残ります。メインの物語は、忠誠心、裏切り、贖罪のテーマを探求します。"
-    }
-  ],
+  "gameplayFeatures": {
+    "data": [
+      {
+        "icon": "🎮",
+        "title": "カスタマイズとスキル進行",
+        "content": "CJは服装、髪型、タトゥーを変更して外見をカスタマイズできます。実行する各アクションは特定のスキルを向上させます — 運転すればするほど、運転が上手くなります。飛行すればするほど、パイロットスキルが向上します。これにより、ゲーム全体を通じて成長の満足感が生まれます。"
+      },
+      {
+        "icon": "⚔️",
+        "title": "戦闘と武器の宝庫",
+        "content": "ゲームには、野球バットや刀などの近接武器から、ピストル、ショットガン、ライフルなどの銃器まで、30種類以上の武器が用意されています。戦闘メカニクスは滑らかで反応が良く、すべての戦闘がインパクトのあるものに感じられます。ロケットランチャーや手榴弾などの爆発性武器を使って大規模な破壊を行うこともできます。"
+      },
+      {
+        "icon": "🚗",
+        "title": "車両の多様性と運転物理学",
+        "content": "250種類以上の異なる車両を運転できます — 車、トラック、オートバイ、ボート、さらには飛行機やヘリコプターも。各車両には独自の操作性、速度、加速度があります。異なる車両を制御することを学ぶことは、楽しさと挑戦の一部です。"
+      },
+      {
+        "icon": "💰",
+        "title": "お金と稼ぐ機会",
+        "content": "メインミッション、サイドミッション、さらには強盗を通じてお金を稼ぎます。服、車両、家、武器、エンターテインメントにお金を使います。財政的自由はゲームの魅力の一部です — お金の使い方はあなたが決めます。"
+      },
+      {
+        "icon": "🌆",
+        "title": "多様な環境と隠された秘密",
+        "content": "3つのユニークな都市 — ロスサントス、サンフィエロ、ラスベンチュラス — それぞれに独自の地区、文化、秘密があります。砂漠地帯からビーチ、山まで、常に新しい発見があります。"
+      },
+      {
+        "icon": "📖",
+        "title": "深いストーリーラインとキャラクター開発",
+        "content": "ストーリーは説得力があり、意味のあるキャラクターの相互作用とプロットのひねりがあります。サイドキャラクターには深みと個性があり、彼らのストーリーは記憶に残ります。メインの物語は、忠誠心、裏切り、贖罪のテーマを探求します。"
+      }
+    ]
+  },
   "gtaTimeline": {
     "title": "GTA タイムライン: 主要なリリース",
     "subtitle": "Grand Theft Auto シリーズは最も人気のあるオープンワールドゲームの 1 つになりました。この象徴的なフランチャイズがいかに進化してきたかを追跡します。",
@@ -695,9 +697,477 @@
     "vehicleDatabase": {
       "title": "GTA サンアンドレアス自動車リスト：完全な乗り物データベース",
       "subtitle": "速度と価格情報を含むすべての乗り物",
-      "headers": ["乗り物名", "種類", "最高速度", "価格"],
+      "headers": [
+        "乗り物名",
+        "種類",
+        "最高速度",
+        "価格"
+      ],
       "totalVehicles": "200+ 乗り物",
-      "data": [{"name": "Admiral", "type": "自動車/セダン", "speed": "103 km/h", "price": "35.000 $"},{"name": "Alpha", "type": "自動車/スポーツ", "speed": "124 km/h", "price": "35.000 $"},{"name": "Ambulance", "type": "緊急/自動車", "speed": "96 km/h", "price": "10.000 $"},{"name": "Andromada", "type": "飛行機", "speed": "N/A", "price": "N/A"},{"name": "Airtrain", "type": "運送", "speed": "N/A", "price": "N/A"},{"name": "Airwolf", "type": "ヘリコプター", "speed": "190 km/h", "price": "N/A"},{"name": "Artict", "type": "トラック", "speed": "87 km/h", "price": "45.000 $"},{"name": "Baller", "type": "SUV", "speed": "118 km/h", "price": "60.000 $"},{"name": "Banshee", "type": "自動車/スポーツ", "speed": "129 km/h", "price": "65.000 $"},{"name": "Barracks", "type": "軍事/トラック", "speed": "75 km/h", "price": "N/A"},{"name": "Barracks OL", "type": "軍事/トラック", "speed": "75 km/h", "price": "N/A"},{"name": "Berkley's Van", "type": "バン", "speed": "82 km/h", "price": "15.000 $"},{"name": "BF-400", "type": "バイク/自転車", "speed": "120 km/h", "price": "18.000 $"},{"name": "BF-Injection", "type": "オフロード", "speed": "110 km/h", "price": "12.000 $"},{"name": "Bike", "type": "バイク/自転車", "speed": "12 km/h", "price": "無料"},{"name": "Blade", "type": "自動車/ロウライダー", "speed": "112 km/h", "price": "52.000 $"},{"name": "Blista Compact", "type": "自動車/都市", "speed": "102 km/h", "price": "18.000 $"},{"name": "Bloodring Banger", "type": "自動車/改造", "speed": "108 km/h", "price": "N/A"},{"name": "Blueline Goods", "type": "トラック/配送", "speed": "88 km/h", "price": "N/A"},{"name": "Boat", "type": "水上乗り物", "speed": "85 km/h", "price": "N/A"},{"name": "Boxville", "type": "トラック/配送", "speed": "91 km/h", "price": "N/A"},{"name": "Brawler", "type": "自動車/オフロード", "speed": "98 km/h", "price": "24.000 $"},{"name": "Breeze", "type": "自動車/都市", "speed": "100 km/h", "price": "16.000 $"},{"name": "Bronco", "type": "SUV", "speed": "115 km/h", "price": "55.000 $"},{"name": "Brown Streak", "type": "運送", "speed": "N/A", "price": "N/A"},{"name": "Bus", "type": "運送/バス", "speed": "85 km/h", "price": "N/A"},{"name": "Cabbie", "type": "タクシー", "speed": "100 km/h", "price": "N/A"},{"name": "Camper", "type": "バン", "speed": "99 km/h", "price": "28.000 $"},{"name": "Caracara", "type": "SUV", "speed": "115 km/h", "price": "58.000 $"},{"name": "Carbine", "type": "ライフル", "speed": "N/A", "price": "N/A"},{"name": "Carabane", "type": "自動車/運送", "speed": "105 km/h", "price": "N/A"},{"name": "Cargobob", "type": "ヘリコプター", "speed": "175 km/h", "price": "N/A"},{"name": "Cargoplane", "type": "飛行機", "speed": "N/A", "price": "N/A"},{"name": "Cartop", "type": "運送", "speed": "N/A", "price": "N/A"},{"name": "Cement Truck", "type": "トラック/産業", "speed": "92 km/h", "price": "42.000 $"},{"name": "Cheetah", "type": "自動車/スポーツ", "speed": "130 km/h", "price": "80.000 $"},{"name": "Cherub", "type": "飛行機", "speed": "N/A", "price": "N/A"},{"name": "Clover", "type": "自動車/ギャング", "speed": "106 km/h", "price": "N/A"},{"name": "Coach", "type": "バス", "speed": "80 km/h", "price": "N/A"},{"name": "Comet", "type": "自動車/スポーツ", "speed": "125 km/h", "price": "72.000 $"},{"name": "Commandeer", "type": "軍事/トラック", "speed": "95 km/h", "price": "N/A"},{"name": "Copter", "type": "ヘリコプター", "speed": "180 km/h", "price": "N/A"},{"name": "Corpse", "type": "自動車/改造", "speed": "80 km/h", "price": "N/A"},{"name": "Covered Wagon", "type": "ワゴン", "speed": "95 km/h", "price": "N/A"},{"name": "Crate", "type": "運送", "speed": "N/A", "price": "N/A"},{"name": "Crane", "type": "産業", "speed": "N/A", "price": "N/A"},{"name": "Crusader", "type": "トラック", "speed": "88 km/h", "price": "N/A"},{"name": "Cuban", "type": "飛行機", "speed": "N/A", "price": "N/A"},{"name": "Dinghy", "type": "水上乗り物", "speed": "60 km/h", "price": "N/A"},{"name": "Dinghy Inflatable", "type": "水上乗り物", "speed": "60 km/h", "price": "N/A"},{"name": "Dozer", "type": "産業", "speed": "55 km/h", "price": "N/A"},{"name": "DPV", "type": "バイク", "speed": "120 km/h", "price": "N/A"},{"name": "Dub", "type": "自動車/ロウライダー", "speed": "110 km/h", "price": "50.000 $"},{"name": "Dumper", "type": "トラック/産業", "speed": "76 km/h", "price": "48.000 $"},{"name": "Dustoff", "type": "ヘリコプター", "speed": "185 km/h", "price": "N/A"},{"name": "DWT-20", "type": "バイク", "speed": "115 km/h", "price": "16.000 $"},{"name": "Elegy", "type": "自動車/スポーツ", "speed": "126 km/h", "price": "78.000 $"},{"name": "Emerus", "type": "自動車/スポーツ", "speed": "135 km/h", "price": "88.000 $"},{"name": "Emperor", "type": "自動車/セダン", "speed": "105 km/h", "price": "32.000 $"},{"name": "Enforcer", "type": "トラック/SWAT", "speed": "92 km/h", "price": "N/A"},{"name": "Esperanto", "type": "自動車/クラシック", "speed": "108 km/h", "price": "38.000 $"},{"name": "Euros", "type": "自動車/スポーツ", "speed": "132 km/h", "price": "85.000 $"},{"name": "Everon", "type": "自動車/SUV", "speed": "118 km/h", "price": "62.000 $"},{"name": "Exemplar", "type": "自動車/ラグジュアリー", "speed": "117 km/h", "price": "70.000 $"},{"name": "Exterminator", "type": "トラック", "speed": "95 km/h", "price": "N/A"},{"name": "Faimliner", "type": "運送", "speed": "N/A", "price": "N/A"},{"name": "Fairtone", "type": "自動車/クラシック", "speed": "103 km/h", "price": "35.000 $"},{"name": "Farmtruck", "type": "トラック", "speed": "82 km/h", "price": "12.000 $"},{"name": "FCR-900", "type": "バイク", "speed": "128 km/h", "price": "24.000 $"},{"name": "Feltzer", "type": "自動車/コンバーチブル", "speed": "119 km/h", "price": "68.000 $"},{"name": "Firetruk", "type": "緊急", "speed": "88 km/h", "price": "N/A"},{"name": "Flatbed", "type": "トラック", "speed": "86 km/h", "price": "N/A"},{"name": "Forklift", "type": "産業", "speed": "45 km/h", "price": "N/A"},{"name": "Fortune", "type": "自動車/クラシック", "speed": "105 km/h", "price": "40.000 $"},{"name": "Freeway", "type": "バイク", "speed": "122 km/h", "price": "22.000 $"},{"name": "Futo", "type": "自動車/都市", "speed": "108 km/h", "price": "22.000 $"},{"name": "Fuzzie", "type": "バイク", "speed": "110 km/h", "price": "N/A"}]
+      "data": [
+        {
+          "name": "Admiral",
+          "type": "自動車/セダン",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Alpha",
+          "type": "自動車/スポーツ",
+          "speed": "124 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Ambulance",
+          "type": "緊急/自動車",
+          "speed": "96 km/h",
+          "price": "10.000 $"
+        },
+        {
+          "name": "Andromada",
+          "type": "飛行機",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Airtrain",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Airwolf",
+          "type": "ヘリコプター",
+          "speed": "190 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Artict",
+          "type": "トラック",
+          "speed": "87 km/h",
+          "price": "45.000 $"
+        },
+        {
+          "name": "Baller",
+          "type": "SUV",
+          "speed": "118 km/h",
+          "price": "60.000 $"
+        },
+        {
+          "name": "Banshee",
+          "type": "自動車/スポーツ",
+          "speed": "129 km/h",
+          "price": "65.000 $"
+        },
+        {
+          "name": "Barracks",
+          "type": "軍事/トラック",
+          "speed": "75 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Barracks OL",
+          "type": "軍事/トラック",
+          "speed": "75 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Berkley's Van",
+          "type": "バン",
+          "speed": "82 km/h",
+          "price": "15.000 $"
+        },
+        {
+          "name": "BF-400",
+          "type": "バイク/自転車",
+          "speed": "120 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "BF-Injection",
+          "type": "オフロード",
+          "speed": "110 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "Bike",
+          "type": "バイク/自転車",
+          "speed": "12 km/h",
+          "price": "無料"
+        },
+        {
+          "name": "Blade",
+          "type": "自動車/ロウライダー",
+          "speed": "112 km/h",
+          "price": "52.000 $"
+        },
+        {
+          "name": "Blista Compact",
+          "type": "自動車/都市",
+          "speed": "102 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "Bloodring Banger",
+          "type": "自動車/改造",
+          "speed": "108 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Blueline Goods",
+          "type": "トラック/配送",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Boat",
+          "type": "水上乗り物",
+          "speed": "85 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Boxville",
+          "type": "トラック/配送",
+          "speed": "91 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Brawler",
+          "type": "自動車/オフロード",
+          "speed": "98 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Breeze",
+          "type": "自動車/都市",
+          "speed": "100 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Bronco",
+          "type": "SUV",
+          "speed": "115 km/h",
+          "price": "55.000 $"
+        },
+        {
+          "name": "Brown Streak",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Bus",
+          "type": "運送/バス",
+          "speed": "85 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cabbie",
+          "type": "タクシー",
+          "speed": "100 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Camper",
+          "type": "バン",
+          "speed": "99 km/h",
+          "price": "28.000 $"
+        },
+        {
+          "name": "Caracara",
+          "type": "SUV",
+          "speed": "115 km/h",
+          "price": "58.000 $"
+        },
+        {
+          "name": "Carbine",
+          "type": "ライフル",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Carabane",
+          "type": "自動車/運送",
+          "speed": "105 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cargobob",
+          "type": "ヘリコプター",
+          "speed": "175 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cargoplane",
+          "type": "飛行機",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Cartop",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Cement Truck",
+          "type": "トラック/産業",
+          "speed": "92 km/h",
+          "price": "42.000 $"
+        },
+        {
+          "name": "Cheetah",
+          "type": "自動車/スポーツ",
+          "speed": "130 km/h",
+          "price": "80.000 $"
+        },
+        {
+          "name": "Cherub",
+          "type": "飛行機",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Clover",
+          "type": "自動車/ギャング",
+          "speed": "106 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Coach",
+          "type": "バス",
+          "speed": "80 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Comet",
+          "type": "自動車/スポーツ",
+          "speed": "125 km/h",
+          "price": "72.000 $"
+        },
+        {
+          "name": "Commandeer",
+          "type": "軍事/トラック",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Copter",
+          "type": "ヘリコプター",
+          "speed": "180 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Corpse",
+          "type": "自動車/改造",
+          "speed": "80 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Covered Wagon",
+          "type": "ワゴン",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Crate",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Crane",
+          "type": "産業",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Crusader",
+          "type": "トラック",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Cuban",
+          "type": "飛行機",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Dinghy",
+          "type": "水上乗り物",
+          "speed": "60 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dinghy Inflatable",
+          "type": "水上乗り物",
+          "speed": "60 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dozer",
+          "type": "産業",
+          "speed": "55 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "DPV",
+          "type": "バイク",
+          "speed": "120 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Dub",
+          "type": "自動車/ロウライダー",
+          "speed": "110 km/h",
+          "price": "50.000 $"
+        },
+        {
+          "name": "Dumper",
+          "type": "トラック/産業",
+          "speed": "76 km/h",
+          "price": "48.000 $"
+        },
+        {
+          "name": "Dustoff",
+          "type": "ヘリコプター",
+          "speed": "185 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "DWT-20",
+          "type": "バイク",
+          "speed": "115 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Elegy",
+          "type": "自動車/スポーツ",
+          "speed": "126 km/h",
+          "price": "78.000 $"
+        },
+        {
+          "name": "Emerus",
+          "type": "自動車/スポーツ",
+          "speed": "135 km/h",
+          "price": "88.000 $"
+        },
+        {
+          "name": "Emperor",
+          "type": "自動車/セダン",
+          "speed": "105 km/h",
+          "price": "32.000 $"
+        },
+        {
+          "name": "Enforcer",
+          "type": "トラック/SWAT",
+          "speed": "92 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Esperanto",
+          "type": "自動車/クラシック",
+          "speed": "108 km/h",
+          "price": "38.000 $"
+        },
+        {
+          "name": "Euros",
+          "type": "自動車/スポーツ",
+          "speed": "132 km/h",
+          "price": "85.000 $"
+        },
+        {
+          "name": "Everon",
+          "type": "自動車/SUV",
+          "speed": "118 km/h",
+          "price": "62.000 $"
+        },
+        {
+          "name": "Exemplar",
+          "type": "自動車/ラグジュアリー",
+          "speed": "117 km/h",
+          "price": "70.000 $"
+        },
+        {
+          "name": "Exterminator",
+          "type": "トラック",
+          "speed": "95 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Faimliner",
+          "type": "運送",
+          "speed": "N/A",
+          "price": "N/A"
+        },
+        {
+          "name": "Fairtone",
+          "type": "自動車/クラシック",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Farmtruck",
+          "type": "トラック",
+          "speed": "82 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "FCR-900",
+          "type": "バイク",
+          "speed": "128 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Feltzer",
+          "type": "自動車/コンバーチブル",
+          "speed": "119 km/h",
+          "price": "68.000 $"
+        },
+        {
+          "name": "Firetruk",
+          "type": "緊急",
+          "speed": "88 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Flatbed",
+          "type": "トラック",
+          "speed": "86 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Forklift",
+          "type": "産業",
+          "speed": "45 km/h",
+          "price": "N/A"
+        },
+        {
+          "name": "Fortune",
+          "type": "自動車/クラシック",
+          "speed": "105 km/h",
+          "price": "40.000 $"
+        },
+        {
+          "name": "Freeway",
+          "type": "バイク",
+          "speed": "122 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Futo",
+          "type": "自動車/都市",
+          "speed": "108 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Fuzzie",
+          "type": "バイク",
+          "speed": "110 km/h",
+          "price": "N/A"
+        }
+      ]
     },
     "vehicleSystem": {
       "title": "GTA サンアンドレアスの乗り物システムを理解する",
@@ -710,12 +1180,20 @@
     "lowRiders": {
       "title": "クラシックロウライダーとカスタマイズオプション",
       "content": "ロウライダーはGTA サンアンドレアス文化の大きな部分です。彼らはゲームが知られている西海岸スタイルを示しています。人気のロウライダーモデルはブレード、ブロードウェイ、レミントンです。新しいペイント、ホイール、ニトロシステム、油圧でロウライダーをカスタマイズできます。Loco Low Coなどの特別なガレージを訪問して、これらの乗り物を変更します。",
-      "models": ["Blade", "Broadway", "Remington"]
+      "models": [
+        "Blade",
+        "Broadway",
+        "Remington"
+      ]
     },
     "motorcycles": {
       "title": "高速移動用のバイクと自転車",
       "content": "バイクはGTA サンアンドレアスのトラフィックを切り抜ける速い方法です。NRG-500はゲーム内で最も速いバイクです。PCJ-600は速度と制御の良いミックスを提供します。サンチェスはオフロード運転に最適です。しかし、バイクは車ほど保護されないため、クラッシュはより傷つきます。",
-      "models": ["NRG-500", "PCJ-600", "Sanchez"]
+      "models": [
+        "NRG-500",
+        "PCJ-600",
+        "Sanchez"
+      ]
     },
     "heavyVehicles": {
       "title": "重い乗り物とトラック",
@@ -724,22 +1202,43 @@
     "rareVehicles": {
       "title": "コレクションのためのレアでユニークな乗り物",
       "content": "GTA サンアンドレアスのいくつかの乗り物は本当にレアで見つけるのが難しいです。フェニックスは特定の場所と時間にのみ表示されます。ZR-350スポーツカーはレアで速い両方です。ホットナイフは特別なホットロッドで、特定の乗り物コレクションチャレンジを完了することによってのみ取得できます。カートはゴーカートのように見え、楽しくて奇妙な運転時間を与えます。",
-      "vehicles": ["Phoenix", "ZR-350", "Hotknife", "Kart"]
+      "vehicles": [
+        "Phoenix",
+        "ZR-350",
+        "Hotknife",
+        "Kart"
+      ]
     },
     "aircraft": {
       "title": "飛行乗り物と航空機",
       "content": "GTA サンアンドレアスの航空機はまったく新しいプレイ方法を追加します。ハイドラジェット戦闘機は速く、垂直に離陸できます。ラスラープロペラ飛行機は、学習を始めたばかりの場合、飛ぶのがより簡単です。マーベリック、警察マーベリックなどのヘリコプターは、観光または航空ミッション用に安定しています。飛行を学ぶには練習が必要ですが、本当にゲームを追加します。",
-      "aircraft": ["Hydra", "Rustler", "Maverick", "Police Maverick"]
+      "aircraft": [
+        "Hydra",
+        "Rustler",
+        "Maverick",
+        "Police Maverick"
+      ]
     },
     "waterVehicles": {
       "title": "水の乗り物とボート",
       "content": "水乗り物はGTA サンアンドレアスで移動するもう1つの方法を提供します。スクワロスピードボートは水上で旅行する最速の方法です。トロピックボートは信頼でき、まともな速度と操作性を持っています。ジェットマックスはエレガントに見え、水上でよく機能します。ボルテックスホバークラフトは土地と水の両方で移動できます。",
-      "vehicles": ["Squalo", "Tropic", "Jetmax", "Vortex"]
+      "vehicles": [
+        "Squalo",
+        "Tropic",
+        "Jetmax",
+        "Vortex"
+      ]
     },
     "policeVehicles": {
       "title": "警察と緊急乗り物",
       "content": "GTA サンアンドレアスの警察乗り物はパトロールカー、SUV、バイクなど様々なタイプで登場します。警察車はスピードと力が良く、人を追跡するのに適しています。エンフォーサーSWATトラックは重いアーマーを持っています。消防車には水砲があり、消防士ミッションを開始します。救急車はパラメディックミッションを実行できます。これらの乗り物は通常、通常のものより良く機能します。",
-      "vehicles": ["Police Car", "Enforcer", "Fire Truck", "Ambulance", "HPV1000"]
+      "vehicles": [
+        "Police Car",
+        "Enforcer",
+        "Fire Truck",
+        "Ambulance",
+        "HPV1000"
+      ]
     },
     "importExport": {
       "title": "輸入/輸出乗り物リスト",
@@ -780,12 +1279,36 @@
     "faqCars": {
       "title": "GTA サンアンドレアス自動車に関するよくある質問",
       "data": [
-        {"id": "1", "question": "GTA サンアンドレアスに何台の乗り物がありますか？", "answer": "ゲームは車、バイク、ボート、飛行機、特別な乗り物を含む200以上の乗り物を持っています。この大規模な収集はすべてのプレイヤーの好みと必要性のための何かを持っています。"},
-        {"id": "2", "question": "最速の自動車はどこで見つけることができますか？", "answer": "インフェルヌスは最速の自動車で、通常はサンフィエロのパラディソなどの豊かな地域に表示されます。特定のミッション後にイースターベイスン地域でも見つけることができます。"},
-        {"id": "3", "question": "変更された乗り物を永久に保存できますか？", "answer": "はい、安全な家のガレージに変更された乗り物を保存できます。ガレージに十分なスペースがあることを確認し、乗り物が正しく保存されるように完全に内側に駐車してください。"},
-        {"id": "4", "question": "私のガレージがいっぱいの場合はどうなりますか？", "answer": "ガレージに乗り物が多すぎる場合、保存されている最も古いものは消えます。特別な乗り物を失わないように、新しい乗り物を保存する前にガレージの制限を常に確認してください。"},
-        {"id": "5", "question": "ゲームに飛行自動車がありますか？", "answer": "通常のゲームには飛行自動車がありませんが、ドードー飛行機と様々な航空機があなたを飛行させることができます。いくつかの変更は、より良いゲームプレイのための飛行自動車機能を追加します。"},
-        {"id": "6", "question": "2025年の更新には何か新機能がありますか？", "answer": "2025年の更新には、優れたグラフィックス、バグ修正、更新されたコントロール、改善されたモバイル版があります。コミュニティ変更はまた新しい乗り物とマルチプレイヤーオプションを追加して新しいゲームプレイを提供します。"}
+        {
+          "id": "1",
+          "question": "GTA サンアンドレアスに何台の乗り物がありますか？",
+          "answer": "ゲームは車、バイク、ボート、飛行機、特別な乗り物を含む200以上の乗り物を持っています。この大規模な収集はすべてのプレイヤーの好みと必要性のための何かを持っています。"
+        },
+        {
+          "id": "2",
+          "question": "最速の自動車はどこで見つけることができますか？",
+          "answer": "インフェルヌスは最速の自動車で、通常はサンフィエロのパラディソなどの豊かな地域に表示されます。特定のミッション後にイースターベイスン地域でも見つけることができます。"
+        },
+        {
+          "id": "3",
+          "question": "変更された乗り物を永久に保存できますか？",
+          "answer": "はい、安全な家のガレージに変更された乗り物を保存できます。ガレージに十分なスペースがあることを確認し、乗り物が正しく保存されるように完全に内側に駐車してください。"
+        },
+        {
+          "id": "4",
+          "question": "私のガレージがいっぱいの場合はどうなりますか？",
+          "answer": "ガレージに乗り物が多すぎる場合、保存されている最も古いものは消えます。特別な乗り物を失わないように、新しい乗り物を保存する前にガレージの制限を常に確認してください。"
+        },
+        {
+          "id": "5",
+          "question": "ゲームに飛行自動車がありますか？",
+          "answer": "通常のゲームには飛行自動車がありませんが、ドードー飛行機と様々な航空機があなたを飛行させることができます。いくつかの変更は、より良いゲームプレイのための飛行自動車機能を追加します。"
+        },
+        {
+          "id": "6",
+          "question": "2025年の更新には何か新機能がありますか？",
+          "answer": "2025年の更新には、優れたグラフィックス、バグ修正、更新されたコントロール、改善されたモバイル版があります。コミュニティ変更はまた新しい乗り物とマルチプレイヤーオプションを追加して新しいゲームプレイを提供します。"
+        }
       ]
     },
     "conclusion": {
@@ -810,180 +1333,653 @@
     },
     "actionCheats": {
       "title": "クイックアクションチート",
-      "headers": ["アクション", "チートコード (PC)", "効果"],
+      "headers": [
+        "アクション",
+        "チートコード (PC)",
+        "効果"
+      ],
       "data": [
-        { "action": "無限ヘルス", "pc": "BAGUVIX", "effect": "CJをほぼ無敵にする" },
-        { "action": "フルアーマー", "pc": "HESOYAM", "effect": "完全な鎧と健康を与える" },
-        { "action": "武器セット 1", "pc": "LXGIWYL", "effect": "基本的な銃と近接武器" },
-        { "action": "ジェットパック", "pc": "ROCKETMAN", "effect": "ジェットパックを出現させる" },
-        { "action": "タンク (Rhino)", "pc": "AIWPRTON", "effect": "軍事戦車を出現させる" },
-        { "action": "手配度を下げる", "pc": "AEZAKMI", "effect": "警察があなたを無視する" },
-        { "action": "車が飛ぶ", "pc": "CHITTYCHITTYBANGBANG", "effect": "車が飛ぶことができる" },
-        { "action": "決して空腹にならない", "pc": "AEDUWNV", "effect": "空腹バーがいっぱいのまま" },
-        { "action": "メガジャンプ", "pc": "KANGAROO", "effect": "CJが超高くジャンプする" }
+        {
+          "action": "無限ヘルス",
+          "pc": "BAGUVIX",
+          "effect": "CJをほぼ無敵にする"
+        },
+        {
+          "action": "フルアーマー",
+          "pc": "HESOYAM",
+          "effect": "完全な鎧と健康を与える"
+        },
+        {
+          "action": "武器セット 1",
+          "pc": "LXGIWYL",
+          "effect": "基本的な銃と近接武器"
+        },
+        {
+          "action": "ジェットパック",
+          "pc": "ROCKETMAN",
+          "effect": "ジェットパックを出現させる"
+        },
+        {
+          "action": "タンク (Rhino)",
+          "pc": "AIWPRTON",
+          "effect": "軍事戦車を出現させる"
+        },
+        {
+          "action": "手配度を下げる",
+          "pc": "AEZAKMI",
+          "effect": "警察があなたを無視する"
+        },
+        {
+          "action": "車が飛ぶ",
+          "pc": "CHITTYCHITTYBANGBANG",
+          "effect": "車が飛ぶことができる"
+        },
+        {
+          "action": "決して空腹にならない",
+          "pc": "AEDUWNV",
+          "effect": "空腹バーがいっぱいのまま"
+        },
+        {
+          "action": "メガジャンプ",
+          "pc": "KANGAROO",
+          "effect": "CJが超高くジャンプする"
+        }
       ]
     },
     "playerCheats": {
       "title": "プレイヤーチート",
       "subtitle": "PC、PlayStation、Xbox用",
-      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "無限ヘルス", "pc": "BAGUVIX", "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE", "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y" },
-        { "effect": "無限弾薬", "pc": "FULLCLIP", "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1", "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB" },
-        { "effect": "無限酸素", "pc": "CVWKXAM", "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN", "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN" },
-        { "effect": "筋肉最大", "pc": "JYSDSOD", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT" },
-        { "effect": "脂肪最大", "pc": "BTCDBCB", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT" },
-        { "effect": "やせる", "pc": "KVGYZQK", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP" },
-        { "effect": "6つ星手配度", "pc": "LJSPQK", "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN", "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN" },
-        { "effect": "手配度を下げる", "pc": "ASNAEB", "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN", "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN" },
-        { "effect": "手配されない", "pc": "AEZAKMI", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT" },
-        { "effect": "メガジャンプ", "pc": "KANGAROO", "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2", "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT" }
+        {
+          "effect": "無限ヘルス",
+          "pc": "BAGUVIX",
+          "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE",
+          "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y"
+        },
+        {
+          "effect": "無限弾薬",
+          "pc": "FULLCLIP",
+          "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1",
+          "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB"
+        },
+        {
+          "effect": "無限酸素",
+          "pc": "CVWKXAM",
+          "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN",
+          "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN"
+        },
+        {
+          "effect": "筋肉最大",
+          "pc": "JYSDSOD",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT"
+        },
+        {
+          "effect": "脂肪最大",
+          "pc": "BTCDBCB",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT"
+        },
+        {
+          "effect": "やせる",
+          "pc": "KVGYZQK",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP"
+        },
+        {
+          "effect": "6つ星手配度",
+          "pc": "LJSPQK",
+          "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN",
+          "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN"
+        },
+        {
+          "effect": "手配度を下げる",
+          "pc": "ASNAEB",
+          "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN",
+          "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN"
+        },
+        {
+          "effect": "手配されない",
+          "pc": "AEZAKMI",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT"
+        },
+        {
+          "effect": "メガジャンプ",
+          "pc": "KANGAROO",
+          "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2",
+          "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT"
+        }
       ]
     },
     "vehicleCheats": {
       "title": "車両と輸送チート",
-      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "タンカートラックを出現", "pc": "AMOMHRER", "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1", "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB" },
-        { "effect": "ジェットパックを出現", "pc": "ROCKETMAN", "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT", "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT" },
-        { "effect": "ハイドラジェットを出現", "pc": "JUMPJET", "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP", "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP" },
-        { "effect": "モンスタートラックを出現", "pc": "MONSTERMASH", "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1", "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB" },
-        { "effect": "車が飛ぶ", "pc": "RIPAZHA", "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT", "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT" },
-        { "effect": "車が水に浮く", "pc": "BGKGTJH", "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT", "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT" },
-        { "effect": "すべての車にニトロ", "pc": "SPEEDFREAK", "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1", "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB" },
-        { "effect": "すべての車を爆発", "pc": "CPKTNWT", "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1", "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB" }
+        {
+          "effect": "タンカートラックを出現",
+          "pc": "AMOMHRER",
+          "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1",
+          "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB"
+        },
+        {
+          "effect": "ジェットパックを出現",
+          "pc": "ROCKETMAN",
+          "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT",
+          "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT"
+        },
+        {
+          "effect": "ハイドラジェットを出現",
+          "pc": "JUMPJET",
+          "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP",
+          "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP"
+        },
+        {
+          "effect": "モンスタートラックを出現",
+          "pc": "MONSTERMASH",
+          "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1",
+          "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB"
+        },
+        {
+          "effect": "車が飛ぶ",
+          "pc": "RIPAZHA",
+          "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT",
+          "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT"
+        },
+        {
+          "effect": "車が水に浮く",
+          "pc": "BGKGTJH",
+          "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT",
+          "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT"
+        },
+        {
+          "effect": "すべての車にニトロ",
+          "pc": "SPEEDFREAK",
+          "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1",
+          "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB"
+        },
+        {
+          "effect": "すべての車を爆発",
+          "pc": "CPKTNWT",
+          "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1",
+          "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB"
+        }
       ]
     },
     "weatherCheats": {
       "title": "世界と天気のチート",
-      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "晴れた天気", "pc": "PLEASANTLYWARM", "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE", "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X" },
-        { "effect": "雨の天気", "pc": "AUIFRVQS", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X" },
-        { "effect": "霧の天気", "pc": "CFVFGMJ", "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE", "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X" },
-        { "effect": "早い時間", "pc": "YSOHNUL", "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP", "xbox": "B, B, X, LB, LT, A, Y, UP" },
-        { "effect": "遅い時間", "pc": "LIYOAAY", "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1", "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB" }
+        {
+          "effect": "晴れた天気",
+          "pc": "PLEASANTLYWARM",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE",
+          "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X"
+        },
+        {
+          "effect": "雨の天気",
+          "pc": "AUIFRVQS",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X"
+        },
+        {
+          "effect": "霧の天気",
+          "pc": "CFVFGMJ",
+          "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE",
+          "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X"
+        },
+        {
+          "effect": "早い時間",
+          "pc": "YSOHNUL",
+          "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP",
+          "xbox": "B, B, X, LB, LT, A, Y, UP"
+        },
+        {
+          "effect": "遅い時間",
+          "pc": "LIYOAAY",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1",
+          "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB"
+        }
       ]
     },
     "gangCheats": {
       "title": "ギャングと歩行者のチート",
-      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "誰でも募集 (ピストル)", "pc": "SJMAHPE", "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT", "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT" },
-        { "effect": "誰でも募集 (ロケット)", "pc": "ZSOXFSQ", "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT", "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT" },
-        { "effect": "ギャングが通りを支配", "pc": "BIFBUZZ", "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT", "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT" },
-        { "effect": "都市で暴動", "pc": "IOJUFZN", "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1", "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB" }
+        {
+          "effect": "誰でも募集 (ピストル)",
+          "pc": "SJMAHPE",
+          "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT",
+          "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT"
+        },
+        {
+          "effect": "誰でも募集 (ロケット)",
+          "pc": "ZSOXFSQ",
+          "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+          "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+        },
+        {
+          "effect": "ギャングが通りを支配",
+          "pc": "BIFBUZZ",
+          "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT",
+          "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT"
+        },
+        {
+          "effect": "都市で暴動",
+          "pc": "IOJUFZN",
+          "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1",
+          "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB"
+        }
       ]
     },
     "moneyWeapons": {
       "title": "お金、武器、スキルのチート",
-      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "効果",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "ヘルス、アーマー、$250k", "pc": "HESOYAM", "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
-        { "effect": "武器セット 1", "pc": "LXGIWYL", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
-        { "effect": "武器セット 2", "pc": "PROFESSIONALSKIT", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT" },
-        { "effect": "武器セット 3", "pc": "UZUMYMW", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN" }
+        {
+          "effect": "ヘルス、アーマー、$250k",
+          "pc": "HESOYAM",
+          "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "武器セット 1",
+          "pc": "LXGIWYL",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "武器セット 2",
+          "pc": "PROFESSIONALSKIT",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT"
+        },
+        {
+          "effect": "武器セット 3",
+          "pc": "UZUMYMW",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN"
+        }
       ]
     },
     "weapons": {
       "title": "武器と銃",
       "subtitle": "価格付き",
       "description": "武器はGTA San Andreasゲームプレイの大きな部分です。Ammu-Nationストアで購入したり、マップ全体で見つけることができます。",
-      "headers": ["銃の名前", "タイプ", "価格 ($)", "詳細"],
+      "headers": [
+        "銃の名前",
+        "タイプ",
+        "価格 ($)",
+        "詳細"
+      ],
       "tip": "💡 ヒント: 異なるミッションには異なる武器を使用してください。ギャング戦争では、ライフルとSMGが最も効果的です。",
       "data": [
-        { "name": "9mmピストル", "type": "ハンドガン", "price": "250", "details": "基本的な武器、近距離戦闘に適している" },
-        { "name": "デザートイーグル", "type": "ハンドガン", "price": "1200", "details": "強力なダメージ、ワンショットパワー" },
-        { "name": "AK-47", "type": "ライフル", "price": "3500", "details": "人気のアサルトライフル" },
-        { "name": "M4", "type": "ライフル", "price": "5000", "details": "強力で正確" },
-        { "name": "ショットガン", "type": "ポンプ", "price": "1000", "details": "近距離に適している" },
-        { "name": "コンバットショットガン", "type": "オート", "price": "2500", "details": "速射ショットガン" },
-        { "name": "マイクロSMG", "type": "SMG", "price": "1500", "details": "軽量で速い" },
-        { "name": "MP5", "type": "SMG", "price": "3000", "details": "ミッション用の強力なSMG" },
-        { "name": "スナイパーライフル", "type": "長距離", "price": "6000", "details": "長距離精度" },
-        { "name": "RPG", "type": "重火器", "price": "8000", "details": "車両用ロケットランチャー" },
-        { "name": "ミニガン", "type": "重火器", "price": "15000", "details": "極端な火力" }
+        {
+          "name": "9mmピストル",
+          "type": "ハンドガン",
+          "price": "250",
+          "details": "基本的な武器、近距離戦闘に適している"
+        },
+        {
+          "name": "デザートイーグル",
+          "type": "ハンドガン",
+          "price": "1200",
+          "details": "強力なダメージ、ワンショットパワー"
+        },
+        {
+          "name": "AK-47",
+          "type": "ライフル",
+          "price": "3500",
+          "details": "人気のアサルトライフル"
+        },
+        {
+          "name": "M4",
+          "type": "ライフル",
+          "price": "5000",
+          "details": "強力で正確"
+        },
+        {
+          "name": "ショットガン",
+          "type": "ポンプ",
+          "price": "1000",
+          "details": "近距離に適している"
+        },
+        {
+          "name": "コンバットショットガン",
+          "type": "オート",
+          "price": "2500",
+          "details": "速射ショットガン"
+        },
+        {
+          "name": "マイクロSMG",
+          "type": "SMG",
+          "price": "1500",
+          "details": "軽量で速い"
+        },
+        {
+          "name": "MP5",
+          "type": "SMG",
+          "price": "3000",
+          "details": "ミッション用の強力なSMG"
+        },
+        {
+          "name": "スナイパーライフル",
+          "type": "長距離",
+          "price": "6000",
+          "details": "長距離精度"
+        },
+        {
+          "name": "RPG",
+          "type": "重火器",
+          "price": "8000",
+          "details": "車両用ロケットランチャー"
+        },
+        {
+          "name": "ミニガン",
+          "type": "重火器",
+          "price": "15000",
+          "details": "極端な火力"
+        }
       ]
     },
     "vehicles": {
       "title": "車とバイク",
       "subtitle": "スピードと価格付き",
       "description": "車とバイクはGTA San Andreas体験の心臓部です。人気のあるものは次のとおりです:",
-      "headers": ["車両名", "タイプ", "速度 (km/h)", "おおよその価格 ($)"],
+      "headers": [
+        "車両名",
+        "タイプ",
+        "速度 (km/h)",
+        "おおよその価格 ($)"
+      ],
       "fact": "インフェルヌスはゲーム内で最速の車であり、多くのプレイヤーのお気に入りです。",
       "data": [
-        { "name": "インフェルヌス", "type": "スーパーカー", "speed": "240", "price": "90000" },
-        { "name": "チーター", "type": "スポーツ", "speed": "230", "price": "80000" },
-        { "name": "トゥリスモ", "type": "スポーツ", "speed": "220", "price": "85000" },
-        { "name": "ブレット", "type": "スポーツ", "speed": "210", "price": "75000" },
-        { "name": "バンシー", "type": "スポーツ", "speed": "200", "price": "65000" },
-        { "name": "フェニックス", "type": "クラシック", "speed": "180", "price": "55000" },
-        { "name": "NRG-500", "type": "バイク", "speed": "250", "price": "60000" },
-        { "name": "PCJ-600", "type": "バイク", "speed": "200", "price": "30000" },
-        { "name": "サンチェス", "type": "ダートバイク", "speed": "160", "price": "20000" },
-        { "name": "クワッド", "type": "オフロード", "speed": "140", "price": "15000" }
+        {
+          "name": "インフェルヌス",
+          "type": "スーパーカー",
+          "speed": "240",
+          "price": "90000"
+        },
+        {
+          "name": "チーター",
+          "type": "スポーツ",
+          "speed": "230",
+          "price": "80000"
+        },
+        {
+          "name": "トゥリスモ",
+          "type": "スポーツ",
+          "speed": "220",
+          "price": "85000"
+        },
+        {
+          "name": "ブレット",
+          "type": "スポーツ",
+          "speed": "210",
+          "price": "75000"
+        },
+        {
+          "name": "バンシー",
+          "type": "スポーツ",
+          "speed": "200",
+          "price": "65000"
+        },
+        {
+          "name": "フェニックス",
+          "type": "クラシック",
+          "speed": "180",
+          "price": "55000"
+        },
+        {
+          "name": "NRG-500",
+          "type": "バイク",
+          "speed": "250",
+          "price": "60000"
+        },
+        {
+          "name": "PCJ-600",
+          "type": "バイク",
+          "speed": "200",
+          "price": "30000"
+        },
+        {
+          "name": "サンチェス",
+          "type": "ダートバイク",
+          "speed": "160",
+          "price": "20000"
+        },
+        {
+          "name": "クワッド",
+          "type": "オフロード",
+          "speed": "140",
+          "price": "15000"
+        }
       ]
     },
     "characters": {
       "title": "すべての主要キャラクター",
       "subtitle": "サンアンドレアスの物語",
       "description": "サンアンドレアスの物語は忘れられないキャラクターでいっぱいです。ここに主要なものがあります:",
-      "headers": ["キャラクター", "物語での役割"],
+      "headers": [
+        "キャラクター",
+        "物語での役割"
+      ],
       "note": "各キャラクターはゲームに深みを加え、各ミッションをエキサイティングにします。",
       "data": [
-        { "name": "カール・ジョンソン (CJ)", "role": "主人公、プレイヤーキャラクター" },
-        { "name": "スウィート・ジョンソン", "role": "CJの兄弟、グローブストリートのリーダー" },
-        { "name": "ビッグスモーク", "role": "CJの古い友人で後に裏切る" },
-        { "name": "ライダー", "role": "別のグローブストリートメンバーで、CJを裏切る" },
-        { "name": "セザール・ヴィアルパンド", "role": "ケンドルのボーイフレンドでCJの親しい同盟者" },
-        { "name": "ケンドル・ジョンソン", "role": "CJの妹、強くて賢い" },
-        { "name": "テンペニー警官", "role": "腐敗した警官、主要な悪役" },
-        { "name": "ウージー", "role": "盲目のトライアドリーダー、CJの友人" },
-        { "name": "カタリナ", "role": "一時期CJのクレイジーなガールフレンド" },
-        { "name": "真実", "role": "CJを助ける面白いヒッピー" }
+        {
+          "name": "カール・ジョンソン (CJ)",
+          "role": "主人公、プレイヤーキャラクター"
+        },
+        {
+          "name": "スウィート・ジョンソン",
+          "role": "CJの兄弟、グローブストリートのリーダー"
+        },
+        {
+          "name": "ビッグスモーク",
+          "role": "CJの古い友人で後に裏切る"
+        },
+        {
+          "name": "ライダー",
+          "role": "別のグローブストリートメンバーで、CJを裏切る"
+        },
+        {
+          "name": "セザール・ヴィアルパンド",
+          "role": "ケンドルのボーイフレンドでCJの親しい同盟者"
+        },
+        {
+          "name": "ケンドル・ジョンソン",
+          "role": "CJの妹、強くて賢い"
+        },
+        {
+          "name": "テンペニー警官",
+          "role": "腐敗した警官、主要な悪役"
+        },
+        {
+          "name": "ウージー",
+          "role": "盲目のトライアドリーダー、CJの友人"
+        },
+        {
+          "name": "カタリナ",
+          "role": "一時期CJのクレイジーなガールフレンド"
+        },
+        {
+          "name": "真実",
+          "role": "CJを助ける面白いヒッピー"
+        }
       ]
     },
     "gangs": {
       "title": "GTA San Andreasのギャング",
       "description": "サンアンドレアスの世界は、異なるエリアを支配するギャングでいっぱいです。彼らを知ることは、都市地図を理解し、ギャング戦争を生き残るのに役立ちます。",
-      "headers": ["ギャング名", "主要エリア", "色", "敵"],
+      "headers": [
+        "ギャング名",
+        "主要エリア",
+        "色",
+        "敵"
+      ],
       "note": "各ギャングには独自の車、タトゥー、音楽があります。グローブストリートファミリーズ、CJのギャングは、彼らの近隣の尊敬と支配のために戦います。",
       "data": [
-        { "name": "グローブストリートファミリーズ", "area": "ロスサントス", "color": "緑", "enemy": "バラス、ヴァゴス" },
-        { "name": "バラス", "area": "ロスサントス", "color": "紫", "enemy": "グローブストリート" },
-        { "name": "ロスサントスヴァゴス", "area": "ロスサントス", "color": "黄色", "enemy": "グローブストリート" },
-        { "name": "サンフィエロリファ", "area": "サンフィエロ", "color": "青", "enemy": "トライアド" },
-        { "name": "トライアド", "area": "サンフィエロ", "color": "赤", "enemy": "リファ、ダナンボーイズ" },
-        { "name": "ダナンボーイズ", "area": "サンフィエロ", "color": "灰色", "enemy": "トライアド" },
-        { "name": "ヴァリオロスアステカス", "area": "ロスサントス", "color": "水色", "enemy": "バラス、ヴァゴス" },
-        { "name": "ロシアンマフィア", "area": "ラスベンチュラス", "color": "黒", "enemy": "グローブストリート (後のミッション)" }
+        {
+          "name": "グローブストリートファミリーズ",
+          "area": "ロスサントス",
+          "color": "緑",
+          "enemy": "バラス、ヴァゴス"
+        },
+        {
+          "name": "バラス",
+          "area": "ロスサントス",
+          "color": "紫",
+          "enemy": "グローブストリート"
+        },
+        {
+          "name": "ロスサントスヴァゴス",
+          "area": "ロスサントス",
+          "color": "黄色",
+          "enemy": "グローブストリート"
+        },
+        {
+          "name": "サンフィエロリファ",
+          "area": "サンフィエロ",
+          "color": "青",
+          "enemy": "トライアド"
+        },
+        {
+          "name": "トライアド",
+          "area": "サンフィエロ",
+          "color": "赤",
+          "enemy": "リファ、ダナンボーイズ"
+        },
+        {
+          "name": "ダナンボーイズ",
+          "area": "サンフィエロ",
+          "color": "灰色",
+          "enemy": "トライアド"
+        },
+        {
+          "name": "ヴァリオロスアステカス",
+          "area": "ロスサントス",
+          "color": "水色",
+          "enemy": "バラス、ヴァゴス"
+        },
+        {
+          "name": "ロシアンマフィア",
+          "area": "ラスベンチュラス",
+          "color": "黒",
+          "enemy": "グローブストリート (後のミッション)"
+        }
       ]
     },
     "secretLocations": {
       "title": "GTA San Andreasの秘密の場所",
       "description": "サンアンドレアスには、ほとんどのプレイヤーが見逃す秘密の場所がたくさんあります。それらを訪れると報酬や楽しい体験が得られます。",
-      "headers": ["秘密の場所", "場所", "そこで見つけるもの"],
+      "headers": [
+        "秘密の場所",
+        "場所",
+        "そこで見つけるもの"
+      ],
       "note": "一部のプレイヤーは、夜にエリア69の近くにUFOが現れると信じていますが、それは単なる神話です — それとも?",
       "data": [
-        { "location": "エリア69", "place": "砂漠", "find": "隠されたジェット機 (ハイドラ) と軍事基地" },
-        { "location": "チリアド山", "place": "田舎", "find": "パラシュートジャンプスポットと自転車レース" },
-        { "location": "ゴーストタウン", "place": "サンフィエロの北", "find": "奇妙な詳細のある放棄されたエリア" },
-        { "location": "水中遺跡", "place": "ベイサイド近く", "find": "海の下に隠されたオブジェクト" },
-        { "location": "ビッグイヤー", "place": "砂漠", "find": "巨大な電波望遠鏡" },
-        { "location": "グローブストリートの家", "place": "ロスサントス", "find": "CJの家、思い出でいっぱい" },
-        { "location": "イースターベイスンドック", "place": "サンフィエロ", "find": "大きな船とクレーン" },
-        { "location": "ヴァーダントメドウズ", "place": "砂漠", "find": "飛行学校を開始する空港" }
+        {
+          "location": "エリア69",
+          "place": "砂漠",
+          "find": "隠されたジェット機 (ハイドラ) と軍事基地"
+        },
+        {
+          "location": "チリアド山",
+          "place": "田舎",
+          "find": "パラシュートジャンプスポットと自転車レース"
+        },
+        {
+          "location": "ゴーストタウン",
+          "place": "サンフィエロの北",
+          "find": "奇妙な詳細のある放棄されたエリア"
+        },
+        {
+          "location": "水中遺跡",
+          "place": "ベイサイド近く",
+          "find": "海の下に隠されたオブジェクト"
+        },
+        {
+          "location": "ビッグイヤー",
+          "place": "砂漠",
+          "find": "巨大な電波望遠鏡"
+        },
+        {
+          "location": "グローブストリートの家",
+          "place": "ロスサントス",
+          "find": "CJの家、思い出でいっぱい"
+        },
+        {
+          "location": "イースターベイスンドック",
+          "place": "サンフィエロ",
+          "find": "大きな船とクレーン"
+        },
+        {
+          "location": "ヴァーダントメドウズ",
+          "place": "砂漠",
+          "find": "飛行学校を開始する空港"
+        }
       ]
     },
     "faqCheats": {
       "title": "よくある質問",
       "data": [
-        { "id": "1", "question": "GTA San Andreasのチートは実績を無効にしますか?", "answer": "はい、ほとんどのチートは特定のプラットフォームで実績とトロフィーを無効にします。実績が重要な場合は、チートを使用する前にゲームバージョンを確認してください。" },
-        { "id": "2", "question": "マルチプレイヤーモードでチートを使用できますか?", "answer": "いいえ、チートは通常シングルプレイヤーモードでのみ利用できます。マルチプレイヤーでチートを使用すると、オンラインプレイから禁止される可能性があります。" },
-        { "id": "3", "question": "チートはセーブファイルに影響しますか?", "answer": "チートはセーブを破損しませんが、一部のバージョンではセーブを変更済みとしてフラグ付けする場合があります。別のセーブでチートを使用するのが最善です。" },
-        { "id": "4", "question": "PCでチートを入力するにはどうすればよいですか?", "answer": "PCでは、プレイ中にチートコードを入力するだけです。コンソールバージョンでは、コントローラーを使用してボタンの組み合わせを入力します。" },
-        { "id": "5", "question": "無制限の弾薬のチートコードはありますか?", "answer": "はい、無制限の弾薬のための特定のチートがあります。プラットフォームに適したコードを入力して、無限の火力をお楽しみください。" },
-        { "id": "6", "question": "有効にしたチートをオフにできますか?", "answer": "一部のチートはコードを再度入力することでオフにできますが、他のチートは以前のセーブをロードするまで永続的です。" }
+        {
+          "id": "1",
+          "question": "GTA San Andreasのチートは実績を無効にしますか?",
+          "answer": "はい、ほとんどのチートは特定のプラットフォームで実績とトロフィーを無効にします。実績が重要な場合は、チートを使用する前にゲームバージョンを確認してください。"
+        },
+        {
+          "id": "2",
+          "question": "マルチプレイヤーモードでチートを使用できますか?",
+          "answer": "いいえ、チートは通常シングルプレイヤーモードでのみ利用できます。マルチプレイヤーでチートを使用すると、オンラインプレイから禁止される可能性があります。"
+        },
+        {
+          "id": "3",
+          "question": "チートはセーブファイルに影響しますか?",
+          "answer": "チートはセーブを破損しませんが、一部のバージョンではセーブを変更済みとしてフラグ付けする場合があります。別のセーブでチートを使用するのが最善です。"
+        },
+        {
+          "id": "4",
+          "question": "PCでチートを入力するにはどうすればよいですか?",
+          "answer": "PCでは、プレイ中にチートコードを入力するだけです。コンソールバージョンでは、コントローラーを使用してボタンの組み合わせを入力します。"
+        },
+        {
+          "id": "5",
+          "question": "無制限の弾薬のチートコードはありますか?",
+          "answer": "はい、無制限の弾薬のための特定のチートがあります。プラットフォームに適したコードを入力して、無限の火力をお楽しみください。"
+        },
+        {
+          "id": "6",
+          "question": "有効にしたチートをオフにできますか?",
+          "answer": "一部のチートはコードを再度入力することでオフにできますが、他のチートは以前のセーブをロードするまで永続的です。"
+        }
       ]
     }
   },

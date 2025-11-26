@@ -133,38 +133,40 @@
       "immersiveExperience": "Doblaje completo, efectos de sonido ambiental y clima dinámico crean una atmósfera que te sumerge completamente en el viaje de CJ."
     }
   },
-  "gameplayFeatures": [
-    {
-      "icon": "🎮",
-      "title": "Personalización y Progresión de Habilidades",
-      "content": "CJ puede personalizar su apariencia cambiando ropa, peinados y tatuajes. Cada acción que realizas mejora habilidades específicas: cuanto más conduces, mejor se vuelve tu conducción. Cuanto más vuelas, mejores se vuelven tus habilidades de piloto. Esto crea una sensación gratificante de crecimiento a lo largo del juego."
-    },
-    {
-      "icon": "⚔️",
-      "title": "Combate y Arsenal de Armas",
-      "content": "El juego presenta más de 30 armas que van desde armas cuerpo a cuerpo como bates de béisbol y katanas hasta armas de fuego como pistolas, escopetas, rifles y más. Las mecánicas de combate son suaves y receptivas, haciendo que cada pelea se sienta impactante. También puedes usar armas explosivas como lanzacohetes y granadas para una destrucción masiva."
-    },
-    {
-      "icon": "🚗",
-      "title": "Variedad de Vehículos y Física de Conducción",
-      "content": "Conduce más de 250 vehículos diferentes: autos, camiones, motocicletas, botes e incluso aviones y helicópteros. Cada vehículo tiene manejo único, velocidad y aceleración. Aprender a controlar diferentes vehículos es parte de la diversión y el desafío."
-    },
-    {
-      "icon": "💰",
-      "title": "Dinero y Oportunidades de Ganancia",
-      "content": "Gana dinero a través de misiones principales, misiones secundarias e incluso robos. Gasta tu dinero en ropa, vehículos, casas, armas y entretenimiento. La libertad financiera es parte del atractivo del juego: tú decides cómo gastar tu dinero."
-    },
-    {
-      "icon": "🌆",
-      "title": "Entornos Diversos y Secretos Ocultos",
-      "content": "Tres ciudades únicas: Los Santos, San Fierro y Las Venturas, cada una con sus propios barrios, cultura y secretos. Desde áreas desérticas hasta playas y montañas, siempre hay algo nuevo que descubrir."
-    },
-    {
-      "icon": "📖",
-      "title": "Historia Profunda y Desarrollo de Personajes",
-      "content": "La historia es convincente, con interacciones significativas de personajes y giros argumentales. Los personajes secundarios tienen profundidad y personalidad, haciendo que sus historias sean memorables. La narrativa principal explora temas de lealtad, traición y redención."
-    }
-  ],
+  "gameplayFeatures": {
+    "data": [
+      {
+        "icon": "🎮",
+        "title": "Personalización y Progresión de Habilidades",
+        "content": "CJ puede personalizar su apariencia cambiando ropa, peinados y tatuajes. Cada acción que realizas mejora habilidades específicas: cuanto más conduces, mejor se vuelve tu conducción. Cuanto más vuelas, mejores se vuelven tus habilidades de piloto. Esto crea una sensación gratificante de crecimiento a lo largo del juego."
+      },
+      {
+        "icon": "⚔️",
+        "title": "Combate y Arsenal de Armas",
+        "content": "El juego presenta más de 30 armas que van desde armas cuerpo a cuerpo como bates de béisbol y katanas hasta armas de fuego como pistolas, escopetas, rifles y más. Las mecánicas de combate son suaves y receptivas, haciendo que cada pelea se sienta impactante. También puedes usar armas explosivas como lanzacohetes y granadas para una destrucción masiva."
+      },
+      {
+        "icon": "🚗",
+        "title": "Variedad de Vehículos y Física de Conducción",
+        "content": "Conduce más de 250 vehículos diferentes: autos, camiones, motocicletas, botes e incluso aviones y helicópteros. Cada vehículo tiene manejo único, velocidad y aceleración. Aprender a controlar diferentes vehículos es parte de la diversión y el desafío."
+      },
+      {
+        "icon": "💰",
+        "title": "Dinero y Oportunidades de Ganancia",
+        "content": "Gana dinero a través de misiones principales, misiones secundarias e incluso robos. Gasta tu dinero en ropa, vehículos, casas, armas y entretenimiento. La libertad financiera es parte del atractivo del juego: tú decides cómo gastar tu dinero."
+      },
+      {
+        "icon": "🌆",
+        "title": "Entornos Diversos y Secretos Ocultos",
+        "content": "Tres ciudades únicas: Los Santos, San Fierro y Las Venturas, cada una con sus propios barrios, cultura y secretos. Desde áreas desérticas hasta playas y montañas, siempre hay algo nuevo que descubrir."
+      },
+      {
+        "icon": "📖",
+        "title": "Historia Profunda y Desarrollo de Personajes",
+        "content": "La historia es convincente, con interacciones significativas de personajes y giros argumentales. Los personajes secundarios tienen profundidad y personalidad, haciendo que sus historias sean memorables. La narrativa principal explora temas de lealtad, traición y redención."
+      }
+    ]
+  },
   "gtaTimeline": {
     "title": "Cronología GTA: Versiones Clave",
     "subtitle": "La serie Grand Theft Auto se ha convertido en uno de los juegos de mundo abierto más populares. Sigue la evolución de esta franquicia icónica desde sus humildes comienzos hasta el presente.",
@@ -875,9 +877,477 @@
     "vehicleDatabase": {
       "title": "Lista de Autos GTA San Andreas: Base de Datos Completa de Vehículos",
       "subtitle": "Todos los Vehículos con Información de Velocidad y Precio",
-      "headers": ["Nombre del Vehículo", "Tipo", "Velocidad Máxima", "Precio"],
+      "headers": [
+        "Nombre del Vehículo",
+        "Tipo",
+        "Velocidad Máxima",
+        "Precio"
+      ],
       "totalVehicles": "200+ Vehículos",
-      "data": [{"name": "Admiral", "type": "Autos/Sedán", "speed": "103 km/h", "price": "35.000 $"},{"name": "Alpha", "type": "Autos/Deporte", "speed": "124 km/h", "price": "35.000 $"},{"name": "Ambulancia", "type": "Emergencias/Autos", "speed": "96 km/h", "price": "10.000 $"},{"name": "Andromada", "type": "Aviones", "speed": "S/O", "price": "S/O"},{"name": "Airtrain", "type": "Transporte", "speed": "S/O", "price": "S/O"},{"name": "Airwolf", "type": "Helicópteros", "speed": "190 km/h", "price": "S/O"},{"name": "Artict", "type": "Camiones", "speed": "87 km/h", "price": "45.000 $"},{"name": "Baller", "type": "SUVs", "speed": "118 km/h", "price": "60.000 $"},{"name": "Banshee", "type": "Autos/Deporte", "speed": "129 km/h", "price": "65.000 $"},{"name": "Barracks", "type": "Militar/Camiones", "speed": "75 km/h", "price": "S/O"},{"name": "Barracks OL", "type": "Militar/Camiones", "speed": "75 km/h", "price": "S/O"},{"name": "Berkley's Van", "type": "Furgonetas", "speed": "82 km/h", "price": "15.000 $"},{"name": "BF-400", "type": "Motos/Bicicletas", "speed": "120 km/h", "price": "18.000 $"},{"name": "BF-Injection", "type": "Todoterreno", "speed": "110 km/h", "price": "12.000 $"},{"name": "Bike", "type": "Motos/Bicicletas", "speed": "12 km/h", "price": "Gratis"},{"name": "Blade", "type": "Autos/Lowriders", "speed": "112 km/h", "price": "52.000 $"},{"name": "Blista Compact", "type": "Autos/Ciudad", "speed": "102 km/h", "price": "18.000 $"},{"name": "Bloodring Banger", "type": "Autos/Modificados", "speed": "108 km/h", "price": "S/O"},{"name": "Blueline Goods", "type": "Camiones/Entrega", "speed": "88 km/h", "price": "S/O"},{"name": "Boat", "type": "Vehículos Acuáticos", "speed": "85 km/h", "price": "S/O"},{"name": "Boxville", "type": "Camiones/Entrega", "speed": "91 km/h", "price": "S/O"},{"name": "Brawler", "type": "Autos/Todoterreno", "speed": "98 km/h", "price": "24.000 $"},{"name": "Breeze", "type": "Autos/Ciudad", "speed": "100 km/h", "price": "16.000 $"},{"name": "Bronco", "type": "SUVs", "speed": "115 km/h", "price": "55.000 $"},{"name": "Brown Streak", "type": "Transporte", "speed": "S/O", "price": "S/O"},{"name": "Bus", "type": "Transporte/Autobús", "speed": "85 km/h", "price": "S/O"},{"name": "Cabbie", "type": "Taxis", "speed": "100 km/h", "price": "S/O"},{"name": "Camper", "type": "Furgonetas", "speed": "99 km/h", "price": "28.000 $"},{"name": "Caracara", "type": "SUVs", "speed": "115 km/h", "price": "58.000 $"},{"name": "Carbine", "type": "Rifles", "speed": "S/O", "price": "S/O"},{"name": "Carabane", "type": "Autos/Transporte", "speed": "105 km/h", "price": "S/O"},{"name": "Cargobob", "type": "Helicópteros", "speed": "175 km/h", "price": "S/O"},{"name": "Cargoplane", "type": "Aviones", "speed": "S/O", "price": "S/O"},{"name": "Cartop", "type": "Transporte", "speed": "S/O", "price": "S/O"},{"name": "Cement Truck", "type": "Camiones/Industriales", "speed": "92 km/h", "price": "42.000 $"},{"name": "Cheetah", "type": "Autos/Deporte", "speed": "130 km/h", "price": "80.000 $"},{"name": "Cherub", "type": "Aviones", "speed": "S/O", "price": "S/O"},{"name": "Clover", "type": "Autos/Banda", "speed": "106 km/h", "price": "S/O"},{"name": "Coach", "type": "Autobús", "speed": "80 km/h", "price": "S/O"},{"name": "Comet", "type": "Autos/Deporte", "speed": "125 km/h", "price": "72.000 $"},{"name": "Commandeer", "type": "Militar/Camiones", "speed": "95 km/h", "price": "S/O"},{"name": "Copter", "type": "Helicópteros", "speed": "180 km/h", "price": "S/O"},{"name": "Corpse", "type": "Autos/Modificados", "speed": "80 km/h", "price": "S/O"},{"name": "Covered Wagon", "type": "Carros", "speed": "95 km/h", "price": "S/O"},{"name": "Crate", "type": "Transporte", "speed": "S/O", "price": "S/O"},{"name": "Crane", "type": "Industrial", "speed": "S/O", "price": "S/O"},{"name": "Crusader", "type": "Camiones", "speed": "88 km/h", "price": "S/O"},{"name": "Cuban", "type": "Aviones", "speed": "S/O", "price": "S/O"},{"name": "Dinghy", "type": "Vehículos Acuáticos", "speed": "60 km/h", "price": "S/O"},{"name": "Dinghy Inflable", "type": "Vehículos Acuáticos", "speed": "60 km/h", "price": "S/O"},{"name": "Dozer", "type": "Industrial", "speed": "55 km/h", "price": "S/O"},{"name": "DPV", "type": "Motos", "speed": "120 km/h", "price": "S/O"},{"name": "Dub", "type": "Autos/Lowriders", "speed": "110 km/h", "price": "50.000 $"},{"name": "Dumper", "type": "Camiones/Industriales", "speed": "76 km/h", "price": "48.000 $"},{"name": "Dustoff", "type": "Helicópteros", "speed": "185 km/h", "price": "S/O"},{"name": "DWT-20", "type": "Motos", "speed": "115 km/h", "price": "16.000 $"},{"name": "Elegy", "type": "Autos/Deporte", "speed": "126 km/h", "price": "78.000 $"},{"name": "Emerus", "type": "Autos/Deporte", "speed": "135 km/h", "price": "88.000 $"},{"name": "Emperor", "type": "Autos/Sedán", "speed": "105 km/h", "price": "32.000 $"},{"name": "Enforcer", "type": "Camiones/SWAT", "speed": "92 km/h", "price": "S/O"},{"name": "Esperanto", "type": "Autos/Clásicos", "speed": "108 km/h", "price": "38.000 $"},{"name": "Euros", "type": "Autos/Deporte", "speed": "132 km/h", "price": "85.000 $"},{"name": "Everon", "type": "Autos/SUV", "speed": "118 km/h", "price": "62.000 $"},{"name": "Exemplar", "type": "Autos/Lujo", "speed": "117 km/h", "price": "70.000 $"},{"name": "Exterminator", "type": "Camiones", "speed": "95 km/h", "price": "S/O"},{"name": "Faimliner", "type": "Transporte", "speed": "S/O", "price": "S/O"},{"name": "Fairtone", "type": "Autos/Clásicos", "speed": "103 km/h", "price": "35.000 $"},{"name": "Farmtruck", "type": "Camiones", "speed": "82 km/h", "price": "12.000 $"},{"name": "FCR-900", "type": "Motos", "speed": "128 km/h", "price": "24.000 $"},{"name": "Feltzer", "type": "Autos/Convertibles", "speed": "119 km/h", "price": "68.000 $"},{"name": "Firetruk", "type": "Emergencias", "speed": "88 km/h", "price": "S/O"},{"name": "Flatbed", "type": "Camiones", "speed": "86 km/h", "price": "S/O"},{"name": "Forklift", "type": "Industrial", "speed": "45 km/h", "price": "S/O"},{"name": "Fortune", "type": "Autos/Clásicos", "speed": "105 km/h", "price": "40.000 $"},{"name": "Freeway", "type": "Motos", "speed": "122 km/h", "price": "22.000 $"},{"name": "Futo", "type": "Autos/Ciudad", "speed": "108 km/h", "price": "22.000 $"},{"name": "Fuzzie", "type": "Motos", "speed": "110 km/h", "price": "S/O"}]
+      "data": [
+        {
+          "name": "Admiral",
+          "type": "Autos/Sedán",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Alpha",
+          "type": "Autos/Deporte",
+          "speed": "124 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Ambulancia",
+          "type": "Emergencias/Autos",
+          "speed": "96 km/h",
+          "price": "10.000 $"
+        },
+        {
+          "name": "Andromada",
+          "type": "Aviones",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Airtrain",
+          "type": "Transporte",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Airwolf",
+          "type": "Helicópteros",
+          "speed": "190 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Artict",
+          "type": "Camiones",
+          "speed": "87 km/h",
+          "price": "45.000 $"
+        },
+        {
+          "name": "Baller",
+          "type": "SUVs",
+          "speed": "118 km/h",
+          "price": "60.000 $"
+        },
+        {
+          "name": "Banshee",
+          "type": "Autos/Deporte",
+          "speed": "129 km/h",
+          "price": "65.000 $"
+        },
+        {
+          "name": "Barracks",
+          "type": "Militar/Camiones",
+          "speed": "75 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Barracks OL",
+          "type": "Militar/Camiones",
+          "speed": "75 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Berkley's Van",
+          "type": "Furgonetas",
+          "speed": "82 km/h",
+          "price": "15.000 $"
+        },
+        {
+          "name": "BF-400",
+          "type": "Motos/Bicicletas",
+          "speed": "120 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "BF-Injection",
+          "type": "Todoterreno",
+          "speed": "110 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "Bike",
+          "type": "Motos/Bicicletas",
+          "speed": "12 km/h",
+          "price": "Gratis"
+        },
+        {
+          "name": "Blade",
+          "type": "Autos/Lowriders",
+          "speed": "112 km/h",
+          "price": "52.000 $"
+        },
+        {
+          "name": "Blista Compact",
+          "type": "Autos/Ciudad",
+          "speed": "102 km/h",
+          "price": "18.000 $"
+        },
+        {
+          "name": "Bloodring Banger",
+          "type": "Autos/Modificados",
+          "speed": "108 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Blueline Goods",
+          "type": "Camiones/Entrega",
+          "speed": "88 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Boat",
+          "type": "Vehículos Acuáticos",
+          "speed": "85 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Boxville",
+          "type": "Camiones/Entrega",
+          "speed": "91 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Brawler",
+          "type": "Autos/Todoterreno",
+          "speed": "98 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Breeze",
+          "type": "Autos/Ciudad",
+          "speed": "100 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Bronco",
+          "type": "SUVs",
+          "speed": "115 km/h",
+          "price": "55.000 $"
+        },
+        {
+          "name": "Brown Streak",
+          "type": "Transporte",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Bus",
+          "type": "Transporte/Autobús",
+          "speed": "85 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Cabbie",
+          "type": "Taxis",
+          "speed": "100 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Camper",
+          "type": "Furgonetas",
+          "speed": "99 km/h",
+          "price": "28.000 $"
+        },
+        {
+          "name": "Caracara",
+          "type": "SUVs",
+          "speed": "115 km/h",
+          "price": "58.000 $"
+        },
+        {
+          "name": "Carbine",
+          "type": "Rifles",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Carabane",
+          "type": "Autos/Transporte",
+          "speed": "105 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Cargobob",
+          "type": "Helicópteros",
+          "speed": "175 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Cargoplane",
+          "type": "Aviones",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Cartop",
+          "type": "Transporte",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Cement Truck",
+          "type": "Camiones/Industriales",
+          "speed": "92 km/h",
+          "price": "42.000 $"
+        },
+        {
+          "name": "Cheetah",
+          "type": "Autos/Deporte",
+          "speed": "130 km/h",
+          "price": "80.000 $"
+        },
+        {
+          "name": "Cherub",
+          "type": "Aviones",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Clover",
+          "type": "Autos/Banda",
+          "speed": "106 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Coach",
+          "type": "Autobús",
+          "speed": "80 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Comet",
+          "type": "Autos/Deporte",
+          "speed": "125 km/h",
+          "price": "72.000 $"
+        },
+        {
+          "name": "Commandeer",
+          "type": "Militar/Camiones",
+          "speed": "95 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Copter",
+          "type": "Helicópteros",
+          "speed": "180 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Corpse",
+          "type": "Autos/Modificados",
+          "speed": "80 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Covered Wagon",
+          "type": "Carros",
+          "speed": "95 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Crate",
+          "type": "Transporte",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Crane",
+          "type": "Industrial",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Crusader",
+          "type": "Camiones",
+          "speed": "88 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Cuban",
+          "type": "Aviones",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Dinghy",
+          "type": "Vehículos Acuáticos",
+          "speed": "60 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Dinghy Inflable",
+          "type": "Vehículos Acuáticos",
+          "speed": "60 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Dozer",
+          "type": "Industrial",
+          "speed": "55 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "DPV",
+          "type": "Motos",
+          "speed": "120 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Dub",
+          "type": "Autos/Lowriders",
+          "speed": "110 km/h",
+          "price": "50.000 $"
+        },
+        {
+          "name": "Dumper",
+          "type": "Camiones/Industriales",
+          "speed": "76 km/h",
+          "price": "48.000 $"
+        },
+        {
+          "name": "Dustoff",
+          "type": "Helicópteros",
+          "speed": "185 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "DWT-20",
+          "type": "Motos",
+          "speed": "115 km/h",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Elegy",
+          "type": "Autos/Deporte",
+          "speed": "126 km/h",
+          "price": "78.000 $"
+        },
+        {
+          "name": "Emerus",
+          "type": "Autos/Deporte",
+          "speed": "135 km/h",
+          "price": "88.000 $"
+        },
+        {
+          "name": "Emperor",
+          "type": "Autos/Sedán",
+          "speed": "105 km/h",
+          "price": "32.000 $"
+        },
+        {
+          "name": "Enforcer",
+          "type": "Camiones/SWAT",
+          "speed": "92 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Esperanto",
+          "type": "Autos/Clásicos",
+          "speed": "108 km/h",
+          "price": "38.000 $"
+        },
+        {
+          "name": "Euros",
+          "type": "Autos/Deporte",
+          "speed": "132 km/h",
+          "price": "85.000 $"
+        },
+        {
+          "name": "Everon",
+          "type": "Autos/SUV",
+          "speed": "118 km/h",
+          "price": "62.000 $"
+        },
+        {
+          "name": "Exemplar",
+          "type": "Autos/Lujo",
+          "speed": "117 km/h",
+          "price": "70.000 $"
+        },
+        {
+          "name": "Exterminator",
+          "type": "Camiones",
+          "speed": "95 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Faimliner",
+          "type": "Transporte",
+          "speed": "S/O",
+          "price": "S/O"
+        },
+        {
+          "name": "Fairtone",
+          "type": "Autos/Clásicos",
+          "speed": "103 km/h",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Farmtruck",
+          "type": "Camiones",
+          "speed": "82 km/h",
+          "price": "12.000 $"
+        },
+        {
+          "name": "FCR-900",
+          "type": "Motos",
+          "speed": "128 km/h",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Feltzer",
+          "type": "Autos/Convertibles",
+          "speed": "119 km/h",
+          "price": "68.000 $"
+        },
+        {
+          "name": "Firetruk",
+          "type": "Emergencias",
+          "speed": "88 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Flatbed",
+          "type": "Camiones",
+          "speed": "86 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Forklift",
+          "type": "Industrial",
+          "speed": "45 km/h",
+          "price": "S/O"
+        },
+        {
+          "name": "Fortune",
+          "type": "Autos/Clásicos",
+          "speed": "105 km/h",
+          "price": "40.000 $"
+        },
+        {
+          "name": "Freeway",
+          "type": "Motos",
+          "speed": "122 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Futo",
+          "type": "Autos/Ciudad",
+          "speed": "108 km/h",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Fuzzie",
+          "type": "Motos",
+          "speed": "110 km/h",
+          "price": "S/O"
+        }
+      ]
     },
     "vehicleSystem": {
       "title": "Entendiendo el Sistema de Vehículos en GTA San Andreas",
@@ -890,12 +1360,20 @@
     "lowRiders": {
       "title": "Bajos Clásicos y Opciones de Personalización",
       "content": "Los low riders son una gran parte de la cultura de GTA San Andreas. Muestran el estilo de la Costa Oeste por el que se conoce el juego. Los modelos populares de low riders son Blade, Broadway y Remington. Puedes personalizar low riders con nuevas pinturas, ruedas, sistemas de nitro e hidráulicos. Visita garajes especiales como Loco Low Co para cambiar estos vehículos.",
-      "models": ["Blade", "Broadway", "Remington"]
+      "models": [
+        "Blade",
+        "Broadway",
+        "Remington"
+      ]
     },
     "motorcycles": {
       "title": "Motos y Bicicletas para Viajes Rápidos",
       "content": "Las motos son una forma rápida de abrirse paso en el tráfico de GTA San Andreas. La NRG-500 es la moto más rápida del juego. La PCJ-600 te da una buena mezcla de velocidad y control. La Sanchez es la mejor para conducir fuera de carreteras. Pero las motos no te protegen tanto como los autos, así que los accidentes pueden doler más.",
-      "models": ["NRG-500", "PCJ-600", "Sanchez"]
+      "models": [
+        "NRG-500",
+        "PCJ-600",
+        "Sanchez"
+      ]
     },
     "heavyVehicles": {
       "title": "Vehículos Pesados y Camiones",
@@ -904,22 +1382,43 @@
     "rareVehicles": {
       "title": "Vehículos Raros y Únicos para Coleccionar",
       "content": "Algunos vehículos en GTA San Andreas son realmente raros y difíciles de encontrar. El Phoenix solo aparece en ciertos lugares y en ciertos momentos. El auto deportivo ZR-350 es tanto raro como rápido. El Hotknife es un hot rod especial que solo puedes obtener completando ciertos desafíos de colección de vehículos. El Kart se ve como un kart de carreras y te da un tiempo de conducción divertido y extraño.",
-      "vehicles": ["Phoenix", "ZR-350", "Hotknife", "Kart"]
+      "vehicles": [
+        "Phoenix",
+        "ZR-350",
+        "Hotknife",
+        "Kart"
+      ]
     },
     "aircraft": {
       "title": "Vehículos Voladores y Aviones",
       "content": "Los aviones en GTA San Andreas agregan una forma completamente nueva de jugar. El caza Hydra es rápido y puede despegar verticalmente. El avión de hélice Rustler es más fácil de volar si recién estás aprendiendo. Los helicópteros como Maverick y Police Maverick son estables para turismo o misiones aéreas. Aprender a volar lleva práctica, pero realmente agrega al juego.",
-      "aircraft": ["Hydra", "Rustler", "Maverick", "Police Maverick"]
+      "aircraft": [
+        "Hydra",
+        "Rustler",
+        "Maverick",
+        "Police Maverick"
+      ]
     },
     "waterVehicles": {
       "title": "Vehículos Acuáticos y Botes",
       "content": "Los vehículos acuáticos te dan otra forma de moverte en GTA San Andreas. El bote rápido Squalo es la forma más rápida de viajar sobre el agua. El bote Tropic es confiable y tiene una velocidad y manejo decentes. El Jetmax se ve elegante y funciona bien sobre el agua. El Vortex hovercraft puede ir tanto en tierra como en agua.",
-      "vehicles": ["Squalo", "Tropic", "Jetmax", "Vortex"]
+      "vehicles": [
+        "Squalo",
+        "Tropic",
+        "Jetmax",
+        "Vortex"
+      ]
     },
     "policeVehicles": {
       "title": "Vehículos Policiales y de Emergencia",
       "content": "Los vehículos policiales en GTA San Andreas vienen en diferentes tipos como patrullas, SUVs y motos. El Auto de Policía tiene buena velocidad y potencia para perseguir personas. El camión SWAT Enforcer tiene armadura pesada. Los camiones de bomberos tienen cañones de agua e inician misiones de bomberos. Las ambulancias te permiten hacer misiones de paramédico. Estos vehículos a menudo funcionan mejor que los normales.",
-      "vehicles": ["Police Car", "Enforcer", "Fire Truck", "Ambulance", "HPV1000"]
+      "vehicles": [
+        "Police Car",
+        "Enforcer",
+        "Fire Truck",
+        "Ambulance",
+        "HPV1000"
+      ]
     },
     "importExport": {
       "title": "Lista de Vehículos de Importación/Exportación",
@@ -1014,180 +1513,653 @@
     },
     "actionCheats": {
       "title": "Trucos de Acción Rápida",
-      "headers": ["Acción", "Código de Truco (PC)", "Efecto"],
+      "headers": [
+        "Acción",
+        "Código de Truco (PC)",
+        "Efecto"
+      ],
       "data": [
-        { "action": "Salud Infinita", "pc": "BAGUVIX", "effect": "Hace a CJ casi invencible" },
-        { "action": "Armadura Completa", "pc": "HESOYAM", "effect": "Da armadura y salud completa" },
-        { "action": "Set de Armas 1", "pc": "LXGIWYL", "effect": "Armas básicas y armas cuerpo a cuerpo" },
-        { "action": "Jetpack", "pc": "ROCKETMAN", "effect": "Genera un jetpack" },
-        { "action": "Tanque (Rhino)", "pc": "AIWPRTON", "effect": "Genera un tanque militar" },
-        { "action": "Nivel de Búsqueda Bajo", "pc": "AEZAKMI", "effect": "La policía te ignora" },
-        { "action": "Autos Vuelan", "pc": "CHITTYCHITTYBANGBANG", "effect": "Los autos pueden volar" },
-        { "action": "Nunca Hambriento", "pc": "AEDUWNV", "effect": "La barra de hambre se mantiene llena" },
-        { "action": "Mega Salto", "pc": "KANGAROO", "effect": "CJ salta súper alto" }
+        {
+          "action": "Salud Infinita",
+          "pc": "BAGUVIX",
+          "effect": "Hace a CJ casi invencible"
+        },
+        {
+          "action": "Armadura Completa",
+          "pc": "HESOYAM",
+          "effect": "Da armadura y salud completa"
+        },
+        {
+          "action": "Set de Armas 1",
+          "pc": "LXGIWYL",
+          "effect": "Armas básicas y armas cuerpo a cuerpo"
+        },
+        {
+          "action": "Jetpack",
+          "pc": "ROCKETMAN",
+          "effect": "Genera un jetpack"
+        },
+        {
+          "action": "Tanque (Rhino)",
+          "pc": "AIWPRTON",
+          "effect": "Genera un tanque militar"
+        },
+        {
+          "action": "Nivel de Búsqueda Bajo",
+          "pc": "AEZAKMI",
+          "effect": "La policía te ignora"
+        },
+        {
+          "action": "Autos Vuelan",
+          "pc": "CHITTYCHITTYBANGBANG",
+          "effect": "Los autos pueden volar"
+        },
+        {
+          "action": "Nunca Hambriento",
+          "pc": "AEDUWNV",
+          "effect": "La barra de hambre se mantiene llena"
+        },
+        {
+          "action": "Mega Salto",
+          "pc": "KANGAROO",
+          "effect": "CJ salta súper alto"
+        }
       ]
     },
     "playerCheats": {
       "title": "Trucos del Jugador",
       "subtitle": "Para PC, PlayStation & Xbox",
-      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efecto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Salud Infinita", "pc": "BAGUVIX", "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE", "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y" },
-        { "effect": "Munición Infinita", "pc": "FULLCLIP", "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1", "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB" },
-        { "effect": "Oxígeno Infinito", "pc": "CVWKXAM", "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN", "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN" },
-        { "effect": "Músculos al Máximo", "pc": "JYSDSOD", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT" },
-        { "effect": "Grasa al Máximo", "pc": "BTCDBCB", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT" },
-        { "effect": "Delgado", "pc": "KVGYZQK", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP" },
-        { "effect": "Seis Estrellas de Búsqueda", "pc": "LJSPQK", "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN", "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN" },
-        { "effect": "Bajar Nivel de Búsqueda", "pc": "ASNAEB", "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN", "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN" },
-        { "effect": "Nunca Buscado", "pc": "AEZAKMI", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT" },
-        { "effect": "Mega Salto", "pc": "KANGAROO", "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2", "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT" }
+        {
+          "effect": "Salud Infinita",
+          "pc": "BAGUVIX",
+          "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE",
+          "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y"
+        },
+        {
+          "effect": "Munición Infinita",
+          "pc": "FULLCLIP",
+          "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1",
+          "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB"
+        },
+        {
+          "effect": "Oxígeno Infinito",
+          "pc": "CVWKXAM",
+          "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN",
+          "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN"
+        },
+        {
+          "effect": "Músculos al Máximo",
+          "pc": "JYSDSOD",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT"
+        },
+        {
+          "effect": "Grasa al Máximo",
+          "pc": "BTCDBCB",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT"
+        },
+        {
+          "effect": "Delgado",
+          "pc": "KVGYZQK",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP"
+        },
+        {
+          "effect": "Seis Estrellas de Búsqueda",
+          "pc": "LJSPQK",
+          "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN",
+          "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN"
+        },
+        {
+          "effect": "Bajar Nivel de Búsqueda",
+          "pc": "ASNAEB",
+          "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN",
+          "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN"
+        },
+        {
+          "effect": "Nunca Buscado",
+          "pc": "AEZAKMI",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT"
+        },
+        {
+          "effect": "Mega Salto",
+          "pc": "KANGAROO",
+          "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2",
+          "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT"
+        }
       ]
     },
     "vehicleCheats": {
       "title": "Trucos de Vehículos y Transporte",
-      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efecto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Generar Camión Cisterna", "pc": "AMOMHRER", "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1", "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB" },
-        { "effect": "Generar Jetpack", "pc": "ROCKETMAN", "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT", "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT" },
-        { "effect": "Generar Jet Hydra", "pc": "JUMPJET", "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP", "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP" },
-        { "effect": "Generar Monster Truck", "pc": "MONSTERMASH", "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1", "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB" },
-        { "effect": "Autos Vuelan", "pc": "RIPAZHA", "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT", "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT" },
-        { "effect": "Autos Flotan en Agua", "pc": "BGKGTJH", "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT", "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT" },
-        { "effect": "Todos los Autos Tienen Nitro", "pc": "SPEEDFREAK", "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1", "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB" },
-        { "effect": "Explotar Todos los Autos", "pc": "CPKTNWT", "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1", "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB" }
+        {
+          "effect": "Generar Camión Cisterna",
+          "pc": "AMOMHRER",
+          "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1",
+          "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB"
+        },
+        {
+          "effect": "Generar Jetpack",
+          "pc": "ROCKETMAN",
+          "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT",
+          "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT"
+        },
+        {
+          "effect": "Generar Jet Hydra",
+          "pc": "JUMPJET",
+          "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP",
+          "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP"
+        },
+        {
+          "effect": "Generar Monster Truck",
+          "pc": "MONSTERMASH",
+          "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1",
+          "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB"
+        },
+        {
+          "effect": "Autos Vuelan",
+          "pc": "RIPAZHA",
+          "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT",
+          "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT"
+        },
+        {
+          "effect": "Autos Flotan en Agua",
+          "pc": "BGKGTJH",
+          "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT",
+          "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT"
+        },
+        {
+          "effect": "Todos los Autos Tienen Nitro",
+          "pc": "SPEEDFREAK",
+          "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1",
+          "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB"
+        },
+        {
+          "effect": "Explotar Todos los Autos",
+          "pc": "CPKTNWT",
+          "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1",
+          "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB"
+        }
       ]
     },
     "weatherCheats": {
       "title": "Trucos de Mundo y Clima",
-      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efecto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Clima Soleado", "pc": "PLEASANTLYWARM", "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE", "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X" },
-        { "effect": "Clima Lluvioso", "pc": "AUIFRVQS", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X" },
-        { "effect": "Clima Neblinoso", "pc": "CFVFGMJ", "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE", "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X" },
-        { "effect": "Tiempo Rápido", "pc": "YSOHNUL", "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP", "xbox": "B, B, X, LB, LT, A, Y, UP" },
-        { "effect": "Tiempo Lento", "pc": "LIYOAAY", "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1", "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB" }
+        {
+          "effect": "Clima Soleado",
+          "pc": "PLEASANTLYWARM",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE",
+          "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X"
+        },
+        {
+          "effect": "Clima Lluvioso",
+          "pc": "AUIFRVQS",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X"
+        },
+        {
+          "effect": "Clima Neblinoso",
+          "pc": "CFVFGMJ",
+          "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE",
+          "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X"
+        },
+        {
+          "effect": "Tiempo Rápido",
+          "pc": "YSOHNUL",
+          "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP",
+          "xbox": "B, B, X, LB, LT, A, Y, UP"
+        },
+        {
+          "effect": "Tiempo Lento",
+          "pc": "LIYOAAY",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1",
+          "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB"
+        }
       ]
     },
     "gangCheats": {
       "title": "Trucos de Pandillas y Peatones",
-      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efecto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Reclutar a Cualquiera (Pistola)", "pc": "SJMAHPE", "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT", "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT" },
-        { "effect": "Reclutar a Cualquiera (Cohetes)", "pc": "ZSOXFSQ", "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT", "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT" },
-        { "effect": "Pandillas Controlan las Calles", "pc": "BIFBUZZ", "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT", "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT" },
-        { "effect": "Disturbios en la Ciudad", "pc": "IOJUFZN", "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1", "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB" }
+        {
+          "effect": "Reclutar a Cualquiera (Pistola)",
+          "pc": "SJMAHPE",
+          "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT",
+          "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT"
+        },
+        {
+          "effect": "Reclutar a Cualquiera (Cohetes)",
+          "pc": "ZSOXFSQ",
+          "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+          "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+        },
+        {
+          "effect": "Pandillas Controlan las Calles",
+          "pc": "BIFBUZZ",
+          "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT",
+          "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT"
+        },
+        {
+          "effect": "Disturbios en la Ciudad",
+          "pc": "IOJUFZN",
+          "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1",
+          "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB"
+        }
       ]
     },
     "moneyWeapons": {
       "title": "Trucos de Dinero, Armas y Habilidades",
-      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "headers": [
+        "Efecto",
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Salud Completa, Armadura y $250k", "pc": "HESOYAM", "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
-        { "effect": "Set de Armas 1", "pc": "LXGIWYL", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
-        { "effect": "Set de Armas 2", "pc": "PROFESSIONALSKIT", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT" },
-        { "effect": "Set de Armas 3", "pc": "UZUMYMW", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN" }
+        {
+          "effect": "Salud Completa, Armadura y $250k",
+          "pc": "HESOYAM",
+          "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "Set de Armas 1",
+          "pc": "LXGIWYL",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "Set de Armas 2",
+          "pc": "PROFESSIONALSKIT",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT"
+        },
+        {
+          "effect": "Set de Armas 3",
+          "pc": "UZUMYMW",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN"
+        }
       ]
     },
     "weapons": {
       "title": "Armas y Pistolas",
       "subtitle": "Con Precios",
       "description": "Las armas son una gran parte del gameplay de GTA San Andreas. Puedes comprarlas en tiendas Ammu-Nation o encontrarlas en el mapa.",
-      "headers": ["Nombre del Arma", "Tipo", "Precio ($)", "Detalles"],
+      "headers": [
+        "Nombre del Arma",
+        "Tipo",
+        "Precio ($)",
+        "Detalles"
+      ],
       "tip": "💡 Consejo: Usa diferentes armas para diferentes misiones. Para guerras de pandillas, los rifles y SMGs funcionan mejor.",
       "data": [
-        { "name": "Pistola 9mm", "type": "Pistola", "price": "250", "details": "Arma básica, buena para peleas cercanas" },
-        { "name": "Desert Eagle", "type": "Pistola", "price": "1200", "details": "Daño fuerte, poder de un disparo" },
-        { "name": "AK-47", "type": "Rifle", "price": "3500", "details": "Rifle de asalto popular" },
-        { "name": "M4", "type": "Rifle", "price": "5000", "details": "Potente y preciso" },
-        { "name": "Escopeta", "type": "Bomba", "price": "1000", "details": "Bueno para rango cercano" },
-        { "name": "Escopeta de Combate", "type": "Auto", "price": "2500", "details": "Escopeta de disparo rápido" },
-        { "name": "Micro SMG", "type": "SMG", "price": "1500", "details": "Ligero y rápido" },
-        { "name": "MP5", "type": "SMG", "price": "3000", "details": "SMG fuerte para misiones" },
-        { "name": "Rifle de Francotirador", "type": "Largo Alcance", "price": "6000", "details": "Precisión de largo alcance" },
-        { "name": "RPG", "type": "Pesado", "price": "8000", "details": "Lanzacohetes para vehículos" },
-        { "name": "Minigun", "type": "Pesado", "price": "15000", "details": "Potencia de fuego extrema" }
+        {
+          "name": "Pistola 9mm",
+          "type": "Pistola",
+          "price": "250",
+          "details": "Arma básica, buena para peleas cercanas"
+        },
+        {
+          "name": "Desert Eagle",
+          "type": "Pistola",
+          "price": "1200",
+          "details": "Daño fuerte, poder de un disparo"
+        },
+        {
+          "name": "AK-47",
+          "type": "Rifle",
+          "price": "3500",
+          "details": "Rifle de asalto popular"
+        },
+        {
+          "name": "M4",
+          "type": "Rifle",
+          "price": "5000",
+          "details": "Potente y preciso"
+        },
+        {
+          "name": "Escopeta",
+          "type": "Bomba",
+          "price": "1000",
+          "details": "Bueno para rango cercano"
+        },
+        {
+          "name": "Escopeta de Combate",
+          "type": "Auto",
+          "price": "2500",
+          "details": "Escopeta de disparo rápido"
+        },
+        {
+          "name": "Micro SMG",
+          "type": "SMG",
+          "price": "1500",
+          "details": "Ligero y rápido"
+        },
+        {
+          "name": "MP5",
+          "type": "SMG",
+          "price": "3000",
+          "details": "SMG fuerte para misiones"
+        },
+        {
+          "name": "Rifle de Francotirador",
+          "type": "Largo Alcance",
+          "price": "6000",
+          "details": "Precisión de largo alcance"
+        },
+        {
+          "name": "RPG",
+          "type": "Pesado",
+          "price": "8000",
+          "details": "Lanzacohetes para vehículos"
+        },
+        {
+          "name": "Minigun",
+          "type": "Pesado",
+          "price": "15000",
+          "details": "Potencia de fuego extrema"
+        }
       ]
     },
     "vehicles": {
       "title": "Autos y Motos",
       "subtitle": "Con Velocidad y Precio",
       "description": "Los autos y las motos son el corazón de la experiencia de GTA San Andreas. Aquí hay algunos populares:",
-      "headers": ["Nombre del Vehículo", "Tipo", "Velocidad (km/h)", "Precio Aprox ($)"],
+      "headers": [
+        "Nombre del Vehículo",
+        "Tipo",
+        "Velocidad (km/h)",
+        "Precio Aprox ($)"
+      ],
       "fact": "🏆 Dato: El Infernus es el auto más rápido del juego y un favorito de muchos jugadores.",
       "data": [
-        { "name": "Infernus", "type": "Super Auto", "speed": "240", "price": "90000" },
-        { "name": "Cheetah", "type": "Deportivo", "speed": "230", "price": "80000" },
-        { "name": "Turismo", "type": "Deportivo", "speed": "220", "price": "85000" },
-        { "name": "Bullet", "type": "Deportivo", "speed": "210", "price": "75000" },
-        { "name": "Banshee", "type": "Deportivo", "speed": "200", "price": "65000" },
-        { "name": "Phoenix", "type": "Clásico", "speed": "180", "price": "55000" },
-        { "name": "NRG-500", "type": "Moto", "speed": "250", "price": "60000" },
-        { "name": "PCJ-600", "type": "Moto", "speed": "200", "price": "30000" },
-        { "name": "Sanchez", "type": "Moto de Tierra", "speed": "160", "price": "20000" },
-        { "name": "Quad", "type": "Todoterreno", "speed": "140", "price": "15000" }
+        {
+          "name": "Infernus",
+          "type": "Super Auto",
+          "speed": "240",
+          "price": "90000"
+        },
+        {
+          "name": "Cheetah",
+          "type": "Deportivo",
+          "speed": "230",
+          "price": "80000"
+        },
+        {
+          "name": "Turismo",
+          "type": "Deportivo",
+          "speed": "220",
+          "price": "85000"
+        },
+        {
+          "name": "Bullet",
+          "type": "Deportivo",
+          "speed": "210",
+          "price": "75000"
+        },
+        {
+          "name": "Banshee",
+          "type": "Deportivo",
+          "speed": "200",
+          "price": "65000"
+        },
+        {
+          "name": "Phoenix",
+          "type": "Clásico",
+          "speed": "180",
+          "price": "55000"
+        },
+        {
+          "name": "NRG-500",
+          "type": "Moto",
+          "speed": "250",
+          "price": "60000"
+        },
+        {
+          "name": "PCJ-600",
+          "type": "Moto",
+          "speed": "200",
+          "price": "30000"
+        },
+        {
+          "name": "Sanchez",
+          "type": "Moto de Tierra",
+          "speed": "160",
+          "price": "20000"
+        },
+        {
+          "name": "Quad",
+          "type": "Todoterreno",
+          "speed": "140",
+          "price": "15000"
+        }
       ]
     },
     "characters": {
       "title": "Todos los Personajes Principales",
       "subtitle": "La Historia de San Andreas",
       "description": "La historia de San Andreas está llena de personajes inolvidables. Aquí están los principales:",
-      "headers": ["Personaje", "Rol en la Historia"],
+      "headers": [
+        "Personaje",
+        "Rol en la Historia"
+      ],
       "note": "Cada personaje añade profundidad al juego, haciendo que cada misión sea emocionante.",
       "data": [
-        { "name": "Carl Johnson (CJ)", "role": "Héroe principal, personaje del jugador" },
-        { "name": "Sweet Johnson", "role": "Hermano de CJ, el líder de Grove Street" },
-        { "name": "Big Smoke", "role": "Viejo amigo de CJ que luego lo traiciona" },
-        { "name": "Ryder", "role": "Otro miembro de Grove Street también traiciona a CJ" },
-        { "name": "Cesar Vialpando", "role": "Novio de Kendl y aliado cercano de CJ" },
-        { "name": "Kendl Johnson", "role": "Hermana de CJ, fuerte e inteligente" },
-        { "name": "Oficial Tenpenny", "role": "Policía corrupto, villano principal" },
-        { "name": "Woozie", "role": "Líder ciego de las Tríadas, amigo de CJ" },
-        { "name": "Catalina", "role": "Novia loca de CJ por un tiempo" },
-        { "name": "The Truth", "role": "Un hippie gracioso que ayuda a CJ" }
+        {
+          "name": "Carl Johnson (CJ)",
+          "role": "Héroe principal, personaje del jugador"
+        },
+        {
+          "name": "Sweet Johnson",
+          "role": "Hermano de CJ, el líder de Grove Street"
+        },
+        {
+          "name": "Big Smoke",
+          "role": "Viejo amigo de CJ que luego lo traiciona"
+        },
+        {
+          "name": "Ryder",
+          "role": "Otro miembro de Grove Street también traiciona a CJ"
+        },
+        {
+          "name": "Cesar Vialpando",
+          "role": "Novio de Kendl y aliado cercano de CJ"
+        },
+        {
+          "name": "Kendl Johnson",
+          "role": "Hermana de CJ, fuerte e inteligente"
+        },
+        {
+          "name": "Oficial Tenpenny",
+          "role": "Policía corrupto, villano principal"
+        },
+        {
+          "name": "Woozie",
+          "role": "Líder ciego de las Tríadas, amigo de CJ"
+        },
+        {
+          "name": "Catalina",
+          "role": "Novia loca de CJ por un tiempo"
+        },
+        {
+          "name": "The Truth",
+          "role": "Un hippie gracioso que ayuda a CJ"
+        }
       ]
     },
     "gangs": {
       "title": "Pandillas en GTA San Andreas",
       "description": "El mundo de San Andreas está lleno de pandillas que controlan diferentes áreas. Conocerlas te ayuda a entender el mapa de la ciudad y sobrevivir a las guerras de pandillas.",
-      "headers": ["Nombre de la Pandilla", "Área Principal", "Color", "Enemigo"],
+      "headers": [
+        "Nombre de la Pandilla",
+        "Área Principal",
+        "Color",
+        "Enemigo"
+      ],
       "note": "Cada pandilla tiene sus propios autos, tatuajes y música. Grove Street Families, la pandilla de CJ, lucha por respeto y control de su vecindario.",
       "data": [
-        { "name": "Grove Street Families", "area": "Los Santos", "color": "Verde", "enemy": "Ballas, Vagos" },
-        { "name": "Ballas", "area": "Los Santos", "color": "Púrpura", "enemy": "Grove Street" },
-        { "name": "Los Santos Vagos", "area": "Los Santos", "color": "Amarillo", "enemy": "Grove Street" },
-        { "name": "San Fierro Rifa", "area": "San Fierro", "color": "Azul", "enemy": "Triads" },
-        { "name": "Triads", "area": "San Fierro", "color": "Rojo", "enemy": "Rifa, Da Nang Boys" },
-        { "name": "Da Nang Boys", "area": "San Fierro", "color": "Gris", "enemy": "Triads" },
-        { "name": "Varrio Los Aztecas", "area": "Los Santos", "color": "Azul Claro", "enemy": "Ballas, Vagos" },
-        { "name": "Russian Mafia", "area": "Las Venturas", "color": "Negro", "enemy": "Grove Street (misiones posteriores)" }
+        {
+          "name": "Grove Street Families",
+          "area": "Los Santos",
+          "color": "Verde",
+          "enemy": "Ballas, Vagos"
+        },
+        {
+          "name": "Ballas",
+          "area": "Los Santos",
+          "color": "Púrpura",
+          "enemy": "Grove Street"
+        },
+        {
+          "name": "Los Santos Vagos",
+          "area": "Los Santos",
+          "color": "Amarillo",
+          "enemy": "Grove Street"
+        },
+        {
+          "name": "San Fierro Rifa",
+          "area": "San Fierro",
+          "color": "Azul",
+          "enemy": "Triads"
+        },
+        {
+          "name": "Triads",
+          "area": "San Fierro",
+          "color": "Rojo",
+          "enemy": "Rifa, Da Nang Boys"
+        },
+        {
+          "name": "Da Nang Boys",
+          "area": "San Fierro",
+          "color": "Gris",
+          "enemy": "Triads"
+        },
+        {
+          "name": "Varrio Los Aztecas",
+          "area": "Los Santos",
+          "color": "Azul Claro",
+          "enemy": "Ballas, Vagos"
+        },
+        {
+          "name": "Russian Mafia",
+          "area": "Las Venturas",
+          "color": "Negro",
+          "enemy": "Grove Street (misiones posteriores)"
+        }
       ]
     },
     "secretLocations": {
       "title": "Ubicaciones Secretas en GTA San Andreas",
       "description": "San Andreas tiene muchos lugares secretos que la mayoría de los jugadores pasan por alto. Visitarlos da recompensas o experiencias divertidas.",
-      "headers": ["Ubicación Secreta", "Lugar", "Qué Encuentras Ahí"],
+      "headers": [
+        "Ubicación Secreta",
+        "Lugar",
+        "Qué Encuentras Ahí"
+      ],
       "note": "Algunos jugadores creen que los OVNIs aparecen cerca del Área 69 por la noche, pero es solo un mito, ¿o no?",
       "data": [
-        { "location": "Area 69", "place": "Desierto", "find": "Jet oculto (Hydra) y base militar" },
-        { "location": "Mount Chiliad", "place": "Campo", "find": "Punto de salto en paracaídas y carreras de bicicletas" },
-        { "location": "Pueblo Fantasma", "place": "Norte de San Fierro", "find": "Área abandonada con detalles extraños" },
-        { "location": "Ruinas Submarinas", "place": "Cerca de Bayside", "find": "Objetos ocultos bajo el mar" },
-        { "location": "The Big Ear", "place": "Desierto", "find": "Radiotelescopio gigante" },
-        { "location": "Casa de Grove Street", "place": "Los Santos", "find": "Casa de CJ, llena de recuerdos" },
-        { "location": "Muelle de Easter Basin", "place": "San Fierro", "find": "Grandes barcos y grúas" },
-        { "location": "Verdant Meadows", "place": "Desierto", "find": "Aeropuerto donde empiezas la escuela de vuelo" }
+        {
+          "location": "Area 69",
+          "place": "Desierto",
+          "find": "Jet oculto (Hydra) y base militar"
+        },
+        {
+          "location": "Mount Chiliad",
+          "place": "Campo",
+          "find": "Punto de salto en paracaídas y carreras de bicicletas"
+        },
+        {
+          "location": "Pueblo Fantasma",
+          "place": "Norte de San Fierro",
+          "find": "Área abandonada con detalles extraños"
+        },
+        {
+          "location": "Ruinas Submarinas",
+          "place": "Cerca de Bayside",
+          "find": "Objetos ocultos bajo el mar"
+        },
+        {
+          "location": "The Big Ear",
+          "place": "Desierto",
+          "find": "Radiotelescopio gigante"
+        },
+        {
+          "location": "Casa de Grove Street",
+          "place": "Los Santos",
+          "find": "Casa de CJ, llena de recuerdos"
+        },
+        {
+          "location": "Muelle de Easter Basin",
+          "place": "San Fierro",
+          "find": "Grandes barcos y grúas"
+        },
+        {
+          "location": "Verdant Meadows",
+          "place": "Desierto",
+          "find": "Aeropuerto donde empiezas la escuela de vuelo"
+        }
       ]
     },
     "faqCheats": {
       "title": "Preguntas Frecuentes",
       "data": [
-        { "id": "1", "question": "¿Los trucos de GTA San Andreas desactivan los logros?", "answer": "Sí, la mayoría de los trucos desactivarán los logros y trofeos en ciertas plataformas. Verifica la versión de tu juego antes de usar trucos si te importan los logros." },
-        { "id": "2", "question": "¿Puedo usar trucos en modo multijugador?", "answer": "No, los trucos generalmente solo están disponibles en modo de un solo jugador. Usar trucos en multijugador puede resultar en que te prohíban del juego en línea." },
-        { "id": "3", "question": "¿Los trucos afectarán mi archivo de guardado?", "answer": "Los trucos no corromperán tu guardado, pero algunas versiones pueden marcar tu guardado como modificado. Es mejor usar trucos en guardados separados." },
-        { "id": "4", "question": "¿Cómo ingreso trucos en PC?", "answer": "En PC, simplemente escribe el código de truco mientras juegas. En las versiones de consola, usa tu controlador para ingresar las combinaciones de botones." },
-        { "id": "5", "question": "¿Hay códigos de trucos para munición ilimitada?", "answer": "Sí, hay trucos específicos para munición ilimitada. Ingresa el código apropiado para tu plataforma y disfruta de potencia de fuego sin fin." },
-        { "id": "6", "question": "¿Puedo desactivar los trucos una vez activados?", "answer": "Algunos trucos se pueden desactivar ingresando el código nuevamente, mientras que otros son permanentes hasta que cargues un guardado anterior." }
+        {
+          "id": "1",
+          "question": "¿Los trucos de GTA San Andreas desactivan los logros?",
+          "answer": "Sí, la mayoría de los trucos desactivarán los logros y trofeos en ciertas plataformas. Verifica la versión de tu juego antes de usar trucos si te importan los logros."
+        },
+        {
+          "id": "2",
+          "question": "¿Puedo usar trucos en modo multijugador?",
+          "answer": "No, los trucos generalmente solo están disponibles en modo de un solo jugador. Usar trucos en multijugador puede resultar en que te prohíban del juego en línea."
+        },
+        {
+          "id": "3",
+          "question": "¿Los trucos afectarán mi archivo de guardado?",
+          "answer": "Los trucos no corromperán tu guardado, pero algunas versiones pueden marcar tu guardado como modificado. Es mejor usar trucos en guardados separados."
+        },
+        {
+          "id": "4",
+          "question": "¿Cómo ingreso trucos en PC?",
+          "answer": "En PC, simplemente escribe el código de truco mientras juegas. En las versiones de consola, usa tu controlador para ingresar las combinaciones de botones."
+        },
+        {
+          "id": "5",
+          "question": "¿Hay códigos de trucos para munición ilimitada?",
+          "answer": "Sí, hay trucos específicos para munición ilimitada. Ingresa el código apropiado para tu plataforma y disfruta de potencia de fuego sin fin."
+        },
+        {
+          "id": "6",
+          "question": "¿Puedo desactivar los trucos una vez activados?",
+          "answer": "Algunos trucos se pueden desactivar ingresando el código nuevamente, mientras que otros son permanentes hasta que cargues un guardado anterior."
+        }
       ]
     }
   },

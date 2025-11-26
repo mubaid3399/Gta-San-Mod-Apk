@@ -32,7 +32,7 @@ export default function ForPCPage() {
   const tFaq = useTranslations('faq');
 
   // Get gameplayFeatures from translations
-  const gameplayFeaturesTranslated = tGameplayFeatures.raw();
+  const gameplayFeaturesTranslated = tGameplayFeatures.raw('data');
 
   // Convert forPC FAQs from translations into the expected format
   const faqRaw = t.raw('faqs');

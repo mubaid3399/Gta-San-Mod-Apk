@@ -133,38 +133,40 @@
       "immersiveExperience": "Полное озвучивание, эффекты окружающей среды и динамическая погода создают атмосферу, которая полностью погружает вас в путешествие CJ."
     }
   },
-  "gameplayFeatures": [
-    {
-      "icon": "🎮",
-      "title": "Customization and Skill Progression",
-      "content": "CJ can customize his appearance by changing clothes, hairstyles, and tattoos. Each action you perform improves specific skills — the more you drive, the better your driving becomes. The more you fly, the better your pilot skills improve. This creates a rewarding sense of growth throughout the game."
-    },
-    {
-      "icon": "⚔️",
-      "title": "Combat and Weapons Arsenal",
-      "content": "The game features over 30 weapons ranging from melee weapons like baseball bats and katanas to firearms like pistols, shotguns, rifles, and more. Combat mechanics are smooth and responsive, making every fight feel impactful. You can also use explosive weapons like rocket launchers and grenades for massive destruction."
-    },
-    {
-      "icon": "🚗",
-      "title": "Vehicle Variety and Driving Physics",
-      "content": "Drive over 250 different vehicles — cars, trucks, motorcycles, boats, and even planes and helicopters. Each vehicle has unique handling, speed, and acceleration. Learning to control different vehicles is part of the fun and challenge."
-    },
-    {
-      "icon": "💰",
-      "title": "Money and Earning Opportunities",
-      "content": "Earn money through main missions, side missions, and even robberies. Spend your money on clothes, vehicles, houses, weapons, and entertainment. Financial freedom is part of the game's appeal — you decide how to spend your money."
-    },
-    {
-      "icon": "🌆",
-      "title": "Diverse Environments and Hidden Secrets",
-      "content": "Three unique cities — Los Santos, San Fierro, and Las Venturas — each with their own neighborhoods, culture, and secrets. From desert areas to beaches and mountains, there's always something new to discover."
-    },
-    {
-      "icon": "📖",
-      "title": "Deep Storyline and Character Development",
-      "content": "The story is compelling, with meaningful character interactions and plot twists. Side characters have depth and personality, making their stories memorable. The main narrative explores themes of loyalty, betrayal, and redemption."
-    }
-  ],
+  "gameplayFeatures": {
+    "data": [
+      {
+        "icon": "🎮",
+        "title": "Customization and Skill Progression",
+        "content": "CJ can customize his appearance by changing clothes, hairstyles, and tattoos. Each action you perform improves specific skills — the more you drive, the better your driving becomes. The more you fly, the better your pilot skills improve. This creates a rewarding sense of growth throughout the game."
+      },
+      {
+        "icon": "⚔️",
+        "title": "Combat and Weapons Arsenal",
+        "content": "The game features over 30 weapons ranging from melee weapons like baseball bats and katanas to firearms like pistols, shotguns, rifles, and more. Combat mechanics are smooth and responsive, making every fight feel impactful. You can also use explosive weapons like rocket launchers and grenades for massive destruction."
+      },
+      {
+        "icon": "🚗",
+        "title": "Vehicle Variety and Driving Physics",
+        "content": "Drive over 250 different vehicles — cars, trucks, motorcycles, boats, and even planes and helicopters. Each vehicle has unique handling, speed, and acceleration. Learning to control different vehicles is part of the fun and challenge."
+      },
+      {
+        "icon": "💰",
+        "title": "Money and Earning Opportunities",
+        "content": "Earn money through main missions, side missions, and even robberies. Spend your money on clothes, vehicles, houses, weapons, and entertainment. Financial freedom is part of the game's appeal — you decide how to spend your money."
+      },
+      {
+        "icon": "🌆",
+        "title": "Diverse Environments and Hidden Secrets",
+        "content": "Three unique cities — Los Santos, San Fierro, and Las Venturas — each with their own neighborhoods, culture, and secrets. From desert areas to beaches and mountains, there's always something new to discover."
+      },
+      {
+        "icon": "📖",
+        "title": "Deep Storyline and Character Development",
+        "content": "The story is compelling, with meaningful character interactions and plot twists. Side characters have depth and personality, making their stories memorable. The main narrative explores themes of loyalty, betrayal, and redemption."
+      }
+    ]
+  },
   "gtaTimeline": {
     "title": "История GTA: Ключевые релизы",
     "subtitle": "Серия Grand Theft Auto стала одной из самых популярных игр с открытым миром. Следите за эволюцией этой культовой франшизы от её скромного начала до наших дней.",
@@ -556,296 +558,275 @@
   },
   "forPC": {
     "hero": {
-      "title": "GTA San Andreas Для ПК",
-      "subtitle": "Испытайте Идеальное Игровое Приключение"
+      "title": "GTA San Andreas For PC",
+      "subtitle": "Experience the Ultimate Gaming Adventure"
     },
     "storySection": {
-      "title": "Полная История GTA San Andreas",
-      "introduction": "Откройте для себя эпическую историю Карла \"CJ\" Джонсона, когда он возвращается в Лос-Сантос, чтобы восстановить свою банду и спасти свою семью. Это полное прохождение самой знаковой сюжетной линии игры."
+      "title": "GTA San Andreas Complete Story Journey",
+      "introduction": "Discover the epic narrative of Carl \"CJ\" Johnson as he returns to Los Santos to rebuild his gang and save his family. This is a complete walkthrough of the game's most iconic storyline."
     },
     "sections": {
       "returnHome": {
-        "title": "Возвращение Домой - Начало Всего",
+        "title": "A Return Home – The Beginning of Everything",
         "content": [
-          "История начинается в 1992 году. После пяти лет жизни в Либерти-Сити Карл \"CJ\" Джонсон получает звонок, который навсегда меняет его жизнь: его мать была убита.",
-          "Он садится на первый рейс обратно в Лос-Сантос, свой родной город, город, теперь разрушенный войнами банд, коррупцией полиции и предательством.",
-          "Когда CJ приземляется, его сразу останавливает офицер Тенпенни и его коррумпированная команда полиции. Они угрожают ему и тащат обратно в городской хаос.",
-          "В момент, когда CJ ступает на Гроув-стрит, мир кажется тяжелым. Его семья разделена, его банда слаба, и его брат Свит обвиняет его в уходе.",
-          "Здесь начинается настоящее путешествие: восстановить Гроув-стрит и собственную жизнь CJ."
+          "The story begins in 1992. After living five years in Liberty City, Carl \"CJ\" Johnson gets a call that changes his life forever: his mother has been killed.",
+          "He boards the first flight back to Los Santos, his hometown, a city now broken by gang wars, police corruption, and betrayal.",
+          "When CJ lands, he's immediately stopped by Officer Tenpenny and his corrupt police team. They threaten him and drag him back into the city's chaos.",
+          "The moment CJ steps onto Grove Street, the world feels heavy. His family is divided, his gang is weak, and his brother, Sweet, blames him for leaving.",
+          "This is where the real journey begins: to rebuild Grove Street and CJ's own life."
         ]
       },
       "oldFriends": {
-        "title": "Старые Друзья, Новые Проблемы",
+        "title": "Old Friends, New Problems",
         "content": [
-          "Сначала CJ пытается помириться со старыми друзьями Биг Смоуком и Райдером. Они говорят о верности и старых временах, но что-то кажется странным.",
-          "Вместе они начинают с малого, распыляя граффити банды, воруя машины и сражаясь с Баллас (их самыми большими соперниками).",
-          "Во время этих миссий мир GTA San Andreas прекрасно раскрывается с районами, полными играющих детей, сигналящих машин и разговаривающих членов банд. Он чувствуется живым.",
-          "Но под этим шумом растет что-то более темное, предательство.",
-          "CJ начинает замечать, что Биг Смоук и Райдер ведут себя по-другому. Их больше волнует власть и деньги, чем Гроув-стрит."
+          "At first, CJ tries to make peace with old friends Big Smoke and Ryder. They talk about loyalty and old times, but something feels strange.",
+          "Together, they start small, spraying gang tags, stealing cars, and fighting Ballas (their biggest rivals).",
+          "During these missions, the world of GTA San Andreas opens up beautifully with neighborhoods filled with kids playing, cars honking, and gang members talking. It feels alive.",
+          "But under that noise, something darker is growing, betrayal.",
+          "CJ starts to notice that Big Smoke and Ryder act differently. They care more about power and money than about Grove Street."
         ]
       },
       "riseOfGangLeader": {
-        "title": "Улицы Лос-Сантоса - Взлет Лидера Банды",
+        "title": "The Streets of Los Santos – Rise of a Gang Leader",
         "content": [
-          "Чтобы заработать уважение, CJ делает все: гонки по городу, помогает своему брату Свиту, защищает улицы и зарабатывает деньги через побочные миссии.",
-          "Версия Mod APK предлагает больше свободы, позволяя игрокам настраивать Гроув-стрит, набирать дополнительных членов банды и покупать недвижимость заранее.",
-          "Вскоре Гроув-стрит снова начинает подниматься. Зеленые флаги возвращаются, банда набирает силу, и Баллас падают.",
-          "Но успех никогда не длится долго в Лос-Сантосе."
+          "To earn respect, CJ does everything: races through the city, helps his brother Sweet, defends the streets, and earns cash through side missions.",
+          "The Mod APK version offers more freedom, allowing players to customize Grove Street, recruit additional gang members, and purchase properties early.",
+          "Soon, Grove Street starts to rise again. The green flags return, the gang gains strength, and the Ballas fall.",
+          "But success never lasts long in Los Santos."
         ]
       },
       "trapChaos": {
-        "title": "Ловушка - Полиция, Предательство и Хаос",
+        "title": "The Trap – Police, Betrayal, and Chaos",
         "content": [
-          "Во время большой миссии CJ и Свит попадают в засаду.",
-          "Свита стреляют, и офицер Тенпенни захватывает CJ. Вот когда выходит шокирующая правда: Биг Смоук и Райдер предали Гроув-стрит. Теперь они работают с Баллас и коррумпированными полицейскими.",
-          "Тенпенни увозит CJ далеко от города и бросает его в сельской местности.",
-          "Без банды, без друзей, только открытая земля и сломленный человек, пытающийся выжить.",
-          "Это средняя часть игры и один из самых эмоциональных моментов в истории GTA."
+          "During a big mission, CJ and Sweet are ambushed.",
+          "Sweet gets shot, and Officer Tenpenny captures CJ. That's when the shocking truth comes out: Big Smoke and Ryder betrayed Grove Street. They are now working with the Ballas and corrupt police officers.",
+          "Tenpenny drives CJ far from the city and dumps him in the countryside.",
+          "No gang, no friends, just open land and a broken man trying to survive.",
+          "This is the middle part of the game and one of the most emotional moments in GTA history."
         ]
       },
       "newBeginning": {
-        "title": "Новое Начало - Миссии в Сельской Местности",
+        "title": "A New Beginning – The Countryside Missions",
         "content": [
-          "CJ встречает новых людей в сельской местности, таких как Каталина, Истина и Сезар.",
-          "Он начинает браться за мелкие работы, включая ограбление заправок, автомобильные гонки и помощь своим союзникам.",
-          "Эта часть показывает рост CJ как личности.",
-          "Он учится доверять новым людям, справляться с новыми вызовами и оставаться сильным, даже когда он далеко от дома.",
-          "Каталина дикая и непредсказуемая. Их отношения юмористичны, отмечены частыми ссорами и чистым хаосом.",
-          "Напротив, Истина - это спокойное и духовное учение, которое говорит CJ странные, но мудрые вещи о жизни."
+          "CJ meets new people in the countryside, such as Catalina, The Truth, and Cesar.",
+          "He starts taking on small jobs, including robbing gas stations, racing cars, and helping his allies.",
+          "This part shows CJ's growth as a person.",
+          "He learns to trust new people, handle new challenges, and stay strong even when he's far from home.",
+          "Catalina is wild and unpredictable. Their relationship is humorous, marked by frequent fights and pure chaos.",
+          "Conversely, the Truth is a calm and spiritual teaching that CJ says strange but wise things about life."
         ]
       },
       "sanFierro": {
-        "title": "Сан-Фиерро - Город Бизнеса и Предательства",
+        "title": "San Fierro – A City of Business and Betrayal",
         "content": [
-          "С помощью Сезара CJ переезжает в Сан-Фиерро, город, вдохновленный Сан-Франциско.",
-          "Здесь он начинает новую фазу, менее сосредоточенную на войнах банд и больше на бизнесе.",
-          "Он покупает гараж, встречает Ву Зи Му (Вузи) и участвует в автомобильных гонках и контрабанде.",
-          "Мир CJ становится больше. Он начинает иметь дело с Триадами, новыми врагами и массовыми миссиями.",
-          "Он также узнает, что Райдер и Биг Смоук тайно развивают свою наркоимперию, защищенную коррумпированным полицейским подразделением Тенпенни.",
-          "Фокус CJ смещается от выживания к власти. Он больше не просто защищает Гроув-стрит; он готовится вернуть все обратно."
+          "With Cesar's help, CJ moves to San Fierro, a city inspired by San Francisco.",
+          "Here, he begins a new phase, one less focused on gang wars and more on business.",
+          "He buys a garage, meets Wu Zi Mu (Woozie), and gets involved in car races and smuggling.",
+          "CJ's world becomes bigger. He starts dealing with Triads, new enemies, and massive missions.",
+          "He also learns that Ryder and Big Smoke are growing their drug empire in secret, protected by Tenpenny's corrupt police unit.",
+          "CJ's focus shifts from survival to power. He's no longer just defending Grove Street; he's preparing to take it all back."
         ]
       },
       "lasVenturas": {
-        "title": "Лас-Вентурас - Казино и Большое Ограбление",
+        "title": "Las Venturas – The Casino and the Big Heist",
         "content": [
-          "Следующая остановка - Лас-Вентурас, город неоновых огней, казино и гангстеров.",
-          "CJ партнерится с Вузи и помогает управлять казино Four Dragons.",
-          "Он узнает, как семьи мафии контролируют все, от азартных игр до строительства.",
-          "Эта часть истории похожа на фильм, полный планирования, переодеваний и крупного ограбления казино.",
-          "В Mod APK игроки могут даже переиграть ограбление с разными стратегиями или использовать продвинутое оружие.",
-          "К этому моменту у CJ есть деньги, уважение и власть, но его конечная цель остается незавершенной: вернуть Лос-Сантос."
+          "The next stop is Las Venturas, a city of neon lights, casinos, and gangsters.",
+          "CJ partners with Woozie and helps manage The Four Dragons Casino.",
+          "He learns how the Mafia families control everything from gambling to construction.",
+          "This part of the story feels like a movie filled with planning, disguises, and a major casino robbery.",
+          "In the Mod APK, players can even replay the heist with different strategies or use advanced weapons.",
+          "By this time, CJ has money, respect, and power, but his ultimate goal remains unfinished: reclaiming Los Santos."
         ]
       },
       "returnToLosSantos": {
-        "title": "Возвращение в Лос-Сантос - Месть и Искупление",
+        "title": "Return to Los Santos – Revenge and Redemption",
         "content": [
-          "После того как Тенпенни разоблачен за свои преступления, город погружается в хаос.",
-          "Бунты наполняют улицы, пожары горят, и банды захватывают власть.",
-          "CJ возвращается домой в последний раз - чтобы спасти своего брата и закончить то, что начал.",
-          "Он атакует крепость Биг Смоука, одну из самых знаковых миссий в истории GTA.",
-          "Битва длинная, темная и эмоциональная. CJ пробивается через десятки охранников, пока не сталкивается с самим Биг Смоуком.",
-          "Последние слова Смоука показывают сожаление - он признает, что его жадность уничтожила его.",
-          "Затем Тенпенни снова появляется, крадет деньги и убегает.",
-          "CJ преследует его по горящим улицам Лос-Сантоса в легендарной сцене погони на машине.",
-          "Наконец, Тенпенни врезается своей машиной с моста и умирает.",
-          "Хаос заканчивается, Гроув-стрит снова стоит высоко, и семья CJ воссоединяется."
+          "After Tenpenny is exposed for his crimes, the city falls into chaos.",
+          "Riots fill the streets, fires burn, and gangs take over.",
+          "CJ returns home one last time — to save his brother and finish what he started.",
+          "He attacks Big Smoke's fortress, one of the most iconic missions in GTA history.",
+          "The battle is long, dark, and emotional. CJ fights through dozens of guards until he faces Big Smoke himself.",
+          "Smoke's final words show regret — he admits his greed destroyed him.",
+          "Then, Tenpenny appears again, steals the money, and escapes.",
+          "CJ chases him through the burning streets of Los Santos in a legendary car chase scene.",
+          "Finally, Tenpenny crashes his car off a bridge and dies.",
+          "The chaos ends, Grove Street stands tall again, and CJ's family is reunited."
         ]
       },
       "ending": {
-        "title": "Финал - Гроув-стрит Навсегда",
+        "title": "The Ending – Grove Street Forever",
         "content": [
-          "Финальная сцена показывает CJ, стоящего на Гроув-стрит, смотрящего на свой дом.",
-          "Свит, Сезар и Кендл рядом с ним. Город наконец спокоен.",
-          "CJ просто говорит, что у него есть \"дела\" и уходит.",
-          "Финал идеален, потому что речь не о славе или победе, а о мире.",
-          "CJ находит равновесие после всего - предательства, боли и мести.",
-          "Даже в 2025 году игроки переигрывают ту последнюю миссию и чувствуют ту же эмоцию.",
-          "Это то, что делает GTA San Andreas вневременной историей - это не просто игра о преступлениях, но история о семейной жизни, верности и выборах."
+          "The final scene shows CJ standing on Grove Street, looking at his home.",
+          "Sweet, Cesar, and Kendl are beside him. The city is finally calm.",
+          "CJ simply says he has \"things to do\" and walks away.",
+          "The ending is perfect because it's not about fame or victory but peace.",
+          "CJ finds balance after everything — betrayal, pain, and revenge.",
+          "Even in 2025, players replay that last mission and feel the same emotion.",
+          "That makes GTA San Andreas a timeless story — it is not just a crime game but a life story of family, loyalty, and choices."
         ]
       },
       "legacy": {
-        "title": "Наследие GTA San Andreas в 2025 году",
+        "title": "The Legacy of GTA San Andreas in 2025",
         "content": [
-          "Более 20 лет спустя GTA San Andreas все еще правит сердцами.",
-          "Игроки используют версию Mod APK GTA San Andreas PC или Mobile, чтобы пережить ту магию - с современными обновлениями, HD-графикой и новыми миссиями.",
-          "Причина, по которой люди продолжают возвращаться, проста:",
-          "Независимо от того, насколько меняется графика, история CJ остается мощной.",
-          "Она напоминает игрокам, что верность имеет значение, что семья может быть потеряна и найдена, и что никто не забывает, откуда они родом, особенно когда это место - Гроув-стрит."
+          "More than 20 years later, GTA San Andreas still rules hearts.",
+          "Players use the GTA San Andreas Mod APK PC or Mobile version to relive that magic — with modern updates, HD graphics, and new missions.",
+          "The reason people keep coming back is simple:",
+          "No matter how much the graphics change, the story of CJ remains powerful.",
+          "It reminds players that loyalty matters, that family can be lost and found, and that no one forgets where they came from, especially when that place is Grove Street."
         ]
       }
     },
     "experience": {
-      "title": "Как Получить Больше Опыта и Насладиться GTA San Andreas",
+      "title": "How to Gain More Experience and Enjoy GTA San Andreas",
       "tips": {
         "gym": {
           "emoji": "💪",
-          "title": "Тренироваться в Спортзале",
-          "description": "Увеличьте силу и выносливость CJ для улучшения общей производительности."
+          "title": "Train at the Gym",
+          "description": "Increase CJ's strength and stamina to improve overall performance."
         },
         "drive": {
           "emoji": "🏎️",
-          "title": "Водите Ежедневно",
-          "description": "Чем больше вы водите, тем лучше CJ управляет автомобилями и транспортными средствами."
+          "title": "Drive Daily",
+          "description": "The more you drive, the better CJ handles cars and vehicles."
         },
         "weapons": {
           "emoji": "🎯",
-          "title": "Используйте Оружие Регулярно",
-          "description": "Практика улучшает навыки прицеливания и владения оружием в бою."
+          "title": "Use Weapons Regularly",
+          "description": "Practice improves aiming skills and weapon proficiency in combat."
         },
         "gangWars": {
           "emoji": "⚔️",
-          "title": "Участвуйте в Войнах Банд",
-          "description": "Завоевание территорий увеличивает денежный поток и уважение в районе."
+          "title": "Join Gang Wars",
+          "description": "Winning territories increases money flow and neighborhood respect."
         },
         "food": {
           "emoji": "🍎",
-          "title": "Питайтесь Здорово",
-          "description": "Избегайте нездоровой пищи, иначе CJ станет медленным и менее эффективным."
+          "title": "Eat Healthy",
+          "description": "Avoid junk food, or CJ will get slow and less effective."
         },
         "outfits": {
           "emoji": "👕",
-          "title": "Меняйте Наряды",
-          "description": "Стиль CJ улучшает уважение в различных районах."
+          "title": "Change Outfits",
+          "description": "CJ's style improves respect in different neighborhoods."
         },
         "explore": {
           "emoji": "🗺️",
-          "title": "Исследуйте Секретные Зоны",
-          "description": "Скрытые места часто содержат ценные предметы, такие как оружие или броня."
+          "title": "Explore Secret Areas",
+          "description": "Hidden spots often contain valuable items like weapons or armor."
         },
         "save": {
           "emoji": "💾",
-          "title": "Сохраняйтесь Часто",
-          "description": "Всегда сохраняйтесь перед сложными миссиями, чтобы избежать потери прогресса."
+          "title": "Save Often",
+          "description": "Always save before challenging missions to avoid losing progress."
         }
       },
-      "personalNote": "Личное Примечание",
-      "personalNoteText": "Когда я впервые научился летать на истребителе Hydra, я провел часы, пролетая над городами, наслаждаясь видом. Этот вид удовольствия никогда не заканчивается в GTA San Andreas. Будь то исследование скрытых коротких путей, обнаружение пасхалок или просто наслаждение огромным миром, который создала Rockstar, каждый момент приносит что-то новое для опыта."
+      "personalNote": "Personal Note",
+      "personalNoteText": "When I first learned to fly the Hydra jet, I spent hours flying across cities to enjoy the view. This kind of fun never ends in GTA San Andreas. Whether you're exploring hidden shortcuts, discovering easter eggs, or simply enjoying the immense world Rockstar created, every moment brings something new to experience."
     },
     "whyLoveIt": {
-      "title": "Почему Все Все Еще Любят GTA San Andreas",
+      "title": "Why Everyone Still Loves GTA San Andreas",
       "content": [
-        "Когда люди говорят о лучшей игре с открытым миром, когда-либо созданной, одно имя всегда всплывает - GTA San Andreas.",
-        "Даже спустя более десяти лет эта культовая игра с открытым миром все еще правит сердцами миллионов. Улицы, музыка, персонажи, все кажется живым.",
-        "Mod APK GTA San Andreas возвращает этот классик с современными обновлениями. Игроки теперь могут наслаждаться более плавной графикой, новыми автомобилями, лучшим оружием и дополнительными миссиями. Это кажется одновременно классическим и новым.",
-        "Многие игроки, которые пробовали GTA 3, GTA 4 и даже GTA 5, вернулись к San Andreas. Никакая другая игра GTA не захватывает дух улиц, узы братства и сырую энергию, как эта.",
-        "Если вы новичок в GTA San Andreas или возвращаетесь после многих лет, этот гид 2025 года предоставит вам все, что вам нужно: информация об игре, функции, советы, хитрости и обновления."
+        "When people talk about the best open-world game ever made, one name always comes up — GTA San Andreas.",
+        "Even after over a decade, this iconic open-world game still rules the hearts of millions. The streets, the music, the characters, everything feels alive.",
+        "The GTA San Andreas Mod APK brings this classic back with modern updates. Players can now enjoy smoother graphics, new cars, better weapons, and extra missions. It feels both classic and new at the same time.",
+        "Many gamers who tried GTA 3, GTA 4, and even GTA 5 have returned to San Andreas. No other GTA game captures the spirit of the streets, the bond of brotherhood, and the raw energy like this one.",
+        "If you are new to GTA San Andreas or returning after years, this 2025 guide will provide you with everything you need: gameplay information, features, tips, cheats, and updates."
       ]
     },
     "overview": {
-      "title": "Обзор GTA San Andreas Mod APK",
+      "title": "GTA San Andreas Mod APK Overview",
       "table": {
-        "gameName": "Название Игры",
+        "gameName": "Game Name",
         "gameNameValue": "GTA San Andreas Mod APK",
-        "developer": "Разработчик",
+        "developer": "Developer",
         "developerValue": "Rockstar Games",
-        "genre": "Жанр",
-        "genreValue": "Экшн, Приключения, Открытый Мир",
-        "mode": "Режим",
-        "modeValue": "Оффлайн / Онлайн",
-        "platform": "Платформа",
+        "genre": "Genre",
+        "genreValue": "Action, Adventure, Open World",
+        "mode": "Mode",
+        "modeValue": "Offline / Online",
+        "platform": "Platform",
         "platformValue": "Android, iOS, PC",
-        "releaseYear": "Год Выпуска (Мод)",
-        "releaseYearValue": "Обновленное Издание 2025"
+        "releaseYear": "Release Year (Mod)",
+        "releaseYearValue": "2025 Updated Edition"
       },
-      "description": "Версия Mod APK GTA San Andreas специально разработана для игроков, которые хотят полный контроль над игрой, все миссии разблокированы, неограниченные деньги и доступ к премиальным транспортным средствам и оружию. Это идеально подходит для тех, кто любит экспериментировать в среде открытого мира."
+      "description": "The GTA San Andreas Mod APK version is specifically designed for players who want complete control of the game, all missions are unlocked, unlimited money, and access to premium vehicles and weapons. It's perfect for those who love experimenting in an open-world environment."
     },
     "updates": {
-      "title": "Что Нового в 2025 - Последние Обновления",
-      "intro": "Многие игроки все еще играют в GTA San Andreas в 2025 году, и разработчики продолжают улучшать производительность игры на новых системах.",
+      "title": "What is New in 2025 – Latest Updates",
+      "intro": "Many players are still playing GTA San Andreas in 2025, and developers continue to improve the game's performance on newer systems.",
       "items": {
         "graphics": {
-          "title": "Лучшая Графическая Поддержка",
-          "description": "Теперь поддерживает более высокие разрешения и более плавные текстуры для ПК и мобильных устройств."
+          "title": "Better Graphics Support",
+          "description": "Now supports higher resolutions and smoother textures for PC and mobile."
         },
         "controls": {
-          "title": "Улучшенные Сенсорные Элементы Управления",
-          "description": "Мобильная версия имеет более чистые кнопки и более быстрый отклик."
+          "title": "Improved Touch Controls",
+          "description": "The mobile version has cleaner buttons and a faster response."
         },
         "cloudSave": {
-          "title": "Опция Облачного Сохранения",
-          "description": "Теперь вы можете сохранять прогресс онлайн на всех устройствах."
+          "title": "Cloud Save Option",
+          "description": "You can now save progress online across devices."
         },
         "patches": {
-          "title": "Новые Патчи Совместимости",
-          "description": "Лучшая поддержка для Windows 11, Android 14 и iOS 18."
+          "title": "New Compatibility Patches",
+          "description": "Better support for Windows 11, Android 14, and iOS 18."
         },
         "lag": {
-          "title": "Уменьшенное Отставание",
-          "description": "Последнее обновление уменьшает падения кадров и проблемы с перегревом на мобильных устройствах."
+          "title": "Reduced Lag",
+          "description": "The latest update reduces frame drops and heating issues on mobile devices."
         },
         "controller": {
-          "title": "Поддержка Контроллера",
-          "description": "Мобильные устройства теперь поддерживают Bluetooth-контроллеры для более плавного игрового опыта."
+          "title": "Controller Support",
+          "description": "Mobile now supports Bluetooth controllers for a smoother gaming experience."
         },
         "customization": {
-          "title": "Более Легкая Настройка",
-          "description": "Игроки могут напрямую настраивать камеру, чувствительность и параметры отображения."
+          "title": "Easier Customization",
+          "description": "Players can adjust the camera, sensitivity, and display settings directly."
         },
         "crashes": {
-          "title": "Официальное Исправление Сбоев",
-          "description": "Новый патч Rockstar предотвращает случайные остановки игры на современных устройствах."
+          "title": "Official Fix for Crashes",
+          "description": "Rockstar's new patch prevents random game shutdowns on modern devices."
         }
       }
     },
     "faqs": {
-      "title": "FAQ - GTA San Andreas 2025",
-      "subtitle": "Найдите ответы на наиболее распространенные вопросы о GTA San Andreas на ПК и Мобильных.",
+      "title": "FAQs – GTA San Andreas 2025",
+      "subtitle": "Find answers to the most common questions about GTA San Andreas on PC and Mobile.",
       "questions": {
         "q1": {
-          "question": "Что делает GTA San Andreas все еще популярной в 2025?",
-          "answer": "Она предлагает настоящую свободу, богатую историю и бесконечное веселье, которое могут сравнить немногие игры."
+          "question": "What makes GTA San Andreas still popular in 2025?",
+          "answer": "It offers genuine freedom, a rich story, and endless fun that few games can match."
         },
         "q2": {
-          "question": "GTA San Andreas доступна для ПК и Мобильных?",
-          "answer": "Да. Она идеально работает на Windows, Android и iOS."
+          "question": "Is GTA San Andreas available for both PC and Mobile?",
+          "answer": "Yes. It runs smoothly on Windows, Android, and iOS."
         },
         "q3": {
-          "question": "Могу ли я использовать читы на своем мобильном устройстве?",
-          "answer": "Да, но вам нужна внешняя клавиатура или встроенная опция читов."
+          "question": "Can I use cheats on my mobile device?",
+          "answer": "Yes, but you need an external keyboard or a built-in cheat option."
         },
         "q4": {
-          "question": "Кто главный герой?",
-          "answer": "Карл \"CJ\" Джонсон - смелый человек, борющийся за семью и уважение."
+          "question": "Who is the main hero?",
+          "answer": "Carl \"CJ\" Johnson — a brave man fighting for family and respect."
         },
         "q5": {
-          "question": "Каков размер игры?",
-          "answer": "Около 6 ГБ для ПК и 2,6 ГБ для мобильных."
+          "question": "How big is the game size?",
+          "answer": "Around 6 GB for PC and 2.6 GB for mobile."
         },
         "q6": {
-          "question": "Могу ли я играть оффлайн?",
-          "answer": "Да, вся игра может быть сыграна оффлайн после установки."
+          "question": "Can I play offline?",
+          "answer": "Yes, the entire game can be played offline after installation."
         },
         "q7": {
-          "question": "Есть ли скрытые миссии?",
-          "answer": "Да. Есть секретные побочные миссии, включая курьера, мстителя и гонки."
+          "question": "Are there hidden missions?",
+          "answer": "Yes. There are secret side missions, including courier, vigilante, and racing."
         },
         "q8": {
-          "question": "Что лучше, ПК или Мобильные?",
-          "answer": "ПК предлагает лучшую графику, а мобильные предлагают комфорт. Оба отличны в 2025."
+          "question": "Which is better, PC or Mobile?",
+          "answer": "PC offers better graphics, while mobile offers comfort. Both are great in 2025."
         }
       }
     }
-  },
-  "forPC": {
-    "hero": {"title": "GTA San Andreas For PC", "subtitle": "Experience the Ultimate Gaming Adventure"},
-    "storySection": {"title": "GTA San Andreas Complete Story Journey", "introduction": "Discover the epic narrative of Carl \"CJ\" Johnson as he returns to Los Santos to rebuild his gang and save his family. This is a complete walkthrough of the game's most iconic storyline."},
-    "sections": {
-      "returnHome": {"title": "A Return Home – The Beginning of Everything", "content": ["The story begins in 1992. After living five years in Liberty City, Carl \"CJ\" Johnson gets a call that changes his life forever: his mother has been killed.", "He boards the first flight back to Los Santos, his hometown, a city now broken by gang wars, police corruption, and betrayal.", "When CJ lands, he's immediately stopped by Officer Tenpenny and his corrupt police team. They threaten him and drag him back into the city's chaos.", "The moment CJ steps onto Grove Street, the world feels heavy. His family is divided, his gang is weak, and his brother, Sweet, blames him for leaving.", "This is where the real journey begins: to rebuild Grove Street and CJ's own life."]},
-      "oldFriends": {"title": "Old Friends, New Problems", "content": ["At first, CJ tries to make peace with old friends Big Smoke and Ryder. They talk about loyalty and old times, but something feels strange.", "Together, they start small, spraying gang tags, stealing cars, and fighting Ballas (their biggest rivals).", "During these missions, the world of GTA San Andreas opens up beautifully with neighborhoods filled with kids playing, cars honking, and gang members talking. It feels alive.", "But under that noise, something darker is growing, betrayal.", "CJ starts to notice that Big Smoke and Ryder act differently. They care more about power and money than about Grove Street."]},
-      "riseOfGangLeader": {"title": "The Streets of Los Santos – Rise of a Gang Leader", "content": ["To earn respect, CJ does everything: races through the city, helps his brother Sweet, defends the streets, and earns cash through side missions.", "The Mod APK version offers more freedom, allowing players to customize Grove Street, recruit additional gang members, and purchase properties early.", "Soon, Grove Street starts to rise again. The green flags return, the gang gains strength, and the Ballas fall.", "But success never lasts long in Los Santos."]},
-      "trapChaos": {"title": "The Trap – Police, Betrayal, and Chaos", "content": ["During a big mission, CJ and Sweet are ambushed.", "Sweet gets shot, and Officer Tenpenny captures CJ. That's when the shocking truth comes out: Big Smoke and Ryder betrayed Grove Street. They are now working with the Ballas and corrupt police officers.", "Tenpenny drives CJ far from the city and dumps him in the countryside.", "No gang, no friends, just open land and a broken man trying to survive.", "This is the middle part of the game and one of the most emotional moments in GTA history."]},
-      "newBeginning": {"title": "A New Beginning – The Countryside Missions", "content": ["CJ meets new people in the countryside, such as Catalina, The Truth, and Cesar.", "He starts taking on small jobs, including robbing gas stations, racing cars, and helping his allies.", "This part shows CJ's growth as a person.", "He learns to trust new people, handle new challenges, and stay strong even when he's far from home.", "Catalina is wild and unpredictable. Their relationship is humorous, marked by frequent fights and pure chaos.", "Conversely, the Truth is a calm and spiritual teaching that CJ says strange but wise things about life."]},
-      "sanFierro": {"title": "San Fierro – A City of Business and Betrayal", "content": ["With Cesar's help, CJ moves to San Fierro, a city inspired by San Francisco.", "Here, he begins a new phase, one less focused on gang wars and more on business.", "He buys a garage, meets Wu Zi Mu (Woozie), and gets involved in car races and smuggling.", "CJ's world becomes bigger. He starts dealing with Triads, new enemies, and massive missions.", "He also learns that Ryder and Big Smoke are growing their drug empire in secret, protected by Tenpenny's corrupt police unit.", "CJ's focus shifts from survival to power. He's no longer just defending Grove Street; he's preparing to take it all back."]},
-      "lasVenturas": {"title": "Las Venturas – The Casino and the Big Heist", "content": ["The next stop is Las Venturas, a city of neon lights, casinos, and gangsters.", "CJ partners with Woozie and helps manage The Four Dragons Casino.", "He learns how the Mafia families control everything from gambling to construction.", "This part of the story feels like a movie filled with planning, disguises, and a major casino robbery.", "In the Mod APK, players can even replay the heist with different strategies or use advanced weapons.", "By this time, CJ has money, respect, and power, but his ultimate goal remains unfinished: reclaiming Los Santos."]},
-      "returnToLosSantos": {"title": "Return to Los Santos – Revenge and Redemption", "content": ["After Tenpenny is exposed for his crimes, the city falls into chaos.", "Riots fill the streets, fires burn, and gangs take over.", "CJ returns home one last time — to save his brother and finish what he started.", "He attacks Big Smoke's fortress, one of the most iconic missions in GTA history.", "The battle is long, dark, and emotional. CJ fights through dozens of guards until he faces Big Smoke himself.", "Smoke's final words show regret — he admits his greed destroyed him.", "Then, Tenpenny appears again, steals the money, and escapes.", "CJ chases him through the burning streets of Los Santos in a legendary car chase scene.", "Finally, Tenpenny crashes his car off a bridge and dies.", "The chaos ends, Grove Street stands tall again, and CJ's family is reunited."]},
-      "ending": {"title": "The Ending – Grove Street Forever", "content": ["The final scene shows CJ standing on Grove Street, looking at his home.", "Sweet, Cesar, and Kendl are beside him. The city is finally calm.", "CJ simply says he has \"things to do\" and walks away.", "The ending is perfect because it's not about fame or victory but peace.", "CJ finds balance after everything — betrayal, pain, and revenge.", "Even in 2025, players replay that last mission and feel the same emotion.", "That makes GTA San Andreas a timeless story — it is not just a crime game but a life story of family, loyalty, and choices."]},
-      "legacy": {"title": "The Legacy of GTA San Andreas in 2025", "content": ["More than 20 years later, GTA San Andreas still rules hearts.", "Players use the GTA San Andreas Mod APK PC or Mobile version to relive that magic — with modern updates, HD graphics, and new missions.", "The reason people keep coming back is simple:", "No matter how much the graphics change, the story of CJ remains powerful.", "It reminds players that loyalty matters, that family can be lost and found, and that no one forgets where they came from, especially when that place is Grove Street."]}
-    },
-    "experience": {"title": "How to Gain More Experience and Enjoy GTA San Andreas", "tips": {"gym": {"emoji": "💪", "title": "Train at the Gym", "description": "Increase CJ's strength and stamina to improve overall performance."}, "drive": {"emoji": "🏎️", "title": "Drive Daily", "description": "The more you drive, the better CJ handles cars and vehicles."}, "weapons": {"emoji": "🎯", "title": "Use Weapons Regularly", "description": "Practice improves aiming skills and weapon proficiency in combat."}, "gangWars": {"emoji": "⚔️", "title": "Join Gang Wars", "description": "Winning territories increases money flow and neighborhood respect."}, "food": {"emoji": "🍎", "title": "Eat Healthy", "description": "Avoid junk food, or CJ will get slow and less effective."}, "outfits": {"emoji": "👕", "title": "Change Outfits", "description": "CJ's style improves respect in different neighborhoods."}, "explore": {"emoji": "🗺️", "title": "Explore Secret Areas", "description": "Hidden spots often contain valuable items like weapons or armor."}, "save": {"emoji": "💾", "title": "Save Often", "description": "Always save before challenging missions to avoid losing progress."}}, "personalNote": "Personal Note", "personalNoteText": "When I first learned to fly the Hydra jet, I spent hours flying across cities to enjoy the view. This kind of fun never ends in GTA San Andreas. Whether you're exploring hidden shortcuts, discovering easter eggs, or simply enjoying the immense world Rockstar created, every moment brings something new to experience."},
-    "whyLoveIt": {"title": "Why Everyone Still Loves GTA San Andreas", "content": ["When people talk about the best open-world game ever made, one name always comes up — GTA San Andreas.", "Even after over a decade, this iconic open-world game still rules the hearts of millions. The streets, the music, the characters, everything feels alive.", "The GTA San Andreas Mod APK brings this classic back with modern updates. Players can now enjoy smoother graphics, new cars, better weapons, and extra missions. It feels both classic and new at the same time.", "Many gamers who tried GTA 3, GTA 4, and even GTA 5 have returned to San Andreas. No other GTA game captures the spirit of the streets, the bond of brotherhood, and the raw energy like this one.", "If you are new to GTA San Andreas or returning after years, this 2025 guide will provide you with everything you need: gameplay information, features, tips, cheats, and updates."]},
-    "overview": {"title": "GTA San Andreas Mod APK Overview", "table": {"gameName": "Game Name", "gameNameValue": "GTA San Andreas Mod APK", "developer": "Developer", "developerValue": "Rockstar Games", "genre": "Genre", "genreValue": "Action, Adventure, Open World", "mode": "Mode", "modeValue": "Offline / Online", "platform": "Platform", "platformValue": "Android, iOS, PC", "releaseYear": "Release Year (Mod)", "releaseYearValue": "2025 Updated Edition"}, "description": "The GTA San Andreas Mod APK version is specifically designed for players who want complete control of the game, all missions are unlocked, unlimited money, and access to premium vehicles and weapons. It's perfect for those who love experimenting in an open-world environment."},
-    "updates": {"title": "What is New in 2025 – Latest Updates", "intro": "Many players are still playing GTA San Andreas in 2025, and developers continue to improve the game's performance on newer systems.", "items": {"graphics": {"title": "Better Graphics Support", "description": "Now supports higher resolutions and smoother textures for PC and mobile."}, "controls": {"title": "Improved Touch Controls", "description": "The mobile version has cleaner buttons and a faster response."}, "cloudSave": {"title": "Cloud Save Option", "description": "You can now save progress online across devices."}, "patches": {"title": "New Compatibility Patches", "description": "Better support for Windows 11, Android 14, and iOS 18."}, "lag": {"title": "Reduced Lag", "description": "The latest update reduces frame drops and heating issues on mobile devices."}, "controller": {"title": "Controller Support", "description": "Mobile now supports Bluetooth controllers for a smoother gaming experience."}, "customization": {"title": "Easier Customization", "description": "Players can adjust the camera, sensitivity, and display settings directly."}, "crashes": {"title": "Official Fix for Crashes", "description": "Rockstar's new patch prevents random game shutdowns on modern devices."}}},
-    "faqs": {"title": "FAQs – GTA San Andreas 2025", "subtitle": "Find answers to the most common questions about GTA San Andreas on PC and Mobile.", "questions": {"q1": {"question": "What makes GTA San Andreas still popular in 2025?", "answer": "It offers genuine freedom, a rich story, and endless fun that few games can match."}, "q2": {"question": "Is GTA San Andreas available for both PC and Mobile?", "answer": "Yes. It runs smoothly on Windows, Android, and iOS."}, "q3": {"question": "Can I use cheats on my mobile device?", "answer": "Yes, but you need an external keyboard or a built-in cheat option."}, "q4": {"question": "Who is the main hero?", "answer": "Carl \"CJ\" Johnson — a brave man fighting for family and respect."}, "q5": {"question": "How big is the game size?", "answer": "Around 6 GB for PC and 2.6 GB for mobile."}, "q6": {"question": "Can I play offline?", "answer": "Yes, the entire game can be played offline after installation."}, "q7": {"question": "Are there hidden missions?", "answer": "Yes. There are secret side missions, including courier, vigilante, and racing."}, "q8": {"question": "Which is better, PC or Mobile?", "answer": "PC offers better graphics, while mobile offers comfort. Both are great in 2025."}}}
   },
   "missions": {
     "secretMissionsTitle": "Секретные миссии",
@@ -911,9 +892,477 @@
     "vehicleDatabase": {
       "title": "Список автомобилей GTA San Andreas: полная база данных транспорта",
       "subtitle": "Все транспортные средства с информацией о скорости и цене",
-      "headers": ["Название автомобиля", "Тип", "Максимальная скорость", "Цена"],
+      "headers": [
+        "Название автомобиля",
+        "Тип",
+        "Максимальная скорость",
+        "Цена"
+      ],
       "totalVehicles": "200+ Транспортных средств",
-      "data": [{"name": "Admiral", "type": "Авто/Седан", "speed": "103 км/ч", "price": "35.000 $"},{"name": "Alpha", "type": "Авто/Спорт", "speed": "124 км/ч", "price": "35.000 $"},{"name": "Ambulance", "type": "Скорая/Авто", "speed": "96 км/ч", "price": "10.000 $"},{"name": "Andromada", "type": "Самолёты", "speed": "Н/О", "price": "Н/О"},{"name": "Airtrain", "type": "Транспорт", "speed": "Н/О", "price": "Н/О"},{"name": "Airwolf", "type": "Вертолёты", "speed": "190 км/ч", "price": "Н/О"},{"name": "Artict", "type": "Грузовики", "speed": "87 км/ч", "price": "45.000 $"},{"name": "Baller", "type": "Внедорожники", "speed": "118 км/ч", "price": "60.000 $"},{"name": "Banshee", "type": "Авто/Спорт", "speed": "129 км/ч", "price": "65.000 $"},{"name": "Barracks", "type": "Военный/Грузовик", "speed": "75 км/ч", "price": "Н/О"},{"name": "Barracks OL", "type": "Военный/Грузовик", "speed": "75 км/ч", "price": "Н/О"},{"name": "Berkley's Van", "type": "Фургоны", "speed": "82 км/ч", "price": "15.000 $"},{"name": "BF-400", "type": "Мото/Велосипеды", "speed": "120 км/ч", "price": "18.000 $"},{"name": "BF-Injection", "type": "Внедорожник", "speed": "110 км/ч", "price": "12.000 $"},{"name": "Bike", "type": "Мото/Велосипеды", "speed": "12 км/ч", "price": "Бесплатно"},{"name": "Blade", "type": "Авто/Лоурайдер", "speed": "112 км/ч", "price": "52.000 $"},{"name": "Blista Compact", "type": "Авто/Город", "speed": "102 км/ч", "price": "18.000 $"},{"name": "Bloodring Banger", "type": "Авто/Модифицированный", "speed": "108 км/ч", "price": "Н/О"},{"name": "Blueline Goods", "type": "Грузовик/Доставка", "speed": "88 км/ч", "price": "Н/О"},{"name": "Boat", "type": "Водный транспорт", "speed": "85 км/ч", "price": "Н/О"},{"name": "Boxville", "type": "Грузовик/Доставка", "speed": "91 км/ч", "price": "Н/О"},{"name": "Brawler", "type": "Авто/Внедорожник", "speed": "98 км/ч", "price": "24.000 $"},{"name": "Breeze", "type": "Авто/Город", "speed": "100 км/ч", "price": "16.000 $"},{"name": "Bronco", "type": "Внедорожники", "speed": "115 км/ч", "price": "55.000 $"},{"name": "Brown Streak", "type": "Транспорт", "speed": "Н/О", "price": "Н/О"},{"name": "Bus", "type": "Транспорт/Автобус", "speed": "85 км/ч", "price": "Н/О"},{"name": "Cabbie", "type": "Такси", "speed": "100 км/ч", "price": "Н/О"},{"name": "Camper", "type": "Фургоны", "speed": "99 км/ч", "price": "28.000 $"},{"name": "Caracara", "type": "Внедорожники", "speed": "115 км/ч", "price": "58.000 $"},{"name": "Carbine", "type": "Винтовки", "speed": "Н/О", "price": "Н/О"},{"name": "Carabane", "type": "Авто/Транспорт", "speed": "105 км/ч", "price": "Н/О"},{"name": "Cargobob", "type": "Вертолёты", "speed": "175 км/ч", "price": "Н/О"},{"name": "Cargoplane", "type": "Самолёты", "speed": "Н/О", "price": "Н/О"},{"name": "Cartop", "type": "Транспорт", "speed": "Н/О", "price": "Н/О"},{"name": "Cement Truck", "type": "Грузовик/Промышленный", "speed": "92 км/ч", "price": "42.000 $"},{"name": "Cheetah", "type": "Авто/Спорт", "speed": "130 км/ч", "price": "80.000 $"},{"name": "Cherub", "type": "Самолёты", "speed": "Н/О", "price": "Н/О"},{"name": "Clover", "type": "Авто/Банда", "speed": "106 км/ч", "price": "Н/О"},{"name": "Coach", "type": "Автобус", "speed": "80 км/ч", "price": "Н/О"},{"name": "Comet", "type": "Авто/Спорт", "speed": "125 км/ч", "price": "72.000 $"},{"name": "Commandeer", "type": "Военный/Грузовик", "speed": "95 км/ч", "price": "Н/О"},{"name": "Copter", "type": "Вертолёты", "speed": "180 км/ч", "price": "Н/О"},{"name": "Corpse", "type": "Авто/Модифицированный", "speed": "80 км/ч", "price": "Н/О"},{"name": "Covered Wagon", "type": "Повозки", "speed": "95 км/ч", "price": "Н/О"},{"name": "Crate", "type": "Транспорт", "speed": "Н/О", "price": "Н/О"},{"name": "Crane", "type": "Промышленный", "speed": "Н/О", "price": "Н/О"},{"name": "Crusader", "type": "Грузовики", "speed": "88 км/ч", "price": "Н/О"},{"name": "Cuban", "type": "Самолёты", "speed": "Н/О", "price": "Н/О"},{"name": "Dinghy", "type": "Водный транспорт", "speed": "60 км/ч", "price": "Н/О"},{"name": "Dinghy Inflatable", "type": "Водный транспорт", "speed": "60 км/ч", "price": "Н/О"},{"name": "Dozer", "type": "Промышленный", "speed": "55 км/ч", "price": "Н/О"},{"name": "DPV", "type": "Мотоциклы", "speed": "120 км/ч", "price": "Н/О"},{"name": "Dub", "type": "Авто/Лоурайдер", "speed": "110 км/ч", "price": "50.000 $"},{"name": "Dumper", "type": "Грузовик/Промышленный", "speed": "76 км/ч", "price": "48.000 $"},{"name": "Dustoff", "type": "Вертолёты", "speed": "185 км/ч", "price": "Н/О"},{"name": "DWT-20", "type": "Мотоциклы", "speed": "115 км/ч", "price": "16.000 $"},{"name": "Elegy", "type": "Авто/Спорт", "speed": "126 км/ч", "price": "78.000 $"},{"name": "Emerus", "type": "Авто/Спорт", "speed": "135 км/ч", "price": "88.000 $"},{"name": "Emperor", "type": "Авто/Седан", "speed": "105 км/ч", "price": "32.000 $"},{"name": "Enforcer", "type": "Грузовик/SWAT", "speed": "92 км/ч", "price": "Н/О"},{"name": "Esperanto", "type": "Авто/Классический", "speed": "108 км/ч", "price": "38.000 $"},{"name": "Euros", "type": "Авто/Спорт", "speed": "132 км/ч", "price": "85.000 $"},{"name": "Everon", "type": "Авто/Внедорожник", "speed": "118 км/ч", "price": "62.000 $"},{"name": "Exemplar", "type": "Авто/Люкс", "speed": "117 км/ч", "price": "70.000 $"},{"name": "Exterminator", "type": "Грузовики", "speed": "95 км/ч", "price": "Н/О"},{"name": "Faimliner", "type": "Транспорт", "speed": "Н/О", "price": "Н/О"},{"name": "Fairtone", "type": "Авто/Классический", "speed": "103 км/ч", "price": "35.000 $"},{"name": "Farmtruck", "type": "Грузовики", "speed": "82 км/ч", "price": "12.000 $"},{"name": "FCR-900", "type": "Мотоциклы", "speed": "128 км/ч", "price": "24.000 $"},{"name": "Feltzer", "type": "Авто/Кабриолет", "speed": "119 км/ч", "price": "68.000 $"},{"name": "Firetruk", "type": "Пожарный", "speed": "88 км/ч", "price": "Н/О"},{"name": "Flatbed", "type": "Грузовики", "speed": "86 км/ч", "price": "Н/О"},{"name": "Forklift", "type": "Промышленный", "speed": "45 км/ч", "price": "Н/О"},{"name": "Fortune", "type": "Авто/Классический", "speed": "105 км/ч", "price": "40.000 $"},{"name": "Freeway", "type": "Мотоциклы", "speed": "122 км/ч", "price": "22.000 $"},{"name": "Futo", "type": "Авто/Город", "speed": "108 км/ч", "price": "22.000 $"},{"name": "Fuzzie", "type": "Мотоциклы", "speed": "110 км/ч", "price": "Н/О"}]
+      "data": [
+        {
+          "name": "Admiral",
+          "type": "Авто/Седан",
+          "speed": "103 км/ч",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Alpha",
+          "type": "Авто/Спорт",
+          "speed": "124 км/ч",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Ambulance",
+          "type": "Скорая/Авто",
+          "speed": "96 км/ч",
+          "price": "10.000 $"
+        },
+        {
+          "name": "Andromada",
+          "type": "Самолёты",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Airtrain",
+          "type": "Транспорт",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Airwolf",
+          "type": "Вертолёты",
+          "speed": "190 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Artict",
+          "type": "Грузовики",
+          "speed": "87 км/ч",
+          "price": "45.000 $"
+        },
+        {
+          "name": "Baller",
+          "type": "Внедорожники",
+          "speed": "118 км/ч",
+          "price": "60.000 $"
+        },
+        {
+          "name": "Banshee",
+          "type": "Авто/Спорт",
+          "speed": "129 км/ч",
+          "price": "65.000 $"
+        },
+        {
+          "name": "Barracks",
+          "type": "Военный/Грузовик",
+          "speed": "75 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Barracks OL",
+          "type": "Военный/Грузовик",
+          "speed": "75 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Berkley's Van",
+          "type": "Фургоны",
+          "speed": "82 км/ч",
+          "price": "15.000 $"
+        },
+        {
+          "name": "BF-400",
+          "type": "Мото/Велосипеды",
+          "speed": "120 км/ч",
+          "price": "18.000 $"
+        },
+        {
+          "name": "BF-Injection",
+          "type": "Внедорожник",
+          "speed": "110 км/ч",
+          "price": "12.000 $"
+        },
+        {
+          "name": "Bike",
+          "type": "Мото/Велосипеды",
+          "speed": "12 км/ч",
+          "price": "Бесплатно"
+        },
+        {
+          "name": "Blade",
+          "type": "Авто/Лоурайдер",
+          "speed": "112 км/ч",
+          "price": "52.000 $"
+        },
+        {
+          "name": "Blista Compact",
+          "type": "Авто/Город",
+          "speed": "102 км/ч",
+          "price": "18.000 $"
+        },
+        {
+          "name": "Bloodring Banger",
+          "type": "Авто/Модифицированный",
+          "speed": "108 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Blueline Goods",
+          "type": "Грузовик/Доставка",
+          "speed": "88 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Boat",
+          "type": "Водный транспорт",
+          "speed": "85 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Boxville",
+          "type": "Грузовик/Доставка",
+          "speed": "91 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Brawler",
+          "type": "Авто/Внедорожник",
+          "speed": "98 км/ч",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Breeze",
+          "type": "Авто/Город",
+          "speed": "100 км/ч",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Bronco",
+          "type": "Внедорожники",
+          "speed": "115 км/ч",
+          "price": "55.000 $"
+        },
+        {
+          "name": "Brown Streak",
+          "type": "Транспорт",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Bus",
+          "type": "Транспорт/Автобус",
+          "speed": "85 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Cabbie",
+          "type": "Такси",
+          "speed": "100 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Camper",
+          "type": "Фургоны",
+          "speed": "99 км/ч",
+          "price": "28.000 $"
+        },
+        {
+          "name": "Caracara",
+          "type": "Внедорожники",
+          "speed": "115 км/ч",
+          "price": "58.000 $"
+        },
+        {
+          "name": "Carbine",
+          "type": "Винтовки",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Carabane",
+          "type": "Авто/Транспорт",
+          "speed": "105 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Cargobob",
+          "type": "Вертолёты",
+          "speed": "175 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Cargoplane",
+          "type": "Самолёты",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Cartop",
+          "type": "Транспорт",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Cement Truck",
+          "type": "Грузовик/Промышленный",
+          "speed": "92 км/ч",
+          "price": "42.000 $"
+        },
+        {
+          "name": "Cheetah",
+          "type": "Авто/Спорт",
+          "speed": "130 км/ч",
+          "price": "80.000 $"
+        },
+        {
+          "name": "Cherub",
+          "type": "Самолёты",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Clover",
+          "type": "Авто/Банда",
+          "speed": "106 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Coach",
+          "type": "Автобус",
+          "speed": "80 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Comet",
+          "type": "Авто/Спорт",
+          "speed": "125 км/ч",
+          "price": "72.000 $"
+        },
+        {
+          "name": "Commandeer",
+          "type": "Военный/Грузовик",
+          "speed": "95 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Copter",
+          "type": "Вертолёты",
+          "speed": "180 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Corpse",
+          "type": "Авто/Модифицированный",
+          "speed": "80 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Covered Wagon",
+          "type": "Повозки",
+          "speed": "95 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Crate",
+          "type": "Транспорт",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Crane",
+          "type": "Промышленный",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Crusader",
+          "type": "Грузовики",
+          "speed": "88 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Cuban",
+          "type": "Самолёты",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Dinghy",
+          "type": "Водный транспорт",
+          "speed": "60 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Dinghy Inflatable",
+          "type": "Водный транспорт",
+          "speed": "60 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Dozer",
+          "type": "Промышленный",
+          "speed": "55 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "DPV",
+          "type": "Мотоциклы",
+          "speed": "120 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Dub",
+          "type": "Авто/Лоурайдер",
+          "speed": "110 км/ч",
+          "price": "50.000 $"
+        },
+        {
+          "name": "Dumper",
+          "type": "Грузовик/Промышленный",
+          "speed": "76 км/ч",
+          "price": "48.000 $"
+        },
+        {
+          "name": "Dustoff",
+          "type": "Вертолёты",
+          "speed": "185 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "DWT-20",
+          "type": "Мотоциклы",
+          "speed": "115 км/ч",
+          "price": "16.000 $"
+        },
+        {
+          "name": "Elegy",
+          "type": "Авто/Спорт",
+          "speed": "126 км/ч",
+          "price": "78.000 $"
+        },
+        {
+          "name": "Emerus",
+          "type": "Авто/Спорт",
+          "speed": "135 км/ч",
+          "price": "88.000 $"
+        },
+        {
+          "name": "Emperor",
+          "type": "Авто/Седан",
+          "speed": "105 км/ч",
+          "price": "32.000 $"
+        },
+        {
+          "name": "Enforcer",
+          "type": "Грузовик/SWAT",
+          "speed": "92 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Esperanto",
+          "type": "Авто/Классический",
+          "speed": "108 км/ч",
+          "price": "38.000 $"
+        },
+        {
+          "name": "Euros",
+          "type": "Авто/Спорт",
+          "speed": "132 км/ч",
+          "price": "85.000 $"
+        },
+        {
+          "name": "Everon",
+          "type": "Авто/Внедорожник",
+          "speed": "118 км/ч",
+          "price": "62.000 $"
+        },
+        {
+          "name": "Exemplar",
+          "type": "Авто/Люкс",
+          "speed": "117 км/ч",
+          "price": "70.000 $"
+        },
+        {
+          "name": "Exterminator",
+          "type": "Грузовики",
+          "speed": "95 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Faimliner",
+          "type": "Транспорт",
+          "speed": "Н/О",
+          "price": "Н/О"
+        },
+        {
+          "name": "Fairtone",
+          "type": "Авто/Классический",
+          "speed": "103 км/ч",
+          "price": "35.000 $"
+        },
+        {
+          "name": "Farmtruck",
+          "type": "Грузовики",
+          "speed": "82 км/ч",
+          "price": "12.000 $"
+        },
+        {
+          "name": "FCR-900",
+          "type": "Мотоциклы",
+          "speed": "128 км/ч",
+          "price": "24.000 $"
+        },
+        {
+          "name": "Feltzer",
+          "type": "Авто/Кабриолет",
+          "speed": "119 км/ч",
+          "price": "68.000 $"
+        },
+        {
+          "name": "Firetruk",
+          "type": "Пожарный",
+          "speed": "88 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Flatbed",
+          "type": "Грузовики",
+          "speed": "86 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Forklift",
+          "type": "Промышленный",
+          "speed": "45 км/ч",
+          "price": "Н/О"
+        },
+        {
+          "name": "Fortune",
+          "type": "Авто/Классический",
+          "speed": "105 км/ч",
+          "price": "40.000 $"
+        },
+        {
+          "name": "Freeway",
+          "type": "Мотоциклы",
+          "speed": "122 км/ч",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Futo",
+          "type": "Авто/Город",
+          "speed": "108 км/ч",
+          "price": "22.000 $"
+        },
+        {
+          "name": "Fuzzie",
+          "type": "Мотоциклы",
+          "speed": "110 км/ч",
+          "price": "Н/О"
+        }
+      ]
     },
     "vehicleSystem": {
       "title": "Понимание системы транспортных средств в GTA San Andreas",
@@ -926,12 +1375,20 @@
     "lowRiders": {
       "title": "Классические лоурайдеры и опции персонализации",
       "content": "Лоурайдеры - большая часть культуры GTA San Andreas. Они демонстрируют западный стиль Побережья, за который известна игра. Популярные модели лоурайдеров - Blade, Broadway и Remington. Вы можете настраивать лоурайдеры новой окраской, колёсами, системами нитро и гидравликой. Посетите специальные гаражи, такие как Loco Low Co для модификации этих автомобилей.",
-      "models": ["Blade", "Broadway", "Remington"]
+      "models": [
+        "Blade",
+        "Broadway",
+        "Remington"
+      ]
     },
     "motorcycles": {
       "title": "Мотоциклы и велосипеды для быстрых путешествий",
       "content": "Мотоциклы - это быстрый способ пробиться сквозь пробку в GTA San Andreas. NRG-500 - самый быстрый мотоцикл в игре. PCJ-600 дарует вам хороший баланс скорости и управления. Sanchez - лучший выбор для езды по бездорожью. Но мотоциклы не защищают вас так же, как автомобили, поэтому аварии болят больше.",
-      "models": ["NRG-500", "PCJ-600", "Sanchez"]
+      "models": [
+        "NRG-500",
+        "PCJ-600",
+        "Sanchez"
+      ]
     },
     "heavyVehicles": {
       "title": "Тяжёлые транспортные средства и грузовики",
@@ -940,22 +1397,43 @@
     "rareVehicles": {
       "title": "Редкие и уникальные транспортные средства для сбора",
       "content": "Некоторые транспортные средства в GTA San Andreas действительно редки и их сложно найти. Phoenix появляется только в определённых местах и в определённое время. Спортивный автомобиль ZR-350 одновременно редкий и быстрый. Hotknife - специальный хот-род, который можно получить только завершив определённые задания по сбору транспорта. Kart выглядит как картинг и дарует вам забавное и странное время вождения.",
-      "vehicles": ["Phoenix", "ZR-350", "Hotknife", "Kart"]
+      "vehicles": [
+        "Phoenix",
+        "ZR-350",
+        "Hotknife",
+        "Kart"
+      ]
     },
     "aircraft": {
       "title": "Летающие аппараты и самолёты",
       "content": "Самолёты в GTA San Andreas добавляют совершенно новый способ игры. Истребитель Hydra быстрый и может взлетать вертикально. Самолёт с винтом Rustler легче пилотировать, если вы только начинаете учиться. Вертолёты, такие как Maverick и Police Maverick, стабильны для туризма или воздушных миссий. Обучение полётам требует практики, но реально добавляет в игру.",
-      "aircraft": ["Hydra", "Rustler", "Maverick", "Police Maverick"]
+      "aircraft": [
+        "Hydra",
+        "Rustler",
+        "Maverick",
+        "Police Maverick"
+      ]
     },
     "waterVehicles": {
       "title": "Водные транспортные средства и лодки",
       "content": "Водный транспорт даёт вам ещё один способ передвижения в GTA San Andreas. Быстроходный катер Squalo - самый быстрый способ путешествия по воде. Лодка Tropic надёжна и имеет приличную скорость и управляемость. Jetmax выглядит элегантно и хорошо работает на воде. Hovercraft Vortex может ездить как по земле, так и по воде.",
-      "vehicles": ["Squalo", "Tropic", "Jetmax", "Vortex"]
+      "vehicles": [
+        "Squalo",
+        "Tropic",
+        "Jetmax",
+        "Vortex"
+      ]
     },
     "policeVehicles": {
       "title": "Полицейские и аварийные транспортные средства",
       "content": "Полицейские автомобили в GTA San Andreas бывают разных типов: патрульные машины, внедорожники и мотоциклы. Police Car имеет хорошую скорость и мощность для преследования. SWAT truck Enforcer имеет тяжёлую броню. Пожарные машины имеют водяные пушки и начинают пожарные миссии. Скорые помощи позволяют проводить парамедицинские миссии. Эти транспорта часто работают лучше обычных.",
-      "vehicles": ["Police Car", "Enforcer", "Fire Truck", "Ambulance", "HPV1000"]
+      "vehicles": [
+        "Police Car",
+        "Enforcer",
+        "Fire Truck",
+        "Ambulance",
+        "HPV1000"
+      ]
     },
     "importExport": {
       "title": "Список транспорта импорт/экспорт",
@@ -996,12 +1474,36 @@
     "faqCars": {
       "title": "Часто задаваемые вопросы об автомобилях GTA San Andreas",
       "data": [
-        {"id": "1", "question": "Сколько транспорта в GTA San Andreas?", "answer": "Игра имеет более 200 транспортных средств включая авто, мотоциклы, лодки, самолёты и спецтранспорт. Эта большая коллекция имеет что-то для вкуса каждого игрока."},
-        {"id": "2", "question": "Где найти самый быстрый автомобиль?", "answer": "Infernus - самый быстрый авто и обычно появляется в богатых районах как Paradiso в San Fierro. Также можете найти в районе Easter Basin после определённых миссий."},
-        {"id": "3", "question": "Могу ли я сохранить модифицированные авто навсегда?", "answer": "Да, вы можете сохранять модифицированный транспорт в личных гаражах в домах-убежищах. Убедитесь что гараж имеет место и припаркуйте транспорт полностью внутри чтобы он сохранился."},
-        {"id": "4", "question": "Что происходит если гараж переполнен?", "answer": "Когда гараж имеет слишком много машин, самый старый припаркованный исчезнет. Всегда проверяйте лимиты гаража перед припаркованием новых машин чтобы не потерять спецтранспорт."},
-        {"id": "5", "question": "Есть ли летающие автомобили в игре?", "answer": "Обычная игра не имеет летающих авто, но самолёт Dodo и различные аппараты позволяют летать. Некоторые моды добавляют функции летающих авто для лучшего геймплея."},
-        {"id": "6", "question": "Какие новые функции в обновлениях 2025?", "answer": "Обновления 2025 имеют лучшую графику, исправления ошибок, обновлённые элементы управления и улучшенные мобильные версии. Модификации сообщества также добавляют новый транспорт и опции многопользовательской игры."}
+        {
+          "id": "1",
+          "question": "Сколько транспорта в GTA San Andreas?",
+          "answer": "Игра имеет более 200 транспортных средств включая авто, мотоциклы, лодки, самолёты и спецтранспорт. Эта большая коллекция имеет что-то для вкуса каждого игрока."
+        },
+        {
+          "id": "2",
+          "question": "Где найти самый быстрый автомобиль?",
+          "answer": "Infernus - самый быстрый авто и обычно появляется в богатых районах как Paradiso в San Fierro. Также можете найти в районе Easter Basin после определённых миссий."
+        },
+        {
+          "id": "3",
+          "question": "Могу ли я сохранить модифицированные авто навсегда?",
+          "answer": "Да, вы можете сохранять модифицированный транспорт в личных гаражах в домах-убежищах. Убедитесь что гараж имеет место и припаркуйте транспорт полностью внутри чтобы он сохранился."
+        },
+        {
+          "id": "4",
+          "question": "Что происходит если гараж переполнен?",
+          "answer": "Когда гараж имеет слишком много машин, самый старый припаркованный исчезнет. Всегда проверяйте лимиты гаража перед припаркованием новых машин чтобы не потерять спецтранспорт."
+        },
+        {
+          "id": "5",
+          "question": "Есть ли летающие автомобили в игре?",
+          "answer": "Обычная игра не имеет летающих авто, но самолёт Dodo и различные аппараты позволяют летать. Некоторые моды добавляют функции летающих авто для лучшего геймплея."
+        },
+        {
+          "id": "6",
+          "question": "Какие новые функции в обновлениях 2025?",
+          "answer": "Обновления 2025 имеют лучшую графику, исправления ошибок, обновлённые элементы управления и улучшенные мобильные версии. Модификации сообщества также добавляют новый транспорт и опции многопользовательской игры."
+        }
       ]
     },
     "conclusion": {
@@ -1026,180 +1528,653 @@
     },
     "actionCheats": {
       "title": "Быстрые Читы Действий",
-      "headers": ["Действие", "Чит-Код (ПК)", "Эффект"],
+      "headers": [
+        "Действие",
+        "Чит-Код (ПК)",
+        "Эффект"
+      ],
       "data": [
-        { "action": "Бесконечное Здоровье", "pc": "BAGUVIX", "effect": "Делает CJ почти неуязвимым" },
-        { "action": "Полная Броня", "pc": "HESOYAM", "effect": "Дает полную броню и здоровье" },
-        { "action": "Набор Оружия 1", "pc": "LXGIWYL", "effect": "Базовое оружие и холодное оружие" },
-        { "action": "Реактивный Ранец", "pc": "ROCKETMAN", "effect": "Создает реактивный ранец" },
-        { "action": "Танк (Rhino)", "pc": "AIWPRTON", "effect": "Создает военный танк" },
-        { "action": "Снизить Уровень Розыска", "pc": "AEZAKMI", "effect": "Полиция игнорирует вас" },
-        { "action": "Летающие Машины", "pc": "CHITTYCHITTYBANGBANG", "effect": "Машины могут летать" },
-        { "action": "Никогда Не Голоден", "pc": "AEDUWNV", "effect": "Шкала голода остается полной" },
-        { "action": "Мега Прыжок", "pc": "KANGAROO", "effect": "CJ прыгает супер высоко" }
+        {
+          "action": "Бесконечное Здоровье",
+          "pc": "BAGUVIX",
+          "effect": "Делает CJ почти неуязвимым"
+        },
+        {
+          "action": "Полная Броня",
+          "pc": "HESOYAM",
+          "effect": "Дает полную броню и здоровье"
+        },
+        {
+          "action": "Набор Оружия 1",
+          "pc": "LXGIWYL",
+          "effect": "Базовое оружие и холодное оружие"
+        },
+        {
+          "action": "Реактивный Ранец",
+          "pc": "ROCKETMAN",
+          "effect": "Создает реактивный ранец"
+        },
+        {
+          "action": "Танк (Rhino)",
+          "pc": "AIWPRTON",
+          "effect": "Создает военный танк"
+        },
+        {
+          "action": "Снизить Уровень Розыска",
+          "pc": "AEZAKMI",
+          "effect": "Полиция игнорирует вас"
+        },
+        {
+          "action": "Летающие Машины",
+          "pc": "CHITTYCHITTYBANGBANG",
+          "effect": "Машины могут летать"
+        },
+        {
+          "action": "Никогда Не Голоден",
+          "pc": "AEDUWNV",
+          "effect": "Шкала голода остается полной"
+        },
+        {
+          "action": "Мега Прыжок",
+          "pc": "KANGAROO",
+          "effect": "CJ прыгает супер высоко"
+        }
       ]
     },
     "playerCheats": {
       "title": "Читы Игрока",
       "subtitle": "Для ПК, PlayStation и Xbox",
-      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "headers": [
+        "Эффект",
+        "ПК",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Бесконечное Здоровье", "pc": "BAGUVIX", "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE", "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y" },
-        { "effect": "Бесконечные Патроны", "pc": "FULLCLIP", "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1", "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB" },
-        { "effect": "Бесконечный Кислород", "pc": "CVWKXAM", "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN", "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN" },
-        { "effect": "Максимальные Мышцы", "pc": "JYSDSOD", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT" },
-        { "effect": "Максимальный Жир", "pc": "BTCDBCB", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT" },
-        { "effect": "Худой", "pc": "KVGYZQK", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP" },
-        { "effect": "Шесть Звезд Розыска", "pc": "LJSPQK", "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN", "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN" },
-        { "effect": "Снизить Уровень Розыска", "pc": "ASNAEB", "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN", "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN" },
-        { "effect": "Никогда Не Разыскивается", "pc": "AEZAKMI", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT" },
-        { "effect": "Мега Прыжок", "pc": "KANGAROO", "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2", "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT" }
+        {
+          "effect": "Бесконечное Здоровье",
+          "pc": "BAGUVIX",
+          "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE",
+          "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y"
+        },
+        {
+          "effect": "Бесконечные Патроны",
+          "pc": "FULLCLIP",
+          "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1",
+          "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB"
+        },
+        {
+          "effect": "Бесконечный Кислород",
+          "pc": "CVWKXAM",
+          "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN",
+          "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN"
+        },
+        {
+          "effect": "Максимальные Мышцы",
+          "pc": "JYSDSOD",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT"
+        },
+        {
+          "effect": "Максимальный Жир",
+          "pc": "BTCDBCB",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT"
+        },
+        {
+          "effect": "Худой",
+          "pc": "KVGYZQK",
+          "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP",
+          "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP"
+        },
+        {
+          "effect": "Шесть Звезд Розыска",
+          "pc": "LJSPQK",
+          "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN",
+          "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN"
+        },
+        {
+          "effect": "Снизить Уровень Розыска",
+          "pc": "ASNAEB",
+          "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN",
+          "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN"
+        },
+        {
+          "effect": "Никогда Не Разыскивается",
+          "pc": "AEZAKMI",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT"
+        },
+        {
+          "effect": "Мега Прыжок",
+          "pc": "KANGAROO",
+          "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2",
+          "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT"
+        }
       ]
     },
     "vehicleCheats": {
       "title": "Читы Транспорта",
-      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "headers": [
+        "Эффект",
+        "ПК",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Создать Грузовик-Цистерну", "pc": "AMOMHRER", "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1", "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB" },
-        { "effect": "Создать Реактивный Ранец", "pc": "ROCKETMAN", "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT", "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT" },
-        { "effect": "Создать Истребитель Hydra", "pc": "JUMPJET", "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP", "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP" },
-        { "effect": "Создать Монстр-Трак", "pc": "MONSTERMASH", "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1", "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB" },
-        { "effect": "Летающие Машины", "pc": "RIPAZHA", "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT", "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT" },
-        { "effect": "Машины Плавают по Воде", "pc": "BGKGTJH", "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT", "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT" },
-        { "effect": "Все Машины с Нитро", "pc": "SPEEDFREAK", "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1", "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB" },
-        { "effect": "Взорвать Все Машины", "pc": "CPKTNWT", "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1", "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB" }
+        {
+          "effect": "Создать Грузовик-Цистерну",
+          "pc": "AMOMHRER",
+          "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1",
+          "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB"
+        },
+        {
+          "effect": "Создать Реактивный Ранец",
+          "pc": "ROCKETMAN",
+          "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT",
+          "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT"
+        },
+        {
+          "effect": "Создать Истребитель Hydra",
+          "pc": "JUMPJET",
+          "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP",
+          "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP"
+        },
+        {
+          "effect": "Создать Монстр-Трак",
+          "pc": "MONSTERMASH",
+          "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1",
+          "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB"
+        },
+        {
+          "effect": "Летающие Машины",
+          "pc": "RIPAZHA",
+          "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT",
+          "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT"
+        },
+        {
+          "effect": "Машины Плавают по Воде",
+          "pc": "BGKGTJH",
+          "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT",
+          "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT"
+        },
+        {
+          "effect": "Все Машины с Нитро",
+          "pc": "SPEEDFREAK",
+          "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1",
+          "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB"
+        },
+        {
+          "effect": "Взорвать Все Машины",
+          "pc": "CPKTNWT",
+          "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1",
+          "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB"
+        }
       ]
     },
     "weatherCheats": {
       "title": "Читы Мира и Погоды",
-      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "headers": [
+        "Эффект",
+        "ПК",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Солнечная Погода", "pc": "PLEASANTLYWARM", "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE", "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X" },
-        { "effect": "Дождливая Погода", "pc": "AUIFRVQS", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X" },
-        { "effect": "Туманная Погода", "pc": "CFVFGMJ", "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE", "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X" },
-        { "effect": "Быстрое Время", "pc": "YSOHNUL", "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP", "xbox": "B, B, X, LB, LT, A, Y, UP" },
-        { "effect": "Медленное Время", "pc": "LIYOAAY", "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1", "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB" }
+        {
+          "effect": "Солнечная Погода",
+          "pc": "PLEASANTLYWARM",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE",
+          "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X"
+        },
+        {
+          "effect": "Дождливая Погода",
+          "pc": "AUIFRVQS",
+          "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE",
+          "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X"
+        },
+        {
+          "effect": "Туманная Погода",
+          "pc": "CFVFGMJ",
+          "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE",
+          "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X"
+        },
+        {
+          "effect": "Быстрое Время",
+          "pc": "YSOHNUL",
+          "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP",
+          "xbox": "B, B, X, LB, LT, A, Y, UP"
+        },
+        {
+          "effect": "Медленное Время",
+          "pc": "LIYOAAY",
+          "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1",
+          "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB"
+        }
       ]
     },
     "gangCheats": {
       "title": "Читы Банд и Пешеходов",
-      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "headers": [
+        "Эффект",
+        "ПК",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Завербовать Любого (Пистолет)", "pc": "SJMAHPE", "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT", "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT" },
-        { "effect": "Завербовать Любого (Ракеты)", "pc": "ZSOXFSQ", "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT", "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT" },
-        { "effect": "Банды Контролируют Улицы", "pc": "BIFBUZZ", "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT", "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT" },
-        { "effect": "Беспорядки в Городе", "pc": "IOJUFZN", "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1", "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB" }
+        {
+          "effect": "Завербовать Любого (Пистолет)",
+          "pc": "SJMAHPE",
+          "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT",
+          "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT"
+        },
+        {
+          "effect": "Завербовать Любого (Ракеты)",
+          "pc": "ZSOXFSQ",
+          "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+          "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+        },
+        {
+          "effect": "Банды Контролируют Улицы",
+          "pc": "BIFBUZZ",
+          "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT",
+          "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT"
+        },
+        {
+          "effect": "Беспорядки в Городе",
+          "pc": "IOJUFZN",
+          "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1",
+          "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB"
+        }
       ]
     },
     "moneyWeapons": {
       "title": "Читы Денег, Оружия и Навыков",
-      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "headers": [
+        "Эффект",
+        "ПК",
+        "PlayStation",
+        "Xbox"
+      ],
       "data": [
-        { "effect": "Здоровье, Броня и $250k", "pc": "HESOYAM", "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
-        { "effect": "Набор Оружия 1", "pc": "LXGIWYL", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
-        { "effect": "Набор Оружия 2", "pc": "PROFESSIONALSKIT", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT" },
-        { "effect": "Набор Оружия 3", "pc": "UZUMYMW", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN" }
+        {
+          "effect": "Здоровье, Броня и $250k",
+          "pc": "HESOYAM",
+          "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "Набор Оружия 1",
+          "pc": "LXGIWYL",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP"
+        },
+        {
+          "effect": "Набор Оружия 2",
+          "pc": "PROFESSIONALSKIT",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT"
+        },
+        {
+          "effect": "Набор Оружия 3",
+          "pc": "UZUMYMW",
+          "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN",
+          "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN"
+        }
       ]
     },
     "weapons": {
       "title": "Оружие и Пистолеты",
       "subtitle": "С Ценами",
       "description": "Оружие является большой частью геймплея GTA San Andreas. Вы можете купить его в магазинах Ammu-Nation или найти на карте.",
-      "headers": ["Название Оружия", "Тип", "Цена ($)", "Детали"],
+      "headers": [
+        "Название Оружия",
+        "Тип",
+        "Цена ($)",
+        "Детали"
+      ],
       "tip": "💡 Совет: Используйте разное оружие для разных миссий. Для войн банд лучше всего работают винтовки и пистолеты-пулеметы.",
       "data": [
-        { "name": "Пистолет 9мм", "type": "Пистолет", "price": "250", "details": "Базовое оружие, хорошо для ближнего боя" },
-        { "name": "Desert Eagle", "type": "Пистолет", "price": "1200", "details": "Сильный урон, убийство с одного выстрела" },
-        { "name": "AK-47", "type": "Винтовка", "price": "3500", "details": "Популярная штурмовая винтовка" },
-        { "name": "M4", "type": "Винтовка", "price": "5000", "details": "Мощная и точная" },
-        { "name": "Дробовик", "type": "Помповый", "price": "1000", "details": "Хорош для ближнего боя" },
-        { "name": "Боевой Дробовик", "type": "Авто", "price": "2500", "details": "Скорострельный дробовик" },
-        { "name": "Micro SMG", "type": "ПП", "price": "1500", "details": "Легкий и быстрый" },
-        { "name": "MP5", "type": "ПП", "price": "3000", "details": "Сильный ПП для миссий" },
-        { "name": "Снайперская Винтовка", "type": "Дальнобойное", "price": "6000", "details": "Точность дальнего боя" },
-        { "name": "РПГ", "type": "Тяжелое", "price": "8000", "details": "Гранатомет для транспорта" },
-        { "name": "Минигун", "type": "Тяжелое", "price": "15000", "details": "Экстремальная огневая мощь" }
+        {
+          "name": "Пистолет 9мм",
+          "type": "Пистолет",
+          "price": "250",
+          "details": "Базовое оружие, хорошо для ближнего боя"
+        },
+        {
+          "name": "Desert Eagle",
+          "type": "Пистолет",
+          "price": "1200",
+          "details": "Сильный урон, убийство с одного выстрела"
+        },
+        {
+          "name": "AK-47",
+          "type": "Винтовка",
+          "price": "3500",
+          "details": "Популярная штурмовая винтовка"
+        },
+        {
+          "name": "M4",
+          "type": "Винтовка",
+          "price": "5000",
+          "details": "Мощная и точная"
+        },
+        {
+          "name": "Дробовик",
+          "type": "Помповый",
+          "price": "1000",
+          "details": "Хорош для ближнего боя"
+        },
+        {
+          "name": "Боевой Дробовик",
+          "type": "Авто",
+          "price": "2500",
+          "details": "Скорострельный дробовик"
+        },
+        {
+          "name": "Micro SMG",
+          "type": "ПП",
+          "price": "1500",
+          "details": "Легкий и быстрый"
+        },
+        {
+          "name": "MP5",
+          "type": "ПП",
+          "price": "3000",
+          "details": "Сильный ПП для миссий"
+        },
+        {
+          "name": "Снайперская Винтовка",
+          "type": "Дальнобойное",
+          "price": "6000",
+          "details": "Точность дальнего боя"
+        },
+        {
+          "name": "РПГ",
+          "type": "Тяжелое",
+          "price": "8000",
+          "details": "Гранатомет для транспорта"
+        },
+        {
+          "name": "Минигун",
+          "type": "Тяжелое",
+          "price": "15000",
+          "details": "Экстремальная огневая мощь"
+        }
       ]
     },
     "vehicles": {
       "title": "Машины и Мотоциклы",
       "subtitle": "Со Скоростью и Ценой",
       "description": "Машины и мотоциклы - сердце опыта GTA San Andreas. Вот некоторые популярные:",
-      "headers": ["Название Транспорта", "Тип", "Скорость (км/ч)", "Прибл. Цена ($)"],
+      "headers": [
+        "Название Транспорта",
+        "Тип",
+        "Скорость (км/ч)",
+        "Прибл. Цена ($)"
+      ],
       "fact": "🏆 Интересный Факт: Infernus - самая быстрая машина в игре и любимица многих игроков.",
       "data": [
-        { "name": "Infernus", "type": "Суперкар", "speed": "240", "price": "90000" },
-        { "name": "Cheetah", "type": "Спорткар", "speed": "230", "price": "80000" },
-        { "name": "Turismo", "type": "Спорткар", "speed": "220", "price": "85000" },
-        { "name": "Bullet", "type": "Спорткар", "speed": "210", "price": "75000" },
-        { "name": "Banshee", "type": "Спорткар", "speed": "200", "price": "65000" },
-        { "name": "Phoenix", "type": "Классика", "speed": "180", "price": "55000" },
-        { "name": "NRG-500", "type": "Мотоцикл", "speed": "250", "price": "60000" },
-        { "name": "PCJ-600", "type": "Мотоцикл", "speed": "200", "price": "30000" },
-        { "name": "Sanchez", "type": "Кроссовый Мотоцикл", "speed": "160", "price": "20000" },
-        { "name": "Quad", "type": "Внедорожник", "speed": "140", "price": "15000" }
+        {
+          "name": "Infernus",
+          "type": "Суперкар",
+          "speed": "240",
+          "price": "90000"
+        },
+        {
+          "name": "Cheetah",
+          "type": "Спорткар",
+          "speed": "230",
+          "price": "80000"
+        },
+        {
+          "name": "Turismo",
+          "type": "Спорткар",
+          "speed": "220",
+          "price": "85000"
+        },
+        {
+          "name": "Bullet",
+          "type": "Спорткар",
+          "speed": "210",
+          "price": "75000"
+        },
+        {
+          "name": "Banshee",
+          "type": "Спорткар",
+          "speed": "200",
+          "price": "65000"
+        },
+        {
+          "name": "Phoenix",
+          "type": "Классика",
+          "speed": "180",
+          "price": "55000"
+        },
+        {
+          "name": "NRG-500",
+          "type": "Мотоцикл",
+          "speed": "250",
+          "price": "60000"
+        },
+        {
+          "name": "PCJ-600",
+          "type": "Мотоцикл",
+          "speed": "200",
+          "price": "30000"
+        },
+        {
+          "name": "Sanchez",
+          "type": "Кроссовый Мотоцикл",
+          "speed": "160",
+          "price": "20000"
+        },
+        {
+          "name": "Quad",
+          "type": "Внедорожник",
+          "speed": "140",
+          "price": "15000"
+        }
       ]
     },
     "characters": {
       "title": "Все Главные Персонажи",
       "subtitle": "История Сан-Андреаса",
       "description": "История Сан-Андреаса полна незабываемых персонажей. Вот ключевые:",
-      "headers": ["Персонаж", "Роль в Истории"],
+      "headers": [
+        "Персонаж",
+        "Роль в Истории"
+      ],
       "note": "Каждый персонаж добавляет глубину игре, делая каждую миссию захватывающей.",
       "data": [
-        { "name": "Карл Джонсон (CJ)", "role": "Главный герой, персонаж игрока" },
-        { "name": "Свит Джонсон", "role": "Брат CJ, лидер Grove Street" },
-        { "name": "Биг Смоук", "role": "Старый друг CJ, который позже предает его" },
-        { "name": "Райдер", "role": "Другой член Grove Street, также предает CJ" },
-        { "name": "Сезар Виальпандо", "role": "Парень Кендл и близкий союзник CJ" },
-        { "name": "Кендл Джонсон", "role": "Сестра CJ, сильная и умная" },
-        { "name": "Офицер Тенпенни", "role": "Коррумпированный коп, главный злодей" },
-        { "name": "Вузи", "role": "Слепой лидер Триады, друг CJ" },
-        { "name": "Каталина", "role": "Сумасшедшая девушка CJ на время" },
-        { "name": "Правда", "role": "Забавный хиппи, который помогает CJ" }
+        {
+          "name": "Карл Джонсон (CJ)",
+          "role": "Главный герой, персонаж игрока"
+        },
+        {
+          "name": "Свит Джонсон",
+          "role": "Брат CJ, лидер Grove Street"
+        },
+        {
+          "name": "Биг Смоук",
+          "role": "Старый друг CJ, который позже предает его"
+        },
+        {
+          "name": "Райдер",
+          "role": "Другой член Grove Street, также предает CJ"
+        },
+        {
+          "name": "Сезар Виальпандо",
+          "role": "Парень Кендл и близкий союзник CJ"
+        },
+        {
+          "name": "Кендл Джонсон",
+          "role": "Сестра CJ, сильная и умная"
+        },
+        {
+          "name": "Офицер Тенпенни",
+          "role": "Коррумпированный коп, главный злодей"
+        },
+        {
+          "name": "Вузи",
+          "role": "Слепой лидер Триады, друг CJ"
+        },
+        {
+          "name": "Каталина",
+          "role": "Сумасшедшая девушка CJ на время"
+        },
+        {
+          "name": "Правда",
+          "role": "Забавный хиппи, который помогает CJ"
+        }
       ]
     },
     "gangs": {
       "title": "Банды в GTA San Andreas",
       "description": "Мир Сан-Андреаса заполнен бандами, которые контролируют различные районы. Знание их помогает понять карту города и выжить в бандитских войнах.",
-      "headers": ["Название Банды", "Основная Территория", "Цвет", "Враг"],
+      "headers": [
+        "Название Банды",
+        "Основная Территория",
+        "Цвет",
+        "Враг"
+      ],
       "note": "У каждой банды есть свои машины, татуировки и музыка. Grove Street Families, банда CJ, борется за уважение и контроль над своим районом.",
       "data": [
-        { "name": "Grove Street Families", "area": "Лос-Сантос", "color": "Зеленый", "enemy": "Ballas, Vagos" },
-        { "name": "Ballas", "area": "Лос-Сантос", "color": "Фиолетовый", "enemy": "Grove Street" },
-        { "name": "Los Santos Vagos", "area": "Лос-Сантос", "color": "Желтый", "enemy": "Grove Street" },
-        { "name": "San Fierro Rifa", "area": "Сан-Фиерро", "color": "Синий", "enemy": "Триады" },
-        { "name": "Триады", "area": "Сан-Фиерро", "color": "Красный", "enemy": "Rifa, Da Nang Boys" },
-        { "name": "Da Nang Boys", "area": "Сан-Фиерро", "color": "Серый", "enemy": "Триады" },
-        { "name": "Varrio Los Aztecas", "area": "Лос-Сантос", "color": "Светло-Синий", "enemy": "Ballas, Vagos" },
-        { "name": "Русская Мафия", "area": "Лас-Вентурас", "color": "Черный", "enemy": "Grove Street (поздние миссии)" }
+        {
+          "name": "Grove Street Families",
+          "area": "Лос-Сантос",
+          "color": "Зеленый",
+          "enemy": "Ballas, Vagos"
+        },
+        {
+          "name": "Ballas",
+          "area": "Лос-Сантос",
+          "color": "Фиолетовый",
+          "enemy": "Grove Street"
+        },
+        {
+          "name": "Los Santos Vagos",
+          "area": "Лос-Сантос",
+          "color": "Желтый",
+          "enemy": "Grove Street"
+        },
+        {
+          "name": "San Fierro Rifa",
+          "area": "Сан-Фиерро",
+          "color": "Синий",
+          "enemy": "Триады"
+        },
+        {
+          "name": "Триады",
+          "area": "Сан-Фиерро",
+          "color": "Красный",
+          "enemy": "Rifa, Da Nang Boys"
+        },
+        {
+          "name": "Da Nang Boys",
+          "area": "Сан-Фиерро",
+          "color": "Серый",
+          "enemy": "Триады"
+        },
+        {
+          "name": "Varrio Los Aztecas",
+          "area": "Лос-Сантос",
+          "color": "Светло-Синий",
+          "enemy": "Ballas, Vagos"
+        },
+        {
+          "name": "Русская Мафия",
+          "area": "Лас-Вентурас",
+          "color": "Черный",
+          "enemy": "Grove Street (поздние миссии)"
+        }
       ]
     },
     "secretLocations": {
       "title": "Секретные Локации в GTA San Andreas",
       "description": "Сан-Андреас имеет много секретных мест, которые большинство игроков пропускают. Посещение их дает награды или веселый опыт.",
-      "headers": ["Секретная Локация", "Место", "Что Вы Там Найдете"],
+      "headers": [
+        "Секретная Локация",
+        "Место",
+        "Что Вы Там Найдете"
+      ],
       "note": "Некоторые игроки верят, что НЛО появляются возле Зоны 69 ночью, но это всего лишь миф — или нет?",
       "data": [
-        { "location": "Зона 69", "place": "Пустыня", "find": "Скрытый истребитель (Hydra) и военная база" },
-        { "location": "Гора Чилиад", "place": "Сельская местность", "find": "Место прыжка с парашютом и велогонки" },
-        { "location": "Город-Призрак", "place": "Север от Сан-Фиерро", "find": "Заброшенная область со странными деталями" },
-        { "location": "Подводные Руины", "place": "Рядом с Бейсайдом", "find": "Скрытые объекты под водой" },
-        { "location": "Большое Ухо", "place": "Пустыня", "find": "Гигантский радиотелескоп" },
-        { "location": "Дом на Grove Street", "place": "Лос-Сантос", "find": "Дом CJ, полный воспоминаний" },
-        { "location": "Док Easter Basin", "place": "Сан-Фиерро", "find": "Большие корабли и краны" },
-        { "location": "Verdant Meadows", "place": "Пустыня", "find": "Аэропорт, где начинается летная школа" }
+        {
+          "location": "Зона 69",
+          "place": "Пустыня",
+          "find": "Скрытый истребитель (Hydra) и военная база"
+        },
+        {
+          "location": "Гора Чилиад",
+          "place": "Сельская местность",
+          "find": "Место прыжка с парашютом и велогонки"
+        },
+        {
+          "location": "Город-Призрак",
+          "place": "Север от Сан-Фиерро",
+          "find": "Заброшенная область со странными деталями"
+        },
+        {
+          "location": "Подводные Руины",
+          "place": "Рядом с Бейсайдом",
+          "find": "Скрытые объекты под водой"
+        },
+        {
+          "location": "Большое Ухо",
+          "place": "Пустыня",
+          "find": "Гигантский радиотелескоп"
+        },
+        {
+          "location": "Дом на Grove Street",
+          "place": "Лос-Сантос",
+          "find": "Дом CJ, полный воспоминаний"
+        },
+        {
+          "location": "Док Easter Basin",
+          "place": "Сан-Фиерро",
+          "find": "Большие корабли и краны"
+        },
+        {
+          "location": "Verdant Meadows",
+          "place": "Пустыня",
+          "find": "Аэропорт, где начинается летная школа"
+        }
       ]
     },
     "faqCheats": {
       "title": "Часто Задаваемые Вопросы",
       "data": [
-        { "id": "1", "question": "Читы GTA San Andreas отключают достижения?", "answer": "Да, большинство читов отключат достижения и трофеи на определенных платформах. Проверьте версию вашей игры перед использованием читов, если вам важны достижения." },
-        { "id": "2", "question": "Могу ли я использовать читы в многопользовательском режиме?", "answer": "Нет, читы обычно доступны только в одиночном режиме. Использование читов в многопользовательской игре может привести к бану." },
-        { "id": "3", "question": "Читы повлияют на мой файл сохранения?", "answer": "Читы не повредят ваше сохранение, но некоторые версии могут пометить ваше сохранение как модифицированное. Лучше использовать читы на отдельных сохранениях." },
-        { "id": "4", "question": "Как вводить читы на ПК?", "answer": "На ПК просто вводите чит-код во время игры. На консольных версиях используйте контроллер для ввода комбинаций кнопок." },
-        { "id": "5", "question": "Есть ли читы для бесконечных патронов?", "answer": "Да, есть специальные читы для бесконечных боеприпасов. Введите соответствующий код для вашей платформы и наслаждайтесь бесконечной огневой мощью." },
-        { "id": "6", "question": "Могу ли я отключить читы после активации?", "answer": "Некоторые читы можно отключить, введя код снова, в то время как другие являются постоянными, пока вы не загрузите предыдущее сохранение." }
+        {
+          "id": "1",
+          "question": "Читы GTA San Andreas отключают достижения?",
+          "answer": "Да, большинство читов отключат достижения и трофеи на определенных платформах. Проверьте версию вашей игры перед использованием читов, если вам важны достижения."
+        },
+        {
+          "id": "2",
+          "question": "Могу ли я использовать читы в многопользовательском режиме?",
+          "answer": "Нет, читы обычно доступны только в одиночном режиме. Использование читов в многопользовательской игре может привести к бану."
+        },
+        {
+          "id": "3",
+          "question": "Читы повлияют на мой файл сохранения?",
+          "answer": "Читы не повредят ваше сохранение, но некоторые версии могут пометить ваше сохранение как модифицированное. Лучше использовать читы на отдельных сохранениях."
+        },
+        {
+          "id": "4",
+          "question": "Как вводить читы на ПК?",
+          "answer": "На ПК просто вводите чит-код во время игры. На консольных версиях используйте контроллер для ввода комбинаций кнопок."
+        },
+        {
+          "id": "5",
+          "question": "Есть ли читы для бесконечных патронов?",
+          "answer": "Да, есть специальные читы для бесконечных боеприпасов. Введите соответствующий код для вашей платформы и наслаждайтесь бесконечной огневой мощью."
+        },
+        {
+          "id": "6",
+          "question": "Могу ли я отключить читы после активации?",
+          "answer": "Некоторые читы можно отключить, введя код снова, в то время как другие являются постоянными, пока вы не загрузите предыдущее сохранение."
+        }
       ]
     }
   },
