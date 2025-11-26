@@ -1034,6 +1034,200 @@
       "content": "Os carros de GTA San Andreas são uma das melhores partes deste jogo lendário. A enorme variedade de veículos desde bicicletas simples até aviões poderosos oferece diversão e opções de gameplay infinitas. Se você adora colecionar carros raros, personalizar low riders ou correr em carros esportivos, este jogo oferece uma experiência de veículo incrível. O detalhe no design e manuseio de veículos continua interessando os jogadores ano após ano."
     }
   },
+  "gtaCheats": {
+    "pageTitle": "Códigos de GTA San Andreas",
+    "hero": {
+      "title": "Códigos de GTA San Andreas",
+      "subtitle": "Domine cada canto de San Andreas com códigos e comandos ilimitados. Seu guia completo para quebrar as regras.",
+      "badge1": "Todas as Plataformas",
+      "badge2": "Códigos Atualizados"
+    },
+    "introduction": {
+      "title": "Códigos de GTA San Andreas",
+      "subtitle": "Guia Completo e Referência",
+      "description": "Os códigos tornam GTA San Andreas ainda mais divertido. Você pode usá-los no PC e Mobile para adicionar carros, dinheiro, armas ou poderes especiais.",
+      "paragraph": "Os códigos tornam GTA San Andreas ainda mais divertido. Você pode usá-los no PC e Mobile para adicionar carros, dinheiro, armas ou poderes especiais. Aqui estão alguns códigos populares para jogabilidade divertida:",
+      "tip": "💡 Dica: Use códigos depois de salvar seu jogo. Muitos códigos podem fazer o jogo travar ou tornar as missões posteriores mais difíceis."
+    },
+    "actionCheats": {
+      "title": "Códigos de Ação Rápida",
+      "headers": ["Ação", "Código (PC)", "Efeito"],
+      "data": [
+        { "action": "Saúde Infinita", "pc": "BAGUVIX", "effect": "Torna CJ quase invencível" },
+        { "action": "Armadura Completa", "pc": "HESOYAM", "effect": "Dá armadura e saúde completas" },
+        { "action": "Conjunto de Armas 1", "pc": "LXGIWYL", "effect": "Armas básicas e armas brancas" },
+        { "action": "Jetpack", "pc": "ROCKETMAN", "effect": "Gera um jetpack" },
+        { "action": "Tanque (Rhino)", "pc": "AIWPRTON", "effect": "Gera um tanque militar" },
+        { "action": "Diminuir Nível de Procurado", "pc": "AEZAKMI", "effect": "A polícia te ignora" },
+        { "action": "Carros Voam", "pc": "CHITTYCHITTYBANGBANG", "effect": "Carros podem voar" },
+        { "action": "Nunca com Fome", "pc": "AEDUWNV", "effect": "Barra de fome fica cheia" },
+        { "action": "Mega Pulo", "pc": "KANGAROO", "effect": "CJ pula super alto" }
+      ]
+    },
+    "playerCheats": {
+      "title": "Códigos do Jogador",
+      "subtitle": "Para PC, PlayStation e Xbox",
+      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Saúde Infinita", "pc": "BAGUVIX", "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE", "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y" },
+        { "effect": "Munição Infinita", "pc": "FULLCLIP", "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1", "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB" },
+        { "effect": "Oxigênio Infinito", "pc": "CVWKXAM", "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN", "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN" },
+        { "effect": "Músculos no Máximo", "pc": "JYSDSOD", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT" },
+        { "effect": "Gordura no Máximo", "pc": "BTCDBCB", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT" },
+        { "effect": "Magro", "pc": "KVGYZQK", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP" },
+        { "effect": "Seis Estrelas de Procurado", "pc": "LJSPQK", "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN", "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN" },
+        { "effect": "Diminuir Nível de Procurado", "pc": "ASNAEB", "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN", "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN" },
+        { "effect": "Nunca Procurado", "pc": "AEZAKMI", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT" },
+        { "effect": "Mega Pulo", "pc": "KANGAROO", "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2", "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT" }
+      ]
+    },
+    "vehicleCheats": {
+      "title": "Códigos de Veículos e Transporte",
+      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Gerar Caminhão Tanque", "pc": "AMOMHRER", "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1", "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB" },
+        { "effect": "Gerar Jetpack", "pc": "ROCKETMAN", "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT", "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT" },
+        { "effect": "Gerar Jato Hydra", "pc": "JUMPJET", "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP", "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP" },
+        { "effect": "Gerar Monster Truck", "pc": "MONSTERMASH", "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1", "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB" },
+        { "effect": "Carros Voam", "pc": "RIPAZHA", "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT", "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT" },
+        { "effect": "Carros Flutuam na Água", "pc": "BGKGTJH", "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT", "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT" },
+        { "effect": "Todos os Carros com Nitro", "pc": "SPEEDFREAK", "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1", "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB" },
+        { "effect": "Explodir Todos os Carros", "pc": "CPKTNWT", "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1", "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB" }
+      ]
+    },
+    "weatherCheats": {
+      "title": "Códigos de Mundo e Clima",
+      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Clima Ensolarado", "pc": "PLEASANTLYWARM", "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE", "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X" },
+        { "effect": "Clima Chuvoso", "pc": "AUIFRVQS", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X" },
+        { "effect": "Clima Nebuloso", "pc": "CFVFGMJ", "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE", "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X" },
+        { "effect": "Tempo Rápido", "pc": "YSOHNUL", "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP", "xbox": "B, B, X, LB, LT, A, Y, UP" },
+        { "effect": "Tempo Lento", "pc": "LIYOAAY", "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1", "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB" }
+      ]
+    },
+    "gangCheats": {
+      "title": "Códigos de Gangues e Pedestres",
+      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Recrutar Qualquer Um (Pistola)", "pc": "SJMAHPE", "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT", "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT" },
+        { "effect": "Recrutar Qualquer Um (Foguetes)", "pc": "ZSOXFSQ", "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT", "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT" },
+        { "effect": "Gangues Controlam as Ruas", "pc": "BIFBUZZ", "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT", "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT" },
+        { "effect": "Tumultos na Cidade", "pc": "IOJUFZN", "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1", "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB" }
+      ]
+    },
+    "moneyWeapons": {
+      "title": "Códigos de Dinheiro, Armas e Habilidades",
+      "headers": ["Efeito", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Saúde, Armadura e $250k", "pc": "HESOYAM", "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
+        { "effect": "Conjunto de Armas 1", "pc": "LXGIWYL", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
+        { "effect": "Conjunto de Armas 2", "pc": "PROFESSIONALSKIT", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT" },
+        { "effect": "Conjunto de Armas 3", "pc": "UZUMYMW", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN" }
+      ]
+    },
+    "weapons": {
+      "title": "Armas e Pistolas",
+      "subtitle": "Com Preços",
+      "description": "As armas são uma grande parte do jogo GTA San Andreas. Você pode comprá-las nas lojas Ammu-Nation ou encontrá-las pelo mapa.",
+      "headers": ["Nome da Arma", "Tipo", "Preço ($)", "Detalhes"],
+      "tip": "💡 Dica: Use armas diferentes para missões diferentes. Para guerras de gangues, rifles e SMGs funcionam melhor.",
+      "data": [
+        { "name": "Pistola 9mm", "type": "Pistola", "price": "250", "details": "Arma básica, boa para lutas próximas" },
+        { "name": "Desert Eagle", "type": "Pistola", "price": "1200", "details": "Dano forte, poder de um tiro" },
+        { "name": "AK-47", "type": "Rifle", "price": "3500", "details": "Rifle de assalto popular" },
+        { "name": "M4", "type": "Rifle", "price": "5000", "details": "Poderoso e preciso" },
+        { "name": "Escopeta", "type": "Bomba", "price": "1000", "details": "Bom para curto alcance" },
+        { "name": "Escopeta de Combate", "type": "Automática", "price": "2500", "details": "Escopeta de tiro rápido" },
+        { "name": "Micro SMG", "type": "SMG", "price": "1500", "details": "Leve e rápida" },
+        { "name": "MP5", "type": "SMG", "price": "3000", "details": "SMG forte para missões" },
+        { "name": "Rifle de Sniper", "type": "Longo Alcance", "price": "6000", "details": "Precisão de longo alcance" },
+        { "name": "RPG", "type": "Pesada", "price": "8000", "details": "Lança-foguetes para veículos" },
+        { "name": "Minigun", "type": "Pesada", "price": "15000", "details": "Poder de fogo extremo" }
+      ]
+    },
+    "vehicles": {
+      "title": "Carros e Motos",
+      "subtitle": "Com Velocidade e Preço",
+      "description": "Carros e motos são o coração da experiência GTA San Andreas. Aqui estão alguns populares:",
+      "headers": ["Nome do Veículo", "Tipo", "Velocidade (km/h)", "Preço Aprox. ($)"],
+      "funFact": "🏆 Curiosidade: O Infernus é o carro mais rápido do jogo e favorito de muitos jogadores.",
+      "data": [
+        { "name": "Infernus", "type": "Super Carro", "speed": "240", "price": "90000" },
+        { "name": "Cheetah", "type": "Esportivo", "speed": "230", "price": "80000" },
+        { "name": "Turismo", "type": "Esportivo", "speed": "220", "price": "85000" },
+        { "name": "Bullet", "type": "Esportivo", "speed": "210", "price": "75000" },
+        { "name": "Banshee", "type": "Esportivo", "speed": "200", "price": "65000" },
+        { "name": "Phoenix", "type": "Clássico", "speed": "180", "price": "55000" },
+        { "name": "NRG-500", "type": "Moto", "speed": "250", "price": "60000" },
+        { "name": "PCJ-600", "type": "Moto", "speed": "200", "price": "30000" },
+        { "name": "Sanchez", "type": "Moto Suja", "speed": "160", "price": "20000" },
+        { "name": "Quad", "type": "Fora de Estrada", "speed": "140", "price": "15000" }
+      ]
+    },
+    "characters": {
+      "title": "Todos os Personagens Principais",
+      "subtitle": "A História de San Andreas",
+      "description": "A história de San Andreas está cheia de personagens inesquecíveis. Aqui estão os principais:",
+      "headers": ["Personagem", "Papel na História"],
+      "note": "Cada personagem adiciona profundidade ao jogo, tornando cada missão emocionante.",
+      "data": [
+        { "name": "Carl Johnson (CJ)", "role": "Herói principal, personagem do jogador" },
+        { "name": "Sweet Johnson", "role": "Irmão de CJ, líder da Grove Street" },
+        { "name": "Big Smoke", "role": "Velho amigo de CJ que depois o trai" },
+        { "name": "Ryder", "role": "Outro membro da Grove Street que também trai CJ" },
+        { "name": "Cesar Vialpando", "role": "Namorado de Kendl e aliado próximo de CJ" },
+        { "name": "Kendl Johnson", "role": "Irmã de CJ, forte e inteligente" },
+        { "name": "Oficial Tenpenny", "role": "Policial corrupto, vilão principal" },
+        { "name": "Woozie", "role": "Líder da Tríade cego, amigo de CJ" },
+        { "name": "Catalina", "role": "Namorada louca de CJ por um tempo" },
+        { "name": "The Truth", "role": "Um hippie engraçado que ajuda CJ" }
+      ]
+    },
+    "gangs": {
+      "title": "Gangues em GTA San Andreas",
+      "description": "O mundo de San Andreas está cheio de gangues que controlam diferentes áreas. Conhecê-las ajuda você a entender o mapa da cidade e sobreviver às guerras de gangues.",
+      "headers": ["Nome da Gangue", "Área Principal", "Cor", "Inimigo"],
+      "note": "Cada gangue tem seus próprios carros, tatuagens e música. Grove Street Families, a gangue de CJ, luta por respeito e controle de seu bairro.",
+      "data": [
+        { "name": "Grove Street Families", "area": "Los Santos", "color": "Verde", "enemy": "Ballas, Vagos" },
+        { "name": "Ballas", "area": "Los Santos", "color": "Roxo", "enemy": "Grove Street" },
+        { "name": "Los Santos Vagos", "area": "Los Santos", "color": "Amarelo", "enemy": "Grove Street" },
+        { "name": "San Fierro Rifa", "area": "San Fierro", "color": "Azul", "enemy": "Tríades" },
+        { "name": "Triads", "area": "San Fierro", "color": "Vermelho", "enemy": "Rifa, Da Nang Boys" },
+        { "name": "Da Nang Boys", "area": "San Fierro", "color": "Cinza", "enemy": "Tríades" },
+        { "name": "Varrio Los Aztecas", "area": "Los Santos", "color": "Azul Claro", "enemy": "Ballas, Vagos" },
+        { "name": "Máfia Russa", "area": "Las Venturas", "color": "Preto", "enemy": "Grove Street (missões posteriores)" }
+      ]
+    },
+    "secretLocations": {
+      "title": "Locais Secretos em GTA San Andreas",
+      "description": "San Andreas tem muitos lugares secretos que a maioria dos jogadores perde. Visitá-los dá recompensas ou experiências divertidas.",
+      "headers": ["Local Secreto", "Lugar", "O Que Você Encontra Lá"],
+      "note": "Alguns jogadores acreditam que OVNIs aparecem perto da Área 69 à noite, mas é apenas um mito — ou será?",
+      "data": [
+        { "location": "Área 69", "place": "Deserto", "find": "Jato escondido (Hydra) e base militar" },
+        { "location": "Monte Chiliad", "place": "Campo", "find": "Local de salto de paraquedas e corridas de bicicleta" },
+        { "location": "Cidade Fantasma", "place": "Norte de San Fierro", "find": "Área abandonada com detalhes estranhos" },
+        { "location": "Ruínas Submarinas", "place": "Perto de Bayside", "find": "Objetos escondidos sob o mar" },
+        { "location": "The Big Ear", "place": "Deserto", "find": "Telescópio de rádio gigante" },
+        { "location": "Casa da Grove Street", "place": "Los Santos", "find": "Casa de CJ, cheia de memórias" },
+        { "location": "Doca de Easter Basin", "place": "San Fierro", "find": "Grandes navios e guindastes" },
+        { "location": "Verdant Meadows", "place": "Deserto", "find": "Aeroporto onde você inicia a escola de voo" }
+      ]
+    },
+    "faqCheats": {
+      "title": "Perguntas Frequentes",
+      "data": [
+        { "id": "1", "question": "Os códigos de GTA San Andreas desabilitam conquistas?", "answer": "Sim, a maioria dos códigos desabilitará conquistas e troféus em certas plataformas. Verifique a versão do seu jogo antes de usar códigos se você se importa com conquistas." },
+        { "id": "2", "question": "Posso usar códigos no modo multiplayer?", "answer": "Não, os códigos geralmente estão disponíveis apenas no modo single-player. Usar códigos no multiplayer pode fazer você ser banido do jogo online." },
+        { "id": "3", "question": "Os códigos afetarão meu arquivo de save?", "answer": "Os códigos não corromperão seu save, mas algumas versões podem marcar seu save como modificado. É melhor usar códigos em saves separados." },
+        { "id": "4", "question": "Como eu insiro códigos no PC?", "answer": "No PC, simplesmente digite o código enquanto joga. Nas versões de console, use seu controle para inserir as combinações de botões." },
+        { "id": "5", "question": "Existem códigos para munição ilimitada?", "answer": "Sim, existem códigos específicos para munição ilimitada. Digite o código apropriado para sua plataforma e aproveite o poder de fogo infinito." },
+        { "id": "6", "question": "Posso desligar os códigos uma vez ativados?", "answer": "Alguns códigos podem ser desativados inserindo o código novamente, enquanto outros são permanentes até você carregar um save anterior." }
+      ]
+    }
+  },
   "footer": {
     "copyright": "© 2025 GTA San Apk. Todos os direitos reservados.",
     "privacy": "Política de privacidade",

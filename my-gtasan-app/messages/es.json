@@ -997,6 +997,200 @@
       "content": "Los autos de GTA San Andreas son una de las mejores partes de este juego legendario. La enorme variedad de vehículos desde bicicletas simples hasta poderosos aviones ofrece diversión y opciones de gameplay infinitas. Ya sea que te encante coleccionar autos raros, personalizar low riders o competir en autos deportivos, este juego te ofrece una experiencia de vehículos increíble. El detalle en el diseño y manejo de vehículos sigue interesando a los jugadores año tras año."
     }
   },
+  "gtaCheats": {
+    "pageTitle": "Trucos de GTA San Andreas",
+    "hero": {
+      "title": "Trucos de GTA San Andreas",
+      "subtitle": "Domina cada rincón de San Andreas con trucos y comandos ilimitados. Tu guía completa para romper las reglas.",
+      "badge1": "Todas las Plataformas",
+      "badge2": "Códigos Actualizados"
+    },
+    "introduction": {
+      "title": "Trucos de GTA San Andreas",
+      "subtitle": "Guía Completa y Referencia",
+      "description": "Los trucos hacen que GTA San Andreas sea aún más divertido. Puedes usarlos en PC y móvil para agregar autos, dinero, armas o poderes especiales.",
+      "paragraph": "Los trucos hacen que GTA San Andreas sea aún más divertido. Puedes usarlos en PC y móvil para agregar autos, dinero, armas o poderes especiales. Aquí hay algunos trucos populares para un juego divertido:",
+      "tip": "💡 Consejo: Usa trucos después de guardar tu juego. Demasiados trucos pueden hacer que el juego se bloquee o hacer que las misiones posteriores sean más difíciles."
+    },
+    "actionCheats": {
+      "title": "Trucos de Acción Rápida",
+      "headers": ["Acción", "Código de Truco (PC)", "Efecto"],
+      "data": [
+        { "action": "Salud Infinita", "pc": "BAGUVIX", "effect": "Hace a CJ casi invencible" },
+        { "action": "Armadura Completa", "pc": "HESOYAM", "effect": "Da armadura y salud completa" },
+        { "action": "Set de Armas 1", "pc": "LXGIWYL", "effect": "Armas básicas y armas cuerpo a cuerpo" },
+        { "action": "Jetpack", "pc": "ROCKETMAN", "effect": "Genera un jetpack" },
+        { "action": "Tanque (Rhino)", "pc": "AIWPRTON", "effect": "Genera un tanque militar" },
+        { "action": "Nivel de Búsqueda Bajo", "pc": "AEZAKMI", "effect": "La policía te ignora" },
+        { "action": "Autos Vuelan", "pc": "CHITTYCHITTYBANGBANG", "effect": "Los autos pueden volar" },
+        { "action": "Nunca Hambriento", "pc": "AEDUWNV", "effect": "La barra de hambre se mantiene llena" },
+        { "action": "Mega Salto", "pc": "KANGAROO", "effect": "CJ salta súper alto" }
+      ]
+    },
+    "playerCheats": {
+      "title": "Trucos del Jugador",
+      "subtitle": "Para PC, PlayStation & Xbox",
+      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Salud Infinita", "pc": "BAGUVIX", "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE", "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y" },
+        { "effect": "Munición Infinita", "pc": "FULLCLIP", "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1", "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB" },
+        { "effect": "Oxígeno Infinito", "pc": "CVWKXAM", "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN", "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN" },
+        { "effect": "Músculos al Máximo", "pc": "JYSDSOD", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT" },
+        { "effect": "Grasa al Máximo", "pc": "BTCDBCB", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT" },
+        { "effect": "Delgado", "pc": "KVGYZQK", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP" },
+        { "effect": "Seis Estrellas de Búsqueda", "pc": "LJSPQK", "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN", "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN" },
+        { "effect": "Bajar Nivel de Búsqueda", "pc": "ASNAEB", "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN", "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN" },
+        { "effect": "Nunca Buscado", "pc": "AEZAKMI", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT" },
+        { "effect": "Mega Salto", "pc": "KANGAROO", "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2", "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT" }
+      ]
+    },
+    "vehicleCheats": {
+      "title": "Trucos de Vehículos y Transporte",
+      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Generar Camión Cisterna", "pc": "AMOMHRER", "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1", "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB" },
+        { "effect": "Generar Jetpack", "pc": "ROCKETMAN", "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT", "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT" },
+        { "effect": "Generar Jet Hydra", "pc": "JUMPJET", "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP", "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP" },
+        { "effect": "Generar Monster Truck", "pc": "MONSTERMASH", "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1", "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB" },
+        { "effect": "Autos Vuelan", "pc": "RIPAZHA", "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT", "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT" },
+        { "effect": "Autos Flotan en Agua", "pc": "BGKGTJH", "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT", "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT" },
+        { "effect": "Todos los Autos Tienen Nitro", "pc": "SPEEDFREAK", "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1", "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB" },
+        { "effect": "Explotar Todos los Autos", "pc": "CPKTNWT", "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1", "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB" }
+      ]
+    },
+    "weatherCheats": {
+      "title": "Trucos de Mundo y Clima",
+      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Clima Soleado", "pc": "PLEASANTLYWARM", "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE", "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X" },
+        { "effect": "Clima Lluvioso", "pc": "AUIFRVQS", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X" },
+        { "effect": "Clima Neblinoso", "pc": "CFVFGMJ", "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE", "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X" },
+        { "effect": "Tiempo Rápido", "pc": "YSOHNUL", "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP", "xbox": "B, B, X, LB, LT, A, Y, UP" },
+        { "effect": "Tiempo Lento", "pc": "LIYOAAY", "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1", "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB" }
+      ]
+    },
+    "gangCheats": {
+      "title": "Trucos de Pandillas y Peatones",
+      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Reclutar a Cualquiera (Pistola)", "pc": "SJMAHPE", "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT", "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT" },
+        { "effect": "Reclutar a Cualquiera (Cohetes)", "pc": "ZSOXFSQ", "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT", "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT" },
+        { "effect": "Pandillas Controlan las Calles", "pc": "BIFBUZZ", "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT", "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT" },
+        { "effect": "Disturbios en la Ciudad", "pc": "IOJUFZN", "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1", "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB" }
+      ]
+    },
+    "moneyWeapons": {
+      "title": "Trucos de Dinero, Armas y Habilidades",
+      "headers": ["Efecto", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Salud Completa, Armadura y $250k", "pc": "HESOYAM", "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
+        { "effect": "Set de Armas 1", "pc": "LXGIWYL", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
+        { "effect": "Set de Armas 2", "pc": "PROFESSIONALSKIT", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT" },
+        { "effect": "Set de Armas 3", "pc": "UZUMYMW", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN" }
+      ]
+    },
+    "weapons": {
+      "title": "Armas y Pistolas",
+      "subtitle": "Con Precios",
+      "description": "Las armas son una gran parte del gameplay de GTA San Andreas. Puedes comprarlas en tiendas Ammu-Nation o encontrarlas en el mapa.",
+      "headers": ["Nombre del Arma", "Tipo", "Precio ($)", "Detalles"],
+      "tip": "💡 Consejo: Usa diferentes armas para diferentes misiones. Para guerras de pandillas, los rifles y SMGs funcionan mejor.",
+      "data": [
+        { "name": "Pistola 9mm", "type": "Pistola", "price": "250", "details": "Arma básica, buena para peleas cercanas" },
+        { "name": "Desert Eagle", "type": "Pistola", "price": "1200", "details": "Daño fuerte, poder de un disparo" },
+        { "name": "AK-47", "type": "Rifle", "price": "3500", "details": "Rifle de asalto popular" },
+        { "name": "M4", "type": "Rifle", "price": "5000", "details": "Potente y preciso" },
+        { "name": "Escopeta", "type": "Bomba", "price": "1000", "details": "Bueno para rango cercano" },
+        { "name": "Escopeta de Combate", "type": "Auto", "price": "2500", "details": "Escopeta de disparo rápido" },
+        { "name": "Micro SMG", "type": "SMG", "price": "1500", "details": "Ligero y rápido" },
+        { "name": "MP5", "type": "SMG", "price": "3000", "details": "SMG fuerte para misiones" },
+        { "name": "Rifle de Francotirador", "type": "Largo Alcance", "price": "6000", "details": "Precisión de largo alcance" },
+        { "name": "RPG", "type": "Pesado", "price": "8000", "details": "Lanzacohetes para vehículos" },
+        { "name": "Minigun", "type": "Pesado", "price": "15000", "details": "Potencia de fuego extrema" }
+      ]
+    },
+    "vehicles": {
+      "title": "Autos y Motos",
+      "subtitle": "Con Velocidad y Precio",
+      "description": "Los autos y las motos son el corazón de la experiencia de GTA San Andreas. Aquí hay algunos populares:",
+      "headers": ["Nombre del Vehículo", "Tipo", "Velocidad (km/h)", "Precio Aprox ($)"],
+      "fact": "🏆 Dato: El Infernus es el auto más rápido del juego y un favorito de muchos jugadores.",
+      "data": [
+        { "name": "Infernus", "type": "Super Auto", "speed": "240", "price": "90000" },
+        { "name": "Cheetah", "type": "Deportivo", "speed": "230", "price": "80000" },
+        { "name": "Turismo", "type": "Deportivo", "speed": "220", "price": "85000" },
+        { "name": "Bullet", "type": "Deportivo", "speed": "210", "price": "75000" },
+        { "name": "Banshee", "type": "Deportivo", "speed": "200", "price": "65000" },
+        { "name": "Phoenix", "type": "Clásico", "speed": "180", "price": "55000" },
+        { "name": "NRG-500", "type": "Moto", "speed": "250", "price": "60000" },
+        { "name": "PCJ-600", "type": "Moto", "speed": "200", "price": "30000" },
+        { "name": "Sanchez", "type": "Moto de Tierra", "speed": "160", "price": "20000" },
+        { "name": "Quad", "type": "Todoterreno", "speed": "140", "price": "15000" }
+      ]
+    },
+    "characters": {
+      "title": "Todos los Personajes Principales",
+      "subtitle": "La Historia de San Andreas",
+      "description": "La historia de San Andreas está llena de personajes inolvidables. Aquí están los principales:",
+      "headers": ["Personaje", "Rol en la Historia"],
+      "note": "Cada personaje añade profundidad al juego, haciendo que cada misión sea emocionante.",
+      "data": [
+        { "name": "Carl Johnson (CJ)", "role": "Héroe principal, personaje del jugador" },
+        { "name": "Sweet Johnson", "role": "Hermano de CJ, el líder de Grove Street" },
+        { "name": "Big Smoke", "role": "Viejo amigo de CJ que luego lo traiciona" },
+        { "name": "Ryder", "role": "Otro miembro de Grove Street también traiciona a CJ" },
+        { "name": "Cesar Vialpando", "role": "Novio de Kendl y aliado cercano de CJ" },
+        { "name": "Kendl Johnson", "role": "Hermana de CJ, fuerte e inteligente" },
+        { "name": "Oficial Tenpenny", "role": "Policía corrupto, villano principal" },
+        { "name": "Woozie", "role": "Líder ciego de las Tríadas, amigo de CJ" },
+        { "name": "Catalina", "role": "Novia loca de CJ por un tiempo" },
+        { "name": "The Truth", "role": "Un hippie gracioso que ayuda a CJ" }
+      ]
+    },
+    "gangs": {
+      "title": "Pandillas en GTA San Andreas",
+      "description": "El mundo de San Andreas está lleno de pandillas que controlan diferentes áreas. Conocerlas te ayuda a entender el mapa de la ciudad y sobrevivir a las guerras de pandillas.",
+      "headers": ["Nombre de la Pandilla", "Área Principal", "Color", "Enemigo"],
+      "note": "Cada pandilla tiene sus propios autos, tatuajes y música. Grove Street Families, la pandilla de CJ, lucha por respeto y control de su vecindario.",
+      "data": [
+        { "name": "Grove Street Families", "area": "Los Santos", "color": "Verde", "enemy": "Ballas, Vagos" },
+        { "name": "Ballas", "area": "Los Santos", "color": "Púrpura", "enemy": "Grove Street" },
+        { "name": "Los Santos Vagos", "area": "Los Santos", "color": "Amarillo", "enemy": "Grove Street" },
+        { "name": "San Fierro Rifa", "area": "San Fierro", "color": "Azul", "enemy": "Triads" },
+        { "name": "Triads", "area": "San Fierro", "color": "Rojo", "enemy": "Rifa, Da Nang Boys" },
+        { "name": "Da Nang Boys", "area": "San Fierro", "color": "Gris", "enemy": "Triads" },
+        { "name": "Varrio Los Aztecas", "area": "Los Santos", "color": "Azul Claro", "enemy": "Ballas, Vagos" },
+        { "name": "Russian Mafia", "area": "Las Venturas", "color": "Negro", "enemy": "Grove Street (misiones posteriores)" }
+      ]
+    },
+    "secretLocations": {
+      "title": "Ubicaciones Secretas en GTA San Andreas",
+      "description": "San Andreas tiene muchos lugares secretos que la mayoría de los jugadores pasan por alto. Visitarlos da recompensas o experiencias divertidas.",
+      "headers": ["Ubicación Secreta", "Lugar", "Qué Encuentras Ahí"],
+      "note": "Algunos jugadores creen que los OVNIs aparecen cerca del Área 69 por la noche, pero es solo un mito, ¿o no?",
+      "data": [
+        { "location": "Area 69", "place": "Desierto", "find": "Jet oculto (Hydra) y base militar" },
+        { "location": "Mount Chiliad", "place": "Campo", "find": "Punto de salto en paracaídas y carreras de bicicletas" },
+        { "location": "Pueblo Fantasma", "place": "Norte de San Fierro", "find": "Área abandonada con detalles extraños" },
+        { "location": "Ruinas Submarinas", "place": "Cerca de Bayside", "find": "Objetos ocultos bajo el mar" },
+        { "location": "The Big Ear", "place": "Desierto", "find": "Radiotelescopio gigante" },
+        { "location": "Casa de Grove Street", "place": "Los Santos", "find": "Casa de CJ, llena de recuerdos" },
+        { "location": "Muelle de Easter Basin", "place": "San Fierro", "find": "Grandes barcos y grúas" },
+        { "location": "Verdant Meadows", "place": "Desierto", "find": "Aeropuerto donde empiezas la escuela de vuelo" }
+      ]
+    },
+    "faqCheats": {
+      "title": "Preguntas Frecuentes",
+      "data": [
+        { "id": "1", "question": "¿Los trucos de GTA San Andreas desactivan los logros?", "answer": "Sí, la mayoría de los trucos desactivarán los logros y trofeos en ciertas plataformas. Verifica la versión de tu juego antes de usar trucos si te importan los logros." },
+        { "id": "2", "question": "¿Puedo usar trucos en modo multijugador?", "answer": "No, los trucos generalmente solo están disponibles en modo de un solo jugador. Usar trucos en multijugador puede resultar en que te prohíban del juego en línea." },
+        { "id": "3", "question": "¿Los trucos afectarán mi archivo de guardado?", "answer": "Los trucos no corromperán tu guardado, pero algunas versiones pueden marcar tu guardado como modificado. Es mejor usar trucos en guardados separados." },
+        { "id": "4", "question": "¿Cómo ingreso trucos en PC?", "answer": "En PC, simplemente escribe el código de truco mientras juegas. En las versiones de consola, usa tu controlador para ingresar las combinaciones de botones." },
+        { "id": "5", "question": "¿Hay códigos de trucos para munición ilimitada?", "answer": "Sí, hay trucos específicos para munición ilimitada. Ingresa el código apropiado para tu plataforma y disfruta de potencia de fuego sin fin." },
+        { "id": "6", "question": "¿Puedo desactivar los trucos una vez activados?", "answer": "Algunos trucos se pueden desactivar ingresando el código nuevamente, mientras que otros son permanentes hasta que cargues un guardado anterior." }
+      ]
+    }
+  },
   "footer": {
     "copyright": "© 2025 GTA San Apk. Todos los derechos reservados.",
     "privacy": "Política de privacidad",

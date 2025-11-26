@@ -1009,6 +1009,200 @@
       "content": "Автомобили в GTA San Andreas - одна из лучших частей этой легендарной игры. Огромное разнообразие транспорта от простых велосипедов до мощных самолётов предоставляет бесконечное веселье и опции геймплея. Нравится ли вам собирать редкие авто, настраивать лоурайдеры или гонять на спортивных машинах, эта игра предлагает невероятный опыт транспорта. Детализация в дизайне и управляемости транспорта продолжает интересовать игроков год за годом."
     }
   },
+  "gtaCheats": {
+    "pageTitle": "Читы GTA San Andreas",
+    "hero": {
+      "title": "Читы GTA San Andreas",
+      "subtitle": "Освойте каждый уголок Сан-Андреаса с неограниченными читами и командами. Ваш полный гид по нарушению правил.",
+      "badge1": "Все Платформы",
+      "badge2": "Обновленные Коды"
+    },
+    "introduction": {
+      "title": "Читы GTA San Andreas",
+      "subtitle": "Полное Руководство и Справочник",
+      "description": "Читы делают GTA San Andreas еще веселее. Вы можете использовать их на ПК и мобильных устройствах для добавления машин, денег, оружия или специальных способностей.",
+      "paragraph": "Читы делают GTA San Andreas еще веселее. Вы можете использовать их на ПК и мобильных устройствах для добавления машин, денег, оружия или специальных способностей. Вот некоторые популярные читы для веселого геймплея:",
+      "tip": "💡 Совет: Используйте читы после сохранения игры. Слишком много читов могут привести к сбою игры или усложнить последующие миссии."
+    },
+    "actionCheats": {
+      "title": "Быстрые Читы Действий",
+      "headers": ["Действие", "Чит-Код (ПК)", "Эффект"],
+      "data": [
+        { "action": "Бесконечное Здоровье", "pc": "BAGUVIX", "effect": "Делает CJ почти неуязвимым" },
+        { "action": "Полная Броня", "pc": "HESOYAM", "effect": "Дает полную броню и здоровье" },
+        { "action": "Набор Оружия 1", "pc": "LXGIWYL", "effect": "Базовое оружие и холодное оружие" },
+        { "action": "Реактивный Ранец", "pc": "ROCKETMAN", "effect": "Создает реактивный ранец" },
+        { "action": "Танк (Rhino)", "pc": "AIWPRTON", "effect": "Создает военный танк" },
+        { "action": "Снизить Уровень Розыска", "pc": "AEZAKMI", "effect": "Полиция игнорирует вас" },
+        { "action": "Летающие Машины", "pc": "CHITTYCHITTYBANGBANG", "effect": "Машины могут летать" },
+        { "action": "Никогда Не Голоден", "pc": "AEDUWNV", "effect": "Шкала голода остается полной" },
+        { "action": "Мега Прыжок", "pc": "KANGAROO", "effect": "CJ прыгает супер высоко" }
+      ]
+    },
+    "playerCheats": {
+      "title": "Читы Игрока",
+      "subtitle": "Для ПК, PlayStation и Xbox",
+      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Бесконечное Здоровье", "pc": "BAGUVIX", "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE", "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y" },
+        { "effect": "Бесконечные Патроны", "pc": "FULLCLIP", "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1", "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB" },
+        { "effect": "Бесконечный Кислород", "pc": "CVWKXAM", "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN", "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN" },
+        { "effect": "Максимальные Мышцы", "pc": "JYSDSOD", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT" },
+        { "effect": "Максимальный Жир", "pc": "BTCDBCB", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT" },
+        { "effect": "Худой", "pc": "KVGYZQK", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP" },
+        { "effect": "Шесть Звезд Розыска", "pc": "LJSPQK", "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN", "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN" },
+        { "effect": "Снизить Уровень Розыска", "pc": "ASNAEB", "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN", "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN" },
+        { "effect": "Никогда Не Разыскивается", "pc": "AEZAKMI", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT" },
+        { "effect": "Мега Прыжок", "pc": "KANGAROO", "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2", "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT" }
+      ]
+    },
+    "vehicleCheats": {
+      "title": "Читы Транспорта",
+      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Создать Грузовик-Цистерну", "pc": "AMOMHRER", "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1", "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB" },
+        { "effect": "Создать Реактивный Ранец", "pc": "ROCKETMAN", "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT", "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT" },
+        { "effect": "Создать Истребитель Hydra", "pc": "JUMPJET", "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP", "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP" },
+        { "effect": "Создать Монстр-Трак", "pc": "MONSTERMASH", "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1", "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB" },
+        { "effect": "Летающие Машины", "pc": "RIPAZHA", "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT", "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT" },
+        { "effect": "Машины Плавают по Воде", "pc": "BGKGTJH", "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT", "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT" },
+        { "effect": "Все Машины с Нитро", "pc": "SPEEDFREAK", "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1", "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB" },
+        { "effect": "Взорвать Все Машины", "pc": "CPKTNWT", "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1", "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB" }
+      ]
+    },
+    "weatherCheats": {
+      "title": "Читы Мира и Погоды",
+      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Солнечная Погода", "pc": "PLEASANTLYWARM", "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE", "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X" },
+        { "effect": "Дождливая Погода", "pc": "AUIFRVQS", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X" },
+        { "effect": "Туманная Погода", "pc": "CFVFGMJ", "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE", "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X" },
+        { "effect": "Быстрое Время", "pc": "YSOHNUL", "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP", "xbox": "B, B, X, LB, LT, A, Y, UP" },
+        { "effect": "Медленное Время", "pc": "LIYOAAY", "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1", "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB" }
+      ]
+    },
+    "gangCheats": {
+      "title": "Читы Банд и Пешеходов",
+      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Завербовать Любого (Пистолет)", "pc": "SJMAHPE", "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT", "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT" },
+        { "effect": "Завербовать Любого (Ракеты)", "pc": "ZSOXFSQ", "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT", "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT" },
+        { "effect": "Банды Контролируют Улицы", "pc": "BIFBUZZ", "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT", "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT" },
+        { "effect": "Беспорядки в Городе", "pc": "IOJUFZN", "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1", "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB" }
+      ]
+    },
+    "moneyWeapons": {
+      "title": "Читы Денег, Оружия и Навыков",
+      "headers": ["Эффект", "ПК", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "Здоровье, Броня и $250k", "pc": "HESOYAM", "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
+        { "effect": "Набор Оружия 1", "pc": "LXGIWYL", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
+        { "effect": "Набор Оружия 2", "pc": "PROFESSIONALSKIT", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT" },
+        { "effect": "Набор Оружия 3", "pc": "UZUMYMW", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN" }
+      ]
+    },
+    "weapons": {
+      "title": "Оружие и Пистолеты",
+      "subtitle": "С Ценами",
+      "description": "Оружие является большой частью геймплея GTA San Andreas. Вы можете купить его в магазинах Ammu-Nation или найти на карте.",
+      "headers": ["Название Оружия", "Тип", "Цена ($)", "Детали"],
+      "tip": "💡 Совет: Используйте разное оружие для разных миссий. Для войн банд лучше всего работают винтовки и пистолеты-пулеметы.",
+      "data": [
+        { "name": "Пистолет 9мм", "type": "Пистолет", "price": "250", "details": "Базовое оружие, хорошо для ближнего боя" },
+        { "name": "Desert Eagle", "type": "Пистолет", "price": "1200", "details": "Сильный урон, убийство с одного выстрела" },
+        { "name": "AK-47", "type": "Винтовка", "price": "3500", "details": "Популярная штурмовая винтовка" },
+        { "name": "M4", "type": "Винтовка", "price": "5000", "details": "Мощная и точная" },
+        { "name": "Дробовик", "type": "Помповый", "price": "1000", "details": "Хорош для ближнего боя" },
+        { "name": "Боевой Дробовик", "type": "Авто", "price": "2500", "details": "Скорострельный дробовик" },
+        { "name": "Micro SMG", "type": "ПП", "price": "1500", "details": "Легкий и быстрый" },
+        { "name": "MP5", "type": "ПП", "price": "3000", "details": "Сильный ПП для миссий" },
+        { "name": "Снайперская Винтовка", "type": "Дальнобойное", "price": "6000", "details": "Точность дальнего боя" },
+        { "name": "РПГ", "type": "Тяжелое", "price": "8000", "details": "Гранатомет для транспорта" },
+        { "name": "Минигун", "type": "Тяжелое", "price": "15000", "details": "Экстремальная огневая мощь" }
+      ]
+    },
+    "vehicles": {
+      "title": "Машины и Мотоциклы",
+      "subtitle": "Со Скоростью и Ценой",
+      "description": "Машины и мотоциклы - сердце опыта GTA San Andreas. Вот некоторые популярные:",
+      "headers": ["Название Транспорта", "Тип", "Скорость (км/ч)", "Прибл. Цена ($)"],
+      "funFact": "🏆 Интересный Факт: Infernus - самая быстрая машина в игре и любимица многих игроков.",
+      "data": [
+        { "name": "Infernus", "type": "Суперкар", "speed": "240", "price": "90000" },
+        { "name": "Cheetah", "type": "Спорткар", "speed": "230", "price": "80000" },
+        { "name": "Turismo", "type": "Спорткар", "speed": "220", "price": "85000" },
+        { "name": "Bullet", "type": "Спорткар", "speed": "210", "price": "75000" },
+        { "name": "Banshee", "type": "Спорткар", "speed": "200", "price": "65000" },
+        { "name": "Phoenix", "type": "Классика", "speed": "180", "price": "55000" },
+        { "name": "NRG-500", "type": "Мотоцикл", "speed": "250", "price": "60000" },
+        { "name": "PCJ-600", "type": "Мотоцикл", "speed": "200", "price": "30000" },
+        { "name": "Sanchez", "type": "Кроссовый Мотоцикл", "speed": "160", "price": "20000" },
+        { "name": "Quad", "type": "Внедорожник", "speed": "140", "price": "15000" }
+      ]
+    },
+    "characters": {
+      "title": "Все Главные Персонажи",
+      "subtitle": "История Сан-Андреаса",
+      "description": "История Сан-Андреаса полна незабываемых персонажей. Вот ключевые:",
+      "headers": ["Персонаж", "Роль в Истории"],
+      "note": "Каждый персонаж добавляет глубину игре, делая каждую миссию захватывающей.",
+      "data": [
+        { "name": "Карл Джонсон (CJ)", "role": "Главный герой, персонаж игрока" },
+        { "name": "Свит Джонсон", "role": "Брат CJ, лидер Grove Street" },
+        { "name": "Биг Смоук", "role": "Старый друг CJ, который позже предает его" },
+        { "name": "Райдер", "role": "Другой член Grove Street, также предает CJ" },
+        { "name": "Сезар Виальпандо", "role": "Парень Кендл и близкий союзник CJ" },
+        { "name": "Кендл Джонсон", "role": "Сестра CJ, сильная и умная" },
+        { "name": "Офицер Тенпенни", "role": "Коррумпированный коп, главный злодей" },
+        { "name": "Вузи", "role": "Слепой лидер Триады, друг CJ" },
+        { "name": "Каталина", "role": "Сумасшедшая девушка CJ на время" },
+        { "name": "Правда", "role": "Забавный хиппи, который помогает CJ" }
+      ]
+    },
+    "gangs": {
+      "title": "Банды в GTA San Andreas",
+      "description": "Мир Сан-Андреаса заполнен бандами, которые контролируют различные районы. Знание их помогает понять карту города и выжить в бандитских войнах.",
+      "headers": ["Название Банды", "Основная Территория", "Цвет", "Враг"],
+      "note": "У каждой банды есть свои машины, татуировки и музыка. Grove Street Families, банда CJ, борется за уважение и контроль над своим районом.",
+      "data": [
+        { "name": "Grove Street Families", "area": "Лос-Сантос", "color": "Зеленый", "enemy": "Ballas, Vagos" },
+        { "name": "Ballas", "area": "Лос-Сантос", "color": "Фиолетовый", "enemy": "Grove Street" },
+        { "name": "Los Santos Vagos", "area": "Лос-Сантос", "color": "Желтый", "enemy": "Grove Street" },
+        { "name": "San Fierro Rifa", "area": "Сан-Фиерро", "color": "Синий", "enemy": "Триады" },
+        { "name": "Триады", "area": "Сан-Фиерро", "color": "Красный", "enemy": "Rifa, Da Nang Boys" },
+        { "name": "Da Nang Boys", "area": "Сан-Фиерро", "color": "Серый", "enemy": "Триады" },
+        { "name": "Varrio Los Aztecas", "area": "Лос-Сантос", "color": "Светло-Синий", "enemy": "Ballas, Vagos" },
+        { "name": "Русская Мафия", "area": "Лас-Вентурас", "color": "Черный", "enemy": "Grove Street (поздние миссии)" }
+      ]
+    },
+    "secretLocations": {
+      "title": "Секретные Локации в GTA San Andreas",
+      "description": "Сан-Андреас имеет много секретных мест, которые большинство игроков пропускают. Посещение их дает награды или веселый опыт.",
+      "headers": ["Секретная Локация", "Место", "Что Вы Там Найдете"],
+      "note": "Некоторые игроки верят, что НЛО появляются возле Зоны 69 ночью, но это всего лишь миф — или нет?",
+      "data": [
+        { "location": "Зона 69", "place": "Пустыня", "find": "Скрытый истребитель (Hydra) и военная база" },
+        { "location": "Гора Чилиад", "place": "Сельская местность", "find": "Место прыжка с парашютом и велогонки" },
+        { "location": "Город-Призрак", "place": "Север от Сан-Фиерро", "find": "Заброшенная область со странными деталями" },
+        { "location": "Подводные Руины", "place": "Рядом с Бейсайдом", "find": "Скрытые объекты под водой" },
+        { "location": "Большое Ухо", "place": "Пустыня", "find": "Гигантский радиотелескоп" },
+        { "location": "Дом на Grove Street", "place": "Лос-Сантос", "find": "Дом CJ, полный воспоминаний" },
+        { "location": "Док Easter Basin", "place": "Сан-Фиерро", "find": "Большие корабли и краны" },
+        { "location": "Verdant Meadows", "place": "Пустыня", "find": "Аэропорт, где начинается летная школа" }
+      ]
+    },
+    "faqCheats": {
+      "title": "Часто Задаваемые Вопросы",
+      "data": [
+        { "id": "1", "question": "Читы GTA San Andreas отключают достижения?", "answer": "Да, большинство читов отключат достижения и трофеи на определенных платформах. Проверьте версию вашей игры перед использованием читов, если вам важны достижения." },
+        { "id": "2", "question": "Могу ли я использовать читы в многопользовательском режиме?", "answer": "Нет, читы обычно доступны только в одиночном режиме. Использование читов в многопользовательской игре может привести к бану." },
+        { "id": "3", "question": "Читы повлияют на мой файл сохранения?", "answer": "Читы не повредят ваше сохранение, но некоторые версии могут пометить ваше сохранение как модифицированное. Лучше использовать читы на отдельных сохранениях." },
+        { "id": "4", "question": "Как вводить читы на ПК?", "answer": "На ПК просто вводите чит-код во время игры. На консольных версиях используйте контроллер для ввода комбинаций кнопок." },
+        { "id": "5", "question": "Есть ли читы для бесконечных патронов?", "answer": "Да, есть специальные читы для бесконечных боеприпасов. Введите соответствующий код для вашей платформы и наслаждайтесь бесконечной огневой мощью." },
+        { "id": "6", "question": "Могу ли я отключить читы после активации?", "answer": "Некоторые читы можно отключить, введя код снова, в то время как другие являются постоянными, пока вы не загрузите предыдущее сохранение." }
+      ]
+    }
+  },
   "footer": {
     "copyright": "© 2025 GTA San Apk. Все права защищены.",
     "privacy": "Политика конфиденциальности",

@@ -793,6 +793,200 @@
       "content": "GTA サンアンドレアスの自動車はこの伝説的なゲームの最高の部分の1つです。シンプルな自転車から強力な飛行機までの膨大な種類の乗り物は、無限の楽しみとゲームプレイオプションを提供します。レアな自動車の収集、ロウライダーのカスタマイズ、またはスポーツカーのレースが好きかどうかにかかわらず、このゲームは信じられない乗り物体験を提供します。乗り物デザインと操作性の詳細は、引き続きプレイヤーを毎年興味付けます。"
     }
   },
+  "gtaCheats": {
+    "pageTitle": "GTA サンアンドレアス チート",
+    "hero": {
+      "title": "GTA サンアンドレアス チート",
+      "subtitle": "無制限のチートとコマンドでサンアンドレアスのすべての場所をマスターしましょう。ルールを破るための完全ガイド。",
+      "badge1": "全プラットフォーム",
+      "badge2": "更新されたコード"
+    },
+    "introduction": {
+      "title": "GTA サンアンドレアス チート",
+      "subtitle": "完全ガイドとリファレンス",
+      "description": "チートはGTA San Andreasをさらに楽しくします。PCとモバイルでそれらを使用して、車、お金、武器、または特殊能力を追加できます。",
+      "paragraph": "チートはGTA San Andreasをさらに楽しくします。PCとモバイルでそれらを使用して、車、お金、武器、または特殊能力を追加できます。楽しいゲームプレイのための人気のあるチートは次のとおりです:",
+      "tip": "💡 ヒント: ゲームを保存した後にチートを使用してください。チートが多すぎると、ゲームがクラッシュしたり、後のミッションが難しくなったりする可能性があります。"
+    },
+    "actionCheats": {
+      "title": "クイックアクションチート",
+      "headers": ["アクション", "チートコード (PC)", "効果"],
+      "data": [
+        { "action": "無限ヘルス", "pc": "BAGUVIX", "effect": "CJをほぼ無敵にする" },
+        { "action": "フルアーマー", "pc": "HESOYAM", "effect": "完全な鎧と健康を与える" },
+        { "action": "武器セット 1", "pc": "LXGIWYL", "effect": "基本的な銃と近接武器" },
+        { "action": "ジェットパック", "pc": "ROCKETMAN", "effect": "ジェットパックを出現させる" },
+        { "action": "タンク (Rhino)", "pc": "AIWPRTON", "effect": "軍事戦車を出現させる" },
+        { "action": "手配度を下げる", "pc": "AEZAKMI", "effect": "警察があなたを無視する" },
+        { "action": "車が飛ぶ", "pc": "CHITTYCHITTYBANGBANG", "effect": "車が飛ぶことができる" },
+        { "action": "決して空腹にならない", "pc": "AEDUWNV", "effect": "空腹バーがいっぱいのまま" },
+        { "action": "メガジャンプ", "pc": "KANGAROO", "effect": "CJが超高くジャンプする" }
+      ]
+    },
+    "playerCheats": {
+      "title": "プレイヤーチート",
+      "subtitle": "PC、PlayStation、Xbox用",
+      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "無限ヘルス", "pc": "BAGUVIX", "ps": "DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE", "xbox": "DOWN, A, RIGHT, LEFT, RIGHT, RB, RIGHT, DOWN, UP, Y" },
+        { "effect": "無限弾薬", "pc": "FULLCLIP", "ps": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1", "xbox": "LB, RB, X, RB, LEFT, RT, RB, LEFT, X, DOWN, LB, LB" },
+        { "effect": "無限酸素", "pc": "CVWKXAM", "ps": "DOWN, LEFT, L1, DOWN, DOWN, R2, DOWN, L2, DOWN", "xbox": "DOWN, LEFT, LB, DOWN, DOWN, RT, DOWN, LT, DOWN" },
+        { "effect": "筋肉最大", "pc": "JYSDSOD", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, LEFT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, LEFT" },
+        { "effect": "脂肪最大", "pc": "BTCDBCB", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, RIGHT", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, RIGHT" },
+        { "effect": "やせる", "pc": "KVGYZQK", "ps": "TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, CIRCLE, UP", "xbox": "Y, UP, UP, LEFT, RIGHT, X, B, UP" },
+        { "effect": "6つ星手配度", "pc": "LJSPQK", "ps": "CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN", "xbox": "B, RIGHT, B, RIGHT, LEFT, X, Y, DOWN" },
+        { "effect": "手配度を下げる", "pc": "ASNAEB", "ps": "R1, R1, CIRCLE, R2, UP, DOWN, UP, DOWN, UP, DOWN", "xbox": "RB, RB, B, RT, UP, DOWN, UP, DOWN, UP, DOWN" },
+        { "effect": "手配されない", "pc": "AEZAKMI", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, DOWN, LEFT, LEFT", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, DOWN, LEFT, LEFT" },
+        { "effect": "メガジャンプ", "pc": "KANGAROO", "ps": "UP, UP, TRIANGLE, TRIANGLE, UP, UP, LEFT, RIGHT, SQUARE, R2, R2", "xbox": "UP, UP, Y, Y, UP, UP, LEFT, RIGHT, X, RT, RT" }
+      ]
+    },
+    "vehicleCheats": {
+      "title": "車両と輸送チート",
+      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "タンカートラックを出現", "pc": "AMOMHRER", "ps": "R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1", "xbox": "RB, UP, LEFT, RIGHT, RT, UP, RIGHT, X, RIGHT, LT, LB, LB" },
+        { "effect": "ジェットパックを出現", "pc": "ROCKETMAN", "ps": "LEFT, RIGHT, L1, L2, R1, R2, UP, DOWN, LEFT, RIGHT", "xbox": "LEFT, RIGHT, LB, LT, RB, RT, UP, DOWN, LEFT, RIGHT" },
+        { "effect": "ハイドラジェットを出現", "pc": "JUMPJET", "ps": "TRIANGLE, TRIANGLE, SQUARE, CIRCLE, X, L1, L1, DOWN, UP", "xbox": "Y, Y, X, B, A, LB, LB, DOWN, UP" },
+        { "effect": "モンスタートラックを出現", "pc": "MONSTERMASH", "ps": "RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1", "xbox": "RIGHT, UP, RB, RB, RB, DOWN, Y, Y, A, B, LB, LB" },
+        { "effect": "車が飛ぶ", "pc": "RIPAZHA", "ps": "SQUARE, DOWN, L2, UP, L1, CIRCLE, UP, X, LEFT", "xbox": "X, DOWN, LT, UP, LB, B, UP, A, LEFT" },
+        { "effect": "車が水に浮く", "pc": "BGKGTJH", "ps": "RIGHT, R2, CIRCLE, R2, UP, DOWN, RIGHT, R2, UP, RIGHT", "xbox": "RIGHT, RT, B, RT, UP, DOWN, RIGHT, RT, UP, RIGHT" },
+        { "effect": "すべての車にニトロ", "pc": "SPEEDFREAK", "ps": "RIGHT, L1, UP, TRIANGLE, R2, TRIANGLE, UP, RIGHT, SQUARE, L1", "xbox": "RIGHT, LB, UP, Y, RT, Y, UP, RIGHT, X, LB" },
+        { "effect": "すべての車を爆発", "pc": "CPKTNWT", "ps": "R2, L2, L1, R1, L2, R2, SQUARE, TRIANGLE, CIRCLE, TRIANGLE, L2, L1", "xbox": "RT, LT, LB, RB, LT, RT, X, Y, B, Y, LT, LB" }
+      ]
+    },
+    "weatherCheats": {
+      "title": "世界と天気のチート",
+      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "晴れた天気", "pc": "PLEASANTLYWARM", "ps": "TRIANGLE, UP, RIGHT, DOWN, L2, L1, SQUARE", "xbox": "Y, UP, RIGHT, DOWN, LT, LB, X" },
+        { "effect": "雨の天気", "pc": "AUIFRVQS", "ps": "DOWN, RIGHT, RIGHT, L1, RIGHT, UP, SQUARE", "xbox": "DOWN, RIGHT, RIGHT, LB, RIGHT, UP, X" },
+        { "effect": "霧の天気", "pc": "CFVFGMJ", "ps": "RIGHT, RIGHT, L2, LEFT, LEFT, R2, SQUARE", "xbox": "RIGHT, RIGHT, LT, LEFT, LEFT, RT, X" },
+        { "effect": "早い時間", "pc": "YSOHNUL", "ps": "CIRCLE, CIRCLE, SQUARE, L1, L2, X, TRIANGLE, UP", "xbox": "B, B, X, LB, LT, A, Y, UP" },
+        { "effect": "遅い時間", "pc": "LIYOAAY", "ps": "TRIANGLE, UP, RIGHT, DOWN, SQUARE, R2, R1", "xbox": "Y, UP, RIGHT, DOWN, X, RT, RB" }
+      ]
+    },
+    "gangCheats": {
+      "title": "ギャングと歩行者のチート",
+      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "誰でも募集 (ピストル)", "pc": "SJMAHPE", "ps": "DOWN, SQUARE, UP, R2, R2, UP, RIGHT, UP, RIGHT", "xbox": "DOWN, X, UP, RT, RT, UP, RIGHT, UP, RIGHT" },
+        { "effect": "誰でも募集 (ロケット)", "pc": "ZSOXFSQ", "ps": "DOWN, SQUARE, UP, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT", "xbox": "DOWN, X, UP, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT" },
+        { "effect": "ギャングが通りを支配", "pc": "BIFBUZZ", "ps": "UP, X, UP, X, DOWN, LEFT, X, RIGHT", "xbox": "UP, A, UP, A, DOWN, LEFT, A, RIGHT" },
+        { "effect": "都市で暴動", "pc": "IOJUFZN", "ps": "DOWN, LEFT, UP, LEFT, X, R2, R1, L2, L1", "xbox": "DOWN, LEFT, UP, LEFT, A, RT, RB, LT, LB" }
+      ]
+    },
+    "moneyWeapons": {
+      "title": "お金、武器、スキルのチート",
+      "headers": ["効果", "PC", "PlayStation", "Xbox"],
+      "data": [
+        { "effect": "ヘルス、アーマー、$250k", "pc": "HESOYAM", "ps": "R1, R2, L1, X, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, A, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
+        { "effect": "武器セット 1", "pc": "LXGIWYL", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, RIGHT, UP" },
+        { "effect": "武器セット 2", "pc": "PROFESSIONALSKIT", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, LEFT" },
+        { "effect": "武器セット 3", "pc": "UZUMYMW", "ps": "R1, R2, L1, R2, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN", "xbox": "RB, RT, LB, RT, LEFT, DOWN, RIGHT, UP, LEFT, DOWN, DOWN, DOWN" }
+      ]
+    },
+    "weapons": {
+      "title": "武器と銃",
+      "subtitle": "価格付き",
+      "description": "武器はGTA San Andreasゲームプレイの大きな部分です。Ammu-Nationストアで購入したり、マップ全体で見つけることができます。",
+      "headers": ["銃の名前", "タイプ", "価格 ($)", "詳細"],
+      "tip": "💡 ヒント: 異なるミッションには異なる武器を使用してください。ギャング戦争では、ライフルとSMGが最も効果的です。",
+      "data": [
+        { "name": "9mmピストル", "type": "ハンドガン", "price": "250", "details": "基本的な武器、近距離戦闘に適している" },
+        { "name": "デザートイーグル", "type": "ハンドガン", "price": "1200", "details": "強力なダメージ、ワンショットパワー" },
+        { "name": "AK-47", "type": "ライフル", "price": "3500", "details": "人気のアサルトライフル" },
+        { "name": "M4", "type": "ライフル", "price": "5000", "details": "強力で正確" },
+        { "name": "ショットガン", "type": "ポンプ", "price": "1000", "details": "近距離に適している" },
+        { "name": "コンバットショットガン", "type": "オート", "price": "2500", "details": "速射ショットガン" },
+        { "name": "マイクロSMG", "type": "SMG", "price": "1500", "details": "軽量で速い" },
+        { "name": "MP5", "type": "SMG", "price": "3000", "details": "ミッション用の強力なSMG" },
+        { "name": "スナイパーライフル", "type": "長距離", "price": "6000", "details": "長距離精度" },
+        { "name": "RPG", "type": "重火器", "price": "8000", "details": "車両用ロケットランチャー" },
+        { "name": "ミニガン", "type": "重火器", "price": "15000", "details": "極端な火力" }
+      ]
+    },
+    "vehicles": {
+      "title": "車とバイク",
+      "subtitle": "スピードと価格付き",
+      "description": "車とバイクはGTA San Andreas体験の心臓部です。人気のあるものは次のとおりです:",
+      "headers": ["車両名", "タイプ", "速度 (km/h)", "おおよその価格 ($)"],
+      "funFact": "🏆 おもしろ知識: インフェルヌスはゲーム内で最速の車であり、多くのプレイヤーのお気に入りです。",
+      "data": [
+        { "name": "インフェルヌス", "type": "スーパーカー", "speed": "240", "price": "90000" },
+        { "name": "チーター", "type": "スポーツ", "speed": "230", "price": "80000" },
+        { "name": "トゥリスモ", "type": "スポーツ", "speed": "220", "price": "85000" },
+        { "name": "ブレット", "type": "スポーツ", "speed": "210", "price": "75000" },
+        { "name": "バンシー", "type": "スポーツ", "speed": "200", "price": "65000" },
+        { "name": "フェニックス", "type": "クラシック", "speed": "180", "price": "55000" },
+        { "name": "NRG-500", "type": "バイク", "speed": "250", "price": "60000" },
+        { "name": "PCJ-600", "type": "バイク", "speed": "200", "price": "30000" },
+        { "name": "サンチェス", "type": "ダートバイク", "speed": "160", "price": "20000" },
+        { "name": "クワッド", "type": "オフロード", "speed": "140", "price": "15000" }
+      ]
+    },
+    "characters": {
+      "title": "すべての主要キャラクター",
+      "subtitle": "サンアンドレアスの物語",
+      "description": "サンアンドレアスの物語は忘れられないキャラクターでいっぱいです。ここに主要なものがあります:",
+      "headers": ["キャラクター", "物語での役割"],
+      "note": "各キャラクターはゲームに深みを加え、各ミッションをエキサイティングにします。",
+      "data": [
+        { "name": "カール・ジョンソン (CJ)", "role": "主人公、プレイヤーキャラクター" },
+        { "name": "スウィート・ジョンソン", "role": "CJの兄弟、グローブストリートのリーダー" },
+        { "name": "ビッグスモーク", "role": "CJの古い友人で後に裏切る" },
+        { "name": "ライダー", "role": "別のグローブストリートメンバーで、CJを裏切る" },
+        { "name": "セザール・ヴィアルパンド", "role": "ケンドルのボーイフレンドでCJの親しい同盟者" },
+        { "name": "ケンドル・ジョンソン", "role": "CJの妹、強くて賢い" },
+        { "name": "テンペニー警官", "role": "腐敗した警官、主要な悪役" },
+        { "name": "ウージー", "role": "盲目のトライアドリーダー、CJの友人" },
+        { "name": "カタリナ", "role": "一時期CJのクレイジーなガールフレンド" },
+        { "name": "真実", "role": "CJを助ける面白いヒッピー" }
+      ]
+    },
+    "gangs": {
+      "title": "GTA San Andreasのギャング",
+      "description": "サンアンドレアスの世界は、異なるエリアを支配するギャングでいっぱいです。彼らを知ることは、都市地図を理解し、ギャング戦争を生き残るのに役立ちます。",
+      "headers": ["ギャング名", "主要エリア", "色", "敵"],
+      "note": "各ギャングには独自の車、タトゥー、音楽があります。グローブストリートファミリーズ、CJのギャングは、彼らの近隣の尊敬と支配のために戦います。",
+      "data": [
+        { "name": "グローブストリートファミリーズ", "area": "ロスサントス", "color": "緑", "enemy": "バラス、ヴァゴス" },
+        { "name": "バラス", "area": "ロスサントス", "color": "紫", "enemy": "グローブストリート" },
+        { "name": "ロスサントスヴァゴス", "area": "ロスサントス", "color": "黄色", "enemy": "グローブストリート" },
+        { "name": "サンフィエロリファ", "area": "サンフィエロ", "color": "青", "enemy": "トライアド" },
+        { "name": "トライアド", "area": "サンフィエロ", "color": "赤", "enemy": "リファ、ダナンボーイズ" },
+        { "name": "ダナンボーイズ", "area": "サンフィエロ", "color": "灰色", "enemy": "トライアド" },
+        { "name": "ヴァリオロスアステカス", "area": "ロスサントス", "color": "水色", "enemy": "バラス、ヴァゴス" },
+        { "name": "ロシアンマフィア", "area": "ラスベンチュラス", "color": "黒", "enemy": "グローブストリート (後のミッション)" }
+      ]
+    },
+    "secretLocations": {
+      "title": "GTA San Andreasの秘密の場所",
+      "description": "サンアンドレアスには、ほとんどのプレイヤーが見逃す秘密の場所がたくさんあります。それらを訪れると報酬や楽しい体験が得られます。",
+      "headers": ["秘密の場所", "場所", "そこで見つけるもの"],
+      "note": "一部のプレイヤーは、夜にエリア69の近くにUFOが現れると信じていますが、それは単なる神話です — それとも?",
+      "data": [
+        { "location": "エリア69", "place": "砂漠", "find": "隠されたジェット機 (ハイドラ) と軍事基地" },
+        { "location": "チリアド山", "place": "田舎", "find": "パラシュートジャンプスポットと自転車レース" },
+        { "location": "ゴーストタウン", "place": "サンフィエロの北", "find": "奇妙な詳細のある放棄されたエリア" },
+        { "location": "水中遺跡", "place": "ベイサイド近く", "find": "海の下に隠されたオブジェクト" },
+        { "location": "ビッグイヤー", "place": "砂漠", "find": "巨大な電波望遠鏡" },
+        { "location": "グローブストリートの家", "place": "ロスサントス", "find": "CJの家、思い出でいっぱい" },
+        { "location": "イースターベイスンドック", "place": "サンフィエロ", "find": "大きな船とクレーン" },
+        { "location": "ヴァーダントメドウズ", "place": "砂漠", "find": "飛行学校を開始する空港" }
+      ]
+    },
+    "faqCheats": {
+      "title": "よくある質問",
+      "data": [
+        { "id": "1", "question": "GTA San Andreasのチートは実績を無効にしますか?", "answer": "はい、ほとんどのチートは特定のプラットフォームで実績とトロフィーを無効にします。実績が重要な場合は、チートを使用する前にゲームバージョンを確認してください。" },
+        { "id": "2", "question": "マルチプレイヤーモードでチートを使用できますか?", "answer": "いいえ、チートは通常シングルプレイヤーモードでのみ利用できます。マルチプレイヤーでチートを使用すると、オンラインプレイから禁止される可能性があります。" },
+        { "id": "3", "question": "チートはセーブファイルに影響しますか?", "answer": "チートはセーブを破損しませんが、一部のバージョンではセーブを変更済みとしてフラグ付けする場合があります。別のセーブでチートを使用するのが最善です。" },
+        { "id": "4", "question": "PCでチートを入力するにはどうすればよいですか?", "answer": "PCでは、プレイ中にチートコードを入力するだけです。コンソールバージョンでは、コントローラーを使用してボタンの組み合わせを入力します。" },
+        { "id": "5", "question": "無制限の弾薬のチートコードはありますか?", "answer": "はい、無制限の弾薬のための特定のチートがあります。プラットフォームに適したコードを入力して、無限の火力をお楽しみください。" },
+        { "id": "6", "question": "有効にしたチートをオフにできますか?", "answer": "一部のチートはコードを再度入力することでオフにできますが、他のチートは以前のセーブをロードするまで永続的です。" }
+      ]
+    }
+  },
   "footer": {
     "copyright": "© 2025 GTA San Apk.すべての著作権を保有します。",
     "privacy": "プライバシーポリシー",
