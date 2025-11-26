@@ -1,133 +1,83 @@
-'use client';
+import { getTranslations } from 'next-intl/server';
+import HomeContent from './HomeContent';
 
-import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import SystemRequirementsTable from '../components/SystemRequirementsTable';
-import SystemRequirementsFeatures from '../components/SystemRequirementsFeatures';
-import GTAFeaturesDetail from '../components/GTAFeaturesDetail';
-import GTAGameplayVideo from '../components/GTAGameplayVideo';
-import GTATimeline from '../components/GTATimeline';
-import TipsAndTricks from '../components/TipsAndTricks';
-import GameplayControls from '../components/GameplayControls';
-import DownloadInstallation from '../components/DownloadInstallation';
-import ComparisonSection from '../components/ComparisonSection';
-import ProsAndCons from '../components/ProsAndCons';
-import SafetyPrecautions from '../components/SafetyPrecautions';
-import FAQSection from '../components/FAQSection';
-import Footer from '../components/Footer';
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+
+export async function generateMetadata({ params }) {
+  const locale = (await params)?.locale || 'en';
+  const t = await getTranslations({ locale, namespace: 'content' }).catch(() => null);
+
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanandreas.info';
+  const path = locale === 'en' ? '' : `/${locale}`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '' : `/${lang}`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'GTA San Andreas MOD APK 2025 - Unlimited Money & All Features Unlocked',
+    de: 'GTA San Andreas MOD APK 2025 - Unbegrenzte Geld- und Funktionen freigegeben',
+    fr: 'GTA San Andreas MOD APK 2025 - Argent illimité et fonctionnalités déverrouillées',
+    it: 'GTA San Andreas MOD APK 2025 - Soldi illimitati e funzioni sbloccate',
+    es: 'GTA San Andreas MOD APK 2025 - Dinero ilimitado y características desbloqueadas',
+    pt: 'GTA San Andreas MOD APK 2025 - Dinheiro Ilimitado e Recursos Desbloqueados',
+    ru: 'GTA San Andreas MOD APK 2025 - Бесконечные деньги и открытые функции',
+    ja: 'GTA San Andreas MOD APK 2025 - 無制限のお金とすべての機能を解除'
+  };
+
+  const descriptions = {
+    en: 'Download GTA San Andreas MOD APK 2025 with unlimited money, all features unlocked, enhanced graphics and mods. Free Android APK download with premium features.',
+    de: 'Laden Sie GTA San Andreas MOD APK 2025 mit unbegrenztem Geld herunter. Alle Funktionen freigeschaltet, verbesserte Grafiken und Mods.',
+    fr: 'Téléchargez GTA San Andreas MOD APK 2025 avec argent illimité, toutes les fonctionnalités déverrouillées et les mods améliorés.',
+    it: 'Scarica GTA San Andreas MOD APK 2025 con soldi illimitati, tutte le funzioni sbloccate e grafica migliorata.',
+    es: 'Descargar GTA San Andreas MOD APK 2025 con dinero ilimitado, todas las características desbloqueadas y gráficos mejorados.',
+    pt: 'Baixe GTA San Andreas MOD APK 2025 com dinheiro ilimitado, todas as funções desbloqueadas e gráficos aprimorados.',
+    ru: 'Скачайте GTA San Andreas MOD APK 2025 с бесконечными деньгами, разблокированными функциями и улучшенной графикой.',
+    ja: 'GTA San Andreas MOD APK 2025をダウンロード - 無制限のお金、すべての機能が解除されます。'
+  };
+
+  const title = titles[locale] || titles.en;
+  const description = descriptions[locale] || descriptions.en;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+          alt: title,
+          type: 'image/png',
+        },
+      ],
+      locale: locale.replace('-', '_'),
+      type: 'website',
+      siteName: 'GTA San Apk',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${base}/heroimage2.png`],
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 export default function Home() {
-  const t = useTranslations();
-
-  return (
-    <main className="min-h-screen">
-      {/* Hero Section - After navbar, 60vh height in container with rounded corners */}
-      <section className="relative w-full py-8 px-4 sm:px-6 lg:px-8 mt-24">
-        <div className="container mx-auto">
-          <div className="relative h-[60vh] w-full rounded-xl overflow-hidden shadow-2xl">
-            {/* Background Image */}
-            <Image
-              src="/heroimage2.png"
-              alt="Hero Background"
-              fill
-              className="object-cover"
-              priority
-            />
-
-            {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black/40"></div>
-
-            {/* Hero Content - Download APK Button */}
-            <div className="relative z-10 h-full flex items-center justify-center">
-              <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-4 px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-xl">
-                Download APK
-              </button>
-            </div>
-
-            {/* Animated scroll indicator */}
-            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10">
-              <div className="flex flex-col items-center gap-2">
-                <span className="text-white/70 text-sm">Scroll to explore</span>
-                <svg className="w-6 h-6 text-white/70 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Content Section */}
-      <section className="relative w-full bg-white dark:bg-[#030712] text-gray-900 dark:text-gray-100 py-20 px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto max-w-4xl">
-          {/* Content Title */}
-          <div className="mb-12 text-center">
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-              {t('content.title')}
-            </h2>
-            <div className="h-1 w-16 sm:w-24 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] rounded mx-auto mb-8"></div>
-          </div>
-
-          {/* Content Paragraphs */}
-          <div className="space-y-6">
-            <p className="text-lg leading-8 text-gray-700 dark:text-gray-300">
-              {t('content.paragraph1')}
-            </p>
-            <p className="text-lg leading-8 text-gray-700 dark:text-gray-300">
-              {t('content.paragraph2')}
-            </p>
-            <p className="text-lg leading-8 text-gray-700 dark:text-gray-300">
-              {t('content.paragraph3')}
-            </p>
-          </div>
-
-          {/* CTA Button */}
-          <div className="mt-12 text-center">
-            <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-4 px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-lg">
-              Download APK
-            </button>
-          </div>
-        </div>
-      </section>
-
-      {/* System Requirements Section */}
-      <SystemRequirementsTable />
-
-      {/* System Requirements Features Section */}
-      <SystemRequirementsFeatures />
-
-      {/* GTA Features Detail Section */}
-      <GTAFeaturesDetail />
-
-      {/* GTA Gameplay Video Section */}
-      <GTAGameplayVideo />
-
-      {/* GTA Timeline Section */}
-      <GTATimeline />
-
-      {/* Tips and Tricks Section */}
-      <TipsAndTricks />
-
-      {/* Gameplay and Controls Section */}
-      <GameplayControls />
-
-      {/* Download and Installation Section */}
-      <DownloadInstallation />
-
-      {/* Comparison Section */}
-      <ComparisonSection />
-
-      {/* Pros and Cons Section */}
-      <ProsAndCons />
-
-      {/* Safety Precautions Section */}
-      <SafetyPrecautions />
-
-      {/* FAQ Section */}
-      <FAQSection />
-
-      {/* Footer Section */}
-      <Footer />
-    </main>
-  );
+  return <HomeContent />;
 }

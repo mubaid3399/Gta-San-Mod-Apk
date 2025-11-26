@@ -1,172 +1,73 @@
-'use client';
+import { getTranslations } from 'next-intl/server';
+import ForPCContent from './ForPCContent';
 
-import { useTranslations } from 'next-intl';
-import Footer from '../../components/Footer';
-import FAQSection from '../../components/FAQSection';
-import ContentSection from '../../components/sections/ContentSection';
-import FeatureCard from '../../components/ui/FeatureCard';
-import ForPCHeroSection from './components/ForPCHeroSection';
-import { motion } from 'framer-motion';
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
-const staggerContainer = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.2,
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/for-pc' : `/${locale}/for-pc`;
+  const t = await getTranslations({ locale, namespace: 'forPC' }).catch(() => null);
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/for-pc' : `/${lang}/for-pc`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'GTA San Andreas for PC - Download, Install & Play 2025',
+    de: 'GTA San Andreas für PC - Herunterladen, Installieren und Spielen 2025',
+    fr: 'GTA San Andreas pour PC - Télécharger, Installer et Jouer 2025',
+    it: 'GTA San Andreas per PC - Scarica, Installa e Gioca 2025',
+    es: 'GTA San Andreas para PC - Descargar, Instalar y Jugar 2025',
+    pt: 'GTA San Andreas para PC - Baixe, Instale e Jogue 2025',
+    ru: 'GTA San Andreas для ПК - Скачайте, установите и играйте 2025',
+    ja: 'GTA San Andreas for PC - ダウンロード、インストール＆プレイ2025'
+  };
+
+  const descriptions = {
+    en: 'Download GTA San Andreas for PC with enhanced graphics and mods. Complete installation guide, system requirements, gameplay features and tips.',
+    de: 'Laden Sie GTA San Andreas für PC mit verbesserter Grafik herunter. Kompletter Installationsleitfaden, Systemanforderungen, Spielfunktionen.',
+    fr: 'Téléchargez GTA San Andreas pour PC avec des graphiques améliorés. Guide d\'installation complet, configuration requise, fonctionnalités de jeu.',
+    it: 'Scarica GTA San Andreas per PC con grafica migliorata. Guida all\'installazione completa, requisiti di sistema, funzionalità di gioco.',
+    es: 'Descarga GTA San Andreas para PC con gráficos mejorados. Guía de instalación completa, requisitos del sistema, características del juego.',
+    pt: 'Baixe GTA San Andreas para PC com gráficos aprimorados. Guia de instalação completo, requisitos do sistema, recursos de gameplay.',
+    ru: 'Скачайте GTA San Andreas для ПК с улучшенной графикой. Полное руководство по установке, системные требования, функции игры.',
+    ja: 'PCのGTA San Andreasをダウンロード。改善されたグラフィックス、完全なインストールガイド、システム要件、ゲームプレイ機能。'
+  };
+
+  const title = titles[locale] || titles.en;
+  const description = descriptions[locale] || descriptions.en;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
     },
-  },
-};
-
-const staggerItem = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: ['/heroimage2.png'],
+      locale,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/heroimage2.png'],
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 export default function ForPCPage() {
-  const t = useTranslations('forPC');
-  const tGameplayFeatures = useTranslations('gameplayFeatures');
-  const tGameplay = useTranslations('gtaGameplay');
-  const tMissions = useTranslations('missions');
-  const tFaq = useTranslations('faq');
-
-  // Get gameplayFeatures from translations
-  const gameplayFeaturesTranslated = tGameplayFeatures.raw('data');
-
-  // Convert forPC FAQs from translations into the expected format
-  const faqRaw = t.raw('faqs');
-  let forPCFAQsTranslated = [];
-  if (Array.isArray(faqRaw)) {
-    forPCFAQsTranslated = faqRaw.map((faq, index) => ({
-      id: (index + 1).toString(),
-      question: faq.question,
-      answer: faq.answer,
-    }));
-  } else if (faqRaw?.questions) {
-    forPCFAQsTranslated = Object.values(faqRaw.questions).map((faq, index) => ({
-      id: (index + 1).toString(),
-      question: faq.question,
-      answer: faq.answer,
-    }));
-  }
-
-  // Get mission data from translations
-  const secretMissionsTranslated = tMissions.raw('secret');
-  const mainMissionsTranslated = tMissions.raw('main');
-
-  return (
-    <main className="min-h-screen">
-      {/* Hero Section */}
-      <ForPCHeroSection />
-
-      {/* Main Content Section */}
-      <ContentSection
-        title={t('hero.title')}
-        subtitle={t('storySection.title')}
-        description={t('storySection.introduction')}
-        bgColor="white"
-      >
-        <div className="space-y-6">
-          <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
-            {t('whyLoveIt.content.0')}
-          </p>
-          <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
-            {t('whyLoveIt.content.1')}
-          </p>
-          <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
-            {t('whyLoveIt.content.2')}
-          </p>
-        </div>
-      </ContentSection>
-
-      {/* Gameplay and Features Section */}
-      <ContentSection
-        title={tGameplay('title')}
-        bgColor="light"
-      >
-        <motion.div
-          className="space-y-12"
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-        >
-          {Array.isArray(gameplayFeaturesTranslated) && gameplayFeaturesTranslated.map((feature) => (
-            <motion.div key={feature.title} variants={staggerItem}>
-              <h3 className="text-xl sm:text-2xl font-bold mb-4 text-gray-900 dark:text-white flex items-center gap-3">
-                <span className="text-2xl">{feature.icon}</span>
-                {feature.title}
-              </h3>
-              <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
-                {feature.content}
-              </p>
-            </motion.div>
-          ))}
-        </motion.div>
-      </ContentSection>
-
-      {/* Secret and Main Missions Section */}
-      <ContentSection
-        title={t('overview.title')}
-        description={t('overview.description')}
-        bgColor="white"
-      >
-        <motion.div
-          className="grid grid-cols-1 lg:grid-cols-2 gap-10"
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-        >
-          {/* Secret Missions Column */}
-          <motion.div variants={staggerItem}>
-            <h3 className="text-xl sm:text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center gap-3">
-              <span className="text-2xl">🕵️</span>
-              {tMissions('secretMissionsTitle')}
-            </h3>
-            <div className="space-y-4">
-              {secretMissionsTranslated.map((mission) => (
-                <FeatureCard
-                  key={mission.title}
-                  title={mission.title}
-                  description={mission.description}
-                  variant="blue"
-                />
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Main Missions Column */}
-          <motion.div variants={staggerItem}>
-            <h3 className="text-xl sm:text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center gap-3">
-              <span className="text-2xl">⭐</span>
-              {tMissions('mainMissionsTitle')}
-            </h3>
-            <div className="space-y-4">
-              {mainMissionsTranslated.map((mission) => (
-                <FeatureCard
-                  key={mission.title}
-                  title={mission.title}
-                  description={mission.description}
-                  variant="amber"
-                />
-              ))}
-            </div>
-          </motion.div>
-        </motion.div>
-      </ContentSection>
-
-      {/* FAQ Section */}
-      <ContentSection
-        title={tFaq('title')}
-        bgColor="light"
-      >
-        <FAQSection faqs={forPCFAQsTranslated} />
-      </ContentSection>
-
-      {/* Footer */}
-      <Footer />
-    </main>
-  );
+  return <ForPCContent />;
 }

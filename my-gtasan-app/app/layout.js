@@ -9,10 +9,61 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "GTA San Apk - Premium Mods & Enhancements",
-  description: "Explore amazing mods and enhancements for GTA San Andreas",
+  title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features Unlocked",
+  description: "Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods. Free Android APK for GTA San Andreas MOD.",
+  keywords: "GTA San Andreas APK, GTA San Andreas MOD APK, GTA San Andreas Unlimited Money, GTA San Andreas Free Download, GTA San Andreas Mods",
   icons: {
     icon: "/gta-logo.jpg",
+    apple: "/gta-logo.jpg",
+  },
+  manifest: "/manifest.json",
+  themeColor: "#00ff87",
+  applicationName: "GTA San Apk",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "GTA San Apk",
+  },
+  formatDetection: {
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://sanandreas.info",
+    siteName: "GTA San Apk",
+    title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features",
+    description: "Download GTA San Andreas MOD APK with unlimited money, all features unlocked. Play the best GTA San Andreas mods for Android.",
+    images: [
+      {
+        url: "https://sanandreas.info/heroimage2.png",
+        width: 1200,
+        height: 630,
+        alt: "GTA San Andreas MOD APK 2025 Hero Banner",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features",
+    description: "Download GTA San Andreas MOD APK with unlimited money and all features unlocked for Android devices.",
+    images: ["https://sanandreas.info/heroimage2.png"],
+    creator: "@GTASanApk",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://sanandreas.info",
   },
 };
 
