@@ -946,7 +946,7 @@
       "subtitle": "Mit Geschwindigkeit und Preis",
       "description": "Autos und Motorräder sind das Herz des GTA San Andreas-Spiels. Hier sind einige beliebte:",
       "headers": ["Fahrzeugname", "Typ", "Geschwindigkeit (km/h)", "Ungefähr Preis ($)"],
-      "funFact": "🏆 Spaßfakt: Der Infernus ist das schnellste Auto im Spiel und ein Favorit vieler Spieler.",
+      "fact": "🏆 Spaßfakt: Der Infernus ist das schnellste Auto im Spiel und ein Favorit vieler Spieler.",
       "data": [
         { "name": "Infernus", "type": "Super-Auto", "speed": 240, "price": 90000 },
         { "name": "Cheetah", "type": "Sportwagen", "speed": 230, "price": 80000 },

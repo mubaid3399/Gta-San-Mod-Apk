@@ -1151,7 +1151,7 @@
       "subtitle": "Com Velocidade e Preço",
       "description": "Carros e motos são o coração da experiência GTA San Andreas. Aqui estão alguns populares:",
       "headers": ["Nome do Veículo", "Tipo", "Velocidade (km/h)", "Preço Aprox. ($)"],
-      "funFact": "🏆 Curiosidade: O Infernus é o carro mais rápido do jogo e favorito de muitos jogadores.",
+      "fact": "🏆 Curiosidade: O Infernus é o carro mais rápido do jogo e favorito de muitos jogadores.",
       "data": [
         { "name": "Infernus", "type": "Super Carro", "speed": "240", "price": "90000" },
         { "name": "Cheetah", "type": "Esportivo", "speed": "230", "price": "80000" },

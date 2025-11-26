@@ -931,7 +931,7 @@
       "subtitle": "Avec Vitesse et Prix",
       "description": "Les voitures et les motos sont au cœur de l'expérience GTA San Andreas. Voici quelques populaires:",
       "headers": ["Nom du Véhicule", "Type", "Vitesse (km/h)", "Prix Approximatif ($)"],
-      "funFact": "🏆 Fait Amusant: L'Infernus est la voiture la plus rapide du jeu et un favori de nombreux joueurs.",
+      "fact": "🏆 Fait Amusant: L'Infernus est la voiture la plus rapide du jeu et un favori de nombreux joueurs.",
       "data": [
         { "name": "Infernus", "type": "Super Voiture", "speed": 240, "price": 90000 },
         { "name": "Cheetah", "type": "Sport", "speed": 230, "price": 80000 },
