@@ -34,15 +34,15 @@ export default function SystemRequirementsTable() {
         </div>
 
         {/* Table Container */}
-        <div className="overflow-x-auto rounded-xl shadow-lg dark:shadow-2xl border border-gray-200 dark:border-gray-800">
-          <table className="w-full">
+        <div className="rounded-xl shadow-lg dark:shadow-2xl border border-gray-200 dark:border-gray-800 overflow-hidden">
+          <table className="w-full min-w-full">
             {/* Table Header */}
             <thead>
               <tr className="bg-gray-100 dark:bg-gray-900/50 border-b border-gray-200 dark:border-gray-800">
-                <th className="px-6 py-4 text-left font-semibold text-gray-900 dark:text-white text-sm sm:text-base">
+                <th className="px-3 sm:px-6 py-3 sm:py-4 text-left font-semibold text-gray-900 dark:text-white text-xs sm:text-sm md:text-base">
                   {t('systemRequirements.appName')}
                 </th>
-                <th className="px-6 py-4 text-left font-semibold text-gray-900 dark:text-white text-sm sm:text-base">
+                <th className="px-3 sm:px-6 py-3 sm:py-4 text-left font-semibold text-gray-900 dark:text-white text-xs sm:text-sm md:text-base">
                   {t('systemRequirements.information')}
                 </th>
               </tr>
@@ -59,10 +59,10 @@ export default function SystemRequirementsTable() {
                       : 'bg-gray-50 dark:bg-gray-900/20 hover:bg-gray-100/60 dark:hover:bg-gray-800/40 hover:backdrop-blur-sm dark:hover:backdrop-blur-sm hover:shadow-lg dark:hover:shadow-xl'
                   }`}
                 >
-                  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-gray-200 text-sm sm:text-base">
+                  <td className="px-3 sm:px-6 py-3 sm:py-4 font-semibold text-gray-900 dark:text-gray-200 text-xs sm:text-sm md:text-base">
                     {item.label}
                   </td>
-                  <td className="px-6 py-4 text-gray-700 dark:text-gray-300 text-sm sm:text-base">
+                  <td className="px-3 sm:px-6 py-3 sm:py-4 text-gray-700 dark:text-gray-300 text-xs sm:text-sm md:text-base">
                     {item.value}
                   </td>
                 </tr>

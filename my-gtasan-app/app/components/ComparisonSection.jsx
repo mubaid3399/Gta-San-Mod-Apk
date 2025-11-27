@@ -59,18 +59,18 @@ export default function ComparisonSection() {
         </div>
 
         {/* Comparison Table */}
-        <div className="overflow-x-auto rounded-xl shadow-lg dark:shadow-2xl border border-gray-200 dark:border-gray-800 mb-12">
-          <table className="w-full">
+        <div className="rounded-xl shadow-lg dark:shadow-2xl border border-gray-200 dark:border-gray-800 mb-12 overflow-hidden">
+          <table className="w-full min-w-full">
             {/* Table Header */}
             <thead>
               <tr className="bg-gradient-to-r from-[#00ff87]/10 to-[#00a2ff]/10 border-b border-gray-800 dark:border-gray-800">
-                <th className="px-4 sm:px-6 py-4 text-left font-bold text-white dark:text-white text-sm sm:text-base">
+                <th className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold text-white dark:text-white text-xs sm:text-sm md:text-base">
                   {t('comparison.category')}
                 </th>
-                <th className="px-4 sm:px-6 py-4 text-left font-bold text-white dark:text-white text-sm sm:text-base">
+                <th className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold text-white dark:text-white text-xs sm:text-sm md:text-base">
                   {t('comparison.original')}
                 </th>
-                <th className="px-4 sm:px-6 py-4 text-left font-bold text-white dark:text-white text-sm sm:text-base">
+                <th className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold text-white dark:text-white text-xs sm:text-sm md:text-base">
                   {t('comparison.modVersion')}
                 </th>
               </tr>
@@ -85,13 +85,13 @@ export default function ComparisonSection() {
                     index % 2 === 0 ? 'bg-gray-900/50 dark:bg-[#030712]' : 'bg-gray-900/30 dark:bg-gray-900/20'
                   }`}
                 >
-                  <td className="px-4 sm:px-6 py-4 font-semibold text-white dark:text-white text-sm sm:text-base">
+                  <td className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-white dark:text-white text-xs sm:text-sm md:text-base">
                     {item.category}
                   </td>
-                  <td className="px-4 sm:px-6 py-4 text-gray-300 dark:text-gray-300 text-sm sm:text-base leading-relaxed">
+                  <td className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-300 dark:text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">
                     {item.original}
                   </td>
-                  <td className="px-4 sm:px-6 py-4 text-gray-300 dark:text-gray-300 text-sm sm:text-base leading-relaxed">
+                  <td className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-300 dark:text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">
                     <span className="text-[#00ff87] font-semibold">{item.mod}</span>
                   </td>
                 </tr>
