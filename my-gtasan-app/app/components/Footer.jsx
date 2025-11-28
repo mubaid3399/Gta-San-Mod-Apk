@@ -31,6 +31,8 @@ export default function Footer() {
     { label: 'Privacy Policy', href: '/privacy-policy' },
     { label: 'Terms of Service', href: '/terms-of-service' },
     { label: 'Cookie Policy', href: '/cookie-policy' },
+    { label: 'Acceptable Use', href: '/acceptable-use' },
+    { label: 'About Us', href: '/about' },
     { label: 'Contact Us', href: '/contact' },
   ];
 
