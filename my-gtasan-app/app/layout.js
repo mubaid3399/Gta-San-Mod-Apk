@@ -17,7 +17,6 @@ export const metadata = {
     apple: "/gta-logo.jpg",
   },
   manifest: "/manifest.json",
-  themeColor: "#00ff87",
   applicationName: "GTA San Apk",
   appleWebApp: {
     capable: true,
@@ -72,6 +71,7 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
+  themeColor: "#00ff87",
 };
 
 export default async function RootLayout({ children, params }) {
