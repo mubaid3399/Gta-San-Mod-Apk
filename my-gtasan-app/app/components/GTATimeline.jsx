@@ -157,15 +157,6 @@ export default function GTATimeline() {
           </motion.div>
         </div>
 
-        {/* CTA Section */}
-        <div className="mt-20 text-center">
-          <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-            {t('gtaTimeline.ctaText')}
-          </p>
-          <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-4 px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-lg">
-            {t('gtaTimeline.ctaButton')}
-          </button>
-        </div>
       </div>
     </section>
   );

@@ -178,12 +178,6 @@ export default function GTAFeaturesDetail() {
           </div>
         </div>
 
-        {/* CTA Section */}
-        <div className="mt-16 text-center">
-          <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-4 px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-lg">
-            {t('gtaFeatures.ctaButton')}
-          </button>
-        </div>
       </div>
     </section>
   );

@@ -170,18 +170,6 @@ export default function FAQSection({ faqs: customFAQs = null }) {
           ))}
         </AutoAnimateWrapper>
 
-        {/* CTA Section */}
-        <div className="mt-16 sm:mt-20 p-8 sm:p-10 lg:p-12 rounded-xl bg-gradient-to-r from-[#00ff87]/10 to-[#00a2ff]/10 dark:from-[#00ff87]/5 dark:to-[#00a2ff]/5 border border-[#00ff87]/20 dark:border-[#00ff87]/20 text-center">
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">
-            {t('faq.ctaSection.title')}
-          </h3>
-          <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-            {t('faq.ctaSection.description')}
-          </p>
-          <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-3 sm:py-4 px-8 sm:px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-base sm:text-lg">
-            {t('faq.ctaSection.button')}
-          </button>
-        </div>
 
         {/* Additional Info */}
         <div className="mt-12 sm:mt-16 p-6 sm:p-8 rounded-lg bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800">

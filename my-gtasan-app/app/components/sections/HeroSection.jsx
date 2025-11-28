@@ -36,16 +36,16 @@ export default function HeroSection({
           {/* Dark Overlay */}
           <div className="absolute inset-0 bg-black/40"></div>
 
-          {/* Hero Content - Download Button */}
+          {/* Hero Content */}
           <div className="relative z-10 h-full flex items-center justify-center">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={onButtonClick}
-              className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-2 px-6 sm:py-4 sm:px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-base sm:text-xl"
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="text-3xl sm:text-4xl font-bold text-white text-center px-4 max-w-2xl"
             >
-              {buttonText}
-            </motion.button>
+              Discover the Ultimate Gaming Experience
+            </motion.h2>
           </div>
 
           {/* Animated scroll indicator */}
