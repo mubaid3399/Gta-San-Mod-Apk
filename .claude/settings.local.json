@@ -5,7 +5,12 @@
       "Bash(timeout 20 bash:*)",
       "Bash(timeout 15 bash -c \"curl -s http://localhost:3000/robots.txt\")",
       "Bash(timeout 60 bash -c \"echo ''Waiting for Vercel deployment...''; sleep 30; curl -s https://gtasanandreas.info/sitemap.xml 2>&1 | head -30\")",
-      "Bash(timeout 60 bash:*)"
+      "Bash(timeout 60 bash:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(find:*)",
+      "Bash(dir:*)"
     ],
     "deny": [],
     "ask": []
