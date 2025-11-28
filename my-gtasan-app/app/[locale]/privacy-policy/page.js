@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-gray-400 text-lg">
-            Understanding How Your Data Is Protected
+            Last Updated: November 28, 2025
           </p>
         </div>
       </div>
@@ -24,157 +24,263 @@ export default function PrivacyPolicy() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gray-900/50 backdrop-blur border border-[#00ff87]/20 rounded-xl p-8 space-y-8">
 
-          {/* Introduction */}
+          {/* 1. Introduction */}
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
               <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              Understanding GTA San Andreas Mod APK Privacy
+              1. Introduction
             </h2>
             <p className="text-gray-300 leading-relaxed">
-              GTA San Andreas has become a favorite open world game for many players across different age groups. Its story, large areas, and simple controls make it stand out among all GTA games, even many years after its launch. Players love riding through busy streets, relaxing at beaches, racing across highways, or meeting interesting characters. Many people today also prefer using the GTA San Andreas Mod APK because it offers more freedom, more features, and many fun changes that are not present in the official release.
+              Welcome to GTA San Apk ("we," "us," "our," or "Company"). We are committed to protecting your privacy. This Privacy Policy explains our data handling practices when you visit our website at gtasanandreas.info (the "Site") and use our services.
             </p>
             <p className="text-gray-300 leading-relaxed mt-4">
-              However, whenever someone installs a Mod APK, they also need a clear and friendly Privacy Policy Page so they understand how the mod works, what data it uses, and how they can stay safe while enjoying all the exciting features.
+              This Privacy Policy covers our Site only and does not apply to third-party websites, including but not limited to game modification APK files, external links, or services promoted on our Site. You are responsible for reviewing the privacy policies of any third-party services you use.
             </p>
           </section>
 
-          {/* What Is A Mod APK */}
+          {/* 2. Information We Collect */}
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
               <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              What Is A Mod APK?
+              2. Information We Collect
+            </h2>
+
+            <h3 className="text-lg font-semibold text-white mt-4 mb-2">A. Information You Provide Directly:</h3>
+            <ul className="text-gray-300 space-y-2 ml-4">
+              <li>• Contact form submissions (name, email, message)</li>
+              <li>• Newsletter subscriptions (if available)</li>
+              <li>• User comments or feedback</li>
+              <li>• Any other information you voluntarily provide</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-white mt-4 mb-2">B. Information Collected Automatically:</h3>
+            <ul className="text-gray-300 space-y-2 ml-4">
+              <li>• <strong>Server Logs:</strong> IP address, browser type, referring page, date/time of visit</li>
+              <li>• <strong>Cookies and Web Beacons:</strong> Google Analytics, advertising cookies, session tracking</li>
+              <li>• <strong>Google Analytics:</strong> Pages visited, time on site, click patterns, location data (country/city level)</li>
+              <li>• <strong>Google AdSense:</strong> Cookie identifiers for ad personalization and reporting</li>
+              <li>• <strong>Device Information:</strong> Device type, operating system, screen resolution</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-white mt-4 mb-2">C. Third-Party Services:</h3>
+            <p className="text-gray-300 mt-2">
+              Our Site uses third-party services that collect data:
+            </p>
+            <ul className="text-gray-300 space-y-2 ml-4 mt-2">
+              <li>• <strong>Google Analytics:</strong> Tracks user behavior and site performance</li>
+              <li>• <strong>Google AdSense:</strong> Displays personalized ads and collects ad interaction data</li>
+              <li>• <strong>YouTube Embeds:</strong> Embedded videos may collect viewing data</li>
+              <li>• <strong>Social Media Pixels:</strong> Facebook, Twitter, Instagram pixels (if configured)</li>
+            </ul>
+          </section>
+
+          {/* 3. How We Use Your Information */}
+          <section>
+            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
+              3. How We Use Your Information
             </h2>
             <p className="text-gray-300 leading-relaxed">
-              When players first hear about a Mod APK, they often think about new graphics, new vehicles, or unlimited money. But they may not think about how the app interacts with the device. A Mod APK is basically a changed version of a game. It is not made by the official company. People change the game files to add or remove things.
+              We use collected information for:
+            </p>
+            <ul className="text-gray-300 space-y-2 ml-4 mt-3">
+              <li>• Responding to your inquiries and providing customer support</li>
+              <li>• Analyzing website usage and improving user experience</li>
+              <li>• Displaying personalized advertisements through Google AdSense</li>
+              <li>• Sending newsletters or promotional content (with consent)</li>
+              <li>• Complying with legal obligations</li>
+              <li>• Preventing fraud and ensuring site security</li>
+              <li>• Tracking website performance and analytics</li>
+            </ul>
+          </section>
+
+          {/* 4. Cookies and Tracking */}
+          <section>
+            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
+              4. Cookies and Tracking Technologies
+            </h2>
+            <p className="text-gray-300 leading-relaxed">
+              Our Site uses cookies and similar tracking technologies:
+            </p>
+            <ul className="text-gray-300 space-y-3 ml-4 mt-3">
+              <li>
+                <strong>Essential Cookies:</strong> Necessary for site functionality
+              </li>
+              <li>
+                <strong>Analytics Cookies:</strong> Google Analytics (_ga, _gid) track your movements and interactions
+              </li>
+              <li>
+                <strong>Advertising Cookies:</strong> Google AdSense and ad networks use cookies for ad personalization
+              </li>
+              <li>
+                <strong>Third-Party Cookies:</strong> External services may set their own cookies
+              </li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed mt-4">
+              You can control cookies through your browser settings. Disabling cookies may affect Site functionality.
+            </p>
+          </section>
+
+          {/* 5. Data Sharing */}
+          <section>
+            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
+              5. Data Sharing and Disclosure
+            </h2>
+            <p className="text-gray-300 leading-relaxed">
+              We do NOT sell your personal data. We may share information with:
+            </p>
+            <ul className="text-gray-300 space-y-2 ml-4 mt-3">
+              <li>• <strong>Google Analytics & AdSense:</strong> For analytics and ad serving</li>
+              <li>• <strong>Hosting Providers:</strong> Vercel (our hosting platform)</li>
+              <li>• <strong>Service Providers:</strong> Third-party tools and platforms</li>
+              <li>• <strong>Legal Authorities:</strong> If required by law or legal process</li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed mt-4">
+              We require all third parties to maintain confidentiality and use data only as described in this policy.
+            </p>
+          </section>
+
+          {/* 6. Your Rights */}
+          <section>
+            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
+              6. Your Privacy Rights
+            </h2>
+
+            <h3 className="text-lg font-semibold text-white mt-4 mb-2">GDPR (European Users):</h3>
+            <p className="text-gray-300 text-sm">
+              If you are in the EU, you have the right to:
+            </p>
+            <ul className="text-gray-300 space-y-2 ml-4 mt-2 text-sm">
+              <li>• Access your personal data</li>
+              <li>• Correct inaccurate data</li>
+              <li>• Delete your data ("right to be forgotten")</li>
+              <li>• Restrict processing</li>
+              <li>• Data portability</li>
+              <li>• Opt-out of personalized ads</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-white mt-4 mb-2">CCPA (California Users):</h3>
+            <p className="text-gray-300 text-sm">
+              If you are in California, you have the right to:
+            </p>
+            <ul className="text-gray-300 space-y-2 ml-4 mt-2 text-sm">
+              <li>• Know what personal data is collected</li>
+              <li>• Delete personal data</li>
+              <li>• Opt-out of data sales</li>
+              <li>• Non-discrimination for exercising your rights</li>
+            </ul>
+
+            <p className="text-gray-300 leading-relaxed mt-4">
+              To exercise any rights, contact us at support@gtasanapk.com with your request.
+            </p>
+          </section>
+
+          {/* 7. Data Retention */}
+          <section>
+            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
+              7. Data Retention
+            </h2>
+            <p className="text-gray-300 leading-relaxed">
+              We retain your data for as long as necessary to provide services and comply with legal obligations:
+            </p>
+            <ul className="text-gray-300 space-y-2 ml-4 mt-3">
+              <li>• <strong>Contact Form Data:</strong> Retained for 1 year or as needed for response</li>
+              <li>• <strong>Analytics Data:</strong> Google Analytics retains data for 14 months by default</li>
+              <li>• <strong>Cookies:</strong> Vary by type (typically 6-24 months)</li>
+              <li>• <strong>Server Logs:</strong> Retained for 30 days</li>
+            </ul>
+          </section>
+
+          {/* 8. Security */}
+          <section>
+            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
+              8. Data Security
+            </h2>
+            <p className="text-gray-300 leading-relaxed">
+              We implement security measures including:
+            </p>
+            <ul className="text-gray-300 space-y-2 ml-4 mt-3">
+              <li>• HTTPS encryption on all pages</li>
+              <li>• SSL/TLS certificates</li>
+              <li>• Regular security updates</li>
+              <li>• No storage of sensitive payment information</li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed mt-4">
+              However, no security system is impenetrable. We cannot guarantee absolute data security.
+            </p>
+          </section>
+
+          {/* 9. Children's Privacy */}
+          <section>
+            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
+              9. Children's Privacy
+            </h2>
+            <p className="text-gray-300 leading-relaxed">
+              Our Site is not intended for children under 13. We do not knowingly collect data from children under 13. If we discover we have collected such data, we will delete it immediately. Parents who believe their child has provided information should contact us at support@gtasanapk.com.
             </p>
             <p className="text-gray-300 leading-relaxed mt-4">
-              Some want faster cars. Others want new clothes for the role of Carl Johnson, also known as CJ. Some want new missions or characters taken from other games. And many players want cheats built in so they do not have to type long codes. All these changes make the game exciting, but users must know what they are installing. That is why a Privacy Policy Page is helpful.
+              Note: GTA San Andreas is rated M for Mature (17+) and contains violent content inappropriate for children.
             </p>
           </section>
 
-          {/* Data Collection */}
+          {/* 10. Third-Party Links */}
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
               <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              What Data Does The Mod APK Use?
+              10. Third-Party Links and Services
             </h2>
             <p className="text-gray-300 leading-relaxed">
-              A good Privacy Policy Page explains what kind of data the Mod APK uses. Most GTA San Andreas Mod APK files only need simple device details to work correctly. They need to know the Android version, the available storage, and sometimes the screen size. This is normal because the game must adjust graphics and performance to avoid crashes.
-            </p>
-            <p className="text-gray-300 leading-relaxed mt-4">
-              The game also saves player progress, such as missions completed or clothes unlocked. This data stays inside the game folder and does not leave the device. When a trusted Mod APK needs permission to save files, it is simply for storing game progress. It is not for reading contacts or personal photos. This is an important point because some users fear that a Mod APK may access private things. In a safe version, this never happens.
+              Our Site contains links to third-party websites and services. We are not responsible for their privacy practices. This Privacy Policy applies only to our Site. Please review third-party privacy policies before sharing your information.
             </p>
           </section>
 
-          {/* Internet & Permissions */}
+          {/* 11. Policy Changes */}
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
               <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              Internet Access & Permissions
+              11. Changes to This Policy
             </h2>
             <p className="text-gray-300 leading-relaxed">
-              A Mod APK may also need access to the internet, but this is only for optional features like downloading extra sounds or enabling small ads. A safe version never tracks the location of the player. It never asks for passwords or personal details. It never sends files to unknown servers. However, the internet is filled with edited versions, so users must always install from a trusted site.
-            </p>
-            <p className="text-gray-300 leading-relaxed mt-4">
-              If a Mod APK asks for strange permissions, such as access to contacts or microphone, the player must stop and delete the file. A good Privacy Policy Page clearly states that the Mod APK does not collect sensitive data and does not store any information outside the device. It also explains that uninstalling the mod removes all saved data automatically.
+              We may update this Privacy Policy at any time. Changes become effective when posted to the Site. Your continued use of the Site after changes constitutes acceptance of the updated Privacy Policy. We recommend reviewing this policy periodically.
             </p>
           </section>
 
-          {/* Gameplay & Features */}
+          {/* 12. Contact Us */}
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
               <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              Gameplay Features & Privacy
+              12. Contact Us
             </h2>
             <p className="text-gray-300 leading-relaxed">
-              The story of GTA San Andreas is loved by many because it follows Carl Johnson, a young man who returns home after a long time away. In 2025, many new mods allow players to change CJ's entire look. Some mods give him superhero powers. Others replace him with characters from movies. Some mods change his voice, his clothes, or his walk style. These changes do not affect privacy, because they are only inside the game. They do not collect extra data. They simply replace textures and models.
+              If you have questions about this Privacy Policy or our data practices, contact us:
             </p>
-          </section>
-
-          {/* Safe Installation */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              Safe Installation Practices
-            </h2>
-            <p className="text-gray-300 leading-relaxed">
-              Downloading a Mod APK must always follow safe steps. Players should never share personal details. They should only install from trusted sites. They should check the file size and scan the APK before installing. A Privacy Policy Page must clearly say that the mod only needs storage access. It must tell players that the mod never asks for private data. This builds trust.
-            </p>
-            <p className="text-gray-300 leading-relaxed mt-4">
-              Many parents want to know if the mod is safe for their children. A clear Privacy Policy helps them feel comfortable. Some kids play GTA San Andreas even when they are young. Parents often guide them by turning off the internet, lowering in-game violence, or removing heavy mods. They can watch gameplay with their kids and help them understand what is safe.
-            </p>
-          </section>
-
-          {/* 2025 Updates */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              2025 Privacy Updates & Improvements
-            </h2>
-            <p className="text-gray-300 leading-relaxed">
-              In 2025, new updates in Mod APK versions focus more on privacy. Some mod creators now add a small Privacy Notice inside the app. This notice tells players how the mod works. Some new mods even run fully offline so no data leaves the device. More creators are adding smoother graphics for open world games Android devices. Many updates also improve stability so the game does not crash when using new skins. Some mods offer softer visuals for younger players. These changes show that the community is listening to feedback.
-            </p>
-          </section>
-
-          {/* Privacy Commitment */}
-          <section className="bg-gradient-to-r from-[#00ff87]/10 to-[#00a2ff]/10 border border-[#00ff87]/30 rounded-lg p-6">
-            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              Our Privacy Commitment
-            </h2>
-            <div className="space-y-3 text-gray-300">
-              <p className="flex items-start gap-3">
-                <span className="text-[#00ff87] mt-1">✓</span>
-                <span>We do NOT collect personal data or sensitive information</span>
-              </p>
-              <p className="flex items-start gap-3">
-                <span className="text-[#00ff87] mt-1">✓</span>
-                <span>We do NOT share information with third parties</span>
-              </p>
-              <p className="flex items-start gap-3">
-                <span className="text-[#00ff87] mt-1">✓</span>
-                <span>We do NOT track your location or activities outside the game</span>
-              </p>
-              <p className="flex items-start gap-3">
-                <span className="text-[#00ff87] mt-1">✓</span>
-                <span>Game data remains on your device and is deleted when you uninstall</span>
-              </p>
-              <p className="flex items-start gap-3">
-                <span className="text-[#00ff87] mt-1">✓</span>
-                <span>All mods and features work with your privacy in mind</span>
+            <div className="bg-gray-800 rounded-lg p-4 mt-4">
+              <p className="text-gray-300">
+                <strong>Email:</strong> support@gtasanapk.com<br/>
+                <strong>Website:</strong> gtasanandreas.info<br/>
+                <strong>Response Time:</strong> 24-48 hours
               </p>
             </div>
           </section>
 
-          {/* User Responsibility */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              Your Responsibility
-            </h2>
-            <p className="text-gray-300 leading-relaxed">
-              Players can enjoy the game more by exploring slowly and safely. Always download from trusted sources. Be careful when installing any APK file. Scan files before opening them. Never share your device access with unknown sources. If something feels wrong, delete it immediately. Remember that users install the Mod APK at their own choice and responsibility, since it is not the official version.
-            </p>
-          </section>
-
-          {/* Contact & Support */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <span className="w-1 h-8 bg-gradient-to-b from-[#00ff87] to-[#00a2ff] rounded"></span>
-              Questions or Concerns?
-            </h2>
-            <p className="text-gray-300 leading-relaxed">
-              If you have questions about this Privacy Policy or how we handle your data, please contact us. We are committed to keeping your information safe and your gaming experience enjoyable. We welcome feedback and suggestions to improve our privacy practices.
-            </p>
-            <p className="text-gray-300 leading-relaxed mt-4">
-              GTA San Andreas remains powerful in 2025 because it mixes adventure, drama, and fun in a simple way. Mods keep the game alive, but privacy must always be respected. With the right knowledge, players can enjoy every moment safely.
+          {/* Important Notice */}
+          <section className="bg-gradient-to-r from-[#00ff87]/10 to-[#00a2ff]/10 border border-[#00ff87]/30 rounded-lg p-6">
+            <h3 className="text-lg font-bold text-white mb-3">⚠️ Important Notice</h3>
+            <p className="text-gray-300 text-sm">
+              GTA San Andreas is a trademark of Rockstar Games, Inc. We are not affiliated with Rockstar Games. This Privacy Policy is for gtasanandreas.info website only. The Game Mod APK files referenced on this Site are subject to the policies of their respective creators. We are not responsible for data practices of third-party MOD APK files or their creators.
             </p>
           </section>
 
           {/* Last Updated */}
           <div className="text-center pt-8 border-t border-gray-700">
             <p className="text-gray-500 text-sm">
-              Last Updated: November 2025 | © 2025 GTA San Apk. All rights reserved.
+              Last Updated: November 28, 2025 | © 2025 GTA San Apk. All rights reserved.
             </p>
           </div>
         </div>
