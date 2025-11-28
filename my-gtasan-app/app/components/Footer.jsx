@@ -15,7 +15,6 @@ export default function Footer() {
     { label: 'Home', href: '/' },
     { label: 'For PC', href: '/for-pc' },
     { label: 'GTA Cheats', href: '/gta-cheats' },
-    { label: 'Download', href: '/' },
     { label: 'Blog', href: '/' },
   ];
 
@@ -143,20 +142,17 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Download Section */}
+          {/* Community Section */}
           <div>
             <h4 className="text-base font-bold text-white mb-6 relative pb-2">
-              Get Started
+              Community
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-[#00ff87] to-[#00a2ff]"></span>
             </h4>
             <p className="text-sm text-gray-400 mb-4">
-              Ready to experience the ultimate GTA San Andreas? Download the APK now.
+              Join our gaming community and connect with other GTA San Andreas enthusiasts.
             </p>
-            <button className="w-full bg-gradient-to-r from-[#00ff87] to-[#00a2ff] text-black font-bold py-3 px-4 rounded-lg hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-sm mb-3 cursor-pointer">
-              Download APK
-            </button>
             <p className="text-xs text-gray-500 text-center">
-              Free • Safe • No Ads
+              Stay updated with the latest guides and strategies
             </p>
           </div>
         </div>

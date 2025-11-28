@@ -37,11 +37,11 @@ export default function HomeContent() {
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-black/40"></div>
 
-            {/* Hero Content - Download APK Button */}
+            {/* Hero Content */}
             <div className="relative z-10 h-full flex items-center justify-center">
-              <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-2 px-6 sm:py-4 sm:px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-base sm:text-xl">
-                Download APK
-              </button>
+              <p className="text-white text-lg sm:text-2xl font-semibold text-center px-4">
+                Explore the Ultimate Gaming Experience
+              </p>
             </div>
 
             {/* Animated scroll indicator */}
@@ -81,12 +81,6 @@ export default function HomeContent() {
             </p>
           </div>
 
-          {/* CTA Button */}
-          <div className="mt-12 text-center">
-            <button className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-2 px-6 sm:py-4 sm:px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-base sm:text-lg">
-              Download APK
-            </button>
-          </div>
         </div>
       </section>
 

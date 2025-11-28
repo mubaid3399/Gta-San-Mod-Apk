@@ -50,16 +50,14 @@ export default function ForPCHeroSection() {
               Experience the ultimate GTA San Andreas with premium mods and enhancements for PC
             </motion.p>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="bg-gradient-to-r cursor-pointer from-[#00ff87] to-[#00a2ff] text-black font-bold py-4 px-12 rounded-full hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300 text-xl"
+              className="text-2xl sm:text-3xl font-bold text-white"
             >
-              Download for PC
-            </motion.button>
+              Experience GTA San Andreas on Your PC
+            </motion.h2>
           </div>
 
           {/* Animated scroll indicator */}
