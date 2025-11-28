@@ -158,12 +158,9 @@ export default function ForPCContent() {
       </ContentSection>
 
       {/* FAQ Section */}
-      <ContentSection
-        title={tFaq('title')}
-        bgColor="light"
-      >
+      <div className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-900/50 dark:to-[#030712]">
         <FAQSection faqs={forPCFAQsTranslated} />
-      </ContentSection>
+      </div>
 
       {/* Footer */}
       <Footer />
