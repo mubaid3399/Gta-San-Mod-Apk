@@ -5,7 +5,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
   // Define all pages
-  const pages = ['', '/for-pc', '/gta-cheats', '/gta-cars'];
+  const pages = [
+    '',
+    '/for-pc',
+    '/gta-cheats',
+    '/gta-cars',
+    '/privacy-policy',
+    '/terms-of-service',
+    '/cookie-policy',
+    '/acceptable-use',
+    '/about',
+    '/contact',
+  ];
 
   const entries: MetadataRoute.Sitemap = [];
 
