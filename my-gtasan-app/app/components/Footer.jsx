@@ -45,7 +45,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="h-12 w-12 rounded-full overflow-hidden border border-[#00ff87]/30 shadow-lg">
                 <Image
-                  src="/gta-logo.jpg"
+                  src="/logo.png"
                   alt="GTA San Apk Logo"
                   width={48}
                   height={48}

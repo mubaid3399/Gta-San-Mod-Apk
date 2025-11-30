@@ -13,8 +13,8 @@ export const metadata = {
   description: "Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods. Free Android APK for GTA San Andreas MOD.",
   keywords: "GTA San Andreas APK, GTA San Andreas MOD APK, GTA San Andreas Unlimited Money, GTA San Andreas Free Download, GTA San Andreas Mods",
   icons: {
-    icon: "/gta-logo.jpg",
-    apple: "/gta-logo.jpg",
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
   manifest: "/manifest.json",
   applicationName: "GTA San Apk",

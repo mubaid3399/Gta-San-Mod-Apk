@@ -114,7 +114,7 @@ function Header() {
         <Link href={buildHref('/')} className="flex items-center gap-3 group shrink-0">
           <div className="h-14 w-14 rounded-full overflow-hidden border border-white/30 shadow-lg group-hover:shadow-xl transition-all duration-300">
             <Image
-              src="/gta-logo.jpg"
+              src="/logo.png"
               alt="GTA San Apk Logo"
               width={56}
               height={56}
