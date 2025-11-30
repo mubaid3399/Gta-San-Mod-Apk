@@ -1,0 +1,76 @@
+{
+  "name": "GTA San Andreas MOD APK - Unlimited Money & Features",
+  "short_name": "GTA San Andreas APK",
+  "description": "Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods for Android. Play the legendary game with enhanced gameplay.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-landscape",
+  "background_color": "#030712",
+  "theme_color": "#00ff87",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/logo.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["games", "entertainment"],
+  "screenshots_count": 2,
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Download MOD APK",
+      "short_name": "Download",
+      "description": "Download GTA San Andreas MOD APK",
+      "url": "/?action=download",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "View Cheats",
+      "short_name": "Cheats",
+      "description": "View GTA San Andreas Cheats",
+      "url": "/gta-cheats",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

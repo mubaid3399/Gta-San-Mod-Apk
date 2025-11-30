@@ -9,5 +9,7 @@ export default {
     extend: {},
   },
   plugins: [],
-  darkMode: 'selector',
+  // Use the 'class' strategy so Tailwind applies dark utilities
+  // only when the `.dark` class is present on the root element.
+  darkMode: 'class',
 };

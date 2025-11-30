@@ -2,70 +2,66 @@ import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
-  // Define all main pages (English only - Google will detect other languages)
-  const pages: MetadataRoute.Sitemap = [
-    {
-      url: `${baseUrl}/`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/for-pc`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/gta-cheats`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/gta-cars`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/privacy-policy`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/terms-of-service`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/cookie-policy`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/acceptable-use`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
+  // Define all main pages
+  const pages = [
+    '',
+    'for-pc',
+    'gta-cheats',
+    'gta-cars',
+    'how-to-install',
+    'is-safe-to-download',
+    'mod-apk-vs-original',
+    'faq',
+    'all-features',
   ];
 
-  return pages;
+  // Define legal/meta pages (no locale prefix)
+  const staticPages = [
+    'privacy-policy',
+    'terms-of-service',
+    'cookie-policy',
+    'acceptable-use',
+    'about',
+    'contact',
+  ];
+
+  const sitemapEntries: MetadataRoute.Sitemap = [];
+
+  // Add localized pages
+  pages.forEach((page) => {
+    locales.forEach((locale) => {
+      const isHomepage = page === '';
+      const url = isHomepage
+        ? locale === 'en'
+          ? `${baseUrl}/`
+          : `${baseUrl}/${locale}`
+        : locale === 'en'
+        ? `${baseUrl}/${page}`
+        : `${baseUrl}/${locale}/${page}`;
+
+      const priority =
+        page === '' ? 1.0 : ['for-pc', 'gta-cheats', 'gta-cars', 'how-to-install'].includes(page) ? 0.9 : 0.85;
+
+      sitemapEntries.push({
+        url,
+        lastModified: new Date(),
+        changeFrequency: 'weekly' as const,
+        priority,
+      });
+    });
+  });
+
+  // Add static pages (priority 0.8)
+  staticPages.forEach((page) => {
+    sitemapEntries.push({
+      url: `${baseUrl}/${page}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    });
+  });
+
+  return sitemapEntries;
 }

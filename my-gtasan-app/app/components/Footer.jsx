@@ -19,11 +19,11 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: faFacebook, label: 'Facebook', href: '#' },
-    { icon: faTwitter, label: 'Twitter', href: '#' },
-    { icon: faInstagram, label: 'Instagram', href: '#' },
-    { icon: faYoutube, label: 'YouTube', href: '#' },
-    { icon: faDiscord, label: 'Discord', href: '#' },
+    { icon: faFacebook, label: 'Facebook', href: 'https://www.facebook.com/gtasanandreas' },
+    { icon: faTwitter, label: 'Twitter', href: 'https://twitter.com/GTASanApk' },
+    { icon: faInstagram, label: 'Instagram', href: 'https://www.instagram.com/gtasanandreas' },
+    { icon: faYoutube, label: 'YouTube', href: 'https://www.youtube.com/channel/gtasanandreas' },
+    { icon: faDiscord, label: 'Discord', href: 'https://discord.gg/gtasanandreas' },
   ];
 
   const legalLinks = [
@@ -105,7 +105,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#"
+                  href="/how-to-install"
                   className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
@@ -114,7 +114,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/faq"
                   className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
@@ -123,20 +123,20 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/is-safe-to-download"
                   className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
-                  Troubleshooting
+                  Safety & Security
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/mod-apk-vs-original"
                   className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
-                  Community
+                  Comparison Guide
                 </a>
               </li>
             </ul>
