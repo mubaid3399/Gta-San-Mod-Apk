@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import GtaCarsContent from './GtaCarsContent';
+import { generateBreadcrumbSchema } from '../../utils/schemaMarkup';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
@@ -48,6 +49,25 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function GTACarsPage() {
-  return <GtaCarsContent />;
+export default function GTACarsPage({ params }) {
+  const locale = params?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const path = locale === 'en' ? '/gta-cars' : `/${locale}/gta-cars`;
+
+  const breadcrumbItems = [
+    { name: 'Home', url: base },
+    { name: 'GTA Cars', url: `${base}${path}` },
+  ];
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbItems)),
+        }}
+      />
+      <GtaCarsContent />
+    </>
+  );
 }

@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import HomeContent from './HomeContent';
+import { generateOrganizationSchema, generateSoftwareApplicationSchema, generateBreadcrumbSchema } from '../utils/schemaMarkup';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
@@ -79,5 +80,33 @@ export async function generateMetadata({ params }) {
 }
 
 export default function Home() {
-  return <HomeContent />;
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+
+  const breadcrumbItems = [
+    { name: 'Home', url: base },
+  ];
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateOrganizationSchema(base)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateSoftwareApplicationSchema()),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbItems)),
+        }}
+      />
+      <HomeContent />
+    </>
+  );
 }

@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import ForPCContent from './ForPCContent';
+import { generateBreadcrumbSchema } from '../../utils/schemaMarkup';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
@@ -68,6 +69,25 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function ForPCPage() {
-  return <ForPCContent />;
+export default function ForPCPage({ params }) {
+  const locale = params?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const path = locale === 'en' ? '/for-pc' : `/${locale}/for-pc`;
+
+  const breadcrumbItems = [
+    { name: 'Home', url: base },
+    { name: 'For PC', url: `${base}${path}` },
+  ];
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbItems)),
+        }}
+      />
+      <ForPCContent />
+    </>
+  );
 }

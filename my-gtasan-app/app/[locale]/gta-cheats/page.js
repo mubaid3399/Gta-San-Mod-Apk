@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import GtaCheatsContent from './GtaCheatsContent';
+import { generateFAQSchema, generateBreadcrumbSchema } from '../../utils/schemaMarkup';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
@@ -68,6 +69,54 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function GtaCheatsPage() {
-  return <GtaCheatsContent />;
+export default function GtaCheatsPage({ params }) {
+  const locale = params?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const path = locale === 'en' ? '/gta-cheats' : `/${locale}/gta-cheats`;
+
+  const faqItems = [
+    {
+      question: 'What are GTA San Andreas cheats?',
+      answer: 'GTA San Andreas cheats are special codes that unlock features like unlimited money, weapons, vehicles, and other gameplay modifications. You can enter these codes while playing to activate different effects.',
+    },
+    {
+      question: 'How do I enter cheats in GTA San Andreas?',
+      answer: 'On PC, press Enter to open the cheat console and type the cheat code. On consoles (PS2, Xbox), you cannot activate the cheat menu visibly, but the codes will work if entered correctly. You must enter cheats during gameplay.',
+    },
+    {
+      question: 'Do cheats disable achievements or trophies?',
+      answer: 'Yes, using cheats will prevent you from earning achievements or trophies on most platforms. Save your game before using cheats if you want to preserve your achievement progress.',
+    },
+    {
+      question: 'Can I use cheats in multiplayer?',
+      answer: 'No, cheats only work in single-player mode. Multiplayer games have anti-cheat systems that prevent cheat codes from functioning.',
+    },
+    {
+      question: 'Are cheats available in GTA San Andreas MOD APK?',
+      answer: 'Yes, the MOD APK version includes many cheats already unlocked and activated by default, providing an enhanced gameplay experience with unlimited money and features.',
+    },
+  ];
+
+  const breadcrumbItems = [
+    { name: 'Home', url: base },
+    { name: 'GTA Cheats', url: `${base}${path}` },
+  ];
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateFAQSchema(faqItems)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbItems)),
+        }}
+      />
+      <GtaCheatsContent />
+    </>
+  );
 }
