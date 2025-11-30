@@ -9,7 +9,7 @@ export const generateOrganizationSchema = (siteUrl = 'https://gtasanandreas.info
     '@type': 'Organization',
     name: 'GTA San Andreas APK',
     url: siteUrl,
-    logo: `${siteUrl}/gta-logo.jpg`,
+    logo: `${siteUrl}/logo.png`,
     description: 'Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods.',
     sameAs: [
       'https://www.facebook.com/gtasanandreas',
@@ -71,7 +71,7 @@ export const generateArticleSchema = (article) => {
       name: 'GTA San Andreas APK',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://gtasanandreas.info/gta-logo.jpg',
+        url: 'https://gtasanandreas.info/logo.png',
       },
     },
   };
@@ -117,7 +117,7 @@ export const generateLocalBusinessSchema = () => {
     '@type': 'LocalBusiness',
     name: 'GTA San Andreas APK',
     url: 'https://gtasanandreas.info',
-    logo: 'https://gtasanandreas.info/gta-logo.jpg',
+    logo: 'https://gtasanandreas.info/logo.png',
     sameAs: [
       'https://www.facebook.com/gtasanandreas',
       'https://twitter.com/GTASanApk',
