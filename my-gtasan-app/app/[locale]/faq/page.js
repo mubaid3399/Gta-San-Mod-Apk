@@ -11,15 +11,6 @@ import {
   faWrench,
 } from '@fortawesome/free-solid-svg-icons';
 
-export const metadata = {
-  title: 'GTA San Andreas MOD APK FAQ - Answers to 50+ Questions 2025',
-  description:
-    'Complete FAQ guide for GTA San Andreas MOD APK. Get answers to 50+ questions about download, installation, gameplay, safety, and troubleshooting.',
-  keywords: 'GTA San Andreas MOD APK FAQ, GTA San Andreas questions, GTA San Andreas MOD APK help, GTA San Andreas support',
-  alternates: {
-    canonical: 'https://gtasanandreas.info/faq',
-  },
-};
 
 export default function FAQ() {
   const [openCategory, setOpenCategory] = useState(0);

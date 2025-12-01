@@ -4,16 +4,6 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faTimes, faGamepad, faStar } from '@fortawesome/free-solid-svg-icons';
 
-export const metadata = {
-  title: 'GTA San Andreas MOD APK vs Original Game - Complete Comparison 2025',
-  description:
-    'Complete comparison between GTA San Andreas MOD APK and original game. Features, gameplay, cost, graphics, safety, and which one to choose.',
-  keywords:
-    'GTA San Andreas MOD APK vs original, GTA San Andreas comparison, GTA San Andreas unlimited money vs original',
-  alternates: {
-    canonical: 'https://gtasanandreas.info/mod-apk-vs-original',
-  },
-};
 
 export default function ModVsOriginal() {
   const [selectedView, setSelectedView] = useState('features');

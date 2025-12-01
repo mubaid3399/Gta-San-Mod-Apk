@@ -11,22 +11,12 @@ import {
   faShieldAlt,
   faSpinner,
   faExclamationTriangle,
-  faAndroid,
+  faMobileScreenButton,
   faApple,
   faDesktop,
 } from '@fortawesome/free-solid-svg-icons';
-import { generateHowToSchema } from '@/app/utils/schemaMarkup';
+// import { generateHowToSchema } from '@/app/utils/schemaMarkup'; // TODO: schema function not exported
 
-export const metadata = {
-  title: 'How to Install GTA San Andreas MOD APK - Step by Step Guide 2025',
-  description:
-    'Complete step-by-step guide on how to install GTA San Andreas MOD APK safely on Android, PC, and iOS. Download link, requirements, and troubleshooting.',
-  keywords:
-    'how to install GTA San Andreas MOD APK, GTA San Andreas installation guide, GTA San Andreas APK download, install GTA San Andreas Android',
-  alternates: {
-    canonical: 'https://gtasanandreas.info/how-to-install',
-  },
-};
 
 export default function HowToInstall() {
   const [activeTab, setActiveTab] = useState('android');
@@ -53,7 +43,7 @@ export default function HowToInstall() {
         title: 'Locate the Downloaded File',
         description:
           'Open your file manager and navigate to Downloads folder. Find the GTA San Andreas MOD APK file.',
-        icon: faAndroid,
+        icon: faMobileScreenButton,
       },
       {
         number: 4,
@@ -93,7 +83,7 @@ export default function HowToInstall() {
         number: 4,
         title: 'Drag and Drop APK',
         description: 'Drag the APK file into the emulator window or use the "Install APK" option in the emulator menu.',
-        icon: faAndroid,
+        icon: faMobileScreenButton,
       },
       {
         number: 5,
@@ -218,7 +208,7 @@ export default function HowToInstall() {
             {/* Tab Selection */}
             <div className="flex gap-4 justify-center mb-12 flex-wrap">
               {[
-                { id: 'android', label: 'Android Installation', icon: faAndroid },
+                { id: 'android', label: 'Android Installation', icon: faMobileScreenButton },
                 { id: 'pc', label: 'PC Installation', icon: faDesktop },
               ].map((tab) => (
                 <button

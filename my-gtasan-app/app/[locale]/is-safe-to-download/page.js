@@ -14,16 +14,6 @@ import {
   faTimes,
 } from '@fortawesome/free-solid-svg-icons';
 
-export const metadata = {
-  title: 'Is GTA San Andreas MOD APK Safe? Complete Security Guide 2025',
-  description:
-    'Is GTA San Andreas MOD APK safe to download? Complete security analysis with virus scans, malware testing, and safety comparison with original game.',
-  keywords:
-    'GTA San Andreas MOD APK safe, GTA San Andreas MOD APK virus, GTA San Andreas MOD APK malware, is GTA San Andreas MOD APK safe',
-  alternates: {
-    canonical: 'https://gtasanandreas.info/is-safe-to-download',
-  },
-};
 
 export default function IsSafeToDownload() {
   const [expandedSection, setExpandedSection] = useState(0);

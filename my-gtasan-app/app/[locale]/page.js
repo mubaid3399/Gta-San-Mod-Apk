@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import HomeContent from './HomeContent';
-import { generateOrganizationSchema, generateSoftwareApplicationSchema, generateBreadcrumbSchema } from '../utils/schemaMarkup';
+// import removed - schema function not used
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
