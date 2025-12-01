@@ -36,6 +36,40 @@ html, body, html.dark body {
   color: #f3f4f6 !important;
 }
 
+/* Force all light mode colors to dark equivalents on dark.class */
+html.dark .bg-white {
+  background-color: #030712 !important;
+}
+
+html.dark .bg-gray-50 {
+  background-color: rgba(17, 24, 39, 0.5) !important;
+}
+
+html.dark .bg-gray-100,
+html.dark .bg-gray-200 {
+  background-color: rgba(17, 24, 39, 0.4) !important;
+}
+
+html.dark .text-gray-900,
+html.dark .text-gray-800,
+html.dark .text-black {
+  color: #ffffff !important;
+}
+
+html.dark .text-gray-700 {
+  color: #e5e7eb !important;
+}
+
+html.dark .border-gray-100,
+html.dark .border-gray-200,
+html.dark .border-gray-300 {
+  border-color: #1f2937 !important;
+}
+
+html.dark .hover\:bg-gray-50:hover {
+  background-color: rgba(31, 41, 55, 0.5) !important;
+}
+
 * {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
