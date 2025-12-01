@@ -18,6 +18,11 @@ html {
   overflow-x: hidden;
 }
 
+/* FORCE DARK MODE ON ALL SECTIONS AND DIVS */
+section, div {
+  background-color: #030712 !important;
+}
+
 /* Override ALL light backgrounds - force dark colors */
 /* Exception: Skip span/button elements that are UI controls (hamburger, etc) */
 [class*="bg-white"]:not(span):not(button),
@@ -39,7 +44,7 @@ html {
 [class*="bg-amber-100"],
 [class*="bg-yellow-50"],
 [class*="bg-yellow-100"] {
-  background-color: #1a1f2e !important;
+  background-color: #030712 !important;
 }
 
 /* Ensure hamburger icon lines stay visible (white) */
@@ -79,15 +84,6 @@ button span.h-0\.5 {
   border-color: #374151 !important;
 }
 
-/* Transitions */
-* {
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
-
-a {
-  transition: color 0.2s ease;
-}
-
 /* Override gradients - force solid dark background */
 [class*="bg-gradient"],
 [class*="from-gray-50"],
@@ -96,6 +92,15 @@ a {
 [class*="to-gray-50"],
 [class*="from-blue-50"],
 [class*="to-blue-50"] {
-  background-color: #1a1f2e !important;
+  background-color: #030712 !important;
   background-image: none !important;
+}
+
+/* Transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+a {
+  transition: color 0.2s ease;
 }
