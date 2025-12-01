@@ -70,8 +70,6 @@ export const metadata = {
       'it': 'https://gtasanandreas.info/it',
       'es': 'https://gtasanandreas.info/es',
       'pt': 'https://gtasanandreas.info/pt',
-      'ru': 'https://gtasanandreas.info/ru',
-      'ja': 'https://gtasanandreas.info/ja',
       'x-default': 'https://gtasanandreas.info',
     },
   },
