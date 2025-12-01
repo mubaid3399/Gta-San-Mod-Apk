@@ -18,26 +18,32 @@ html {
   overflow-x: hidden;
 }
 
-/* FORCE DARK MODE ON ALL SECTIONS AND DIVS - but allow background-images */
+/* FORCE DARK MODE ON ALL SECTIONS AND DIVS */
 section, div {
   background-color: #030712 !important;
 }
 
-/* Allow images to display - CRITICAL FOR HERO IMAGES */
-img, [class*="relative"] {
+/* CRITICAL: Make ONLY img tags transparent and visible - don't affect containers */
+img {
+  background-color: transparent !important;
+  background-image: unset !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Allow image parent containers to be transparent */
+div:has(> img) {
   background-color: transparent !important;
 }
 
-/* Allow hero images and background images to show */
+/* Allow hero sections to be transparent for images */
 [class*="bg-cover"],
 [class*="bg-contain"],
 [class*="bg-center"],
 [class*="bg-no-repeat"],
 [class*="hero"],
 [class*="carousel"],
-[class*="slider"],
-[class*="overflow-hidden"],
-[class*="rounded"] {
+[class*="slider"] {
   background-color: transparent !important;
   background-image: revert !important;
 }
