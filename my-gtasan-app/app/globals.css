@@ -18,9 +18,21 @@ html {
   overflow-x: hidden;
 }
 
-/* FORCE DARK MODE ON ALL SECTIONS AND DIVS */
+/* FORCE DARK MODE ON ALL SECTIONS AND DIVS - but allow background-images */
 section, div {
   background-color: #030712 !important;
+}
+
+/* Allow hero images and background images to show */
+[class*="bg-cover"],
+[class*="bg-contain"],
+[class*="bg-center"],
+[class*="bg-no-repeat"],
+[class*="hero"],
+[class*="carousel"],
+[class*="slider"] {
+  background-color: transparent !important;
+  background-image: revert !important;
 }
 
 /* Override ALL light backgrounds - force dark colors */
