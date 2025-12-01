@@ -23,6 +23,11 @@ section, div {
   background-color: #030712 !important;
 }
 
+/* Allow images to display - CRITICAL FOR HERO IMAGES */
+img, [class*="relative"] {
+  background-color: transparent !important;
+}
+
 /* Allow hero images and background images to show */
 [class*="bg-cover"],
 [class*="bg-contain"],
@@ -30,7 +35,9 @@ section, div {
 [class*="bg-no-repeat"],
 [class*="hero"],
 [class*="carousel"],
-[class*="slider"] {
+[class*="slider"],
+[class*="overflow-hidden"],
+[class*="rounded"] {
   background-color: transparent !important;
   background-image: revert !important;
 }
