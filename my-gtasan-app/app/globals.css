@@ -18,22 +18,36 @@ html {
   overflow-x: hidden;
 }
 
-/* FORCE DARK MODE ON ALL SECTIONS AND DIVS */
-section, div {
+/* FORCE DARK MODE ONLY ON CONTENT SECTIONS - NOT on image containers */
+section {
   background-color: #030712 !important;
 }
 
-/* CRITICAL: Make ONLY img tags transparent and visible - don't affect containers */
+/* Dark mode on specific content divs - NOT generic divs */
+div[class*="container"],
+div[class*="section"],
+div[class*="faq"],
+div[class*="feature"],
+div[class*="content"],
+div[class*="safety"],
+div[class*="comparison"],
+div[class*="pros"],
+div[class*="tips"],
+div[class*="download"],
+div[class*="gameplay"],
+div[class*="timeline"],
+div[class*="requirements"],
+div[class*="system"] {
+  background-color: #030712 !important;
+}
+
+/* Images and their direct parents MUST remain transparent */
 img {
   background-color: transparent !important;
   background-image: unset !important;
   opacity: 1 !important;
   visibility: visible !important;
-}
-
-/* Allow image parent containers to be transparent */
-div:has(> img) {
-  background-color: transparent !important;
+  display: block !important;
 }
 
 /* Allow hero sections to be transparent for images */
