@@ -19,7 +19,8 @@ html {
 }
 
 /* Override ALL light backgrounds - force dark colors */
-[class*="bg-white"],
+/* Exception: Skip span/button elements that are UI controls (hamburger, etc) */
+[class*="bg-white"]:not(span):not(button),
 [class*="bg-gray-50"],
 [class*="bg-gray-100"],
 [class*="bg-gray-200"],
@@ -41,15 +42,28 @@ html {
   background-color: #1a1f2e !important;
 }
 
-/* Override light text to white */
+/* Ensure hamburger icon lines stay visible (white) */
+button span.h-0\.5 {
+  background-color: #ffffff !important;
+}
+
+/* Override light text to white/light gray */
 [class*="text-gray-900"],
 [class*="text-gray-800"],
+[class*="text-gray-700"],
+[class*="text-gray-600"],
+[class*="text-gray-500"],
 [class*="text-slate-900"],
+[class*="text-slate-800"],
+[class*="text-slate-700"],
 [class*="text-black"] {
   color: #ffffff !important;
 }
 
-[class*="text-gray-700"] {
+[class*="text-gray-400"],
+[class*="text-slate-400"],
+[class*="text-slate-500"],
+[class*="text-slate-600"] {
   color: #d1d5db !important;
 }
 
