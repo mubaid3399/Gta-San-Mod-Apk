@@ -87,3 +87,15 @@ button span.h-0\.5 {
 a {
   transition: color 0.2s ease;
 }
+
+/* Override gradients - force solid dark background */
+[class*="bg-gradient"],
+[class*="from-gray-50"],
+[class*="from-white"],
+[class*="to-white"],
+[class*="to-gray-50"],
+[class*="from-blue-50"],
+[class*="to-blue-50"] {
+  background-color: #1a1f2e !important;
+  background-image: none !important;
+}
