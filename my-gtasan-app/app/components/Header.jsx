@@ -128,7 +128,7 @@ function Header() {
             <span className="text-lg font-bold tracking-wider text-white drop-shadow">
               {t("title")}
             </span>
-            <p className="text-xs text-gray-400">{t("forPC")}</p>
+            <p className="text-xs text-gray-400 dark:text-gray-500">{t("forPC")}</p>
           </div>
         </Link>
 
@@ -170,14 +170,14 @@ function Header() {
             onMouseEnter={handleDropdownMouseEnter}
             onMouseLeave={handleDropdownMouseLeave}
           >
-            <button className="backdrop-blur-md bg-black/10 border border-gray-300 rounded-full cursor-pointer px-3 py-2 flex items-center gap-2 text-black hover:bg-black/20 transition-all dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20">
+            <button className="backdrop-blur-md bg-black/10 border border-gray-300 dark:border-white/30 rounded-full cursor-pointer px-3 py-2 flex items-center gap-2 text-black dark:text-white hover:bg-black/20 dark:hover:bg-black/30 transition-all dark:bg-white/10 dark:hover:bg-white/20">
               <FontAwesomeIcon icon={faGlobe} className="text-sm" />
               <span className="hidden sm:inline">{selectedLanguage}</span>
             </button>
 
             {/* Dropdown Menu */}
             <div
-              className={`absolute right-0 mt-2 w-48 bg-white border border-gray-300 rounded-xl shadow-2xl transition-all duration-200 z-50 dark:bg-gray-900/95 dark:border-white/20 ${
+              className={`absolute right-0 mt-2 w-48 bg-white dark:bg-gray-900/95 border border-gray-300 dark:border-white/20 rounded-xl shadow-2xl transition-all duration-200 z-50 ${
                 isLanguageDropdownOpen
                   ? 'opacity-100 visible'
                   : 'opacity-0 invisible'
@@ -189,10 +189,10 @@ function Header() {
                   onClick={() => {
                     handleLanguageChange(lang.code);
                   }}
-                  className={`w-full text-left px-4 py-3 transition-all cursor-pointer first:rounded-t-xl last:rounded-b-xl hover:bg-gray-100 dark:hover:bg-white/10 ${
+                  className={`w-full text-left px-4 py-3 transition-all cursor-pointer first:rounded-t-xl last:rounded-b-xl hover:bg-gray-100 dark:hover:bg-gray-800/50 ${
                     selectedLanguage === lang.code
                       ? 'text-[#00ff87] font-semibold'
-                      : 'text-black dark:text-white/80'
+                      : 'text-black dark:text-white'
                   }`}
                 >
                   {lang.label}
@@ -210,23 +210,17 @@ function Header() {
           >
             {/* Animated hamburger to X */}
             <span
-              className={`w-6 h-0.5 rounded-full transition-all duration-300 transform origin-center ${
-                'bg-white'
-              } ${
+              className={`w-6 h-0.5 rounded-full transition-all duration-300 transform origin-center bg-white dark:bg-white ${
                 isMenuOpen ? 'rotate-45 translate-y-2.5' : ''
               }`}
             ></span>
             <span
-              className={`w-6 h-0.5 rounded-full transition-all duration-300 ${
-                'bg-white'
-              } ${
+              className={`w-6 h-0.5 rounded-full transition-all duration-300 bg-white dark:bg-white ${
                 isMenuOpen ? 'opacity-0' : 'opacity-100'
               }`}
             ></span>
             <span
-              className={`w-6 h-0.5 rounded-full transition-all duration-300 transform origin-center ${
-                'bg-white'
-              } ${
+              className={`w-6 h-0.5 rounded-full transition-all duration-300 transform origin-center bg-white dark:bg-white ${
                 isMenuOpen ? '-rotate-45 -translate-y-2.5' : ''
               }`}
             ></span>
@@ -254,7 +248,7 @@ function Header() {
 
           {/* Sidebar Menu */}
           <motion.div
-            className="absolute left-0 top-0 bottom-0 w-64 bg-white border-r border-gray-200 dark:bg-linear-to-b dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 dark:border-r dark:border-white/10 shadow-2xl"
+            className="absolute left-0 top-0 bottom-0 w-64 bg-white dark:bg-linear-to-b dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 border-r border-gray-200 dark:border-white/10 shadow-2xl"
             initial={{ x: -256 }}
             animate={{ x: 0 }}
             exit={{ x: -256 }}
@@ -278,7 +272,7 @@ function Header() {
                     className={`w-full text-left block px-4 py-3 rounded-lg transition-all duration-200 font-semibold text-base cursor-pointer ${
                       isActive
                         ? 'bg-[#00ff87]/20 text-[#00ff87] dark:bg-[#00ff87]/10'
-                        : 'text-gray-900 hover:bg-gray-100 hover:text-[#00ff87] dark:text-white dark:hover:bg-white/10 dark:hover:text-[#00ff87]'
+                        : 'text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-white/10 hover:text-[#00ff87] dark:hover:text-[#00ff87]'
                     }`}
                   >
                     {item.label}

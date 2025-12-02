@@ -53,10 +53,10 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-lg font-bold tracking-wide text-white">GTA San Andreas</h3>
-                <p className="text-xs text-gray-400">For PC</p>
+                <p className="text-xs text-gray-400 dark:text-gray-500">For PC</p>
               </div>
             </div>
-            <p className="text-sm text-gray-400 leading-relaxed">
+            <p className="text-sm text-gray-400 dark:text-gray-500 leading-relaxed">
               Experience the ultimate GTA San Andreas with premium mods, enhanced graphics, and exclusive features. Download now and dive into the world of Los Santos.
             </p>
             {/* Social Links */}
@@ -85,7 +85,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <button
                     onClick={() => router.push(link.href)}
-                    className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm cursor-pointer"
+                    className="text-gray-400 dark:text-gray-500 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm cursor-pointer"
                   >
                     <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
                     {link.label}
@@ -105,7 +105,7 @@ export default function Footer() {
               <li>
                 <a
                   href="/how-to-install"
-                  className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
+                  className="text-gray-400 dark:text-gray-500 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
                   Installation Guide
@@ -114,7 +114,7 @@ export default function Footer() {
               <li>
                 <a
                   href="/faq"
-                  className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
+                  className="text-gray-400 dark:text-gray-500 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
                   FAQ
@@ -123,7 +123,7 @@ export default function Footer() {
               <li>
                 <a
                   href="/is-safe-to-download"
-                  className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
+                  className="text-gray-400 dark:text-gray-500 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
                   Safety & Security
@@ -132,7 +132,7 @@ export default function Footer() {
               <li>
                 <a
                   href="/mod-apk-vs-original"
-                  className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
+                  className="text-gray-400 dark:text-gray-500 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
                   Comparison Guide
@@ -147,10 +147,10 @@ export default function Footer() {
               Community
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-[#00ff87] to-[#00a2ff]"></span>
             </h4>
-            <p className="text-sm text-gray-400 mb-4">
+            <p className="text-sm text-gray-400 dark:text-gray-500 mb-4">
               Join our gaming community and connect with other GTA San Andreas enthusiasts.
             </p>
-            <p className="text-xs text-gray-500 text-center">
+            <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
               Stay updated with the latest guides and strategies
             </p>
           </div>
@@ -162,7 +162,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
           {/* Legal Links */}
-          <div className="flex flex-wrap gap-4 justify-center md:justify-start text-xs text-gray-400">
+          <div className="flex flex-wrap gap-4 justify-center md:justify-start text-xs text-gray-400 dark:text-gray-500">
             {legalLinks.map((link, index) => (
               <div key={link.label} className="flex items-center gap-4">
                 <a
@@ -172,14 +172,14 @@ export default function Footer() {
                   {link.label}
                 </a>
                 {index < legalLinks.length - 1 && (
-                  <span className="text-gray-600">•</span>
+                  <span className="text-gray-600 dark:text-gray-400">•</span>
                 )}
               </div>
             ))}
           </div>
 
           {/* Copyright */}
-          <div className="text-center md:text-right text-xs text-gray-400">
+          <div className="text-center md:text-right text-xs text-gray-400 dark:text-gray-500">
             <p>
               © {currentYear} <span className="text-[#00ff87] font-semibold">GTA San Andreas</span>. All rights reserved. | Made with <span className="text-[#00a2ff]">❤</span>
             </p>

@@ -25,15 +25,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Dark mode base styling */
-body {
-  background-color: #030712;
-}
-
-section {
-  background-color: #030712;
-}
-
 /* Optimize images for performance */
 img {
   background-color: transparent;
@@ -53,8 +44,9 @@ img {
   background-position: center;
 }
 
-/* Dark backgrounds - optimized selector */
+/* Dark backgrounds - unified selector */
 body,
+html,
 section,
 main {
   background-color: #030712;
