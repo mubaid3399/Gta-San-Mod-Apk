@@ -16,6 +16,47 @@ export default function FAQ() {
   const [openCategory, setOpenCategory] = useState(0);
   const [expandedQuestion, setExpandedQuestion] = useState(null);
 
+  const schemaMarkup = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    name: 'GTA San Andreas Frequently Asked Questions',
+    description: 'Complete FAQ page with 50+ questions about GTA San Andreas. Download, installation, gameplay, security, technical support, and troubleshooting.',
+    url: 'https://gtasanandreas.info/faq',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Is GTA San Andreas MOD APK safe?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, when downloaded from legitimate sources. Verified safe with 0 malware detections.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I install GTA San Andreas?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Follow our step-by-step installation guide for Android and PC platforms.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the system requirements?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Minimum: Android 6.0 or Windows 7. Recommended: Android 10+ or Windows 10/11 with 4GB+ RAM.',
+        },
+      },
+    ],
+    author: {
+      '@type': 'Organization',
+      name: 'GTA San Andreas Community',
+      url: 'https://gtasanandreas.info',
+    },
+    datePublished: '2024-01-01',
+    dateModified: '2025-12-02',
+  };
+
   const categories = [
     {
       name: 'Download & Installation',
@@ -41,6 +82,26 @@ export default function FAQ() {
       name: 'Troubleshooting',
       icon: faHeadset,
       color: 'from-indigo-500 to-blue-500',
+    },
+    {
+      name: 'World & Characters',
+      icon: faGamepad,
+      color: 'from-cyan-500 to-blue-500',
+    },
+    {
+      name: 'Vehicles & Weapons',
+      icon: faGamepad,
+      color: 'from-yellow-500 to-orange-500',
+    },
+    {
+      name: 'Multiplayer & Mods',
+      icon: faGamepad,
+      color: 'from-green-500 to-cyan-500',
+    },
+    {
+      name: '2025 Updates',
+      icon: faGamepad,
+      color: 'from-pink-500 to-purple-500',
     },
   ];
 
@@ -254,11 +315,141 @@ export default function FAQ() {
         q: 'How do I uninstall completely?',
         a: 'Settings > Apps > GTA San Andreas > Uninstall. Then clear related folders in file manager for complete removal.',
       },
+      {
+        q: 'Why does the game run too fast?',
+        a: 'Turn on the Frame Limiter in the display settings. This gives the game normal speed on fast PCs.',
+      },
+      {
+        q: 'Black screen on startup',
+        a: 'Delete gta_sa.set file in Documents > GTA San Andreas. Choose a lower resolution or use Windowed Mode.',
+      },
+      {
+        q: 'Textures not loading (buildings disappear)',
+        a: 'Reduce Visual FX Quality to Low settings. Use Memory Fix Mods. Close background applications.',
+      },
+      {
+        q: 'Game freezes during cutscenes',
+        a: 'Install a safe codec pack like K-Lite. You can also press ESC to skip cutscenes and continue missions.',
+      },
+      {
+        q: 'Save file problems',
+        a: 'Use the same game version that created the save. Try another save slot. Keep backups to avoid losing progress.',
+      },
+    ],
+    'World & Characters': [
+      {
+        q: 'What is GTA San Andreas about?',
+        a: 'The game follows Carl Johnson (CJ) who returns to Los Santos after his mother passes away. He tries to save his family, fix problems, and rebuild his life in the criminal underworld.',
+      },
+      {
+        q: 'Who is CJ?',
+        a: 'CJ is the main character. He is loyal, brave, and caring toward his family. He returns home to help his loved ones overcome difficulties.',
+      },
+      {
+        q: 'Is the world open?',
+        a: 'Yes. You can walk, drive, fly, or ride bikes anywhere after progressing through the story. The entire map is available to explore.',
+      },
+      {
+        q: 'What are the three main cities?',
+        a: 'Los Santos, San Fierro, and Las Venturas. Each city has unique areas, missions, and characters to discover.',
+      },
+      {
+        q: 'Can CJ swim?',
+        a: 'Yes. He can swim underwater and climb out of water. Swimming is essential for some missions.',
+      },
+      {
+        q: 'How can CJ get stronger?',
+        a: 'Visit gyms, eat healthy food in the game, and practice fighting. Your fitness and strength improve with training.',
+      },
+      {
+        q: 'How long is the game?',
+        a: 'The full story takes about 30 to 40 hours. Side missions can add more time. 100% completion: 40-60 hours.',
+      },
+    ],
+    'Vehicles & Weapons': [
+      {
+        q: 'How many vehicles are in the game?',
+        a: 'There are over 200 vehicles. These include cars, bikes, planes, boats, and more. Each vehicle handles differently.',
+      },
+      {
+        q: 'Can you modify cars?',
+        a: 'Yes. You can add body kits, wheels, paint jobs, and colors at mod shops throughout the map.',
+      },
+      {
+        q: 'Are weapons easy to find?',
+        a: 'Yes. You can find them in stores, missions, on the ground, or around the map. Different weapons have different power levels.',
+      },
+      {
+        q: 'What is the strongest weapon?',
+        a: 'Many players like the M4, the minigun, and the sniper rifle. The minigun deals the most damage.',
+      },
+      {
+        q: 'How do I fly a plane easily?',
+        a: 'Use gentle movements. Do not rush the controls. Practice helps a lot. Start with slower planes before advanced aircraft.',
+      },
+    ],
+    'Multiplayer & Mods': [
+      {
+        q: 'Can I play multiplayer?',
+        a: 'No, this is single-player only. The original GTA San Andreas doesn\'t have multiplayer either.',
+      },
+      {
+        q: 'What is SAMP?',
+        a: 'SAMP stands for San Andreas Multiplayer. It lets you play online with others on custom servers with roleplay features.',
+      },
+      {
+        q: 'Why can I not join a SAMP server?',
+        a: 'You may have the wrong game version. Install the correct one matching the server requirements.',
+      },
+      {
+        q: 'Does SAMP work in 2025?',
+        a: 'Yes. Many active servers still exist with new roleplay features and communities.',
+      },
+      {
+        q: 'Are mods safe for the game?',
+        a: 'Yes, if you use trusted sources. Download from reputable mod websites and test mods one at a time.',
+      },
+      {
+        q: 'Why do modded games crash?',
+        a: 'Mods can conflict with each other. Add mods one by one and test. Keep a backup of your original game folder.',
+      },
+    ],
+    '2025 Updates': [
+      {
+        q: 'Does GTA San Andreas still work on Windows 11 in 2025?',
+        a: 'Yes. It runs well with compatibility mode. Community patches ensure stability on modern systems.',
+      },
+      {
+        q: 'Were new community patches released in 2025?',
+        a: 'Yes. These patches fix bugs and improve stability. They address compatibility with new operating systems.',
+      },
+      {
+        q: 'Are new texture mods available in 2025?',
+        a: 'Yes. Many HD textures and light packs came out this year. Fans continue to improve the graphics.',
+      },
+      {
+        q: 'Do new roleplay servers exist in 2025?',
+        a: 'Yes. Many new SAMP roleplay servers launched this year with improved systems and features.',
+      },
+      {
+        q: 'Is the mobile version smoother in 2025?',
+        a: 'Yes. New phones support the game better. Mobile receives stability fixes that reduce crashes.',
+      },
+      {
+        q: 'Did crashes reduce this year?',
+        a: 'Yes. Thanks to patches and updates, crashes are less common. The game is more stable in 2025.',
+      },
+      {
+        q: 'Is GTA San Andreas still fun in 2025?',
+        a: 'Yes. The game still feels fun, even after many years. The story and world remain engaging for new and old players.',
+      },
     ],
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#030712] via-black to-[#030712]">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }} />
+      <div className="min-h-screen bg-gradient-to-b from-[#030712] via-black to-[#030712]">
       {/* Hero Section */}
       <div className="relative pt-20 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
@@ -381,6 +572,7 @@ export default function FAQ() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

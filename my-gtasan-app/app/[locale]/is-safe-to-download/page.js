@@ -18,6 +18,40 @@ import {
 export default function IsSafeToDownload() {
   const [expandedSection, setExpandedSection] = useState(0);
 
+  const schemaMarkup = {
+    '@context': 'https://schema.org',
+    '@type': ['FAQPage', 'WebPage'],
+    name: 'Is GTA San Andreas MOD APK Safe? Security & Troubleshooting Guide',
+    description: 'Complete security analysis, virus scans, malware testing, and troubleshooting guide. Learn if GTA San Andreas is safe to download.',
+    url: 'https://gtasanandreas.info/is-safe-to-download',
+    image: 'https://gtasanandreas.info/logo.png',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Is GTA San Andreas MOD APK safe to download?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, it is completely safe when downloaded from legitimate sources. Scanned by 68 antivirus vendors with 0 malware detections.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the common GTA San Andreas problems and fixes?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Common issues include crashes, lag, black screens, and sound problems. Each has specific fixes documented in our troubleshooting guide.',
+        },
+      },
+    ],
+    author: {
+      '@type': 'Organization',
+      name: 'GTA San Andreas Community',
+      url: 'https://gtasanandreas.info',
+    },
+    datePublished: '2024-01-01',
+    dateModified: '2025-12-02',
+  };
+
   const securityTests = [
     {
       name: 'Virus Total Scan',
@@ -123,7 +157,9 @@ export default function IsSafeToDownload() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#030712] via-black to-[#030712]">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }} />
+      <div className="min-h-screen bg-gradient-to-b from-[#030712] via-black to-[#030712]">
       {/* Hero Section */}
       <div className="relative pt-20 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
@@ -282,9 +318,262 @@ export default function IsSafeToDownload() {
             </div>
           </div>
 
+          {/* Troubleshooting Section */}
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-white mb-8">Troubleshooting Guide</h2>
+            <p className="text-gray-300 mb-8 text-lg leading-relaxed">
+              GTA San Andreas may sometimes show problems, especially on new devices. It can crash, freeze, lag, or may not start at all. This troubleshooting guide helps fix common issues in simple steps.
+            </p>
+
+            <div className="space-y-6">
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Game Does Not Start</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  This is one of the most common problems. You click the icon, and nothing happens.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Run as Administrator - Right-click the game icon and choose Run as Administrator.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Verify Files - On Steam, go to Library, right-click GTA San Andreas, select Properties, go to Installed Files, and click "Verify integrity". This replaces missing files.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 3:</strong> Turn Off Antivirus - Some antivirus apps block old games. Disable antivirus temporarily to test.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 4:</strong> Use Compatibility Mode - Right-click icon, go to Properties, Compatibility tab, and choose Windows XP or Windows 7 mode.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Game Crashes During Play</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Crashes can happen at random times or during missions. Here's how to fix them.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Disable Overlays - Turn off Steam overlay, Discord overlay, or Nvidia overlay. These can cause crashes.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Lower Graphics - Try resolutions like 800×600 or 1024×768. Turn off anti-aliasing.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 3:</strong> Remove Recent Mods - If the game started crashing after adding mods, remove those mods.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 4:</strong> Start a New Save File - Sometimes old saves break. Create a new game to test if saves are the problem.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Game Running Too Fast</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  This happens on fast PCs. The game runs at wrong speed. Go to Options → Display → Advanced. Turn Frame Limiter ON. This gives the game normal speed.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Lag and Low FPS</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Lag is very common on weak PCs or when running many mods. Here's how to fix it.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Lower All Graphics Settings - Set everything to Low. This improves frame rate immediately.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Close Other Programs - Close Chrome, Discord, and other heavy apps. This frees up memory.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 3:</strong> Use GPU Fix Mods - Some safe mods improve performance on new systems.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">No Sound or Sound Problems</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Audio may stop working or voices may be missing. These fixes help restore sound.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Check Audio Settings - Go inside the game and increase all volume sliders.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Update Sound Drivers - Install the latest audio drivers from your sound card manufacturer.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 3:</strong> Use Silent Patch - Silent Patch is a safe mod that fixes many sound bugs and issues.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Mission Bugs or Stuck Missions</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Some missions may not work correctly. Examples include Lowrider dance, Train mission, Paramedic missions, and Jetpack crashes.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Load an Older Save File - This solves many issues. Go back to a save before the problem started.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Remove Mod Scripts - Mission mods can break the story. Disable them and try the mission again.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 3:</strong> Turn Frame Limiter ON - Dance missions work best with Frame Limiter enabled.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Keyboard or Controller Not Working</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Sometimes keys stop working or the game does not detect your controller.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Restore Default Controls - Go to Options → Controller Setup → Restore Defaults.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Unplug Extra Controllers - Only use one controller at a time. Extra controllers confuse the game.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 3:</strong> Install Gamepad Drivers - Install XInput or DirectInput drivers if needed for your controller.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Mouse Not Moving in Menus</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  This is a very popular bug. Go to Documents → GTA San Andreas. Delete the gta_sa.set file. Restart the game. This resets display settings and fixes the mouse issue.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Black Screen on Startup</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Sometimes the game opens but only shows a black screen.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Delete gta_sa.set File - This file causes many display issues. Delete it and restart.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Choose a Lower Resolution - Set 1024×768 or lower.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 3:</strong> Use Windowed Mode - This can bypass display errors and let you play.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Textures Not Loading (Buildings Disappear)</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Sometimes buildings appear late or vanish. This is a texture loading problem.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Reduce Visual FX Quality - Use Low settings in graphics options.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Use Memory Fix Mods - Some light mods improve texture loading speed.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 3:</strong> Close Background Apps - Other programs use memory. Close them to help textures load faster.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Game Freezes During Cutscenes</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Videos may freeze due to old codecs not supported by modern systems.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Install Codec Pack - Use a safe pack like K-Lite. This adds support for old video formats.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 2:</strong> Skip the Cutscene - Press ESC. You can still play the mission without watching the video.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Save File Problems</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Some save files do not load because of version differences or corruption.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Solution 1:</strong> Use the same game version that created the save. Different versions may not load saves.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Solution 2:</strong> Try another save slot. If one slot is corrupted, others may work fine.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Solution 3:</strong> Keep backups to avoid future loss. Save your important progress in multiple places.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Mod Problems</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Mods can make the game better, but they can also cause errors if not set up correctly.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Tip 1:</strong> Add Mods One by One - Test each mod individually. This helps identify which mod causes problems.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Tip 2:</strong> Keep a Backup - Keep a backup of your clean game folder. If a mod breaks things, restore the backup.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Tip 3:</strong> Use Correct Versions - Use only mods for your game version. Wrong versions crash often.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Mobile Issues</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Mobile players also face common problems. These fixes help Android and iOS users.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Clear App Cache - Go to Settings → Apps → GTA SA → Clear Cache. This removes temporary files that may cause problems.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Lower Mobile Graphics - Use low or medium graphics settings on your phone.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 3:</strong> Restart Phone - This fixes many small bugs and frees up memory.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 4:</strong> Reinstall the Game - If errors continue, uninstall and reinstall the game fresh.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-[#00ff87] mb-4">Multiplayer (SAMP/MTA) Problems</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Multiplayer mods can show issues too. These solutions help SAMP and MTA players.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 1:</strong> Remove Single Player Mods - SAMP and some single player mods do not work together. Remove them.
+                </p>
+                <p className="text-gray-300 mb-3 leading-relaxed">
+                  <strong>Fix 2:</strong> Reinstall SAMP - A fresh install fixes many problems. Remove and reinstall SAMP.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  <strong>Fix 3:</strong> Use Wired Internet - Wireless connections lag more. Use a wired connection for better online play.
+                </p>
+              </div>
+
+              <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-blue-400 mb-4">Tips to Keep GTA San Andreas Stable</h3>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  Simple habits help keep the game smooth and stable for a long time.
+                </p>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="leading-relaxed">• Save your game in different slots so you have backup saves</li>
+                  <li className="leading-relaxed">• Restart your PC after long gaming sessions</li>
+                  <li className="leading-relaxed">• Avoid adding too many mods at once</li>
+                  <li className="leading-relaxed">• Keep driver software updated to latest versions</li>
+                  <li className="leading-relaxed">• Use the Frame Limiter when needed for smooth gameplay</li>
+                  <li className="leading-relaxed">• Keep backups of your important save files</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
           {/* FAQ Section */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-white mb-8">Common Safety Questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-8">Common Safety & Troubleshooting Questions</h2>
             <div className="space-y-4">
               {[
                 {
@@ -346,6 +635,7 @@ export default function IsSafeToDownload() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

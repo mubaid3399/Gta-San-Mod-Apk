@@ -153,9 +153,9 @@ export default function HowToInstall() {
 
   const schemaMarkup = {
     '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: 'How to Install GTA San Andreas MOD APK',
-    description: 'Complete step-by-step guide to install GTA San Andreas MOD APK on Android and PC',
+    '@type': ['HowTo', 'FAQPage'],
+    name: 'How to Install GTA San Andreas - Complete Guide',
+    description: 'Complete step-by-step guide to install GTA San Andreas MOD APK on Android, PC, and Mac. Installation tips and system requirements.',
     image: 'https://gtasanandreas.info/heroimage2.png',
     prepTime: 'PT10M',
     totalTime: 'PT20M',
@@ -176,6 +176,13 @@ export default function HowToInstall() {
       text: step.description,
       image: 'https://gtasanandreas.info/logo.png',
     })),
+    author: {
+      '@type': 'Organization',
+      name: 'GTA San Andreas Community',
+      url: 'https://gtasanandreas.info',
+    },
+    datePublished: '2024-01-01',
+    dateModified: '2025-12-02',
   };
 
   return (
@@ -295,6 +302,47 @@ export default function HowToInstall() {
                     <li>• Close other apps to prevent installation conflicts</li>
                     <li>• Do not interrupt the installation process</li>
                   </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Additional Installation Tips */}
+            <div className="mb-16">
+              <h2 className="text-3xl font-bold text-white mb-8">Tips for a Smooth Installation</h2>
+              <div className="space-y-6">
+                <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-[#00ff87] mb-3">Check System Requirements</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Make sure your PC or phone can run the game. Review the minimum and recommended specifications above to ensure compatibility before downloading.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-[#00ff87] mb-3">Keep Enough Storage</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    You need at least 4–6 GB free space for PC installation. For Android devices, ensure you have 5GB+ free space for smooth gameplay and updates.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-[#00ff87] mb-3">Install in a Simple Folder</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Avoid very long folder names with special characters. Simple folder paths like "GTA San Andreas" work best and prevent installation errors.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-[#00ff87] mb-3">Update Graphics Drivers</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Especially graphics and sound drivers should be updated to the latest version. This ensures compatibility and prevents performance issues during gameplay.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-r from-gray-900 to-gray-800 border border-[#00ff87]/20 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-[#00ff87] mb-3">Backup Your Saves</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    If you reinstall the game, keep your old save files in a safe location. Back up your saves folder before any major updates or reinstallations.
+                  </p>
                 </div>
               </div>
             </div>

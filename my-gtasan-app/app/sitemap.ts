@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages = [
     '',
     'for-pc',
+    'for-ios',
     'gta-cheats',
     'gta-cars',
     'how-to-install',
@@ -42,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         : `${baseUrl}/${locale}/${page}`;
 
       const priority =
-        page === '' ? 1.0 : ['for-pc', 'gta-cheats', 'gta-cars', 'how-to-install'].includes(page) ? 0.9 : 0.85;
+        page === '' ? 1.0 : ['for-pc', 'for-ios', 'gta-cheats', 'gta-cars', 'how-to-install'].includes(page) ? 0.9 : 0.85;
 
       sitemapEntries.push({
         url,

@@ -1,145 +1,104 @@
 @import "tailwindcss";
 
-/* FORCE DARK MODE - COMPLETE SITE OVERRIDE */
-:root, html, html.dark {
-  color-scheme: dark !important;
+/* Performance: Enable GPU acceleration */
+:root {
+  color-scheme: dark;
+  --webkit-font-smoothing: antialiased;
+  --moz-osx-font-smoothing: grayscale;
 }
 
-body, html.dark body {
-  background-color: #030712 !important;
-  color: #f3f4f6 !important;
-  font-family: var(--font-poppins), sans-serif;
+/* Optimize critical rendering path */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #030712;
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-display: swap;
   overflow-x: hidden;
-  width: 100%;
-  max-width: 100vw;
 }
 
+/* Prevent layout shift */
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-/* FORCE DARK MODE ONLY ON CONTENT SECTIONS - NOT on image containers */
+/* Dark mode base styling */
+body {
+  background-color: #030712;
+}
+
 section {
-  background-color: #030712 !important;
+  background-color: #030712;
 }
 
-/* Dark mode on specific content divs - NOT generic divs */
-div[class*="container"],
-div[class*="section"],
-div[class*="faq"],
-div[class*="feature"],
-div[class*="content"],
-div[class*="safety"],
-div[class*="comparison"],
-div[class*="pros"],
-div[class*="tips"],
-div[class*="download"],
-div[class*="gameplay"],
-div[class*="timeline"],
-div[class*="requirements"],
-div[class*="system"] {
-  background-color: #030712 !important;
-}
-
-/* Images and their direct parents MUST remain transparent */
+/* Optimize images for performance */
 img {
-  background-color: transparent !important;
-  background-image: unset !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-  display: block !important;
+  background-color: transparent;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  will-change: opacity;
 }
 
-/* Allow hero sections to be transparent for images */
-[class*="bg-cover"],
-[class*="bg-contain"],
-[class*="bg-center"],
-[class*="bg-no-repeat"],
+/* Allow hero sections with images */
 [class*="hero"],
 [class*="carousel"],
-[class*="slider"] {
-  background-color: transparent !important;
-  background-image: revert !important;
+[class*="slider"],
+[class*="bg-cover"],
+[class*="bg-contain"] {
+  background-size: cover;
+  background-position: center;
 }
 
-/* Override ALL light backgrounds - force dark colors */
-/* Exception: Skip span/button elements that are UI controls (hamburger, etc) */
-[class*="bg-white"]:not(span):not(button),
-[class*="bg-gray-50"],
-[class*="bg-gray-100"],
-[class*="bg-gray-200"],
-[class*="bg-gray-300"],
-[class*="bg-slate-50"],
-[class*="bg-slate-100"],
-[class*="bg-blue-50"],
-[class*="bg-blue-100"],
-[class*="bg-cyan-50"],
-[class*="bg-cyan-100"],
-[class*="bg-green-50"],
-[class*="bg-green-100"],
-[class*="bg-emerald-50"],
-[class*="bg-emerald-100"],
-[class*="bg-amber-50"],
-[class*="bg-amber-100"],
-[class*="bg-yellow-50"],
-[class*="bg-yellow-100"] {
-  background-color: #030712 !important;
+/* Dark backgrounds - optimized selector */
+body,
+section,
+main,
+div {
+  background-color: #030712;
 }
 
-/* Ensure hamburger icon lines stay visible (white) */
-button span.h-0\.5 {
-  background-color: #ffffff !important;
+/* Button styling optimization */
+button {
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
-/* Override light text to white/light gray */
-[class*="text-gray-900"],
-[class*="text-gray-800"],
-[class*="text-gray-700"],
-[class*="text-gray-600"],
-[class*="text-gray-500"],
-[class*="text-slate-900"],
-[class*="text-slate-800"],
-[class*="text-slate-700"],
-[class*="text-black"] {
-  color: #ffffff !important;
-}
-
-[class*="text-gray-400"],
-[class*="text-slate-400"],
-[class*="text-slate-500"],
-[class*="text-slate-600"] {
-  color: #d1d5db !important;
-}
-
-/* Override light borders to dark */
-[class*="border-gray-200"],
-[class*="border-gray-300"],
-[class*="border-slate-200"],
-[class*="border-blue-200"],
-[class*="border-green-200"],
-[class*="border-amber-200"],
-[class*="border-cyan-200"],
-[class*="border-yellow-200"] {
-  border-color: #374151 !important;
-}
-
-/* Override gradients - force solid dark background */
-[class*="bg-gradient"],
-[class*="from-gray-50"],
-[class*="from-white"],
-[class*="to-white"],
-[class*="to-gray-50"],
-[class*="from-blue-50"],
-[class*="to-blue-50"] {
-  background-color: #030712 !important;
-  background-image: none !important;
-}
-
-/* Transitions */
-* {
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
-
+/* Link styling */
 a {
   transition: color 0.2s ease;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Container queries for responsive */
+@supports (container-type: inline-size) {
+  .container {
+    container-type: inline-size;
+  }
+}
+
+/* Performance: Reduce repaints */
+body * {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Optimize font loading */
+@font-face {
+  font-display: swap;
+}
+
+/* Critical CSS - minimal transitions */
+button,
+a {
+  will-change: transform;
+}
+
+/* Disable transitions during loading */
+.no-transition * {
+  transition: none !important;
 }

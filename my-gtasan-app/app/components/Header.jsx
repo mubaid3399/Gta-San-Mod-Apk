@@ -35,6 +35,8 @@ function Header() {
 
     if (pathname.includes('/for-pc')) {
       setActivePage('forPC');
+    } else if (pathname.includes('/for-ios')) {
+      setActivePage('forIOS');
     } else if (pathname.includes('/gta-cheats')) {
       setActivePage('gtaCheats');
     } else if (pathname.includes('/gta-cars')) {
@@ -115,7 +117,7 @@ function Header() {
           <div className="h-14 w-14 rounded-full overflow-hidden border border-white/30 shadow-lg group-hover:shadow-xl transition-all duration-300">
             <Image
               src="/logo.png"
-              alt="GTA San Apk Logo"
+              alt="GTA San Andreas Logo"
               width={56}
               height={56}
               priority
@@ -136,6 +138,7 @@ function Header() {
             {[
               { key: "home", label: t("navigation.home"), href: "/" },
               { key: "forPC", label: t("navigation.forPC"), href: "/for-pc" },
+              { key: "forIOS", label: t("navigation.forIOS"), href: "/for-ios" },
               { key: "gtaCheats", label: t("navigation.gtaCheats"), href: "/gta-cheats" },
               { key: "gtaCars", label: t("navigation.gtaCars"), href: "/gta-cars" }
             ].map(item => {
@@ -262,6 +265,7 @@ function Header() {
               {[
                 { key: "home", label: t("navigation.home"), href: "/" },
                 { key: "forPC", label: t("navigation.forPC"), href: "/for-pc" },
+                { key: "forIOS", label: t("navigation.forIOS"), href: "/for-ios" },
                 { key: "gtaCheats", label: t("navigation.gtaCheats"), href: "/gta-cheats" },
                 { key: "gtaCars", label: t("navigation.gtaCars"), href: "/gta-cars" }
               ].map((item) => {
