@@ -56,8 +56,7 @@ img {
 /* Dark backgrounds - optimized selector */
 body,
 section,
-main,
-div {
+main {
   background-color: #030712;
 }
 
