@@ -9,11 +9,13 @@
     "title": "GTA San Apk",
     "subtitle": "プレミアムモッド",
     "forPC": "PC用",
+    "forIOS": "For iOS",
     "darkMode": "ダーク",
     "lightMode": "ライト",
     "navigation": {
       "home": "ホーム",
       "forPC": "PC用",
+      "forIOS": "For iOS",
       "gtaCheats": "GTA チート",
       "gtaCars": "GTA 車"
     }
@@ -1983,6 +1985,264 @@
           "answer": "一部のチートはコードを再度入力することでオフにできますが、他のチートは以前のセーブをロードするまで永続的です。"
         }
       ]
+    }
+  },
+  "forIOS": {
+    "hero": {
+      "title": "iOS版GTA San Andreas",
+      "subtitle": "iPhoneとiPadで究極の犯罪ゲームをプレイ"
+    },
+    "introduction": {
+      "title": "GTA San AndreasのiOSとは?",
+      "description": "GTA San AndreasでiOSと言う時、それはゲームのAppleモバイル版のことを指しています。iOSはiPhoneとiPadで使用されているオペレーティングシステムです。Appleデバイス上でアプリ、ゲーム、その他すべてを実行するソフトウェアです。",
+      "points": [
+        "GTA San Andreas iOS版 - Apple製の電話とタブレット向けに作られたゲームのバージョン",
+        "新しいゲームでもモードでもチートでもない - モバイルで同じストーリー",
+        "クラシックGTAシリーズの中で最もダウンロードされたモバイルゲームの1つ"
+      ]
+    },
+    "history": {
+      "title": "iOS版GTA San Andreasの簡単な歴史",
+      "timeline": [
+        {
+          "year": 2004,
+          "event": "GTA San Andreasは最初にPlayStation 2向けに作られた"
+        },
+        {
+          "year": 2013,
+          "event": "改善されたグラフィックスでiPhoneとiPad向けのiOS版がリリース"
+        },
+        {
+          "year": 2025,
+          "event": "より良い安定性と新しいAppleデバイスのサポートで継続"
+        }
+      ]
+    },
+    "whyConfused": {
+      "title": "なぜ多くの人が「GTA San AndreasのiOSとは何か」を検索するのか?",
+      "reasons": [
+        "新しいプレイヤーはiOSがゲームモードだと思っている",
+        "多くのYouTube動画が説明せずにその用語を使用している",
+        "初めてモバイルを使用する若いプレイヤーはiOSが何を意味するか知らないかもしれない",
+        "プレイヤーはiOSとAndroidを比較する"
+      ]
+    },
+    "features": {
+      "title": "iOS版GTA San Andreasの動作方法",
+      "items": [
+        {
+          "title": "タッチコントロール",
+          "description": "ゲームがタッチスクリーン上にあるため、画面にボタンが表示されます。走る、運転する、戦う、撃つ、ミッションをするためにタップできます。設定でボタンのサイズとレイアウトを変更することもできます。"
+        },
+        {
+          "title": "更新されたグラフィックス",
+          "description": "iOS版は古いPS2版と比較して、より良いテクスチャ、より良い照明、よりスムーズなキャラクターを持っています。建物はより鮮明に見え、車はより輝き、水のエフェクトはより美しく見えます。"
+        },
+        {
+          "title": "クラウドセーブ",
+          "description": "これは複数のデバイスを持つiOSユーザーにとって便利な機能です。iPhoneでプレイして、クラウドセーブオプションを通じてiPadで続けることができます。"
+        },
+        {
+          "title": "コントローラーサポート",
+          "description": "タッチコントロールが難しい場合は、Xbox、PlayStation、またはMFiコントローラーなどのBluetoothコントローラーを接続できます。これによりゲームプレイはコンソール版に近い感じになります。"
+        },
+        {
+          "title": "オーディオと音楽のサポート",
+          "description": "古いバージョンと同じようにゲーム内のラジオ局を聴くことができます。一部のアップデートでは、iOSは独自の音楽ライブラリもサポートしています。"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "iOS版GTA San Andreasと他のバージョンの違い",
+      "sections": [
+        {
+          "name": "iOS vs Android",
+          "items": [
+            {
+              "feature": "グラフィックス",
+              "ios": "わずかに良いテクスチャ",
+              "other": "デバイスによる"
+            },
+            {
+              "feature": "パフォーマンス",
+              "ios": "新しいデバイスで非常にスムーズ",
+              "other": "電話によって異なる"
+            },
+            {
+              "feature": "コントロール",
+              "ios": "両方で同じ",
+              "other": "両方で同じ"
+            },
+            {
+              "feature": "価格",
+              "ios": "通常同じ",
+              "other": "通常同じ"
+            }
+          ]
+        },
+        {
+          "name": "iOS vs PC",
+          "description": "PCはより良いグラフィックスとModを持っていますが、iOSはポータブルでどこでもプレイしやすいです。"
+        },
+        {
+          "name": "iOS vs PS2",
+          "description": "iOSは改善された照明とテクスチャを持っていますが、PS2はオリジナルのクラシックな感覚を持っています。"
+        }
+      ]
+    },
+    "whyPopular": {
+      "title": "なぜ人々は2025年になってもiOS版GTA San Andreasをプレイしているのか",
+      "reasons": [
+        "人々に子供時代を思い出させる",
+        "ストーリーはまだ面白い - CJの旅はプレイヤーを引き付け続けている",
+        "ダウンロードが簡単 - App Storeで数回タップするだけ",
+        "ほぼすべての現代的なiPhoneまたはiPadで動作する",
+        "オープンワールドは決して退屈にならない"
+      ]
+    },
+    "misconceptions": {
+      "title": "iOS版についての一般的な誤解",
+      "items": [
+        {
+          "myth": "iOSには特別なミッションがある",
+          "truth": "すべてのミッションはオリジナルと同じ"
+        },
+        {
+          "myth": "iOSにはチートが組み込まれている",
+          "truth": "チートは組み込まれていませんが、チートアプリまたは外部キーボードを使用できます"
+        },
+        {
+          "myth": "iOSはオンライン",
+          "truth": "GTA San Andreas iOSはクラウドセーブを除いてオフラインのみ"
+        },
+        {
+          "myth": "iOSはより良い物理演算を持っている",
+          "truth": "物理演算は似ていますが、グラフィックスはよりクリーン"
+        }
+      ]
+    },
+    "installation": {
+      "title": "iOS版GTA San Andreasのインストール方法",
+      "steps": [
+        "App Storeを開く",
+        "'GTA San Andreas'と入力",
+        "開発者名を確認: Rockstar Games",
+        "ゲームを購入してダウンロード",
+        "インストールを待つ",
+        "ゲームを開いてチュートリアルに従う"
+      ]
+    },
+    "tips": {
+      "title": "iOS版GTA San Andreasをプレイするためのヒント",
+      "items": [
+        "コントロールを調整する - 画面が小さい場合はボタンを大きくする",
+        "オートエイムを使用する - これによりタッチスクリーンでの射撃が簡単になる",
+        "デバイスがサポートしている場合のみ高グラフィックをオンにする - 古いiPhoneは遅延する可能性がある",
+        "頻繁に保存する - モバイルゲームはいつでも閉じる可能性がある",
+        "可能であればコントローラーを使用する - ミッションが簡単になる"
+      ]
+    },
+    "features2025": {
+      "title": "2025年のGTA San Andreas iOS機能",
+      "features": [
+        "より良い安定性",
+        "新しいiPhoneの更新されたサポート",
+        "改善されたタッチスクリーンの感度",
+        "より良い影",
+        "より安定したフレームレート",
+        "クラウドセーブサポート",
+        "コントローラーサポート",
+        "古いデバイスでの遅延の軽減"
+      ],
+      "note": "Rockstarはストーリーラインやミッションコンテンツを変更していませんが、ゲームのパフォーマンスを改善し続けています。"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "data": [
+        {
+          "q": "GTA San Andreasは2025年に新しいアップデートを受けましたか?",
+          "a": "はい、安定性を向上させ、新しいiOSバージョンでゲームをより良く動作させるための小さなアップデートがリリースされました。"
+        },
+        {
+          "q": "Rockstarは2025年に新しいミッションを追加しましたか?",
+          "a": "新しいミッションは追加されていません。ストーリーは同じままです。"
+        },
+        {
+          "q": "GTA San Andreasは2025年にまだApp Storeで入手可能ですか?",
+          "a": "はい、ゲームはほとんどの地域でダウンロード可能です。"
+        },
+        {
+          "q": "iOS版は2025年にチートをサポートしていますか?",
+          "a": "外部キーボードまたは特別なチートアプリでチートを使用できますが、チートはゲームに組み込まれていません。"
+        },
+        {
+          "q": "2025年のiOS版は古いバージョンよりもスムーズですか?",
+          "a": "はい、新しいデバイスはクラッシュが少なく、よりスムーズなゲームプレイでゲームをはるかに良く実行します。"
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "最終的な考え",
+      "description": "GTA San Andreas iOSは単にiPhoneとiPad向けに作られたゲームのモバイル版です。プレイヤーが愛する同じミッション、同じストーリー、同じオープンワールドを持っています。ミッションを完了したり、マップを歩き回ったり、面白いスタントを試したりしても、GTA San Andreasは世界中の何百万ものプレイヤーに今でも喜びをもたらしています。iOSでプレイする場合、それがどれほど楽しく懐かしいか既に知っています - ポケットに子供時代の小さなかけらを持ち歩いているような感じです。"
+    }
+  },
+  "about": {
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "GTA San Apk is dedicated to providing comprehensive, accurate, and educational information about GTA San Andreas - one of the most iconic gaming franchises of all time. Our mission is to create a trusted resource where gaming enthusiasts can learn about gameplay mechanics, strategies, features, and the rich gaming culture surrounding this legendary title.",
+      "paragraph2": "We believe in transparency, original content, and respect for intellectual property. Every article, guide, and piece of information on our site is crafted with care and integrity."
+    },
+    "whatWeDo": {
+      "title": "What We Offer",
+      "guides": {
+        "title": "Comprehensive Gaming Guides",
+        "description": "Step-by-step guides, walkthroughs, and tutorials to help players navigate the world of GTA San Andreas and maximize their gaming experience."
+      },
+      "strategy": {
+        "title": "Original Strategy Content",
+        "description": "Original gaming strategies, tips, and tricks developed by our gaming enthusiasts to help players overcome challenges and discover secrets."
+      },
+      "information": {
+        "title": "Game Information & Features",
+        "description": "Detailed information about gameplay mechanics, features, vehicles, missions, characters, and everything else related to GTA San Andreas."
+      },
+      "community": {
+        "title": "Community & Discussion",
+        "description": "A space for gaming enthusiasts to learn, share, and discuss their passion for GTA San Andreas and gaming in general."
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "authenticity": {
+        "title": "✓ Authenticity",
+        "description": "We provide original, honest content without misleading claims or exaggerations."
+      },
+      "transparency": {
+        "title": "✓ Transparency",
+        "description": "We are clear about our relationships, data practices, and policies with users."
+      },
+      "respect": {
+        "title": "✓ Respect for IP",
+        "description": "We respect intellectual property rights and acknowledge all sources appropriately."
+      }
+    }
+  },
+  "policies": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information when you visit our website."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "By using our website, you agree to comply with these terms and conditions. Please read them carefully before using our services."
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "description": "We use cookies to enhance your browsing experience. This policy explains what cookies are, how we use them, and your options for managing them."
+    },
+    "acceptable": {
+      "title": "Acceptable Use Policy",
+      "description": "This policy outlines the rules and guidelines for using our website and services responsibly and appropriately."
     }
   },
   "footer": {

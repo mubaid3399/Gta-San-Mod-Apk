@@ -166,7 +166,7 @@ export default function About() {
             </p>
             <div className="bg-gray-800 rounded-lg p-6 mt-4">
               <p className="text-gray-300">
-                <strong>Email:</strong> support@gtasanapk.com<br/>
+                <strong>Email:</strong> gta868309@gmail.com<br/>
                 <strong>Website:</strong> gtasanandreas.info<br/>
                 <strong>Response Time:</strong> We aim to respond within 24-48 hours<br/>
                 <strong>Available:</strong> 24/7 (email and contact form)

@@ -56,8 +56,8 @@ export default function Contact() {
               <h3 className="text-xl font-bold text-white">Email</h3>
             </div>
             <p className="text-gray-300 text-sm mb-2">Send us an email anytime</p>
-            <a href="mailto:support@gtasanapk.com" className="text-[#00ff87] hover:text-[#00a2ff] transition-colors">
-              support@gtasanapk.com
+            <a href="mailto:gta868309@gmail.com" className="text-[#00ff87] hover:text-[#00a2ff] transition-colors">
+              gta868309@gmail.com
             </a>
           </div>
 

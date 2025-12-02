@@ -253,7 +253,7 @@ export default function CookiePolicy() {
             </p>
             <div className="bg-gray-800 rounded-lg p-4 mt-4">
               <p className="text-gray-300">
-                <strong>Email:</strong> support@gtasanapk.com<br/>
+                <strong>Email:</strong> gta868309@gmail.com<br/>
                 <strong>Website:</strong> gtasanandreas.info<br/>
                 <strong>Response Time:</strong> 24-48 hours
               </p>

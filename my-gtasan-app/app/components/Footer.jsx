@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faYoutube, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faYoutube, faPinterest } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   const t = useTranslations();
@@ -19,11 +19,10 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: faFacebook, label: 'Facebook', href: 'https://www.facebook.com/gtasanandreas' },
-    { icon: faTwitter, label: 'Twitter', href: 'https://twitter.com/GTASanApk' },
-    { icon: faInstagram, label: 'Instagram', href: 'https://www.instagram.com/gtasanandreas' },
-    { icon: faYoutube, label: 'YouTube', href: 'https://www.youtube.com/channel/gtasanandreas' },
-    { icon: faDiscord, label: 'Discord', href: 'https://discord.gg/gtasanandreas' },
+    { icon: faFacebook, label: 'Facebook', href: 'https://www.facebook.com/people/Gta-SanAndreas/pfbid02rnCyLfcbiZZKnrfVB22tGm5CnrQFvri1zRPAFpjcfpy8hpvTZeqCxa2WfCgGhVWCl/' },
+    { icon: faPinterest, label: 'Pinterest', href: 'https://www.pinterest.com/gta868309/' },
+    { icon: faInstagram, label: 'Instagram', href: 'https://www.instagram.com/gta868309/' },
+    { icon: faYoutube, label: 'YouTube', href: 'https://www.youtube.com/channel/UCYe8ocBekKxI4S6vRWSdaOQ' },
   ];
 
   const legalLinks = [
@@ -46,14 +45,14 @@ export default function Footer() {
               <div className="h-12 w-12 rounded-full overflow-hidden border border-[#00ff87]/30 shadow-lg">
                 <Image
                   src="/logo.png"
-                  alt="GTA San Apk Logo"
+                  alt="GTA San Andreas Logo"
                   width={48}
                   height={48}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-lg font-bold tracking-wide text-white">GTA San Apk</h3>
+                <h3 className="text-lg font-bold tracking-wide text-white">GTA San Andreas</h3>
                 <p className="text-xs text-gray-400">For PC</p>
               </div>
             </div>
@@ -182,7 +181,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="text-center md:text-right text-xs text-gray-400">
             <p>
-              © {currentYear} <span className="text-[#00ff87] font-semibold">GTA San Apk</span>. All rights reserved. | Made with <span className="text-[#00a2ff]">❤</span>
+              © {currentYear} <span className="text-[#00ff87] font-semibold">GTA San Andreas</span>. All rights reserved. | Made with <span className="text-[#00a2ff]">❤</span>
             </p>
           </div>
         </div>

@@ -174,7 +174,7 @@ export default function PrivacyPolicy() {
             </ul>
 
             <p className="text-gray-300 leading-relaxed mt-4">
-              To exercise any rights, contact us at support@gtasanapk.com with your request.
+              To exercise any rights, contact us at gta868309@gmail.com with your request.
             </p>
           </section>
 
@@ -222,7 +222,7 @@ export default function PrivacyPolicy() {
               9. Children's Privacy
             </h2>
             <p className="text-gray-300 leading-relaxed">
-              Our Site is not intended for children under 13. We do not knowingly collect data from children under 13. If we discover we have collected such data, we will delete it immediately. Parents who believe their child has provided information should contact us at support@gtasanapk.com.
+              Our Site is not intended for children under 13. We do not knowingly collect data from children under 13. If we discover we have collected such data, we will delete it immediately. Parents who believe their child has provided information should contact us at gta868309@gmail.com.
             </p>
             <p className="text-gray-300 leading-relaxed mt-4">
               Note: GTA San Andreas is rated M for Mature (17+) and contains violent content inappropriate for children.
@@ -262,7 +262,7 @@ export default function PrivacyPolicy() {
             </p>
             <div className="bg-gray-800 rounded-lg p-4 mt-4">
               <p className="text-gray-300">
-                <strong>Email:</strong> support@gtasanapk.com<br/>
+                <strong>Email:</strong> gta868309@gmail.com<br/>
                 <strong>Website:</strong> gtasanandreas.info<br/>
                 <strong>Response Time:</strong> 24-48 hours
               </p>

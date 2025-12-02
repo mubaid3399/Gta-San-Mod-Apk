@@ -9,11 +9,13 @@
     "title": "GTA San Apk",
     "subtitle": "Премиум Моды",
     "forPC": "Для ПК",
+    "forIOS": "For iOS",
     "darkMode": "Тёмный",
     "lightMode": "Светлый",
     "navigation": {
       "home": "Главная",
       "forPC": "Для ПК",
+      "forIOS": "For iOS",
       "gtaCheats": "Читы GTA",
       "gtaCars": "Машины GTA"
     }
@@ -2176,6 +2178,264 @@
           "answer": "Некоторые читы можно отключить, введя код снова, в то время как другие являются постоянными, пока вы не загрузите предыдущее сохранение."
         }
       ]
+    }
+  },
+  "forIOS": {
+    "hero": {
+      "title": "GTA San Andreas на iOS",
+      "subtitle": "Играйте в главную криминальную игру на вашем iPhone и iPad"
+    },
+    "introduction": {
+      "title": "Что такое iOS в GTA San Andreas?",
+      "description": "Когда кто-то говорит iOS в GTA San Andreas, они говорят о мобильной версии игры для Apple. iOS - это операционная система, используемая в iPhone и iPad. Это программное обеспечение, которое запускает приложения, игры и все остальное на устройствах Apple.",
+      "points": [
+        "iOS версия GTA San Andreas - версия игры, созданная для телефонов и планшетов Apple",
+        "Не новая игра, не режим и не читы - та же история на мобильных устройствах",
+        "Одна из самых скачиваемых мобильных игр из классической серии GTA"
+      ]
+    },
+    "history": {
+      "title": "Краткая история GTA San Andreas на iOS",
+      "timeline": [
+        {
+          "year": 2004,
+          "event": "GTA San Andreas была впервые создана для PlayStation 2"
+        },
+        {
+          "year": 2013,
+          "event": "iOS версия выпущена для iPhone и iPad с улучшенной графикой"
+        },
+        {
+          "year": 2025,
+          "event": "Продолжает работать с лучшей стабильностью и поддержкой новых устройств Apple"
+        }
+      ]
+    },
+    "whyConfused": {
+      "title": "Почему так много людей ищут 'Что такое iOS в GTA San Andreas?'",
+      "reasons": [
+        "Новые игроки думают, что iOS - это игровой режим",
+        "Многие видео на YouTube используют термин, не объясняя его",
+        "Молодые игроки, впервые использующие мобильные устройства, могут не знать, что означает iOS",
+        "Игроки сравнивают iOS с Android"
+      ]
+    },
+    "features": {
+      "title": "Как работает GTA San Andreas на iOS",
+      "items": [
+        {
+          "title": "Сенсорное управление",
+          "description": "Поскольку игра находится на сенсорном экране, кнопки появляются на экране. Вы можете нажимать, чтобы бегать, водить, сражаться, стрелять и выполнять миссии. Вы также можете изменить размер и расположение кнопок в настройках."
+        },
+        {
+          "title": "Обновленная графика",
+          "description": "iOS версия имеет лучшие текстуры, лучшее освещение и более плавных персонажей по сравнению со старой версией для PS2. Здания выглядят четче, машины блестят больше, а эффекты воды выглядят лучше."
+        },
+        {
+          "title": "Облачное сохранение",
+          "description": "Это полезная функция для пользователей iOS с несколькими устройствами. Вы можете играть на iPhone, а затем продолжить на iPad через опцию облачного сохранения."
+        },
+        {
+          "title": "Поддержка контроллеров",
+          "description": "Если сенсорное управление сложное, вы можете подключить контроллер Bluetooth, такой как Xbox, PlayStation или контроллер MFi. Это делает геймплей ближе к консольной версии."
+        },
+        {
+          "title": "Поддержка аудио и музыки",
+          "description": "Вы можете слушать внутриигровые радиостанции так же, как в старой версии. iOS также поддерживает вашу собственную музыкальную библиотеку в некоторых обновлениях."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Различия между GTA San Andreas iOS и другими версиями",
+      "sections": [
+        {
+          "name": "iOS vs Android",
+          "items": [
+            {
+              "feature": "Графика",
+              "ios": "Немного лучшие текстуры",
+              "other": "Зависит от устройства"
+            },
+            {
+              "feature": "Производительность",
+              "ios": "Очень плавно на новых устройствах",
+              "other": "Варьируется в зависимости от телефона"
+            },
+            {
+              "feature": "Управление",
+              "ios": "Одинаково на обоих",
+              "other": "Одинаково на обоих"
+            },
+            {
+              "feature": "Цена",
+              "ios": "Обычно одинаковая",
+              "other": "Обычно одинаковая"
+            }
+          ]
+        },
+        {
+          "name": "iOS vs PC",
+          "description": "PC имеет лучшую графику и моды, но iOS портативна и проще играть где угодно."
+        },
+        {
+          "name": "iOS vs PS2",
+          "description": "iOS имеет улучшенное освещение и текстуры, в то время как PS2 имеет оригинальное классическое ощущение."
+        }
+      ]
+    },
+    "whyPopular": {
+      "title": "Почему люди все еще играют в GTA San Andreas на iOS в 2025 году",
+      "reasons": [
+        "Это напоминает людям о детстве",
+        "История все еще интересна - путешествие CJ держит игроков вовлеченными",
+        "Легко скачать - всего несколько нажатий в App Store",
+        "Работает почти на любом современном iPhone или iPad",
+        "Открытый мир никогда не надоедает"
+      ]
+    },
+    "misconceptions": {
+      "title": "Распространенные заблуждения о версии iOS",
+      "items": [
+        {
+          "myth": "iOS имеет специальные миссии",
+          "truth": "Все миссии такие же, как в оригинале"
+        },
+        {
+          "myth": "iOS имеет встроенные читы",
+          "truth": "Читы не встроены, но вы можете использовать приложения для читов или внешние клавиатуры"
+        },
+        {
+          "myth": "iOS онлайн",
+          "truth": "GTA San Andreas iOS работает только офлайн, за исключением облачного сохранения"
+        },
+        {
+          "myth": "iOS имеет лучшую физику",
+          "truth": "Физика похожа, но графика чище"
+        }
+      ]
+    },
+    "installation": {
+      "title": "Как установить GTA San Andreas на iOS",
+      "steps": [
+        "Откройте App Store",
+        "Введите 'GTA San Andreas'",
+        "Проверьте имя разработчика: Rockstar Games",
+        "Купите и загрузите игру",
+        "Дождитесь установки",
+        "Откройте игру и следуйте руководству"
+      ]
+    },
+    "tips": {
+      "title": "Советы по игре в GTA San Andreas на iOS",
+      "items": [
+        "Настройте управление - Увеличьте кнопки, если ваш экран маленький",
+        "Используйте автоприцел - Это упрощает стрельбу на сенсорном экране",
+        "Включайте высокую графику только если ваше устройство поддерживает - Старые iPhone могут тормозить",
+        "Сохраняйтесь часто - Мобильные игры могут закрыться в любой момент",
+        "Используйте контроллер, если возможно - Это упрощает миссии"
+      ]
+    },
+    "features2025": {
+      "title": "Особенности GTA San Andreas iOS в 2025 году",
+      "features": [
+        "Лучшая стабильность",
+        "Обновленная поддержка для новых iPhone",
+        "Улучшенная чувствительность сенсорного экрана",
+        "Лучшие тени",
+        "Более стабильная частота кадров",
+        "Поддержка облачного сохранения",
+        "Поддержка контроллера",
+        "Уменьшенная задержка на старых устройствах"
+      ],
+      "note": "Rockstar не изменила сюжет или содержание миссий, но продолжает улучшать производительность игры."
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы",
+      "data": [
+        {
+          "q": "Получила ли GTA San Andreas новые обновления в 2025 году?",
+          "a": "Да, были выпущены небольшие обновления для улучшения стабильности и лучшей работы игры на новых версиях iOS."
+        },
+        {
+          "q": "Добавила ли Rockstar новые миссии в 2025 году?",
+          "a": "Новые миссии не добавлялись. История остается прежней."
+        },
+        {
+          "q": "Доступна ли GTA San Andreas в App Store в 2025 году?",
+          "a": "Да, игра все еще доступна для загрузки в большинстве регионов."
+        },
+        {
+          "q": "Поддерживает ли iOS версия читы в 2025 году?",
+          "a": "Вы можете использовать читы с внешней клавиатурой или специальными приложениями для читов, но читы не встроены в игру."
+        },
+        {
+          "q": "Работает ли iOS версия 2025 года плавнее старых версий?",
+          "a": "Да, новые устройства запускают игру намного лучше, с меньшим количеством сбоев и более плавным геймплеем."
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "Заключительные мысли",
+      "description": "GTA San Andreas iOS - это просто мобильная версия игры, созданная для iPhone и iPad. У нее те же миссии, та же история и тот же открытый мир, который любят игроки. Будь то выполнение миссий, прогулки по карте или попытки смешных трюков, GTA San Andreas все еще приносит радость миллионам игроков по всему миру. Если вы играете в нее на iOS, вы уже знаете, насколько это может быть весело и ностальгично - как носить маленький кусочек детства в кармане."
+    }
+  },
+  "about": {
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "GTA San Apk is dedicated to providing comprehensive, accurate, and educational information about GTA San Andreas - one of the most iconic gaming franchises of all time. Our mission is to create a trusted resource where gaming enthusiasts can learn about gameplay mechanics, strategies, features, and the rich gaming culture surrounding this legendary title.",
+      "paragraph2": "We believe in transparency, original content, and respect for intellectual property. Every article, guide, and piece of information on our site is crafted with care and integrity."
+    },
+    "whatWeDo": {
+      "title": "What We Offer",
+      "guides": {
+        "title": "Comprehensive Gaming Guides",
+        "description": "Step-by-step guides, walkthroughs, and tutorials to help players navigate the world of GTA San Andreas and maximize their gaming experience."
+      },
+      "strategy": {
+        "title": "Original Strategy Content",
+        "description": "Original gaming strategies, tips, and tricks developed by our gaming enthusiasts to help players overcome challenges and discover secrets."
+      },
+      "information": {
+        "title": "Game Information & Features",
+        "description": "Detailed information about gameplay mechanics, features, vehicles, missions, characters, and everything else related to GTA San Andreas."
+      },
+      "community": {
+        "title": "Community & Discussion",
+        "description": "A space for gaming enthusiasts to learn, share, and discuss their passion for GTA San Andreas and gaming in general."
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "authenticity": {
+        "title": "✓ Authenticity",
+        "description": "We provide original, honest content without misleading claims or exaggerations."
+      },
+      "transparency": {
+        "title": "✓ Transparency",
+        "description": "We are clear about our relationships, data practices, and policies with users."
+      },
+      "respect": {
+        "title": "✓ Respect for IP",
+        "description": "We respect intellectual property rights and acknowledge all sources appropriately."
+      }
+    }
+  },
+  "policies": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information when you visit our website."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "By using our website, you agree to comply with these terms and conditions. Please read them carefully before using our services."
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "description": "We use cookies to enhance your browsing experience. This policy explains what cookies are, how we use them, and your options for managing them."
+    },
+    "acceptable": {
+      "title": "Acceptable Use Policy",
+      "description": "This policy outlines the rules and guidelines for using our website and services responsibly and appropriately."
     }
   },
   "footer": {

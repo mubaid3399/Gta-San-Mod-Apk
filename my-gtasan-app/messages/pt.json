@@ -9,11 +9,13 @@
     "title": "GTA San Apk",
     "subtitle": "Mods Premium",
     "forPC": "Para PC",
+    "forIOS": "For iOS",
     "darkMode": "Escuro",
     "lightMode": "Claro",
     "navigation": {
       "home": "Início",
       "forPC": "Para PC",
+      "forIOS": "For iOS",
       "gtaCheats": "Truques GTA",
       "gtaCars": "Carros GTA"
     }
@@ -2177,6 +2179,264 @@
           "answer": "Alguns códigos podem ser desativados inserindo o código novamente, enquanto outros são permanentes até você carregar um save anterior."
         }
       ]
+    }
+  },
+  "forIOS": {
+    "hero": {
+      "title": "GTA San Andreas no iOS",
+      "subtitle": "Jogue o jogo de crime definitivo no seu iPhone e iPad"
+    },
+    "introduction": {
+      "title": "O que é iOS no GTA San Andreas?",
+      "description": "Quando alguém diz iOS no GTA San Andreas, está falando sobre a versão móvel da Apple do jogo. iOS é o sistema operacional usado em iPhones e iPads. É o software que executa aplicativos, jogos e tudo mais em dispositivos Apple.",
+      "points": [
+        "Versão iOS do GTA San Andreas - a versão do jogo feita para telefones e tablets da Apple",
+        "Não é um jogo novo, não é um modo e não é uma trapaça - a mesma história no celular",
+        "Um dos jogos móveis mais baixados da série clássica do GTA"
+      ]
+    },
+    "history": {
+      "title": "Uma breve história do GTA San Andreas no iOS",
+      "timeline": [
+        {
+          "year": 2004,
+          "event": "GTA San Andreas foi feito pela primeira vez para PlayStation 2"
+        },
+        {
+          "year": 2013,
+          "event": "Versão iOS lançada para iPhones e iPads com gráficos aprimorados"
+        },
+        {
+          "year": 2025,
+          "event": "Continua com melhor estabilidade e suporte para novos dispositivos Apple"
+        }
+      ]
+    },
+    "whyConfused": {
+      "title": "Por que tantas pessoas pesquisam 'O que é iOS no GTA San Andreas?'",
+      "reasons": [
+        "Novos jogadores pensam que iOS é um modo de jogo",
+        "Muitos vídeos do YouTube usam o termo sem explicá-lo",
+        "Jogadores jovens usando celular pela primeira vez podem não saber o que iOS significa",
+        "Jogadores comparam iOS com Android"
+      ]
+    },
+    "features": {
+      "title": "Como o GTA San Andreas funciona no iOS",
+      "items": [
+        {
+          "title": "Controles por toque",
+          "description": "Como o jogo está em uma tela sensível ao toque, botões aparecem na tela. Você pode tocar para correr, dirigir, lutar, atirar e fazer missões. Você também pode alterar o tamanho e o layout dos botões nas configurações."
+        },
+        {
+          "title": "Gráficos atualizados",
+          "description": "A versão iOS tem texturas melhores, iluminação melhor e personagens mais suaves em comparação com a versão antiga do PS2. Os prédios ficam mais nítidos, os carros brilham mais e os efeitos da água ficam melhores."
+        },
+        {
+          "title": "Salvamento na nuvem",
+          "description": "Este é um recurso útil para usuários do iOS com vários dispositivos. Você pode jogar no seu iPhone e depois continuar no seu iPad através da opção de salvamento na nuvem."
+        },
+        {
+          "title": "Suporte a controle",
+          "description": "Se os controles por toque forem difíceis, você pode conectar um controle Bluetooth como Xbox, PlayStation ou controle MFi. Isso faz com que a jogabilidade fique mais próxima da versão do console."
+        },
+        {
+          "title": "Suporte de áudio e música",
+          "description": "Você pode ouvir as estações de rádio do jogo assim como na versão antiga. O iOS também suporta sua própria biblioteca de música em algumas atualizações."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Diferenças entre GTA San Andreas iOS e outras versões",
+      "sections": [
+        {
+          "name": "iOS vs Android",
+          "items": [
+            {
+              "feature": "Gráficos",
+              "ios": "Texturas ligeiramente melhores",
+              "other": "Depende do dispositivo"
+            },
+            {
+              "feature": "Desempenho",
+              "ios": "Muito suave em novos dispositivos",
+              "other": "Varia por telefone"
+            },
+            {
+              "feature": "Controles",
+              "ios": "Igual em ambos",
+              "other": "Igual em ambos"
+            },
+            {
+              "feature": "Preço",
+              "ios": "Geralmente o mesmo",
+              "other": "Geralmente o mesmo"
+            }
+          ]
+        },
+        {
+          "name": "iOS vs PC",
+          "description": "PC tem melhores gráficos e mods, mas iOS é portátil e mais fácil de jogar em qualquer lugar."
+        },
+        {
+          "name": "iOS vs PS2",
+          "description": "iOS tem iluminação e texturas melhoradas, enquanto PS2 tem a sensação clássica original."
+        }
+      ]
+    },
+    "whyPopular": {
+      "title": "Por que as pessoas ainda jogam GTA San Andreas no iOS em 2025",
+      "reasons": [
+        "Lembra as pessoas da infância",
+        "A história ainda é interessante - a jornada de CJ mantém os jogadores engajados",
+        "É fácil de baixar - apenas alguns toques na App Store",
+        "Funciona em quase qualquer iPhone ou iPad moderno",
+        "O mundo aberto nunca fica chato"
+      ]
+    },
+    "misconceptions": {
+      "title": "Mal-entendidos comuns sobre a versão iOS",
+      "items": [
+        {
+          "myth": "iOS tem missões especiais",
+          "truth": "Todas as missões são as mesmas do original"
+        },
+        {
+          "myth": "iOS tem trapaças integradas",
+          "truth": "As trapaças não são integradas, mas você pode usar aplicativos de trapaça ou teclados externos"
+        },
+        {
+          "myth": "iOS é online",
+          "truth": "GTA San Andreas iOS é apenas offline, exceto para salvamento na nuvem"
+        },
+        {
+          "myth": "iOS tem melhor física",
+          "truth": "A física é semelhante, mas os gráficos são mais limpos"
+        }
+      ]
+    },
+    "installation": {
+      "title": "Como instalar GTA San Andreas no iOS",
+      "steps": [
+        "Abra a App Store",
+        "Digite 'GTA San Andreas'",
+        "Verifique o nome do desenvolvedor: Rockstar Games",
+        "Compre e baixe o jogo",
+        "Aguarde a instalação",
+        "Abra o jogo e siga o tutorial"
+      ]
+    },
+    "tips": {
+      "title": "Dicas para jogar GTA San Andreas no iOS",
+      "items": [
+        "Ajuste os controles - Aumente os botões se sua tela for pequena",
+        "Use mira automática - Isso torna atirar mais fácil em uma tela sensível ao toque",
+        "Ative gráficos altos apenas se seu dispositivo suportar - iPhones mais antigos podem ficar lentos",
+        "Salve com frequência - Jogos móveis podem fechar a qualquer momento",
+        "Use um controle se possível - Torna as missões mais fáceis"
+      ]
+    },
+    "features2025": {
+      "title": "Recursos do GTA San Andreas iOS em 2025",
+      "features": [
+        "Melhor estabilidade",
+        "Suporte atualizado para iPhones mais novos",
+        "Sensibilidade da tela sensível ao toque aprimorada",
+        "Melhores sombras",
+        "Taxa de quadros mais estável",
+        "Suporte a salvamento na nuvem",
+        "Suporte a controle",
+        "Latência reduzida em dispositivos mais antigos"
+      ],
+      "note": "A Rockstar não mudou o enredo ou o conteúdo das missões, mas continua melhorando o desempenho do jogo."
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "data": [
+        {
+          "q": "GTA San Andreas recebeu novas atualizações em 2025?",
+          "a": "Sim, pequenas atualizações foram lançadas para melhorar a estabilidade e fazer o jogo funcionar melhor nas novas versões do iOS."
+        },
+        {
+          "q": "A Rockstar adicionou novas missões em 2025?",
+          "a": "Nenhuma nova missão foi adicionada. A história permanece a mesma."
+        },
+        {
+          "q": "GTA San Andreas ainda está disponível na App Store em 2025?",
+          "a": "Sim, o jogo ainda está disponível para download na maioria das regiões."
+        },
+        {
+          "q": "A versão iOS suporta trapaças em 2025?",
+          "a": "Você pode usar trapaças com um teclado externo ou aplicativos de trapaça especiais, mas as trapaças não estão integradas ao jogo."
+        },
+        {
+          "q": "A versão iOS de 2025 é mais suave que as versões anteriores?",
+          "a": "Sim, novos dispositivos executam o jogo muito melhor, com menos travamentos e jogabilidade mais suave."
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "Pensamentos finais",
+      "description": "GTA San Andreas iOS é simplesmente a versão móvel do jogo feita para iPhones e iPads. Tem as mesmas missões, a mesma história e o mesmo mundo aberto que os jogadores adoram. Seja completando missões, vagando pelo mapa ou tentando manobras engraçadas, GTA San Andreas ainda traz alegria a milhões de jogadores em todo o mundo. Se você joga no iOS, você já sabe como pode ser divertido e nostálgico - como carregar um pequeno pedaço da infância no bolso."
+    }
+  },
+  "about": {
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "GTA San Apk is dedicated to providing comprehensive, accurate, and educational information about GTA San Andreas - one of the most iconic gaming franchises of all time. Our mission is to create a trusted resource where gaming enthusiasts can learn about gameplay mechanics, strategies, features, and the rich gaming culture surrounding this legendary title.",
+      "paragraph2": "We believe in transparency, original content, and respect for intellectual property. Every article, guide, and piece of information on our site is crafted with care and integrity."
+    },
+    "whatWeDo": {
+      "title": "What We Offer",
+      "guides": {
+        "title": "Comprehensive Gaming Guides",
+        "description": "Step-by-step guides, walkthroughs, and tutorials to help players navigate the world of GTA San Andreas and maximize their gaming experience."
+      },
+      "strategy": {
+        "title": "Original Strategy Content",
+        "description": "Original gaming strategies, tips, and tricks developed by our gaming enthusiasts to help players overcome challenges and discover secrets."
+      },
+      "information": {
+        "title": "Game Information & Features",
+        "description": "Detailed information about gameplay mechanics, features, vehicles, missions, characters, and everything else related to GTA San Andreas."
+      },
+      "community": {
+        "title": "Community & Discussion",
+        "description": "A space for gaming enthusiasts to learn, share, and discuss their passion for GTA San Andreas and gaming in general."
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "authenticity": {
+        "title": "✓ Authenticity",
+        "description": "We provide original, honest content without misleading claims or exaggerations."
+      },
+      "transparency": {
+        "title": "✓ Transparency",
+        "description": "We are clear about our relationships, data practices, and policies with users."
+      },
+      "respect": {
+        "title": "✓ Respect for IP",
+        "description": "We respect intellectual property rights and acknowledge all sources appropriately."
+      }
+    }
+  },
+  "policies": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information when you visit our website."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "By using our website, you agree to comply with these terms and conditions. Please read them carefully before using our services."
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "description": "We use cookies to enhance your browsing experience. This policy explains what cookies are, how we use them, and your options for managing them."
+    },
+    "acceptable": {
+      "title": "Acceptable Use Policy",
+      "description": "This policy outlines the rules and guidelines for using our website and services responsibly and appropriately."
     }
   },
   "footer": {

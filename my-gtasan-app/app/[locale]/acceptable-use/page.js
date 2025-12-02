@@ -144,7 +144,7 @@ export default function AcceptableUsePolicy() {
             <div className="bg-gray-800 rounded-lg p-6 mt-4">
               <h3 className="text-white font-semibold mb-3">How to Report:</h3>
               <ul className="text-gray-300 space-y-2 ml-4">
-                <li>• <strong>Email:</strong> support@gtasanapk.com (include detailed description and evidence)</li>
+                <li>• <strong>Email:</strong> gta868309@gmail.com (include detailed description and evidence)</li>
                 <li>• <strong>Website:</strong> gtasanandreas.info/contact (use contact form to report)</li>
                 <li>• <strong>DMCA Claims:</strong> Contact support with copyright takedown request</li>
                 <li>• <strong>Response Time:</strong> We investigate reports within 24-48 hours</li>
@@ -241,7 +241,7 @@ export default function AcceptableUsePolicy() {
 
             <h3 className="text-lg font-semibold text-white mt-4 mb-2">To File a DMCA Complaint:</h3>
             <div className="bg-gray-800 rounded-lg p-4 mt-2">
-              <p className="text-gray-300 text-sm">Send an email to <strong>support@gtasanapk.com</strong> with:</p>
+              <p className="text-gray-300 text-sm">Send an email to <strong>gta868309@gmail.com</strong> with:</p>
               <ul className="text-gray-300 text-sm mt-2 ml-4 space-y-1">
                 <li>• Your contact information (name, address, email)</li>
                 <li>• Description of the copyrighted work</li>
@@ -300,7 +300,7 @@ export default function AcceptableUsePolicy() {
             </p>
             <div className="bg-gray-800 rounded-lg p-4 mt-4">
               <p className="text-gray-300">
-                <strong>Email:</strong> support@gtasanapk.com<br/>
+                <strong>Email:</strong> gta868309@gmail.com<br/>
                 <strong>Website:</strong> gtasanandreas.info<br/>
                 <strong>Contact Form:</strong> gtasanandreas.info/contact<br/>
                 <strong>Response Time:</strong> 24-48 hours

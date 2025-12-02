@@ -252,7 +252,7 @@ export default function TermsOfService() {
               Before initiating legal action, you agree to attempt to resolve disputes through:
             </p>
             <ul className="text-gray-300 space-y-2 ml-4 mt-3">
-              <li>• <strong>Informal Resolution:</strong> Contact us at support@gtasanapk.com with your complaint</li>
+              <li>• <strong>Informal Resolution:</strong> Contact us at gta868309@gmail.com with your complaint</li>
               <li>• <strong>Negotiation Period:</strong> Provide us 30 days to respond and work toward resolution</li>
               <li>• <strong>Legal Action:</strong> Only proceed with legal proceedings if informal resolution fails</li>
             </ul>
@@ -291,7 +291,7 @@ export default function TermsOfService() {
             </p>
             <div className="bg-gray-800 rounded-lg p-4 mt-4">
               <p className="text-gray-300">
-                <strong>Email:</strong> support@gtasanapk.com<br/>
+                <strong>Email:</strong> gta868309@gmail.com<br/>
                 <strong>Website:</strong> gtasanandreas.info<br/>
                 <strong>Response Time:</strong> 24-48 hours
               </p>

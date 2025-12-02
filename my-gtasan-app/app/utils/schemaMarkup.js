@@ -12,14 +12,15 @@ export const generateOrganizationSchema = (siteUrl = 'https://gtasanandreas.info
     logo: `${siteUrl}/logo.png`,
     description: 'Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods.',
     sameAs: [
-      'https://www.facebook.com/gtasanandreas',
-      'https://twitter.com/GTASanApk',
-      'https://www.youtube.com/channel/gtasanandreas',
+      'https://www.facebook.com/people/Gta-SanAndreas/pfbid02rnCyLfcbiZZKnrfVB22tGm5CnrQFvri1zRPAFpjcfpy8hpvTZeqCxa2WfCgGhVWCl/',
+      'https://www.pinterest.com/gta868309/',
+      'https://www.instagram.com/gta868309/',
+      'https://www.youtube.com/channel/UCYe8ocBekKxI4S6vRWSdaOQ',
     ],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
-      email: 'support@gtasanandreas.info',
+      email: 'gta868309@gmail.com',
     },
   };
 };
@@ -119,8 +120,10 @@ export const generateLocalBusinessSchema = () => {
     url: 'https://gtasanandreas.info',
     logo: 'https://gtasanandreas.info/logo.png',
     sameAs: [
-      'https://www.facebook.com/gtasanandreas',
-      'https://twitter.com/GTASanApk',
+      'https://www.facebook.com/people/Gta-SanAndreas/pfbid02rnCyLfcbiZZKnrfVB22tGm5CnrQFvri1zRPAFpjcfpy8hpvTZeqCxa2WfCgGhVWCl/',
+      'https://www.pinterest.com/gta868309/',
+      'https://www.instagram.com/gta868309/',
+      'https://www.youtube.com/channel/UCYe8ocBekKxI4S6vRWSdaOQ',
     ],
   };
 };
