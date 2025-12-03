@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
-/* Performance: Enable GPU acceleration */
+/* Force dark mode globally - No light mode support */
 :root {
   color-scheme: dark;
   --webkit-font-smoothing: antialiased;
   --moz-osx-font-smoothing: grayscale;
+  --foreground: #ffffff;
+  --background: #030712;
 }
 
 /* Optimize critical rendering path */
@@ -12,8 +14,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #030712;
-  color: #f3f4f6;
+  background-color: #030712 !important;
+  color: #ffffff !important;
   font-family: system-ui, -apple-system, sans-serif;
   font-display: swap;
   overflow-x: hidden;

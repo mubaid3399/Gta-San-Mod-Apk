@@ -68,13 +68,13 @@ export default function ForPCContent() {
         bgColor="white"
       >
         <div className="space-y-6">
-          <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
+          <p className="text-base sm:text-lg leading-8 text-gray-300">
             {t('whyLoveIt.content.0')}
           </p>
-          <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
+          <p className="text-base sm:text-lg leading-8 text-gray-300">
             {t('whyLoveIt.content.1')}
           </p>
-          <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
+          <p className="text-base sm:text-lg leading-8 text-gray-300">
             {t('whyLoveIt.content.2')}
           </p>
         </div>
@@ -94,11 +94,11 @@ export default function ForPCContent() {
         >
           {Array.isArray(gameplayFeaturesTranslated) && gameplayFeaturesTranslated.map((feature) => (
             <motion.div key={feature.title} variants={staggerItem}>
-              <h3 className="text-xl sm:text-2xl font-bold mb-4 text-gray-900 dark:text-white flex items-center gap-3">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 text-white flex items-center gap-3">
                 <span className="text-2xl">{feature.icon}</span>
                 {feature.title}
               </h3>
-              <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
+              <p className="text-base sm:text-lg leading-8 text-gray-300">
                 {feature.content}
               </p>
             </motion.div>
@@ -121,7 +121,7 @@ export default function ForPCContent() {
         >
           {/* Secret Missions Column */}
           <motion.div variants={staggerItem}>
-            <h3 className="text-xl sm:text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center gap-3">
+            <h3 className="text-xl sm:text-2xl font-bold mb-6 text-white flex items-center gap-3">
               <span className="text-2xl">🕵️</span>
               {tMissions('secretMissionsTitle')}
             </h3>
@@ -139,7 +139,7 @@ export default function ForPCContent() {
 
           {/* Main Missions Column */}
           <motion.div variants={staggerItem}>
-            <h3 className="text-xl sm:text-2xl font-bold mb-6 text-gray-900 dark:text-white flex items-center gap-3">
+            <h3 className="text-xl sm:text-2xl font-bold mb-6 text-white flex items-center gap-3">
               <span className="text-2xl">⭐</span>
               {tMissions('mainMissionsTitle')}
             </h3>
@@ -158,7 +158,7 @@ export default function ForPCContent() {
       </ContentSection>
 
       {/* FAQ Section */}
-      <div className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-900/50 dark:to-[#030712]">
+      <div className="bg-gradient-to-b from-gray-900/50 to-[#030712]">
         <FAQSection faqs={forPCFAQsTranslated} />
       </div>
 

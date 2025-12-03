@@ -4,9 +4,6 @@ const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable React Compiler for automatic memoization
-  reactCompiler: true,
-
   // Image Optimization
   images: {
     formats: ['image/avif', 'image/webp'],
@@ -92,15 +89,6 @@ const nextConfig = {
 
   // Production source maps disabled for smaller bundle
   productionBrowserSourceMaps: false,
-
-  // Swc minification (faster than Terser)
-  swcMinify: true,
-
-  // Enable static exports where possible
-  output: 'standalone',
-
-  // Optimize fonts
-  optimizeFonts: true,
 
   // PoweredBy header disabled
   poweredByHeader: false,

@@ -7,9 +7,11 @@ export default async function LocaleLayout({ children, params }) {
   const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider messages={messages} locale={locale}>
-      <Header />
-      {children}
-    </NextIntlClientProvider>
+    <div style={{ backgroundColor: '#030712' }}>
+      <NextIntlClientProvider messages={messages} locale={locale}>
+        <Header />
+        {children}
+      </NextIntlClientProvider>
+    </div>
   );
 }

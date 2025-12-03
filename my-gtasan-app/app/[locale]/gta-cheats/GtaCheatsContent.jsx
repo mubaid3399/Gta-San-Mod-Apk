@@ -26,12 +26,12 @@ const staggerItem = {
 
 // Reusable Table Component
 const TableComponent = ({ headers, rows, variant = 'default' }) => (
-  <div className="rounded-lg border border-gray-200 dark:border-gray-700 w-full overflow-hidden">
+  <div className="rounded-lg border border-gray-700 w-full overflow-hidden">
     <table className="w-full text-xs sm:text-sm md:text-base">
       <thead>
-        <tr className={variant === 'dark' ? 'bg-gray-900 dark:bg-gray-800' : 'bg-gray-100 dark:bg-gray-800'}>
+        <tr className={variant === 'dark' ? 'bg-gray-900' : 'bg-gray-800'}>
           {headers.map((header) => (
-            <th key={header} className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-gray-900 dark:text-white border-b border-gray-200 dark:border-gray-700 text-xs sm:text-sm md:text-base">
+            <th key={header} className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-white border-b border-gray-700 text-xs sm:text-sm md:text-base">
               {header}
             </th>
           ))}
@@ -39,9 +39,9 @@ const TableComponent = ({ headers, rows, variant = 'default' }) => (
       </thead>
       <tbody>
         {rows.map((row, idx) => (
-          <tr key={idx} className={idx % 2 === 0 ? 'bg-white dark:bg-gray-900/50' : 'bg-gray-50 dark:bg-gray-800/30'}>
+          <tr key={idx} className={idx % 2 === 0 ? 'bg-gray-900/50' : 'bg-gray-800/30'}>
             {Object.values(row).map((cell, cellIdx) => (
-              <td key={cellIdx} className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-700 dark:text-gray-300 border-b border-gray-200 dark:border-gray-700 break-words text-xs sm:text-sm md:text-base">
+              <td key={cellIdx} className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-300 border-b border-gray-700 break-words text-xs sm:text-sm md:text-base">
                 {cell}
               </td>
             ))}
@@ -193,10 +193,10 @@ export default function GtaCheatsContent() {
                 {t('hero.subtitle')}
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4">
-                <span className="bg-white/15 text-white text-sm sm:text-base px-4 py-2 rounded-full border border-white/20 backdrop-blur">
+                <span className="bg-[#030712]/15 text-white text-sm sm:text-base px-4 py-2 rounded-full border border-white/20 backdrop-blur">
                   {t('hero.badge1')}
                 </span>
-                <span className="bg-white/15 text-white text-sm sm:text-base px-4 py-2 rounded-full border border-white/20 backdrop-blur">
+                <span className="bg-[#030712]/15 text-white text-sm sm:text-base px-4 py-2 rounded-full border border-white/20 backdrop-blur">
                   {t('hero.badge2')}
                 </span>
               </div>
@@ -213,11 +213,11 @@ export default function GtaCheatsContent() {
         bgColor="white"
       >
         <div className="space-y-6">
-          <p className="text-base sm:text-lg leading-8 text-gray-700 dark:text-gray-300">
+          <p className="text-base sm:text-lg leading-8 text-gray-300">
             {t('introduction.paragraph')}
           </p>
-          <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4 sm:p-6">
-            <p className="text-sm text-blue-900 dark:text-blue-200">
+          <div className="bg-gray-900/40 border border-gray-700 rounded-lg p-4 sm:p-6">
+            <p className="text-sm text-gray-300">
               💡 <strong>Tip:</strong> {t('introduction.tip')}
             </p>
           </div>
@@ -304,8 +304,8 @@ export default function GtaCheatsContent() {
           headers={[t('weapons.headers.0'), t('weapons.headers.1'), t('weapons.headers.2'), t('weapons.headers.3')]}
           rows={weaponsRows}
         />
-        <div className="mt-6 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded-lg p-4 sm:p-6">
-          <p className="text-sm text-amber-900 dark:text-amber-200">
+        <div className="mt-6 bg-amber-50 border border-amber-200 rounded-lg p-4 sm:p-6">
+          <p className="text-sm text-amber-900">
             💡 <strong>Tip:</strong> {t('weapons.tip')}
           </p>
         </div>
@@ -322,8 +322,8 @@ export default function GtaCheatsContent() {
           headers={[t('vehicles.headers.0'), t('vehicles.headers.1'), t('vehicles.headers.2'), t('vehicles.headers.3')]}
           rows={vehiclesRows}
         />
-        <div className="mt-6 bg-purple-50 dark:bg-purple-950/20 border border-purple-200 dark:border-purple-800 rounded-lg p-4 sm:p-6">
-          <p className="text-sm text-purple-900 dark:text-purple-200">
+        <div className="mt-6 bg-purple-50 border border-purple-200 rounded-lg p-4 sm:p-6">
+          <p className="text-sm text-purple-900">
             🏆 <strong>Fun Fact:</strong> {t('vehicles.fact')}
           </p>
         </div>
@@ -341,7 +341,7 @@ export default function GtaCheatsContent() {
           rows={charactersRows}
         />
         <div className="mt-6 text-center">
-          <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300">
+          <p className="text-base sm:text-lg text-gray-300">
             {t('characters.note')}
           </p>
         </div>
@@ -358,7 +358,7 @@ export default function GtaCheatsContent() {
           rows={gangsRows}
         />
         <div className="mt-6">
-          <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300">
+          <p className="text-base sm:text-lg text-gray-300">
             {t('gangs.note')}
           </p>
         </div>
@@ -374,15 +374,15 @@ export default function GtaCheatsContent() {
           headers={[t('secretLocations.headers.0'), t('secretLocations.headers.1'), t('secretLocations.headers.2')]}
           rows={secretLocationsRows}
         />
-        <div className="mt-6 bg-indigo-50 dark:bg-indigo-950/20 border border-indigo-200 dark:border-indigo-800 rounded-lg p-4 sm:p-6">
-          <p className="text-sm text-indigo-900 dark:text-indigo-200">
+        <div className="mt-6 bg-indigo-50 border border-indigo-200 rounded-lg p-4 sm:p-6">
+          <p className="text-sm text-indigo-900">
             👽 <strong>Fun Note:</strong> {t('secretLocations.note')}
           </p>
         </div>
       </ContentSection>
 
       {/* FAQ Section */}
-      <div className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-900/50 dark:to-[#030712]">
+      <div className="bg-gradient-to-b from-gray-900/50 to-[#030712]">
         <FAQSection faqs={gtaCheatsRFAQs} />
       </div>
 

@@ -20,7 +20,7 @@ export default function HomeContent() {
   const t = useTranslations();
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-[#030712]" style={{ backgroundColor: '#030712' }}>
       {/* Hero Section - After navbar, 60vh height in container with rounded corners */}
       <section className="relative w-full py-8 px-4 sm:px-6 lg:px-8 mt-24">
         <div className="container mx-auto">
@@ -58,11 +58,11 @@ export default function HomeContent() {
       </section>
 
       {/* Content Section */}
-      <section className="relative w-full bg-white dark:bg-[#030712] text-gray-900 dark:text-gray-100 py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative w-full bg-[#030712] text-white py-20 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-4xl">
           {/* Content Title */}
           <div className="mb-12 text-center">
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-gray-900 dark:text-white">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-white">
               {t('content.title')}
             </h1>
             <div className="h-1 w-16 sm:w-24 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] rounded mx-auto mb-8"></div>
@@ -70,13 +70,13 @@ export default function HomeContent() {
 
           {/* Content Paragraphs */}
           <div className="space-y-6">
-            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-700 dark:text-gray-300">
+            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-300">
               {t('content.paragraph1')}
             </p>
-            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-700 dark:text-gray-300">
+            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-300">
               {t('content.paragraph2')}
             </p>
-            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-700 dark:text-gray-300">
+            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-300">
               {t('content.paragraph3')}
             </p>
           </div>

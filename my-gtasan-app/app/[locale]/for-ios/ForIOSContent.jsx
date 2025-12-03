@@ -98,7 +98,7 @@ export default function ForIOSContent() {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="flex gap-4 items-start p-4 rounded-lg bg-white/5 border border-white/10 hover:bg-white/10 transition-all"
+                className="flex gap-4 items-start p-4 rounded-lg bg-[#030712]/5 border border-white/10 hover:bg-[#030712]/10 transition-all"
               >
                 <span className="text-[#00ff87] text-2xl flex-shrink-0">✓</span>
                 <p className="text-gray-300">{point}</p>
@@ -227,7 +227,7 @@ export default function ForIOSContent() {
                     </thead>
                     <tbody>
                       {section.items.map((item, i) => (
-                        <tr key={i} className="border-b border-white/10 hover:bg-white/5 transition-colors">
+                        <tr key={i} className="border-b border-white/10 hover:bg-[#030712]/5 transition-colors">
                           <td className="py-4 px-4 text-white">{item.feature}</td>
                           <td className="py-4 px-4 text-gray-300">{item.ios}</td>
                           <td className="py-4 px-4 text-gray-300">{item.other}</td>
@@ -432,7 +432,7 @@ export default function ForIOSContent() {
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: 'auto' }}
                     exit={{ opacity: 0, height: 0 }}
-                    className="px-6 pb-6 border-t border-white/10 bg-white/5"
+                    className="px-6 pb-6 border-t border-white/10 bg-[#030712]/5"
                   >
                     <p className="text-gray-300 leading-relaxed">{qa.a}</p>
                   </motion.div>

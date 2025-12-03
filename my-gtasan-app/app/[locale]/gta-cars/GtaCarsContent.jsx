@@ -109,10 +109,10 @@ export default function GtaCarsContent() {
                   {t('hero.subtitle')}
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center">
-                  <span className="px-6 py-2 rounded-full bg-gradient-to-r from-[#00ff87] to-[#00a2ff] text-black font-bold">
+                  <span className="px-6 py-2 rounded-full bg-gradient-to-r from-[#00ff87] to-[#00a2ff] text-white font-bold">
                     {t('hero.badge1')}
                   </span>
-                  <span className="px-6 py-2 rounded-full bg-gradient-to-r from-[#00a2ff] to-[#00ff87] text-black font-bold">
+                  <span className="px-6 py-2 rounded-full bg-gradient-to-r from-[#00a2ff] to-[#00ff87] text-white font-bold">
                     {t('hero.badge2')}
                   </span>
                 </div>
@@ -133,7 +133,7 @@ export default function GtaCarsContent() {
       </section>
 
       {/* Introduction Section */}
-      <section className="relative w-full bg-white dark:bg-[#030712] text-gray-900 dark:text-gray-100 py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative w-full bg-[#030712] text-white py-20 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-5xl">
           <motion.div
             variants={staggerContainer}
@@ -147,11 +147,11 @@ export default function GtaCarsContent() {
               <div className="h-1 w-24 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] rounded mx-auto mb-8"></div>
             </motion.div>
 
-            <motion.p variants={staggerItem} className="text-lg leading-8 text-gray-700 dark:text-gray-300">
+            <motion.p variants={staggerItem} className="text-lg leading-8 text-gray-300">
               {t('introduction.paragraph1')}
             </motion.p>
 
-            <motion.p variants={staggerItem} className="text-lg leading-8 text-gray-700 dark:text-gray-300">
+            <motion.p variants={staggerItem} className="text-lg leading-8 text-gray-300">
               {t('introduction.paragraph2')}
             </motion.p>
           </motion.div>
@@ -162,7 +162,7 @@ export default function GtaCarsContent() {
       <CarGallery carImages={carImages} />
 
       {/* Vehicle System Section */}
-      <section className="relative w-full bg-gray-50 dark:bg-gray-900/50 text-gray-900 dark:text-gray-100 py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative w-full bg-gray-900/50 text-white py-20 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-5xl">
           <motion.div
             variants={staggerContainer}
@@ -174,7 +174,7 @@ export default function GtaCarsContent() {
             <motion.h2 variants={staggerItem} className="text-4xl font-bold mb-6">
               {t('vehicleSystem.title')}
             </motion.h2>
-            <motion.p variants={staggerItem} className="text-lg leading-8 text-gray-700 dark:text-gray-300">
+            <motion.p variants={staggerItem} className="text-lg leading-8 text-gray-300">
               {t('vehicleSystem.content')}
             </motion.p>
           </motion.div>
@@ -350,7 +350,7 @@ function VehicleSection({ title, content, bgLight = false, vehicleType = null, t
     : [];
 
   return (
-    <section className={`relative w-full ${bgLight ? 'bg-gray-50 dark:bg-gray-900/50' : 'bg-white dark:bg-[#030712]'} text-gray-900 dark:text-gray-100 py-20 px-4 sm:px-6 lg:px-8`}>
+    <section className={`relative w-full ${bgLight ? 'bg-gray-900/50' : 'bg-[#030712]'} text-white py-20 px-4 sm:px-6 lg:px-8`}>
       <div className="container mx-auto max-w-5xl">
         <motion.div
           variants={staggerContainer}
@@ -363,36 +363,36 @@ function VehicleSection({ title, content, bgLight = false, vehicleType = null, t
             {title}
           </motion.h2>
           <motion.div variants={staggerItem} className="h-1 w-24 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] rounded"></motion.div>
-          <motion.p variants={staggerItem} className="text-lg leading-8 text-gray-700 dark:text-gray-300">
+          <motion.p variants={staggerItem} className="text-lg leading-8 text-gray-300">
             {content}
           </motion.p>
 
           {/* Vehicle Table */}
           {vehicleType && filteredVehicles.length > 0 && (
-            <motion.div variants={staggerItem} className="rounded-xl border border-gray-200 dark:border-white/10 shadow-lg mt-8 w-full overflow-hidden">
+            <motion.div variants={staggerItem} className="rounded-xl border border-white/10 shadow-lg mt-8 w-full overflow-hidden">
               <table className="w-full text-xs sm:text-sm md:text-base">
                 <thead>
-                  <tr className="bg-gradient-to-r from-[#00ff87]/10 to-[#00a2ff]/10 dark:from-[#00ff87]/5 dark:to-[#00a2ff]/5 border-b border-gray-200 dark:border-white/10">
-                    <th className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-gray-900 dark:text-white text-xs sm:text-sm md:text-base">Vehicle Name</th>
-                    <th className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-gray-900 dark:text-white text-xs sm:text-sm md:text-base">Type</th>
-                    <th className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-gray-900 dark:text-white text-xs sm:text-sm md:text-base">Top Speed</th>
-                    <th className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-gray-900 dark:text-white text-xs sm:text-sm md:text-base">Price</th>
+                  <tr className="bg-gradient-to-r from-[#00ff87]/10 to-[#00a2ff]/10 border-b border-white/10">
+                    <th className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-white text-xs sm:text-sm md:text-base">Vehicle Name</th>
+                    <th className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-white text-xs sm:text-sm md:text-base">Type</th>
+                    <th className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-white text-xs sm:text-sm md:text-base">Top Speed</th>
+                    <th className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-left font-semibold text-white text-xs sm:text-sm md:text-base">Price</th>
                   </tr>
                 </thead>
                 <tbody>
                   {filteredVehicles.map((vehicle, index) => (
                     <tr
                       key={index}
-                      className="border-b border-gray-100 dark:border-white/5 hover:bg-gray-100 dark:hover:bg-white/5 transition-colors duration-200"
+                      className="border-b border-gray-100 hover:bg-gray-100 transition-colors duration-200"
                     >
-                      <td className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 font-medium text-gray-900 dark:text-white break-words text-xs sm:text-sm md:text-base">{vehicle.name}</td>
-                      <td className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-700 dark:text-gray-300">
-                        <span className="inline-block px-2 py-1 sm:px-3 sm:py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 text-xs sm:text-xs">
+                      <td className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 font-medium text-white break-words text-xs sm:text-sm md:text-base">{vehicle.name}</td>
+                      <td className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-300">
+                        <span className="inline-block px-2 py-1 sm:px-3 sm:py-1 rounded-full bg-blue-100 text-blue-800 text-xs sm:text-xs">
                           {vehicle.type}
                         </span>
                       </td>
-                      <td className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-700 dark:text-gray-300 font-semibold text-xs sm:text-sm md:text-base">{vehicle.speed}</td>
-                      <td className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-700 dark:text-gray-300 font-semibold text-green-600 dark:text-green-400 text-xs sm:text-sm md:text-base">{vehicle.price}</td>
+                      <td className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-300 font-semibold text-xs sm:text-sm md:text-base">{vehicle.speed}</td>
+                      <td className="px-2 py-2 sm:px-3 sm:py-3 md:px-6 md:py-4 text-gray-300 font-semibold text-green-600 text-xs sm:text-sm md:text-base">{vehicle.price}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -461,7 +461,7 @@ function CarGallery({ carImages }) {
   };
 
   return (
-    <section className="relative w-full bg-white dark:bg-[#030712] text-gray-900 dark:text-gray-100 py-20 px-4 sm:px-6 lg:px-8">
+    <section className="relative w-full bg-[#030712] text-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           variants={staggerContainer}
@@ -497,17 +497,17 @@ function CarGallery({ carImages }) {
 
                     return (
                       <>
-                        <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
+                        <h3 className="text-3xl lg:text-4xl font-bold text-white">
                           {car.displayName}
                         </h3>
-                        <div className="h-1 w-16 bg-linear-to-r from-[#00ff87] to-[#00a2ff] rounded"></div>
+                        <div className="h-1 w-16 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] rounded"></div>
 
                         {/* Vehicle Details */}
                         <div className="space-y-3">
                           {vehicleInfo.type && (
                             <div className="flex items-baseline gap-2">
                               <span className="text-sm font-semibold text-[#00ff87]">Type:</span>
-                              <span className="text-base text-gray-700 dark:text-gray-300">
+                              <span className="text-base text-gray-300">
                                 {vehicleInfo.type}
                               </span>
                             </div>
@@ -516,7 +516,7 @@ function CarGallery({ carImages }) {
                           {vehicleInfo.speed && (
                             <div className="flex items-baseline gap-2">
                               <span className="text-sm font-semibold text-[#00ff87]">Top Speed:</span>
-                              <span className="text-base text-gray-700 dark:text-gray-300">
+                              <span className="text-base text-gray-300">
                                 {vehicleInfo.speed}
                               </span>
                             </div>
@@ -543,7 +543,7 @@ function CarGallery({ carImages }) {
                   transition={{ duration: 0.6 }}
                   className={`group relative overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 ${index % 2 === 1 ? 'lg:order-1' : 'lg:order-2'}`}
                 >
-                  <div className="relative w-full h-80 lg:h-96 bg-gray-200 dark:bg-gray-800">
+                  <div className="relative w-full h-80 lg:h-96 bg-gray-900">
                     <Image
                       src={`/${car.name}`}
                       alt={car.displayName}

@@ -100,7 +100,9 @@ export default async function RootLayout({ children, params }) {
 
   return (
     <html className="dark" lang={locale} suppressHydrationWarning>
-      <body className={`${poppins.variable} antialiased`} suppressHydrationWarning>
+      <head>
+      </head>
+      <body className={`${poppins.variable} antialiased`} suppressHydrationWarning style={{ backgroundColor: '#030712' }}>
         <ClientLayout>
           {children}
         </ClientLayout>
