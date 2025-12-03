@@ -4,8 +4,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
-  // SEO OPTIMIZED SITEMAP - 96+ URLs with keyword targeting
-  // Tier 1: Main Pages (Priority 1.0 - 0.95)
+  // Define all pages with priority and change frequency
+  // Tier 1: Main Pages (Priority 1.0 - 0.9)
   const tier1Pages = [
     { slug: '', priority: 1.0, changefreq: 'weekly' as const }, // Homepage
     { slug: 'gta-san-andreas-mod-apk', priority: 0.95, changefreq: 'weekly' as const },
@@ -150,6 +150,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: 'gta-san-andreas-secrets-and-tips', priority: 0.80, changefreq: 'monthly' as const },
   ];
 
+  // Static Legal Pages (Priority 0.6)
+  const staticPages = [
+    { slug: 'privacy-policy', priority: 0.6, changefreq: 'monthly' as const },
+    { slug: 'terms-of-service', priority: 0.6, changefreq: 'monthly' as const },
+    { slug: 'cookie-policy', priority: 0.6, changefreq: 'monthly' as const },
+    { slug: 'acceptable-use', priority: 0.6, changefreq: 'monthly' as const },
+    { slug: 'about', priority: 0.75, changefreq: 'monthly' as const },
+    { slug: 'contact', priority: 0.75, changefreq: 'monthly' as const },
+    { slug: 'community', priority: 0.65, changefreq: 'monthly' as const },
+  ];
+
   // Combine all pages
   const allPages = [
     ...tier1Pages,
@@ -166,16 +177,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...weaponsPages,
     ...faqPages,
     ...featuresPages,
-  ];
-
-  // Static Legal Pages (Priority 0.6 - 0.75)
-  const staticPages = [
-    { slug: 'privacy-policy', priority: 0.6, changefreq: 'monthly' as const },
-    { slug: 'terms-of-service', priority: 0.6, changefreq: 'monthly' as const },
-    { slug: 'cookie-policy', priority: 0.6, changefreq: 'monthly' as const },
-    { slug: 'acceptable-use', priority: 0.6, changefreq: 'monthly' as const },
-    { slug: 'about', priority: 0.75, changefreq: 'monthly' as const },
-    { slug: 'contact', priority: 0.75, changefreq: 'monthly' as const },
   ];
 
   const sitemapEntries: MetadataRoute.Sitemap = [];
@@ -201,7 +202,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  // Add static pages (not localized)
+  // Add static pages (not localized - English only)
   staticPages.forEach((page) => {
     sitemapEntries.push({
       url: `${baseUrl}/${page.slug}`,
