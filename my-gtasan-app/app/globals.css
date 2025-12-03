@@ -3,10 +3,17 @@
 /* Force dark mode globally - No light mode support */
 :root {
   color-scheme: dark;
-  --webkit-font-smoothing: antialiased;
-  --moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   --foreground: #ffffff;
   --background: #030712;
+}
+
+/* Preload critical fonts */
+@font-face {
+  font-family: 'Poppins';
+  font-display: swap;
+  src: local('Poppins');
 }
 
 /* Optimize critical rendering path */

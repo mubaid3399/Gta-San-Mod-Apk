@@ -4,8 +4,10 @@ import ClientLayout from "./ClientLayout";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "600", "700"], // Remove unused weights: 300, 500
   variable: "--font-poppins",
+  preload: true,
+  display: "swap",
 });
 
 export const metadata = {
@@ -101,6 +103,10 @@ export default async function RootLayout({ children, params }) {
   return (
     <html className="dark" lang={locale} suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
       </head>
       <body className={`${poppins.variable} antialiased`} suppressHydrationWarning style={{ backgroundColor: '#030712' }}>
         <ClientLayout>

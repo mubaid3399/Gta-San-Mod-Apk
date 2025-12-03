@@ -15,7 +15,7 @@ const nextConfig = {
     unoptimized: false,
   },
 
-  // Compression
+  // Aggressive Compression
   compress: true,
 
   // Powering dynamic imports for code splitting
@@ -24,6 +24,10 @@ const nextConfig = {
     optimizePackageImports: [
       '@fortawesome/react-fontawesome',
       'framer-motion',
+      '@react-three/fiber',
+      '@react-three/drei',
+      'lottie-react',
+      'aos',
     ],
   },
 
@@ -36,6 +40,45 @@ const nextConfig = {
           {
             key: 'Cache-Control',
             value: 'public, max-age=31536000, immutable',
+          },
+          {
+            key: 'Content-Encoding',
+            value: 'gzip',
+          },
+        ],
+      },
+      {
+        source: '/public/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/:path*.(jpg|jpeg|png|gif|webp|avif)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+          {
+            key: 'Content-Type',
+            value: 'image/:ext',
+          },
+        ],
+      },
+      {
+        source: '/:path*.(woff|woff2|ttf|eot)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+          {
+            key: 'Content-Type',
+            value: 'font/:ext',
           },
         ],
       },

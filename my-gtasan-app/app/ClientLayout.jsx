@@ -5,28 +5,29 @@ import ScrollToTopButton from './components/ScrollToTopButton';
 
 export default function ClientLayout({ children }) {
  useEffect(() => {
- // Google Analytics 4 Tracking
- const initGoogleAnalytics = () => {
- // Replace 'G-XXXXXXXXXX' with your actual Google Analytics 4 property ID
- const GA_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-XXXXXXXXXX';
+ // Defer GA loading to after page interactive (LCP not affected)
+ if (document.readyState === 'complete') {
+ initGoogleAnalytics();
+ } else {
+ window.addEventListener('load', initGoogleAnalytics, { once: true });
+ }
+ }, []);
 
- // Create script element
+ const initGoogleAnalytics = () => {
+ const GA_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-XXXXXXXXXX';
  const script = document.createElement('script');
  script.async = true;
+ script.defer = true;
  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
  document.head.appendChild(script);
 
- // Initialize gtag
  window.dataLayer = window.dataLayer || [];
- function gtag() {
+ window.gtag = function() {
  window.dataLayer.push(arguments);
- }
- gtag('js', new Date());
- gtag('config', GA_ID);
  };
-
- initGoogleAnalytics();
- }, []);
+ window.gtag('js', new Date());
+ window.gtag('config', GA_ID);
+ };
 
  return (
  <>
