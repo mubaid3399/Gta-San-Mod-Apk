@@ -109,6 +109,9 @@ export default async function RootLayout({ children, params }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        {/* Google AdSense */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6276217203648123"
+                crossOrigin="anonymous"></script>
       </head>
       <body className={`${poppins.variable} antialiased`} suppressHydrationWarning style={{ backgroundColor: '#030712' }}>
         <ClientLayout>
