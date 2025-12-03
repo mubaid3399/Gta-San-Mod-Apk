@@ -77,23 +77,35 @@ export default function GtaCheatsPage({ params }) {
   const faqItems = [
     {
       question: 'What are GTA San Andreas cheats?',
-      answer: 'GTA San Andreas cheats are special codes that unlock features like unlimited money, weapons, vehicles, and other gameplay modifications. You can enter these codes while playing to activate different effects.',
+      answer: 'GTA San Andreas cheats are special codes that unlock features like unlimited money, weapons, vehicles, and other gameplay modifications. You can enter these codes while playing to activate different effects. Our complete cheat list includes 50+ working codes for every platform.',
     },
     {
       question: 'How do I enter cheats in GTA San Andreas?',
-      answer: 'On PC, press Enter to open the cheat console and type the cheat code. On consoles (PS2, Xbox), you cannot activate the cheat menu visibly, but the codes will work if entered correctly. You must enter cheats during gameplay.',
+      answer: 'On PC, press Enter to open the cheat console and type the cheat code. On consoles (PS2, Xbox), you cannot activate the cheat menu visibly, but the codes will work if entered correctly. For mobile devices, check our platform-specific guides for iOS and Android installation instructions.',
     },
     {
       question: 'Do cheats disable achievements or trophies?',
-      answer: 'Yes, using cheats will prevent you from earning achievements or trophies on most platforms. Save your game before using cheats if you want to preserve your achievement progress.',
+      answer: 'Yes, using cheats will prevent you from earning achievements or trophies on most platforms. Save your game before using cheats if you want to preserve your achievement progress. Consider using cheats only after completing missions.',
     },
     {
       question: 'Can I use cheats in multiplayer?',
-      answer: 'No, cheats only work in single-player mode. Multiplayer games have anti-cheat systems that prevent cheat codes from functioning.',
+      answer: 'No, cheats only work in single-player mode. Multiplayer games have anti-cheat systems that prevent cheat codes from functioning. Focus on legitimate gameplay progression for multiplayer modes.',
     },
     {
       question: 'Are cheats available in GTA San Andreas MOD APK?',
-      answer: 'Yes, the MOD APK version includes many cheats already unlocked and activated by default, providing an enhanced gameplay experience with unlimited money and features.',
+      answer: 'Yes, the MOD APK version includes many cheats already unlocked and activated by default, providing an enhanced gameplay experience with unlimited money and features. See our iOS and Android installation guides for setup instructions.',
+    },
+    {
+      question: 'Which cheats make the most money fastest?',
+      answer: 'The money cheat codes instantly add large sums, but for sustainable income, check our money-making guide which covers legitimate methods like burglary, store robbery, ATM robbery, and property income. These methods can earn $1000+ per hour without affecting achievements.',
+    },
+    {
+      question: 'Can I use cheat codes on mobile (iOS/Android)?',
+      answer: 'Yes, cheats work on mobile versions. However, the input method differs from PC. Our iOS and Android installation guides include specific instructions for entering cheat codes on mobile devices, including on-screen keyboard methods.',
+    },
+    {
+      question: 'What\'s the best way to use cheats without ruining gameplay?',
+      answer: 'Use cheats strategically: enable specific features (weapons/vehicles) rather than unlimited money to maintain challenge. Complete missions first, then use cheats to explore. Save regularly and experiment in separate save files. This approach keeps the game enjoyable while maximizing fun.',
     },
   ];
 
