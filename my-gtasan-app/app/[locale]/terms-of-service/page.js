@@ -1,4 +1,68 @@
-'use client';
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/terms-of-service' : `/${locale}/terms-of-service`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/terms-of-service' : `/${lang}/terms-of-service`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'Terms of Service - GTA San Andreas Mod APK',
+    de: 'Nutzungsbedingungen - GTA San Andreas Mod APK',
+    fr: 'Conditions d\'Utilisation - GTA San Andreas Mod APK',
+    it: 'Termini di Servizio - GTA San Andreas Mod APK',
+    es: 'Términos de Servicio - GTA San Andreas Mod APK',
+    pt: 'Termos de Serviço - GTA San Andreas Mod APK',
+    ru: 'Условия использования - GTA San Andreas Mod APK',
+    ja: '利用規約 - GTA San Andreas Mod APK'
+  };
+
+  const descriptions = {
+    en: 'Read our terms of service. Understand the rules and conditions for using GTA San Andreas Mod APK website.',
+    de: 'Lesen Sie unsere Nutzungsbedingungen. Verstehen Sie die Regeln für die Nutzung unserer Website.',
+    fr: 'Lisez nos conditions d\'utilisation. Comprenez les règles d\'utilisation de notre site Web.',
+    it: 'Leggi i nostri termini di servizio. Comprendi le regole per l\'utilizzo del nostro sito web.',
+    es: 'Lee nuestros términos de servicio. Comprende las reglas para usar nuestro sitio web.',
+    pt: 'Leia nossos termos de serviço. Entenda as regras para usar nosso site.',
+    ru: 'Прочитайте наши условия использования. Поймите правила использования нашего сайта.',
+    ja: '利用規約をお読みください。当社のウェブサイトの使用ルールを理解してください。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
 
 import { useTranslations } from 'next-intl';
 

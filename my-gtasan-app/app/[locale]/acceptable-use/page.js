@@ -1,6 +1,71 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
+
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/acceptable-use' : `/${locale}/acceptable-use`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/acceptable-use' : `/${lang}/acceptable-use`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'Acceptable Use Policy - GTA San Andreas Mod APK',
+    de: 'Akzeptable Nutzungsrichtlinie - GTA San Andreas Mod APK',
+    fr: 'Politique d\'Utilisation Acceptable - GTA San Andreas Mod APK',
+    it: 'Politica di Utilizzo Accettabile - GTA San Andreas Mod APK',
+    es: 'Política de Uso Aceptable - GTA San Andreas Mod APK',
+    pt: 'Política de Uso Aceitável - GTA San Andreas Mod APK',
+    ru: 'Политика приемлемого использования - GTA San Andreas Mod APK',
+    ja: '利用規約 - GTA San Andreas Mod APK'
+  };
+
+  const descriptions = {
+    en: 'Review our acceptable use policy for GTA San Andreas Mod APK. Understand terms of service and user conduct guidelines.',
+    de: 'Überprüfen Sie unsere Richtlinie für akzeptable Nutzung. Verstehen Sie die Nutzungsbedingungen und Richtlinien für Benutzerverhalten.',
+    fr: 'Examinez notre politique d\'utilisation acceptable. Comprenez les conditions de service et les directives de conduite des utilisateurs.',
+    it: 'Esamina la nostra politica di utilizzo accettabile. Comprendi i termini di servizio e le linee guida sulla condotta degli utenti.',
+    es: 'Revisa nuestra política de uso aceptable. Comprende los términos de servicio y las directrices de conducta del usuario.',
+    pt: 'Revise nossa política de uso aceitável. Entenda os termos de serviço e as diretrizes de conduta do usuário.',
+    ru: 'Ознакомьтесь с нашей политикой приемлемого использования. Поймите условия обслуживания и правила поведения пользователей.',
+    ja: '利用規約を確認してください。サービス条件とユーザー行為ガイドラインを理解してください。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
 
 export default function AcceptableUsePolicy() {
   const t = useTranslations();

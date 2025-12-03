@@ -50,7 +50,9 @@
       "Bash(fi)",
       "Bash(tree:*)",
       "Bash(grep:*)",
-      "Bash(xargs cat:*)"
+      "Bash(xargs cat:*)",
+      "Bash(for file in app/[locale]/{acceptable-use,community,contact}/page.js)",
+      "Bash(do sed -i \"1s/^''use client'';\\n\\n//g\" \"$file\")"
     ],
     "deny": [],
     "ask": []

@@ -1,6 +1,69 @@
-'use client';
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
-import { useState } from 'react';
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/is-safe-to-download' : `/${locale}/is-safe-to-download`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/is-safe-to-download' : `/${lang}/is-safe-to-download`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'Is GTA San Andreas Mod APK Safe to Download? - Security Analysis',
+    de: 'Ist GTA San Andreas Mod APK sicher zum Herunterladen? - Sicherheitsanalyse',
+    fr: 'Est-il sûr de télécharger GTA San Andreas Mod APK? - Analyse de sécurité',
+    it: 'È Sicuro Scaricare GTA San Andreas Mod APK? - Analisi della Sicurezza',
+    es: '¿Es Seguro Descargar GTA San Andreas Mod APK? - Análisis de Seguridad',
+    pt: 'É Seguro Baixar GTA San Andreas Mod APK? - Análise de Segurança',
+    ru: 'Безопасно ли скачивать GTA San Andreas Mod APK? - Анализ безопасности',
+    ja: 'GTA San Andreas Mod APK をダウンロードしても安全ですか？- セキュリティ分析'
+  };
+
+  const descriptions = {
+    en: 'Is GTA San Andreas Mod APK safe? Learn about security, risks, and precautions. Find verified sources and stay protected.',
+    de: 'Ist GTA San Andreas Mod APK sicher? Erfahren Sie mehr über Sicherheit, Risiken und Vorsichtsmaßnahmen.',
+    fr: 'GTA San Andreas Mod APK est-il sûr? Découvrez la sécurité, les risques et les précautions à prendre.',
+    it: 'È GTA San Andreas Mod APK sicuro? Scopri sicurezza, rischi e precauzioni. Trova fonti verificate.',
+    es: '¿Es GTA San Andreas Mod APK seguro? Aprende sobre seguridad, riesgos y precauciones. Encuentra fuentes verificadas.',
+    pt: 'GTA San Andreas Mod APK é seguro? Saiba mais sobre segurança, riscos e precauções.',
+    ru: 'Безопасен ли GTA San Andreas Mod APK? Узнайте о безопасности, рисках и мерах предосторожности.',
+    ja: 'GTA San Andreas Mod APK は安全ですか？セキュリティ、リスク、予防策について学びます。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
+
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {

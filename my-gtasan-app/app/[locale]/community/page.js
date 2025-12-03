@@ -1,7 +1,72 @@
-'use client';
-
-import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { getTranslations } from 'next-intl/server';
+
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/community' : `/${locale}/community`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/community' : `/${lang}/community`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'GTA San Andreas Gaming Community - Connect With Players',
+    de: 'GTA San Andreas Gaming-Gemeinschaft - Verbinden Sie sich mit Spielern',
+    fr: 'Communauté de Jeu GTA San Andreas - Connectez-vous avec d\'autres Joueurs',
+    it: 'Comunità di Gioco GTA San Andreas - Connettiti con i Giocatori',
+    es: 'Comunidad de Juegos GTA San Andreas - Conecta con Jugadores',
+    pt: 'Comunidade de Jogos GTA San Andreas - Conecte-se com Jogadores',
+    ru: 'Игровое сообщество GTA San Andreas - Подключитесь к игрокам',
+    ja: 'GTA San Andreas ゲーミング コミュニティ - プレイヤーと繋がる'
+  };
+
+  const descriptions = {
+    en: 'Join the GTA San Andreas community. Connect with players, share tips, discuss mods, and participate in gaming discussions.',
+    de: 'Treten Sie der GTA San Andreas-Gemeinschaft bei. Verbinden Sie sich mit Spielern, teilen Sie Tipps und diskutieren Sie Mods.',
+    fr: 'Rejoignez la communauté GTA San Andreas. Connectez-vous avec d\'autres joueurs, partagez des conseils et discutez des mods.',
+    it: 'Unisciti alla comunità GTA San Andreas. Connettiti con i giocatori, condividi suggerimenti e discuti di mod.',
+    es: 'Únete a la comunidad GTA San Andreas. Conecta con jugadores, comparte consejos y discute sobre mods.',
+    pt: 'Junte-se à comunidade GTA San Andreas. Conecte-se com jogadores, compartilhe dicas e discuta mods.',
+    ru: 'Присоединитесь к сообществу GTA San Andreas. Подключитесь к игрокам, делитесь советами и обсуждайте моды.',
+    ja: 'GTA San Andreas コミュニティに参加してください。プレイヤーと繋がり、ヒントを共有し、モッドについて議論してください。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
+
 import {
   faUsers,
   faHeart,
@@ -14,8 +79,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Community() {
-  const [expandedSection, setExpandedSection] = useState(null);
-
+  
   const communitySpots = [
     {
       icon: faComments,

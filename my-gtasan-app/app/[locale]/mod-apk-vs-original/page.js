@@ -1,6 +1,69 @@
-'use client';
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
-import { useState } from 'react';
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/mod-apk-vs-original' : `/${locale}/mod-apk-vs-original`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/mod-apk-vs-original' : `/${lang}/mod-apk-vs-original`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'GTA San Andreas Mod APK vs Original - Complete Comparison',
+    de: 'GTA San Andreas Mod APK vs Original - Vollständiger Vergleich',
+    fr: 'GTA San Andreas Mod APK vs Original - Comparaison Complète',
+    it: 'GTA San Andreas Mod APK vs Original - Confronto Completo',
+    es: 'GTA San Andreas Mod APK vs Original - Comparación Completa',
+    pt: 'GTA San Andreas Mod APK vs Original - Comparação Completa',
+    ru: 'GTA San Andreas Mod APK vs Original - Полное сравнение',
+    ja: 'GTA San Andreas Mod APK vs Original - 完全な比較'
+  };
+
+  const descriptions = {
+    en: 'Compare GTA San Andreas Mod APK with the original game. Learn differences, features, pros & cons in detail.',
+    de: 'Vergleichen Sie GTA San Andreas Mod APK mit dem Originalspiel. Lernen Sie Unterschiede und Funktionen kennen.',
+    fr: 'Comparez GTA San Andreas Mod APK avec le jeu original. Apprenez les différences et les fonctionnalités.',
+    it: 'Confronta GTA San Andreas Mod APK con il gioco originale. Scopri le differenze e le funzionalità.',
+    es: 'Compara GTA San Andreas Mod APK con el juego original. Aprende las diferencias y características.',
+    pt: 'Compare GTA San Andreas Mod APK com o jogo original. Aprenda as diferenças e características.',
+    ru: 'Сравните GTA San Andreas Mod APK с оригинальной игрой. Узнайте различия и функции.',
+    ja: 'GTA San Andreas Mod APK をオリジナル ゲームと比較してください。違いと機能を学びます。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faTimes, faGamepad, faStar } from '@fortawesome/free-solid-svg-icons';
 

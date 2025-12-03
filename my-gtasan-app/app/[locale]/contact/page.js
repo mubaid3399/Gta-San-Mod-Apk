@@ -1,19 +1,76 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt, faClock } from '@fortawesome/free-solid-svg-icons';
 
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/contact' : `/${locale}/contact`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/contact' : `/${lang}/contact`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'Contact Us - GTA San Andreas Mod APK Support',
+    de: 'Kontaktieren Sie Uns - GTA San Andreas Mod APK Unterstützung',
+    fr: 'Nous Contacter - Support GTA San Andreas Mod APK',
+    it: 'Contattaci - Supporto GTA San Andreas Mod APK',
+    es: 'Contáctenos - Soporte GTA San Andreas Mod APK',
+    pt: 'Entre em Contato - Suporte GTA San Andreas Mod APK',
+    ru: 'Свяжитесь с нами - Поддержка GTA San Andreas Mod APK',
+    ja: 'お問い合わせ - GTA San Andreas Mod APK サポート'
+  };
+
+  const descriptions = {
+    en: 'Contact GTA San Andreas Mod APK support. Have questions or need help? Reach out to our team for assistance.',
+    de: 'Kontaktieren Sie unseren GTA San Andreas Mod APK Support. Haben Sie Fragen? Wenden Sie sich an unser Team.',
+    fr: 'Contactez le support GTA San Andreas Mod APK. Des questions? Veuillez nous contacter pour obtenir de l\'aide.',
+    it: 'Contatta il supporto GTA San Andreas Mod APK. Hai domande? Rivolgiti al nostro team per assistenza.',
+    es: 'Contacta al soporte de GTA San Andreas Mod APK. ¿Tienes preguntas? Comunícate con nuestro equipo.',
+    pt: 'Entre em contato com o suporte de GTA San Andreas Mod APK. Tem dúvidas? Converse com nosso time.',
+    ru: 'Свяжитесь с поддержкой GTA San Andreas Mod APK. Есть вопросы? Обратитесь к нашей команде.',
+    ja: 'GTA San Andreas Mod APK サポートにお問い合わせください。ご質問がありますか？当社のチームにお問い合わせください。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
+
 export default function Contact() {
   const t = useTranslations();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({

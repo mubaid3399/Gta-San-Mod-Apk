@@ -1,4 +1,68 @@
-'use client';
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/cookie-policy' : `/${locale}/cookie-policy`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/cookie-policy' : `/${lang}/cookie-policy`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'Cookie Policy - GTA San Andreas Mod APK',
+    de: 'Cookie-Richtlinie - GTA San Andreas Mod APK',
+    fr: 'Politique relative aux Cookies - GTA San Andreas Mod APK',
+    it: 'Politica sui Cookie - GTA San Andreas Mod APK',
+    es: 'Política de Cookies - GTA San Andreas Mod APK',
+    pt: 'Política de Cookies - GTA San Andreas Mod APK',
+    ru: 'Политика в отношении файлов cookie - GTA San Andreas Mod APK',
+    ja: 'クッキーポリシー - GTA San Andreas Mod APK'
+  };
+
+  const descriptions = {
+    en: 'Learn about our cookie policy. Understand how we use cookies to improve your experience on GTA San Andreas Mod APK.',
+    de: 'Erfahren Sie mehr über unsere Cookie-Richtlinie. Verstehen Sie, wie wir Cookies verwenden, um Ihr Erlebnis zu verbessern.',
+    fr: 'Découvrez notre politique relative aux cookies. Comprenez comment nous utilisons les cookies pour améliorer votre expérience.',
+    it: 'Scopri la nostra politica sui cookie. Capire come utilizziamo i cookie per migliorare la tua esperienza.',
+    es: 'Aprende sobre nuestra política de cookies. Comprende cómo utilizamos las cookies para mejorar tu experiencia.',
+    pt: 'Saiba mais sobre nossa política de cookies. Entenda como usamos cookies para melhorar sua experiência.',
+    ru: 'Узнайте о нашей политике в отношении файлов cookie. Поймите, как мы используем файлы cookie для улучшения вашего опыта.',
+    ja: 'クッキーポリシーについて学びましょう。エクスペリエンス向上のためにクッキーをどう使うかを理解してください。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
 
 import { useTranslations } from 'next-intl';
 

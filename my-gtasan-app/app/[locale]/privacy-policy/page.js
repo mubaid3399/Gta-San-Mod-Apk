@@ -1,4 +1,68 @@
-'use client';
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/privacy-policy' : `/${locale}/privacy-policy`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/privacy-policy' : `/${lang}/privacy-policy`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'Privacy Policy - GTA San Andreas Mod APK',
+    de: 'Datenschutzrichtlinie - GTA San Andreas Mod APK',
+    fr: 'Politique de Confidentialité - GTA San Andreas Mod APK',
+    it: 'Politica sulla Privacy - GTA San Andreas Mod APK',
+    es: 'Política de Privacidad - GTA San Andreas Mod APK',
+    pt: 'Política de Privacidade - GTA San Andreas Mod APK',
+    ru: 'Политика конфиденциальности - GTA San Andreas Mod APK',
+    ja: 'プライバシーポリシー - GTA San Andreas Mod APK'
+  };
+
+  const descriptions = {
+    en: 'Review our privacy policy. Learn how we collect, use, and protect your personal information on GTA San Andreas Mod APK.',
+    de: 'Überprüfen Sie unsere Datenschutzrichtlinie. Erfahren Sie, wie wir Ihre Daten schützen.',
+    fr: 'Examinez notre politique de confidentialité. Découvrez comment nous protégeons vos données.',
+    it: 'Esamina la nostra politica sulla privacy. Scopri come proteggiamo i tuoi dati.',
+    es: 'Revisa nuestra política de privacidad. Aprende cómo protegemos tus datos.',
+    pt: 'Revise nossa política de privacidade. Saiba como protegemos seus dados.',
+    ru: 'Ознакомьтесь с нашей политикой конфиденциальности. Узнайте, как мы защищаем ваши данные.',
+    ja: 'プライバシーポリシーを確認してください。個人情報の保護方法を学ぶ。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
