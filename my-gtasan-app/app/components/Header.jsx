@@ -210,17 +210,17 @@ function Header() {
  >
  {/* Animated hamburger to X */}
  <span
- className={`w-6 h-0.5 rounded-full transition-all duration-300 transform origin-center bg-[#030712] ${
+ className={`w-6 h-0.5 rounded-full transition-all duration-300 transform origin-center bg-white ${
  isMenuOpen ? 'rotate-45 translate-y-2.5' : ''
  }`}
  ></span>
  <span
- className={`w-6 h-0.5 rounded-full transition-all duration-300 bg-[#030712] ${
+ className={`w-6 h-0.5 rounded-full transition-all duration-300 bg-white ${
  isMenuOpen ? 'opacity-0' : 'opacity-100'
  }`}
  ></span>
  <span
- className={`w-6 h-0.5 rounded-full transition-all duration-300 transform origin-center bg-[#030712] ${
+ className={`w-6 h-0.5 rounded-full transition-all duration-300 transform origin-center bg-white ${
  isMenuOpen ? '-rotate-45 -translate-y-2.5' : ''
  }`}
  ></span>
