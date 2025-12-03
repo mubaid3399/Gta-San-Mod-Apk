@@ -48,7 +48,9 @@
       "Bash(echo:*)",
       "Bash(else)",
       "Bash(fi)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(grep:*)",
+      "Bash(xargs cat:*)"
     ],
     "deny": [],
     "ask": []

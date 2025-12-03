@@ -1,10 +1,72 @@
-'use client';
+import { getTranslations } from 'next-intl/server';
 
-import { useTranslations } from 'next-intl';
+const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+
+export async function generateMetadata({ params }) {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const locale = params?.locale || 'en';
+  const path = locale === 'en' ? '/about' : `/${locale}/about`;
+
+  const languages = supportedLocales.reduce((acc, lang) => {
+    const localizedPath = lang === 'en' ? '/about' : `/${lang}/about`;
+    acc[lang] = `${base}${localizedPath}`;
+    return acc;
+  }, {});
+
+  const titles = {
+    en: 'About GTA San Andreas Mod APK - Who We Are & Our Mission',
+    de: 'Über GTA San Andreas Mod APK - Wer wir sind und unsere Mission',
+    fr: 'À Propos de GTA San Andreas Mod APK - Qui nous sommes et notre mission',
+    it: 'Chi Siamo - GTA San Andreas Mod APK - La Nostra Missione',
+    es: 'Acerca de GTA San Andreas Mod APK - Quiénes Somos y Nuestra Misión',
+    pt: 'Sobre GTA San Andreas Mod APK - Quem Somos e Nossa Missão',
+    ru: 'О GTA San Andreas Mod APK - Кто мы и наша миссия',
+    ja: 'GTA San Andreas Mod APKについて - 私たちについてと使命'
+  };
+
+  const descriptions = {
+    en: 'Learn about GTA San Andreas Mod APK. Discover our mission to provide safe, verified gaming content and resources for players worldwide.',
+    de: 'Erfahren Sie mehr über GTA San Andreas Mod APK. Entdecken Sie unsere Mission, sichere, verifizierte Gaming-Inhalte bereitzustellen.',
+    fr: 'Découvrez GTA San Andreas Mod APK. Explorez notre mission de fournir du contenu de jeu sûr et vérifié aux joueurs du monde entier.',
+    it: 'Scopri GTA San Andreas Mod APK. Scopri la nostra missione di fornire contenuti di gioco sicuri e verificati ai giocatori di tutto il mondo.',
+    es: 'Aprende sobre GTA San Andreas Mod APK. Descubre nuestra misión de proporcionar contenido de juegos seguro y verificado a jugadores de todo el mundo.',
+    pt: 'Saiba mais sobre GTA San Andreas Mod APK. Descubra nossa missão de fornecer conteúdo de jogos seguro e verificado para jogadores em todo o mundo.',
+    ru: 'Узнайте о GTA San Andreas Mod APK. Откройте для себя нашу миссию по предоставлению безопасного, проверенного игрового контента.',
+    ja: 'GTA San Andreas Mod APKについて詳しく知る。世界中のプレイヤーに安全で検証済みのゲーム コンテンツを提供するという当社の使命を発見してください。'
+  };
+
+  const title = titles[locale] || titles['en'];
+  const description = descriptions[locale] || descriptions['en'];
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${base}${path}`,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${base}${path}`,
+      images: [
+        {
+          url: `${base}/heroimage2.png`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      card: 'summary_large_image',
+      images: [`${base}/heroimage2.png`],
+    },
+  };
+}
 
 export default function About() {
-  const t = useTranslations();
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
       {/* Header Section */}
