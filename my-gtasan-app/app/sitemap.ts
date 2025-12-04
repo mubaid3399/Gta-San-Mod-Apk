@@ -1,60 +1,142 @@
 import { MetadataRoute } from 'next';
+import { defaultLocale, locales } from '@/i18n.config';
+
+// Define all static routes relative to each locale
+const staticRoutes = [
+  '',
+  '/about',
+  '/acceptable-use',
+  '/community',
+  '/contact',
+  '/cookie-policy',
+  '/faq',
+  '/for-ios',
+  '/for-pc',
+  '/gta-cars',
+  '/gta-cheats',
+  '/how-to-install',
+  '/is-safe-to-download',
+  '/mod-apk-vs-original',
+  '/privacy-policy',
+  '/terms-of-service',
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
-  const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
-  // ⚠️ CRITICAL FIX: Only include pages that actually exist to prevent 404 errors
-  // Reason: 404 errors in sitemap damage domain trust and cause ranking drops
-  // Pages will be added back when content is created
+  // Generate URLs for all locales and routes
+  const allUrls = locales.flatMap((locale) =>
+    staticRoutes.map((route) => {
+      const path = route === '' ? `/${locale}` : `/${locale}${route}`;
+      const url = `${baseUrl}${path}`;
 
-  const existingPages = [
-    { slug: '', priority: 1.0, changefreq: 'weekly' as const }, // Homepage
-    { slug: 'for-pc', priority: 0.9, changefreq: 'weekly' as const },
-    { slug: 'for-ios', priority: 0.9, changefreq: 'weekly' as const },
-    { slug: 'gta-cheats', priority: 0.9, changefreq: 'weekly' as const },
-    { slug: 'gta-cars', priority: 0.85, changefreq: 'weekly' as const },
-    { slug: 'how-to-install', priority: 0.9, changefreq: 'weekly' as const },
-    { slug: 'is-safe-to-download', priority: 0.83, changefreq: 'weekly' as const },
-    { slug: 'mod-apk-vs-original', priority: 0.85, changefreq: 'weekly' as const },
-    { slug: 'faq', priority: 0.85, changefreq: 'weekly' as const },
-    { slug: 'about', priority: 0.75, changefreq: 'monthly' as const },
-    { slug: 'contact', priority: 0.75, changefreq: 'monthly' as const },
-    { slug: 'privacy-policy', priority: 0.6, changefreq: 'monthly' as const },
-    { slug: 'terms-of-service', priority: 0.6, changefreq: 'monthly' as const },
-    { slug: 'cookie-policy', priority: 0.6, changefreq: 'monthly' as const },
-    { slug: 'acceptable-use', priority: 0.6, changefreq: 'monthly' as const },
+      // Determine priority based on route importance
+      const priority = getPriority(route, locale);
+
+      // Determine change frequency
+      const changefreq = getChangeFrequency(route);
+
+      return {
+        url,
+        lastModified: new Date().toISOString().split('T')[0],
+        changeFrequency: changefreq as
+          | 'always'
+          | 'hourly'
+          | 'daily'
+          | 'weekly'
+          | 'monthly'
+          | 'yearly'
+          | 'never',
+        priority,
+      };
+    })
+  );
+
+  // Sort by priority (highest first) for better crawling order
+  return allUrls.sort((a, b) => (b.priority || 0) - (a.priority || 0));
+}
+
+/**
+ * Calculate priority for each route
+ * Higher priority = crawled more frequently by search engines
+ */
+function getPriority(route: string, locale: string): number {
+  // Homepage gets highest priority
+  if (route === '') {
+    return locale === defaultLocale ? 1.0 : 0.95;
+  }
+
+  // High-value content pages
+  const highPriority = [
+    '/for-ios',
+    '/for-pc',
+    '/gta-cheats',
+    '/how-to-install',
+    '/gta-cars',
+    '/mod-apk-vs-original',
   ];
 
-  const sitemapEntries: MetadataRoute.Sitemap = [];
-  const staticPages = ['privacy-policy', 'terms-of-service', 'cookie-policy', 'acceptable-use'];
+  if (highPriority.includes(route)) {
+    return locale === defaultLocale ? 0.9 : 0.85;
+  }
 
-  // Add localized pages
-  existingPages.forEach((page) => {
-    locales.forEach((locale) => {
-      const isHomepage = page.slug === '';
+  // Medium priority pages
+  const mediumPriority = ['/faq', '/is-safe-to-download', '/about', '/contact'];
 
-      // Don't localize static pages
-      if (staticPages.includes(page.slug) && locale !== 'en') {
-        return;
-      }
+  if (mediumPriority.includes(route)) {
+    return locale === defaultLocale ? 0.8 : 0.75;
+  }
 
-      const url = isHomepage
-        ? locale === 'en'
-          ? `${baseUrl}/`
-          : `${baseUrl}/${locale}`
-        : locale === 'en'
-        ? `${baseUrl}/${page.slug}`
-        : `${baseUrl}/${locale}/${page.slug}`;
+  // Legal/Policy pages - still important but change less frequently
+  const legalPages = [
+    '/privacy-policy',
+    '/terms-of-service',
+    '/cookie-policy',
+    '/acceptable-use',
+  ];
 
-      sitemapEntries.push({
-        url,
-        lastModified: new Date(),
-        changeFrequency: page.changefreq,
-        priority: page.priority,
-      });
-    });
-  });
+  if (legalPages.includes(route)) {
+    return 0.7;
+  }
 
-  return sitemapEntries;
+  // Community, etc. - lower priority
+  return 0.6;
+}
+
+/**
+ * Determine update frequency for each route
+ * This helps search engines understand expected change patterns
+ */
+function getChangeFrequency(
+  route: string
+): 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never' {
+  // Homepage and main content - updated frequently
+  if (
+    route === '' ||
+    route === '/gta-cheats' ||
+    route === '/gta-cars' ||
+    route === '/faq'
+  ) {
+    return 'weekly';
+  }
+
+  // Pages that update occasionally
+  const weeklyUpdate = ['/for-ios', '/for-pc', '/how-to-install'];
+  if (weeklyUpdate.includes(route)) {
+    return 'monthly';
+  }
+
+  // Legal/Policy pages rarely change
+  const rarelyChange = [
+    '/privacy-policy',
+    '/terms-of-service',
+    '/cookie-policy',
+    '/acceptable-use',
+  ];
+  if (rarelyChange.includes(route)) {
+    return 'yearly';
+  }
+
+  // Default to monthly
+  return 'monthly';
 }
