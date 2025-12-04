@@ -7,6 +7,7 @@ import heroCheats from '../../Assets/gta-cheats-hero.png';
 import Footer from '../../components/Footer';
 import FAQSection from '../../components/FAQSection';
 import ContentSection from '../../components/sections/ContentSection';
+import RelatedPages from '../../components/RelatedPages';
 
 const staggerContainer = {
   hidden: { opacity: 0 },
@@ -156,6 +157,45 @@ export default function GtaCheatsContent() {
     place: loc.place || '',
     find: loc.find || '',
   }));
+
+  const relatedPages = [
+    {
+      href: '/gta-cars',
+      icon: '🚗',
+      title: 'Vehicle Cheats & Spawning',
+      description: 'View all vehicles and learn how to spawn them using cheat codes.'
+    },
+    {
+      href: '/for-ios',
+      icon: '📱',
+      title: 'iOS Cheats Guide',
+      description: 'How to enter cheats on iOS devices with touch controls.'
+    },
+    {
+      href: '/for-pc',
+      icon: '⌨️',
+      title: 'PC Cheats Guide',
+      description: 'Complete keyboard cheat codes list for PC version.'
+    },
+    {
+      href: '/how-to-install',
+      icon: '📥',
+      title: 'Installation Guide',
+      description: 'Install the game to start using all cheats and features.'
+    },
+    {
+      href: '/',
+      icon: '🏠',
+      title: 'Home',
+      description: 'Return to the main page for downloads and game overview.'
+    },
+    {
+      href: '/faq',
+      icon: '❓',
+      title: 'FAQ',
+      description: 'Common questions about cheats, gameplay, and troubleshooting.'
+    }
+  ];
 
   return (
     <main className="min-h-screen">
@@ -385,6 +425,9 @@ export default function GtaCheatsContent() {
       <div className="bg-gradient-to-b from-gray-900/50 to-[#030712]">
         <FAQSection faqs={gtaCheatsRFAQs} />
       </div>
+
+      {/* Related Pages Section */}
+      <RelatedPages pages={relatedPages} />
 
       {/* Footer */}
       <Footer />

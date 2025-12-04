@@ -11,11 +11,23 @@ export default function Footer() {
  const router = useRouter();
  const currentYear = new Date().getFullYear();
 
- const navigationLinks = [
- { label: 'Home', href: '/' },
+ const platformLinks = [
+ { label: 'For iOS', href: '/for-ios' },
  { label: 'For PC', href: '/for-pc' },
+ ];
+
+ const contentLinks = [
+ { label: 'GTA Cars', href: '/gta-cars' },
  { label: 'GTA Cheats', href: '/gta-cheats' },
- { label: 'Blog', href: '/' },
+ { label: 'How to Install', href: '/how-to-install' },
+ { label: 'FAQ', href: '/faq' },
+ ];
+
+ const supportLinks = [
+ { label: 'Is Safe to Download', href: '/is-safe-to-download' },
+ { label: 'MOD vs Original', href: '/mod-apk-vs-original' },
+ { label: 'Community', href: '/community' },
+ { label: 'Contact Us', href: '/contact' },
  ];
 
  const socialLinks = [
@@ -74,14 +86,14 @@ export default function Footer() {
  </div>
  </div>
 
- {/* Quick Links */}
+ {/* Platforms */}
  <div>
  <h4 className="text-base font-bold text-white mb-6 relative pb-2">
- Quick Links
+ Platforms
  <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-[#00ff87] to-[#00a2ff]"></span>
  </h4>
  <ul className="space-y-3">
- {navigationLinks.map((link) => (
+ {platformLinks.map((link) => (
  <li key={link.label}>
  <button
  onClick={() => router.push(link.href)}
@@ -95,64 +107,46 @@ export default function Footer() {
  </ul>
  </div>
 
- {/* Resources */}
+ {/* Content */}
  <div>
  <h4 className="text-base font-bold text-white mb-6 relative pb-2">
- Resources
+ Content
  <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-[#00ff87] to-[#00a2ff]"></span>
  </h4>
  <ul className="space-y-3">
- <li>
- <a
- href="/how-to-install"
- className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
+ {contentLinks.map((link) => (
+ <li key={link.label}>
+ <button
+ onClick={() => router.push(link.href)}
+ className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm cursor-pointer"
  >
  <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
- Installation Guide
- </a>
+ {link.label}
+ </button>
  </li>
- <li>
- <a
- href="/faq"
- className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
- >
- <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
- FAQ
- </a>
- </li>
- <li>
- <a
- href="/is-safe-to-download"
- className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
- >
- <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
- Safety & Security
- </a>
- </li>
- <li>
- <a
- href="/mod-apk-vs-original"
- className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm"
- >
- <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
- Comparison Guide
- </a>
- </li>
+ ))}
  </ul>
  </div>
 
- {/* Community Section */}
+ {/* Support */}
  <div>
  <h4 className="text-base font-bold text-white mb-6 relative pb-2">
- Community
+ Support
  <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-[#00ff87] to-[#00a2ff]"></span>
  </h4>
- <p className="text-sm text-gray-400 mb-4">
- Join our gaming community and connect with other GTA San Andreas enthusiasts.
- </p>
- <p className="text-xs text-gray-500 text-center">
- Stay updated with the latest guides and strategies
- </p>
+ <ul className="space-y-3">
+ {supportLinks.map((link) => (
+ <li key={link.label}>
+ <button
+ onClick={() => router.push(link.href)}
+ className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm cursor-pointer"
+ >
+ <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
+ {link.label}
+ </button>
+ </li>
+ ))}
+ </ul>
  </div>
  </div>
 

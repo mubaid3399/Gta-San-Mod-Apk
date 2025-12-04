@@ -6,6 +6,7 @@ import Footer from '../../components/Footer';
 import FAQSection from '../../components/FAQSection';
 import { motion } from 'framer-motion';
 import carsBanner from '../../../public/cars banner iamge.png';
+import RelatedPages from '../../components/RelatedPages';
 
 const staggerContainer = {
   hidden: { opacity: 0 },
@@ -75,6 +76,45 @@ export default function GtaCarsContent() {
     { name: 'Euros Sports Car.jpg', displayName: 'Euros' },
     { name: 'FBI Rancher car.jpg', displayName: 'FBI Rancher' },
     { name: 'Feltzer Coupes Car.jpg', displayName: 'Feltzer' },
+  ];
+
+  const relatedPages = [
+    {
+      href: '/gta-cheats',
+      icon: '🎮',
+      title: 'Vehicle Cheats',
+      description: 'Spawn any car instantly with cheats. Get flying cars, monster trucks, and rare vehicles.'
+    },
+    {
+      href: '/for-ios',
+      icon: '📱',
+      title: 'Cars on iOS',
+      description: 'Learn about vehicle handling and controls on iOS devices with touch screen.'
+    },
+    {
+      href: '/for-pc',
+      icon: '💻',
+      title: 'Cars on PC',
+      description: 'Explore PC-exclusive vehicle mods and customization options.'
+    },
+    {
+      href: '/how-to-install',
+      icon: '📥',
+      title: 'Installation Guide',
+      description: 'Install the game to access all vehicles and customization features.'
+    },
+    {
+      href: '/',
+      icon: '🏠',
+      title: 'Home',
+      description: 'Return to the main page for downloads and game information.'
+    },
+    {
+      href: '/faq',
+      icon: '❓',
+      title: 'FAQ',
+      description: 'Common questions about vehicles, spawning, and customization.'
+    }
   ];
 
   return (
@@ -327,6 +367,9 @@ export default function GtaCarsContent() {
           </motion.div>
         </div>
       </section>
+
+      {/* Related Pages Section */}
+      <RelatedPages pages={relatedPages} />
 
       {/* Footer */}
       <Footer />

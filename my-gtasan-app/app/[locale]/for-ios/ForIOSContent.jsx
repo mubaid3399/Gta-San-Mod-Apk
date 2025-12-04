@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGamepad, faCloud, faVolumeHigh, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import ForIOSHeroSection from './components/ForIOSHeroSection';
 import Footer from '../../components/Footer';
+import RelatedPages from '../../components/RelatedPages';
 
 export default function ForIOSContent() {
   const t = useTranslations('forIOS');
@@ -71,6 +72,45 @@ export default function ForIOSContent() {
   };
 
   const featureIcons = [faGamepad, faVolumeHigh, faCloud, faGamepad, faVolumeHigh];
+
+  const relatedPages = [
+    {
+      href: '/how-to-install',
+      icon: '📥',
+      title: 'Installation Guide',
+      description: 'Complete step-by-step guide to install GTA San Andreas on iOS devices with troubleshooting tips.'
+    },
+    {
+      href: '/gta-cheats',
+      icon: '🎮',
+      title: 'iOS Cheats & Codes',
+      description: 'All working cheats and codes specifically for the iOS version of GTA San Andreas.'
+    },
+    {
+      href: '/for-pc',
+      icon: '💻',
+      title: 'Compare with PC Version',
+      description: 'See how the iOS version compares with the PC version in terms of features and performance.'
+    },
+    {
+      href: '/gta-cars',
+      icon: '🚗',
+      title: 'Cars Database',
+      description: 'Browse all vehicles available in GTA San Andreas with stats and locations.'
+    },
+    {
+      href: '/is-safe-to-download',
+      icon: '🔒',
+      title: 'Safety Information',
+      description: 'Learn about safe download practices and security considerations for iOS.'
+    },
+    {
+      href: '/faq',
+      icon: '❓',
+      title: 'FAQ',
+      description: 'Common questions answered about GTA San Andreas on iOS devices.'
+    }
+  ];
 
   return (
     <div className="w-full">
@@ -459,6 +499,9 @@ export default function ForIOSContent() {
           </p>
         </motion.div>
       </section>
+
+      {/* Related Pages Section */}
+      <RelatedPages pages={relatedPages} />
 
       {/* Footer */}
       <Footer />

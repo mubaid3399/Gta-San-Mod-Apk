@@ -7,6 +7,7 @@ import ContentSection from '../../components/sections/ContentSection';
 import FeatureCard from '../../components/ui/FeatureCard';
 import ForPCHeroSection from './components/ForPCHeroSection';
 import { motion } from 'framer-motion';
+import RelatedPages from '../../components/RelatedPages';
 
 const staggerContainer = {
   hidden: { opacity: 0 },
@@ -54,6 +55,45 @@ export default function ForPCContent() {
   // Get mission data from translations
   const secretMissionsTranslated = tMissions.raw('secret');
   const mainMissionsTranslated = tMissions.raw('main');
+
+  const relatedPages = [
+    {
+      href: '/how-to-install',
+      icon: '📥',
+      title: 'PC Installation Guide',
+      description: 'Detailed instructions for installing GTA San Andreas on Windows PC with system requirements.'
+    },
+    {
+      href: '/gta-cheats',
+      icon: '⌨️',
+      title: 'PC Cheats & Codes',
+      description: 'All keyboard cheats and console commands for GTA San Andreas PC version.'
+    },
+    {
+      href: '/for-ios',
+      icon: '📱',
+      title: 'Compare with iOS Version',
+      description: 'See the differences between PC and mobile versions of the game.'
+    },
+    {
+      href: '/gta-cars',
+      icon: '🚗',
+      title: 'Vehicle Database',
+      description: 'Complete list of all cars, bikes, and vehicles with performance stats.'
+    },
+    {
+      href: '/mod-apk-vs-original',
+      icon: '⚖️',
+      title: 'MOD vs Original',
+      description: 'Compare the differences between modded and original versions.'
+    },
+    {
+      href: '/faq',
+      icon: '❓',
+      title: 'FAQ',
+      description: 'Frequently asked questions about GTA San Andreas PC version.'
+    }
+  ];
 
   return (
     <main className="min-h-screen">
@@ -161,6 +201,9 @@ export default function ForPCContent() {
       <div className="bg-gradient-to-b from-gray-900/50 to-[#030712]">
         <FAQSection faqs={forPCFAQsTranslated} />
       </div>
+
+      {/* Related Pages Section */}
+      <RelatedPages pages={relatedPages} />
 
       {/* Footer */}
       <Footer />

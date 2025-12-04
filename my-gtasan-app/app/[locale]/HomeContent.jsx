@@ -15,9 +15,50 @@ import ProsAndCons from '../components/ProsAndCons';
 import SafetyPrecautions from '../components/SafetyPrecautions';
 import FAQSection from '../components/FAQSection';
 import Footer from '../components/Footer';
+import RelatedPages from '../components/RelatedPages';
+import InternalLink from '../components/InternalLink';
 
 export default function HomeContent() {
   const t = useTranslations();
+
+  const relatedPages = [
+    {
+      href: '/for-ios',
+      icon: '📱',
+      title: 'GTA San Andreas for iOS',
+      description: 'Download and play GTA San Andreas on your iPhone and iPad with touch controls and optimized performance.'
+    },
+    {
+      href: '/for-pc',
+      icon: '💻',
+      title: 'GTA San Andreas for PC',
+      description: 'Experience the full PC version with enhanced graphics, mod support, and keyboard/mouse controls.'
+    },
+    {
+      href: '/gta-cars',
+      icon: '🚗',
+      title: 'Complete Car Database',
+      description: 'Explore all vehicles in GTA San Andreas with detailed stats, speeds, and locations.'
+    },
+    {
+      href: '/gta-cheats',
+      icon: '🎮',
+      title: 'All Cheats & Codes',
+      description: 'Unlock all cheats for weapons, vehicles, money, and special abilities across all platforms.'
+    },
+    {
+      href: '/how-to-install',
+      icon: '📥',
+      title: 'Installation Guide',
+      description: 'Step-by-step instructions to install GTA San Andreas on Android, iOS, and PC.'
+    },
+    {
+      href: '/faq',
+      icon: '❓',
+      title: 'Frequently Asked Questions',
+      description: 'Get answers to common questions about downloading, installing, and playing the game.'
+    }
+  ];
 
   return (
     <main className="min-h-screen bg-[#030712]" style={{ backgroundColor: '#030712' }}>
@@ -119,6 +160,9 @@ export default function HomeContent() {
 
       {/* FAQ Section */}
       <FAQSection />
+
+      {/* Related Pages Section */}
+      <RelatedPages pages={relatedPages} />
 
       {/* Footer Section */}
       <Footer />
