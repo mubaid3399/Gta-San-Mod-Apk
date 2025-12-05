@@ -24,18 +24,11 @@ export default {
       transitionProperty: {
         'colors': 'background-color, border-color, color, fill, stroke',
       },
-      // Optimize for performance
-      fontSize: {
-        xs: ['0.75rem', { lineHeight: '1rem' }],
-        sm: ['0.875rem', { lineHeight: '1.25rem' }],
-        base: ['1rem', { lineHeight: '1.5rem' }],
-        lg: ['1.125rem', { lineHeight: '1.75rem' }],
-        xl: ['1.25rem', { lineHeight: '1.75rem' }],
-      },
     },
     // Limit color palette for smaller CSS
     colors: {
       transparent: 'transparent',
+      current: 'currentColor',
       white: '#ffffff',
       black: '#000000',
       gray: {
@@ -54,6 +47,8 @@ export default {
         400: '#60a5fa',
         500: '#3b82f6',
         600: '#2563eb',
+        700: '#1d4ed8',
+        800: '#1e40af',
       },
       green: {
         400: '#4ade80',

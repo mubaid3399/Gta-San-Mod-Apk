@@ -52,7 +52,18 @@
       "Bash(grep:*)",
       "Bash(xargs cat:*)",
       "Bash(for file in app/[locale]/{acceptable-use,community,contact}/page.js)",
-      "Bash(do sed -i \"1s/^''use client'';\\n\\n//g\" \"$file\")"
+      "Bash(do sed -i \"1s/^''use client'';\\n\\n//g\" \"$file\")",
+      "Bash(test:*)",
+      "Bash(timeout 180 bash -c 'while kill -0 23122f 2>/dev/null; do sleep 1; done; echo \"\"npm install completed\"\"')",
+      "Bash(timeout 5 bash:*)",
+      "Bash(timeout 30 bash:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(for file in de.json es.json fr.json it.json ja.json pt.json ru.json)",
+      "Bash(do sed -i '/\"\"blog\"\":/d' \"$file\")",
+      "Bash(do echo \"Testing $file...\")",
+      "Bash(npm cache clean:*)",
+      "Bash(timeout 180 bash -c 'while kill -0 10aa1a 2>/dev/null; do sleep 1; done; echo \"\"npm install completed\"\"')",
+      "Bash(cd:*)"
     ],
     "deny": [],
     "ask": []
