@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { defaultLocale, locales } from '@/i18n.config';
+import { defaultLocale, locales } from '../i18n.config';
 
 // Define all static routes relative to each locale
 const staticRoutes = [
