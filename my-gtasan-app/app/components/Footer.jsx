@@ -1,15 +1,32 @@
 'use client';
 
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faYoutube, faPinterest } from '@fortawesome/free-brands-svg-icons';
+import { locales } from '../../i18n.config';
+
+const validLocales = locales;
 
 export default function Footer() {
  const t = useTranslations();
- const router = useRouter();
+ const pathname = usePathname();
  const currentYear = new Date().getFullYear();
+
+ const localePrefix = (() => {
+   const parts = pathname.split('/').filter(Boolean);
+   const maybeLocale = parts[0];
+   return maybeLocale && validLocales.includes(maybeLocale.toLowerCase()) ? `/${maybeLocale.toLowerCase()}` : '';
+ })();
+
+ const buildHref = (path) => {
+   if (path === '/') {
+     return localePrefix || '/';
+   }
+   return `${localePrefix}${path}`;
+ };
 
  const platformLinks = [
  { label: 'For iOS', href: '/for-ios' },
@@ -95,13 +112,13 @@ export default function Footer() {
  <ul className="space-y-3">
  {platformLinks.map((link) => (
  <li key={link.label}>
- <button
- onClick={() => router.push(link.href)}
+ <Link
+ href={buildHref(link.href)}
  className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm cursor-pointer"
  >
  <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
  {link.label}
- </button>
+ </Link>
  </li>
  ))}
  </ul>
@@ -116,13 +133,13 @@ export default function Footer() {
  <ul className="space-y-3">
  {contentLinks.map((link) => (
  <li key={link.label}>
- <button
- onClick={() => router.push(link.href)}
+ <Link
+ href={buildHref(link.href)}
  className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm cursor-pointer"
  >
  <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
  {link.label}
- </button>
+ </Link>
  </li>
  ))}
  </ul>
@@ -137,13 +154,13 @@ export default function Footer() {
  <ul className="space-y-3">
  {supportLinks.map((link) => (
  <li key={link.label}>
- <button
- onClick={() => router.push(link.href)}
+ <Link
+ href={buildHref(link.href)}
  className="text-gray-400 hover:text-[#00ff87] transition-colors duration-200 flex items-center gap-2 group text-sm cursor-pointer"
  >
  <span className="w-1 h-1 rounded-full bg-[#00ff87] group-hover:scale-125 transition-transform"></span>
  {link.label}
- </button>
+ </Link>
  </li>
  ))}
  </ul>
@@ -159,12 +176,12 @@ export default function Footer() {
  <div className="flex flex-wrap gap-4 justify-center md:justify-start text-xs text-gray-400">
  {legalLinks.map((link, index) => (
  <div key={link.label} className="flex items-center gap-4">
- <a
- href={link.href}
+ <Link
+ href={buildHref(link.href)}
  className="hover:text-[#00ff87] transition-colors duration-200"
  >
  {link.label}
- </a>
+ </Link>
  {index < legalLinks.length - 1 && (
  <span className="text-gray-400">•</span>
  )}
