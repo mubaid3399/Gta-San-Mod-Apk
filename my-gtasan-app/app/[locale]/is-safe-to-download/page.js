@@ -79,8 +79,6 @@ import {
 
 
 export default function IsSafeToDownload() {
-  const [expandedSection, setExpandedSection] = useState(0);
-
   const schemaMarkup = {
     '@context': 'https://schema.org',
     '@type': ['FAQPage', 'WebPage'],
@@ -666,20 +664,12 @@ export default function IsSafeToDownload() {
               ].map((item, idx) => (
                 <div
                   key={idx}
-                  onClick={() => setExpandedSection(expandedSection === idx ? -1 : idx)}
-                  className="bg-gray-900 border border-[#00ff87]/20 rounded-lg overflow-hidden hover:border-[#00ff87]/50 transition-all cursor-pointer"
+                  className="bg-gray-900 border border-[#00ff87]/20 rounded-lg overflow-hidden"
                 >
-                  <button className="w-full px-6 py-4 flex justify-between items-center hover:bg-gray-800">
-                    <h3 className="text-lg font-semibold text-white text-left">{item.q}</h3>
-                    <span className={`text-[#00ff87] transition-transform ${expandedSection === idx ? 'rotate-180' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {expandedSection === idx && (
-                    <div className="px-6 py-4 bg-gray-800/50 border-t border-[#00ff87]/20">
-                      <p className="text-gray-300">{item.a}</p>
-                    </div>
-                  )}
+                  <div className="px-6 py-4">
+                    <h3 className="text-lg font-semibold text-white mb-3">{item.q}</h3>
+                    <p className="text-gray-300">{item.a}</p>
+                  </div>
                 </div>
               ))}
             </div>

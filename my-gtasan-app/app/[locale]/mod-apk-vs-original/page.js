@@ -69,7 +69,6 @@ import { faCheckCircle, faTimes, faGamepad, faStar } from '@fortawesome/free-sol
 
 
 export default function ModVsOriginal() {
-  const [selectedView, setSelectedView] = useState('features');
 
   const featureComparison = [
     {
@@ -302,30 +301,10 @@ export default function ModVsOriginal() {
             </p>
           </div>
 
-          {/* View Selector */}
-          <div className="flex gap-4 justify-center mb-12 flex-wrap">
-            {[
-              { id: 'features', label: 'Features Comparison' },
-              { id: 'pros-cons', label: 'Pros & Cons' },
-              { id: 'recommendations', label: 'Who Should Choose What' },
-            ].map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setSelectedView(tab.id)}
-                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
-                  selectedView === tab.id
-                    ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg'
-                    : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
-
           {/* Features Comparison Table */}
-          {selectedView === 'features' && (
-            <div className="space-y-4 mb-16">
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-white mb-8">Features Comparison</h2>
+            <div className="space-y-4">
               {featureComparison.map((item, idx) => (
                 <div
                   key={idx}
@@ -361,11 +340,12 @@ export default function ModVsOriginal() {
                 </div>
               ))}
             </div>
-          )}
+          </div>
 
           {/* Pros & Cons */}
-          {selectedView === 'pros-cons' && (
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-white mb-8">Pros & Cons</h2>
+            <div className="grid md:grid-cols-2 gap-8">
               {/* MOD APK */}
               <div className="bg-gradient-to-br from-purple-900/30 to-black border border-purple-500/50 rounded-xl p-8">
                 <h2 className="text-2xl font-bold text-purple-400 mb-6">MOD APK</h2>
@@ -424,11 +404,12 @@ export default function ModVsOriginal() {
                 </div>
               </div>
             </div>
-          )}
+          </div>
 
           {/* Recommendations */}
-          {selectedView === 'recommendations' && (
-            <div className="space-y-4 mb-16">
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-white mb-8">Who Should Choose What</h2>
+            <div className="space-y-4">
               {recommendations.map((rec, idx) => (
                 <div
                   key={idx}
@@ -451,7 +432,7 @@ export default function ModVsOriginal() {
                 </div>
               ))}
             </div>
-          )}
+          </div>
 
           {/* Summary Box */}
           <div className="grid md:grid-cols-2 gap-8 mb-16">
