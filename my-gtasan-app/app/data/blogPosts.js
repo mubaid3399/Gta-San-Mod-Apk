@@ -4,7 +4,7 @@ export const blogPosts = [
     slug: 'gta-6-release-date-2025',
     title: 'GTA 6 Release Date',
     excerpt: 'Right now, the official GTA 6 release date is Fall 2025. This was confirmed by the developer Rockstar Games. Most fans believe the release window will be between September and November 2025.',
-    coverImage: '/blog/Blog-1/Gta 6 blog 1.jpg',
+    coverImage: '/Blog/Blog-1/Gta 6 blog 1.jpg',
     category: 'News',
     author: 'GTA San Andreas Team',
     publishedDate: '2025-01-15',
@@ -48,7 +48,7 @@ When I watched the first Gta6 trailer, I felt the same joy again. The world look
           content: `The new map is called Leonida, and it includes a modern version of Vice City. Many players love Vice City because it feels warm and colorful. The new map will be much bigger than before.
 
 Some fans say it may be the largest open world game map ever made by rockstar gta 6. The map will have beaches, highways, forests, clubs, small towns, and city streets.`,
-          image: '/blog/Blog-1/Gta 6 blog 2.jpg',
+          image: '/Blog/Blog-1/Gta 6 blog 2.jpg',
           list: [
             'Bright beaches',
             'Huge city lights',
@@ -147,7 +147,7 @@ It has stronger hardware and can show better visuals.`
         {
           title: 'Essential Fixes for Common GTA 6 Errors (Future Guide)',
           content: 'When the game launches, some errors may appear. Based on older GTA games, here are common issues players may face and how they may fix them:',
-          image: '/blog/Blog-1/Gta 6 blog 3.jpg',
+          image: '/Blog/Blog-1/Gta 6 blog 3.jpg',
           errorFixes: [
             {
               title: '1. Game Lag',
