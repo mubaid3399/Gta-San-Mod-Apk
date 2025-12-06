@@ -41,6 +41,8 @@ function Header() {
  setActivePage('gtaCheats');
  } else if (pathname.includes('/gta-cars')) {
  setActivePage('gtaCars');
+ } else if (pathname.includes('/blog')) {
+ setActivePage('blog');
  } else {
  setActivePage('home');
  }
@@ -140,7 +142,8 @@ function Header() {
  { key: "forPC", label: t("navigation.forPC"), href: "/for-pc" },
  { key: "forIOS", label: t("navigation.forIOS"), href: "/for-ios" },
  { key: "gtaCheats", label: t("navigation.gtaCheats"), href: "/gta-cheats" },
- { key: "gtaCars", label: t("navigation.gtaCars"), href: "/gta-cars" }
+ { key: "gtaCars", label: t("navigation.gtaCars"), href: "/gta-cars" },
+ { key: "blog", label: t("navigation.blog"), href: "/blog" }
  ].map(item => {
  const isActive = activePage === item.key;
  return (
@@ -261,7 +264,8 @@ function Header() {
  { key: "forPC", label: t("navigation.forPC"), href: "/for-pc" },
  { key: "forIOS", label: t("navigation.forIOS"), href: "/for-ios" },
  { key: "gtaCheats", label: t("navigation.gtaCheats"), href: "/gta-cheats" },
- { key: "gtaCars", label: t("navigation.gtaCars"), href: "/gta-cars" }
+ { key: "gtaCars", label: t("navigation.gtaCars"), href: "/gta-cars" },
+ { key: "blog", label: t("navigation.blog"), href: "/blog" }
  ].map((item) => {
  const isActive = activePage === item.key;
  return (

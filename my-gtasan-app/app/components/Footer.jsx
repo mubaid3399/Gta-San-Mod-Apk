@@ -13,7 +13,7 @@ const validLocales = locales;
 export default function Footer() {
  const t = useTranslations();
  const pathname = usePathname();
- const currentYear = new Date().getFullYear();
+ const currentYear = 2025;
 
  const localePrefix = (() => {
    const parts = pathname.split('/').filter(Boolean);

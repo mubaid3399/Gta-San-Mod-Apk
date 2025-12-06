@@ -4,11 +4,12 @@ const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 const defaultLocale = 'en';
 
 // IMPORTANT: Only include pages that actually exist in app/[locale]/
-// These are the 16 pages currently created
+// These are the 17 pages currently created
 const staticRoutes = [
   '',
   '/about',
   '/acceptable-use',
+  '/blog',
   '/community',
   '/contact',
   '/cookie-policy',
@@ -84,7 +85,7 @@ function getPriority(route: string, locale: string): number {
   }
 
   // Medium priority pages
-  const mediumPriority = ['/faq', '/is-safe-to-download', '/about', '/contact'];
+  const mediumPriority = ['/faq', '/is-safe-to-download', '/about', '/contact', '/blog'];
 
   if (mediumPriority.includes(route)) {
     return locale === defaultLocale ? 0.8 : 0.75;
@@ -118,7 +119,8 @@ function getChangeFrequency(
     route === '' ||
     route === '/gta-cheats' ||
     route === '/gta-cars' ||
-    route === '/faq'
+    route === '/faq' ||
+    route === '/blog'
   ) {
     return 'weekly';
   }

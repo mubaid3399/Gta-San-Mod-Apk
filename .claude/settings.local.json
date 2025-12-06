@@ -63,7 +63,8 @@
       "Bash(do echo \"Testing $file...\")",
       "Bash(npm cache clean:*)",
       "Bash(timeout 180 bash -c 'while kill -0 10aa1a 2>/dev/null; do sleep 1; done; echo \"\"npm install completed\"\"')",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Bash(git restore:*)"
     ],
     "deny": [],
     "ask": []
