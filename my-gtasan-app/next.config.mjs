@@ -128,6 +128,19 @@ const nextConfig = {
     ];
   },
 
+  // Rewrites for static files
+  async rewrites() {
+    return {
+      beforeFiles: [
+        {
+          source: '/ads.txt',
+          destination: '/ads.txt',
+          locale: false,
+        },
+      ],
+    };
+  },
+
   // Redirects for old URLs (if needed)
   async redirects() {
     return [];
