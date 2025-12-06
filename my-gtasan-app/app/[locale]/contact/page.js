@@ -1,12 +1,13 @@
 import { useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt, faClock } from '@fortawesome/free-solid-svg-icons';
+import ContactForm from './ContactForm';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
 export async function generateMetadata({ params }) {
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
-  const locale = params?.locale || 'en';
+  const locale = (await params)?.locale || 'en';
   const path = locale === 'en' ? '/contact' : `/${locale}/contact`;
 
   const languages = supportedLocales.reduce((acc, lang) => {
@@ -65,27 +66,22 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       images: [`${base}/heroimage2.png`],
     },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-snippet': -1,
+        'max-image-preview': 'large',
+        'max-video-preview': -1,
+      },
+    },
   };
 }
 
 export default function Contact() {
   const t = useTranslations();
-  
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({ name: '', email: '', subject: '', message: '' });
-    alert('Thank you for your message! We will get back to you soon.');
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
@@ -157,79 +153,7 @@ export default function Contact() {
             Have questions about GTA San Andreas Mod APK, Privacy Policy, Terms of Service, or anything else? Fill out the form below and we will get back to you as soon as possible.
           </p>
 
-          <form onSubmit={handleSubmit} className="space-y-6">
-            {/* Name Field */}
-            <div>
-              <label className="block text-sm font-semibold text-white mb-2">
-                Your Name
-              </label>
-              <input
-                type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-                placeholder="Enter your name"
-                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:border-[#00ff87] focus:outline-none transition-colors"
-              />
-            </div>
-
-            {/* Email Field */}
-            <div>
-              <label className="block text-sm font-semibold text-white mb-2">
-                Email Address
-              </label>
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                placeholder="your@email.com"
-                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:border-[#00ff87] focus:outline-none transition-colors"
-              />
-            </div>
-
-            {/* Subject Field */}
-            <div>
-              <label className="block text-sm font-semibold text-white mb-2">
-                Subject
-              </label>
-              <input
-                type="text"
-                name="subject"
-                value={formData.subject}
-                onChange={handleChange}
-                required
-                placeholder="What is your message about?"
-                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:border-[#00ff87] focus:outline-none transition-colors"
-              />
-            </div>
-
-            {/* Message Field */}
-            <div>
-              <label className="block text-sm font-semibold text-white mb-2">
-                Message
-              </label>
-              <textarea
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-                rows="6"
-                placeholder="Tell us your message..."
-                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:border-[#00ff87] focus:outline-none transition-colors resize-none"
-              ></textarea>
-            </div>
-
-            {/* Submit Button */}
-            <button
-              type="submit"
-              className="w-full bg-gradient-to-r from-[#00ff87] to-[#00a2ff] text-black font-bold py-3 px-6 rounded-lg hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300"
-            >
-              Send Message
-            </button>
-          </form>
+          <ContactForm />
         </div>
 
         {/* FAQ Section */}
@@ -256,7 +180,7 @@ export default function Contact() {
                 How can I report a security issue?
               </h3>
               <p className="text-gray-300">
-                If you discover a security vulnerability, please email us at support@gtasanapk.com with full details. Do not share security issues publicly as it may put other players at risk.
+                If you discover a security vulnerability, please email us at gta868309@gmail.com with full details. Do not share security issues publicly as it may put other players at risk.
               </p>
             </div>
 

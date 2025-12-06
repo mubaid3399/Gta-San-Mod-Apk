@@ -1,7 +1,10 @@
 import { MetadataRoute } from 'next';
-import { defaultLocale, locales } from '../i18n.config';
 
-// Define all static routes relative to each locale
+const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+const defaultLocale = 'en';
+
+// IMPORTANT: Only include pages that actually exist in app/[locale]/
+// These are the 16 pages currently created
 const staticRoutes = [
   '',
   '/about',
