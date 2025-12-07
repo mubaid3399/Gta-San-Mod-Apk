@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { blogPosts } from '../../../data/blogPosts';
 import { notFound } from 'next/navigation';
+import { generateArticleSchema, generateBreadcrumbSchema } from '../../../utils/schemaMarkup';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
@@ -34,8 +35,33 @@ export default function BlogPost({ params }) {
     return `${localePrefix}${path}`;
   };
 
+  // Generate schema markup for the blog post
+  const baseUrl = 'https://gtasanandreas.info';
+  const articleSchema = generateArticleSchema({
+    headline: post.title,
+    description: post.excerpt,
+    image: `${baseUrl}${post.coverImage}`,
+    datePublished: post.publishedDate,
+    dateModified: post.publishedDate,
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: `${baseUrl}${localePrefix}` },
+    { name: 'Blog', url: `${baseUrl}${localePrefix}/blog` },
+    { name: post.title, url: `${baseUrl}${localePrefix}/blog/${post.slug}` },
+  ]);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
+      {/* Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Back Button */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
         <Link

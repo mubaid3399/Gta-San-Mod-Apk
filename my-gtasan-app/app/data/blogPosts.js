@@ -1,5 +1,112 @@
 export const blogPosts = [
   {
+    id: 'ultimate-guide-gta-san-andreas-cheat-codes',
+    slug: 'ultimate-guide-gta-san-andreas-cheat-codes',
+    title: 'Ultimate Guide to GTA San Andreas Cheat Codes',
+    excerpt: 'GTA San Andreas is not just a game; it\'s a cultural phenomenon that has captivated millions of players around the world. Discover the most useful cheat codes, how to use them, and tips for maximizing your fun in San Andreas.',
+    coverImage: '/Blog/Blog-2/Blog 3.jpg',
+    category: 'Guide',
+    author: 'GTA San Andreas Team',
+    publishedDate: '2025-01-20',
+    readTime: '6 min read',
+    content: {
+      introduction: `GTA San Andreas is not just a game; it's a cultural phenomenon that has captivated millions of players around the world. One of the most exciting aspects of this iconic title is the ability to use cheat codes, which can enhance gameplay, unlock new features, and provide a unique experience. Whether you are a seasoned player or a newcomer, this ultimate guide will walk you through the most useful cheat codes, how to use them, and tips for maximizing your fun in San Andreas.`,
+
+      sections: [
+        {
+          title: 'Understanding Cheat Codes',
+          content: `Cheat codes are special sequences of buttons or commands that players can input to unlock various features or alter gameplay mechanics. In GTA San Andreas, these codes can do everything from spawning vehicles to altering the game's physics.`,
+          image: '/Blog/Blog-2/Blog 1.jpg'
+        },
+        {
+          title: 'Why Use Cheat Codes?',
+          features: [
+            {
+              title: 'Enhance Gameplay',
+              description: 'Cheat codes can make the game more enjoyable by allowing players to experiment with different scenarios.'
+            },
+            {
+              title: 'Unlock Features',
+              description: 'Some codes unlock hidden features or items that may not be easily accessible through regular gameplay.'
+            },
+            {
+              title: 'Fun Factor',
+              description: 'Sometimes, it\'s just fun to go wild in the game, and cheat codes provide that opportunity.'
+            }
+          ]
+        },
+        {
+          title: 'How to Enter Cheat Codes',
+          content: `Entering cheat codes in GTA San Andreas is straightforward. Players can input codes using the game controller or keyboard, depending on their platform. Here's how to do it:`,
+          list: [
+            'Console: Simply press the buttons in the correct sequence during gameplay.',
+            'PC: Type the cheat code using the keyboard while playing.'
+          ],
+          afterList: 'Make sure to enter the codes carefully, as a single mistake can prevent the cheat from working.'
+        },
+        {
+          title: 'Essential Cheat Codes',
+          content: 'Here\'s a list of some of the most popular and useful cheat codes in GTA San Andreas:'
+        },
+        {
+          title: 'Health and Armor',
+          content: 'These codes are essential for players who want to survive longer in the game, especially during intense missions.',
+          list: [
+            'Full Health: HESOYAM',
+            'Full Armor: TURNDOWNTHEHEAT'
+          ]
+        },
+        {
+          title: 'Weapons',
+          content: 'These codes give players access to a variety of weapons, making it easier to tackle enemies and complete missions.',
+          list: [
+            'All Weapons: LXGIWYL',
+            'Weapon Set 2: KJKSZPJ'
+          ]
+        },
+        {
+          title: 'Vehicles',
+          content: 'Having access to vehicles can significantly change how players navigate the game world, making it easier to explore or escape from trouble.',
+          image: '/Blog/Blog-2/Blog 2.jpg',
+          list: [
+            'Spawn a Tanker Truck: AMOMHRER',
+            'Spawn a Jetpack: ROCKETMAN'
+          ]
+        },
+        {
+          title: 'Gameplay Modifiers',
+          list: [
+            'Lower Wanted Level: LEAVEMEALONE',
+            'Raise Wanted Level: OSRBLYY',
+            'Infinite Ammo: FULLCLIP',
+            'Super Jump: KANGAROO',
+            'Spawn Hydra: JUMPJET'
+          ],
+          afterList: 'These gameplay modifiers can help you change the difficulty and experience of the game on the fly.'
+        },
+        {
+          title: 'Advanced Tips for Using Cheat Codes',
+          features: [
+            {
+              title: 'Save Your Progress',
+              description: 'Always save your game before using cheat codes, especially if you\'re experimenting with new ones that might affect your gameplay.'
+            },
+            {
+              title: 'Disable Achievements',
+              description: 'Be aware that using cheat codes may disable achievements or trophies in some versions of the game.'
+            },
+            {
+              title: 'Combine Codes',
+              description: 'You can use multiple cheat codes together to create unique and fun gameplay experiences.'
+            }
+          ]
+        }
+      ],
+
+      conclusion: `Cheat codes in GTA San Andreas add an extra layer of fun and excitement to an already amazing game. Whether you want to breeze through missions with infinite health, spawn exotic vehicles, or just cause chaos in the streets of San Andreas, these codes give you the freedom to play the game your way. Remember to use them wisely, save your progress, and most importantly - have fun exploring everything this iconic game has to offer!`
+    }
+  },
+  {
     id: 'gta-6-release-date-2025',
     slug: 'gta-6-release-date-2025',
     title: 'GTA 6 Release Date',

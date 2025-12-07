@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { blogPosts } from './data/blogPosts';
 
 const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 const defaultLocale = 'en';
@@ -56,8 +57,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
+  // Generate URLs for blog posts across all locales
+  const blogUrls = locales.flatMap((locale) =>
+    blogPosts.map((post) => {
+      const url = `${baseUrl}/${locale}/blog/${post.slug}`;
+
+      return {
+        url,
+        lastModified: post.publishedDate || new Date().toISOString().split('T')[0],
+        changeFrequency: 'monthly' as
+          | 'always'
+          | 'hourly'
+          | 'daily'
+          | 'weekly'
+          | 'monthly'
+          | 'yearly'
+          | 'never',
+        priority: locale === defaultLocale ? 0.85 : 0.8,
+      };
+    })
+  );
+
+  // Combine static and blog URLs
+  const combinedUrls = [...allUrls, ...blogUrls];
+
   // Sort by priority (highest first) for better crawling order
-  return allUrls.sort((a, b) => (b.priority || 0) - (a.priority || 0));
+  return combinedUrls.sort((a, b) => (b.priority || 0) - (a.priority || 0));
 }
 
 /**
