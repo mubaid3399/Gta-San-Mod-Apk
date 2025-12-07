@@ -147,18 +147,12 @@ const nextConfig = {
   },
 
   // Webpack optimization
-  webpack: (config, { isServer, dev }) => {
+  webpack: (config) => {
     config.optimization.minimize = true;
     config.performance = {
       maxEntrypointSize: 512000,
       maxAssetSize: 512000,
     };
-
-    // Better source map handling in development
-    if (dev && !isServer) {
-      config.devtool = 'cheap-module-source-map';
-    }
-
     return config;
   },
 
@@ -169,6 +163,18 @@ const nextConfig = {
   devIndicators: {
     buildActivity: true,
     buildActivityPosition: 'bottom-right',
+  },
+
+  // Suppress source map warnings in development
+  onDemandEntries: {
+    maxInactiveAge: 25 * 1000,
+    pagesBufferLength: 2,
+  },
+
+  logging: {
+    fetches: {
+      fullUrl: false,
+    },
   },
 
   // PoweredBy header disabled
