@@ -14,7 +14,6 @@ import ComparisonSection from '../components/ComparisonSection';
 import ProsAndCons from '../components/ProsAndCons';
 import SafetyPrecautions from '../components/SafetyPrecautions';
 import FAQSection from '../components/FAQSection';
-import Footer from '../components/Footer';
 import RelatedPages from '../components/RelatedPages';
 import InternalLink from '../components/InternalLink';
 
@@ -163,9 +162,6 @@ export default function HomeContent() {
 
       {/* Related Pages Section */}
       <RelatedPages pages={relatedPages} />
-
-      {/* Footer Section */}
-      <Footer />
     </main>
   );
 }
