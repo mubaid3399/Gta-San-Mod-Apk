@@ -147,17 +147,29 @@ const nextConfig = {
   },
 
   // Webpack optimization
-  webpack: (config, { isServer }) => {
+  webpack: (config, { isServer, dev }) => {
     config.optimization.minimize = true;
     config.performance = {
       maxEntrypointSize: 512000,
       maxAssetSize: 512000,
     };
+
+    // Better source map handling in development
+    if (dev && !isServer) {
+      config.devtool = 'cheap-module-source-map';
+    }
+
     return config;
   },
 
   // Production source maps disabled for smaller bundle
   productionBrowserSourceMaps: false,
+
+  // Development source maps configuration
+  devIndicators: {
+    buildActivity: true,
+    buildActivityPosition: 'bottom-right',
+  },
 
   // PoweredBy header disabled
   poweredByHeader: false,
