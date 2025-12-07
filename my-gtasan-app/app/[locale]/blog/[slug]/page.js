@@ -10,6 +10,74 @@ import { generateArticleSchema, generateBreadcrumbSchema } from '../../../utils/
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
+// Helper function to render text with internal links
+const renderTextWithLinks = (text, localePrefix) => {
+  if (!text) return null;
+
+  // Define link patterns to replace
+  const linkPatterns = [
+    { pattern: /GTA Cheats page/g, url: `${localePrefix}/gta-cheats`, text: 'GTA Cheats page' },
+    { pattern: /GTA Cars guide/g, url: `${localePrefix}/gta-cars`, text: 'GTA Cars guide' },
+  ];
+
+  const parts = [];
+  let lastIndex = 0;
+  let currentText = text;
+
+  // Find all link matches
+  const matches = [];
+  linkPatterns.forEach(({ pattern, url, text: linkText }) => {
+    const regex = new RegExp(pattern);
+    let match;
+    const tempText = text;
+    while ((match = regex.exec(tempText)) !== null) {
+      matches.push({
+        index: match.index,
+        length: match[0].length,
+        url,
+        text: linkText
+      });
+    }
+  });
+
+  // Sort matches by index
+  matches.sort((a, b) => a.index - b.index);
+
+  // Build parts array with text and links
+  matches.forEach((match, i) => {
+    // Add text before this link
+    if (match.index > lastIndex) {
+      parts.push(
+        <span key={`text-${i}`}>
+          {text.substring(lastIndex, match.index)}
+        </span>
+      );
+    }
+
+    // Add the link
+    parts.push(
+      <Link
+        key={`link-${i}`}
+        href={match.url}
+        className="text-[#00ff87] hover:text-[#00a2ff] underline transition-colors"
+      >
+        {match.text}
+      </Link>
+    );
+
+    lastIndex = match.index + match.length;
+  });
+
+  // Add remaining text
+  if (lastIndex < text.length) {
+    parts.push(
+      <span key="text-final">{text.substring(lastIndex)}</span>
+    );
+  }
+
+  return parts.length > 0 ? parts : text;
+};
+
 export default function BlogPost({ params }) {
   const pathname = usePathname();
   const { slug } = use(params);
@@ -119,7 +187,7 @@ export default function BlogPost({ params }) {
           {/* Introduction */}
           <div className="bg-gray-900/50 backdrop-blur border border-[#00ff87]/20 rounded-xl p-6 sm:p-8 mb-8">
             <p className="text-gray-300 leading-relaxed whitespace-pre-line">
-              {post.content.introduction}
+              {renderTextWithLinks(post.content.introduction, localePrefix)}
             </p>
           </div>
 
@@ -358,7 +426,7 @@ export default function BlogPost({ params }) {
                 Final Thoughts
               </h2>
               <p className="text-gray-300 leading-relaxed whitespace-pre-line">
-                {post.content.conclusion}
+                {renderTextWithLinks(post.content.conclusion, localePrefix)}
               </p>
             </div>
           )}
