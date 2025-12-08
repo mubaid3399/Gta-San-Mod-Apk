@@ -109,18 +109,33 @@ export default async function RootLayout({ children, params }) {
   return (
     <html className="dark" lang={locale} suppressHydrationWarning>
       <head>
+        {/* Preconnect to critical origins */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6276217203648123"
-                crossOrigin="anonymous"></script>
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+
+        {/* Preload critical hero image */}
+        <link
+          rel="preload"
+          as="image"
+          href="/heroimage2.png"
+          fetchPriority="high"
+        />
       </head>
       <body className={`${poppins.variable} antialiased`} suppressHydrationWarning style={{ backgroundColor: '#030712' }}>
         <ClientLayout>
           {children}
         </ClientLayout>
+
+        {/* Defer Google AdSense to end of body */}
+        <script
+          async
+          defer
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6276217203648123"
+          crossOrigin="anonymous"
+        />
       </body>
     </html>
   );

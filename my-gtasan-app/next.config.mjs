@@ -4,31 +4,52 @@ const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Image Optimization
+  // Image Optimization - Enhanced for better LCP
   images: {
     formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 60 * 60 * 24 * 365, // 1 year cache
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'gtasanandreas.info',
+      },
+    ],
   },
 
   // Aggressive Compression
   compress: true,
 
-  // Powering dynamic imports for code splitting
+  // Use SWC for faster minification
+  swcMinify: true,
+
+  // Compiler optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error', 'warn'],
+    } : false,
+  },
+
+  // Experimental optimizations for performance
   experimental: {
     optimizeCss: true,
     optimizePackageImports: [
       '@fortawesome/react-fontawesome',
+      '@fortawesome/free-solid-svg-icons',
+      '@fortawesome/free-brands-svg-icons',
+      '@fortawesome/fontawesome-svg-core',
       'framer-motion',
       '@react-three/fiber',
       '@react-three/drei',
       'lottie-react',
       'aos',
+      'next-intl',
     ],
+    bundlePagesRouterDependencies: true,
   },
 
   // Headers for caching and performance

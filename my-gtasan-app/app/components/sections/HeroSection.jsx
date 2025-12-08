@@ -24,13 +24,16 @@ export default function HeroSection({
  transition={{ duration: 0.6, delay: 0.2 }}
  className="relative h-[60vh] w-full rounded-xl overflow-hidden shadow-2xl"
  >
- {/* Background Image */}
+ {/* Background Image - Optimized for LCP */}
  <Image
  src={backgroundImage}
  alt="Hero Background"
  fill
  className="object-cover"
  priority
+ quality={85}
+ sizes="100vw"
+ fetchPriority="high"
  />
 
  {/* Dark Overlay */}
