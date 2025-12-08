@@ -4,7 +4,7 @@ export const blogPosts = [
     slug: 'best-gun-in-gta-san-andreas',
     title: 'What is the Best Gun in GTA San Andreas? The Ultimate Arsenal Guide',
     excerpt: 'Welcome back to San Andreas! If you\'re looking to conquer the streets, you\'ll need more than just a fast car. You need firepower. We\'re breaking down the contenders to crown the single best gun in GTA San Andreas.',
-    coverImage: '/Blog/Blog-3/Blog-cover.png',
+    coverImage: '/Blog/Blog-3/Blog-cover.webp',
     category: 'Guide',
     author: 'GTA San Andreas Team',
     publishedDate: '2025-01-22',
@@ -20,7 +20,7 @@ Looking for more GTA San Andreas tips and tricks? Check out our comprehensive GT
         {
           title: 'The Top Contenders for Best Weapon',
           content: 'While every weapon has its use, a few stand out from the pack due to their power, versatility, and efficiency.',
-          image: '/Blog/Blog-3/Blog-1.png'
+          image: '/Blog/Blog-3/Blog-1.webp'
         },
         {
           title: 'The Combat Shotgun (S.P.A.S. 12)',
@@ -96,7 +96,7 @@ Want to experiment with different weapons without worrying about ammo? Visit our
     slug: 'ultimate-guide-gta-san-andreas-cheat-codes',
     title: 'Ultimate Guide to GTA San Andreas Cheat Codes',
     excerpt: 'GTA San Andreas is not just a game; it\'s a cultural phenomenon that has captivated millions of players around the world. Discover the most useful cheat codes, how to use them, and tips for maximizing your fun in San Andreas.',
-    coverImage: '/Blog/Blog-2/Blog 3.jpg',
+    coverImage: '/Blog/Blog-2/Blog 3.webp',
     category: 'Guide',
     author: 'GTA San Andreas Team',
     publishedDate: '2025-01-20',
@@ -110,7 +110,7 @@ For a complete collection of all GTA San Andreas cheat codes across different pl
         {
           title: 'Understanding Cheat Codes',
           content: `Cheat codes are special sequences of buttons or commands that players can input to unlock various features or alter gameplay mechanics. In GTA San Andreas, these codes can do everything from spawning vehicles to altering the game's physics.`,
-          image: '/Blog/Blog-2/Blog 1.jpg'
+          image: '/Blog/Blog-2/Blog 1.webp'
         },
         {
           title: 'Why Use Cheat Codes?',
@@ -161,7 +161,7 @@ For a complete collection of all GTA San Andreas cheat codes across different pl
         {
           title: 'Vehicles',
           content: 'Having access to vehicles can significantly change how players navigate the game world, making it easier to explore or escape from trouble.',
-          image: '/Blog/Blog-2/Blog 2.jpg',
+          image: '/Blog/Blog-2/Blog 2.webp',
           list: [
             'Spawn a Tanker Truck: AMOMHRER',
             'Spawn a Jetpack: ROCKETMAN'
@@ -207,7 +207,7 @@ Want to explore more cheat codes for different platforms and game modes? Visit o
     slug: 'gta-6-release-date-2025',
     title: 'GTA 6 Release Date',
     excerpt: 'Right now, the official GTA 6 release date is Fall 2025. This was confirmed by the developer Rockstar Games. Most fans believe the release window will be between September and November 2025.',
-    coverImage: '/Blog/Blog-1/Gta 6 blog 1.jpg',
+    coverImage: '/Blog/Blog-1/Gta 6 blog 1.webp',
     category: 'News',
     author: 'GTA San Andreas Team',
     publishedDate: '2025-01-15',
@@ -251,7 +251,7 @@ When I watched the first Gta6 trailer, I felt the same joy again. The world look
           content: `The new map is called Leonida, and it includes a modern version of Vice City. Many players love Vice City because it feels warm and colorful. The new map will be much bigger than before.
 
 Some fans say it may be the largest open world game map ever made by rockstar gta 6. The map will have beaches, highways, forests, clubs, small towns, and city streets.`,
-          image: '/Blog/Blog-1/Gta 6 blog 2.jpg',
+          image: '/Blog/Blog-1/Gta 6 blog 2.webp',
           list: [
             'Bright beaches',
             'Huge city lights',
@@ -350,7 +350,7 @@ It has stronger hardware and can show better visuals.`
         {
           title: 'Essential Fixes for Common GTA 6 Errors (Future Guide)',
           content: 'When the game launches, some errors may appear. Based on older GTA games, here are common issues players may face and how they may fix them:',
-          image: '/Blog/Blog-1/Gta 6 blog 3.jpg',
+          image: '/Blog/Blog-1/Gta 6 blog 3.webp',
           errorFixes: [
             {
               title: '1. Game Lag',

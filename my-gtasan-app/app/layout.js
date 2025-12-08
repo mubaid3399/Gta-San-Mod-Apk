@@ -1,6 +1,7 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import ClientLayout from "./ClientLayout";
+import Analytics from "./components/Analytics";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -41,11 +42,11 @@ export const metadata = {
     description: "Download GTA San Andreas MOD APK with unlimited money, all features unlocked. Play the best GTA San Andreas mods for Android.",
     images: [
       {
-        url: "https://gtasanandreas.info/heroimage2.png",
+        url: "https://gtasanandreas.info/heroimage2.webp",
         width: 1200,
         height: 630,
         alt: "GTA San Andreas MOD APK 2025 Hero Banner",
-        type: "image/png",
+        type: "image/webp",
       },
     ],
   },
@@ -53,7 +54,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features",
     description: "Download GTA San Andreas MOD APK with unlimited money and all features unlocked for Android devices.",
-    images: ["https://gtasanandreas.info/heroimage2.png"],
+    images: ["https://gtasanandreas.info/heroimage2.webp"],
     creator: "@GTASanApk",
   },
   robots: {
@@ -120,7 +121,8 @@ export default async function RootLayout({ children, params }) {
         <link
           rel="preload"
           as="image"
-          href="/heroimage2.png"
+          href="/heroimage2.webp"
+          type="image/webp"
           fetchPriority="high"
         />
       </head>
@@ -128,6 +130,9 @@ export default async function RootLayout({ children, params }) {
         <ClientLayout>
           {children}
         </ClientLayout>
+
+        {/* Analytics and third-party scripts */}
+        <Analytics />
 
         {/* Defer Google AdSense to end of body */}
         <script
