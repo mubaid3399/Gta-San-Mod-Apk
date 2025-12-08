@@ -5,8 +5,8 @@ import { generateBreadcrumbSchema } from '../../utils/schemaMarkup';
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
 export async function generateMetadata({ params }) {
+  const { locale } = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
-  const locale = params?.locale || 'en';
   const path = locale === 'en' ? '/for-pc' : `/${locale}/for-pc`;
   const t = await getTranslations({ locale, namespace: 'forPC' }).catch(() => null);
 
@@ -69,8 +69,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function ForPCPage({ params }) {
-  const locale = params?.locale || 'en';
+export default async function ForPCPage({ params }) {
+  const { locale } = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const path = locale === 'en' ? '/for-pc' : `/${locale}/for-pc`;
 

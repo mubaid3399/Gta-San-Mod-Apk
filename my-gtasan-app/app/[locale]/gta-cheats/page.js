@@ -5,8 +5,8 @@ import { generateFAQSchema, generateBreadcrumbSchema } from '../../utils/schemaM
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
 export async function generateMetadata({ params }) {
+  const { locale } = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
-  const locale = params?.locale || 'en';
   const path = locale === 'en' ? '/gta-cheats' : `/${locale}/gta-cheats`;
   const t = await getTranslations({ locale, namespace: 'gtaCheats' }).catch(() => null);
 
@@ -69,8 +69,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function GtaCheatsPage({ params }) {
-  const locale = params?.locale || 'en';
+export default async function GtaCheatsPage({ params }) {
+  const { locale } = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const path = locale === 'en' ? '/gta-cheats' : `/${locale}/gta-cheats`;
 

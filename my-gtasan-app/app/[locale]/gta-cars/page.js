@@ -5,8 +5,8 @@ import { generateBreadcrumbSchema } from '../../utils/schemaMarkup';
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
 export async function generateMetadata({ params }) {
+  const { locale } = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
-  const locale = params?.locale || 'en';
   const path = locale === 'en' ? '/gta-cars' : `/${locale}/gta-cars`;
   const t = await getTranslations({ locale, namespace: 'gtaCars' }).catch(() => null);
 
@@ -49,8 +49,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function GTACarsPage({ params }) {
-  const locale = params?.locale || 'en';
+export default async function GTACarsPage({ params }) {
+  const { locale } = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const path = locale === 'en' ? '/gta-cars' : `/${locale}/gta-cars`;
 
