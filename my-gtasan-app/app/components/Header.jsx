@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 import { locales } from '../../i18n.config';
 
@@ -19,8 +19,10 @@ function Header() {
  const [selectedLanguage, setSelectedLanguage] = useState('EN');
  const [isMenuOpen, setIsMenuOpen] = useState(false);
  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+ const [isMoreDropdownOpen, setIsMoreDropdownOpen] = useState(false);
  const [activePage, setActivePage] = useState('home');
  const dropdownTimeoutRef = useRef(null);
+ const moreDropdownTimeoutRef = useRef(null);
 
  // Update active page and language based on pathname
  useEffect(() => {
@@ -105,6 +107,29 @@ function Header() {
  }, 300);
  };
 
+ const handleMoreDropdownMouseEnter = () => {
+ if (moreDropdownTimeoutRef.current) {
+ clearTimeout(moreDropdownTimeoutRef.current);
+ }
+ setIsMoreDropdownOpen(true);
+ };
+
+ const handleMoreDropdownMouseLeave = () => {
+ moreDropdownTimeoutRef.current = setTimeout(() => {
+ setIsMoreDropdownOpen(false);
+ }, 300);
+ };
+
+ const gtaGames = [
+ { name: 'GTA VI', slug: 'gta-vi' },
+ { name: 'GTA Online', slug: 'gta-online' },
+ { name: 'GTA V', slug: 'gta-v' },
+ { name: 'GTA IV', slug: 'gta-iv' },
+ { name: 'GTA III', slug: 'gta-iii' },
+ { name: 'GTA II', slug: 'gta-ii' },
+ { name: 'GTA Vice City', slug: 'gta-vice-city' }
+ ];
+
  return (
  <>
  <motion.header
@@ -136,7 +161,7 @@ function Header() {
 
  {/* Center Navigation - Hidden on mobile */}
  <nav className="hidden md:block">
- <ul className="flex gap-8 text-white font-medium">
+ <ul className="flex gap-8 text-white font-medium items-center">
  {[
  { key: "home", label: t("navigation.home"), href: "/" },
  { key: "forPC", label: t("navigation.forPC"), href: "/for-pc" },
@@ -161,6 +186,39 @@ function Header() {
  </li>
  );
  })}
+
+ {/* More Dropdown */}
+ <li
+ className="relative"
+ onMouseEnter={handleMoreDropdownMouseEnter}
+ onMouseLeave={handleMoreDropdownMouseLeave}
+ >
+ <button className="flex items-center gap-2 text-white/80 hover:text-white transition-all duration-200 cursor-pointer">
+ More
+ <FontAwesomeIcon icon={faChevronDown} className={`text-xs transition-transform duration-200 ${isMoreDropdownOpen ? 'rotate-180' : ''}`} />
+ </button>
+
+ {/* Dropdown Menu */}
+ <div
+ className={`absolute left-0 mt-2 w-48 bg-gray-900/95 border border-gray-300/30 rounded-xl shadow-2xl transition-all duration-200 z-50 ${
+ isMoreDropdownOpen
+ ? 'opacity-100 visible'
+ : 'opacity-0 invisible'
+ }`}
+ >
+ {gtaGames.map((game, index) => (
+ <Link
+ key={game.slug}
+ href={buildHref(`/${game.slug}`)}
+ className={`block px-4 py-3 text-white hover:text-[#00ff87] hover:bg-[#00ff87]/10 transition-all cursor-pointer ${
+ index === 0 ? 'rounded-t-xl' : ''
+ } ${index === gtaGames.length - 1 ? 'rounded-b-xl' : ''}`}
+ >
+ {game.name}
+ </Link>
+ ))}
+ </div>
+ </li>
  </ul>
  </nav>
 
@@ -258,7 +316,7 @@ function Header() {
  transition={{ duration: 0.3, ease: 'easeOut' }}
  >
  {/* Navigation Items */}
- <nav className="p-6 space-y-2 mt-20">
+ <nav className="p-6 space-y-2 mt-20 overflow-y-auto max-h-[calc(100vh-120px)]">
  {[
  { key: "home", label: t("navigation.home"), href: "/" },
  { key: "forPC", label: t("navigation.forPC"), href: "/for-pc" },
@@ -283,6 +341,21 @@ function Header() {
  </Link>
  );
  })}
+
+ {/* More Section */}
+ <div className="pt-4 mt-4 border-t border-white/10">
+ <div className="px-4 pb-2 text-sm text-gray-400 font-semibold">More GTA Games</div>
+ {gtaGames.map((game) => (
+ <Link
+ key={game.slug}
+ href={buildHref(`/${game.slug}`)}
+ onClick={() => setIsMenuOpen(false)}
+ className="w-full text-left block px-4 py-3 rounded-lg transition-all duration-200 text-base cursor-pointer text-white hover:text-[#00ff87] hover:bg-[#00ff87]/10"
+ >
+ {game.name}
+ </Link>
+ ))}
+ </div>
  </nav>
  </motion.div>
  </motion.div>
