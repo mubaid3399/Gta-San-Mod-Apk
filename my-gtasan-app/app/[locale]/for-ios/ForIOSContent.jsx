@@ -6,7 +6,6 @@ import { useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGamepad, faCloud, faVolumeHigh, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import ForIOSHeroSection from './components/ForIOSHeroSection';
-import Footer from '../../components/Footer';
 import RelatedPages from '../../components/RelatedPages';
 
 export default function ForIOSContent() {
@@ -502,9 +501,6 @@ export default function ForIOSContent() {
 
       {/* Related Pages Section */}
       <RelatedPages pages={relatedPages} />
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }

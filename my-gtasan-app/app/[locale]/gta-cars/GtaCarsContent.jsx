@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import Footer from '../../components/Footer';
 import FAQSection from '../../components/FAQSection';
 import { motion } from 'framer-motion';
 import carsBanner from '../../../public/cars banner iamge.png';
@@ -370,9 +369,6 @@ export default function GtaCarsContent() {
 
       {/* Related Pages Section */}
       <RelatedPages pages={relatedPages} />
-
-      {/* Footer */}
-      <Footer />
     </main>
   );
 }

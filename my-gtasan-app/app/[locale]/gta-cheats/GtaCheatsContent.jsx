@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import heroCheats from '../../Assets/gta-cheats-hero.png';
-import Footer from '../../components/Footer';
 import FAQSection from '../../components/FAQSection';
 import ContentSection from '../../components/sections/ContentSection';
 import RelatedPages from '../../components/RelatedPages';
@@ -428,9 +427,6 @@ export default function GtaCheatsContent() {
 
       {/* Related Pages Section */}
       <RelatedPages pages={relatedPages} />
-
-      {/* Footer */}
-      <Footer />
     </main>
   );
 }

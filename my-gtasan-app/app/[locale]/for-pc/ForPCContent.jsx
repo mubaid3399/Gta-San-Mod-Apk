@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Footer from '../../components/Footer';
 import FAQSection from '../../components/FAQSection';
 import ContentSection from '../../components/sections/ContentSection';
 import FeatureCard from '../../components/ui/FeatureCard';
@@ -204,9 +203,6 @@ export default function ForPCContent() {
 
       {/* Related Pages Section */}
       <RelatedPages pages={relatedPages} />
-
-      {/* Footer */}
-      <Footer />
     </main>
   );
 }
