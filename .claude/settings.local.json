@@ -64,7 +64,15 @@
       "Bash(npm cache clean:*)",
       "Bash(timeout 180 bash -c 'while kill -0 10aa1a 2>/dev/null; do sleep 1; done; echo \"\"npm install completed\"\"')",
       "Bash(cd:*)",
-      "Bash(git restore:*)"
+      "Bash(git restore:*)",
+      "Bash(timeout 15 bash:*)",
+      "Bash(timeout 180 bash -c 'while kill -0 618eba 2>/dev/null; do sleep 1; done; echo \"\"npm install completed\"\"')",
+      "Bash(where:*)",
+      "Bash(npx fix-react2shell-next)",
+      "Bash(npx fix-react2shell-next --fix)",
+      "Bash(timeout 120 bash:*)",
+      "Bash(node scripts/optimize-images.js:*)",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")"
     ],
     "deny": [],
     "ask": []
