@@ -72,7 +72,8 @@
       "Bash(npx fix-react2shell-next --fix)",
       "Bash(timeout 120 bash:*)",
       "Bash(node scripts/optimize-images.js:*)",
-      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")"
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(cp:*)"
     ],
     "deny": [],
     "ask": []
