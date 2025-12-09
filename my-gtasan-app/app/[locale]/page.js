@@ -55,11 +55,11 @@ export async function generateMetadata({ params }) {
       url: `${base}${path}`,
       images: [
         {
-          url: `${base}/heroimage2.png`,
+          url: `${base}/heroimage2.jpg`,
           width: 1200,
           height: 630,
           alt: title,
-          type: 'image/png',
+          type: 'image/jpeg',
         },
       ],
       locale: locale.replace('-', '_'),
@@ -70,7 +70,7 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       title,
       description,
-      images: [`${base}/heroimage2.png`],
+      images: [`${base}/heroimage2.jpg`],
     },
     robots: {
       index: true,

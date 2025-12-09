@@ -67,7 +67,7 @@ export default function HomeContent() {
           <div className="relative h-[60vh] w-full rounded-xl overflow-hidden shadow-2xl">
             {/* Background Image */}
             <Image
-              src="/heroimage2.png"
+              src="/heroimage2.jpg"
               alt="GTA San Andreas MOD APK 2025 - Unlimited Money and Features Unlocked - Download Now"
               fill
               className="object-cover"
