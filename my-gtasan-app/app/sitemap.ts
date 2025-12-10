@@ -5,7 +5,7 @@ const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 const defaultLocale = 'en';
 
 // IMPORTANT: Only include pages that actually exist in app/[locale]/
-// These are the 17 pages currently created
+// These are the 18 pages currently created
 const staticRoutes = [
   '',
   '/about',
@@ -19,6 +19,7 @@ const staticRoutes = [
   '/for-pc',
   '/gta-cars',
   '/gta-cheats',
+  '/gta-vice-city',
   '/how-to-install',
   '/is-safe-to-download',
   '/mod-apk-vs-original',
@@ -100,6 +101,7 @@ function getPriority(route: string, locale: string): number {
     '/for-ios',
     '/for-pc',
     '/gta-cheats',
+    '/gta-vice-city',
     '/how-to-install',
     '/gta-cars',
     '/mod-apk-vs-original',
@@ -144,6 +146,7 @@ function getChangeFrequency(
     route === '' ||
     route === '/gta-cheats' ||
     route === '/gta-cars' ||
+    route === '/gta-vice-city' ||
     route === '/faq' ||
     route === '/blog'
   ) {
