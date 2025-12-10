@@ -119,34 +119,42 @@ export default function ViceCityContent() {
   // FAQ data
   const viceCityFAQs = [
     {
+      id: 'vc-faq-1',
       question: "Is there a GTA Vice City remaster coming in 2025?",
       answer: "No official remaster has been announced for 2025. The Grand Theft Auto Vice City Definitive Edition released in 2021 remains the latest official version with updated graphics and modern conveniences."
     },
     {
+      id: 'vc-faq-2',
       question: "Can I play GTA Vice City on new consoles in 2025?",
       answer: "Yes, you can play Grand Theft Auto Vice City Definitive Edition on PlayStation 5, Xbox Series X/S, Nintendo Switch, PlayStation 4, and Xbox One with excellent performance and faster loading times."
     },
     {
+      id: 'vc-faq-3',
       question: "Does GTA Vice City support multiplayer in 2025?",
       answer: "The official game does not include multiplayer. However, PC players can use community mods like Multi Theft Auto to play online, though these are unofficial and not supported by Rockstar Games."
     },
     {
+      id: 'vc-faq-4',
       question: "Are there new cheats or features added in 2025?",
       answer: "No new official cheats have been added. The same cheats from the original release work in all versions. The Definitive Edition includes quality-of-life improvements like better checkpoints and updated controls."
     },
     {
+      id: 'vc-faq-5',
       question: "What is the file size for GTA Vice City in 2025?",
       answer: "File sizes vary by platform. PC version requires about 1.5 GB for the original and 15 GB for Definitive Edition. Mobile versions need 1.5 to 2 GB. Console versions range from 12 to 15 GB."
     },
     {
+      id: 'vc-faq-6',
       question: "Can I transfer saves between PC and mobile versions?",
       answer: "No official method exists to transfer saves between platforms. Each version uses different save file formats. It is safer to treat each platform as a separate experience."
     },
     {
+      id: 'vc-faq-7',
       question: "Is GTA Vice City still popular in 2025?",
       answer: "Yes, Vice City remains extremely popular with millions of YouTube views, active speedrunning communities, and ongoing mod development. Its status as one of the best open-world games ever keeps it relevant."
     },
     {
+      id: 'vc-faq-8',
       question: "What makes Vice City better than other GTA games?",
       answer: "Vice City offers unique advantages: the 1980s Miami setting with neon colors and classic music creates unmatched atmosphere. Tommy Vercetti is one of the most memorable protagonists. The game length is perfect and the balance of gameplay, story, and setting makes it special."
     }
