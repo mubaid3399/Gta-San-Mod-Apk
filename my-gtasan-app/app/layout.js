@@ -12,6 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://gtasanandreas.info'),
   title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features Unlocked",
   description: "Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods. Free Android APK for GTA San Andreas MOD.",
   keywords: "GTA San Andreas APK, GTA San Andreas MOD APK, GTA San Andreas Unlimited Money, GTA San Andreas Free Download, GTA San Andreas Mods",

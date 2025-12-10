@@ -127,3 +127,34 @@ export const generateLocalBusinessSchema = () => {
     ],
   };
 };
+
+export const generateVideoGameSchema = (game) => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: game.name,
+    description: game.description,
+    image: game.image,
+    url: game.url,
+    applicationCategory: 'Game',
+    operatingSystem: game.operatingSystem || 'Windows, Android, iOS',
+    gamePlatform: game.gamePlatform || ['PC', 'Android', 'iOS'],
+    genre: game.genre || 'Action, Adventure',
+    publisher: {
+      '@type': 'Organization',
+      name: game.publisher || 'Rockstar Games',
+    },
+    aggregateRating: game.aggregateRating
+      ? {
+          '@type': 'AggregateRating',
+          ratingValue: game.aggregateRating.ratingValue,
+          ratingCount: game.aggregateRating.ratingCount,
+        }
+      : undefined,
+    offers: {
+      '@type': 'Offer',
+      price: game.price || '0',
+      priceCurrency: 'USD',
+    },
+  };
+};
