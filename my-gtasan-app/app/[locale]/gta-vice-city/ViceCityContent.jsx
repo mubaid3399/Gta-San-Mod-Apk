@@ -167,7 +167,7 @@ export default function ViceCityContent() {
         <div className="container mx-auto">
           <div className="relative h-[60vh] w-full rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/vice city/vice city banner.webp"
+              src="/Gta/banner image.webp"
               alt="GTA Vice City Banner"
               fill
               priority
@@ -298,7 +298,7 @@ export default function ViceCityContent() {
 
             <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-2xl mb-12">
               <Image
-                src="/vice city/Charcters Image.webp"
+                src="/Gta/Gameplay Image.webp"
                 alt="GTA Vice City Characters"
                 fill
                 sizes="(max-width: 768px) 100vw, 1200px"
@@ -348,6 +348,17 @@ export default function ViceCityContent() {
             <motion.h2 variants={staggerItem} className="text-3xl md:text-4xl font-bold mb-8 text-center bg-gradient-to-r from-[#00ff87] to-[#00a2ff] bg-clip-text text-transparent">
               Weapons: Your Tools of the Trade
             </motion.h2>
+
+            <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-2xl mb-12">
+              <Image
+                src="/Gta/all wepons image main.webp"
+                alt="GTA Vice City Weapons"
+                fill
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="object-cover"
+              />
+            </div>
+
             <motion.p variants={staggerItem} className="text-lg text-center mb-12 text-white/80">
               Vice City offers a wide arsenal. Players can carry one weapon from each category.
             </motion.p>
@@ -393,7 +404,7 @@ export default function ViceCityContent() {
 
             <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-2xl mb-12">
               <Image
-                src="/vice city/all-cars-image.webp"
+                src="/Gta/all cars main image.webp"
                 alt="GTA Vice City Vehicles"
                 fill
                 sizes="(max-width: 768px) 100vw, 1200px"
@@ -424,6 +435,21 @@ export default function ViceCityContent() {
               </table>
             </motion.div>
 
+            {/* Bikes Section */}
+            <motion.h3 variants={staggerItem} className="text-2xl md:text-3xl font-bold mb-6 text-[#00ff87]">
+              Motorcycles and Bikes
+            </motion.h3>
+
+            <div className="relative h-[300px] w-full rounded-xl overflow-hidden shadow-2xl mb-12">
+              <Image
+                src="/Gta/all bikes image main.webp"
+                alt="GTA Vice City Bikes"
+                fill
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="object-cover"
+              />
+            </div>
+
             {/* Boats Section */}
             <motion.h3 variants={staggerItem} className="text-2xl md:text-3xl font-bold mb-6 text-[#00ff87]">
               Boats and Water Vehicles
@@ -431,7 +457,7 @@ export default function ViceCityContent() {
 
             <div className="relative h-[300px] w-full rounded-xl overflow-hidden shadow-2xl mb-8">
               <Image
-                src="/vice city/Boat image.jpg"
+                src="/Gta/all boats image main.webp"
                 alt="GTA Vice City Boats"
                 fill
                 sizes="(max-width: 768px) 100vw, 1200px"
@@ -480,7 +506,7 @@ export default function ViceCityContent() {
 
             <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-2xl mb-12">
               <Image
-                src="/vice city/gangs of vice city.jpg"
+                src="/Gta/gangs image header.webp"
                 alt="GTA Vice City Gangs"
                 fill
                 sizes="(max-width: 768px) 100vw, 1200px"
@@ -516,6 +542,41 @@ export default function ViceCityContent() {
         </div>
       </section>
 
+      {/* Map Section */}
+      <section className="relative w-full bg-gray-900/50 text-white py-20 px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto max-w-6xl">
+          <motion.div
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+          >
+            <motion.h2 variants={staggerItem} className="text-3xl md:text-4xl font-bold mb-8 text-center bg-gradient-to-r from-[#00ff87] to-[#00a2ff] bg-clip-text text-transparent">
+              Vice City Map: Explore the Islands
+            </motion.h2>
+
+            <div className="relative h-[500px] w-full rounded-xl overflow-hidden shadow-2xl mb-8">
+              <Image
+                src="/Gta/map image.webp"
+                alt="GTA Vice City Map"
+                fill
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="object-contain bg-gray-800"
+              />
+            </div>
+
+            <motion.div variants={staggerItem} className="space-y-6 text-lg leading-relaxed">
+              <p>
+                Vice City consists of two main islands connected by bridges. The western island contains Vice Point, Ocean Beach, and Washington Beach. The eastern island features Downtown, Little Haiti, Little Havana, and the Starfish Island mansion area. Players unlock the second island after completing specific story missions.
+              </p>
+              <p className="text-white/80">
+                The map may seem small compared to modern open-world games, but every location serves a purpose. Properties to buy, missions to complete, hidden packages to collect, and unique jumps to perform fill the city with activities.
+              </p>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Secret Locations Section */}
       <section className="relative w-full bg-gray-900/50 text-white py-20 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-5xl">
@@ -529,13 +590,13 @@ export default function ViceCityContent() {
               Secret Locations and Hidden Gems
             </motion.h2>
 
-            <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-2xl mb-12">
+            <div className="relative h-[500px] w-full rounded-xl overflow-hidden shadow-2xl mb-12">
               <Image
-                src="/vice city/secret-locations-image 2.webp"
-                alt="GTA Vice City Secret Locations"
+                src="/Gta/map image.webp"
+                alt="GTA Vice City Secret Locations Map"
                 fill
                 sizes="(max-width: 768px) 100vw, 1200px"
-                className="object-cover"
+                className="object-contain bg-gray-800"
               />
             </div>
 
@@ -580,7 +641,7 @@ export default function ViceCityContent() {
 
             <div className="relative h-[350px] w-full rounded-xl overflow-hidden shadow-2xl mb-12">
               <Image
-                src="/vice city/gta-cheat-codes image.jpg"
+                src="/Gta/cheats code image header.webp"
                 alt="GTA Vice City Cheat Codes"
                 fill
                 sizes="(max-width: 768px) 100vw, 1200px"

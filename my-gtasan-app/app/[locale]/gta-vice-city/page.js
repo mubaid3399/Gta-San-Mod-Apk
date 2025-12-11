@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
       title,
       description,
       url: `${base}${path}`,
-      images: ['/vice city/GTA_ViceCity.jpg'],
+      images: ['/Gta/banner image.webp'],
       locale,
       type: 'website',
     },
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/vice city/GTA_ViceCity.jpg'],
+      images: ['/Gta/banner image.webp'],
     },
     robots: {
       index: true,
@@ -100,7 +100,7 @@ export default async function ViceCityPage({ params }) {
   const videoGameData = {
     name: 'Grand Theft Auto: Vice City',
     description: 'GTA Vice City is an action-adventure game set in 1980s Miami. Play as Tommy Vercetti and build a criminal empire in this iconic open-world game featuring memorable characters, thrilling missions, and an unforgettable soundtrack.',
-    image: `${base}/vice city/GTA_ViceCity.jpg`,
+    image: `${base}/Gta/banner image.webp`,
     url: `${base}${path}`,
     operatingSystem: 'Windows, Android, iOS',
     gamePlatform: ['PC', 'Android', 'iOS', 'PlayStation 2', 'Xbox'],
