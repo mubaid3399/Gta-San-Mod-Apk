@@ -4,7 +4,7 @@ export const blogPosts = [
     slug: 'gta-vice-city-definitive-guide-2025',
     title: 'GTA Vice City: The Definitive Guide to the 1980s Crime Empire (2025)',
     excerpt: 'Complete guide to GTA Vice City covering gameplay, downloads, cheats, missions, vehicles, mods, and platform comparisons. Master Tommy Vercetti\'s rise to power in this timeless 1980s Miami adventure.',
-    coverImage: '/blog/Blog-6/cover-img.jpg',
+    coverImage: '/Blog/Blog-6/cover-img.jpg',
     category: 'Guide',
     author: 'GTA San Andreas Team',
     publishedDate: '2025-02-01',
@@ -20,7 +20,7 @@ Whether you're new to Vice City, looking for cheats, or comparing how it runs on
           content: `Grand Theft Auto: Vice City isn't just another GTA game. It's a cultural icon that changed open-world gaming. Set in 1986, it pulls you into a fictional Miami full of bright colors, unforgettable characters, and a soundtrack that genuinely feels like the 1980s.
 
 The first time I finished the "Two Bit Hit" mission, it took me a few tries. Once, I even drove straight into the ocean by mistake. That's when I realized Vice City is about more than just action—it takes strategy, good timing, and the ability to adapt.`,
-          image: '/blog/Blog-6/mian-cover.jpg'
+          image: '/Blog/Blog-6/mian-cover.jpg'
         },
         {
           title: 'Getting Started: GTA Vice City Download and Installation Guide',
@@ -52,7 +52,7 @@ The first time I finished the "Two Bit Hit" mission, it took me a few tries. Onc
           content: `The mobile versions have changed how you play Vice City. Both Android and iOS now support mobile controllers, so playing is much easier and more comfortable than just using touch controls.
 
 If you're getting GTA Vice City as an APK, always download from a trusted source. I recommend using the official app stores to stay safe. The mobile versions are set up for shorter play sessions, which is excellent for gaming on the go.`,
-          image: '/blog/Blog-6/vice-1.jpg'
+          image: '/Blog/Blog-6/vice-1.jpg'
         },
         {
           title: 'Console Experience: PS2 Through PS5',
@@ -94,7 +94,7 @@ Starting in Vice City can feel overwhelming. I learned the hard way that if you 
               description: 'Missions like "Demolition Man," which features the tricky RC helicopter, require patience. Stay calm, focus on being precise instead of rushing, and take your time.'
             }
           ],
-          image: '/blog/Blog-6/vice-3.jpg'
+          image: '/Blog/Blog-6/vice-3.jpg'
         },
         {
           title: 'Challenging Missions and How to Beat Them',
@@ -182,7 +182,7 @@ Starting in Vice City can feel overwhelming. I learned the hard way that if you 
             'LIFEISPASSINGMEBY - Faster Game Clock',
             'BIGBANG - Explode All Cars'
           ],
-          image: '/blog/Blog-6/voice-2.jpg'
+          image: '/Blog/Blog-6/voice-2.jpg'
         },
         {
           title: 'GTA Vice City PS2/PS3/PS4/PS5 Cheats',
