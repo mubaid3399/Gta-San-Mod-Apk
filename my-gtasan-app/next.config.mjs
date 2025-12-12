@@ -4,7 +4,7 @@ const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Image Optimization - Enhanced for better LCP
+  // Image Optimization - Enhanced for better LCP and Core Web Vitals
   // Updated: Blog-6 images added
   images: {
     formats: ['image/avif', 'image/webp'],
@@ -14,6 +14,8 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false,
+    loader: 'default',
+    quality: 80, // Optimize quality for faster loading
     remotePatterns: [
       {
         protocol: 'https',
@@ -24,9 +26,6 @@ const nextConfig = {
 
   // Aggressive Compression
   compress: true,
-
-  // Use SWC for faster minification
-  swcMinify: true,
 
   // Compiler optimizations
   compiler: {
@@ -39,18 +38,10 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
     optimizePackageImports: [
-      '@fortawesome/react-fontawesome',
-      '@fortawesome/free-solid-svg-icons',
-      '@fortawesome/free-brands-svg-icons',
-      '@fortawesome/fontawesome-svg-core',
       'framer-motion',
-      '@react-three/fiber',
-      '@react-three/drei',
       'lottie-react',
-      'aos',
-      'next-intl',
+      'three',
     ],
-    bundlePagesRouterDependencies: true,
   },
 
   // Headers for caching and performance
