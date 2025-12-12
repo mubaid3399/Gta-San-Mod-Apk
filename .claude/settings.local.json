@@ -75,7 +75,8 @@
       "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")",
       "Bash(cp:*)",
       "Bash(for file in \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\de.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\es.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\fr.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\it.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\ja.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\pt.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\ru.json\")",
-      "Bash(do tail:*)"
+      "Bash(do tail:*)",
+      "Bash(git diff:*)"
     ],
     "deny": [],
     "ask": []
