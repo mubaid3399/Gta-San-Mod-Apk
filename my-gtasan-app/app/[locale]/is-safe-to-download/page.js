@@ -689,13 +689,10 @@ export default function IsSafeToDownload() {
           {/* Final CTA */}
           <div className="bg-gradient-to-r from-green-900/40 to-blue-900/40 border-2 border-green-500/60 rounded-xl p-8 text-center">
             <h3 className="text-2xl font-bold text-white mb-4">Download with Confidence</h3>
-            <p className="text-gray-300 mb-6 text-lg">
+            <p className="text-gray-300 text-lg">
               Thoroughly tested, verified safe, and scanned by 68 antivirus vendors. Join 500,000+ players who have safely
               downloaded GTA San Andreas MOD APK.
             </p>
-            <button className="px-8 py-3 rounded-lg bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold hover:shadow-lg hover:shadow-green-500/50 transition-all">
-              Download Now (2.8GB)
-            </button>
           </div>
         </div>
       </div>

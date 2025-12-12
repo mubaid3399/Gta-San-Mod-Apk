@@ -212,6 +212,7 @@ export default function GtaCheatsContent() {
               alt="GTA San Andreas cheats hero background"
               fill
               priority
+              sizes="100vw"
               className="object-cover"
             />
 

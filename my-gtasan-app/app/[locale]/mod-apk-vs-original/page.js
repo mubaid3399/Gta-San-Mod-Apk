@@ -509,19 +509,11 @@ export default function ModVsOriginal() {
               <h3 className="text-2xl font-bold text-white">Expert Recommendation</h3>
               <FontAwesomeIcon icon={faStar} className="w-8 h-8 text-yellow-400" />
             </div>
-            <p className="text-lg text-gray-200 mb-6 leading-relaxed">
+            <p className="text-lg text-gray-200 leading-relaxed">
               For most players looking for an <strong>unlimited, unrestricted GTA San Andreas experience without spending money</strong>,
               MOD APK is the superior choice. It's FREE, has all features unlocked immediately, and includes enhanced graphics. If you
               value official support and legal certainty, the original game ($5) is the safer option.
             </p>
-            <div className="flex gap-4 justify-center flex-wrap">
-              <button className="px-8 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold hover:shadow-lg transition-all">
-                Download MOD APK
-              </button>
-              <button className="px-8 py-3 rounded-lg bg-gray-700 hover:bg-gray-600 text-white font-bold transition-all">
-                Buy Original
-              </button>
-            </div>
           </div>
         </div>
       </div>

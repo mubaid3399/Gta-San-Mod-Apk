@@ -23,6 +23,7 @@ export default function ForIOSHeroSection() {
             alt="GTA San Andreas for iOS hero background"
             fill
             priority
+            sizes="100vw"
             className="object-cover"
           />
 

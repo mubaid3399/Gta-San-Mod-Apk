@@ -281,12 +281,9 @@ export default function FAQContent() {
           {/* Still Have Questions */}
           <div className="bg-gradient-to-r from-[#00ff87]/10 to-[#00a2ff]/10 border border-[#00ff87]/30 rounded-xl p-8 text-center mt-16">
             <h2 className="text-2xl font-bold text-white mb-4">Still Have Questions?</h2>
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300">
               Can't find your answer? Contact our support team for quick assistance.
             </p>
-            <button className="px-8 py-3 rounded-lg bg-gradient-to-r from-[#00ff87] to-[#00a2ff] text-black font-bold hover:shadow-lg hover:shadow-[#00ff87]/50 transition-all duration-300">
-              Contact Support
-            </button>
           </div>
 
           {/* Quick Links to Other Guides */}

@@ -24,6 +24,7 @@ export default function ForPCHeroSection() {
             alt="GTA San Andreas for PC hero background"
             fill
             priority
+            sizes="100vw"
             className="object-cover"
           />
 
