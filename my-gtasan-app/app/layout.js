@@ -13,9 +13,12 @@ const poppins = Poppins({
 
 export const metadata = {
   metadataBase: new URL('https://gtasanandreas.info'),
-  title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features Unlocked",
-  description: "Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods. Free Android APK for GTA San Andreas MOD.",
-  keywords: "GTA San Andreas APK, GTA San Andreas MOD APK, GTA San Andreas Unlimited Money, GTA San Andreas Free Download, GTA San Andreas Mods",
+  title: {
+    default: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features Unlocked",
+    template: "%s | GTA San Andreas"
+  },
+  description: "Download GTA San Andreas MOD APK 2025 with unlimited money, all features unlocked, enhanced graphics and premium mods. Free Android APK download with full game access.",
+  keywords: ["GTA San Andreas APK", "GTA San Andreas MOD APK", "GTA San Andreas Unlimited Money", "GTA San Andreas Free Download", "GTA San Andreas Mods", "GTA SA MOD APK 2025", "GTA San Andreas Android"],
   manifest: "/manifest.json",
   applicationName: "GTA San Apk",
   appleWebApp: {
@@ -103,20 +106,31 @@ export default async function RootLayout({ children, params }) {
   return (
     <html className="dark" lang={locale} suppressHydrationWarning>
       <head>
-        {/* Preconnect to critical origins */}
+        {/* Preconnect to critical origins - Performance optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
+        {/* DNS Prefetch for third-party scripts - Load ads/analytics faster */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
 
-        {/* Preload critical hero image */}
+        {/* Preload critical LCP image for better Core Web Vitals */}
         <link
           rel="preload"
           as="image"
           href="/heroimage2.jpg"
           type="image/jpeg"
           fetchPriority="high"
+        />
+
+        {/* Preload critical fonts */}
+        <link
+          rel="preload"
+          href="/_next/static/media/0484562807a97172-s.p.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
         />
       </head>
       <body className={`${poppins.variable} antialiased`} suppressHydrationWarning style={{ backgroundColor: '#030712' }}>

@@ -79,9 +79,12 @@ export default function HomeContent() {
             <div className="absolute inset-0 bg-black/40"></div>
 
             {/* Hero Content */}
-            <div className="relative z-10 h-full flex items-center justify-center">
-              <p className="text-white text-lg sm:text-2xl font-semibold text-center px-4">
-                Explore the Ultimate Gaming Experience
+            <div className="relative z-10 h-full flex flex-col items-center justify-center gap-4">
+              <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center px-4 drop-shadow-lg">
+                GTA San Andreas MOD APK 2025
+              </h1>
+              <p className="text-white/90 text-base sm:text-lg md:text-xl font-medium text-center px-4 drop-shadow-md">
+                Unlimited Money & All Features Unlocked
               </p>
             </div>
 
@@ -103,9 +106,9 @@ export default function HomeContent() {
         <div className="container mx-auto max-w-4xl">
           {/* Content Title */}
           <div className="mb-12 text-center">
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-white">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-white">
               {t('content.title')}
-            </h1>
+            </h2>
             <div className="h-1 w-16 sm:w-24 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] rounded mx-auto mb-8"></div>
           </div>
 

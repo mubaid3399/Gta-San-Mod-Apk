@@ -86,15 +86,30 @@ export const generateSoftwareApplicationSchema = () => {
     applicationCategory: 'GameApplication',
     description: 'Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods for Android.',
     operatingSystem: 'Android',
+    datePublished: '2004-10-26',
+    dateModified: new Date().toISOString().split('T')[0],
+    softwareVersion: '2025',
     offers: {
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
     },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',
       ratingCount: '150000',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    author: {
+      '@type': 'Organization',
+      name: 'Rockstar Games',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'GTA San Andreas APK',
+      url: 'https://gtasanandreas.info',
     },
   };
 };
