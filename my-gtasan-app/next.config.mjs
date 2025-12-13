@@ -15,7 +15,6 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false,
     loader: 'default',
-    quality: 80, // Optimize quality for faster loading
     remotePatterns: [
       {
         protocol: 'https',

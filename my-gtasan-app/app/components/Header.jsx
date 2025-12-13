@@ -125,7 +125,7 @@ function Header() {
  { name: 'GTA Online', slug: 'gta-online' },
  { name: 'GTA V', slug: 'gta-v' },
  { name: 'GTA IV', slug: 'gta-iv' },
- { name: 'GTA III', slug: 'gta-iii' },
+ { name: 'GTA III', slug: 'gta-3' },
  { name: 'GTA II', slug: 'gta-ii' },
  { name: 'GTA Vice City', slug: 'gta-vice-city' }
  ];
