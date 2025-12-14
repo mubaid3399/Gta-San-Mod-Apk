@@ -1,6 +1,11 @@
 import createNextIntlPlugin from 'next-intl/plugin';
+import bundleAnalyzer from '@next/bundle-analyzer';
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
+
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -171,13 +176,65 @@ const nextConfig = {
     return [];
   },
 
-  // Webpack optimization
-  webpack: (config) => {
+  // Webpack optimization - Aggressive bundle size reduction
+  webpack: (config, { isServer }) => {
+    // Enable aggressive minification
     config.optimization.minimize = true;
+
+    // Increase performance budgets
     config.performance = {
-      maxEntrypointSize: 512000,
-      maxAssetSize: 512000,
+      maxEntrypointSize: 400000, // 400 KB (reduced from 512KB)
+      maxAssetSize: 400000,
     };
+
+    // Tree shaking optimization
+    config.optimization.usedExports = true;
+    config.optimization.sideEffects = false;
+
+    // Module concatenation (scope hoisting)
+    config.optimization.concatenateModules = true;
+
+    // Split chunks more aggressively
+    if (!isServer) {
+      config.optimization.splitChunks = {
+        chunks: 'all',
+        cacheGroups: {
+          default: false,
+          vendors: false,
+          // Framework chunk (React, Next.js)
+          framework: {
+            name: 'framework',
+            chunks: 'all',
+            test: /[\\/]node_modules[\\/](react|react-dom|scheduler|prop-types|use-subscription)[\\/]/,
+            priority: 40,
+            enforce: true,
+          },
+          // Common libraries
+          lib: {
+            test(module) {
+              return module.size() > 160000 && /node_modules/.test(module.identifier());
+            },
+            name(module) {
+              const packageNameMatch = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/);
+              const packageName = packageNameMatch ? packageNameMatch[1] : '';
+              return `lib.${packageName.replace('@', '')}`;
+            },
+            priority: 30,
+            minChunks: 1,
+            reuseExistingChunk: true,
+          },
+          // Shared components
+          commons: {
+            name: 'commons',
+            minChunks: 2,
+            priority: 20,
+          },
+        },
+        maxInitialRequests: 25,
+        minSize: 20000,
+      };
+    }
+
     return config;
   },
 
@@ -209,4 +266,4 @@ const nextConfig = {
   trailingSlash: false,
 };
 
-export default withNextIntl(nextConfig);
+export default withBundleAnalyzer(withNextIntl(nextConfig));
