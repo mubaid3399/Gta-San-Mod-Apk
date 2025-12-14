@@ -107,13 +107,6 @@ export default async function RootLayout({ children, params }) {
   return (
     <html className="dark" lang={locale} suppressHydrationWarning>
       <head>
-        {/* Inline critical CSS to prevent render blocking */}
-        <style dangerouslySetInnerHTML={{__html: `
-          :root{color-scheme:dark;--foreground:#fff;--background:#030712}
-          html,body{margin:0;padding:0;background-color:#030712!important;color:#fff!important;font-family:system-ui,-apple-system,sans-serif;overflow-x:hidden}
-          img{max-width:100%;height:auto;display:block}
-        `}} />
-
         {/* Preconnect to critical origins - Performance optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

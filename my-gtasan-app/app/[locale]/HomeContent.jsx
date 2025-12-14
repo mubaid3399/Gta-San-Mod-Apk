@@ -71,8 +71,7 @@ export default function HomeContent() {
               alt="GTA San Andreas MOD APK 2025 - Unlimited Money and Features Unlocked - Download Now"
               fill
               className="object-cover"
-              priority
-              fetchPriority="high"
+              priority={true}
               sizes="100vw"
               quality={85}
             />
