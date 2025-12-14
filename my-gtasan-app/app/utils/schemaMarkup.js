@@ -82,23 +82,31 @@ export const generateSoftwareApplicationSchema = () => {
   return {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: 'GTA San Andreas MOD APK',
+    name: 'GTA San Andreas MOD APK 2025',
+    alternateName: 'GTA SA MOD APK',
     applicationCategory: 'GameApplication',
-    description: 'Download GTA San Andreas MOD APK with unlimited money, all features unlocked, enhanced graphics and mods for Android.',
-    operatingSystem: 'Android',
+    description: 'Download GTA San Andreas MOD APK 2025 with unlimited money, all features unlocked, enhanced graphics and premium mods for Android. Free APK with no ads and premium gameplay.',
+    operatingSystem: 'Android 5.0 and up',
     datePublished: '2004-10-26',
     dateModified: new Date().toISOString().split('T')[0],
-    softwareVersion: '2025',
+    softwareVersion: '2.11.245',
+    fileSize: '2.5GB',
+    downloadUrl: 'https://gtasanandreas.info',
+    screenshot: 'https://gtasanandreas.info/heroimage2.webp',
+    applicationSubCategory: 'Action Game',
+    keywords: 'GTA San Andreas, MOD APK, unlimited money, free download, Android game, open world game',
     offers: {
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
+      category: 'Free Download'
     },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',
       ratingCount: '150000',
+      reviewCount: '45000',
       bestRating: '5',
       worstRating: '1',
     },
@@ -111,6 +119,8 @@ export const generateSoftwareApplicationSchema = () => {
       name: 'GTA San Andreas APK',
       url: 'https://gtasanandreas.info',
     },
+    inLanguage: ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'],
+    contentRating: 'Mature 17+',
   };
 };
 
@@ -171,5 +181,99 @@ export const generateVideoGameSchema = (game) => {
       price: game.price || '0',
       priceCurrency: 'USD',
     },
+  };
+};
+
+/**
+ * WebSite schema with search action for Google Sitelinks Searchbox
+ * This helps Google display a search box directly in search results
+ */
+export const generateWebSiteSchema = (siteUrl = 'https://gtasanandreas.info') => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'GTA San Andreas APK',
+    url: siteUrl,
+    description: 'Download GTA San Andreas MOD APK with unlimited money, all features unlocked for Android',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${siteUrl}/?s={search_term_string}`
+      },
+      'query-input': 'required name=search_term_string'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'GTA San Andreas APK',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/logo.png`,
+        width: 250,
+        height: 60
+      }
+    }
+  };
+};
+
+/**
+ * Review schema for better SERP display with star ratings
+ */
+export const generateReviewSchema = () => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    itemReviewed: {
+      '@type': 'SoftwareApplication',
+      name: 'GTA San Andreas MOD APK',
+      applicationCategory: 'GameApplication',
+      operatingSystem: 'Android',
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.8',
+        ratingCount: '150000',
+        bestRating: '5',
+        worstRating: '1'
+      }
+    },
+    author: {
+      '@type': 'Organization',
+      name: 'GTA San Andreas APK'
+    },
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: '4.8',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    reviewBody: 'GTA San Andreas MOD APK offers unlimited money, all features unlocked, and enhanced gameplay experience for Android users. The best way to experience the classic GTA San Andreas on mobile devices.'
+  };
+};
+
+/**
+ * HowTo schema for installation and tutorial pages
+ * Helps with featured snippets and step-by-step results
+ */
+export const generateHowToSchema = (howTo) => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: howTo.name,
+    description: howTo.description,
+    image: howTo.image,
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      value: '0'
+    },
+    totalTime: howTo.totalTime || 'PT5M',
+    step: howTo.steps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+      image: step.image,
+      url: step.url
+    }))
   };
 };

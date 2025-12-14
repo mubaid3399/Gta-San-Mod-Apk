@@ -49,9 +49,11 @@ export async function generateMetadata({ params }) {
       url: `${base}${path}`,
       images: [
         {
-          url: `${base}/heroimage2.png`,
+          url: `${base}/heroimage2.webp`,
           width: 1200,
           height: 630,
+          alt: title,
+          type: 'image/webp',
         },
       ],
     },
@@ -59,7 +61,7 @@ export async function generateMetadata({ params }) {
       title,
       description,
       card: 'summary_large_image',
-      images: [`${base}/heroimage2.png`],
+      images: [`${base}/heroimage2.webp`],
     },
     robots: {
       index: true,
@@ -83,9 +85,9 @@ export default async function HowToInstallPage({ params }) {
   const schemaMarkup = {
     '@context': 'https://schema.org',
     '@type': ['HowTo', 'FAQPage'],
-    name: 'How to Install GTA San Andreas - Complete Guide',
+    name: 'How to Install GTA San Andreas MOD APK - Complete Guide 2025',
     description: 'Complete step-by-step guide to install GTA San Andreas MOD APK on Android, PC, and Mac. Installation tips and system requirements.',
-    image: 'https://gtasanandreas.info/heroimage2.png',
+    image: 'https://gtasanandreas.info/heroimage2.webp',
     prepTime: 'PT10M',
     totalTime: 'PT20M',
     estimatedCost: {

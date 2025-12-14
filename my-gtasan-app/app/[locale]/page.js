@@ -1,12 +1,16 @@
-import { getTranslations } from 'next-intl/server';
 import HomeContent from './HomeContent';
-import { generateOrganizationSchema, generateSoftwareApplicationSchema, generateBreadcrumbSchema } from '../utils/schemaMarkup';
+import {
+  generateOrganizationSchema,
+  generateSoftwareApplicationSchema,
+  generateBreadcrumbSchema,
+  generateWebSiteSchema,
+  generateReviewSchema
+} from '../utils/schemaMarkup';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
 export async function generateMetadata({ params }) {
   const locale = (await params)?.locale || 'en';
-  const t = await getTranslations({ locale, namespace: 'content' }).catch(() => null);
 
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const path = locale === 'en' ? '' : `/${locale}`;
@@ -45,6 +49,22 @@ export async function generateMetadata({ params }) {
   return {
     title,
     description,
+    keywords: [
+      'GTA San Andreas APK',
+      'GTA San Andreas MOD APK',
+      'GTA SA APK download',
+      'GTA San Andreas unlimited money',
+      'GTA San Andreas Android',
+      'GTA San Andreas free download',
+      'GTA SA MOD APK 2025',
+      'Grand Theft Auto San Andreas',
+      'GTA San Andreas cheats',
+      'GTA SA Android game',
+      'GTA San Andreas latest version',
+      'GTA San Andreas offline',
+      'open world game Android',
+      'action game APK'
+    ],
     alternates: {
       canonical: `${base}${path}`,
       languages,
@@ -55,11 +75,11 @@ export async function generateMetadata({ params }) {
       url: `${base}${path}`,
       images: [
         {
-          url: `${base}/heroimage2.jpg`,
+          url: `${base}/heroimage2.webp`,
           width: 1200,
           height: 630,
           alt: title,
-          type: 'image/jpeg',
+          type: 'image/webp',
         },
       ],
       locale: locale.replace('-', '_'),
@@ -70,7 +90,7 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       title,
       description,
-      images: [`${base}/heroimage2.jpg`],
+      images: [`${base}/heroimage2.webp`],
     },
     robots: {
       index: true,
@@ -104,6 +124,18 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbItems)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateWebSiteSchema(base)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateReviewSchema()),
         }}
       />
       <HomeContent />
