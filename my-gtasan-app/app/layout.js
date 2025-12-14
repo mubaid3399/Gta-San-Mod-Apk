@@ -1,4 +1,5 @@
 import { Poppins } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import ClientLayout from "./ClientLayout";
 import Analytics from "./components/Analytics";
@@ -38,11 +39,11 @@ export const metadata = {
     description: "Download GTA San Andreas MOD APK with unlimited money, all features unlocked. Play the best GTA San Andreas mods for Android.",
     images: [
       {
-        url: "https://gtasanandreas.info/heroimage2.jpg",
+        url: "https://gtasanandreas.info/heroimage2.webp",
         width: 1200,
         height: 630,
         alt: "GTA San Andreas MOD APK 2025 Hero Banner",
-        type: "image/jpeg",
+        type: "image/webp",
       },
     ],
   },
@@ -50,7 +51,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "GTA San Andreas MOD APK 2025 - Unlimited Money & Features",
     description: "Download GTA San Andreas MOD APK with unlimited money and all features unlocked for Android devices.",
-    images: ["https://gtasanandreas.info/heroimage2.jpg"],
+    images: ["https://gtasanandreas.info/heroimage2.webp"],
     creator: "@GTASanApk",
   },
   robots: {
@@ -106,6 +107,13 @@ export default async function RootLayout({ children, params }) {
   return (
     <html className="dark" lang={locale} suppressHydrationWarning>
       <head>
+        {/* Inline critical CSS to prevent render blocking */}
+        <style dangerouslySetInnerHTML={{__html: `
+          :root{color-scheme:dark;--foreground:#fff;--background:#030712}
+          html,body{margin:0;padding:0;background-color:#030712!important;color:#fff!important;font-family:system-ui,-apple-system,sans-serif;overflow-x:hidden}
+          img{max-width:100%;height:auto;display:block}
+        `}} />
+
         {/* Preconnect to critical origins - Performance optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -119,8 +127,8 @@ export default async function RootLayout({ children, params }) {
         <link
           rel="preload"
           as="image"
-          href="/heroimage2.jpg"
-          type="image/jpeg"
+          href="/heroimage2.webp"
+          type="image/webp"
           fetchPriority="high"
         />
 
@@ -141,11 +149,10 @@ export default async function RootLayout({ children, params }) {
         {/* Analytics and third-party scripts */}
         <Analytics />
 
-        {/* Defer Google AdSense to end of body */}
-        <script
-          async
-          defer
+        {/* Defer Google AdSense with lazyOnload strategy for better Core Web Vitals */}
+        <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6276217203648123"
+          strategy="lazyOnload"
           crossOrigin="anonymous"
         />
       </body>

@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import heroCheats from '../../Assets/gta-cheats-hero.png';
+import heroCheats from '../../Assets/gta-cheats-hero.webp';
 import FAQSection from '../../components/FAQSection';
 import ContentSection from '../../components/sections/ContentSection';
 import RelatedPages from '../../components/RelatedPages';
