@@ -187,8 +187,7 @@ const nextConfig = {
       maxAssetSize: 400000,
     };
 
-    // Tree shaking optimization
-    config.optimization.usedExports = true;
+    // Tree shaking optimization - removed usedExports as it conflicts with cacheUnaffected
     config.optimization.sideEffects = false;
 
     // Module concatenation (scope hoisting)
