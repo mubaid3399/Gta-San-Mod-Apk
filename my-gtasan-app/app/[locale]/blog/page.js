@@ -57,6 +57,7 @@ export default function Blog() {
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
                   />
                   <div className="absolute top-3 right-3 bg-[#00ff87]/90 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold">
                     {post.category}

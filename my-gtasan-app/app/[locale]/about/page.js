@@ -1,17 +1,15 @@
 import { getTranslations } from 'next-intl/server';
-
-const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+import {
+  generateAlternateLanguages,
+  generateOpenGraphMetadata,
+  generateTwitterCardMetadata,
+  generateRobotsMetadata
+} from '../../utils/metadataHelpers';
 
 export async function generateMetadata({ params }) {
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const locale = params?.locale || 'en';
   const path = locale === 'en' ? '/about' : `/${locale}/about`;
-
-  const languages = supportedLocales.reduce((acc, lang) => {
-    const localizedPath = lang === 'en' ? '/about' : `/${lang}/about`;
-    acc[lang] = `${base}${localizedPath}`;
-    return acc;
-  }, {});
 
   const titles = {
     en: 'About GTA San Andreas Mod APK - Who We Are & Our Mission',
@@ -43,37 +41,20 @@ export async function generateMetadata({ params }) {
     description,
     alternates: {
       canonical: `${base}${path}`,
-      languages,
+      languages: generateAlternateLanguages('/about', base),
     },
-    openGraph: {
+    openGraph: generateOpenGraphMetadata({
       title,
       description,
       url: `${base}${path}`,
-      images: [
-        {
-          url: `${base}/heroimage2.png`,
-          width: 1200,
-          height: 630,
-        },
-      ],
-    },
-    twitter: {
+      locale,
+      imageAlt: 'About GTA San Andreas Mod APK',
+    }),
+    twitter: generateTwitterCardMetadata({
       title,
       description,
-      card: 'summary_large_image',
-      images: [`${base}/heroimage2.png`],
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-snippet': -1,
-        'max-image-preview': 'large',
-        'max-video-preview': -1,
-      },
-    },
+    }),
+    robots: generateRobotsMetadata(),
   };
 }
 

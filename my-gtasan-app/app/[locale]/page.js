@@ -6,20 +6,18 @@ import {
   generateWebSiteSchema,
   generateReviewSchema
 } from '../utils/schemaMarkup';
-
-const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+import {
+  generateAlternateLanguages,
+  generateOpenGraphMetadata,
+  generateTwitterCardMetadata,
+  generateRobotsMetadata
+} from '../utils/metadataHelpers';
 
 export async function generateMetadata({ params }) {
   const locale = (await params)?.locale || 'en';
 
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const path = locale === 'en' ? '' : `/${locale}`;
-
-  const languages = supportedLocales.reduce((acc, lang) => {
-    const localizedPath = lang === 'en' ? '' : `/${lang}`;
-    acc[lang] = `${base}${localizedPath}`;
-    return acc;
-  }, {});
 
   const titles = {
     en: 'GTA San Andreas MOD APK 2025 - Unlimited Money & All Features Unlocked',
@@ -67,35 +65,20 @@ export async function generateMetadata({ params }) {
     ],
     alternates: {
       canonical: `${base}${path}`,
-      languages,
+      languages: generateAlternateLanguages('', base),
     },
-    openGraph: {
+    openGraph: generateOpenGraphMetadata({
       title,
       description,
       url: `${base}${path}`,
-      images: [
-        {
-          url: `${base}/heroimage2.webp`,
-          width: 1200,
-          height: 630,
-          alt: title,
-          type: 'image/webp',
-        },
-      ],
-      locale: locale.replace('-', '_'),
-      type: 'website',
-      siteName: 'GTA San Apk',
-    },
-    twitter: {
-      card: 'summary_large_image',
+      locale,
+      imageAlt: title,
+    }),
+    twitter: generateTwitterCardMetadata({
       title,
       description,
-      images: [`${base}/heroimage2.webp`],
-    },
-    robots: {
-      index: true,
-      follow: true,
-    },
+    }),
+    robots: generateRobotsMetadata(),
   };
 }
 

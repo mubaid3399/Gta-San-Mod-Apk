@@ -1,20 +1,18 @@
 import { getTranslations } from 'next-intl/server';
 import ForIOSContent from './ForIOSContent';
 import { generateBreadcrumbSchema } from '../../utils/schemaMarkup';
-
-const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
+import {
+  generateAlternateLanguages,
+  generateOpenGraphMetadata,
+  generateTwitterCardMetadata,
+  generateRobotsMetadata
+} from '../../utils/metadataHelpers';
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   const path = locale === 'en' ? '/for-ios' : `/${locale}/for-ios`;
   const t = await getTranslations({ locale, namespace: 'forIOS' }).catch(() => null);
-
-  const languages = supportedLocales.reduce((acc, lang) => {
-    const localizedPath = lang === 'en' ? '/for-ios' : `/${lang}/for-ios`;
-    acc[lang] = `${base}${localizedPath}`;
-    return acc;
-  }, {});
 
   const titles = {
     en: 'GTA San Andreas for iOS - Download, Install & Play 2025',
@@ -46,26 +44,20 @@ export async function generateMetadata({ params }) {
     description,
     alternates: {
       canonical: `${base}${path}`,
-      languages,
+      languages: generateAlternateLanguages('/for-ios', base),
     },
-    openGraph: {
+    openGraph: generateOpenGraphMetadata({
       title,
       description,
       url: `${base}${path}`,
-      images: ['/heroimage2.png'],
       locale,
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
+      imageAlt: 'GTA San Andreas for iOS',
+    }),
+    twitter: generateTwitterCardMetadata({
       title,
       description,
-      images: ['/heroimage2.png'],
-    },
-    robots: {
-      index: true,
-      follow: true,
-    },
+    }),
+    robots: generateRobotsMetadata(),
   };
 }
 
