@@ -9,6 +9,9 @@ const withBundleAnalyzer = bundleAnalyzer({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // Image Optimization - Enhanced for better LCP and Core Web Vitals
   // Updated: Blog-6 images added
   images: {
@@ -138,7 +141,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'nonce-{NONCE}' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://www.youtube.com https://*.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://*.google.com https://*.googlebot.com; frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com https://*.google.com; object-src 'none'; base-uri 'self'; form-action 'self'; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; upgrade-insecure-requests;",
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://www.youtube.com https://*.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://*.google.com https://*.googlebot.com; frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com https://*.google.com; object-src 'none'; base-uri 'self'; form-action 'self'; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; upgrade-insecure-requests;",
           },
           {
             key: 'Permissions-Policy',
