@@ -7,6 +7,7 @@ import SystemRequirementsFeatures from '../components/SystemRequirementsFeatures
 import GTAFeaturesDetail from '../components/GTAFeaturesDetail';
 import GTAGameplayVideo from '../components/GTAGameplayVideo';
 import GTATimeline from '../components/GTATimeline';
+import GTAOnlineFeature from '../components/GTAOnlineFeature';
 import TipsAndTricks from '../components/TipsAndTricks';
 import GameplayControls from '../components/GameplayControls';
 import DownloadInstallation from '../components/DownloadInstallation';
@@ -143,6 +144,9 @@ export default function HomeContent() {
 
       {/* GTA Timeline Section */}
       <GTATimeline />
+
+      {/* GTA Online Feature Section */}
+      <GTAOnlineFeature />
 
       {/* Tips and Tricks Section */}
       <TipsAndTricks />
