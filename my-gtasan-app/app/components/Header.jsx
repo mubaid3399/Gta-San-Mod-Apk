@@ -133,7 +133,7 @@ function Header() {
  return (
  <>
  <motion.header
- initial={{ y: -100, opacity: 0 }}
+ initial={{ y: 0, opacity: 1 }}
  animate={{ y: 0, opacity: 1 }}
  transition={{ duration: 0.8, ease: 'easeOut' }}
  className="container fixed top-2 left-1/2 transform -translate-x-1/2 z-50 w-full px-4 sm:px-6 md:px-8 flex justify-center backdrop-blur-2xl bg-[#030712]/10 border border-white/20 rounded-full shadow-lg">

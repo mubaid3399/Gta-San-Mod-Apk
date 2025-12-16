@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import InternalLink from './InternalLink';
 
 export default function GTATimeline() {
  const t = useTranslations();
@@ -12,48 +13,56 @@ export default function GTATimeline() {
  year: '1997',
  title: t('gtaTimeline.events.gta1.title'),
  description: t('gtaTimeline.events.gta1.description'),
+ link: null, // No dedicated page yet
  },
  {
  id: 'gtalc',
  year: '1999',
  title: t('gtaTimeline.events.gtaLondon.title'),
  description: t('gtaTimeline.events.gtaLondon.description'),
+ link: null, // No dedicated page yet
  },
  {
  id: 'gta3',
  year: '2001',
  title: t('gtaTimeline.events.gta3.title'),
  description: t('gtaTimeline.events.gta3.description'),
+ link: '/gta-3',
  },
  {
  id: 'gtavc',
  year: '2002',
  title: t('gtaTimeline.events.gtaViceCity.title'),
  description: t('gtaTimeline.events.gtaViceCity.description'),
+ link: '/gta-vice-city',
  },
  {
  id: 'gtasa',
  year: '2004',
  title: t('gtaTimeline.events.gtaSanAndreas.title'),
  description: t('gtaTimeline.events.gtaSanAndreas.description'),
+ link: '/', // Home page is about San Andreas
  },
  {
  id: 'gta4',
  year: '2008',
  title: t('gtaTimeline.events.gta4.title'),
  description: t('gtaTimeline.events.gta4.description'),
+ link: null, // No dedicated page yet
  },
  {
  id: 'gta5',
  year: '2013',
  title: t('gtaTimeline.events.gta5.title'),
  description: t('gtaTimeline.events.gta5.description'),
+ link: null, // No dedicated page yet
  },
  {
  id: 'gtasa2025',
  year: '2025',
  title: t('gtaTimeline.events.gtaSA2025.title'),
  description: t('gtaTimeline.events.gtaSA2025.description'),
+ link: '/', // Links to home page for latest version
  },
  ];
 
@@ -127,9 +136,25 @@ export default function GTATimeline() {
  <h3 className="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-3">
  {event.title}
  </h3>
- <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+ <p className="text-sm sm:text-base text-gray-300 leading-relaxed mb-4">
  {event.description}
  </p>
+ {event.link && (
+ <InternalLink
+ href={event.link}
+ className="inline-flex items-center gap-2 text-sm sm:text-base text-[#00ff87] hover:text-[#00a2ff] font-semibold transition-colors duration-200 group"
+ >
+ {t('gtaTimeline.readMore')}
+ <svg
+ className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
+ fill="none"
+ stroke="currentColor"
+ viewBox="0 0 24 24"
+ >
+ <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+ </svg>
+ </InternalLink>
+ )}
  </div>
  </div>
 
