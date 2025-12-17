@@ -30,29 +30,22 @@ const staticRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
 
+  // Use proper ISO 8601 date format for lastModified
+  const currentDate = new Date().toISOString();
+
   // Generate URLs for all locales and routes
   const allUrls = locales.flatMap((locale) =>
     staticRoutes.map((route) => {
       const path = route === '' ? `/${locale}` : `/${locale}${route}`;
       const url = `${baseUrl}${path}`;
 
-      // Determine priority based on route importance
+      // Determine priority based on route importance (Google accepts 0.0 to 1.0)
       const priority = getPriority(route, locale);
-
-      // Determine change frequency
-      const changefreq = getChangeFrequency(route);
 
       return {
         url,
-        lastModified: new Date().toISOString().split('T')[0],
-        changeFrequency: changefreq as
-          | 'always'
-          | 'hourly'
-          | 'daily'
-          | 'weekly'
-          | 'monthly'
-          | 'yearly'
-          | 'never',
+        lastModified: currentDate,
+        changeFrequency: 'weekly' as 'weekly',
         priority,
       };
     })
@@ -63,18 +56,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     blogPosts.map((post) => {
       const url = `${baseUrl}/${locale}/blog/${post.slug}`;
 
+      // Use ISO 8601 format for blog post dates
+      const postDate = post.publishedDate
+        ? new Date(post.publishedDate).toISOString()
+        : currentDate;
+
       return {
         url,
-        lastModified: post.publishedDate || new Date().toISOString().split('T')[0],
-        changeFrequency: 'monthly' as
-          | 'always'
-          | 'hourly'
-          | 'daily'
-          | 'weekly'
-          | 'monthly'
-          | 'yearly'
-          | 'never',
-        priority: locale === defaultLocale ? 0.85 : 0.8,
+        lastModified: postDate,
+        changeFrequency: 'monthly' as 'monthly',
+        priority: parseFloat((locale === defaultLocale ? 0.85 : 0.80).toFixed(2)),
       };
     })
   );
@@ -89,6 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 /**
  * Calculate priority for each route
  * Higher priority = crawled more frequently by search engines
+ * Google accepts values from 0.0 to 1.0
  */
 function getPriority(route: string, locale: string): number {
   // Homepage gets highest priority
@@ -132,44 +124,4 @@ function getPriority(route: string, locale: string): number {
 
   // Community, etc. - lower priority
   return 0.6;
-}
-
-/**
- * Determine update frequency for each route
- * This helps search engines understand expected change patterns
- */
-function getChangeFrequency(
-  route: string
-): 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never' {
-  // Homepage and main content - updated frequently
-  if (
-    route === '' ||
-    route === '/gta-cheats' ||
-    route === '/gta-cars' ||
-    route === '/gta-vice-city' ||
-    route === '/faq' ||
-    route === '/blog'
-  ) {
-    return 'weekly';
-  }
-
-  // Pages that update occasionally
-  const weeklyUpdate = ['/for-ios', '/for-pc', '/how-to-install'];
-  if (weeklyUpdate.includes(route)) {
-    return 'monthly';
-  }
-
-  // Legal/Policy pages rarely change
-  const rarelyChange = [
-    '/privacy-policy',
-    '/terms-of-service',
-    '/cookie-policy',
-    '/acceptable-use',
-  ];
-  if (rarelyChange.includes(route)) {
-    return 'yearly';
-  }
-
-  // Default to monthly
-  return 'monthly';
 }
