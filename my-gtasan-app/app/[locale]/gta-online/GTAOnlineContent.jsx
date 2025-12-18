@@ -16,7 +16,7 @@ export default function GTAOnlineContent({ locale }) {
         <div className="container mx-auto">
           <div className="relative h-[60vh] w-full rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/heroimage2.webp"
+              src="/GTA Online/banner.webp"
               alt="GTA Online Complete Guide 2025"
               fill
               className="object-cover"
@@ -49,7 +49,7 @@ export default function GTAOnlineContent({ locale }) {
 
       {/* Introduction */}
       <section className="relative w-full bg-[#030712] text-white py-20 px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto max-w-4xl">
+        <div className="container mx-auto max-w-6xl">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -61,9 +61,23 @@ export default function GTAOnlineContent({ locale }) {
               The Complete Guide to GTA Online
             </h2>
             <div className="h-1 w-24 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] rounded mx-auto mb-8"></div>
-            <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-300 mb-6">
-              Grand Theft Auto Online has become one of the most popular games in the world. Millions of players enjoy this game every day. This guide will help you learn everything about GTA Online. You will find information about cars, weapons, missions, and much more.
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-300 mb-6">
+                  Grand Theft Auto Online has become one of the most popular games in the world. Millions of players enjoy this game every day. This guide will help you learn everything about GTA Online. You will find information about cars, weapons, missions, and much more.
+                </p>
+              </div>
+              <div className="relative h-[300px] w-full rounded-lg overflow-hidden shadow-xl">
+                <Image
+                  src="/GTA Online/Feature image (1).webp"
+                  alt="GTA Online Features"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={85}
+                />
+              </div>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -387,6 +401,29 @@ export default function GTAOnlineContent({ locale }) {
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 text-white text-center">
               Top Vehicles to Own
             </h2>
+            {/* Showcase Image */}
+            <div className="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="relative h-[300px] w-full rounded-lg overflow-hidden shadow-xl">
+                <Image
+                  src="/GTA Online/Cars image.webp"
+                  alt="GTA Online Cars"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={85}
+                />
+              </div>
+              <div className="relative h-[300px] w-full rounded-lg overflow-hidden shadow-xl">
+                <Image
+                  src="/GTA Online/Fast bikes image.webp"
+                  alt="GTA Online Fast Bikes"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={85}
+                />
+              </div>
+            </div>
             <div className="space-y-4">
               {[
                 { name: 'Grotti Vigilante', type: 'Super', speed: '147 mph', price: '$3,750,000', special: 'Rocket boost' },
@@ -443,6 +480,17 @@ export default function GTAOnlineContent({ locale }) {
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 text-white text-center">
               Best Weapons to Use
             </h2>
+            {/* Weapons Showcase Image */}
+            <div className="mb-12 relative h-[350px] w-full rounded-lg overflow-hidden shadow-xl">
+              <Image
+                src="/GTA Online/All weapons image.webp"
+                alt="GTA Online All Weapons"
+                fill
+                className="object-cover"
+                sizes="100vw"
+                quality={85}
+              />
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 { name: 'Combat MG Mk II', type: 'Machine Gun', damage: 'Very High', price: '$119,000' },
