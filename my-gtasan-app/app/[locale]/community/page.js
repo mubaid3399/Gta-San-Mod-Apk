@@ -4,8 +4,9 @@ import { getTranslations } from 'next-intl/server';
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
 export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
-  const locale = params?.locale || 'en';
+  const locale = resolvedParams?.locale || 'en';
   const path = locale === 'en' ? '/community' : `/${locale}/community`;
 
   const languages = supportedLocales.reduce((acc, lang) => {

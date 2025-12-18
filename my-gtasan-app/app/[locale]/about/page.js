@@ -7,8 +7,9 @@ import {
 } from '../../utils/metadataHelpers';
 
 export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
-  const locale = params?.locale || 'en';
+  const locale = resolvedParams?.locale || 'en';
   const path = locale === 'en' ? '/about' : `/${locale}/about`;
 
   const titles = {

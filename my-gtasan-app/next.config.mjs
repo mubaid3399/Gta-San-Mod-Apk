@@ -174,9 +174,22 @@ const nextConfig = {
     };
   },
 
-  // Redirects for old URLs (if needed)
+  // Redirects for old URLs and canonical enforcement
   async redirects() {
-    return [];
+    return [
+      // Redirect www to non-www
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.gtasanandreas.info',
+          },
+        ],
+        destination: 'https://gtasanandreas.info/:path*',
+        permanent: true,
+      },
+    ];
   },
 
   // Webpack optimization - Aggressive bundle size reduction

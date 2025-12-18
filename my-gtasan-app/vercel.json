@@ -1,5 +1,29 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.gtasanandreas.info"
+        }
+      ],
+      "destination": "https://gtasanandreas.info/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "http://gtasanandreas.info"
+        }
+      ],
+      "destination": "https://gtasanandreas.info/$1",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/ads.txt",
