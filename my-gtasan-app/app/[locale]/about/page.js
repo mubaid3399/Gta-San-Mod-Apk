@@ -59,24 +59,59 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function About() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
-      {/* Header Section */}
-      <div className="relative pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900/50 to-transparent">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] bg-clip-text text-transparent">
-            About GTA San Apk
-          </h1>
-          <p className="text-gray-400 text-lg">
-            Your Premier Gaming Resource for GTA San Andreas
-          </p>
-        </div>
-      </div>
+export default async function About({ params }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
 
-      {/* Content Section */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gray-900/50 backdrop-blur border border-[#00ff87]/20 rounded-xl p-8 space-y-8">
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'GTA San Andreas APK',
+    url: base,
+    logo: `${base}/logo.png`,
+    description: 'Your Premier Gaming Resource for GTA San Andreas',
+    sameAs: [
+      'https://www.facebook.com/people/Gta-SanAndreas/pfbid02rnCyLfcbiZZKnrfVB22tGm5CnrQFvri1zRPAFpjcfpy8hpvTZeqCxa2WfCgGhVWCl/',
+      'https://www.pinterest.com/gta868309/',
+      'https://www.instagram.com/gta868309/',
+      'https://www.youtube.com/channel/UCYe8ocBekKxI4S6vRWSdaOQ',
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Customer Service',
+      email: 'gta868309@gmail.com',
+    },
+  };
+
+  const aboutPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    name: 'About GTA San Andreas Mod APK',
+    description: 'Learn about GTA San Andreas Mod APK. Discover our mission to provide safe, verified gaming content and resources for players worldwide.',
+    url: `${base}${locale === 'en' ? '/about' : `/${locale}/about`}`,
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageSchema) }} />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
+        {/* Header Section */}
+        <div className="relative pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900/50 to-transparent">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-[#00ff87] to-[#00a2ff] bg-clip-text text-transparent">
+              About GTA San Apk
+            </h1>
+            <p className="text-gray-400 text-lg">
+              Your Premier Gaming Resource for GTA San Andreas
+            </p>
+          </div>
+        </div>
+
+        {/* Content Section */}
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="bg-gray-900/50 backdrop-blur border border-[#00ff87]/20 rounded-xl p-8 space-y-8">
 
           {/* Our Mission */}
           <section>
@@ -229,14 +264,15 @@ export default function About() {
             </div>
           </section>
 
-          {/* Last Updated */}
-          <div className="text-center pt-8 border-t border-gray-700">
-            <p className="text-gray-500 text-sm">
-              Last Updated: November 28, 2025 | © 2025 GTA San Apk. All rights reserved.
-            </p>
+            {/* Last Updated */}
+            <div className="text-center pt-8 border-t border-gray-700">
+              <p className="text-gray-500 text-sm">
+                Last Updated: November 28, 2025 | © 2025 GTA San Apk. All rights reserved.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

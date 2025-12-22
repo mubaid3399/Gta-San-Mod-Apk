@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
@@ -79,11 +78,23 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function AcceptableUsePolicy() {
-  const t = useTranslations();
+export default async function AcceptableUsePolicy({ params }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+
+  const acceptableUseSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Acceptable Use Policy - GTA San Andreas Mod APK',
+    description: 'Review our acceptable use policy. Understand the guidelines for using our website and services.',
+    url: `${base}${locale === 'en' ? '/acceptable-use' : `/${locale}/acceptable-use`}`,
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(acceptableUseSchema) }} />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
       {/* Header Section */}
       <div className="relative pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900/50 to-transparent">
         <div className="max-w-4xl mx-auto text-center">
@@ -401,6 +412,7 @@ export default function AcceptableUsePolicy() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

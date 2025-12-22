@@ -67,5 +67,59 @@ export async function generateMetadata({ params }) {
 
 export default async function GTAOnlinePage({ params }) {
   const { locale } = await params;
-  return <GTAOnlineContent locale={locale} />;
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+  const path = locale === 'en' ? '/gta-online' : `/${locale}/gta-online`;
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'GTA Online Complete Guide 2025 - Everything You Need to Know',
+    description: 'Complete GTA Online guide covering missions, heists, businesses, vehicles, weapons, and money-making strategies. Learn everything about GTA V Online multiplayer in 2025.',
+    image: `${base}/heroimage2.webp`,
+    datePublished: '2024-01-01',
+    dateModified: new Date().toISOString(),
+    author: {
+      '@type': 'Organization',
+      name: 'GTA San Andreas APK',
+      url: base,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'GTA San Andreas APK',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${base}/logo.png`,
+      },
+    },
+  };
+
+  const videoGameSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: 'GTA Online',
+    description: 'GTA Online is the multiplayer mode of Grand Theft Auto V. Experience missions, heists, businesses, and more.',
+    image: `${base}/heroimage2.webp`,
+    url: `${base}${path}`,
+    applicationCategory: 'Game',
+    operatingSystem: 'Windows, PlayStation, Xbox',
+    gamePlatform: ['PC', 'PlayStation 5', 'PlayStation 4', 'Xbox Series X', 'Xbox One'],
+    genre: 'Action, Adventure, Multiplayer',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Rockstar Games',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.5',
+      ratingCount: '250000',
+    },
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoGameSchema) }} />
+      <GTAOnlineContent locale={locale} />
+    </>
+  );
 }

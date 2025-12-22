@@ -76,13 +76,23 @@ export async function generateMetadata({ params }) {
   };
 }
 
-import { useTranslations } from 'next-intl';
+export default async function CookiePolicy({ params }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
 
-export default function CookiePolicy() {
-  const t = useTranslations();
+  const cookieSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Cookie Policy - GTA San Andreas Mod APK',
+    description: 'Learn about our cookie policy. Understand how we use cookies to improve your experience.',
+    url: `${base}${locale === 'en' ? '/cookie-policy' : `/${locale}/cookie-policy`}`,
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cookieSchema) }} />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
       {/* Header Section */}
       <div className="relative pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900/50 to-transparent">
         <div className="max-w-4xl mx-auto text-center">
@@ -352,6 +362,7 @@ export default function CookiePolicy() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

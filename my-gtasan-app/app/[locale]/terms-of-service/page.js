@@ -76,13 +76,23 @@ export async function generateMetadata({ params }) {
   };
 }
 
-import { useTranslations } from 'next-intl';
+export default async function TermsOfService({ params }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
 
-export default function TermsOfService() {
-  const t = useTranslations();
+  const termsSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Terms of Service - GTA San Andreas Mod APK',
+    description: 'Read our terms of service. Understand the rules and conditions for using GTA San Andreas Mod APK website.',
+    url: `${base}${locale === 'en' ? '/terms-of-service' : `/${locale}/terms-of-service`}`,
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(termsSchema) }} />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
       {/* Header Section */}
       <div className="relative pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900/50 to-transparent">
         <div className="max-w-4xl mx-auto text-center">
@@ -390,6 +400,7 @@ export default function TermsOfService() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

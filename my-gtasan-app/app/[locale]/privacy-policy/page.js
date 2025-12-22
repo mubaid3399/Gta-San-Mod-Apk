@@ -76,14 +76,25 @@ export async function generateMetadata({ params }) {
   };
 }
 
-import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
-export default function PrivacyPolicy() {
-  const t = useTranslations();
+export default async function PrivacyPolicy({ params }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+
+  const privacySchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Privacy Policy - GTA San Andreas Mod APK',
+    description: 'Review our privacy policy. Learn how we collect, use, and protect your personal information.',
+    url: `${base}${locale === 'en' ? '/privacy-policy' : `/${locale}/privacy-policy`}`,
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(privacySchema) }} />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
       {/* Header Section */}
       <div className="relative pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900/50 to-transparent">
         <div className="max-w-4xl mx-auto text-center">
@@ -361,6 +372,7 @@ export default function PrivacyPolicy() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

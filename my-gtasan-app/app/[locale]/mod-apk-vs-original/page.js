@@ -80,7 +80,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faTimes, faGamepad, faStar } from '@fortawesome/free-solid-svg-icons';
 
 
-export default function ModVsOriginal() {
+export default async function ModVsOriginal({ params }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+
+  const comparisonSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'GTA San Andreas Mod APK vs Original - Complete Comparison',
+    description: 'Compare GTA San Andreas Mod APK with the original game. Learn differences, features, pros & cons in detail.',
+    url: `${base}${locale === 'en' ? '/mod-apk-vs-original' : `/${locale}/mod-apk-vs-original`}`,
+  };
 
   const featureComparison = [
     {
@@ -300,7 +311,9 @@ export default function ModVsOriginal() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#030712] via-black to-[#030712]">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(comparisonSchema) }} />
+      <div className="min-h-screen bg-gradient-to-b from-[#030712] via-black to-[#030712]">
       {/* Hero Section */}
       <div className="relative pt-20 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
@@ -518,6 +531,7 @@ export default function ModVsOriginal() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

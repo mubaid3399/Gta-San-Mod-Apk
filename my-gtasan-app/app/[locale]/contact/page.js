@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt, faClock } from '@fortawesome/free-solid-svg-icons';
 import ContactForm from './ContactForm';
@@ -80,11 +79,36 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function Contact() {
-  const t = useTranslations();
+export default async function Contact({ params }) {
+  const locale = (await params)?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+
+  const contactPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: 'Contact Us - GTA San Andreas Mod APK Support',
+    description: 'Contact GTA San Andreas Mod APK support. Have questions or need help? Reach out to our team for assistance.',
+    url: `${base}${locale === 'en' ? '/contact' : `/${locale}/contact`}`,
+  };
+
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'GTA San Andreas APK',
+    url: base,
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Customer Service',
+      email: 'gta868309@gmail.com',
+      availableLanguage: ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'],
+    },
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-gray-100">
       {/* Header Section */}
       <div className="relative pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900/50 to-transparent">
         <div className="max-w-4xl mx-auto text-center">
@@ -224,6 +248,6 @@ export default function Contact() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }

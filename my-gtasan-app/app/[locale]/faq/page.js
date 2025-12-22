@@ -77,6 +77,65 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function FAQ() {
-  return <FAQContent />;
+export default async function FAQ({ params }) {
+  const locale = (await params)?.locale || 'en';
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Is GTA San Andreas MOD APK safe?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, when downloaded from legitimate sources like our website. We verify all files for malware and ensure they are safe to download.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I install GTA San Andreas?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Download the APK file, enable Unknown Sources in your device settings, and install the APK. Follow our detailed installation guide for step-by-step instructions.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the system requirements?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Minimum: Android 6.0 or Windows 7 with 2GB RAM. Recommended: Android 10+ or Windows 10/11 with 4GB+ RAM for optimal performance.',
+        },
+      },
+    ],
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: base,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'FAQ',
+        item: `${base}${locale === 'en' ? '/faq' : `/${locale}/faq`}`,
+      },
+    ],
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <FAQContent />
+    </>
+  );
 }

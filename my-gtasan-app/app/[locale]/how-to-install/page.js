@@ -82,18 +82,20 @@ import HowToInstallContent from './HowToInstallContent';
 export default async function HowToInstallPage({ params }) {
   const { locale } = await params;
 
-  const schemaMarkup = {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
+
+  const howToSchema = {
     '@context': 'https://schema.org',
-    '@type': ['HowTo', 'FAQPage'],
+    '@type': 'HowTo',
     name: 'How to Install GTA San Andreas MOD APK - Complete Guide 2025',
     description: 'Complete step-by-step guide to install GTA San Andreas MOD APK on Android, PC, and Mac. Installation tips and system requirements.',
-    image: 'https://gtasanandreas.info/heroimage2.webp',
+    image: `${base}/heroimage2.webp`,
     prepTime: 'PT10M',
     totalTime: 'PT20M',
     estimatedCost: {
-      '@type': 'PriceSpecification',
-      priceCurrency: 'USD',
-      price: '0',
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      value: '0',
     },
     tool: [
       { '@type': 'HowToTool', name: 'Android Device or PC' },
@@ -106,28 +108,62 @@ export default async function HowToInstallPage({ params }) {
         position: 1,
         name: 'Download the APK File',
         text: 'Visit gtasanandreas.info and click the "Download MOD APK" button. The file will be approximately 2.5-3GB.',
-        image: 'https://gtasanandreas.info/logo.png',
+        image: `${base}/logo.png`,
       },
       {
         '@type': 'HowToStep',
         position: 2,
         name: 'Enable Unknown Sources',
         text: 'Go to Settings > Security > Unknown Sources and toggle it ON. This allows installation from non-Play Store sources.',
-        image: 'https://gtasanandreas.info/logo.png',
+        image: `${base}/logo.png`,
+      },
+      {
+        '@type': 'HowToStep',
+        position: 3,
+        name: 'Install the APK',
+        text: 'Locate the downloaded APK file and tap to install. Follow the on-screen prompts to complete installation.',
+        image: `${base}/logo.png`,
+      },
+      {
+        '@type': 'HowToStep',
+        position: 4,
+        name: 'Launch the Game',
+        text: 'Open GTA San Andreas from your app drawer and enjoy the game with all features unlocked.',
+        image: `${base}/logo.png`,
       },
     ],
     author: {
       '@type': 'Organization',
-      name: 'GTA San Andreas Community',
-      url: 'https://gtasanandreas.info',
+      name: 'GTA San Andreas APK',
+      url: base,
     },
     datePublished: '2024-01-01',
-    dateModified: '2025-12-02',
+    dateModified: new Date().toISOString(),
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: base,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'How to Install',
+        item: `${base}${locale === 'en' ? '/how-to-install' : `/${locale}/how-to-install`}`,
+      },
+    ],
   };
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <HowToInstallContent />
     </>
   );
