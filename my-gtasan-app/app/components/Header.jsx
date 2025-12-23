@@ -121,7 +121,7 @@ function Header() {
  };
 
  const gtaGames = [
- { name: 'GTA VI', slug: 'gta-vi' },
+ { name: 'GTA 6', slug: 'gta-6' },
  { name: 'GTA Online', slug: 'gta-online' },
  { name: 'GTA V', slug: 'gta-v' },
  { name: 'GTA IV', slug: 'gta-iv' },
