@@ -270,7 +270,7 @@ export const generateHowToSchema = (howTo) => {
     estimatedCost: {
       '@type': 'MonetaryAmount',
       currency: 'USD',
-      value: '0'
+      value: 0
     },
     totalTime: howTo.totalTime || 'PT5M',
     step: howTo.steps.map((step, index) => ({

@@ -95,7 +95,7 @@ export default async function HowToInstallPage({ params }) {
     estimatedCost: {
       '@type': 'MonetaryAmount',
       currency: 'USD',
-      value: '0',
+      value: 0,
     },
     tool: [
       { '@type': 'HowToTool', name: 'Android Device or PC' },
