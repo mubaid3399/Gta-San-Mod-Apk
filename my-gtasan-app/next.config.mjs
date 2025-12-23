@@ -189,6 +189,17 @@ const nextConfig = {
         destination: 'https://gtasanandreas.info/:path*',
         permanent: true,
       },
+      // Redirect gta-vi to gta-6 for all locales
+      {
+        source: '/gta-vi',
+        destination: '/gta-6',
+        permanent: true,
+      },
+      {
+        source: '/:locale/gta-vi',
+        destination: '/:locale/gta-6',
+        permanent: true,
+      },
     ];
   },
 
