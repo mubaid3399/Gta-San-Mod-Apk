@@ -16,7 +16,10 @@ export async function generateMetadata({ params }: { params: { slug: string; loc
   }
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
-  const canonicalUrl = `${baseUrl}/${params.locale}/blog/${slug}`;
+  // Don't include /en/ prefix for default English locale (localePrefix: 'as-needed')
+  const canonicalUrl = params.locale === 'en'
+    ? `${baseUrl}/blog/${slug}`
+    : `${baseUrl}/${params.locale}/blog/${slug}`;
 
   return {
     title: `${post.title} | GTA San Andreas`,
@@ -67,7 +70,7 @@ export async function generateMetadata({ params }: { params: { slug: string; loc
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        'en': `${baseUrl}/en/blog/${slug}`,
+        'en': `${baseUrl}/blog/${slug}`,
         'de': `${baseUrl}/de/blog/${slug}`,
         'fr': `${baseUrl}/fr/blog/${slug}`,
         'it': `${baseUrl}/it/blog/${slug}`,

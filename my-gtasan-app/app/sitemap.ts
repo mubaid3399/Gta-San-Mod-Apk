@@ -34,9 +34,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date().toISOString();
 
   // Generate URLs for all locales and routes
+  // IMPORTANT: English (default locale) should NOT have /en/ prefix due to localePrefix: 'as-needed'
   const allUrls = locales.flatMap((locale) =>
     staticRoutes.map((route) => {
-      const path = route === '' ? `/${locale}` : `/${locale}${route}`;
+      // For default locale (en), don't add locale prefix
+      // For other locales, add locale prefix
+      let path;
+      if (locale === defaultLocale) {
+        path = route === '' ? '' : route;
+      } else {
+        path = route === '' ? `/${locale}` : `/${locale}${route}`;
+      }
+
       const url = `${baseUrl}${path}`;
 
       // Determine priority based on route importance (Google accepts 0.0 to 1.0)
@@ -54,7 +63,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Generate URLs for blog posts across all locales
   const blogUrls = locales.flatMap((locale) =>
     blogPosts.map((post) => {
-      const url = `${baseUrl}/${locale}/blog/${post.slug}`;
+      // For default locale (en), don't add locale prefix
+      const path = locale === defaultLocale ? `/blog/${post.slug}` : `/${locale}/blog/${post.slug}`;
+      const url = `${baseUrl}${path}`;
 
       // Use ISO 8601 format for blog post dates
       const postDate = post.publishedDate
