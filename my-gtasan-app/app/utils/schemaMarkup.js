@@ -228,6 +228,12 @@ export const generateReviewSchema = () => {
       name: 'GTA San Andreas MOD APK',
       applicationCategory: 'GameApplication',
       operatingSystem: 'Android',
+      offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock'
+      },
       aggregateRating: {
         '@type': 'AggregateRating',
         ratingValue: '4.8',
