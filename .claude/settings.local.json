@@ -76,7 +76,15 @@
       "Bash(cp:*)",
       "Bash(for file in \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\de.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\es.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\fr.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\it.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\ja.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\pt.json\" \"d:\\New folder\\Frontend Dev\\Next\\App\\my-gtasan-app\\messages\\ru.json\")",
       "Bash(do tail:*)",
-      "Bash(git diff:*)"
+      "Bash(git diff:*)",
+      "Bash(git stash:*)",
+      "Bash(node verify-sitemap-urls.js:*)",
+      "Bash(git checkout:*)",
+      "Bash(node:*)",
+      "Bash(wc:*)",
+      "Bash(du -h:*)",
+      "Bash(npx eslint:*)",
+      "Bash(tee:*)"
     ],
     "deny": [],
     "ask": []

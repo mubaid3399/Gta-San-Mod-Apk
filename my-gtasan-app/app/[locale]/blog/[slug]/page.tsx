@@ -4,8 +4,8 @@ import { notFound } from 'next/navigation';
 import BlogPostClient from './BlogPostClient';
 
 // This is a server component that generates metadata
-export async function generateMetadata({ params }: { params: { slug: string; locale: string } }): Promise<Metadata> {
-  const { slug } = params;
+export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }): Promise<Metadata> {
+  const { slug, locale } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
@@ -17,9 +17,9 @@ export async function generateMetadata({ params }: { params: { slug: string; loc
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
   // Don't include /en/ prefix for default English locale (localePrefix: 'as-needed')
-  const canonicalUrl = params.locale === 'en'
+  const canonicalUrl = locale === 'en'
     ? `${baseUrl}/blog/${slug}`
-    : `${baseUrl}/${params.locale}/blog/${slug}`;
+    : `${baseUrl}/${locale}/blog/${slug}`;
 
   return {
     title: `${post.title} | GTA San Andreas`,
@@ -115,8 +115,9 @@ export async function generateStaticParams() {
 }
 
 // Server component wrapper
-export default function BlogPostPage({ params }: { params: { slug: string; locale: string } }) {
-  const { slug } = params;
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
+  const resolvedParams = await params;
+  const { slug } = resolvedParams;
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
@@ -124,5 +125,5 @@ export default function BlogPostPage({ params }: { params: { slug: string; local
   }
 
   // Pass to client component
-  return <BlogPostClient params={params} />;
+  return <BlogPostClient params={resolvedParams} />;
 }

@@ -248,6 +248,7 @@ export default async function Contact({ params }) {
           </p>
         </div>
       </div>
+      </div>
     </>
   );
 }
