@@ -5,7 +5,7 @@ const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 const defaultLocale = 'en';
 
 // IMPORTANT: Only include pages that actually exist in app/[locale]/
-// These are the 18 pages currently created
+// These are the 19 pages currently created
 const staticRoutes = [
   '',
   '/about',
@@ -17,6 +17,7 @@ const staticRoutes = [
   '/faq',
   '/for-ios',
   '/for-pc',
+  '/gta-6',
   '/gta-cars',
   '/gta-cheats',
   '/gta-vice-city',
@@ -101,6 +102,7 @@ function getPriority(route: string, locale: string): number {
 
   // High-value content pages
   const highPriority = [
+    '/gta-6',
     '/for-ios',
     '/for-pc',
     '/gta-cheats',
