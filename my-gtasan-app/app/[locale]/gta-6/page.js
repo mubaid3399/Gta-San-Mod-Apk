@@ -13,9 +13,9 @@ export async function generateMetadata({ params }) {
     return acc;
   }, {});
 
-  const title = 'GTA 6 Release Date: November 19, 2026 - Complete Guide to Grand Theft Auto VI';
+  const title = 'GTA 6 Release Date: November 19, 2026 - Official Info';
   const description =
-    'GTA 6 officially launches November 19, 2026 for PS5 & Xbox Series X/S. Explore Vice City with Lucia & Jason, watch trailers (90M + 475M views), gameplay, map, characters & pre-order guide.';
+    'Complete guide to GTA 6 release date, features, characters, maps, platforms & more. Official November 19, 2026 launch info for PS5, Xbox & PC coming 2027. Trailers: 90M + 475M views.';
 
   return {
     title,

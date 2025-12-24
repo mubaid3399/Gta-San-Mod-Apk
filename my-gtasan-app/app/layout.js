@@ -133,7 +133,7 @@ export default async function RootLayout({ children, params }) {
           crossOrigin="anonymous"
         />
       </head>
-      <body className={`${poppins.variable} antialiased`} suppressHydrationWarning style={{ backgroundColor: '#030712' }}>
+      <body className={`${poppins.variable} antialiased`} suppressHydrationWarning>
         <ClientLayout>
           {children}
         </ClientLayout>
