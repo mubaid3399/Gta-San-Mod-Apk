@@ -22,6 +22,11 @@ export const metadata = {
   keywords: ["GTA San Andreas APK", "GTA San Andreas MOD APK", "GTA San Andreas Unlimited Money", "GTA San Andreas Free Download", "GTA San Andreas Mods", "GTA SA MOD APK 2025", "GTA San Andreas Android"],
   manifest: "/manifest.json",
   applicationName: "GTA San Apk",
+  verification: {
+    other: {
+      'msvalidate.01': '5968701CBC063CB9BF45E764B377610E',
+    },
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
