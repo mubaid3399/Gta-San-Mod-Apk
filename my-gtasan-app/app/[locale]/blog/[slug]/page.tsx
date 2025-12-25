@@ -4,8 +4,8 @@ import { notFound } from 'next/navigation';
 import BlogPostClient from './BlogPostClient';
 
 // This is a server component that generates metadata
-export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }): Promise<Metadata> {
-  const { slug, locale } = await params;
+export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale?: string }> }): Promise<Metadata> {
+  const { slug, locale = 'en' } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
@@ -103,15 +103,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 // Generate static params for all blog posts (for static generation)
-// Note: locale is handled by parent [locale] route, we only return slugs
+// We need to generate pages for all locale/slug combinations
 export async function generateStaticParams() {
+  // Note: We only return slugs here. The parent [locale] route handles locale generation.
+  // This function will be called for each locale automatically by Next.js.
   return blogPosts.map(post => ({
     slug: post.slug,
   }));
 }
 
 // Server component wrapper
-export default async function BlogPostPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string; locale?: string }> }) {
   const resolvedParams = await params;
   const { slug } = resolvedParams;
   const post = blogPosts.find((p) => p.slug === slug);
