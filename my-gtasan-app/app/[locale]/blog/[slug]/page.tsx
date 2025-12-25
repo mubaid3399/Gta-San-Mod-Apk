@@ -103,15 +103,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 // Generate static params for all blog posts (for static generation)
+// Note: locale is handled by parent [locale] route, we only return slugs
 export async function generateStaticParams() {
-  const locales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
-
-  return blogPosts.flatMap(post =>
-    locales.map(locale => ({
-      slug: post.slug,
-      locale: locale,
-    }))
-  );
+  return blogPosts.map(post => ({
+    slug: post.slug,
+  }));
 }
 
 // Server component wrapper
