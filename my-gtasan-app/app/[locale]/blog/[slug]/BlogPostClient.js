@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { blogPosts } from '../../../data/blogPosts';
 import { notFound } from 'next/navigation';
 import { generateArticleSchema, generateBreadcrumbSchema } from '../../../utils/schemaMarkup';
+import { parseContentWithLineBreaks } from '../../../utils/parseHtmlContent';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
@@ -187,11 +188,10 @@ export default function BlogPost({ params }) {
         <article className="prose prose-invert prose-lg max-w-none">
           {/* Introduction */}
           <div className="bg-gray-900/50 backdrop-blur border border-[#00ff87]/20 rounded-xl p-6 sm:p-8 mb-8">
-            <p className="text-gray-300 leading-relaxed whitespace-pre-line">
-              {renderTextWithLinks(post.content.introduction, localePrefix)}
-            </p>
+            <div className="text-gray-300 leading-relaxed">
+              {parseContentWithLineBreaks(post.content.introduction, localePrefix)}
+            </div>
           </div>
-
           {/* Sections */}
           {post.content.sections.map((section, index) => (
             <div
@@ -204,9 +204,9 @@ export default function BlogPost({ params }) {
               </h2>
 
               {section.content && (
-                <p className="text-gray-300 leading-relaxed mb-4 whitespace-pre-line">
-                  {section.content}
-                </p>
+                <div className="text-gray-300 leading-relaxed mb-4">
+                  {parseContentWithLineBreaks(section.content, localePrefix)}
+                </div>
               )}
 
               {/* Image */}
@@ -235,9 +235,9 @@ export default function BlogPost({ params }) {
               )}
 
               {section.afterList && (
-                <p className="text-gray-300 leading-relaxed mt-4">
-                  {section.afterList}
-                </p>
+                <div className="text-gray-300 leading-relaxed mt-4">
+                  {parseContentWithLineBreaks(section.afterList, localePrefix)}
+                </div>
               )}
 
               {/* Features */}
@@ -260,9 +260,9 @@ export default function BlogPost({ params }) {
               )}
 
               {section.afterFeatures && (
-                <p className="text-gray-300 leading-relaxed mt-4">
-                  {section.afterFeatures}
-                </p>
+                <div className="text-gray-300 leading-relaxed mt-4">
+                  {parseContentWithLineBreaks(section.afterFeatures, localePrefix)}
+                </div>
               )}
 
               {/* Pricing */}
@@ -282,9 +282,9 @@ export default function BlogPost({ params }) {
               )}
 
               {section.afterPricing && (
-                <p className="text-gray-300 leading-relaxed mt-4 italic">
-                  {section.afterPricing}
-                </p>
+                <div className="text-gray-300 leading-relaxed mt-4 italic">
+                  {parseContentWithLineBreaks(section.afterPricing, localePrefix)}
+                </div>
               )}
 
               {/* System Requirements */}
