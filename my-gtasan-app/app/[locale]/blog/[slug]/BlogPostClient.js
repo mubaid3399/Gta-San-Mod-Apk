@@ -1,6 +1,5 @@
 'use client';
 
-import { use } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -80,7 +79,8 @@ const renderTextWithLinks = (text, localePrefix) => {
 
 export default function BlogPost({ params }) {
   const pathname = usePathname();
-  const { slug } = use(params);
+  // params is already resolved by the server component, no need for use()
+  const { slug } = params;
 
   const post = blogPosts.find((p) => p.slug === slug);
 
