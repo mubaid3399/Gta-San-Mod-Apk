@@ -2,6 +2,14 @@ import GTA6Content from './GTA6Content';
 
 const supportedLocales = ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ja'];
 
+export async function generateStaticParams() {
+  return supportedLocales.map((locale) => ({
+    locale,
+  }));
+}
+
+export const revalidate = 3600; // Revalidate every hour
+
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://gtasanandreas.info';
