@@ -84,7 +84,9 @@
       "Bash(wc:*)",
       "Bash(du -h:*)",
       "Bash(npx eslint:*)",
-      "Bash(tee:*)"
+      "Bash(tee:*)",
+      "Bash(timeout 5 curl:*)",
+      "Bash(bash:*)"
     ],
     "deny": [],
     "ask": []
